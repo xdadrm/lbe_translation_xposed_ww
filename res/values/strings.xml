@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">LBE Security Master Translator</string>
+	
+	
+	<string name="HIPS_Perm_VideoRecorder">Pictures and Video</string>
+    <string name="HIPS_Perm_VideoRecorder_Desc">May take Pictures and Video</string>
+    <string name="HIPS_Perm_VideoRecorder_Hint">%1$s may take Pictures and record Video</string>
+    <string name="HIPS_Perm_Recorder_AudioVideo">Record Audio and Video</string>
+    <string name="HIPS_Perm_Recorder_Video">Record Videoo</string>
+    <string name="HIPS_Perm_Recorder_Audio">Record Audio</string>
+    
+    <string name="private_netword_not_connected">Download the updated privacy space to use this feature </string>
+    <string name="phone_restore_fail_message">Confirm whether there are other applications, blocking SMS or SMS records!</string>
+    <string name="phone_restore_fail_title">Restore failed!</string>
+    <string name="Home_Sepcial_Thanks_Title">Special Thanks</string>
+    <string name="boot_time_notification">Boottime is %1$s seconds</string>
+</resources>

@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="addblacktype">
+        <item>Dodaj z kontaktów</item>
+        <item>Dodaj z rejestru połączeń</item>
+        <item>Dodaj z listy SMS</item>
+        <item>Dodaj ręcznie</item>
+        <item>Dodaj z regionów (tylko Chiny)</item>
+        <item>Dodaj przez tagi</item>
+    </string-array>
+    <string-array name="addwhitetype">
+        <item>Dodaj z kontaktów</item>
+        <item>Dodaj z rejestru połączeń</item>
+        <item>Dodaj z listy SMS</item>
+        <item>Dodaj z regionów (tylko Chiny)</item>
+        <item>Dodaj przez tagi</item>
+    </string-array>
+    <string-array name="addnouseiptype">
+        <item>Dodaj z kontaktów</item>
+        <item>Dodaj z rejestru połączeń</item>
+        <item>Dodaj z listy SMS</item>
+        <item>Dodaj ręcznie</item>
+    </string-array>
+    <string-array name="select_sim">
+        <item>Z SIM1</item>
+        <item>Z SIM2</item>
+    </string-array>
+    <string-array name="stopmsgtype_options">
+        <item>Inteligentny tryb blokowania</item>
+        <item>Blokuj tylko Czarną listę</item>
+        <item>Odbieraj tylko z Białej listy</item>
+        <item>Blokuj wszystko</item>
+        <item>Odbieraj od wszystkich</item>
+        <item>Odbieraj tylko z kontaktów</item>
+        <item>Tryb własny</item>
+    </string-array>
+    <string-array name="endcalltype">
+        <item>Wyłączony</item>
+        <item>Nie istnieje</item>
+        <item>Poza zasięgiem</item>
+        <item>Zajęty</item>
+    </string-array>
+    <string-array name="stopcalltype_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="trafficBillingDay">
+        <item>1go każdego miesiąca</item>
+        <item>2go każdego miesiąca</item>
+        <item>3go każdego miesiąca</item>
+        <item>4go każdego miesiąca</item>
+        <item>5go każdego miesiąca</item>
+        <item>6go każdego miesiąca</item>
+        <item>7go każdego miesiąca</item>
+        <item>8go każdego miesiąca</item>
+        <item>9go każdego miesiąca</item>
+        <item>10go każdego miesiąca</item>
+        <item>11go każdego miesiąca</item>
+        <item>12go każdego miesiąca</item>
+        <item>13go każdego miesiąca</item>
+        <item>14go każdego miesiąca</item>
+        <item>15go każdego miesiąca</item>
+        <item>16go każdego miesiąca</item>
+        <item>17go każdego miesiąca</item>
+        <item>18go każdego miesiąca</item>
+        <item>19go każdego miesiąca</item>
+        <item>20go każdego miesiąca</item>
+        <item>21go każdego miesiąca</item>
+        <item>22go każdego miesiąca</item>
+        <item>23go każdego miesiąca</item>
+        <item>24go każdego miesiąca</item>
+        <item>25go każdego miesiąca</item>
+        <item>26go każdego miesiąca</item>
+        <item>27go każdego miesiąca</item>
+        <item>28go każdego miesiąca</item>
+        <item>29go każdego miesiąca</item>
+        <item>30go każdego miesiąca</item>
+        <item>31go każdego miesiąca</item>
+    </string-array>
+    <string-array name="trafficBillingDay_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="msglog_oparete">
+        <item>Odpowiedz SMSem</item>
+        <item>Zadzwoń na ten numer</item>
+        <item>Dodaj do Białej listy</item>
+        <item>Dodaj do Czarnej listy</item>
+        <item>Raport</item>
+    </string-array>
+    <string-array name="calllog_oparete">
+        <item>Usuń</item>
+        <item>Odpowiedz SMSem</item>
+        <item>Zadzwoń na ten numer</item>
+        <item>Ddodaj do Białej listy</item>
+        <item>Dodaj do Czarnej listy</item>
+        <item>Przywróć do rejestru połączeń</item>
+    </string-array>
+    <string-array name="preference_stopcalltype_options">
+        <item>Tryb ciszy nocnej wyłączony</item>
+        <item>Blokuj tylko z Czarnej listy</item>
+        <item>Odbieraj tylko z Białej listy</item>
+        <item>Blokuj wszystkich</item>
+        <item>Odbieraj od wszystkich</item>
+        <item>Odbieraj z Białej listy i kontaktów</item>
+    </string-array>
+    <string-array name="preference_stopcalltype_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="user_defined">
+        <item>Biała lista</item>
+        <item>Czarna lista</item>
+        <item>Kontakty</item>
+        <item>Niedawno kontaktujące się</item>
+        <item>Słowa kluczowe</item>
+        <item>Inteligentne blokowanie</item>
+    </string-array>
+    <string-array name="user_phone_defined">
+        <item>Biała lista</item>
+        <item>Czarna lista</item>
+        <item>Kontakty</item>
+        <item>Niedawno kontaktujące się</item>
+    </string-array>
+    <string-array name="select_allow">
+        <item>Odbierz</item>
+        <item>Ignoruj</item>
+    </string-array>
+    <string-array name="select_reject">
+        <item>Blokuj</item>
+        <item>Ignoruj</item>
+    </string-array>
+    <string-array name="traffic_refresh">
+        <item>Wysokie</item>
+        <item>Średnie</item>
+        <item>Niskie</item>
+    </string-array>
+    <string-array name="traffic_refresh_values">
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+    </string-array>
+    <string-array name="traffic_autodim">
+        <item>10 sekund</item>
+        <item>15 sekund</item>
+        <item>20 sekund</item>
+        <item>Zawsze wyświetlane</item>
+    </string-array>
+    <string-array name="traffic_autodim_values">
+        <item>10000</item>
+        <item>15000</item>
+        <item>20000</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="location_bg">
+        <item>Piękny</item>
+        <item>Nowy i fajny</item>
+        <item>Zwięzły</item>
+    </string-array>
+    <string-array name="location_bg_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="flowwindow_style">
+        <item>Standard</item>
+        <item>Nowe</item>
+    </string-array>
+    <string-array name="flowwindow_style_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="notify_hips_event">
+        <item>Powiadamiaj o wszystkich żądaniach</item>
+        <item>Powiadamiaj tylko o zablokowanych żądaniach</item>
+        <item>Nie powiadamiaj o żadnych żądaniach</item>
+    </string-array>
+    <string-array name="notify_hips_event_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="record_telephony_event">
+        <item>Rejestruj wszystkie aplikacje</item>
+        <item>Rejestruj tylko niezaufane aplikacje</item>
+    </string-array>
+    <string-array name="record_telephony_event_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="auto_ip_callist">
+        <item>Dzwoń poza województwem</item>
+        <item>Dzwoń poza miastem</item>
+        <item>Dzwoń na wprowadzone numery</item>
+    </string-array>
+    <string-array name="auto_ip_callist_value">
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="virus_antivirus_antilib">
+        <item>Virus|Kategoria: Wirus</item>
+        <item>Worm|Kategoria: Robak</item>
+        <item>Trojan|Kategoria: Trojan</item>
+        <item>G-Ware|Kategoria: Fałszywe oprogramowanie</item>
+        <item>AdWare|Kategoria: Adware</item>
+        <item>RiskWare|Kategoria: Fałszywe oprogramowanie</item>
+        <item>Tool|Kategoria: Ryzykowne narzędzie</item>
+        <item>"prv|Kradzież prywatności
+Wyciek prywatnych danych użytkownika"</item>
+        <item>"rmt|Zdalny dostęp
+Sterowanie urządzeniem poprzez zdalne serwery"</item>
+        <item>"pay|Złośliwe automatyczne subskrypcje
+Mogą powodować obciążenia"</item>
+        <item>"spr|Złośliwe rozprzestrzenianie
+Automatyczne rozprzestrzenianie złośliwych kodów"</item>
+        <item>"exp|Koszta
+Ruch danych komórk. i wysyłanie SMS
+powodując dodatkowe koszta"</item>
+        <item>"sys|Uszkodzenie systemu
+Niektóre uszkodzenia systemu
+wpływają na stabilność
+oraz obniżają bezpieczeństwo"</item>
+        <item>"fra|Wabiące oszustwa
+Fałszywe SMSy
+Blokujące SMSy"</item>
+        <item>"rog|Nieuczciwe zachowania
+Złośliwe obciążanie systemu
+okienka reklamowe, ipt."</item>
+        <item>sms|Złośliwe zachowanie przy wysyłaniu wiadomości SMS</item>
+        <item>spy|Szkodliwy spy-ware</item>
+        <item>bkd|Szkodliwy backdor</item>
+        <item>rtt|Złośliwe informacje o zachowaniu</item>
+        <item>"gen|Heurystyka i zasady o szerokim spektrum wykrywania 
+ Możliwe fałszywe alarmy"</item>
+        <item>ads|Zawiera adware</item>
+        <item>default|Nieznane zagrożenie</item>
+    </string-array>
+    <string-array name="traffic_cell_type">
+        <item>Sortuj wg ruchu w tym miesiącu</item>
+        <item>Sortuj wg ruchu dziś</item>
+        <item>Sortuj wg nazwy aplikacji</item>
+    </string-array>
+    <string-array name="calibration_period">
+        <item>Co 3 dni</item>
+        <item>Co tydzień</item>
+        <item>Codziennie</item>
+        <item>Ręcznie</item>
+    </string-array>
+    <string-array name="showpowerquantitylower">
+        <item>10%</item>
+        <item>20%</item>
+        <item>30%</item>
+        <item>40%</item>
+        <item>50%</item>
+    </string-array>
+    <string-array name="auto_update_period">
+        <item>nigdy</item>
+        <item>codziennie</item>
+        <item>co 2 dni</item>
+        <item>co 3 dni</item>
+        <item>co 4 dni</item>
+        <item>co 5 dni</item>
+        <item>co 6 dni</item>
+        <item>co 7 dni</item>
+    </string-array>
+    <string-array name="auto_update_period_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="hips_batch_operation">
+        <item>Zawsze zezwalaj</item>
+        <item>Zawsze pytaj</item>
+        <item>Zawsze blokuj</item>
+    </string-array>
+    <string-array name="hips_batch_operation_ar">
+        <item>Zawsze zezwalaj</item>
+        <item>Zawsze blokuj</item>
+    </string-array>
+    <string-array name="defaultfilesuffix">
+        <item>epub</item>
+        <item>chm</item>
+        <item>ndk</item>
+        <item>umd</item>
+        <item>pdf</item>
+    </string-array>
+    <string-array name="filesuffix">
+        <item>avi</item>
+        <item>wmv</item>
+        <item>flv</item>
+        <item>mov</item>
+        <item>3gp</item>
+        <item>mp4</item>
+        <item>mpg</item>
+        <item>rmvb</item>
+        <item>mp3</item>
+        <item>wav</item>
+        <item>wma</item>
+        <item>mid</item>
+        <item>flac</item>
+        <item>lrc</item>
+        <item>m4a</item>
+        <item>krc</item>
+        <item>apk</item>
+        <item>f4v</item>
+        <item>dat</item>
+        <item>tsk</item>
+        <item>db3</item>
+    </string-array>
+    <integer-array name="filesuffix_id">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+        <item>32</item>
+        <item>64</item>
+        <item>128</item>
+        <item>256</item>
+        <item>512</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>4096</item>
+        <item>8192</item>
+        <item>16384</item>
+        <item>32768</item>
+        <item>65536</item>
+        <item>131072</item>
+        <item>262144</item>
+        <item>524288</item>
+        <item>1048576</item>
+    </integer-array>
+    <string-array name="misscalltype">
+        <item>Dzwonek i wibracja</item>
+        <item>Dzwonek</item>
+        <item>Wibracja</item>
+    </string-array>
+    <string-array name="misscalltype_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="miss_alert_time">
+        <item>Co 5 minut</item>
+        <item>Co 10 minut</item>
+        <item>Co 20 minut</item>
+    </string-array>
+    <string-array name="miss_alert_time_value">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="desktop_home_launch_mode">
+        <item>1Klik Home</item>
+        <item>2Klik Home</item>
+    </string-array>
+    <string-array name="lbe_shortcut_start_mode">
+        <item>Pasek powiadomień</item>
+        <item>Skrót na pulpicie</item>
+    </string-array>
+    <string-array name="blocklog_save_time">
+        <item>Tydzień</item>
+        <item>Miesiąc</item>
+        <item>Zawsze</item>
+    </string-array>
+    <string-array name="blocklog_save_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="phone_marker_operator">
+        <item>Przenieś do innego znacznika</item>
+        <item>Usuń z tego znacznika</item>
+        <item>Dodaj do czarnej listy</item>
+    </string-array>
+    <string-array name="private_contact_operator">
+        <item>Dzwoń</item>
+        <item>Wyślij SMSa</item>
+        <item>Edytuj</item>
+        <item>Usuń</item>
+    </string-array>
+    <string-array name="private_call_operator">
+        <item>Wyślij SMSa</item>
+        <item>Usuń</item>
+        <item>Przywróć do systemu</item>
+    </string-array>
+    <string-array name="private_message_operator">
+        <item>Zadzwoń</item>
+        <item>Usuń</item>
+        <item>Przywróć do systemu</item>
+    </string-array>
+    <string-array name="private_message_dialog_operator">
+        <item>Usuń tego SMSa</item>
+        <item>Przywróć do skrzynki odbiorczej</item>
+    </string-array>
+    <string-array name="phone_block_type">
+        <item>Połączenia i SMSy</item>
+        <item>Połączenia</item>
+        <item>SMS</item>
+    </string-array>
+    <string-array name="battery_scene_killtask_interval_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="anti_adware_user_feedback_type">
+        <item>Blokowanie reklam nie powiodło się.</item>
+        <item>Brak reklam w tej aplikacji.</item>
+        <item>Aplikacja działa źle po blokadzie reklam.</item>
+        <item>Brak \"Zamknij\" na banerze.</item>
+        <item>Anuluj</item>
+    </string-array>
+    <string-array name="desktop_float_toggles_labels">
+        <item>T.samolot.</item>
+        <item>Bluetooth</item>
+        <item>Jasność</item>
+        <item>Haptic</item>
+        <item>Synch</item>
+        <item>WIFI</item>
+        <item>GPS</item>
+        <item>Dane</item>
+        <item>Obrót</item>
+    </string-array>
+    <string-array name="homepage_more_options_labels">
+        <item>Antywirus</item>
+        <item>Uprawnienia</item>
+        <item>Powiadom.</item>
+        <item>Prywatne</item>
+        <item>Pry.Komu.</item>
+        <item>Anti-Theft</item>
+        <item>Narz.Komu.</item>
+        <item>Kopia</item>
+    </string-array>
+    <string-array name="home_settings_labels">
+        <item>Sposoby uruchomienia</item>
+        <item>Dodaj \"Oczyść\" na pulpit</item>
+        <item>Biała lista</item>
+        <item>Ochrona hasłem</item>
+        <item>Opcje LBE</item>
+    </string-array>
+    <string-array name="home_about_labels">
+        <item>Aktualizacja</item>
+        <item>Opinie</item>
+        <item>Oceń</item>
+        <item>Podziel się</item>
+        <item>O LBE po polsku</item>
+        <item>Podziękowania</item>
+    </string-array>
+    <string-array name="sdapk_sortypes">
+        <item>Wg nazwy</item>
+        <item>Wg rozmiaru</item>
+        <item>Chronologicznie</item>
+    </string-array>
+    <string-array name="sdapk_types">
+        <item>Wszystkie</item>
+        <item>Nowsze</item>
+        <item>Starsze</item>
+        <item>Zainstalowane</item>
+        <item>Nie zainstalowane</item>
+        <item>Niezgodnie podpisane</item>
+        <item>Duplikaty</item>
+    </string-array>
+    <string-array name="sdapk_status">
+        <item>Na SD brak aplikacji</item>
+        <item>Na SD brak nowszych wersji</item>
+        <item>Na SD brak starszych wersji</item>
+        <item>Na SD brak pakietów instalcyjnych</item>
+        <item>Brak karty SD i brak zainstalowanych pakietów</item>
+        <item>Brak aplikacji z niezgodnym podpisem na karcie SD</item>
+        <item>Brak duplikatów na karcie SD</item>
+    </string-array>
+    <string-array name="task_sortypes">
+        <item>Sortuj według nazwy</item>
+        <item>Sortuj według zużycia pamięci</item>
+        <item>Sortuj według użycia procesora</item>
+    </string-array>
+    <string-array name="hipsapk_sortypes">
+        <item>Sortuj według nazwy</item>
+        <item>Sortuj według liczby uprawnień</item>
+        <item>Sortuj według daty</item>
+    </string-array>
+    <string-array name="hipsapk_types">
+        <item>Monitorowane</item>
+        <item>Zaufane</item>
+    </string-array>
+    <string-array name="scan_item_type">
+        <item>Obsługa automatyczna</item>
+        <item>Obsługa ręczna</item>
+        <item>Bezpieczeństwo</item>
+    </string-array>
+    <string-array name="toggles_add_options">
+        <item>Szybke przełączniki</item>
+        <item>Aplikacje</item>
+        <item>Elementy funkcjonalne LBE</item>
+    </string-array>
+    <string-array name="questions">
+        <item>Najlepszy przyjaciel</item>
+        <item>Ulubione osoby</item>
+        <item>Urodziny ojca</item>
+        <item>Urodziny matki</item>
+        <item>Nazwisko żony</item>
+        <item>Ulubiona szkoła</item>
+        <item>Ulubiona powieść</item>
+        <item>Ulubiony film</item>
+        <item>Ulubione anime</item>
+        <item>Ulubiony sport</item>
+        <item>Ulubiony aktor</item>
+        <item>Ulubiony piosenkarz</item>
+    </string-array>
+    <string-array name="unlock_types">
+        <item>Graficzne odblokowanie</item>
+        <item>Hasło</item>
+    </string-array>
+    <string-array name="traffic_mobile_graph_wave_colors">
+        <item>\#605fcaff</item>
+        <item>\#8026acee</item>
+    </string-array>
+    <string-array name="traffic_mobile_graph_warn_colors">
+        <item>\#70fe7e71</item>
+        <item>\#80db2c1b</item>
+    </string-array>
+    <string-array name="hardware_basic_info">
+        <item>1 Marka</item>
+        <item>2 Model</item>
+        <item>3 Android</item>
+        <item>4 Główna kamera</item>
+        <item>5 Kamera przednia</item>
+        <item>6 IMEI</item>
+        <item>7 RAM</item>
+        <item>8 Pamięć wewnętrzna</item>
+        <item>9 Wewnętrzna pamięć SD</item>
+        <item>A Waga</item>
+    </string-array>
+    <string-array name="hardware_cpu_info">
+        <item>1 Typ</item>
+        <item>2 Rdzenie</item>
+        <item>3 Taktowanie</item>
+    </string-array>
+    <string-array name="hardware_screen_info">
+        <item>1 Renderer GPU</item>
+        <item>2 Dostawca GPU</item>
+        <item>3 Wersja GPU</item>
+        <item>4 Rozdzielczość</item>
+        <item>5 Wielkość (cale)</item>
+        <item>6 Typ</item>
+        <item>7 Gęstość pikseli</item>
+        <item>8 Multi-touch</item>
+    </string-array>
+    <string-array name="hardware_network_info">
+        <item>1 Typ sieci</item>
+        <item>2 WiFi</item>
+        <item>3 GPS</item>
+        <item>4 Bluetooth</item>
+    </string-array>
+    <string-array name="hardware_sensor_name">
+        <item>Akcelerometr</item>
+        <item>Czujnik geomagnetyczny</item>
+        <item>Czujnik orientacji</item>
+        <item>Żyroskop</item>
+        <item>Czujnik światła</item>
+        <item>Barometr</item>
+        <item>Czujnik temperatury</item>
+        <item>Czujnik zbliżeniowy</item>
+        <item>Czujnik grawitacji</item>
+        <item>Czujnik przyspieszenia liniowego</item>
+        <item>Czujnik kąta obrotu</item>
+        <item>Czujnik wilgotności</item>
+        <item>Czujnik temperatury otoczenia</item>
+    </string-array>
+    <string-array name="hardware_rank">
+        <item>Pozycja modelu</item>
+        <item>Odsetek pokonanych modeli</item>
+    </string-array>
+    <string-array name="hardware_antutu_keys">
+        <item>Główny aparat</item>
+        <item>Kamera przednia</item>
+        <item>Przekątna ekranu</item>
+        <item>Materiał</item>
+    </string-array>
+    <string-array name="app_install_manage_mode_title">
+        <item>Umożliwiaj automatyczne instalacje</item>
+        <item>Zapytaj</item>
+        <item>Blokuj automatyczne instalacje</item>
+    </string-array>
+    <string-array name="app_install_manage_mode_desc">
+        <item>Automatyczna instalacja apk.</item>
+        <item>Okna dialogowe, potwierdzanie ręczne</item>
+        <item>Wyłączenie automatycznej instalacji</item>
+    </string-array>
+    <string-array name="special_thanks_list">
+        <item>Dziękujemy całej chińskiej ekipie LBE</item>
+        <item>za ciekawą aplikację.</item>
+        <item></item>
+        <item>Praca nad wersją polską:</item>
+        <item>Slupek i Renegade</item>
+        <item>- Amnezja Team</item>
+    </string-array>
+</resources>

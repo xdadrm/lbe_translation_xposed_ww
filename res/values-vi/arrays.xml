@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="addblacktype">
+        <item>Thêm từ Danh bạ</item>
+        <item>Thêm từ Lịch sử cuộc gọi</item>
+        <item>Thêm từ tin nhắn</item>
+        <item>Nhập thủ công</item>
+        <item>Bổ sung theo nhóm</item>
+        <item>Từ các ký tự</item>
+    </string-array>
+    <string-array name="addwhitetype">
+        <item>Thêm từ Danh bạ</item>
+        <item>Thêm từ Lịch sử cuộc gọi</item>
+        <item>Thêm từ tin nhắn</item>
+        <item>Nhập thủ công</item>
+        <item>Bổ sung theo nhóm</item>
+    </string-array>
+    <string-array name="addnouseiptype">
+        <item>Thêm từ Danh bạ</item>
+        <item>Thêm từ Lịch sử cuộc gọi</item>
+        <item>Thêm từ tin nhắn</item>
+        <item>Nhập thủ công</item>
+    </string-array>
+    <string-array name="select_sim">
+        <item>Từ thẻ SIM 1</item>
+        <item>Từ thẻ SIM 2</item>
+    </string-array>
+    <string-array name="stopmsgtype_options">
+        <item>Chế độ chặn thông minh</item>
+        <item>Chỉ chặn Black list</item>
+        <item>Chỉ nhận White list</item>
+        <item>Chặn tất cả</item>
+        <item>Chấp nhận tất cả</item>
+        <item>Chỉ chấp nhận các số trong danh bạ</item>
+        <item>Chế độ tùy chỉnh</item>
+    </string-array>
+    <string-array name="endcalltype">
+        <item>Máy bận</item>
+        <item>Số không liên lạc được</item>
+        <item>Dừng cuộc gọi</item>
+        <item>Ngắt cuộc gọi</item>
+    </string-array>
+    <string-array name="stopcalltype_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="trafficBillingDay">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="trafficBillingDay_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="msglog_oparete">
+        <item>Gửi trả lời</item>
+        <item>Gọi lại</item>
+        <item>Thêm vào White list</item>
+        <item>Thêm vào Black list</item>
+        <item>Báo cáo</item>
+    </string-array>
+    <string-array name="calllog_oparete">
+        <item>Xóa</item>
+        <item>Trả lời tin nhắn SMS</item>
+        <item>Gọi lại</item>
+        <item>Thêm vào White list</item>
+        <item>Thêm vào Black list</item>
+        <item>Khôi phục lại lịch sử cuộc gọi hệ thống</item>
+    </string-array>
+    <string-array name="preference_stopcalltype_options">
+        <item>Chế độ ban đêm tránh làm phiền</item>
+        <item>Chỉ chặn Black list</item>
+        <item>Chỉ nhận White list</item>
+        <item>Chặn tất cả</item>
+        <item>Chấp nhận tất cả</item>
+        <item>Chỉ nhận được White list và danh bạ</item>
+    </string-array>
+    <string-array name="preference_stopcalltype_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="user_defined">
+        <item>White list</item>
+        <item>Black list</item>
+        <item>Danh bạ</item>
+        <item>Liên lạc gần đây</item>
+        <item>Từ khóa</item>
+        <item>Nhóm thông minh</item>
+    </string-array>
+    <string-array name="user_phone_defined">
+        <item>White list</item>
+        <item>Black list</item>
+        <item>Danh bạ</item>
+        <item>Liên lạc gần đây</item>
+    </string-array>
+    <string-array name="select_allow">
+        <item>Nhận</item>
+        <item>Bỏ qua</item>
+    </string-array>
+    <string-array name="select_reject">
+        <item>Chặn</item>
+        <item>Bỏ qua</item>
+    </string-array>
+    <string-array name="traffic_refresh">
+        <item>Nhanh</item>
+        <item>Vừa</item>
+        <item>Chậm</item>
+    </string-array>
+    <string-array name="traffic_refresh_values">
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+    </string-array>
+    <string-array name="traffic_autodim">
+        <item>10 giây</item>
+        <item>15 giây</item>
+        <item>20 giây</item>
+        <item>luôn luôn hiển thị</item>
+    </string-array>
+    <string-array name="traffic_autodim_values">
+        <item>10000</item>
+        <item>15000</item>
+        <item>20000</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="location_bg">
+        <item>Tuyệt đẹp</item>
+        <item>Làm mới</item>
+        <item>Ngắn gọn</item>
+    </string-array>
+    <string-array name="location_bg_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="flowwindow_style">
+        <item>Tiêu chuẩn</item>
+        <item>Tươi mới</item>
+    </string-array>
+    <string-array name="flowwindow_style_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="notify_hips_event">
+        <item>Tất cả các yêu cầu</item>
+        <item>Chỉ nhắc nhở yêu cầu từ chối</item>
+        <item>Không nhắc yêu cầu được cho phép</item>
+    </string-array>
+    <string-array name="notify_hips_event_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="record_telephony_event">
+        <item>Ghi lại tất cả các phần mềm</item>
+        <item>Chỉ ghi lại phần mềm không tin cậy</item>
+    </string-array>
+    <string-array name="record_telephony_event_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="auto_ip_callist">
+        <item>Quay số từ các tỉnh khác</item>
+        <item>Gọi số điện thoại bên ngoài thành phố</item>
+        <item>Khi tất cả các số đã gọi</item>
+    </string-array>
+    <string-array name="auto_ip_callist_value">
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="virus_antivirus_antilib">
+        <item>Virus|Nhóm: Virus</item>
+        <item>Worm|Nhóm: Worm</item>
+        <item>Trojan|Nhóm: Trojan</item>
+        <item>G-Ware|Nhóm: G-Ware</item>
+        <item>AdWare|Nhóm: AdWare</item>
+        <item>RiskWare|Nhóm: RiskWare</item>
+        <item>Tool|Nhóm: Tool</item>
+        <item>"prv|Đánh cắp thông tin
+Tiết lộ thông tin cá nhân của người sử dụng"</item>
+        <item>"rmt|điều khiển từ xa
+Điều khiển điện thoại từ xa"</item>
+        <item>"pay|Mất phí
+Dịch vụ đăng ký tự động dẫn đến mất tiền trong tài khoản"</item>
+        <item>"spr|lây lan độc hại
+Gia tăng của các mã độc hại tự động"</item>
+        <item>"exp|Tiêu hao lưu lượng
+Tự động kết nối mạng thường xuyên hoặc tin nhắn MMS
+Tiêu thụ mất lưu lượng"</item>
+        <item>"sys|xóa hệ thống
+Một số thiệt hại cho hệ thống
+Ảnh hưởng đến sự ổn định hệ thống
+Làm giảm an ninh hệ thống"</item>
+        <item>"fra|lừa đảo
+tin nhắn SMS giả mạo
+chặn tin nhắn SMS gửi đến"</item>
+        <item>"rog|Độc hại
+Độc chiếm tài nguyên hệ thống
+Quảng cáo pop-up và quấy rối khác"</item>
+        <item>sms|SMS nguy hiểm</item>
+        <item>spy|phần mềm gián điệp</item>
+        <item>bkd|có hành vi độc hại</item>
+        <item>rtt|hành vi điều khiển tự động</item>
+        <item>"gen|Phát hiện một số hành động mở rộng
+Có thể phát hiện là virus"</item>
+        <item>ads|Chứa quảng cáo</item>
+        <item>default|Mối nguy hiểm khác</item>
+    </string-array>
+    <string-array name="traffic_cell_type">
+        <item>Sắp xếp theo lưu lượng hàng tháng</item>
+        <item>Sắp xếp theo lưu lượng hàng ngày</item>
+        <item>Sắp xếp theo tên phần mềm</item>
+    </string-array>
+    <string-array name="calibration_period">
+        <item>Cứ ba ngày</item>
+        <item>Hàng tuần</item>
+        <item>Mỗi ngày</item>
+        <item>Hiệu chỉnh thủ công</item>
+    </string-array>
+    <string-array name="showpowerquantitylower">
+        <item>10%</item>
+        <item>20%</item>
+        <item>30%</item>
+        <item>40%</item>
+        <item>50%</item>
+    </string-array>
+    <string-array name="auto_update_period">
+        <item>Đóng</item>
+        <item>Mỗi một ngày</item>
+        <item>Mỗi hai ngày</item>
+        <item>Mỗi ba ngày</item>
+        <item>Mỗi bốn ngày</item>
+        <item>Mỗi năm ngày</item>
+        <item>Mỗi sáu ngày</item>
+        <item>Mỗi bảy ngày</item>
+    </string-array>
+    <string-array name="auto_update_period_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="hips_batch_operation">
+        <item>Cho phép tất cả</item>
+        <item>Tất cả phải hỏi</item>
+        <item>Từ chối tất cả</item>
+    </string-array>
+    <string-array name="hips_batch_operation_ar">
+        <item>Cho phép tất cả</item>
+        <item>Từ chối tất cả</item>
+    </string-array>
+    <string-array name="defaultfilesuffix">
+        <item>epub</item>
+        <item>chm</item>
+        <item>ndk</item>
+        <item>umd</item>
+        <item>pdf</item>
+    </string-array>
+    <string-array name="filesuffix">
+        <item>avi</item>
+        <item>wmv</item>
+        <item>flv</item>
+        <item>mov</item>
+        <item>3gp</item>
+        <item>mp4</item>
+        <item>mpg</item>
+        <item>rmvb</item>
+        <item>mp3</item>
+        <item>wav</item>
+        <item>wma</item>
+        <item>giữa</item>
+        <item>flac</item>
+        <item>lrc</item>
+        <item>m4a</item>
+        <item>KRC</item>
+        <item>apk</item>
+        <item>f4v</item>
+        <item>dat</item>
+        <item>tsk</item>
+        <item>DB3</item>
+    </string-array>
+    <integer-array name="filesuffix_id">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+        <item>32</item>
+        <item>64</item>
+        <item>128</item>
+        <item>256</item>
+        <item>512</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>4096</item>
+        <item>8192</item>
+        <item>16384</item>
+        <item>32768</item>
+        <item>65536</item>
+        <item>131072</item>
+        <item>262144</item>
+        <item>524288</item>
+        <item>1048576</item>
+    </integer-array>
+    <string-array name="misscalltype">
+        <item>Chuông và rung</item>
+        <item>Chỉ chuông</item>
+        <item>Chỉ rung</item>
+    </string-array>
+    <string-array name="misscalltype_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="miss_alert_time">
+        <item>Mỗi 5 phút</item>
+        <item>Mỗi 10 phút</item>
+        <item>Mỗi 20 phút</item>
+    </string-array>
+    <string-array name="miss_alert_time_value">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="desktop_home_launch_mode">
+        <item>Nhấp vào nút Home</item>
+        <item>Nhấp đúp vào nút Home</item>
+    </string-array>
+    <string-array name="lbe_shortcut_start_mode">
+        <item>Nút home</item>
+        <item>Phím tắt màn hình chính</item>
+    </string-array>
+    <string-array name="blocklog_save_time">
+        <item>Một tuần</item>
+        <item>Một tháng</item>
+        <item>Lưu vĩnh viễn</item>
+    </string-array>
+    <string-array name="blocklog_save_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="phone_marker_operator">
+        <item>Chuyển sang phân loại khác</item>
+        <item>Xóa từ phân loại</item>
+        <item>Thêm vào Black list</item>
+    </string-array>
+    <string-array name="private_contact_operator">
+        <item>Gọi</item>
+        <item>Nhắn tin</item>
+        <item>chỉnh sửa</item>
+        <item>xóa</item>
+    </string-array>
+    <string-array name="private_call_operator">
+        <item>Nhắn tin</item>
+        <item>xóa</item>
+        <item>Khôi phục lại điện thoại</item>
+    </string-array>
+    <string-array name="private_message_operator">
+        <item>Gọi</item>
+        <item>Loại bỏ</item>
+        <item>Khôi phục lại điện thoại</item>
+    </string-array>
+    <string-array name="private_message_dialog_operator">
+        <item>Xóa tin nhắn này</item>
+        <item>Khôi phục lại điện thoại</item>
+    </string-array>
+    <string-array name="phone_block_type">
+        <item>Cuộc gọi và tin nhắn SMS</item>
+        <item>Cuộc gọi</item>
+        <item>Tin nhắn SMS</item>
+    </string-array>
+    <string-array name="battery_scene_killtask_interval_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="anti_adware_user_feedback_type">
+        <item>Chặn quảng cáo lỗi</item>
+        <item>Phần mềm quảng cáo của phần mềm chính</item>
+        <item>Sau khi chặn quảng cáo tự khôi phục</item>
+        <item>Không thể được hiển thị trên nút biểu ngữ</item>
+        <item>Hủy bỏ</item>
+    </string-array>
+    <string-array name="desktop_float_toggles_labels">
+        <item>Chế độ máy bay</item>
+        <item>bluetooth</item>
+        <item>Độ sáng màn hình</item>
+        <item>Chạm</item>
+        <item>Đồng bộ</item>
+        <item>WIFI</item>
+        <item>GPS</item>
+        <item>Mạng di động</item>
+        <item>Xoay màn hình</item>
+    </string-array>
+    <string-array name="homepage_more_options_labels">
+        <item>Antivirus</item>
+        <item>Active defense</item>
+        <item>Notification bar</item>
+        <item>Privacy Space</item>
+        <item>Call blocking</item>
+        <item>Antitheft</item>
+        <item>Communication</item>
+        <item>Backup restore</item>
+    </string-array>
+    <string-array name="home_settings_labels">
+        <item>Phím tắt ngoài màn hình</item>
+        <item>Thêm OneClick dọn dẹp ngoài màn hình</item>
+        <item>Thêm vào White list</item>
+        <item>Bảo vệ bằng mật khẩu</item>
+        <item>Cài đặt hệ thống</item>
+    </string-array>
+    <string-array name="home_about_labels">
+        <item>Cập nhật phần mềm</item>
+        <item>Thông tin phản hồi</item>
+        <item>Đánh giá phần mềm</item>
+        <item>Chia sẻ với bạn bè</item>
+        <item>Tham gia với chúng tôi</item>
+        <item>Đặc biệt cảm ơn</item>
+    </string-array>
+    <string-array name="sdapk_sortypes">
+        <item>Sắp xếp theo Tên</item>
+        <item>Sắp xếp theo kích thước</item>
+        <item>Sắp xếp theo thời gian</item>
+    </string-array>
+    <string-array name="sdapk_types">
+        <item>Tất cả các gói APK</item>
+        <item>Phiên bản APK mới</item>
+        <item>Phiên bản APK cũ</item>
+        <item>gói APK đã cài đặt</item>
+        <item>Gói APK chưa cài đặt</item>
+        <item>Gói APK cấp giấy chứng nhận</item>
+        <item>Gói APK trùng lặp</item>
+    </string-array>
+    <string-array name="sdapk_status">
+        <item>Thẻ SD của bạn không tồn tại bất kỳ gói APK</item>
+        <item>Thẻ SD của bạn không có gói APK nâng cấp tồn tại</item>
+        <item>Thẻ SD của bạn không có gói APK cũ tồn tại</item>
+        <item>Thẻ SD của bạn có APK đã được cài</item>
+        <item>Thẻ SD của bạn có APK chưa được cài</item>
+        <item>Thẻ SD của bạn không có APK trường hợp ngoại lệ cấp giấy chứng nhận</item>
+        <item>Thẻ SD của bạn không có gói APK trùng lặp</item>
+    </string-array>
+    <string-array name="task_sortypes">
+        <item>Sắp xếp theo tên/loại</item>
+        <item>Sắp xếp theo kích thước bộ nhớ</item>
+        <item>Sắp xếp theo sử dụng CPU</item>
+    </string-array>
+    <string-array name="hipsapk_sortypes">
+        <item>Sắp xếp theo Tên</item>
+        <item>Sắp xếp theo số lượng cấp phép</item>
+        <item>Sắp xếp theo thời gian</item>
+    </string-array>
+    <string-array name="hipsapk_types">
+        <item>Phần mềm người dùng</item>
+        <item>Phần mềm hệ thống</item>
+    </string-array>
+    <string-array name="scan_item_type">
+        <item>Tự động</item>
+        <item>Tự tùy chỉnh</item>
+        <item>Bảo mật</item>
+    </string-array>
+    <string-array name="toggles_add_options">
+        <item>Chuyển đổi nhanh chóng</item>
+        <item>Ứng dụng</item>
+        <item>LBE mục chức năng</item>
+    </string-array>
+    <string-array name="questions">
+        <item>Người bạn tốt nhất của tôi</item>
+        <item>Những người yêu thích của tôi</item>
+        <item>Sinh nhật của cha tôi</item>
+        <item>Sinh nhật của mẹ tôi</item>
+        <item>Tên của vợ/ngày sinh nhật</item>
+        <item>Trường tiểu học/trung học/Đại học</item>
+        <item>Cuốn tiểu thuyết yêu thích của tôi</item>
+        <item>Phim yêu thích của tôi</item>
+        <item>Phim hoạt hình yêu thích của tôi</item>
+        <item>Môn thể thao yêu thích của tôi</item>
+        <item>Ngôi sao yêu thích của tôi</item>
+        <item>Ca sĩ yêu thích của tôi</item>
+    </string-array>
+    <string-array name="unlock_types">
+        <item>Vẽ để Mở khóa</item>
+        <item>Mật khẩu để mở khóa</item>
+    </string-array>
+    <string-array name="traffic_mobile_graph_wave_colors">
+        <item>\#605fcaff</item>
+        <item>\#8026acee</item>
+    </string-array>
+    <string-array name="traffic_mobile_graph_warn_colors">
+        <item>\#70fe7e71</item>
+        <item>\#80db2c1b</item>
+    </string-array>
+    <string-array name="hardware_basic_info">
+        <item>1 Thương hiệu</item>
+        <item>2 Model</item>
+        <item>3 Phiên bản Android</item>
+        <item>4 Camera chính</item>
+        <item>5 Camera trước</item>
+        <item>6 IMEI</item>
+        <item>7 RAM</item>
+        <item>8 CPU</item>
+        <item>9 Dung lượng SD</item>
+        <item>10 Trọng lượng</item>
+    </string-array>
+    <string-array name="hardware_cpu_info">
+        <item>1 Model CPU</item>
+        <item>2 Số nhân CPU</item>
+        <item>3 Tần số CPU</item>
+    </string-array>
+    <string-array name="hardware_screen_info">
+        <item>1 GPU renderer</item>
+        <item>2 Nhà cung cấp GPU</item>
+        <item>3 phiên bản GPU</item>
+        <item>4 Độ phân giải</item>
+        <item>5 Kích thước</item>
+        <item>6 Công nghệ</item>
+        <item>7 Mật độ điểm ảnh</item>
+        <item>8 Cảm ứng đa điểm</item>
+    </string-array>
+    <string-array name="hardware_network_info">
+        <item>1 Mạng tiêu chuẩn</item>
+        <item>2 Thông tin hỗ trợ WIFI</item>
+        <item>3 Thông tin hỗ trợ GPS</item>
+        <item>4 Thông tin hỗ trợ Bluetooth</item>
+    </string-array>
+    <string-array name="hardware_sensor_name">
+        <item>Cảm biến gia tốc</item>
+        <item>Cảm biến từ trường</item>
+        <item>Cảm biến định hướng</item>
+        <item>Cảm biến quay</item>
+        <item>Cảm biến ánh sáng</item>
+        <item>Cảm biến áp lực</item>
+        <item>Cảm biến nhiệt độ</item>
+        <item>Cảm biến khoảng cách</item>
+        <item>Cảm biến trọng lực</item>
+        <item>Cảm biến gia tốc tuyến tính</item>
+        <item>Cảm biến xoay vector</item>
+        <item>Cảm biến độ ẩm tương đối</item>
+        <item>Cảm biến nhiệt độ</item>
+    </string-array>
+    <string-array name="hardware_rank">
+        <item>Xếp hạng Model</item>
+        <item>Tỉ lệ Model</item>
+    </string-array>
+    <string-array name="hardware_antutu_keys">
+        <item>Camera chính</item>
+        <item>Camera trước</item>
+        <item>Kích thước màn hình</item>
+        <item>Vật liệu</item>
+    </string-array>
+    <string-array name="app_install_manage_mode_title">
+        <item>Cho phép cài đặt tự động</item>
+        <item>Hỏi tự động cài đặt</item>
+        <item>Vô hiệu hóa các cài đặt tự động</item>
+    </string-array>
+    <string-array name="app_install_manage_mode_desc">
+        <item>Cho phép phần mềm cài đặt tự động, thông báo sau khi cài đặt</item>
+        <item>Hộp thoại có nhắc nhở để cài đặt, yêu cầu bạn phải tự xác nhận</item>
+        <item>Hoàn toàn vô hiệu hóa các cài đặt tự động của hành vi phần mềm</item>
+    </string-array>
+    <string-array name="special_thanks_list">
+        <item>xda_drm từ xda-developers</item>
+        <item>vuhien từ xda-developers</item>
+        <item>Mr Mobile từ diễn đàn tinhte</item>
+        <item>LemonCC vs Tamina</item>
+        <item>影殇1 vs 魏傲06</item>
+        <item>GTRZ vs 留不住</item>
+        <item>兵部尚书</item>
+        <item>断线的鸭子</item>
+        <item>℡秋殇づ落葉ず</item>
+    </string-array>
+</resources>
