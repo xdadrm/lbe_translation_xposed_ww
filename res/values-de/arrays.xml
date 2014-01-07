@@ -557,4 +557,72 @@ Fernsteuerung"</item>
         <item>\#70fe7e71</item>
         <item>\#80db2c1b</item>
     </string-array>
+    <string-array name="hardware_basic_info">
+        <item>1 brand</item>
+        <item>2 Model</item>
+        <item>3 Android version</item>
+        <item>4 main camera</item>
+        <item>5 front camera</item>
+        <item>6 IMEI</item>
+        <item>7 RAM</item>
+        <item>8 CPU</item>
+        <item>9 SD Memory</item>
+        <item>10 weight</item>
+    </string-array>
+    <string-array name="hardware_cpu_info">
+        <item>1 CPU Model</item>
+        <item>2 cores</item>
+        <item>3 Frequency</item>
+    </string-array>
+    <string-array name="hardware_screen_info">
+        <item>1 GPU renderer</item>
+        <item>2 GPU supplier</item>
+        <item>3 GPU version</item>
+        <item>4 Resolution</item>
+        <item>5 Screen Size</item>
+        <item>6 Material</item>
+        <item>7 pixel density</item>
+        <item>8 Multi-touch</item>
+    </string-array>
+    <string-array name="hardware_network_info">
+        <item>1 Standard network</item>
+        <item>2 WIFI support information</item>
+        <item>3 GPS support information</item>
+        <item>4 Bluetooth support information</item>
+    </string-array>
+    <string-array name="hardware_sensor_name">
+        <item>Acceleration sensor</item>
+        <item>Magnetic field sensor</item>
+        <item>Orientation Sensor</item>
+        <item>Gyro Sensor</item>
+        <item>Light sensor</item>
+        <item>Pressure Sensor</item>
+        <item>Temperature Sensor</item>
+        <item>Proximity sensor</item>
+        <item>Gravity Sensor</item>
+        <item>Linear Acceleration Sensor</item>
+        <item>Rotation vector sensor</item>
+        <item>Relative humidity sensor</item>
+        <item>Temperature sensor</item>
+    </string-array>
+    <string-array name="hardware_rank">
+        <item>Model ranking</item>
+        <item>Models percentage</item>
+    </string-array>
+    <string-array name="hardware_antutu_keys">
+        <item>Main camera</item>
+        <item>Front camera</item>
+        <item>Screen Size</item>
+        <item>Material</item>
+    </string-array>
+    <string-array name="app_install_manage_mode_title">
+        <item>Allow automatic installation</item>
+        <item>Ask automatically installed</item>
+        <item>Disable the automatic installation</item>
+    </string-array>
+    <string-array name="app_install_manage_mode_desc">
+        <item>Allows automatic installation software, prompt notification bar after installation</item>
+        <item>There dialog box prompts to install, requires you to manually confirm</item>
+        <item>Completely disable the automatic installation of software behavior</item>
+    </string-array>
 </resources>

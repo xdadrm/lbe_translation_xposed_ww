@@ -570,6 +570,7 @@ pub, pop-up, etc"</item>
         <item>8 CPU</item>
         <item>9 Mémoire SD</item>
         <item>10 Poids</item>
+    </string-array>
     <string-array name="hardware_cpu_info">
         <item>1 Modèle du CPU</item>
         <item>2 Nombre de coeurs</item>
@@ -580,8 +581,8 @@ pub, pop-up, etc"</item>
         <item>2 Fabriquant GPU</item>
         <item>3 Version GPU</item>
         <item>4 Résolution</item>
-        <item>5 Taille d'écran</item>
-        <item>6 Matériau de l'écran</item>
+        <item>5 Taille d\'écran</item>
+        <item>6 Matériau de l\'écran</item>
         <item>7 Densité en pixel</item>
         <item>8 Multi-points</item>
     </string-array>
@@ -592,18 +593,18 @@ pub, pop-up, etc"</item>
         <item>4 Type de Bluetooth</item>
     </string-array>
     <string-array name="hardware_sensor_name">
-        <item>Capteur d'accélération</item>
+        <item>Capteur d\'accélération</item>
         <item>Capteur de champ magnétique</item>
-        <item>Capteur d'orientation</item>
+        <item>Capteur d\'orientation</item>
         <item>Gyroscope</item>
         <item>Capteur de lumière</item>
         <item>Capteur de pression</item>
         <item>Capteur de température</item>
         <item>Capteur de proximité</item>
         <item>Capteur de gravité</item>
-        <item>Capteur d'accélération linéaire</item>
+        <item>Capteur d\'accélération linéaire</item>
         <item>Capteur de vecteur rotatif</item>
-        <item>Capteur d'humidité relative</item>
+        <item>Capteur d\'humidité relative</item>
         <item>Capteur de température</item>
     </string-array>
     <string-array name="hardware_rank">
@@ -613,18 +614,17 @@ pub, pop-up, etc"</item>
     <string-array name="hardware_antutu_keys">
         <item>Appareil photo principal</item>
         <item>Appareil photo avant</item>
-        <item>Taille d'écran</item>
+        <item>Taille d\'écran</item>
         <item>Materiau</item>
     </string-array>
     <string-array name="app_install_manage_mode_title">
         <item>Autorise les installations automatiques</item>
-        <item>Demander lors d'une installation automatique</item>
+        <item>Demander lors d\'une installation automatique</item>
         <item>Désactive les installations automatiques</item>
     </string-array>
     <string-array name="app_install_manage_mode_desc">
-        <item>Autorise les installations automatiques d'applis, et affiche une notification dans la barre après l'installation</item>
-        <item>Une boite de dialogue s'affiche lors de l'installation, pour vous demander de confirmer l'autorisation de l'installation</item>
-        <item>Désactive complètement l'installation automatique des applis</item>
-    </string-array>
+        <item>Autorise les installations automatiques d\'applis, et affiche une notification dans la barre après l\'installation</item>
+        <item>Une boite de dialogue s\'affiche lors de l\'installation, pour vous demander de confirmer l\'autorisation de l\'installation</item>
+        <item>Désactive complètement l\'installation automatique des applis</item>
     </string-array>
 </resources>
