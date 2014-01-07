@@ -559,4 +559,72 @@ pub, pop-up, etc"</item>
         <item>\#70fe7e71</item>
         <item>\#80db2c1b</item>
     </string-array>
+    <string-array name="hardware_basic_info">
+        <item>1 Marque</item>
+        <item>2 Modèle</item>
+        <item>3 Version Android</item>
+        <item>4 Appareil photo principal</item>
+        <item>5 Appareil photo avant</item>
+        <item>6 IMEI</item>
+        <item>7 RAM</item>
+        <item>8 CPU</item>
+        <item>9 Mémoire SD</item>
+        <item>10 Poids</item>
+    <string-array name="hardware_cpu_info">
+        <item>1 Modèle du CPU</item>
+        <item>2 Nombre de coeurs</item>
+        <item>3 Fréquence</item>
+    </string-array>
+    <string-array name="hardware_screen_info">
+        <item>1 Rendu GPU</item>
+        <item>2 Fabriquant GPU</item>
+        <item>3 Version GPU</item>
+        <item>4 Résolution</item>
+        <item>5 Taille d'écran</item>
+        <item>6 Matériau de l'écran</item>
+        <item>7 Densité en pixel</item>
+        <item>8 Multi-points</item>
+    </string-array>
+    <string-array name="hardware_network_info">
+        <item>1 Type de réseau</item>
+        <item>2 Type de WIFI</item>
+        <item>3 Type de GPS</item>
+        <item>4 Type de Bluetooth</item>
+    </string-array>
+    <string-array name="hardware_sensor_name">
+        <item>Capteur d'accélération</item>
+        <item>Capteur de champ magnétique</item>
+        <item>Capteur d'orientation</item>
+        <item>Gyroscope</item>
+        <item>Capteur de lumière</item>
+        <item>Capteur de pression</item>
+        <item>Capteur de température</item>
+        <item>Capteur de proximité</item>
+        <item>Capteur de gravité</item>
+        <item>Capteur d'accélération linéaire</item>
+        <item>Capteur de vecteur rotatif</item>
+        <item>Capteur d'humidité relative</item>
+        <item>Capteur de température</item>
+    </string-array>
+    <string-array name="hardware_rank">
+        <item>Classement du modèle</item>
+        <item>Pourcentage du modèle</item>
+    </string-array>
+    <string-array name="hardware_antutu_keys">
+        <item>Appareil photo principal</item>
+        <item>Appareil photo avant</item>
+        <item>Taille d'écran</item>
+        <item>Materiau</item>
+    </string-array>
+    <string-array name="app_install_manage_mode_title">
+        <item>Autorise les installations automatiques</item>
+        <item>Demander lors d'une installation automatique</item>
+        <item>Désactive les installations automatiques</item>
+    </string-array>
+    <string-array name="app_install_manage_mode_desc">
+        <item>Autorise les installations automatiques d'applis, et affiche une notification dans la barre après l'installation</item>
+        <item>Une boite de dialogue s'affiche lors de l'installation, pour vous demander de confirmer l'autorisation de l'installation</item>
+        <item>Désactive complètement l'installation automatique des applis</item>
+    </string-array>
+    </string-array>
 </resources>
