@@ -36,7 +36,7 @@
     </string-array>
     <string-array name="endcalltype">
         <item>Eteint</item>
-        <item>N existe pas</item>
+        <item>N\'existe pas</item>
         <item>Hors service</item>
         <item>Occupé</item>
     </string-array>
@@ -125,12 +125,12 @@
         <item>Supprimer</item>
         <item>Répondre par SMS</item>
         <item>Appelez ce numéro</item>
-        <item>ajouter à la liste blanche</item>
-        <item>ajouter à la liste noire</item>
+        <item>Ajouter à la liste blanche</item>
+        <item>Ajouter à la liste noire</item>
         <item>Restaurer le journal des appels</item>
     </string-array>
     <string-array name="preference_stopcalltype_options">
-        <item>Mode Nuit-Ne-Pas-Déranger off</item>
+        <item>Mode Nuit-Ne-Pas-Déranger éteint</item>
         <item>Bloquer la Liste Noire uniquement</item>
         <item>Recevoir de Liste Blanche uniquement</item>
         <item>Bloquer tout</item>
@@ -168,7 +168,7 @@
         <item>Ignorer</item>
     </string-array>
     <string-array name="traffic_refresh">
-        <item>élevé</item>
+        <item>Elevé</item>
         <item>Moyen</item>
         <item>Faible</item>
     </string-array>
@@ -228,7 +228,7 @@
     <string-array name="auto_ip_callist">
         <item>Appel des autres provinces</item>
         <item>Appel des autres villes</item>
-        <item>"N'importe quel appel"</item>
+        <item>"N\'importe quel appel"</item>
     </string-array>
     <string-array name="auto_ip_callist_value">
         <item>0</item>
@@ -410,7 +410,7 @@ pub, pop-up, etc"</item>
         <item>2</item>
     </string-array>
     <string-array name="phone_marker_operator">
-        <item>Déplacer vers autre balise</item>
+        <item>Déplacer vers une autre balise</item>
         <item>Supprimer de cette balise</item>
         <item>Ajouter à la liste noire</item>
     </string-array>
@@ -474,13 +474,13 @@ pub, pop-up, etc"</item>
     </string-array>
     <string-array name="home_settings_labels">
         <item>Raccourci Accueil</item>
-        <item>"Ajouter raccourci One-click clean-up sur l'écran d'accueil"</item>
-        <item>Purger list blanche One-Click</item>
+        <item>Ajouter raccourci One-click clean-up sur l\'écran d\'accueil</item>
+        <item>Purger liste blanche One-Click</item>
         <item>Protection par mot de passe</item>
         <item>Paramètres système</item>
     </string-array>
     <string-array name="home_about_labels">
-        <item>Software Updates</item>
+        <item>Mise à jour logiciel</item>
         <item>Commentaires</item>
         <item>Noter LBE</item>
         <item>Partager avec vos amis</item>
@@ -494,15 +494,15 @@ pub, pop-up, etc"</item>
     <string-array name="sdapk_types">
         <item>Tous les fichiers</item>
         <item>Nouvelle version</item>
-        <item>"Packages d'anciennes versions"</item>
+        <item>Packages d\'anciennes versions</item>
         <item>Packages installés</item>
         <item>Packages non installés</item>
         <item>Packages non signés</item>
-        <item>"Répéter l'installation"</item>
+        <item>Répéter l\'installation</item>
     </string-array>
     <string-array name="sdapk_status">
-        <item>Votre SD ne contient aucun fichier APK</item>
-        <item>Votre SD ne contient aucun fichier APK</item>
+        <item>Votre carte SD ne contient aucun fichier APK</item>
+        <item>Votre carte SD ne contient aucun fichier APK</item>
         <item>Une version plus ancienne existe</item>
         <item>Déjà installé</item>
         <item>Non installé</item>
@@ -526,10 +526,10 @@ pub, pop-up, etc"</item>
     <string-array name="scan_item_type">
         <item>Action auto</item>
         <item>Action manuelle</item>
-        <item>Securité</item>
+        <item>Sécurité</item>
     </string-array>
     <string-array name="toggles_add_options">
-        <item>switch rapide</item>
+        <item>Switch rapide</item>
         <item>Applications</item>
         <item>Fonctions de LBE</item>
     </string-array>
@@ -544,7 +544,7 @@ pub, pop-up, etc"</item>
         <item>Mon film préféré</item>
         <item>Le métier dont je rêve</item>
         <item>Ma couleur préférée</item>
-        <item>"Le pays que j'aimerai visiter"</item>
+        <item>Le pays que j\'aimerai visiter</item>
         <item>La marque de ma télé</item>
     </string-array>
     <string-array name="unlock_types">
