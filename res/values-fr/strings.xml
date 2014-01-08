@@ -134,7 +134,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="miui_step_5">5.Configuration terminée</string>
     <string name="miui_step_4">4.Cliquer pour fermer</string>
     <string name="miui_step_3">3.Cliquer sur les paramètres avancés</string>
-    <string name="miui_step_2">"2.Cliquer sur le bouton \'menu\' du téléphoen puis \'paramètres\'"</string>
+    <string name="miui_step_2">"2.Cliquer sur le bouton \'menu\' du téléphone puis \'paramètres\'"</string>
     <string name="miui_step_1">"1.Cliquer sur l\'icone SMS pour ouvrir l\'interface principale"</string>
     <string name="call_number">Appeler</string>
     <string name="ok">Confirmer</string>
@@ -144,7 +144,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="close">Fermer</string>
     <string name="delete">Supprimer</string>
     <string name="uninstall">Désinstaller</string>
-    <string name="miui_sms_block_desc">Le système MIUI a la priorité sur LBE. Pour uitiliser LBE, cliquer sur les éléments suivants :</string>
+    <string name="miui_sms_block_desc">Le système MIUI a la priorité sur LBE. Pour utiliser LBE, cliquer sur les éléments suivants: </string>
     <string name="block_error_desc">Détail du blocage</string>
     <string name="call_phone_error">Pb de SIM ou de réseau... Appel impossible</string>
     <string name="block_error_tips_message">Si vous rencontrez une erreur de code MMI, veuillez désactiver ce service</string>
@@ -245,6 +245,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="AV_AutoUpdate_period">%1$s Vérifier à nouveau</string>
     <string name="AV_Update_Local">La base de définition de virus se met à jour localement</string>
     <string name="AV_Update_CurrentVer">Version de définition de virus: %1$s</string>
+    <string name="AV_ScanInstalled">Analyse les applications installées:</string>
     <string name="AV_CancelScan">"Annuler l\'analyse"</string>
     <string name="AV_Settings_Title">"Configurer l\'antivirus"</string>
     <string name="AV_Init">Démarrage du moteur antiviral</string>
@@ -257,6 +258,9 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="AV_ScanResult_Skip">Ignorer</string>
     <string name="AV_ScanResult_Succeed">Terminé</string>
     <string name="AV_NoVirus">Aucun malware détecté, scannez régulièrement !</string>
+    <string name="AV_NoVirus1">Votre appareil est sain</string>
+    <string name="AV_NoVirus2">OK, pensez à vérifier de temps en temps</string>
+    <string name="AV_ScanProgress">Progression de l'analyse: %1$s</string>
     <string name="AV_ScanNewApp">Analyse: %1$s</string>
     <string name="AV_ScanNewApp_Virus">Dans %1$s une menace a été détectée, et nettoyée</string>
     <string name="AV_Prompt">Menace détectée dans %1$s : %2$s Veuillez nettoyer immédiatement</string>
@@ -271,6 +275,9 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="AV_ClearLog">Effacer le journal</string>
     <string name="AV_NoneLog">Pas de journal</string>
     <string name="AV_ScanResultReport_Report">Analysé: %1$d Virus: %2$d , avertissement: %3$d Nettoyé: %4$d</string>
+    <string name="AV_LastScanResult">%1$s%2$s</string>
+    <string name="AV_LastScanResult_Safe">Analyse %1$d applis, aucune menace trouvée</string>
+    <string name="AV_LastScanResult_Warn">Analyse %1$d applis, %2$d menace(s) trouvée(s)</string>    
     <string name="AV_Copyright">Proposé par Antiy AVL SDK AntiVirus</string>
     <string name="Battery">Batterie</string>
     <string name="Battery_Settings">Paramètres d\'économie d\'énergie</string>
@@ -285,7 +292,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Battery_Consumption">Utilisation de la batterie</string>
     <string name="Battery_Consumption_Des">"Gérez l\'utilisation de l\'énergie"</string>
     <string name="Battery_Logs">Journal batterie</string>
-    <string name="Battery_Logs_Des">Saving services every move, always grasp</string>
+    <string name="Battery_Logs_Des">Consulter la consommation de la batterie</string>
     <string name="Battery_NotifMode">Notification et journalisation batterie</string>
     <string name="Battery_NotifMode_Des">"Optimisez l\'utilisation au quotidien"</string>
     <string name="Battery_ShowToast">"Alerte de changement d\'état"</string>
@@ -373,7 +380,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Battery_Exception_Delay">Délai</string>
     <string name="Battery_Exception_DelayTime">%1$s, %2$s de délai</string>
     <string name="Battery_Exception_DelayTime_Simple">La tâche se lancera quand les conditions sont remplies</string>
-    <string name="Battery_Exception_Extra">Expert-level expansion set</string>
+    <string name="Battery_Exception_Extra">Réglages Expert</string>
     <string name="Battery_Exception_CantRestoreAct">You choose a one-time operation, without reduction</string>
     <string name="Battery_Exception_CantRestoreCon">You can not reverse the selected trigger condition is triggered</string>
     <string name="Battery_Exception_Restore">Auto- rétablir fonction est désactivée</string>
@@ -413,7 +420,19 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Battery_HardwareConsumption_None">Pas de conso du système</string>
     <string name="Battery_SoftwareConsumption">Conso des applis</string>
     <string name="Battery_SoftwareConsumption_None">Pas conso des applis</string>
-    <string name="Battery_Consumption_Save">LBE security master to help you quit %1$s background task processes , cell phone battery extended using 8 minutes .</string>
+    <string name="Battery_Consumption_CPU">Temps d'utilisation CPU</string>
+    <string name="Battery_Consumption_CPU_FG">Temps de réception</string>
+    <string name="Battery_Consumption_GPS">Temps GPS</string>
+    <string name="Battery_Consumption_Service">Temps d'exécution des services de fond</string>
+    <string name="Battery_Consumption_WakeCnts">Nombre de réveils du CPU</string>
+    <string name="Battery_Consumption_WakeTime">Temps de réveil CPU</string>
+    <string name="Battery_Consumption_Wakeups">Temps de réveil</string>
+    <string name="Battery_Consumption_Dataflow">Consommation de données</string>
+    <string name="Battery_Consumption_Sensor">Autres capteurs utilisés</string>
+    <string name="Battery_Consumption_TimeUsed">%1$.1fs</string>
+    <string name="Battery_Consumption_CntUsed">%1$d</string>
+    <string name="Battery_Consumption_StatisticTime">Durée:%1$s</string>    
+    <string name="Battery_Consumption_Save">Pour vous aider, LBE Security Master a fermé %1$s processus tournant en tâche de fond, la durée de batterie est prolongée de 8 minutes.</string>
     <string name="Battery_Error_WrongItem">Mauvais paramètre</string>
     <string name="Battery_Error_WrongCondition">Mauvaises conditions</string>
     <string name="Battery_Error_TooShortTimePeriod">Heure de début et fin trop proches, modifier svp</string>
@@ -457,7 +476,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Battery_Shortcut_NotSupport_GPS_AIR">Your current Android GPS and disable the automatic switch flight mode, but also look know</string>
     <string name="Battery_Shortcut_NotSupport_GPS">Your current Android disable automatic switch GPS positioning, but also look know</string>
     <string name="Battery_Shortcut_NotSupport_AIR">Your current Android disable automatic switching flight mode , but also hope know</string>
-    <string name="Battery_ChargingLeft_Fast">Temps de charge rapide en restant</string>
+    <string name="Battery_ChargingLeft_Fast">Temps de charge rapide restant</string>
     <string name="Battery_ChargingLeft_Continue">Temps de charge restant en continu</string>
     <string name="Battery_ChargingLeft_Tick">Décompter le temps restant de charge</string>
     <string name="Battery_ChargeFull_Left">Le temps de chargement est dispo</string>
@@ -475,6 +494,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Battery_HardwareConsumption_Screen">"Conso de l\'écran"</string>
     <string name="Battery_HardwareConsumption_Screen_Setting">"Paramètres d\'écran"</string>
     <string name="Battery_HardwareConsumption_BT">Conso Bluetooth</string>
+    <string name="Battery_BatteryInfo_Edit">Correction de la puissance</string>
     <string name="Battery_BatteryInfo">Infos batterie</string>
     <string name="Battery_BatteryInfo_BatteryHealth">Etat de la batterie</string>
     <string name="Battery_BatteryInfo_HealthGood">OK</string>
@@ -541,7 +561,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Battery_Log_ScreenLock_Des_NoTimeout">Aucun</string>
     <string name="Battery_Log_Cpu_Des_Sleeping">mode standbye</string>
     <string name="Battery_Log_Cpu_Des_Frequency">Fréquence</string>
-    <string name="Battery_Log_Trigger_Des_When">Quand</string>
+    <string name="Battery_Log_Trigger_Des_When">Quand </string>
     <string name="Battery_Log_Trigger_Des_Moment">Moment</string>
     <string name="Battery_Log_TimePeriod_Des_To">A</string>
     <string name="Battery_Log_TimePeriod_Des_SecondDay">Le jour suivant</string>
@@ -571,6 +591,16 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Battery_Log_Tips_LockTime">Temps mise en veille</string>
     <string name="Battery_Log_Tips_Volume">Volume</string>
     <string name="Battery_Log_Change">Change</string>
+    <string name="Battery_Service">Log des services d'optimisation</string>
+    <string name="Battery_Show_Notif">Affiche dans la barre de notification</string>
+    <string name="Battery_Show_NotifDes">Affiche l\'état de la batterie en temps réel dans la barre de notification</string>
+    <string name="Battery_ShowToast">Alerte des changements de statut du téléphone</string>
+    <string name="Battery_ShowToastDes">Vous informe des modifications pour optimiser l\'état de votre téléphone</string>
+    <string name="Battery_CheckBright">Détection de la luminosité minimale de l'écran</string>
+    <string name="Battery_CheckBrightDes">Détecte le niveau minimal de luminosité de l'écran de votre téléphone</string>
+    <string name="Battery_Service_Autostart">Log des services d'optimisation active</string>
+    <string name="Battery_Capacity_Unit">mAh</string>
+    <string name="Desktop_Backup">Raccourci sur le bureau</string>    
     <string name="Desktop_Traffic">Trafic Aujourd hui</string>
     <string name="Desktop_Traffic_None">Pas de données sur le trafic</string>
     <string name="Desktop_Shortcut">Raccourcis clavier</string>
@@ -592,6 +622,10 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Desktop_Unlock_Type_Password">Déverrouillage par mot de passe</string>
     <string name="Desktop_Choose_Unlock_Type">Sélection du mode de déverrouillage</string>
     <string name="Desktop_Password_Setting">Paramètres de mot de passe</string>
+    <string name="Desktop_Recommend_Setting">Paramètre recommandé</string>
+    <string name="Desktop_Recommend_Setting_Desc">Vous pouvez paramétrer des applis en Liste blanche, pour éviter qu'elles ne soient tuées lors d'un nettoyage. Vous pouvez également paramétrer la Gestion du démarrage des applis.</string>
+    <string name="Desktop_White_List">Liste blanche</string>
+    <string name="Desktop_AutoStart_Manage">Depuis le lancement du Gestionnaire</string>    
     <string name="airplane_mode">Mode avion</string>
     <string name="bluetooth">Bluetooth</string>
     <string name="screen_brightness">Luminosité</string>
@@ -647,13 +681,15 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Generic_Summary_Disabled">Désactivé</string>
     <string name="Generic_Add">Ajouter</string>
     <string name="Generic_Clip">Geler</string>
-    <string name="Generic_Enable">Activé</string>
-    <string name="Generic_Disable">Désactivé</string>
+    <string name="Generic_Enable">Activer</string>
+    <string name="Generic_Disable">Désactiver</string>
     <string name="Generic_Enabled">Activé</string>
     <string name="Generic_Disabled">Désactivé</string>
+    <string name="Generic_Uninstalled">Désinstallé</string>
     <string name="Generic_Blocked">Bloquer</string>
     <string name="Generic_Restore">Restaurer</string>
-    <string name="Generic_Optimize">Optimisation</string>
+    <string name="Generic_Optimize">Optimiser</string>
+    <string name="Generic_Ignore">Ignorer</string>
     <string name="Generic_Allow">Autorisé (%d)</string>
     <string name="Generic_Forbid">Interdit (%d)</string>
     <string name="Generic_Repair">Reparer</string>
@@ -669,9 +705,11 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Generic_Start">Sémarrer</string>
     <string name="Generic_Running">En cours</string>
     <string name="Generic_Cleaned">Nettoyé</string>
+    <string name="Generic_Finished">Terminé</string>
     <string name="Generic_CustomClean">Nettoyage manuel</string>
     <string name="Generic_Good">Bon</string>
     <string name="Generic_Detail">Détails</string>
+    <string name="Generic_Default">Par défaut</string>
     <string name="Generic_Shortcut">Menu raccourci</string>
     <string name="Generic_Return">Retour</string>
     <string name="Generic_Save">Sauvegarder</string>
@@ -694,15 +732,29 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Generic_Disabled_2">Désactivé</string>
     <string name="Generic_Exception">Exeption</string>
     <string name="Generic_Setting">Régler</string>
-    <string name="Generic_Finish_Setting">Terminez le réglage</string>
+    <string name="Generic_Finish_Setting">Terminer le réglage</string>
+    <string name="Generic_Time_Today">aujourd'hui</string>
+    <string name="Generic_Time_Yesterday">hier</string>
+    <string name="Generic_Time_Before_Yesterday">avant-hier</string>
+    <string name="Generic_Time_Tomorrow">demain</string>
+    <string name="Generic_Time_After_Tomorrow">après-demain</string>
+    <string name="Generic_Time_Before_Dawn">avant l'aurore</string>
+    <string name="Generic_Time_AM">matin</string>
+    <string name="Generic_Time_Noon">midi</string>
+    <string name="Generic_Time_PM">après-midi</string>
+    <string name="Generic_Time_Night">soir</string>
+    <string name="Generic_Date_Formatter">yy MM ddc HH mm</string>
+    <string name="Generic_Time_Formatter">HH mm </string>    
     <string name="Generic_Time_Day">Jour</string>
     <string name="Generic_Time_Hour">heure(s)</string>
     <string name="Generic_Time_Minute">minute(s)</string>
     <string name="Generic_Time_Second">seconde(s)</string>
     <string name="Generic_Time_Zero">Zero</string>
     <string name="Generic_Time_Never">Jamais</string>
+    <string name="Generic_Time_Small">Récemment</string>
     <string name="Generic_Success">Succès</string>
     <string name="Generic_Failure">Erreur</string>
+    <string name="Generic_Delete_Affirm">Confirmer la suppression ?</string>
     <string name="Home_Lbe_Remind">Merci de contacter le groupe LBE en cas de problèmes</string>
     <string name="Home_Phone_Type">"Mode blocage d\'appels"</string>
     <string name="Home_Phone_BlockedSms">%1$d SMS bloqués</string>
@@ -743,7 +795,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Home_AlertTab_Toast">Écran d accueil est passé à %1$s</string>
     <string name="Home_Exit">Stop Service</string>
     <string name="Home_Exit_Warning">Votre téléphone ne sera plus protégé par LBE Security Master. Touche verte pour confirmer, grise pour annuler.</string>
-    <string name="Home_Item_Name_PhonePlugin">Communication Toolbox</string>
+    <string name="Home_Item_Name_PhonePlugin">Boite à outils Communication</string>
     <string name="Home_Item_Name_IpCall">Appel IP</string>
     <string name="Home_Item_Name_PhoneEnhance">Communication avancée</string>
     <string name="Home_Item_Name_PhoneEnhance_Item_Info">"Fonctions avancée d\'appels IP"</string>
@@ -838,12 +890,24 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Keyguard_Fail_Residue_Time">Echec du déverrouillage, Patienter %1$s seconds</string>
     <string name="Keyguard_Activate_Keyguard">"Cliquer sur l\'icone, vous pouvez modifier le déverrouillage"</string>
     <string name="Keyguard_Type_Pattern">Schéma</string>
+    <string name="Keyguard_Backup">Compte principal et mot de passe pour sécurité et espace Vie privée</string>
     <string name="Keyguard_Type_Pincode">Code PIN</string>
     <string name="Keyguard_Type_Facerec">Reconnaissance faciale</string>
     <string name="Keyguard_Type_QA">Questions de sécurité</string>
     <string name="Keyguard_Setting_QA">Régler les questions de sécurité en cas de perte du mot de passe</string>
     <string name="Keyguard_Crack_Setting_Default">5 erreurs de suite = blocage de 50 secondes</string>
     <string name="Keyguard_Question_Defualt">Mon meilleur ami</string>
+    <string name="Keyguard_Alternative">Déverrouillage rapide</string>
+    <string name="Keyguard_subkeyguard_nfc">Ouverture par NFC</string>
+    <string name="Keyguard_Name_Nfc">Ouverture par NFC</string>
+    <string name="Keyguard_Name_Facerec">Reconnaissance faciale</string>
+    <string name="Keyguard_Name_Pattern">Schéma de vérouillage</string>
+    <string name="Keyguard_Name_Pin">Mot de passe</string>
+    <string name="Keyguard_Summary_Facerec">Reconnaissance faciale unique</string>
+    <string name="Keyguard_Summary_Nfc">Tag NFC pour débloquer à tout moment</string>
+    <string name="Keyguard_Message_Update">La version actuelle de l'espace Vie privée n'est pas pris en charge, mettez à jour l'espace Vie privée en version 2.2 pour une meilleure expérience.</string>
+    <string name="Keyguard_Fast_Unlock_Tips">Le déverrouillage rapide nécessite de télécharger le plugin Espace Vie privée</string>
+    <string name="Keyguard_Tips_Pattern_Unlock">Veuillez dessiner un schéma pour déverrouiller</string>    
     <string name="Traffic">Trafic</string>
     <string name="Traffic_Setting">Paramètres</string>
     <string name="Traffic_Statistics">Stats. trafic</string>
@@ -866,7 +930,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Traffic_Calibration_Succeed">Calibration automatique du trafic succès</string>
     <string name="Traffic_Calibration_Start">Contacte les serveurs Cloud pour analyser les SMS, veuillez patienter</string>
     <string name="Traffic_Please_Set_Operator_Info_First">Veuillez entrer les infos opérateur</string>
-    <string name="Traffic_Calibration_Promo_Content">"Calibrage automatique du trafic n\'est efficace qu en CHINE."</string>
+    <string name="Traffic_Calibration_Promo_Content">"Calibrage automatique du trafic n\'est efficace qu\'en CHINE."</string>
     <string name="Traffic_Monitor_SetOperator_ButtonOk">Régler immédiatement</string>
     <string name="Traffic_Monitor_SetOperator_ButtonCancal">Pas maintenant</string>
     <string name="Traffic_Monitor_Alarm">Plus de 90% du forfait données est consommé. Désactivation des données mobiles conseillée pour éviter le dépassement. Continuer ?</string>
@@ -974,9 +1038,12 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Patch_Continue">Continuer</string>
     <string name="Patch_Cancel_Warn">Téléchargement en cours, voulez-vous vraiment annuler ?</string>
     <string name="Patch_Need_Update_Title">Le patch de sécurité nécessite une mise à jour</string>
-    <string name="Patch_Need_Update_Desc" />
-    <string name="Phone">Service de Blocage</string>
-    <string name="Phone_Setting">Parametres de blocage</string>
+    <string name="Patch_Need_Update_Desc">Le patch de sécurité nécessite une mise à jour, cela permettra d\'utiliser la dernière version de la Défense Active, et d\'appliquer les derniers correctifs du système.</string>
+    <string name="Patch_Apply_Success">Félicitations, le patch de sécurité a été installé avec succès !</string>
+    <string name="Patch_Enable_Hips_Tips">Ouvrir la Défense Active ?</string>
+    <string name="Patch_Need_More_Request">Le programme de réparation nécessite d'être mise à jour</string>
+    <string name="Phone">Blocage des appels et SMS</string>
+    <string name="Phone_Setting">Paramètres de blocage</string>
     <string name="Phone_Running">Le service de blocage est activé</string>
     <string name="Phone_Stopped">Le service de blocage est désactivé</string>
     <string name="Phone_Carrier_CM">China mobile</string>
@@ -1003,6 +1070,8 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Phone_MsgLogTitle">Spam SMS</string>
     <string name="Phone_ReportMessageTitle">Signaler spam SMS</string>
     <string name="Phone_ReportSelected">Signaler sélectionné (%1$d)</string>
+    <string name="Phone_Select_Message_Want_Report">Sélectionner le message que vous voulez signaler</string>
+    <string name="Phone_Please_Selected_Message_First">Sélectionner le message que vous voulez signaler</string>
     <string name="Phone_Msg_BlockCount">%1$d SMS bloqué</string>
     <string name="Phone_Add_Contact">Ajouter depuis contacts</string>
     <string name="Phone_Add_CallLog">Ajouter depuis les appels</string>
@@ -1059,8 +1128,8 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Phone_Keywords">Mots-clés</string>
     <string name="Phone_Keywords_Match">%1$d (%2$s)</string>
     <string name="Phone_Keywords_Set">Paramètres des mots-clés</string>
-    <string name="Phone_Add_Black">Ajouter à Liste Noire</string>
-    <string name="Phone_Add_White">Ajouter à Liste Blanche</string>
+    <string name="Phone_Add_Black">Ajouter à la Liste Noire</string>
+    <string name="Phone_Add_White">Ajouter à la Liste Blanche</string>
     <string name="Phone_Add_KeyWords">Ajouter des mots-clés</string>
     <string name="Phone_Add_Selected">Ajouter la sélection (%d)</string>
     <string name="Phone_Affirm_Delete">Supprimer le numéro sélectionné ?</string>
@@ -1087,7 +1156,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Phone_Empty_Contact">Aucun Contact</string>
     <string name="Phone_Empty_CallLog">Aucun Appel</string>
     <string name="Phone_Empty_SmsLog">Aucun SMS</string>
-    <string name="Phone_Empty_KeyWords">Les mot-clé seront affichés ici</string>
+    <string name="Phone_Empty_KeyWords">Les mots-clés seront affichés ici</string>
     <string name="Phone_Empty_NouseIp">Pas de numéros</string>
     <string name="Phone_Adding_Log">Ajout au journal blocage</string>
     <string name="Phone_Loading">Traitement</string>
@@ -1101,7 +1170,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Phone_NightSaving_BeginTime">Heure de début</string>
     <string name="Phone_NightSaving_EndTime">Heure de fin</string>
     <string name="Phone_Alert_Add_White">Ajouter ce numéro à la Liste Blanche</string>
-    <string name="Phone_Common_Number">Numéros les plus fréquent</string>
+    <string name="Phone_Common_Number">Numéros les plus fréquents</string>
     <string name="Phone_Fixed_Line">Ligne fixe</string>
     <string name="Phone_UnKnow_Alert">"Notification d\'événements inconnus"</string>
     <string name="Phone_Select_Location">consulter Région numéro</string>
@@ -1197,6 +1266,8 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Phone_SIM1_setting">Paramètres SIM 1</string>
     <string name="Phone_SIM2_setting">Paramètres SIM 2</string>
     <string name="Phone_Database_Marker_Name_UserDefine">Perso 1</string>
+    <string name="Phone_Black_restore_sms_tip">Restauration des mesages interceptés, des appels au système</string>
+    <string name="Phone_connected_vibrate_abort">Section 4.1 ci-dessus pour désactiver cette fonction</string>
     <string name="Plugin_Upgrade_Title">Mise à niveau %1$s</string>
     <string name="Plugin_Upgrade_Succeed">%1$s a été mis à jour à la dernière version</string>
     <string name="Plugin_Upgrade_Failed">%1$s mise à jour échouée</string>
@@ -1209,7 +1280,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Plugin_AntiTheft_Welcome">Bienvenue sur le service LBE Antivol</string>
     <string name="Plugin_AntiTheft_Introduction">"ATTENTION ! Si vous téléchargez LBE Antivol depuis LBE, l\'application Antivol sera en chinois ! Préférez l\'APK en FR téléchargé séparément ;)"</string>
     <string name="Plugin_AntiTheft_RootInstall">installation ROOT</string>
-    <string name="Plugin_AntiTheft_RootIntroduction">"En mode d installation ROOT LBE antivol service peut être installé en tant que composant du système et ne peut pas être facilement désinstallé. Même si votre téléphone est rétabli aux réglages d\'usine. LBE service de sécurité est toujours opérationnel pour protéger la sécurité de votre téléphone"</string>
+    <string name="Plugin_AntiTheft_RootIntroduction">"En mode d\'installation ROOT LBE antivol service peut être installé en tant que composant du système et ne peut pas être facilement désinstallé. Même si votre téléphone est rétabli aux réglages d\'usine. LBE service de sécurité est toujours opérationnel pour protéger la sécurité de votre téléphone"</string>
     <string name="Plugin_AntiTheft_Install">Téléch. install Antivol LBE [Chinois !]</string>
     <string name="Plugin_AntiTheft_Installing">Installation</string>
     <string name="Plugin_AntiTheft_Install_Fail">"L\'installation de LBE service Antivol a échouée, Veuillez réessayer plus tard"</string>
@@ -1272,7 +1343,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Pref_Phone_NightMode_BeginTime_Dlg">Heure de début</string>
     <string name="Pref_Phone_User_Defined_Rule">Réglez le mode perso</string>
     <string name="Pref_Phone_CallLocation">"Popup avec numéro d\'appel"</string>
-    <string name="Pref_Phone_CallLocation_Fixed">Verrouiller position de la popup</string>
+    <string name="Pref_Phone_CallLocation_Fixed">Verrouiller position du popup</string>
     <string name="Pref_Phone_CallLocation_Background">Style de la popup</string>
     <string name="Pref_Phone_CallMsg_Notification">Notification après blocage</string>
     <string name="Pref_Phone_Data_Upload_Summary">Pour aider LBE Security Master à améliorer la précision d interception</string>
@@ -1351,6 +1422,8 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Pref_Shortcut_Settings">"Raccourci écran d\'accueil"</string>
     <string name="Pref_Shortcut_Settings_Desc">Définir les gestionnaire des tâches, les raccourcis, la fenêtre de trafic en temps réel.</string>
     <string name="Pref_Clear_Ingore_Desc">Les apps en liste blanche seront ignorée</string>
+    <string name="Pref_Traffic_Calibrate_OnTime_Auto">Calibration automatique régulière</string>
+    <string name="Pref_Traffic_Calibrate_Sms_Setting">Configuration du Traffic SMS</string>	    
     <string name="Pref_Traffic_Calibrate_SMS_Dialog_Title">Configuration du Traffic SMS</string>
     <string name="Pref_Traffic_Calibrate_SIM_Operator">Carte SIM</string>
     <string name="Pref_Traffic_Operator_Setting_SIM">Configuration des informations de la carte SIM</string>
@@ -1366,6 +1439,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="HIPS_Root_Shuame_3">www.lbesec.com/root</string>
     <string name="HIPS_Root_Shuame_App">Flashing Genius</string>
     <string name="HIPS">Défense Active</string>
+    <string name="HIPS_Backup">Configuration des Permissions</string>
     <string name="HIPS_AppConfig">Configuration des applications</string>
     <string name="HIPS_Setting">Paramètres défense Proactive</string>
     <string name="HIPS_State_Loading">Défense Active se charge</string>
@@ -1463,6 +1537,8 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="HIPS_USB_Install_Detail_Install">%1$d déjà installée, cliquer ici pour le détail</string>
     <string name="HIPS_USB_Install_Detail_Rejected">Installation refusée de %1$d, cliquer ici pour le détail</string>
     <string name="HIPS_Manual_Start_Hips_Hint">Ouvrir manuellement Active defense</string>
+    <string name="HIPS_Conflict_MIUI_Step1_V5_SC">Cliquez sur "Gestion des droits"</string>
+    <string name="HIPS_Conflict_MIUI_Step2_V5_SC">Fermez la fenêtre "Appliquer des autorisations de surveillance"</string>    
     <string name="private_phones">Communications privées</string>
     <string name="private_phones_backup">Contacts, sms, et appels privés</string>
     <string name="private_phones_AddNewAccount">"Ajouter une compte d\'espace privé"</string>
@@ -1584,6 +1660,8 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="private_install_fail">Privacy spatial installation fails</string>
     <string name="private_setting_qasummary">Since setting a false password, security question failure</string>
     <string name="private_sms_unread">SMS non lu</string>
+    <string name="private_skip_introduction">Passer</string>
+    <string name="private_download_tips">Vous devez télécharger le plugin Espace Vie privée pour avoir la fonction de déverrouillage rapide. Télécharger le plugin ?</string>    
     <string name="Scan_RecommendScan">Pour Sécuriser votre téléphone, veuillez examiner maintenant</string>
     <string name="Scan_RecommendScan_LongTime">Pas d examen récent de votre téléphone, examiner maintenant SVP</string>
     <string name="Scan_JustScanned">Examen récent, semble correct</string>
@@ -1686,7 +1764,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="SoftMgr_Cache_Used">Cache : %1$s</string>
     <string name="SoftMgr_Retain">%1$s &lt;font color=\"#FF7E00\">%2$s&lt;/font></string>
     <string name="SoftMgr_AppPerm_Tip">&lt;font color=\"#17A4F5\">Defense active &lt;/font>-->Contrôler les permissions des apps</string>
-    <string name="SoftMgr_AppUninstall_Tip">&lt;font color=\"#17A4F5\">%1$d-&lt;/font>Apps utilisateur，</string>
+    <string name="SoftMgr_AppUninstall_Tip">&lt;font color=\"#17A4F5\">%1$d-&lt;/font>Apps utilisateur </string>
     <string name="SoftMgr_SysUninstall_Tip">&lt;font color=\"#17A4F5\">%1$d apks &lt;/font> logiciel préinstallé</string>
     <string name="SoftMgr_AppMove_Clean">Votre système est sain，&lt;font color=\"#17A4F5\">Non&lt;/font>Appli de déplacement</string>
     <string name="SoftMgr_AppMove_Suggest1">&lt;font color=\"#17A4F5\">%1$d-&lt;/font>Appli recommandée pour déplacmeent sur SD</string>
@@ -1701,9 +1779,9 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="SoftMgr_App_OptedDesc">%1$d A surveiller , &lt;font color=\"#17A4F5\">%2$d &lt;/font> conseillée(s)</string>
     <string name="SoftMgr_Order">Trier</string>
     <string name="SoftMgr_NewApp">Nouvelle appli non configurée</string>
-    <string name="SoftMgr_Signature_Error">%1$s ( Certified exception )</string>
+    <string name="SoftMgr_Signature_Error">%1$s (Erreur de signature)</string>
     <string name="SoftMgr_Down_Install">%1$s ( downgrade installations )</string>
-    <string name="SoftMgr_NewApp_Configuration">%1$d shall wait for configuration software</string>
+    <string name="SoftMgr_NewApp_Configuration">%1$d doit attendre la configuration</string>
     <string name="sm_sau_may_uninstall">Vous pouvez désintaller</string>
     <string name="sm_sau_recommend_uninstall">Désinstallation recommandée</string>
     <string name="sm_sau_careful_uninstall">Cautious unloading</string>
@@ -1716,12 +1794,14 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="SoftMgr_AppUninstall_SDCleanPrompt">Désinstaller %1$d applications ?</string>
     <string name="SoftMgr_AppUninstall_Uninstall">Désinstaller</string>
     <string name="SoftMgr_AppUninstall_SysWarning">La suppression d applications systèmes peut engendrer des problèmes. Utiliser le bouton de déverrouillage pour continuer</string>
-    <string name="SoftMgr_SysUninstall">Geler apps</string>
-    <string name="SoftMgr_SysUninstall_HIPS_Required">Active defense service is not turned on , you can not streamline the system</string>
+    <string name="SoftMgr_SysUninstall">Geler applis</string>
+    <string name="SoftMgr_SysUninstall_HIPS_Required">La Défense Active n'est pas activée, vous ne pouvez pas surveiller le système</string>
     <string name="SoftMgr_SysUninstall_RecycleBin">Désinstaller</string>
     <string name="SoftMgr_SysUninstall_EnterRecycleBin">Corbeille</string>
-    <string name="SoftMgr_SysUninstall_Uninstalling">Désinstallation:%1$s</string>
-    <string name="SoftMgr_SysUninstall_Restore">Restauration en cours:%1$s</string>
+    <string name="SoftMgr_SysUninstall_Uninstalling">Désinstallation: %1$s</string>
+    <string name="SoftMgr_SysUninstall_Restore">Restauration en cours: %1$s</string>
+    <string name="SoftMgr_SysUninstall_Restore_Successfully">Restauration réussie de %s</string>
+    <string name="SoftMgr_SysUninstall_Restore_Failed">，échec de %s</string>	
     <string name="SoftMgr_SysUninstall_Restore_Result">Restauration réussie de logiciel préinstallé %1$s, 2 échoués %2$s</string>
     <string name="SoftMgr_SysUninstall_UninsFail">Echec de la désinstallation</string>
     <string name="SoftMgr_SysUninstall_RootClean">"LBE vous a aidé à désinstaller %1$s, Vous avez ainsi gagné %2$s d\'espace de stockage"</string>
@@ -1737,6 +1817,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="SoftMgr_AppPermission_Suggest_Others">A surveiller</string>
     <string name="SoftMgr_NoApp">"L\'application ne remplit pas les conditions nécessaires"</string>
     <string name="SoftMgr_App2SD">Déplacer Apps sur SD</string>
+    <string name="SoftMgr_App2SD_Des">L'appli est déplacé de la mémoire interne vers la carte SD</string>
     <string name="SoftMgr_App2SD_Suggest">Déplacement recommandé</string>
     <string name="SoftMgr_App2SD_Moving">Déplacer ..</string>
     <string name="SoftMgr_App2SD_Phone">App internes</string>
@@ -1857,8 +1938,8 @@ Dernière modif:
     <string name="SysOpt">Accélérateur</string>
     <string name="SysOpt_Task_Running_Tip">&lt;font color=\"#FF7E00\">%1$d-&lt;/font>Applications en attente de nettoyage</string>
     <string name="SysOpt_AutoBoot_Tip">&lt;font color=\"#FF7E00\">%1$d-&lt;/font>Applications au démarrage</string>
-    <string name="SysOpt_AutoBoot_Tip2">&lt;font color=\"#FF7E00\">%1$d-&lt;/font>Application surveillées</string>
-    <string name="SysOpt_White_Tip">&lt;font color=\"#FF7E00\">%1$d-&lt;/font>Applications en liste blanche</string>
+    <string name="SysOpt_AutoBoot_Tip2">&lt;font color=\"#FF7E00\">%1$d-&lt;/font>Applications surveillées</string>
+    <string name="SysOpt_White_Tip">&lt;font color=\"#FF7E00\">%1$d-&lt;/font>Applications en Liste blanche</string>
     <string name="SysOpt_Cache_Tip1">"&lt;font color=\"#FF7E00\">&lt;/font>Résidus d\'applications"</string>
     <string name="SysOpt_Cache_Tip2">OK&lt;font color=\"#FF7E00\">%1$d jours&lt;/font>Il y a</string>
     <string name="SysOpt_Cache_Tip3">"Résidus d\'applications"</string>
@@ -1866,7 +1947,8 @@ Dernière modif:
     <string name="SysOpt_TaskMgr_Des">Gestion des tâches de fond, de la mémoire, et de l\'occupation CPU</string>
     <string name="SysOpt_TaskMgr_RunningApp">Tâches en cours</string>
     <string name="SysOpt_TaskMgr_Action">One-Click Boost (tuer %1$d tâches)</string>
-    <string name="SysOpt_TaskMgr_Action_Select">Sélectionner l application à arrêter</string>
+    <string name="SysOpt_TaskMgr_Action_Normal">OneClick Accélérateur</string>
+    <string name="SysOpt_TaskMgr_Action_Select">Sélectionner l\'application à arrêter</string>
     <string name="SysOpt_TaskMgr_Result">%1$d tâches tuées, %2$s mémoire libérée</string>
     <string name="SysOpt_TaskMgr_Best_State_Tips">A atteint l\'état optimal</string>	
     <string name="SysOpt_Boost">Gestion du démarrage</string>
@@ -1919,6 +2001,10 @@ Dernière modif:
     <string name="SysOpt_Des_WindowFile">Fichiers générés par votre ordinateur</string>
     <string name="SysOpt_TaskMgr_WhiteWithWidgets_Remove">Existence d\'un bureau ou d\'un plugin système, retiré de la liste blanche</string>
     <string name="SysOpt_TaskMgr_WhiteWithWidgets_Clean">Existence d\'un bureau ou d\'un plugin système, dont la fermeture peut générer un écran noir, le temps que le bureau redémarre</string>
+    <string name="SysOpt_TaskMgr_WhiteWithAlarm_Remove">Existence d'une appli alarme-réveil retiré de la Liste blanche</string>
+    <string name="SysOpt_TaskMgr_WhiteWithAlarm_Clean">Existence d'une appli alarme-réveil, dont la fermeture peut empêcher le déclenchement d'une alarme</string>
+    <string name="SysOpt_TaskMgr_WhiteWithLauncher_Remove">Existence d\'un bureau retiré de la liste blanche</string>
+    <string name="SysOpt_TaskMgr_WhiteWithLauncher_Clean">Existence d\'un bureau, dont la fermeture peut générer un écran noir, le temps que le bureau redémarre</string>   
     <string name="SysOpt_TaskMgr_White">Liste blanche</string>
     <string name="SysOpt_TaskMgr_CPU">CPU: %1$s</string>
     <string name="SysOpt_TaskMgr_RAM">RAM: %1$s</string>
@@ -1928,7 +2014,7 @@ Dernière modif:
     <string name="SysOpt_TaskMgr_ToWhiteList">Ajouter liste blanche (%1$d)</string>
     <string name="SysOpt_TaskMgr_AddWhite">Liste blanche</string>
     <string name="SysOpt_WhiteList_Tips" />
-	<string name="SysOpt_Hardware">Détails de l\'appareil</string>
+    <string name="SysOpt_Hardware">Détails de l\'appareil</string>
     <string name="SysOpt_Hardware_Basic">Informations de base</string>
     <string name="SysOpt_Hardware_CPU_Storage">CPU</string>
     <string name="SysOpt_Hardware_Network">Réseau</string>
