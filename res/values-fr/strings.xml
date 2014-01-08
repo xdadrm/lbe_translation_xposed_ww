@@ -260,7 +260,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="AV_NoVirus">Aucun malware détecté, scannez régulièrement !</string>
     <string name="AV_NoVirus1">Votre appareil est sain</string>
     <string name="AV_NoVirus2">OK, pensez à vérifier de temps en temps</string>
-    <string name="AV_ScanProgress">Progression de l'analyse: %1$s</string>
+    <string name="AV_ScanProgress">Progression de l\'analyse: %1$s</string>
     <string name="AV_ScanNewApp">Analyse: %1$s</string>
     <string name="AV_ScanNewApp_Virus">Dans %1$s une menace a été détectée, et nettoyée</string>
     <string name="AV_Prompt">Menace détectée dans %1$s : %2$s Veuillez nettoyer immédiatement</string>
@@ -295,8 +295,8 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Battery_Logs_Des">Consulter la consommation de la batterie</string>
     <string name="Battery_NotifMode">Notification et journalisation batterie</string>
     <string name="Battery_NotifMode_Des">"Optimisez l\'utilisation au quotidien"</string>
-    <string name="Battery_ShowToast">"Alerte de changement d\'état"</string>
-    <string name="Battery_ShowToastDes">"Optimisez l\'autonomie grâce aux notifications"</string>
+<!--     <string name="Battery_ShowToast">"Alerte de changement d\'état"</string> -->
+<!--     <string name="Battery_ShowToastDes">"Optimisez l\'autonomie grâce aux notifications"</string> -->
     <string name="Battery_Bright_Resume">La luminosité sera restaurée une fois cette fenêtre fermée.</string>
     <string name="Battery_Bright_CheckTitle">Détection minimum de la luminosité</string>
     <string name="Battery_Bright_CheckMsg">"Pendant la détection de la luminosité mini, l\'écran peut devenir noir pendant quelques secondes, patienter svp. Voyez vous correctement la luminosité minimum ?"</string>
@@ -420,10 +420,10 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Battery_HardwareConsumption_None">Pas de conso du système</string>
     <string name="Battery_SoftwareConsumption">Conso des applis</string>
     <string name="Battery_SoftwareConsumption_None">Pas conso des applis</string>
-    <string name="Battery_Consumption_CPU">Temps d'utilisation CPU</string>
+    <string name="Battery_Consumption_CPU">Temps d\'utilisation CPU</string>
     <string name="Battery_Consumption_CPU_FG">Temps de réception</string>
     <string name="Battery_Consumption_GPS">Temps GPS</string>
-    <string name="Battery_Consumption_Service">Temps d'exécution des services de fond</string>
+    <string name="Battery_Consumption_Service">Temps d\'exécution des services de fond</string>
     <string name="Battery_Consumption_WakeCnts">Nombre de réveils du CPU</string>
     <string name="Battery_Consumption_WakeTime">Temps de réveil CPU</string>
     <string name="Battery_Consumption_Wakeups">Temps de réveil</string>
@@ -591,14 +591,14 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Battery_Log_Tips_LockTime">Temps mise en veille</string>
     <string name="Battery_Log_Tips_Volume">Volume</string>
     <string name="Battery_Log_Change">Change</string>
-    <string name="Battery_Service">Log des services d'optimisation</string>
+    <string name="Battery_Service">Log des services d\'optimisation</string>
     <string name="Battery_Show_Notif">Affiche dans la barre de notification</string>
     <string name="Battery_Show_NotifDes">Affiche l\'état de la batterie en temps réel dans la barre de notification</string>
     <string name="Battery_ShowToast">Alerte des changements de statut du téléphone</string>
     <string name="Battery_ShowToastDes">Vous informe des modifications pour optimiser l\'état de votre téléphone</string>
-    <string name="Battery_CheckBright">Détection de la luminosité minimale de l'écran</string>
-    <string name="Battery_CheckBrightDes">Détecte le niveau minimal de luminosité de l'écran de votre téléphone</string>
-    <string name="Battery_Service_Autostart">Log des services d'optimisation active</string>
+    <string name="Battery_CheckBright">Détection de la luminosité minimale de l\'écran</string>
+    <string name="Battery_CheckBrightDes">Détecte le niveau minimal de luminosité de l\'écran de votre téléphone</string>
+    <string name="Battery_Service_Autostart">Log des services d\'optimisation active</string>
     <string name="Battery_Capacity_Unit">mAh</string>
     <string name="Desktop_Backup">Raccourci sur le bureau</string>    
     <string name="Desktop_Traffic">Trafic Aujourd hui</string>
@@ -623,7 +623,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Desktop_Choose_Unlock_Type">Sélection du mode de déverrouillage</string>
     <string name="Desktop_Password_Setting">Paramètres de mot de passe</string>
     <string name="Desktop_Recommend_Setting">Paramètre recommandé</string>
-    <string name="Desktop_Recommend_Setting_Desc">Vous pouvez paramétrer des applis en Liste blanche, pour éviter qu'elles ne soient tuées lors d'un nettoyage. Vous pouvez également paramétrer la Gestion du démarrage des applis.</string>
+    <string name="Desktop_Recommend_Setting_Desc">Vous pouvez paramétrer des applis en Liste blanche, pour éviter qu\'elles ne soient tuées lors d\'un nettoyage. Vous pouvez également paramétrer la Gestion du démarrage des applis.</string>
     <string name="Desktop_White_List">Liste blanche</string>
     <string name="Desktop_AutoStart_Manage">Depuis le lancement du Gestionnaire</string>    
     <string name="airplane_mode">Mode avion</string>
@@ -733,17 +733,19 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Generic_Exception">Exeption</string>
     <string name="Generic_Setting">Régler</string>
     <string name="Generic_Finish_Setting">Terminer le réglage</string>
-    <string name="Generic_Time_Today">aujourd'hui</string>
+<!--  These need to be in UTF-8 16bbit due to LBE Code
+     otherwise you'll get crashes in Antivirus
+    <string name="Generic_Time_Today">aujourd\'hui</string>
     <string name="Generic_Time_Yesterday">hier</string>
     <string name="Generic_Time_Before_Yesterday">avant-hier</string>
     <string name="Generic_Time_Tomorrow">demain</string>
     <string name="Generic_Time_After_Tomorrow">après-demain</string>
-    <string name="Generic_Time_Before_Dawn">avant l'aurore</string>
+    <string name="Generic_Time_Before_Dawn">avant l\'aurore</string>
     <string name="Generic_Time_AM">matin</string>
     <string name="Generic_Time_Noon">midi</string>
     <string name="Generic_Time_PM">après-midi</string>
     <string name="Generic_Time_Night">soir</string>
-    <string name="Generic_Date_Formatter">yy MM ddc HH mm</string>
+ -->    <string name="Generic_Date_Formatter">yy MM ddc HH mm</string>
     <string name="Generic_Time_Formatter">HH mm </string>    
     <string name="Generic_Time_Day">Jour</string>
     <string name="Generic_Time_Hour">heure(s)</string>
@@ -905,7 +907,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Keyguard_Name_Pin">Mot de passe</string>
     <string name="Keyguard_Summary_Facerec">Reconnaissance faciale unique</string>
     <string name="Keyguard_Summary_Nfc">Tag NFC pour débloquer à tout moment</string>
-    <string name="Keyguard_Message_Update">La version actuelle de l'espace Vie privée n'est pas pris en charge, mettez à jour l'espace Vie privée en version 2.2 pour une meilleure expérience.</string>
+    <string name="Keyguard_Message_Update">La version actuelle de l\'espace Vie privée n\'est pas pris en charge, mettez à jour l\'espace Vie privée en version 2.2 pour une meilleure expérience.</string>
     <string name="Keyguard_Fast_Unlock_Tips">Le déverrouillage rapide nécessite de télécharger le plugin Espace Vie privée</string>
     <string name="Keyguard_Tips_Pattern_Unlock">Veuillez dessiner un schéma pour déverrouiller</string>    
     <string name="Traffic">Trafic</string>
@@ -1041,7 +1043,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Patch_Need_Update_Desc">Le patch de sécurité nécessite une mise à jour, cela permettra d\'utiliser la dernière version de la Défense Active, et d\'appliquer les derniers correctifs du système.</string>
     <string name="Patch_Apply_Success">Félicitations, le patch de sécurité a été installé avec succès !</string>
     <string name="Patch_Enable_Hips_Tips">Ouvrir la Défense Active ?</string>
-    <string name="Patch_Need_More_Request">Le programme de réparation nécessite d'être mise à jour</string>
+    <string name="Patch_Need_More_Request">Le programme de réparation nécessite d\'être mise à jour</string>
     <string name="Phone">Blocage des appels et SMS</string>
     <string name="Phone_Setting">Paramètres de blocage</string>
     <string name="Phone_Running">Le service de blocage est activé</string>
@@ -1795,7 +1797,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="SoftMgr_AppUninstall_Uninstall">Désinstaller</string>
     <string name="SoftMgr_AppUninstall_SysWarning">La suppression d applications systèmes peut engendrer des problèmes. Utiliser le bouton de déverrouillage pour continuer</string>
     <string name="SoftMgr_SysUninstall">Geler applis</string>
-    <string name="SoftMgr_SysUninstall_HIPS_Required">La Défense Active n'est pas activée, vous ne pouvez pas surveiller le système</string>
+    <string name="SoftMgr_SysUninstall_HIPS_Required">La Défense Active n\'est pas activée, vous ne pouvez pas surveiller le système</string>
     <string name="SoftMgr_SysUninstall_RecycleBin">Désinstaller</string>
     <string name="SoftMgr_SysUninstall_EnterRecycleBin">Corbeille</string>
     <string name="SoftMgr_SysUninstall_Uninstalling">Désinstallation: %1$s</string>
@@ -1817,7 +1819,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="SoftMgr_AppPermission_Suggest_Others">A surveiller</string>
     <string name="SoftMgr_NoApp">"L\'application ne remplit pas les conditions nécessaires"</string>
     <string name="SoftMgr_App2SD">Déplacer Apps sur SD</string>
-    <string name="SoftMgr_App2SD_Des">L'appli est déplacé de la mémoire interne vers la carte SD</string>
+    <string name="SoftMgr_App2SD_Des">L\'appli est déplacé de la mémoire interne vers la carte SD</string>
     <string name="SoftMgr_App2SD_Suggest">Déplacement recommandé</string>
     <string name="SoftMgr_App2SD_Moving">Déplacer ..</string>
     <string name="SoftMgr_App2SD_Phone">App internes</string>
@@ -2001,8 +2003,8 @@ Dernière modif:
     <string name="SysOpt_Des_WindowFile">Fichiers générés par votre ordinateur</string>
     <string name="SysOpt_TaskMgr_WhiteWithWidgets_Remove">Existence d\'un bureau ou d\'un plugin système, retiré de la liste blanche</string>
     <string name="SysOpt_TaskMgr_WhiteWithWidgets_Clean">Existence d\'un bureau ou d\'un plugin système, dont la fermeture peut générer un écran noir, le temps que le bureau redémarre</string>
-    <string name="SysOpt_TaskMgr_WhiteWithAlarm_Remove">Existence d'une appli alarme-réveil retiré de la Liste blanche</string>
-    <string name="SysOpt_TaskMgr_WhiteWithAlarm_Clean">Existence d'une appli alarme-réveil, dont la fermeture peut empêcher le déclenchement d'une alarme</string>
+    <string name="SysOpt_TaskMgr_WhiteWithAlarm_Remove">Existence d\'une appli alarme-réveil retiré de la Liste blanche</string>
+    <string name="SysOpt_TaskMgr_WhiteWithAlarm_Clean">Existence d\'une appli alarme-réveil, dont la fermeture peut empêcher le déclenchement d\'une alarme</string>
     <string name="SysOpt_TaskMgr_WhiteWithLauncher_Remove">Existence d\'un bureau retiré de la liste blanche</string>
     <string name="SysOpt_TaskMgr_WhiteWithLauncher_Clean">Existence d\'un bureau, dont la fermeture peut générer un écran noir, le temps que le bureau redémarre</string>   
     <string name="SysOpt_TaskMgr_White">Liste blanche</string>
