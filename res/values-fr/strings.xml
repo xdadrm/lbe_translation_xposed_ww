@@ -7,7 +7,7 @@
     <string name="HIPS_Action_Prompt_Colored">&lt;font color=\"#FF8A00\"> Dem. &lt;/font></string>
     <string name="HIPS_Action_Reject_Colored">&lt;font color=\"#DF0000\"> Interdire &lt;/font></string>
     <string name="HIPS_Group_Expense">Lié à la sécurité</string>
-    <string name="HIPS_Group_PIM">Personal Information</string>
+    <string name="HIPS_Group_PIM">Informations personnelles</string>
     <string name="HIPS_Group_Location">Localisation</string>
     <string name="HIPS_Group_PhoneID">Info périphérique</string>
     <string name="HIPS_Group_Internet">Accès à Internet</string>
@@ -33,7 +33,7 @@
     <string name="HIPS_Perm_PhoneID_Hint">"%1$s demande la permission d\'obtenir l\'ID de votre téléphone"</string>
     <string name="HIPS_Perm_MobileNetwork">Accès à internet via 2G/3G</string>
     <string name="HIPS_Perm_MobileNetwork_Desc">Accède à internet via le réseau 2G/3G</string>
-    <string name="HIPS_Perm_MobileNetwork_Hint">%1$s shall have the Permission software to access the network</string>
+    <string name="HIPS_Perm_MobileNetwork_Hint">%1$s sera autorisé à accéder au réseau</string>
     <string name="HIPS_Perm_WIFINetwork">Accès internet via WiFi</string>
     <string name="HIPS_Perm_WIFINetwork_Desc">Accède à internet via le WiFi</string>
     <string name="HIPS_Perm_WIFINetwork_Hint">"%1$s demande la permission  d\'accéder à internet"</string>
@@ -129,7 +129,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="rate_to">Noter</string>
     <string name="current_version">Version actuelle</string>
     <string name="recommend_lbe_master">Recommander</string>
-    <string name="already_block">Has blocked</string>
+    <string name="already_block">a bloqué</string>
     <string name="Download_NoSd_Hint">Pas de carte SD, insérer une carte SD pour poursuivre le téléchargement</string>
     <string name="miui_step_5">5.Configuration terminée</string>
     <string name="miui_step_4">4.Cliquer pour fermer</string>
@@ -542,12 +542,12 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Battery_Database_NightPlan_Comment">Définir un horaire nocturne</string>
     <string name="Battery_Log_Service_Start">"^ _ ^ , Besoin d\'aide ??"</string>
     <string name="Battery_Log_Service_Stop" formatted="false">%> _ &lt;% , Le service assistant est arrêté</string>
-    <string name="Battery_Log_NightMode_Entered">%1$s has been activated and is expected to end after %2$s</string>
-    <string name="Battery_Log_NightMode_WillDelay">Phone use ,%1$s to defer to the lock screen and no phone starts after %2$s</string>
-    <string name="Battery_Log_NightMode_Delay">%1$s in %2$s after the start</string>
-    <string name="Battery_Log_NightMode_Exit">%1$s next start , scheduled for after %2$s</string>
-    <string name="Battery_Log_NightMode_ScreenOff">Screen off , delay %1$s , start %2$s</string>
-    <string name="Battery_Log_NightMode_Error">Configuration exception :%1$s (%2$d)</string>
+    <string name="Battery_Log_NightMode_Entered">%1$s a été activé et devrait se terminé après %2$s</string>
+    <string name="Battery_Log_NightMode_WillDelay">Téléphone en cours d\'utilisation, %1$s différé au prochain vérouillage de l\'écran et pas de téléphonie après %2$s</string>
+    <string name="Battery_Log_NightMode_Delay">%1$s à %2$s après le démarrage</string>
+    <string name="Battery_Log_NightMode_Exit">%1$s prochain redémarrage, prévu pour après %2$s</string>
+    <string name="Battery_Log_NightMode_ScreenOff">Ecran éteint, délai %1$s , démarre %2$s</string>
+    <string name="Battery_Log_NightMode_Error">Erreur de Configuration: %1$s (%2$d)</string>
     <string name="Battery_Log_NightMode_EnterDes_Start">%1$s commencer</string>
     <string name="Battery_Log_NightMode_EnterDes_Freed">Libérer %1$s mémoire</string>
     <string name="Battery_Log_NightMode_EnterDes_Execute">Activate %1$s</string>
@@ -702,7 +702,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Generic_Check">Inspecter</string>
     <string name="Generic_Remove">Supprimer</string>
     <string name="Generic_Clean">Effacer</string>
-    <string name="Generic_Start">Sémarrer</string>
+    <string name="Generic_Start">Démarrer</string>
     <string name="Generic_Running">En cours</string>
     <string name="Generic_Cleaned">Nettoyé</string>
     <string name="Generic_Finished">Terminé</string>
@@ -1281,7 +1281,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Plugin_AntiTheft_Name">LBE Antivol</string>
     <string name="Plugin_AntiTheft_Welcome">Bienvenue sur le service LBE Antivol</string>
     <string name="Plugin_AntiTheft_Introduction">"ATTENTION ! Si vous téléchargez LBE Antivol depuis LBE, l\'application Antivol sera en chinois ! Préférez l\'APK en FR téléchargé séparément ;)"</string>
-    <string name="Plugin_AntiTheft_RootInstall">installation ROOT</string>
+    <string name="Plugin_AntiTheft_RootInstall">Installation ROOT</string>
     <string name="Plugin_AntiTheft_RootIntroduction">"En mode d\'installation ROOT LBE antivol service peut être installé en tant que composant du système et ne peut pas être facilement désinstallé. Même si votre téléphone est rétabli aux réglages d\'usine. LBE service de sécurité est toujours opérationnel pour protéger la sécurité de votre téléphone"</string>
     <string name="Plugin_AntiTheft_Install">Téléch. install Antivol LBE [Chinois !]</string>
     <string name="Plugin_AntiTheft_Installing">Installation</string>
@@ -2114,9 +2114,9 @@ Dernière modif:
     <string name="HIPS_Perm_Bluetooth_Connectivity">Activer le Bluetooth</string>
     <string name="HIPS_Perm_Bluetooth_Connectivity_Desc">Activer le Bluetooth</string>
     <string name="HIPS_Perm_Bluetooth_Connectivity_Hint">%1$s peut utiliser le Bluetooth</string>
-    <string name="HIPS_Perm_MMS_Access">Lire les contenus MMS</string>
-    <string name="HIPS_Perm_Recorder_Camera">photos</string>
-    <string name="HIPS_Perm_Recorder_VoiceCall">a enregistré des appels audio</string>
+    <string name="HIPS_Perm_MMS_Access">lire les contenus MMS</string>
+    <string name="HIPS_Perm_Recorder_Camera">prendre des photos</string>
+    <string name="HIPS_Perm_Recorder_VoiceCall">enregistrer des appels audio</string>
     <string name="Desktop_Traffic_Month_Hint">mois :%1$s</string>
     <string name="Phone_Database_Marker_Name_Correction">nombre de corrections en erreur</string>
     <string name="Phone_correction_no_data">Pas de correction de numéro nécessaire</string>
@@ -2162,7 +2162,7 @@ Dernière modif:
     <string name="yellow_no_such_data">n\'a pas trouvé de données pertinentes</string>
     <string name="yellow_currennt_network_unavailable">le réseau actuel n\'est pas disponible</string>
     <string name="yellow_server_error">erreur du serveur des amis</string>
-    <string name="yellow_server_timeout">la connexion a expiré, veuillez tenter à nouveau</string>
+    <string name="yellow_server_timeout">La connexion a expiré, veuillez tenter à nouveau</string>
     <string name="yellow_data_supported">données de</string>
     <string name="yellow_data_supported_by">fourni</string>
     <string name="HIPS_Perm_VideoRecorder">Photos et Videos</string>
