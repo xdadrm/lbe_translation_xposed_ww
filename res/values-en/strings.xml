@@ -213,7 +213,7 @@
     <string name="AD_Antiadware_Dsc2">Have been scanned, blocking malicious ads</string>
     <string name="AD_Adware_App">Including advertising programs</string>
     <string name="AD_Adware_Literal_Version">Advertising sample library version :%1$s</string>
-    <string name="AD_Adware_Uninstall_Prompt">Whether uninstall %1$s</string>
+    <string name="AD_Adware_Uninstall_Prompt">Uninstall %1$s ?</string>
     <string name="AD_Adware_Onekey_Block">Oneclick risk AD Block</string>
     <string name="AD_Last_Scan_Time">Last Scan Time</string>
     <string name="AD_Scan">Ad Scan</string>
@@ -251,7 +251,7 @@
     <string name="AV_CancelScan">Cancel a scan</string>
     <string name="AV_Settings_Title">Antivirus set</string>
     <string name="AV_Init">Starting antivirus engine</string>
-    <string name="AV_Cancel_Message">Antivirus has not been completed, whether to terminate the scan</string>
+    <string name="AV_Cancel_Message">Antivirus has not been completed, terminate the scan ?</string>
     <string name="AV_Clean">OneCLick clean-up (%1$d threat )</string>
     <string name="AV_Cleaning">Being cleaned</string>
     <string name="AV_ScanResult_Pending">Wait Clear</string>
@@ -264,7 +264,7 @@
     <string name="AV_ScanNewApp">Scanning :%1$s</string>
     <string name="AV_ScanNewApp_Virus">In %1$s threat is detected, immediately clear</string>
     <string name="AV_Prompt">In %1$s threat is detected %2$s Please immediately clear</string>
-    <string name="AV_PromptMid">In %1$s risk projects detected %2$s Whether to clear ?</string>
+    <string name="AV_PromptMid">Risks in %1$s risk detected %2$s, clear them ?</string>
     <string name="AV_StoragePath">Located</string>
     <string name="AV_VirusDetail1">Specific</string>
     <string name="AV_VirusDetail2">Harm</string>
@@ -303,11 +303,11 @@
     <string name="Battery_Bright_Cancel">No Sense</string>
     <string name="Battery_Bright_Min">LBE recommended minimum brightness of your screen is limited to %1$d%%, protected screen eyesight</string>
     <string name="Battery_Delete_BatteryMode">Delete the current power plan</string>
-    <string name="Battery_Delete_BatteryModeTip">Whether to delete the current power plan ? Remove power scheme may affect Night Mode tasks with personalized configuration, Please handle with caution .</string>
+    <string name="Battery_Delete_BatteryModeTip">Delete the current power plan ? Removeing power scheme may affect Night Mode tasks with personalized configuration, Please handle with caution.</string>
     <string name="Battery_Delete_Night">Delete the current Night Mode tasks</string>
     <string name="Battery_Delete_NightTip">Delete this Night Mode tasks</string>
     <string name="Battery_Delete_Trigger">Delete the current personalized configuration</string>
-    <string name="Battery_Delete_TriggerTip">Whether to delete the current configuration, personalized task</string>
+    <string name="Battery_Delete_TriggerTip">Delete the current configuration, personalized task</string>
     <string name="Battery_BatteryStatusLog">Battery log</string>
     <string name="Battery_Add_NewMode">+ New Power Saving Modes</string>
     <string name="Battery_Add_NewNight">+ New Night Mode plan</string>
@@ -768,7 +768,7 @@
     <string name="Home_Feedback_LogErrorFile_Upload_TimeLimit">Commit interval is less than 10 minutes, please submit later</string>
     <string name="Home_Feedback_Cannotaccess_SDCard">Can not access the memory card, make sure the memory card is available</string>
     <string name="Home_Feedback_LogErrorFile_NoNetwork">Error log has been generated, the size of %1$s, storage location is %2$s</string>
-    <string name="Home_Feedback_LogErrorFile_Send">Error log has been generated, the size of %1$s, Please choose whether or not upload file</string>
+    <string name="Home_Feedback_LogErrorFile_Send">Error log has been generated of %1$s, Please choose whether or not upload that file</string>
     <string name="Home_Feedback_LogErrorFile_NoSend">Error log has been generated, stored location is %1$s</string>
     <string name="Home_About">About</string>
     <string name="Home_About_PkgVersion">%1$s for Android version %2$s</string>
@@ -781,7 +781,7 @@
     <string name="Home_AlertTab">Home Switch</string>
     <string name="Home_AlertTab_Toast">Home has switched to the main screen %1$s</string>
     <string name="Home_Exit">Close Services</string>
-    <string name="Home_Exit_Warning">Close LBE Security Master security service, your phone will lose protection, whether to continue</string>
+    <string name="Home_Exit_Warning">Close LBE Security Master security service, your phone will lose protection, continue ?</string>
     <string name="Home_Item_Name_PhonePlugin">Communication Toolbox</string>
     <string name="Home_Item_Name_IpCall">IP dialing</string>
     <string name="Home_Item_Name_PhoneEnhance">Enhanced Communication</string>
@@ -1120,7 +1120,7 @@
     <string name="Phone_Clear_ALL_Log_Message">Sure you want to clear all the interception record it</string>
     <string name="Phone_Clear_ALL_IpNoUse">Sure you want to clear all NA IP dialing number</string>
     <string name="Phone_Report_Success">Report spam messages successfully, thank you for your support</string>
-    <string name="Phone_Import_Log">Whether to import these numbers text messages and phone records ? Import was successful system of records will be deleted</string>
+    <string name="Phone_Import_Log">Import these numbers text messages and phone records ? Import was successful system of records will be deleted</string>
     <string name="Phone_MISSED__Content">Missed Length :%s</string>
     <string name="Phone_Coming_Content">Call Duration :%s</string>
     <string name="Phone_Going_Content">Outgoing Length :%s</string>
@@ -1147,7 +1147,7 @@
     <string name="Phone_MissCall_SelectRing">To select a ringtone</string>
     <string name="Phone_NightSaving_BeginTime">Start time</string>
     <string name="Phone_NightSaving_EndTime">End Time</string>
-    <string name="Phone_Alert_Add_White">Whether to restore SMS and call records to the system</string>
+    <string name="Phone_Alert_Add_White">Restore SMS and call records to the system</string>
     <string name="Phone_Common_Number">Frequently called numbers</string>
     <string name="Phone_Fixed_Line">Fixed telephone</string>
     <string name="Phone_UnKnow_Alert">Unread event reminders</string>
@@ -1999,11 +1999,11 @@
     <string name="Update_Auto_NewAdwareSetVer">LBE Security Master repository has released updated ads</string>
     <string name="Update_Auto_NewPlugin">%1$s updated version has been released</string>
     <string name="Update_Auto_Detail">Click here to update to version %1$s</string>
-    <string name="Update_MainVersion">LBE Security Master %1$s updated version has been released, whether to immediately download the update ? %2$s</string>
-    <string name="Update_VirusPattern">Virus database update version %1$s has been released, whether immediately download the update ? %2$s</string>
+    <string name="Update_MainVersion">LBE Security Master %1$s updated version has been released, Update now ? %2$s</string>
+    <string name="Update_VirusPattern">Virus database update version %1$s has been released, Update now ? %2$s</string>
     <string name="Update_VirusEngine">Virus Engine %1$s has been released. Update now ? %2$s</string>
-    <string name="Update_AdwareSet">Ad Library %1$s updated version has been released, whether immediately download the update ? %2$s</string>
-    <string name="Update_Plugin">%1$s %2$s updated version has been released, whether to immediately download the update ? %3$s</string>
+    <string name="Update_AdwareSet">Ad Library %1$s updated version has been released, Update now ? %2$s</string>
+    <string name="Update_Plugin">%1$s %2$s updated version has been released, Update now ? %3$s</string>
     <string name="Update_NoUpdate">You are already using the latest version.</string>
     <string name="Update_VirusPattern_Finish">Your virus database has been upgraded to the latest version :%1$s</string>
     <string name="Update_Check">Checking for updates...</string>
