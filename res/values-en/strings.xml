@@ -956,11 +956,11 @@
     <string name="Traffic_Carrier_CMCC">China Mobile</string>
     <string name="Traffic_Carrier_UNICOM">China Unicom</string>
     <string name="Traffic_Carrier_TELECOM">China Telecom</string>
-    <string name="Traffic_Carrier_CMCC_Brand_Global">GSM</string>
+    <string name="Traffic_Carrier_CMCC_Brand_Global">GoTone</string>
     <string name="Traffic_Carrier_CMCC_Brand_MZone">M-Zone</string>
-    <string name="Traffic_Carrier_CMCC_Brand_ShenZhou">Shengzhouxing</string>
+    <string name="Traffic_Carrier_CMCC_Brand_ShenZhou">Easyown</string>
     <string name="Traffic_Carrier_UNICOM_Brand_2G">Unicom 2G</string>
-    <string name="Traffic_Carrier_UNICOM_Brand_3G">Unicom fertile 3G</string>
+    <string name="Traffic_Carrier_UNICOM_Brand_3G">Unicom Wo 3G</string>
     <string name="Traffic_Carrier_TELECOM_Brand">China Telecom</string>
     <string name="Nft_Mgr_Title">Notification bar</string>
     <string name="Nft_Mgr_Title_Hint">Easy to advertising, clean notification bar</string>
