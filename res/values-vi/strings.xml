@@ -123,7 +123,7 @@
     <string name="HIPS_Perm_Recorder_Video">Quay video</string>
     <string name="HIPS_Perm_Recorder_Audio">Ghi âm audio</string>
     <string name="HIPS_Perm_Recorder_VoiceCall">Ghi âm VoiceCall</string>
-    <string name="app_name">LBE Security Master</string>
+    <string name="app_name">LBE security master</string>
     <string name="Generic_Low_Memory">Bộ nhớ điện thoại hết! Xóa một số tập tin để giải phóng thêm.</string>
     <string name="download_unknown_title">&lt;Untitled></string>
     <string name="notification_filename_separator">,</string>
@@ -172,7 +172,7 @@ Tất cả các quyền"</string>
     <string name="block_error_desc">Ngăn chặn báo lỗi</string>
     <string name="call_phone_error">Không có SIM hoặc mất mạng, không thể thực hiện cuộc gọi</string>
     <string name="block_error_tips_message">Khi ngăn chặn chế độ chọn \"Off\", \"số trống rỗng\", chế độ \"dừng lại\", nếu bạn gặp lỗi mã MMI , xin vui lòng gọi tính năng chuyển tiếp, bạn có thể trực tiếp quay số dịch vụ điều hành điện thoại trực tiếp mở (miễn phí).</string>
-    <string name="soft_manager_mem">Bộ nhớ máy</string>
+    <string name="soft_manager_mem">Bộ nhớ</string>
     <string name="soft_manager_sdcard">Thẻ SD</string>
     <string name="phone_accelerator_cpu">CPU</string>
     <string name="phone_accelerator_ram">RAM</string>
@@ -326,7 +326,7 @@ Có loại bỏ không?"</string>
     <string name="Battery_Logs_Des">Ghi nhật ký sử dụng pin</string>
     <string name="Battery_Bright_Resume">Độ sáng màn hình sẽ được phục hồi sau khi thoát khỏi trang này</string>
     <string name="Battery_Bright_CheckTitle">Phát hiện độ sáng màn hình tối thiểu</string>
-    <string name="Battery_Bright_CheckMsg">Phát hiện độ sáng màn hình thấp nhất, có thể gây ra màn hình điện thoại của bạn làm mờ ngắn</string>
+    <string name="Battery_Bright_CheckMsg">"Phát hiện độ sáng màn hình thấp nhất, có thể gây ra màn hình điện thoại của bạn làm mờ ngắn"</string>
     <string name="Battery_Bright_Check">Phát hiện</string>
     <string name="Battery_Bright_Next">Để sau</string>
     <string name="Battery_Bright_Cancel">Không</string>
@@ -391,7 +391,7 @@ Loại bỏ các chương trình năng lượng có thể ảnh hưởng đến 
     <string name="Battery_Action_KillApp">Làm sạch RAM</string>
     <string name="Battery_Action_LimitCPU">Giới hạn tần số CPU</string>
     <string name="Battery_Action_PlayNotif">Bật thông báo</string>
-    <string name="Battery_Action_KillApp_Tip">Kích hoạt tắt hết ứng dụng nền</string>
+    <string name="Battery_Action_KillApp_Tip">Tắt hết ứng dụng nền</string>
     <string name="Battery_Action_PlayNotif_Tip">Bật cảnh báo âm thanh khi bắt đầu</string>
     <string name="Battery_Action_KillSelf_Tip">Bật làm sạch trở lại</string>
     <string name="Battery_Action_LimitCPU_Tip">Bật giới hạn tần số CPU</string>
@@ -461,7 +461,7 @@ Trì hoãn thực hiện không đáp ứng các tiêu chí, bỏ qua quá trìn
     <string name="Battery_Consumption_Sensor">Cảm biến</string>
     <string name="Battery_Consumption_TimeUsed">%1$.1f giây</string>
     <string name="Battery_Consumption_CntUsed">%1$d lần</string>
-    <string name="Battery_Consumption_StatisticTime">Thống kê: %1$s</string>
+    <string name="Battery_Consumption_StatisticTime">Thống kê: %1$s</string>	
     <string name="Battery_Consumption_Save">LBE Security Master để giúp bạn bỏ %1$s nền, pin điện thoại di động gia hạn sử dụng 8 phút.</string>
     <string name="Battery_Error_WrongItem">Lỗi tham số, không thể chỉnh sửa</string>
     <string name="Battery_Error_WrongCondition">Điều kiện gây ra lỗi</string>
@@ -530,11 +530,11 @@ Trì hoãn thực hiện không đáp ứng các tiêu chí, bỏ qua quá trìn
     <string name="Battery_BatteryInfo_HealthGood">Sức khỏe tốt</string>
     <string name="Battery_BatteryInfo_HealthBroke">Pin hỏng</string>
     <string name="Battery_BatteryInfo_MaxElectricity">Công suất tối đa</string>
-    <string name="Battery_BatteryInfo_CurrentElectricity">Tiêu thụ hiện nay</string>
+    <string name="Battery_BatteryInfo_CurrentElectricity">Công suất hiện nay</string>
     <string name="Battery_BatteryInfo_Temperature">Nhiệt độ pin</string>
     <string name="Battery_BatteryInfo_Voltage">Điện áp pin</string>
     <string name="Battery_BatteryInfo_Technology">Công nghệ pin</string>
-    <string name="Battery_AvailableTime_Detail">Các chi tiết về thời gian có sẵn</string>
+    <string name="Battery_AvailableTime_Detail">Thời gian sử dụng pin dự kiến</string>
     <string name="Battery_AvailableTime_CurrentBattery">Thời gian pin còn lại</string>
     <string name="Battery_AvailableTime_2gCall">Gọi 2G</string>
     <string name="Battery_AvailableTime_3gCall">Gọi 3G</string>
@@ -591,7 +591,7 @@ Trì hoãn thực hiện không đáp ứng các tiêu chí, bỏ qua quá trìn
     <string name="Battery_Log_ScreenLock_Des_NoTimeout">Không có thời gian chờ khóa màn hình</string>
     <string name="Battery_Log_Cpu_Des_Sleeping">Ngủ</string>
     <string name="Battery_Log_Cpu_Des_Frequency">Tần số</string>
-    <string name="Battery_Log_Trigger_Des_When">Khi</string>
+    <string name="Battery_Log_Trigger_Des_When">Khi </string>
     <string name="Battery_Log_Trigger_Des_Moment">Thời gian</string>
     <string name="Battery_Log_TimePeriod_Des_To">Đến</string>
     <string name="Battery_Log_TimePeriod_Des_SecondDay">Ngày hôm sau</string>
@@ -621,13 +621,13 @@ Trì hoãn thực hiện không đáp ứng các tiêu chí, bỏ qua quá trìn
     <string name="Battery_Log_Tips_LockTime">Thời gian chờ khóa màn hình</string>
     <string name="Battery_Log_Tips_Volume">Âm lượng</string>
     <string name="Battery_Log_Change">Thay đổi</string>
-    <string name="Battery_Service">Tác vụ Tiết kiệm Pin</string>
-    <string name="Battery_Show_Notif">Thanh thông báo</string>
+    <string name="Battery_Service">Bật tiết kiệm Pin</string>
+    <string name="Battery_Show_Notif">Hiển thị thông báo pin</string>
     <string name="Battery_Show_NotifDes">Hiển thị tình trạng pin trên thanh thông báo</string>
-    <string name="Battery_ShowToast">Cảnh báo thay đổi cấu hình pin điện thoại</string>
-    <string name="Battery_ShowToastDes">Thông báo cho bạn khi thay đổi cấu hình tiết kiệm pin sử dụng</string>
-    <string name="Battery_CheckBright">Phát hiện độ sáng màn hình tối thiểu</string>
-    <string name="Battery_CheckBrightDes">Phát hiện độ sáng màn hình điện thoại đạt mức tối thiểu</string>
+    <string name="Battery_ShowToast">Hiển thị thay đổi cấu hình pin</string>
+    <string name="Battery_ShowToastDes">Popup thông báo cấu hình vừa kích hoạt</string>
+    <string name="Battery_CheckBright">Bật độ sáng màn hình tối thiểu 12%</string>
+    <string name="Battery_CheckBrightDes">Độ sáng thấp nhất 12% để bảo vệ mắt</string>
     <string name="Battery_Service_Autostart">Tiết kiệm tối ưu hóa các dịch vụ được kích hoạt</string>
     <string name="Battery_Capacity_Unit">mAH</string>
     <string name="Desktop_Backup">Phím tắt ngoài màn hình</string>
@@ -675,8 +675,8 @@ Trì hoãn thực hiện không đáp ứng các tiêu chí, bỏ qua quá trìn
     <string name="one_key_clear_already_add_to_desktop">OneClick làm sạch đã được thêm vào màn hình</string>
     <string name="Shortcut_Desc">Nút hiển thị ngoài màn hình</string>
     <string name="Shortcut_FirstUse_Hint">Hãy chọn cách yêu thích của bạn để bắt đầu các shortcut trên màn hình LBE:</string>
-    <string name="Shortcut_Guide_SetDefault">Nhấp vào OK, kiểm tra Làm Tùy chọn Default, sau đó tìm và nhấn vào LBE Task Manager để hoàn tất việc thiết lập công việc quản lý LBE</string>
-    <string name="Shortcut_Guide_ClearDefault">Nhấp vào OK, được tìm thấy mặc định rõ ràng và bấm vào để hoàn thành thiết lập công việc quản lý LBE</string>
+    <string name="Shortcut_Guide_SetDefault">Nhấp vào "OK", kiểm tra "Làm Tùy chọn Default", sau đó tìm và nhấn vào "LBE Task Manager" để hoàn tất việc thiết lập công việc quản lý LBE</string>
+    <string name="Shortcut_Guide_ClearDefault">Nhấp vào "OK", được tìm thấy "mặc định rõ ràng" và bấm vào để hoàn thành thiết lập công việc quản lý LBE</string>
     <string name="Shortcut_HardwareKey">Sử dụng các phím hệ thống</string>
     <string name="Shortcut_HardwareKey_Home">Phím Home để bắt đầu</string>
     <string name="Shortcut_HardwareKey_Home_Method">Phím Home khởi động</string>
@@ -700,13 +700,14 @@ Trì hoãn thực hiện không đáp ứng các tiêu chí, bỏ qua quá trìn
     <string name="Generic_SystemApp">Ứng dụng hệ thống</string>
     <string name="Generic_UserApp">Ứng dụng người dùng</string>
     <string name="Generic_Copyright">LBE Copyright</string>
+    <string name="Generic_Copyright_Version">Nhóm phiên bản LBE: %1$s</string>
     <string name="Generic_Beta">Phiên bản beta</string>
     <string name="Generic_Beta_NotFound_Device">Xin lỗi, điện thoại của bạn không nằm trong phạm vi của phiên bản beta, xin vui lòng sử dụng phiên bản chính thức</string>
     <string name="Generic_Configuration">Thiết lập</string>
     <string name="Generic_Configuration_Backup">LBE security master setting</string>
     <string name="Generic_Canceling">Đang hủy...</string>
-    <string name="Generic_Service_Enabled">Dịch vụ cho phép</string>
-    <string name="Generic_Service_Disabled">Dịch vụ vô hiệu hóa</string>
+    <string name="Generic_Service_Enabled">Cho phép</string>
+    <string name="Generic_Service_Disabled">Vô hiệu hóa</string>
     <string name="Generic_Summary_Enabled">Cho phép</string>
     <string name="Generic_Summary_Disabled">Vô hiệu hóa</string>
     <string name="Generic_Add">Thêm</string>
@@ -805,7 +806,7 @@ Trì hoãn thực hiện không đáp ứng các tiêu chí, bỏ qua quá trìn
     <string name="Home_Feedback_Error">Máy chủ đang bận, vui lòng gửi lại thông tin phản hồi của bạn sau này</string>
     <string name="Home_Feedback_Url">http://bbs.lbesec.com</string>
     <string name="Home_Feedback_CreatingLogErrorFile">Báo cáo một lỗi đăng nhập đang được tạo ra ...</string>
-    <string name="Home_Feedback_CreateLogErrorFile">Tạo ra một báo cáo đăng nhập lỗi</string>
+    <string name="Home_Feedback_CreateLogErrorFile">Tạo ra một báo lỗi</string>
     <string name="Home_Feedback_LogErrorFile_Success">Lỗi đăng nhập của bạn đã được gửi đi, cảm ơn bạn đã hỗ trợ của bạn</string>
     <string name="Home_Feedback_LogErrorFile_Failture">Lỗi trình đăng nhập thất bại , hãy thử lại sau</string>
     <string name="Home_Feedback_LogErrorFile_Upload_TimeLimit">Cam kết khoảng thời gian ít hơn 10 phút, bạn hãy chọn sau</string>
@@ -858,7 +859,7 @@ Trì hoãn thực hiện không đáp ứng các tiêu chí, bỏ qua quá trìn
     <string name="Home_Security_Plugin">Security plug-in</string>
     <string name="Home_Security_Plugin_Desc">Không gian bảo mật di động</string>
     <string name="Home_Onekey_Check">BẮT ĐẦU</string>
-    <string name="Home_Manual_Optimize">Bấm vào để lựa chọn</string>
+    <string name="Home_Manual_Optimize">Xem chi tiết</string>
     <string name="Home_Running_Slowly">Chạy chậm</string>
     <string name="Home_Running_Normal">Chạy tốt</string>
     <string name="Home_Running_Fast">Chạy nhanh</string>
@@ -938,7 +939,7 @@ Trì hoãn thực hiện không đáp ứng các tiêu chí, bỏ qua quá trìn
     <string name="Keyguard_Name_Pin">Mở khóa bằng mật khẩu</string>
     <string name="Keyguard_Summary_Facerec">Nhận diện khuôn mặt</string>
     <string name="Keyguard_Summary_Nfc">Thẻ NFC để mở khóa bất cứ lúc nào</string>
-    <string name="Keyguard_Message_Update">LBE không hỗ trợ phiên bản hiện tại của privacy space, phiên bản mới 2.2, sau khi nâng cấp các tập tin riêng tư của bạn được mã hóa bằng cách sử dụng phiên bản nhập khẩu bình thường.</string>
+    <string name="Keyguard_Message_Update">LBE không hỗ trợ phiên bản hiện tại của  privacy space, phiên bản mới 2.2, sau khi nâng cấp các tập tin riêng tư của bạn được mã hóa bằng cách sử dụng phiên bản nhập khẩu bình thường.</string>
     <string name="Keyguard_Fast_Unlock_Tips">Bạn có thể được unlock mở khóa nhanh (cần phải tải về các plug-in privacy space)</string>
     <string name="Keyguard_Tips_Pattern_Unlock">Hãy vẽ hình để mở khóa</string>
     <string name="Traffic">Theo dõi truy cập mạng</string>
@@ -952,7 +953,7 @@ Trì hoãn thực hiện không đáp ứng các tiêu chí, bỏ qua quá trìn
     <string name="Traffic_Mobile_Permission">Quyền truy cập mạng 2G 3G</string>
     <string name="Traffic_Mobile_Disable">Tắt các mạng điện thoại di động</string>
     <string name="Traffic_WIFI">WIFI</string>
-    <string name="Traffic_WIFI_Rank">xếp hạng WIFI</string>
+    <string name="Traffic_WIFI_Rank">xếp hạng WIFI </string>
     <string name="Traffic_WIFI_Permission">Quyền truy cập WIFI</string>
     <string name="Traffic_DataPlan_Set">Thiết lập trọn gói lưu lượng</string>
     <string name="Traffic_Calibrate">Hiệu chỉnh</string>
@@ -1001,10 +1002,10 @@ Chức năng tự động điều chỉnh lưu lượng sẽ gửi truy vấn đ
     <string name="Traffic_Summary_TheoryNetworkSpeed">Tốc độ mạng lý thuyết</string>
     <string name="Traffic_Retrieving">Nhận</string>
     <string name="Traffic_NotConnected">Không kết nối</string>
-    <string name="Traffic_Monitor_Usage_Hint">Tháng này:</string>
-    <string name="Traffic_Monitor_Plan_Hint">Lưu lượng:</string>
-    <string name="Traffic_Monitor_Today_Hint">Hôm nay:</string>
-    <string name="Traffic_Monitor_Dataplan_Amount">Tổng số:</string>
+    <string name="Traffic_Monitor_Usage_Hint">Tháng này: </string>
+    <string name="Traffic_Monitor_Plan_Hint">Lưu lượng: </string>
+    <string name="Traffic_Monitor_Today_Hint">Hôm nay: </string>
+    <string name="Traffic_Monitor_Dataplan_Amount">Tổng số: </string>
     <string name="Traffic_Net_App">Ứng dụng truy cập mạng</string>
     <string name="Traffic_Rank_Month">Trong tháng</string>
     <string name="Traffic_Rank_Today">Trong ngày</string>
@@ -1317,7 +1318,7 @@ Bạn sẽ sử dụng ?"</string>
     <string name="Phone_correction_no_data">Không điều chỉnh số</string>
     <string name="Phone_correction_delete_tips">Bạn có chắc chắn muốn xóa số này</string>
     <string name="phone_restore_fail_title">Khôi phục lại thất bại</string>
-    <string name="phone_restore_fail_message">Xin vui lòng xác nhận có những ứng dụng khác, cấm Gửi tin nhắn SMS hoặc nhật ký SMS!</string>
+    <string name="phone_restore_fail_message">Xin vui lòng xác nhận có những ứng dụng khác, cấm "Gửi tin nhắn SMS" hoặc "nhật ký SMS"!</string>
     <string name="Plugin_Upgrade_Title">Nâng cấp %1$s</string>
     <string name="Plugin_Upgrade_Succeed">%1$s đã được nâng cấp thành công lên phiên bản mới nhất</string>
     <string name="Plugin_Upgrade_Failed">%1$s không nâng cấp</string>
@@ -1350,16 +1351,16 @@ Ngay cả khi điện thoại của bạn để khôi phục lại các thiết 
     <string name="Plugin_Install_Toast_Download">Tải %1$s, sẽ được cài đặt tự động sau khi tải về</string>
     <string name="Pref_Main_Cat_Service">Thiết lập dịch vụ bảo vệ</string>
     <string name="Pref_Main_HIPS_Service">Dịch vụ bảo vệ thời gian thực</string>
-    <string name="Pref_Main_Phone_Service">Dịch vụ chặn cuộ gọi và tin nhắn</string>
+    <string name="Pref_Main_Phone_Service">Dịch vụ chặn cuộc gọi và tin nhắn</string>
     <string name="Pref_Main_Saving_Service">Dịch vụ tiết kiệm pin</string>
     <string name="Pref_Main_Traffic_Service">Dịch vụ giám sát mạng</string>
     <string name="Pref_Main_Cat_System">Cài đặt hệ thống</string>
     <string name="Pref_Main_AnonymousReport">Tham gia dữ liệu đám mây</string>
     <string name="Pref_Main_ErrorReport">Cho phép gửi báo lỗi</string>
-    <string name="Pref_Main_Notification">Biểu tượng thông báo</string>
+    <string name="Pref_Main_Notification">Biểu tượng trên thanh thông báo</string>
     <string name="Pref_Main_AutoStart">Bắt đầu tự động</string>
-    <string name="Pref_Main_Cat_Shortcut">phím tắt ngoài màn hình</string>
-    <string name="Pref_Main_CleanShortcut">Thêm một phím tắt ngoài màn hình chính</string>
+    <string name="Pref_Main_Cat_Shortcut">Thông báo nổi ngoài màn hình</string>
+    <string name="Pref_Main_CleanShortcut">Thêm phím tắt dọn dẹp ngoài màn hình</string>
     <string name="Pref_Main_CleanShortcut_Summary">Bộ nhớ một nhấp chuột rõ ràng, thuận tiện</string>
     <string name="Pref_Main_LbeShortcut">Thêm LBE chuyển đổi nhanh chóng</string>
     <string name="Pref_Main_LbeShortcut_Summary">Cấu hình phần cứng điện thoại, thuận tiện</string>
@@ -1384,7 +1385,7 @@ Ngay cả khi điện thoại của bạn để khôi phục lại các thiết 
     <string name="Pref_AV_AutoDownload">Tự động kiểm tra và tải về cập nhật</string>
     <string name="Pref_AV_Realscan">Giám sát ứng dụng mới được cài đặt</string>
     <string name="Pref_AV_AutoUpdate">Thời gian tự động cập nhật</string>
-    <string name="Pref_HIPS_Forge_SendReport">Luôn luôn báo cáo thành công</string>
+    <string name="Pref_HIPS_Forge_SendReport">Bật báo cáo hoàn thành</string>
     <string name="Pref_HIPS_Record_Event">Nhắc nhở hoạt động trên thanh thông báo</string>
     <string name="Pref_HIPS_Record_Telephony">Ghi nhật ký cuộc gọi và tin nhắn</string>
     <string name="Pref_HIPS_Forge_IMEI">Bị từ chối truy cập vào ứng dụng trả về định IMEI số IMEI</string>
@@ -1499,8 +1500,8 @@ Ngay cả khi điện thoại của bạn để khôi phục lại các thiết 
     <string name="HIPS">Bảo vệ thời gian thực</string>
     <string name="HIPS_Backup">Cấu hình quyền của ứng dụng</string>
     <string name="HIPS_AppConfig">Cấu hình ứng dụng</string>
-    <string name="HIPS_Setting">Thiết lập bảo vệ thời gian thực</string>
-    <string name="HIPS_State_Loading">Dịch vụ bảo vệ thời gian thực được kích hoạt</string>
+    <string name="HIPS_Setting">Cài đặt</string>
+    <string name="HIPS_State_Loading">Bảo vệ thời gian thực đang kích hoạt</string>
     <string name="HIPS_State_Running">Bảo vệ thời gian thực</string>
     <string name="HIPS_State_Stopped">Bảo vệ thời gian thực là không mở</string>
     <string name="HIPS_State_Init">Bảo vệ thời gian thực được khởi tạo</string>
@@ -1569,22 +1570,22 @@ Vui lòng tham khảo các bước sau để tắt"</string>
     <string name="HIPS_Conflict_Verify_Negative">Không</string>
     <string name="HIPS_Reboot">Khởi động lại điện thoại</string>
     <string name="HIPS_Reboot_Failure">Nếu điện thoại không khởi động, khởi động lại thủ công</string>
-    <string name="HIPS_Defending">Bảo vệ thời gian thực được kích hoạt</string>
-    <string name="HIPS_NOT_Defending">Bảo vệ thời gian thực chưa kích hoạt</string>
-    <string name="HIPS_Root_Mode">Kích hoạt chế độ ROOT</string>
+    <string name="HIPS_Defending">Đã kích hoạt</string>
+    <string name="HIPS_NOT_Defending">Chưa kích hoạt</string>
+    <string name="HIPS_Root_Mode">Chế độ ROOT</string>
     <string name="HIPS_Root_Mode_Desc">Sử dụng quyền ROOT để bắt đầu các dịch vụ bảo vệ thời gian thực</string>
-    <string name="HIPS_Root_Free_Mode">Bật Free ROOT</string>
+    <string name="HIPS_Root_Free_Mode">Chế độ FreeROOT</string>
     <string name="HIPS_Root_Free_Mode_Desc">Không cần ROOT vẫn có dịch vụ bảo vệ thời gian thực</string>
     <string name="HIPS_MIUI_Mode">MIUI cấp phép kích hoạt</string>
     <string name="HIPS_MIUI_Mode_Desc">Không cần ROOT vẫn có dịch vụ bảo vệ thời gian thực</string>
     <string name="HIPS_Enableing">Dịch vụ bảo vệ thời gian thực đang mở</string>
     <string name="HIPS_Disableing">Tắt dịch vụ Bảo vệ thời gian thực</string>
-    <string name="HIPS_Permission_Desc">Cấp phép cho tất cả chức năng của ứng dụng đã cài đặt</string>
-    <string name="HIPS_AutoBoot_Desc">Kiểm soát tự khởi động,chạy ngầm giúp điện thoại chạy nhanh hơn và tiết kiệm năng lượng</string>
-    <string name="HIPS_ADBlock_Desc">Chặn quảng cáo gây phiền phức</string>
-    <string name="HIPS_NotifyMgr_Desc">Thông báo làm phiền,ẩn quảng cáo</string>
+    <string name="HIPS_Permission_Desc">Cấp phép cho chức năng của ứng dụng</string>
+    <string name="HIPS_AutoBoot_Desc">Kiểm soát ứng dụng tự khởi động,chạy ngầm</string>
+    <string name="HIPS_ADBlock_Desc">Chặn quảng cáo trong các ứng dụng</string>
+    <string name="HIPS_NotifyMgr_Desc">Thông báo làm phiền, ẩn quảng cáo</string>
     <string name="HIPS_Sys_Reduce_Desc">Gỡ các ứng dụng hệ thống được cài sẵn</string>
-    <string name="HIPS_Net_Firewall_Desc">Kiểm soát quyền kết nối, quản lý lưu lượng</string>
+    <string name="HIPS_Net_Firewall_Desc">Kiểm soát kết nối mạng, quản lý lưu lượng</string>
     <string name="HIPS_HipsLog_Desc">Nhật ký cấp phép hoạt động cho các ứng dụng</string>
     <string name="HIPS_Not_Enable_Warn">Sử dụng đầy đủ các chức năng, bạn cần phải mở bảo vệ thời gian thực</string>
     <string name="HIPS_Guide_HIPSEnable">Nhấp vào nút để mở dịch vụ Bảo vệ thời gian thực</string>
@@ -1598,8 +1599,8 @@ Vui lòng tham khảo các bước sau để tắt"</string>
     <string name="HIPS_USB_Install_Detail_Install">Đã được cài đặt %1$d, click vào đây để biết chi tiết</string>
     <string name="HIPS_USB_Install_Detail_Rejected">Từ chối cài đặt %1$d, click vào đây để biết chi tiết</string>
     <string name="HIPS_Manual_Start_Hips_Hint">Xin vui lòng tự mở phòng thủ chủ động</string>
-    <string name="HIPS_Conflict_MIUI_Step1_V5_SC">Nhấp vào Quản lý giấy phép</string>
-    <string name="HIPS_Conflict_MIUI_Step2_V5_SC">Đóng Áp dụng cho phép giám sát</string>
+    <string name="HIPS_Conflict_MIUI_Step1_V5_SC">Nhấp vào "Quản lý giấy phép"</string>
+    <string name="HIPS_Conflict_MIUI_Step2_V5_SC">Đóng "Áp dụng cho phép giám sát"</string>
     <string name="private_phones">Thông tin liên lạc riêng tư</string>
     <string name="private_phones_backup">Địa chỉ liên lạc riêng tư, tin nhắn và nhật ký cuộc gọi</string>
     <string name="private_phones_AddNewAccount">Thêm một tài khoản không gian bảo mật</string>
@@ -1746,8 +1747,8 @@ Có nên tiếp tục?"</string>
     <string name="Scan_Check_Configs">Kiểm tra cấu hình</string>
     <string name="Scan_Check_HIPS">Kiểm tra các dịch vụ Bảo vệ thời gian thực hoạt động</string>
     <string name="Scan_Check_HIPS_Name">Dịch vụ bảo vệ thời gian thực</string>
-    <string name="Scan_Check_Phone">Kiểm tra Dịch vụ chặn cuộ gọi và tin nhắn</string>
-    <string name="Scan_Check_Phone_Name">Dịch vụ chặn cuộ gọi và tin nhắn</string>
+    <string name="Scan_Check_Phone">Kiểm tra Dịch vụ chặn cuộc gọi và tin nhắn</string>
+    <string name="Scan_Check_Phone_Name">Dịch vụ chặn cuộc gọi và tin nhắn</string>
     <string name="Scan_Check_DataPlan">Kiểm tra các cài đặt gói lưu lượng</string>
     <string name="Scan_Check_DataPlan_Unlimited">lưu lượng của gói không được thiết lập</string>
     <string name="Scan_Check_DataPlan_Name">lưu lượng của gói đã được thiết lập</string>
@@ -1824,9 +1825,9 @@ Có nên tiếp tục?"</string>
     <string name="SoftMgr_Rom_Waste">Không gian bộ nhớ lãng phí bởi %1$s</string>
     <string name="SoftMgr_Cache_Used">Dữ liệu %1$s</string>
     <string name="SoftMgr_Retain">%1$s &lt;font color=\"#FF7E00\">%2$s&lt;/font></string>
-    <string name="SoftMgr_AppPerm_Tip">&lt;font color=\"#17A4F5\"> Bảo vệ thời gian thực &lt;/font> để giúp bạn kiểm soát các phép ứng dụng</string>
-    <string name="SoftMgr_AppUninstall_Tip">&lt;font color=\"#17A4F5\">%1$d &lt;/font>ứng dụng người dùng</string>
-    <string name="SoftMgr_SysUninstall_Tip">&lt;font color=\"#17A4F5\">%1$d &lt;/font>ứng dụng cài đặt sẵn</string>
+    <string name="SoftMgr_AppPerm_Tip">&lt;font color=\"#17A4F5\"> Bảo vệ thời gian thực &lt;/font> kiểm soát ứng dụng</string>
+    <string name="SoftMgr_AppUninstall_Tip">&lt;font color=\"#17A4F5\">%1$d &lt;/font>ứng dụng người dùng cài đặt</string>
+    <string name="SoftMgr_SysUninstall_Tip">&lt;font color=\"#17A4F5\">%1$d &lt;/font>ứng dụng hệ thống cài đặt sẵn</string>
     <string name="SoftMgr_AppMove_Clean">Hệ thống của bạn ổn định，&lt;font color=\"#17A4F5\"> ứng dụng &lt;/font>không cần di chuyển</string>
     <string name="SoftMgr_AppMove_Suggest1">&lt;font color=\"#17A4F5\">%1$d ứng dụng &lt;/font>khuyến cáo chuyển đến thẻ SD</string>
     <string name="SoftMgr_AppMove_Suggest2">Không thể chuyển，&lt;font color=\"#17A4F5\">%1$d ứng dụng &lt;/font>đã được cài trên thẻ SD</string>
@@ -1840,8 +1841,8 @@ Có nên tiếp tục?"</string>
     <string name="SoftMgr_App_OptedDesc">%1$d quyền cho phép, &lt;font color=\"#17A4F5\"> %2$d &lt;/font> quyền đã được cấp phép</string>
     <string name="SoftMgr_Order">Chọn Sắp xếp theo</string>
     <string name="SoftMgr_NewApp">Phần mềm chưa được quản lý cấp phép</string>
-    <string name="SoftMgr_Signature_Error">%1$s (ngoại trừ chứng nhận)</string>
-    <string name="SoftMgr_Down_Install">%1$s (cài đặt)</string>
+    <string name="SoftMgr_Signature_Error">"%1$s (ngoại trừ chứng nhận)"</string>
+    <string name="SoftMgr_Down_Install">"%1$s (cài đặt)"</string>
     <string name="SoftMgr_NewApp_Configuration">%1$d đợi bạn quản lý cấp phép</string>
     <string name="sm_sau_may_uninstall">Bạn có thể gỡ bỏ cài đặt</string>
     <string name="sm_sau_recommend_uninstall">Đề nghị gỡ bỏ cài đặt</string>
@@ -1852,7 +1853,7 @@ Có nên tiếp tục?"</string>
     <string name="SoftMgr_AppUninstall_Action">Gỡ bỏ ứng dụng đã chọn (%1$d ứng dụng)</string>
     <string name="SoftMgr_AppUninstall_Uninstalling">Gỡ bỏ cài đặt: %1$s</string>
     <string name="SoftMgr_AppUninstall_ClearCache">Xóa %1$s SD bộ nhớ cache</string>
-    <string name="SoftMgr_AppUninstall_StartClear">Làm trống thẻ SD bộ nhớ cache ứng dụng</string>
+    <string name="SoftMgr_AppUninstall_StartClear"> Làm trống thẻ SD bộ nhớ cache ứng dụng</string>
     <string name="SoftMgr_AppUninstall_SDCleanPrompt">Gỡ bỏ cài đặt trong %1$d đã lựa chọn</string>
     <string name="SoftMgr_AppUninstall_Uninstall">Gỡ bỏ cài đặt</string>
     <string name="SoftMgr_AppUninstall_SysWarning">"Hệ thống được xây dựng trong ứng dụng dỡ, nó có thể gây ra hậu quả nghiêm trọng.
@@ -1892,7 +1893,7 @@ Tiếp tục, hãy nhấp vào nút Unlock."</string>
     <string name="SoftMgr_App2SD_ToSD_Warning">《%1$s》 LBE không khuyên bạn di chuyển vào thẻ SD để chạy, buộc phải di chuyển có thể gây ra các ứng dụng lỗi không rõ.</string>
     <string name="SoftMgr_App2SD_Phone_Empty">Bạn có thể di chuyển ứng dụng điện thoại của bạn không tìm thấy</string>
     <string name="SoftMgr_App2SD_SD_Empty">Thẻ nhớ, bạn có thể di chuyển các ứng dụng không được tìm thấy</string>
-    <string name="SoftMgr_App2SD_Emulated">Điện thoại của bạn chỉ có bộ nhớ trong, không thể di chuyển</string>
+    <string name="SoftMgr_App2SD_Emulated">Điện thoại chỉ có bộ nhớ trong, không thể di chuyển</string>
     <string name="SoftMgr_App2SD_MIUIV5">"Xin lưu ý:
 Hệ thống điện thoại của bạn MIUI V5, trong một phần của phiên bản phát triển, khởi động lại điện thoại sau khi di chuyển các ứng dụng, ứng dụng sẽ biến mất , hãy cẩn thận để sử dụng tính năng này.
 Hoặc hủy bỏ sử dụng ."</string>
@@ -2010,10 +2011,10 @@ Cài đặt tên gói:
     <string name="SoftMgr_Already_Optimized">Tối ưu hóa</string>
     <string name="SysOpt">Tăng tốc điện thoại</string>
     <string name="SysOpt_Backup">Tối ưu hóa và WhiteList</string>
-    <string name="SysOpt_Task_Running_Tip">&lt;font color=\"#FF7E00\">%1$d&lt;/font> Ứng dụng chờ tắt</string>
+    <string name="SysOpt_Task_Running_Tip">&lt;font color=\"#FF7E00\">%1$d&lt;/font> Ứng dụng đang chạy ngoài whitelist</string>
     <string name="SysOpt_AutoBoot_Tip">&lt;font color=\"#FF7E00\">%1$d&lt;/font> Ứng dụng chạy ngầm / tự khởi động, việc kiểm tra được đề xuất</string>
     <string name="SysOpt_AutoBoot_Tip2">&lt;font color=\"#FF7E00\">%1$d&lt;/font> Ứng dụng đã chặn tự khởi động</string>
-    <string name="SysOpt_White_Tip">&lt;font color=\"#FF7E00\">%1$d&lt;/font> Ứng dụng trong White list</string>
+    <string name="SysOpt_White_Tip">&lt;font color=\"#FF7E00\">%1$d&lt;/font> Ứng dụng được bảo vệ trong Whitelist</string>
     <string name="SysOpt_Cache_Tip1">&lt;font color=\"#FF7E00\">Thời gian dài &lt;/font> chưa kiểm tra rác trên điện thoại</string>
     <string name="SysOpt_Cache_Tip2">Kiểm tra Cache cuối cùng &lt;font color=\"#FF7E00\">%1$d ngày &lt;/font> trước</string>
     <string name="SysOpt_Cache_Tip3">Hôm nay đã kiểm tra Cache điện thoại</string>
@@ -2047,7 +2048,7 @@ Hãy click nút mở khóa để tiến hành"</string>
     <string name="SysOpt_AllowAutoStart">Cho phép chạy ngầm</string>
     <string name="SysOpt_RejectNotif">Ngăn chặn pop-up thông báo</string>
     <string name="SysOpt_AllowNotif">Cho phép pop-up thông báo</string>
-    <string name="SysOpt_Clean">Làm sạch bộ nhớ</string>
+    <string name="SysOpt_Clean">Làm sạch bộ nhớ cache</string>
     <string name="SysOpt_Clean_Des">Kiểm tra thẻ SD để làm sạch các tập tin rác và hệ thống bộ nhớ cache</string>
     <string name="SysOpt_Cache_Sys">Cache hệ thống</string>
     <string name="SysOpt_Cache_SD">Cache trong thẻ</string>
