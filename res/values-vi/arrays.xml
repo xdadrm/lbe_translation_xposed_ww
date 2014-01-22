@@ -553,7 +553,7 @@ Có thể phát hiện là virus"</item>
         <item>Vẽ để Mở khóa</item>
         <item>Mật khẩu để mở khóa</item>
     </string-array>
-    <string-array name="traffic_mobile_graph_wave_colors">
+	    <string-array name="traffic_mobile_graph_wave_colors">
         <item>\#605fcaff</item>
         <item>\#8026acee</item>
     </string-array>
@@ -566,10 +566,10 @@ Có thể phát hiện là virus"</item>
         <item>2 Model</item>
         <item>3 Phiên bản Android</item>
         <item>4 Camera chính</item>
-        <item>5 Camera trước</item>
+        <item>5 Camera phụ</item>
         <item>6 IMEI</item>
         <item>7 RAM</item>
-        <item>8 CPU</item>
+        <item>8 Bộ nhớ</item>
         <item>9 Dung lượng SD</item>
         <item>10 Trọng lượng</item>
     </string-array>
@@ -581,7 +581,7 @@ Có thể phát hiện là virus"</item>
     <string-array name="hardware_screen_info">
         <item>1 GPU renderer</item>
         <item>2 Nhà cung cấp GPU</item>
-        <item>3 phiên bản GPU</item>
+        <item>3 Phiên bản GPU</item>
         <item>4 Độ phân giải</item>
         <item>5 Kích thước</item>
         <item>6 Công nghệ</item>
@@ -615,7 +615,7 @@ Có thể phát hiện là virus"</item>
     </string-array>
     <string-array name="hardware_antutu_keys">
         <item>Camera chính</item>
-        <item>Camera trước</item>
+        <item>Camera phụ</item>
         <item>Kích thước màn hình</item>
         <item>Vật liệu</item>
     </string-array>
