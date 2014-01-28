@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="HIPS_Action_Accept">"Ja "</string>
-    <string name="HIPS_Action_Prompt">Frage</string>
-    <string name="HIPS_Action_Reject">"Nein "</string>
+    <string name="HIPS_Action_Accept">Erlauben/string>
+    <string name="HIPS_Action_Prompt">Erfragen</string>
+    <string name="HIPS_Action_Reject">Ablehnen</string>
     <string name="HIPS_Action_Accept_Colored">&lt;font color=#478800> Erlaubt &lt;/ font></string>
     <string name="HIPS_Action_Prompt_Colored">&lt;font color=#FF8A00> Eingabe &lt;/ font></string>
     <string name="HIPS_Action_Reject_Colored">&lt;font color=#DF0000> Verweigert &lt;/ font></string>
@@ -31,18 +31,18 @@
     <string name="HIPS_Perm_PhoneID">Telefon-ID</string>
     <string name="HIPS_Perm_PhoneID_Desc">Ermittelt Ihre Telefons ID, einschließlich IMEI, IMSI und Telefonnummer</string>
     <string name="HIPS_Perm_PhoneID_Hint">%1$s App(s) fragen nach Erlaubnis Ihre Telefon-ID abzufragen</string>
-    <string name="HIPS_Perm_MobileNetwork">Internet Zugang über Mobiles Netz</string>
-    <string name="HIPS_Perm_MobileNetwork_Desc">Greift ins Internet über Mobiles Netz zu</string>
+    <string name="HIPS_Perm_MobileNetwork">Internet Zugang über mobiles Netz</string>
+    <string name="HIPS_Perm_MobileNetwork_Desc">Greift aufs Internet über mobiles Netz zu</string>
     <string name="HIPS_Perm_MobileNetwork_Hint">%1$s App(s) fragen nach Erlaubnis für Zugang zum Internet</string>
     <string name="HIPS_Perm_WIFINetwork">Internet Zugang über WiFi</string>
-    <string name="HIPS_Perm_WIFINetwork_Desc">Greift ins Internet über WiFi zu</string>
+    <string name="HIPS_Perm_WIFINetwork_Desc">Greift aufs Internet über WiFi zu</string>
     <string name="HIPS_Perm_WIFINetwork_Hint">%1$s App(s) fragen nach Erlaubnis für Zugang zum Internet</string>
     <string name="HIPS_Perm_Network_UnknownAddr">Unbekannte Adresse</string>
     <string name="HIPS_Perm_Network_MobileEvent">2G/3G Nutzung</string>
     <string name="HIPS_Perm_Network_WIFIEvent">WiFi Nutzung</string>
     <string name="HIPS_Perm_Network_Accept">Akzeptiert Verbindung von %1$s</string>
     <string name="HIPS_Perm_Network_Connect">Verbinden mit %1$s</string>
-    <string name="HIPS_Perm_Network_Listen">Überwache Lokalen Port %1$s</string>
+    <string name="HIPS_Perm_Network_Listen">Überwache lokalen Port %1$s</string>
     <string name="HIPS_Perm_Network_Recv">Empfangene Daten</string>
     <string name="HIPS_Perm_Network_Send">Gesendete Daten</string>
     <string name="HIPS_Perm_SMS">SMS lesen</string>
@@ -88,7 +88,7 @@
     <string name="HIPS_Perm_PhoneID_Number">Ihre Telefonnummer abzufragen</string>
     <string name="HIPS_Perm_PhoneID_IMSI">die IMSI-Nummer abzufragen</string>
     <string name="HIPS_Perm_AllowAll">Alle erlauben</string>
-    <string name="HIPS_Perm_PromptAll">Alle nachfragen</string>
+    <string name="HIPS_Perm_PromptAll">Alle erfragen</string>
     <string name="HIPS_Perm_RejectAll">Alle verweigern</string>
     <string name="HIPS_Perm_ROOT_Title">um root-Rechte zu erhalten</string>
     <string name="HIPS_Perm_ListenCallState">eingehende Anrufe zu überwachen</string>
@@ -201,7 +201,7 @@ All Rights Reserved"</string>
     <string name="AD_No_Risk_App">Sichere Adwares</string>
     <string name="AD_No_Exist_App">Keine Adware</string>
     <string name="AD_Already_Blokced">Anzeige blockiert</string>
-    <string name="AD_OneClick_Diable">Ein Tip Deaktivierung</string>
+    <string name="AD_OneClick_Diable">Alle blockieren</string>
     <string name="AD_Cancel_Scan">Abbrechen</string>
     <string name="AD_User_Feedback">Feedback</string>
     <string name="AD_AdwareSet_Update_Success">Ad Block erfolgreich aktualisiert</string>
@@ -258,7 +258,7 @@ Denken Sie daran es öfters zu untersuchen"</string>
 
 %2$s
 Bitte sofort löschen!"</string>
-    <string name="AV_PromptMid">"In \"%1$s\" wurden gefährliche Sachen gefunden,
+    <string name="AV_PromptMid">"In \"%1$s\" wurden Bedrohungen gefunden,
 %2$s
 Löschen?"</string>
     <string name="AV_StoragePath">Ort:</string>
@@ -284,13 +284,13 @@ Löschen?"</string>
     <string name="Battery_BatteryLog">Letzte Prüfung war: %1$s</string>
     <string name="Battery_Consumption">Verbrauch</string>
     <string name="Battery_Consumption_Des">Alle löschen</string>
-    <string name="Battery_NotifMode">Battery Benachrichtigung und Protokollierung</string>
+    <string name="Battery_NotifMode">Akku Benachrichtigung und Protokollierung</string>
     <string name="Battery_NotifMode_Des">Akku jeden Tag, immer begreifen</string>
-    <string name="Battery_ShowToast">Spar Optimierungs Einstellungen</string>
+    <string name="Battery_ShowToast">Stromspar Optimierungs Einstellungen</string>
     <string name="Battery_ShowToastDes">Akku ist voll</string>
     <string name="Battery_Bright_Resume">Ladestatus</string>
     <string name="Battery_Bright_CheckTitle">Modus</string>
-    <string name="Battery_Bright_CheckMsg">Günstigster Bildschirmhelligkeit Erkennung, kann Ihr Handy-Display dimmt kurzer Zeit, bitte mach dir keine Sorgen. Auswahl ohne Nachweis, wird der Standardwert 12% Helligkeit als die minimale Helligkeit verwenden. Minimale Helligkeit erkannt wird?</string>
+    <string name="Battery_Bright_CheckMsg">Erkennung für dunkelste Displayhelligkeit, kann Ihr Handy-Display kurz verdunkeln, bitte mach dir keine Sorgen. Auswahl ohne Nachweis, wird der Standardwert 12% Helligkeit als die minimale Helligkeit verwenden. Minimale Helligkeit erkannt wird?</string>
     <string name="Battery_Bright_Check">Intelligentes Energiesparen</string>
     <string name="Battery_Bright_Next">Aktueller Energie-Spar-Modus</string>
     <string name="Battery_Bright_Cancel">Nachtmodus</string>
@@ -856,10 +856,10 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Home_Virus_Kill">Anti-Virus</string>
     <string name="Home_Defense">Active Defense</string>
     <string name="Home_Notification_Manager">Benachrichtigungen</string>
-    <string name="Home_Personal_Privacy">Datenschutz Raumfahrt</string>
+    <string name="Home_Personal_Privacy">Passwortschutz</string>
     <string name="Home_Anti_Burglary">Sicherheit</string>
     <string name="Home_Communication_Tools">Kommunikations-Tools</string>
-    <string name="Home_Backup_Restore">Backup-&amp;amp; Wiederherstellung</string>
+    <string name="Home_Backup_Restore">Backup und Wiederherstellung</string>
     <string name="Home_First_Check_Tips">Es besteht die Gefahr des Telefons kommen Prüfung unter der Stange!</string>
     <string name="Home_Defense_Not_Running">Klicken Sie auf das linke Symbol, um die aktiven Verteidigungsfähigkeit öffnen</string>
     <string name="score">%</string>
@@ -1476,7 +1476,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="HIPS_Action_Accept_Count">%1$d erlaubt</string>
     <string name="HIPS_Action_Reject_Count">%1$d verweigert</string>
     <string name="HIPS_SecurityPrompt_Caption">Sicherheitswarnung</string>
-    <string name="HIPS_SecurityPrompt_Title">%1$s versucht %2$s</string>
+    <string name="HIPS_SecurityPrompt_Title">%1$s versucht Zugriff auf %2$s</string>
     <string name="HIPS_SecurityPrompt_Remember">Einstellung merken</string>
     <string name="HIPS_SecurityPrompt_Accept">Zulassen %d</string>
     <string name="HIPS_SecurityPrompt_Reject">Verweigern %d</string>
@@ -1644,7 +1644,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="private_add_fakeUser_warning">Legen falscher Benutzer, Ausfallsicherheit Quiz, weiterhin eingestellt?</string>
     <string name="private_ok">Bestimmen</string>
     <string name="private_cancel">ABBRECHEN</string>
-    <string name="private_title_individual">Datenschutz Raumfahrt</string>
+    <string name="private_title_individual">Passwortschutz</string>
     <string name="private_lock_settings">Einstellungen sperren</string>
     <string name="private_download_privatespace">Bitte laden Sie sich die neueste Version der Datenschutz-Raum</string>
     <string name="private_download_privatespace_default">Das Modul wird aktualisiert, so stay tuned ...</string>
