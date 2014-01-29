@@ -471,7 +471,7 @@ Langsamerer CPU-Takt bei Bildschirm aus kann eingestellt werden"</string>
     <string name="Battery_ChargingLeft_Tick">Erhaltungsladung verbleibende Zeit</string>
     <string name="Battery_ChargeFull_Left">Starter wählen</string>
     <string name="Battery_Discharge_Left">Bitte wählen Sie Ihre Standard-Homepage</string>
-    <string name="Battery_Tips_BatteryLeft">Starter</string>
+    <string name="Battery_Tips_BatteryLeft">verbleibende Zeit:</string>
     <string name="Battery_Result_Mute">LBE Task-Manager</string>
     <string name="Battery_BatteryMode_Change">LBE Task-Manager</string>
     <string name="Battery_ScreenBrightness">Bildschirmhelligkeit</string>
@@ -582,8 +582,8 @@ Langsamerer CPU-Takt bei Bildschirm aus kann eingestellt werden"</string>
     <string name="Battery_Log_Tips_Volume">Volume</string>
     <string name="Battery_Log_Change">Ändern</string>
     <string name="Battery_Service">Saving optimization services</string>
-    <string name="Battery_Show_Notif">Prompt notification bar</string>
-    <string name="Battery_Show_NotifDes">System notification bar shows the battery status in real time</string>
+    <string name="Battery_Show_Notif">LBE Akku Symbol einblenden</string>
+    <string name="Battery_Show_NotifDes">Zeigt eigenes Akku Symbol in der Benachrichtigugsleiste</string>
     <string name="Battery_CheckBright">Minimum screen brightness detection</string>
     <string name="Battery_CheckBrightDes">Detect mobile screen brightness can reach a minimum</string>
     <string name="Battery_Service_Autostart">Saving optimization services enabled</string>
@@ -818,7 +818,7 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Home_Scan_Warn_BadOptimized">" Optimierung notwendig"</string>
     <string name="Home_Scan_Warn_Perfect">" Perfektes System"</string>
     <string name="Home_BackupTitle">Backup</string>
-    <string name="Home_Backup">Backup</string>
+    <string name="Home_Backup">Backup aller Einstellungen erstellen</string>
     <string name="Home_Backup_Comment">Backup von %2$s V %3$s am %1$s</string>
     <string name="Home_Backup_Comment2">%1$s %2$s Version der Backup-</string>
     <string name="Home_BackupEmpty">Kein Backup vorhanden. Auf Backup tippen um eins zu erstellen</string>
@@ -847,17 +847,17 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Home_Block_Already">bereits blockiert</string>
     <string name="Home_Remain_Amount">Noch Traffic übrig</string>
     <string name="Home_Now_Loading">Lädt ...</string>
-    <string name="Home_Phone_Accelerate">Rufen Beschleunigen</string>
+    <string name="Home_Phone_Accelerate">Gerät optimieren</string>
     <string name="Home_Battery_Optimize">Akku</string>
     <string name="Home_Software_Manager">Software Management</string>
     <string name="Home_Disturb_Block">Anrufschutz</string>
-    <string name="Home_Traffic_Monitor">Traffic Monitor</string>
+    <string name="Home_Traffic_Monitor">Datenzähler</string>
     <string name="Home_Ad_Block">Werbung</string>
     <string name="Home_Virus_Kill">Anti-Virus</string>
     <string name="Home_Defense">Active Defense</string>
-    <string name="Home_Notification_Manager">Benachrichtigungen</string>
+    <string name="Home_Notification_Manager">Benachrich- tigungen</string>
     <string name="Home_Personal_Privacy">Passwortschutz</string>
-    <string name="Home_Anti_Burglary">Sicherheit</string>
+    <string name="Home_Anti_Burglary">Anti-Diebstahl</string>
     <string name="Home_Communication_Tools">Kommunikations-Tools</string>
     <string name="Home_Backup_Restore">Backup und Wiederherstellung</string>
     <string name="Home_First_Check_Tips">Es besteht die Gefahr des Telefons kommen Prüfung unter der Stange!</string>
@@ -974,9 +974,9 @@ Mit dem Absenden einer Betreiber Abfrage per SMS, kalibriert die App automatisch
     <string name="Traffic_Monitor_Today_Hint">Heute</string>
     <string name="Traffic_Monitor_Dataplan_Amount">Total:</string>
     <string name="Traffic_Net_App">Netzwerk Software</string>
-    <string name="Traffic_Rank_Month">Rank Monat</string>
-    <string name="Traffic_Rank_Today">Rank Heute</string>
-    <string name="Traffic_rank_Realtime">Echtzeit Rank</string>
+    <string name="Traffic_Rank_Month">Monat</string>
+    <string name="Traffic_Rank_Today">Heute</string>
+    <string name="Traffic_rank_Realtime">Echtzeit</string>
     <string name="Traffic_Net_Firewall">Netzwerk-Firewall</string>
     <string name="Traffic_Carrier_CMCC">China Mobile</string>
     <string name="Traffic_Carrier_UNICOM">China Unicom</string>
@@ -1308,7 +1308,7 @@ vor der Aktivierung LBE Anti-Diebstahl-Dienstleistungen, downloaden und installi
     <string name="Pref_Main_ErrorReport">Fehlerberichte senden</string>
     <string name="Pref_Main_Notification">Benachrichtigungs Symbol</string>
     <string name="Pref_Main_AutoStart">Autostart</string>
-    <string name="Pref_Main_Cat_Shortcut">Desktop-Verknüpfung</string>
+    <string name="Pref_Main_Cat_Shortcut">Einstellungen für LBE Homescreen Symbol</string>
     <string name="Pref_Main_CleanShortcut">Ein-Tip-Aufräum Verknüpfung hinzufügen</string>
     <string name="Pref_Main_CleanShortcut_Summary">Einmal tippen und Speicher freiräumen</string>
     <string name="Pref_Main_LbeShortcut">Fügen LBE Schnellumschal</string>
@@ -1523,7 +1523,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="HIPS_Not_Enable_Warn">Nutzen Sie die volle Funktionalität, müssen Sie die aktive Verteidigung öffnen</string>
     <string name="HIPS_Guide_HIPSEnable">Klicken Sie auf die Schaltfläche, um die aktive Verteidigung Dienste öffnen</string>
     <string name="HIPS_ADB_MGR">Software installed automatically blacklist</string>
-    <string name="HIPS_ADB_DESC">Help you prevent &lt;font color=#17A4F5> silent install software >&lt;/font></string>
+    <string name="HIPS_ADB_DESC">verhindert verborgene Installationen von Apps</string>
     <string name="HIPS_ADB_Install_Title">Install the software via USB</string>
     <string name="HIPS_ADB_Install_Content">&lt;font color=#17A4F5>%1$s&lt;/font> is trying to automatically install &lt;font color=#17A4F5>%2$s&lt;/font> to your phone. If this is your own behavior, it is recommended to allow this, or you can choose to reject.</string>
     <string name="HIPS_Detected_PC_Install_APK_To_Phone">Detected APK Installation</string>
@@ -1752,7 +1752,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="SoftMgr_Cache_Used">Cache Verbrauch: %1$s</string>
     <string name="SoftMgr_AppPerm_Tip">&lt;font color=\"#17A4F5\">Active Defense &lt;/font>Berechtigungen einstellen</string>
     <string name="SoftMgr_AppUninstall_Tip">&lt;font color=\"#17A4F5\">%1$d &lt;/font>Benutzer Apps</string>
-    <string name="SoftMgr_SysUninstall_Tip">&lt;font color=#17A4F5>%1$d apks &lt;/font> preinstalled software</string>
+    <string name="SoftMgr_SysUninstall_Tip">&lt;font color=#17A4F5>%1$d apks &lt;/font> vorinstallierte System Apps</string>
     <string name="SoftMgr_AppMove_Clean">Ihr System ist sehr sauber, &lt;font color=\"#17A4F5\">without&lt;/font>App verschieben</string>
     <string name="SoftMgr_AppMove_Suggest1">&lt;font color=\"#17A4F5\">%1$d paragraph&lt;/font>App empfiehlt auf die SD Karte zu verschieben</string>
     <string name="SoftMgr_AppMove_Suggest2">without moving, &lt;font color=\"#17A4F5\">%1$d paragraph&lt;/font>software has been on the SD card</string>
@@ -1768,7 +1768,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="SoftMgr_NewApp">Nicht konfigurierte App</string>
     <string name="SoftMgr_Signature_Error">%1$s (Signatur Fehler)</string>
     <string name="SoftMgr_Down_Install">%1$s (Downgrade Installation)</string>
-    <string name="SoftMgr_NewApp_Configuration">%1$d werden für Konfigurations-Software warten</string>
+    <string name="SoftMgr_NewApp_Configuration">%1$d Optimierungsvorschläge</string>
     <string name="SoftMgr_AppUninstall">Deinstallieren</string>
     <string name="SoftMgr_AppUninstall_Recycle">Mülleimer</string>
     <string name="SoftMgr_AppUninstall_Action">Deinstallieren ausgewählt (%1$d Apps)</string>
@@ -1790,14 +1790,14 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="SoftMgr_SysUninstall_FreezeClean">LBE Security Master ist es, Ihnen einfrieren %1$s , die Verringerung der Belastung auf dem System.</string>
     <string name="SoftMgr_SysUninstall_RFail">Wiederherstellen fehlgeschlagen:</string>
     <string name="SoftMgr_Uninstall_UsrFail">Deinstallation fehlgeschlagen</string>
-    <string name="SoftMgr_AppPermission">Rechte Management</string>
+    <string name="SoftMgr_AppPermission">Rechte Management (Firewall)</string>
     <string name="SoftMgr_AppPermission2">App Rechte Scan</string>
     <string name="SoftMgr_AppPermission_opted">Wurde optimiert ( %1$s )</string>
-    <string name="SoftMgr_AppPermission_Suggest_Reject">Vorgeschlagene zu verbieten</string>
-    <string name="SoftMgr_AppPermission_Suggest_Accept">Empfohlen zu öffnen</string>
-    <string name="SoftMgr_AppPermission_Suggest_Others">Brauchen Sie zu konzentrieren</string>
+    <string name="SoftMgr_AppPermission_Suggest_Reject">wird empfohlen abzulehnen</string>
+    <string name="SoftMgr_AppPermission_Suggest_Accept">wird empfohlen zu erlauben</string>
+    <string name="SoftMgr_AppPermission_Suggest_Others">weitere APP Rechte</string>
     <string name="SoftMgr_NoApp">App erfüllt nicht die Bedingungen</string>
-    <string name="SoftMgr_App2SD">App Umzug</string>
+    <string name="SoftMgr_App2SD">APP auf Speicherkarte verschieben</string>
     <string name="SoftMgr_App2SD_Suggest">Empfehlung zu verschieben</string>
     <string name="SoftMgr_App2SD_Moving">"Verschiebe "</string>
     <string name="SoftMgr_App2SD_Phone">Apps auf interner Karte</string>
@@ -1841,7 +1841,7 @@ Sicher, dass Sie alle ausgewählten Apps wiederherstellen wollen?"</string>
     <string name="SoftMgr_SysUninstall_Enabled_Empty">Keine System App kann aktuell deinstalliert werden</string>
     <string name="SoftMgr_SysUninstall_NoSD">System App Deinstallation benötigt eine SD-Karte für Backups. Versuchen Sie es bitte wieder nach dem einlegen einer SD-Karte</string>
     <string name="SoftMgr_App_UnknownSize">Unbekannte Größe</string>
-    <string name="SoftMgr_SDHelper">APK Mgr.</string>
+    <string name="SoftMgr_SDHelper">APK Manager.</string>
     <string name="SoftMgr_SDHelper_Scan">Suche ...</string>
     <string name="SoftMgr_SDHelper_InnerSD">Auf Internem Speicher</string>
     <string name="SoftMgr_SDHelper_DefaultSD">Auf Standart SD Karte</string>
@@ -1880,9 +1880,9 @@ Zuletzt geändert:
     <string name="SoftMgr_SDHelper_SelectOldVer">Ausw. ältere</string>
     <string name="SoftMgr_SDHelper_SelectNewVer">Ausw. jüngere</string>
     <string name="SoftMgr_SDHelper_SelectDifSig">Ausw. Sig passt nicht</string>
-    <string name="SoftMgr_OneKey_Optimize">OneClick-Optimierung</string>
+    <string name="SoftMgr_OneKey_Optimize">alle automatisch optimieren</string>
     <string name="SoftMgr_All_Apks">Alle Software</string>
-    <string name="SoftMgr_Recommend_Opt">Empfohlene Optimization</string>
+    <string name="SoftMgr_Recommend_Opt">Optimierungsvorschläge</string>
     <string name="SoftMgr_Opted">Wurde optimiert</string>
     <string name="SoftMgr_CanOpt_Count">%1$d Gastfreundschaft Optimierung</string>
     <string name="SoftMgr_Opted_Count">%1$d Modelle wurden optimiert</string>
@@ -1895,28 +1895,28 @@ Zuletzt geändert:
     <string name="SoftMgr_No_USB_Install_Log">No automatic installation log</string>
     <string name="SoftMgr_Clear_Log">Empty log</string>
     <string name="SoftMgr_Install_Manage_Log">Automatic software installation log</string>
-    <string name="SoftMgr_USB_Install_Blacklist">Software installed automatically blacklist</string>
+    <string name="SoftMgr_USB_Install_Blacklist">einzelne Apps blockieren</string>
     <string name="SoftMgr_USB_Install_Manage_Mode_Choice">Automatically install software management mode selection</string>
     <string name="SoftMgr_Current_Mode">Installation Management:</string>
-    <string name="SoftMgr_Add_Blacklist">Add blacklist</string>
+    <string name="SoftMgr_Add_Blacklist">hinzufügent</string>
     <string name="SoftMgr_Add_Blacklist_Numberic">Blacklist (%1$d)</string>
-    <string name="SoftMgr_Remove_Blacklist">Remove blacklist</string>
+    <string name="SoftMgr_Remove_Blacklist">entfernen</string>
     <string name="SoftMgr_Remove_Blacklist_Numberic">Remove blacklist(%1$d)</string>
     <string name="SoftMgr_Add_Blacklist_Desc">Added to the blacklist, it will uninstall the software, and no longer allow this software installed on the phone.</string>
-    <string name="SoftMgr_Add_Blacklist_Desc_Second">Added to the blacklist, it will no longer be allowed to automatically install the software on your phone.</string>
-    <string name="SoftMgr_Apps_Auto_Install_Manage">Automatic Installation Monitoring</string>
+    <string name="SoftMgr_Add_Blacklist_Desc_Second">Apps auf der Blacklist werden automatisch bei der Installation blockiert.</string>
+    <string name="SoftMgr_Apps_Auto_Install_Manage">App Installations Überwachung</string>
     <string name="SoftMgr_PC_Client_From">Installed from PC</string>
     <string name="SoftMgr_PC_Client">PC-side tools</string>
     <string name="SoftMgr_Unknown">Unknown</string>
     <string name="SoftMgr_From">By the %1$s installation</string>
     <string name="SoftMgr_Confirm_Install_This_App">Confirm installation&lt;font color=#17A4F5>%1$s&lt;/font>?</string>
-    <string name="SoftMgr_Already_On">Enabled</string>
-    <string name="SoftMgr_Already_Off">Disabled</string>
-    <string name="SoftMgr_App_Install_Manage_Service">Automatic installation of monitoring software</string>
-    <string name="SoftMgr_App_Install_Manage_Service_Tips">How to optimize all installed Software? Open the software automatically installed monitoring, I will help you solve</string>
+    <string name="SoftMgr_Already_On">aktiviert</string>
+    <string name="SoftMgr_Already_Off">deaktiviert</string>
+    <string name="SoftMgr_App_Install_Manage_Service">Dienst zur Überwachung von App Installationen</string>
+    <string name="SoftMgr_App_Install_Manage_Service_Tips">Hier haben Sie die Kontrolle darüber welche Apps auf Ihrem Gerät installiert werden.</string>
     <string name="SoftMgr_Add_Blacklist_Success">Successful blacklist</string>
     <string name="SoftMgr_Add_Blacklist_Fail">Add blacklist failed!</string>
-    <string name="SoftMgr_Monitor_Mode">Monitor Mode</string>
+    <string name="SoftMgr_Monitor_Mode">Überwachungsmethode</string>
     <string name="SoftMgr_Blacklist">Blacklist</string>
     <string name="SoftMgr_Confirm_Remove">Confirm removal from the blacklist %1$s?</string>
     <string name="SoftMgr_Already_Optimized">Optimized</string>
@@ -1948,8 +1948,8 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SysOpt_Boost_Receiver">Autostarts im Hintergrund</string>
     <string name="SysOpt_Boost_Deblocking">Entsperren</string>
     <string name="SysOpt_Boost_None">Keine Autostart Apps</string>
-    <string name="SysOpt_TrustApp">Traue den Rechteanfragen der App</string>
-    <string name="SysOpt_UntrustApp">Überwacht die App Rechte Anfragen</string>
+    <string name="SysOpt_TrustApp">App wird nicht überwacht</string>   
+    <string name="SysOpt_UntrustApp">Rechte Anfragen der App werden überwacht</string>
     <string name="SysOpt_Boot_Permission">Rechte seit letzten Boot</string>
     <string name="SysOpt_RejectBootStart">boot from Kai ban prohibiting the background from Kai</string>
     <string name="SysOpt_RejectAutoStart">prohibit the background from Kai</string>
@@ -2081,27 +2081,27 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Traffic_Graph_Legend_Month">Verbrauch Monat</string>
     <string name="Traffic_Graph_Legend_Today">Verbrauch Heute</string>
     <string name="Traffic_Graph_Legend_Projection">Geschätzt Monat</string>
-    <string name="HIPS_Perm_SendMMS">send MMS</string>
-    <string name="HIPS_Perm_SendMMS_Desc">directly send MMS</string>
-    <string name="HIPS_Perm_SendMMS_Hint">%1$s may send MMS</string>
+    <string name="HIPS_Perm_SendMMS">MMS senden</string>
+    <string name="HIPS_Perm_SendMMS_Desc">MM senden</string>
+    <string name="HIPS_Perm_SendMMS_Hint">%1$s Apps können MMS senden</string>
     <string name="HIPS_Perm_MMS">MMS records</string>
     <string name="HIPS_Perm_MMS_Desc">Access your MMS inbox</string>
     <string name="HIPS_Perm_MMS_Hint">%1$s may access the MMS Inbox</string>
-    <string name="HIPS_Perm_AudioRecorder">Audio Recording</string>
-    <string name="HIPS_Perm_AudioRecorder_Desc">Local Call and Audio recording</string>
-    <string name="HIPS_Perm_AudioRecorder_Hint">%1$s may record Calls and Audio</string>
-    <string name="HIPS_Perm_Mobile_Connectivity">Use mobile networks</string>
-    <string name="HIPS_Perm_Mobile_Connectivity_Desc">Use mobile networks</string>
-    <string name="HIPS_Perm_Mobile_Connectivity_Hint">%1$s may use mobile network</string>
-    <string name="HIPS_Perm_WIFI_Connectivity">Use WIFI</string>
-    <string name="HIPS_Perm_WIFI_Connectivity_Desc">Use WIFI</string>
-    <string name="HIPS_Perm_WIFI_Connectivity_Hint">%1$s may use WIFI Network</string>
-    <string name="HIPS_Perm_Bluetooth_Connectivity">turn on Bluetooth</string>
-    <string name="HIPS_Perm_Bluetooth_Connectivity_Desc">turn on Bluetooth</string>
-    <string name="HIPS_Perm_Bluetooth_Connectivity_Hint">%1$s may use Bluetooth</string>
-    <string name="HIPS_Perm_MMS_Access">read MMS data</string>
-    <string name="HIPS_Perm_Recorder_Camera">photos</string>
-    <string name="HIPS_Perm_Recorder_VoiceCall">recorded call audio</string>
+    <string name="HIPS_Perm_AudioRecorder">Ton Aufnahme</string>
+    <string name="HIPS_Perm_AudioRecorder_Desc">Aufnahme von Ton und Anrufen</string>
+    <string name="HIPS_Perm_AudioRecorder_Hint">%1$s dürfen auf Anrufe und Mikrofon zugreifen</string>
+    <string name="HIPS_Perm_Mobile_Connectivity">mobiles Internet</string>
+    <string name="HIPS_Perm_Mobile_Connectivity_Desc">mobiles Internet</string>
+    <string name="HIPS_Perm_Mobile_Connectivity_Hint">%1$s Apps erwarten Zugriff aufs mobile Internet</string>
+    <string name="HIPS_Perm_WIFI_Connectivity">WIFI Nutzung</string>
+    <string name="HIPS_Perm_WIFI_Connectivity_Desc">WIFI Nutzung</string>
+    <string name="HIPS_Perm_WIFI_Connectivity_Hint">%1$s Apps erwarten Zugrif aufs WLAN</string>
+    <string name="HIPS_Perm_Bluetooth_Connectivity">Bluethooth Nutzung</string>
+    <string name="HIPS_Perm_Bluetooth_Connectivity_Desc">Bluethooth Nutzung</string>
+    <string name="HIPS_Perm_Bluetooth_Connectivity_Hint">%1$s Apps erwarten Zugriff auf Bluethooth</string>
+    <string name="HIPS_Perm_MMS_Access">MMS lesen</string>
+    <string name="HIPS_Perm_Recorder_Camera">Nutzung der Kamera</string>
+    <string name="HIPS_Perm_Recorder_VoiceCall">Telefonate aufnehmen</string>
     <string name="Desktop_Traffic_Month_Hint">month :%1$s</string>
     <string name="Phone_Database_Marker_Name_Correction">number of error correction</string>
     <string name="Phone_correction_no_data">no need correcting numbers</string>
