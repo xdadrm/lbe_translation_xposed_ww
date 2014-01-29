@@ -710,7 +710,7 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Generic_Adjust">Anpassung</string>
     <string name="Generic_Auto">Automatische</string>
     <string name="Generic_Accept">Erlauben</string>
-    <string name="Generic_Prompt">Tip</string>
+    <string name="Generic_Prompt">Erfragen</string>
     <string name="Generic_Reject">Ablehnen</string>
     <string name="Generic_Check">Prüfen</string>
     <string name="Generic_Remove">Entfernen</string>
