@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="HIPS_Action_Accept">Erlauben/string>
+    <string name="HIPS_Action_Accept">Erlauben</string>
     <string name="HIPS_Action_Prompt">Erfragen</string>
     <string name="HIPS_Action_Reject">Ablehnen</string>
     <string name="HIPS_Action_Accept_Colored">&lt;font color=#478800> Erlaubt &lt;/ font></string>
