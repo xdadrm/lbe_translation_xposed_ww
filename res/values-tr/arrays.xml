@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="addblacktype">
-        <item>Add from Contacts</item>
-        <item>Add from Call History</item>
-        <item>Add from the message list</item>
-        <item>Manually add</item>
-        <item>Added by region</item>
-        <item>From the classification markings added</item>
+        <item>Rehberden ekle</item>
+        <item>Telefon geçmişinden ekle</item>
+        <item>Mesaj listesinden ekle</item>
+        <item>Manüel ekle</item>
+        <item>Bölgeye göre eklendi</item>
+        <item>Sınıftan seçilenler eklendi</item>
     </string-array>
     <string-array name="addwhitetype">
-        <item>Add from Contacts</item>
-        <item>Add from Call History</item>
-        <item>Add from the message list</item>
-        <item>Manually add</item>
-        <item>Added by region</item>
+        <item>Rehberden ekle</item>
+        <item>Telefon geçmişinden ekle</item>
+        <item>Mesaj listesinden ekle</item>
+        <item>Manüel ekle</item>
+        <item>Bölgeye göre eklendi</item>
     </string-array>
     <string-array name="addnouseiptype">
-        <item>Add from Contacts</item>
-        <item>Add from Call History</item>
-        <item>Add from the message list</item>
-        <item>Manually add</item>
+        <item>Rehberden ekle</item>
+        <item>Telefon geçmişinden ekle</item>
+        <item>Mesaj listesinden ekle</item>
+        <item>Manüel ekle</item>
     </string-array>
     <string-array name="select_sim">
-        <item>From the SIM 1</item>
-        <item>From the SIM 1</item>
+        <item>SIM 1\'den</item>
+        <item>SIM 1\'den</item>
     </string-array>
     <string-array name="stopmsgtype_options">
-        <item>Smart block mode</item>
-        <item>block only blacklist</item>
-        <item>Receive only whitelist</item>
-        <item>Block all</item>
-        <item>Accept all</item>
-        <item>Only accept contacts</item>
-        <item>Custom mode</item>
+        <item>Akıllı engelleme modu</item>
+        <item>Sadece kara listedekileri engelle</item>
+        <item>Sadece beyaz listedekileri kabul et</item>
+        <item>Hepsini engelle</item>
+        <item>Hepsini kabul et</item>
+        <item>Sadece rehberdekileri kabul et</item>
+        <item>Özel mod</item>
     </string-array>
     <string-array name="endcalltype">
-        <item>Shutdown</item>
-        <item>Empty number</item>
-        <item>Shutdown</item>
-        <item>Hang up</item>
+        <item>Kapat</item>
+        <item>Boş numara</item>
+        <item>Kapat</item>
+        <item>Görüşmeyi sonlandır</item>
     </string-array>
     <string-array name="stopcalltype_values">
         <item>0</item>
@@ -48,37 +48,37 @@
         <item>4</item>
     </string-array>
     <string-array name="trafficBillingDay">
-        <item>1st</item>
-        <item>2nd</item>
-        <item>3rd</item>
-        <item>4th</item>
-        <item>5th</item>
-        <item>6th</item>
-        <item>7th</item>
-        <item>8th</item>
-        <item>9th</item>
-        <item>10th</item>
-        <item>11th</item>
-        <item>12th</item>
-        <item>13th</item>
-        <item>14th</item>
-        <item>15th</item>
-        <item>16th</item>
-        <item>17th</item>
-        <item>18th</item>
-        <item>19th</item>
-        <item>20th</item>
-        <item>21st</item>
-        <item>22nd</item>
-        <item>23rd</item>
-        <item>24th</item>
-        <item>25th</item>
-        <item>26th</item>
-        <item>27th</item>
-        <item>28th</item>
-        <item>29th</item>
-        <item>30th</item>
-        <item>31st</item>
+        <item>1.</item>
+        <item>2.</item>
+        <item>3.</item>
+        <item>4</item>
+        <item>5.</item>
+        <item>6.</item>
+        <item>7.</item>
+        <item>8.</item>
+        <item>9.</item>
+        <item>10.</item>
+        <item>11.</item>
+        <item>12.</item>
+        <item>13.</item>
+        <item>14.</item>
+        <item>15.</item>
+        <item>16.</item>
+        <item>17.</item>
+        <item>18.</item>
+        <item>19.</item>
+        <item>20.</item>
+        <item>21.</item>
+        <item>22.</item>
+        <item>23.</item>
+        <item>24.</item>
+        <item>25.</item>
+        <item>26.</item>
+        <item>27.</item>
+        <item>28.</item>
+        <item>29.</item>
+        <item>30.</item>
+        <item>31.</item>
     </string-array>
     <string-array name="trafficBillingDay_values">
         <item>1</item>
@@ -114,27 +114,27 @@
         <item>31</item>
     </string-array>
     <string-array name="msglog_oparete">
-        <item>Reply SMS</item>
-        <item>Call this number</item>
-        <item>Add to whitelist</item>
-        <item>Add to blacklist</item>
-        <item>Report</item>
+        <item>SMS\'i cevapla</item>
+        <item>Bu numarayı ara</item>
+        <item>Beyaz listeye ekle</item>
+        <item>Kara listeye ekle</item>
+        <item>Raporla</item>
     </string-array>
     <string-array name="calllog_oparete">
-        <item>Delete</item>
-        <item>Reply SMS</item>
-        <item>Call this number</item>
-        <item>Add to whitelist</item>
-        <item>Add to blacklist</item>
-        <item>Restored to the system call log</item>
+        <item>Sil</item>
+        <item>SMS\'i cevapla</item>
+        <item>Bu numarayı ara</item>
+        <item>Beyaz listeye ekle</item>
+        <item>Kara listeye ekle</item>
+        <item>Sistem arama geçmişinden geri getir</item>
     </string-array>
     <string-array name="preference_stopcalltype_options">
-        <item>Turn off night disturb mode</item>
-        <item>Block only blacklist</item>
-        <item>Receive only whitelist</item>
-        <item>Block all</item>
-        <item>Accept all</item>
-        <item>Receive only the white list and contacts</item>
+        <item>Gece rahatsız etme modunu kapat</item>
+        <item>Sadece kara listedekileri engelle</item>
+        <item>Sadece beyaz listedekilerden al</item>
+        <item>Hepsini engelle</item>
+        <item>Hepsini kabul et</item>
+        <item>Sadece beyaz listedekilerden ve rehberden kabul et</item>
     </string-array>
     <string-array name="preference_stopcalltype_values">
         <item>0</item>
@@ -145,31 +145,31 @@
         <item>5</item>
     </string-array>
     <string-array name="user_defined">
-        <item>WhiteList</item>
-        <item>Blacklist</item>
-        <item>Contact</item>
-        <item>Recently had contact numbers</item>
-        <item>Keyword</item>
-        <item>Intelligence block</item>
+        <item>Beyaz liste</item>
+        <item>Kara liste</item>
+        <item>Rehber</item>
+        <item>Son rehber numaraları</item>
+        <item>Anahtar Kelime</item>
+        <item>Akıllı Engelleme</item>
     </string-array>
     <string-array name="user_phone_defined">
-        <item>WhiteList</item>
-        <item>Blacklist</item>
-        <item>Contact</item>
-        <item>Recently had contact numbers</item>
+        <item>Beyaz liste</item>
+        <item>Kara liste</item>
+        <item>Rehber</item>
+        <item>Son rehber numaraları</item>
     </string-array>
     <string-array name="select_allow">
-        <item>Receive</item>
-        <item>Ignore</item>
+        <item>Kabul et</item>
+        <item>Yoksay</item>
     </string-array>
     <string-array name="select_reject">
-        <item>Block</item>
-        <item>Ignore</item>
+        <item>Engelle</item>
+        <item>Yoksay</item>
     </string-array>
     <string-array name="traffic_refresh">
-        <item>High</item>
-        <item>In</item>
-        <item>Low</item>
+        <item>Yüksek</item>
+        <item>İçinde</item>
+        <item>Düşük</item>
     </string-array>
     <string-array name="traffic_refresh_values">
         <item>2000</item>
@@ -177,10 +177,10 @@
         <item>4000</item>
     </string-array>
     <string-array name="traffic_autodim">
-        <item>10 seconds</item>
-        <item>15 seconds</item>
-        <item>20 seconds</item>
-        <item>Always show</item>
+        <item>10 saniye</item>
+        <item>15 saniye</item>
+        <item>20 saniye</item>
+        <item>Her zaman göster</item>
     </string-array>
     <string-array name="traffic_autodim_values">
         <item>10000</item>
@@ -189,9 +189,9 @@
         <item>-1</item>
     </string-array>
     <string-array name="location_bg">
-        <item>Gorgeous</item>
-        <item>Refreshing</item>
-        <item>Concise</item>
+        <item>Harika</item>
+        <item>Yenileniyor</item>
+        <item>Kısa</item>
     </string-array>
     <string-array name="location_bg_values">
         <item>0</item>
@@ -199,17 +199,17 @@
         <item>2</item>
     </string-array>
     <string-array name="flowwindow_style">
-        <item>Standard</item>
-        <item>Fresh</item>
+        <item>Standart</item>
+        <item>Rahat</item>
     </string-array>
     <string-array name="flowwindow_style_values">
         <item>0</item>
         <item>1</item>
     </string-array>
     <string-array name="notify_hips_event">
-        <item>All requests prompted</item>
-        <item>Only prompts rejected requests</item>
-        <item>Any request without prompting</item>
+        <item>Tüm istekler sorulsun</item>
+        <item>Sadece reddedilmiş istekler sorulsun</item>
+        <item>Herhangi bir istek sorulmasın</item>
     </string-array>
     <string-array name="notify_hips_event_values">
         <item>0</item>
@@ -217,17 +217,17 @@
         <item>2</item>
     </string-array>
     <string-array name="record_telephony_event">
-        <item>Record all software</item>
-        <item>Record only untrusted software</item>
+        <item>Tüm yazılımları kaydet</item>
+        <item>Sadece güvenilmeyen yazılımları kaydet</item>
     </string-array>
     <string-array name="record_telephony_event_values">
         <item>0</item>
         <item>1</item>
     </string-array>
     <string-array name="auto_ip_callist">
-        <item>Dialing numbers from other provinces</item>
-        <item>Call numbers outside the city</item>
-        <item>When all the numbers dialed</item>
+        <item>Farklı illerden numaralar aranıyor</item>
+        <item>Şehir dışındaki numaraları ara</item>
+        <item>Tüm numaralar arandığında</item>
     </string-array>
     <string-array name="auto_ip_callist_value">
         <item>0</item>
@@ -235,17 +235,17 @@
         <item>1</item>
     </string-array>
     <string-array name="virus_antivirus_antilib">
-        <item>Virus|Category: virus</item>
-        <item>Worm|Category: Worm</item>
-        <item>Trojan|Category: Trojans</item>
-        <item>G-Ware|Category: G-Ware</item>
-        <item>AdWare|Category: AdWare</item>
-        <item>RiskWare|Category: RiskWare</item>
-        <item>Tool|Category: Tool</item>
-        <item>"prv|Privacy steal
-Reveal the user private information"</item>
-        <item>"rmt|Remote Control
-Remote Server Control via Mobile"</item>
+        <item>Virus|Kategori: virus</item>
+        <item>Solucan|Kategori: Solucan</item>
+        <item>Trojan|Kategori: Trojans</item>
+        <item>G-Ware|Kategori: G-Ware</item>
+        <item>AdWare|Kategori: AdWare</item>
+        <item>RiskWare|Kategori: RiskWare</item>
+        <item>Araç|Kategori: Araç</item>
+        <item>"prv|Gizlilik hırsızı
+Kullanıcının gizli bilgilerini çalar"</item>
+        <item>"rmt|Uzaktan kontrol
+Telefonla uzaktan kontrol eder"</item>
         <item>"pay|Malicious
 SP automatic subscription service resulting in chargeback"</item>
         <item>"spr|spread malicious
@@ -253,13 +253,13 @@ Proliferation of malicious code automatically"</item>
         <item>"exp|Tariff consumption
 Automatic frequent networking or SMS
 Consumption rates resulting"</item>
-        <item>"sys|System Damage
+        <item>"sys|Sistem Hasarı
 Some damage to the system
 Affect system stability
 Reduce system security"</item>
         <item>"fra|decoy fraud
 Fake SMS
-Block SMS"</item>
+Engel SMS"</item>
         <item>"rog|hooliganism
 Malicious occupy system resources
 Pop-up ads and other hooliganism"</item>
@@ -273,15 +273,15 @@ There may be false positives"</item>
         <item>default|unknown threats</item>
     </string-array>
     <string-array name="traffic_cell_type">
-        <item>Sort by monthly flow</item>
-        <item>"Sort by today's traffic"</item>
-        <item>Sort by software name</item>
+        <item>Aylık kullanıma göre sırala</item>
+        <item>"Bugünkü trafiğe göre sırala"</item>
+        <item>Uygulama ismine göre sırala</item>
     </string-array>
     <string-array name="calibration_period">
-        <item>Every three days</item>
-        <item>Weekly</item>
-        <item>Every day</item>
-        <item>Manual Calibration</item>
+        <item>Üç günde bir</item>
+        <item>Haftalık</item>
+        <item>Her gün</item>
+        <item>Manüel Kalibrasyon</item>
     </string-array>
     <string-array name="showpowerquantitylower">
         <item>10%</item>
@@ -291,14 +291,14 @@ There may be false positives"</item>
         <item>50%</item>
     </string-array>
     <string-array name="auto_update_period">
-        <item>Close</item>
-        <item>Every one day</item>
-        <item>Every two days</item>
-        <item>Every three days</item>
-        <item>Every four days</item>
-        <item>Every five days</item>
-        <item>Every six days</item>
-        <item>Every seven days</item>
+        <item>Kapat</item>
+        <item>Günde bir</item>
+        <item>İki günde bir</item>
+        <item>Üç günde bir</item>
+        <item>Dört günde bir</item>
+        <item>Beş günde bir</item>
+        <item>Altı günde bir</item>
+        <item>Yedi günde bir</item>
     </string-array>
     <string-array name="auto_update_period_values">
         <item>0</item>
@@ -311,13 +311,13 @@ There may be false positives"</item>
         <item>7</item>
     </string-array>
     <string-array name="hips_batch_operation">
-        <item>Allow all</item>
-        <item>All Tips</item>
-        <item>Reject All</item>
+        <item>Hepsine izin ver</item>
+        <item>Tüm ipuçları</item>
+        <item>Hepsini reddet</item>
     </string-array>
     <string-array name="hips_batch_operation_ar">
-        <item>Allow all</item>
-        <item>Reject All</item>
+        <item>Hepsine izin ver</item>
+        <item>Hepsini reddet</item>
     </string-array>
     <string-array name="defaultfilesuffix">
         <item>epub</item>
@@ -373,9 +373,9 @@ There may be false positives"</item>
         <item>1048576</item>
     </integer-array>
     <string-array name="misscalltype">
-        <item>Ringtones and vibration</item>
-        <item>Ring</item>
-        <item>Vibration</item>
+        <item>Zil sesleri and titreşim</item>
+        <item>Zil sesi</item>
+        <item>Titreşim</item>
     </string-array>
     <string-array name="misscalltype_value">
         <item>0</item>
@@ -383,9 +383,9 @@ There may be false positives"</item>
         <item>2</item>
     </string-array>
     <string-array name="miss_alert_time">
-        <item>Every 5 minutes</item>
-        <item>Every 10 minutes</item>
-        <item>Every 20 minutes</item>
+        <item>Her 5 dakikada bir</item>
+        <item>Her 10 dakikada bir</item>
+        <item>Her 20 dakikada bir</item>
     </string-array>
     <string-array name="miss_alert_time_value">
         <item>5</item>
@@ -393,17 +393,17 @@ There may be false positives"</item>
         <item>20</item>
     </string-array>
     <string-array name="desktop_home_launch_mode">
-        <item>Click the Home button</item>
-        <item>Double-click the Home button</item>
+        <item>Ev tuşuna bas</item>
+        <item>İki kere ev tuşuna bas</item>
     </string-array>
     <string-array name="lbe_shortcut_start_mode">
         <item>Notice to enter the main</item>
-        <item>Desktop shortcut</item>
+        <item>Masaüstü kısayolu</item>
     </string-array>
     <string-array name="blocklog_save_time">
-        <item>One week</item>
-        <item>One Month</item>
-        <item>Permanent preservation</item>
+        <item>Bir hafta</item>
+        <item>Bir ay</item>
+        <item>Kalıcı koruma</item>
     </string-array>
     <string-array name="blocklog_save_time_values">
         <item>0</item>
@@ -411,33 +411,33 @@ There may be false positives"</item>
         <item>2</item>
     </string-array>
     <string-array name="phone_marker_operator">
-        <item>Transfer to other classifications</item>
-        <item>Deleted from the classification</item>
-        <item>Add to blacklist</item>
+        <item>Başka bir sınıfa taşı</item>
+        <item>Sınıftan silindi</item>
+        <item>Kara listeye ekle</item>
     </string-array>
     <string-array name="private_contact_operator">
-        <item>Call</item>
-        <item>Texting</item>
-        <item>Edit</item>
-        <item>Delete</item>
+        <item>Arama</item>
+        <item>Mesajlaşma</item>
+        <item>Düzenle</item>
+        <item>Sil</item>
     </string-array>
     <string-array name="private_call_operator">
-        <item>Texting</item>
-        <item>Delete</item>
-        <item>Restored to the phone</item>
+        <item>Mesajlaşma</item>
+        <item>Sil</item>
+        <item>Telefona geri alındı</item>
     </string-array>
     <string-array name="private_message_operator">
-        <item>Call a contact</item>
-        <item>Remove this session</item>
-        <item>Restored to the phone</item>
+        <item>Rehberden birini ara</item>
+        <item>Bu oturumu sil</item>
+        <item>Telefona geri alındı</item>
     </string-array>
     <string-array name="private_message_dialog_operator">
-        <item>Delete this message</item>
-        <item>Restored to the phone</item>
+        <item>Bu mesajı sil</item>
+        <item>Telefona geri alındı</item>
     </string-array>
     <string-array name="phone_block_type">
-        <item>Call and SMS</item>
-        <item>Call</item>
+        <item>Arama and SMS</item>
+        <item>Arama</item>
         <item>SMS</item>
     </string-array>
     <string-array name="battery_scene_killtask_interval_values">
@@ -446,52 +446,52 @@ There may be false positives"</item>
         <item>10</item>
     </string-array>
     <string-array name="anti_adware_user_feedback_type">
-        <item>Block ads fail</item>
+        <item>Reklam engellenemedi</item>
         <item>The software is free of adware</item>
         <item>After the program exception block ads</item>
         <item>Can not be displayed on the Close button banner</item>
-        <item>Cancel</item>
+        <item>İptal</item>
     </string-array>
     <string-array name="desktop_float_toggles_labels">
-        <item>Flight mode</item>
+        <item>Uçuş modu</item>
         <item>Bluetooth</item>
-        <item>Screen brightness</item>
-        <item>Touch</item>
-        <item>Synchronous</item>
+        <item>Ekran parlaklığı</item>
+        <item>Dokunma</item>
+        <item>Senkranizasyon</item>
         <item>WIFI</item>
         <item>GPS</item>
-        <item>Mobile network</item>
-        <item>Screen Rotation</item>
+        <item>Mobil Veri</item>
+        <item>Ekran Döndürme</item>
     </string-array>
     <string-array name="homepage_more_options_labels">
         <item>Antivirus</item>
-        <item>Active defense</item>
-        <item>Notification bar</item>
-        <item>Privacy Space</item>
-        <item>Call blocking</item>
-        <item>Antitheft</item>
-        <item>Communication</item>
-        <item>Backup restore</item>
+        <item>Aktif defans</item>
+        <item>Bildirim çubuğu</item>
+        <item>Gizlilik Alanı</item>
+        <item>Arama Engelleme</item>
+        <item>Hırsızlığa karşı</item>
+        <item>Topluluk</item>
+        <item>Yedekle ve geri al</item>
     </string-array>
     <string-array name="home_settings_labels">
-        <item>Desktop Shortcut</item>
-        <item>Add shortcut to the desktop Oneclick clean-up</item>
-        <item>Oneclick clean white list</item>
-        <item>Password Protection</item>
-        <item>System Settings</item>
+        <item>Masaüstü kısayolu</item>
+        <item>Masaüstüne tek tuşla temizle butonu ekle</item>
+        <item>Tek tuşla beyaz listeyi sil</item>
+        <item>Parola Koruması</item>
+        <item>Sistem Ayarları</item>
     </string-array>
     <string-array name="home_about_labels">
-        <item>Software Updates</item>
-        <item>Feedback</item>
-        <item>Software rate</item>
-        <item>Share with friends</item>
-        <item>Join with us</item>
-        <item>Special thanks</item>
+        <item>Uygulama güncellemeleri</item>
+        <item>Geri Bildirim</item>
+        <item>Uygulama derecesi</item>
+        <item>Arkadaşlarınla paylaş</item>
+        <item>Bize katıl</item>
+        <item>Özel teşekkürler</item>
     </string-array>
     <string-array name="sdapk_sortypes">
-        <item>Sort by Name</item>
-        <item>Sort by size</item>
-        <item>Sort by time</item>
+        <item>İsime göre sırala</item>
+        <item>Boyuta göre sırala</item>
+        <item>Zamana göre sırala</item>
     </string-array>
     <string-array name="sdapk_types">
         <item>All Packages</item>
@@ -538,9 +538,9 @@ There may be false positives"</item>
     <string-array name="questions">
         <item>My best friend</item>
         <item>My favorite people</item>
-        <item>"My father's birthday"</item>
-        <item>"My mother's birthday"</item>
-        <item>"My wife's name/birthday"</item>
+        <item>"My father\'s birthday"</item>
+        <item>"My mother\'s birthday"</item>
+        <item>"My wife\'s name/birthday"</item>
         <item>I Primary/Secondary/University School Name</item>
         <item>My favorite novel</item>
         <item>My favorite movie</item>
@@ -590,39 +590,39 @@ There may be false positives"</item>
     </string-array>
     <string-array name="hardware_network_info">
         <item>1 Standard network</item>
-        <item>2 WIFI support information</item>
-        <item>3 GPS support information</item>
-        <item>4 Bluetooth support information</item>
+        <item>2 WIFI support bilgisi</item>
+        <item>3 GPS support bilgisi</item>
+        <item>4 Bluetooth support bilgisi</item>
     </string-array>
     <string-array name="hardware_sensor_name">
-        <item>Acceleration sensor</item>
-        <item>Magnetic field sensor</item>
-        <item>Orientation Sensor</item>
-        <item>Gyro Sensor</item>
-        <item>Light sensor</item>
-        <item>Pressure Sensor</item>
-        <item>Temperature Sensor</item>
-        <item>Proximity sensor</item>
-        <item>Gravity Sensor</item>
-        <item>Linear Acceleration Sensor</item>
-        <item>Rotation vector sensor</item>
-        <item>Relative humidity sensor</item>
-        <item>Temperature sensor</item>
+        <item>İvme sensörü</item>
+        <item>Manyetik alan sensörü</item>
+        <item>Dönme sensörü</item>
+        <item>Gyro sensörü</item>
+        <item>Işık sensörü</item>
+        <item>Basınç sensörü</item>
+        <item>Isı sensörü</item>
+        <item>Yakınlık sensörü</item>
+        <item>Yer çekimi sensörü</item>
+        <item>Doğrusal ivme sensörü</item>
+        <item>Dönme vektör sensörü</item>
+        <item>Bağıl nem sensörü</item>
+        <item>Isı sensörü</item>
     </string-array>
     <string-array name="hardware_rank">
         <item>Model ranking</item>
         <item>Models percentage</item>
     </string-array>
     <string-array name="hardware_antutu_keys">
-        <item>Main camera</item>
-        <item>Front camera</item>
-        <item>Screen Size</item>
-        <item>Material</item>
+        <item>Arka kamera</item>
+        <item>Arka kamera</item>
+        <item>Ekran boyutu</item>
+        <item>Materyal</item>
     </string-array>
     <string-array name="app_install_manage_mode_title">
-        <item>Allow automatic installation</item>
-        <item>Ask automatically installed</item>
-        <item>Disable the automatic installation</item>
+        <item>Otomatik yüklemeye izin ver</item>
+        <item>Otomatik yüklemeyi sor</item>
+        <item>Otomatik yüklemeyi devredışı bırak</item>
     </string-array>
     <string-array name="app_install_manage_mode_desc">
         <item>Allows automatic installation software, prompt notification bar after installation</item>
@@ -632,6 +632,7 @@ There may be false positives"</item>
     <string-array name="special_thanks_list">
         <item>xda_drm from xda-developers</item>
         <item>vuhien from xda-developers</item>
+        <item>xda-developers\'dan AHOME</item>
         <item>LemonCC vs Tamina</item>
         <item>影殇1 vs 魏傲06</item>
         <item>GTRZ</item>
