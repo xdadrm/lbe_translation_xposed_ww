@@ -27,19 +27,19 @@
     <string name="HIPS_Perm_CallState_Hint">%1$s may get information about calls and status</string>
     <string name="HIPS_Perm_CallMonitor">Call monitor</string>
     <string name="HIPS_Perm_CallMonitor_Desc">Listener call content, control volume, etc</string>
-    <string name="HIPS_Perm_CallMonitor_Hint">%1$smay monitor calls and set volume</string>
+    <string name="HIPS_Perm_CallMonitor_Hint">%1$s may monitor calls and set volume</string>
     <string name="HIPS_Perm_Location">Location</string>
     <string name="HIPS_Perm_Location_Desc">Through a network or on your mobile phone positioning satellite</string>
-    <string name="HIPS_Perm_Location_Hint">%1$smay locate your phone</string>
+    <string name="HIPS_Perm_Location_Hint">%1$s may locate your phone</string>
     <string name="HIPS_Perm_PhoneID">Mobile identification number</string>
     <string name="HIPS_Perm_PhoneID_Desc">Get your phone PIN, including IMEI, IMSI, phone number, etc</string>
-    <string name="HIPS_Perm_PhoneID_Hint">%1$smay get your IMEI</string>
+    <string name="HIPS_Perm_PhoneID_Hint">%1$s may get your IMEI</string>
     <string name="HIPS_Perm_MobileNetwork">Networking via 2G/3G networks</string>
     <string name="HIPS_Perm_MobileNetwork_Desc">Networking via 2G/3G networks</string>
-    <string name="HIPS_Perm_MobileNetwork_Hint">%1$smay access network</string>
+    <string name="HIPS_Perm_MobileNetwork_Hint">%1$s may access network</string>
     <string name="HIPS_Perm_WIFINetwork">Networking via Wifi network</string>
     <string name="HIPS_Perm_WIFINetwork_Desc">Networking via Wifi network</string>
-    <string name="HIPS_Perm_WIFINetwork_Hint">%1$smay access network</string>
+    <string name="HIPS_Perm_WIFINetwork_Hint">%1$s may access network</string>
     <string name="HIPS_Perm_Network_UnknownAddr">Unknown address</string>
     <string name="HIPS_Perm_Network_MobileEvent">use 2G/3G network</string>
     <string name="HIPS_Perm_Network_WIFIEvent">use WIFI network</string>
@@ -50,13 +50,13 @@
     <string name="HIPS_Perm_Network_Send">Transmit data</string>
     <string name="HIPS_Perm_SMS">SMS record</string>
     <string name="HIPS_Perm_SMS_Desc">Access your SMS inbox</string>
-    <string name="HIPS_Perm_SMS_Hint">%1$smay read SMS</string>
+    <string name="HIPS_Perm_SMS_Hint">%1$s may read SMS</string>
     <string name="HIPS_Perm_Contact">Contact records</string>
     <string name="HIPS_Perm_Contact_Desc">Access your contact list</string>
-    <string name="HIPS_Perm_Contact_Hint">%1$smay access conntacts</string>
+    <string name="HIPS_Perm_Contact_Hint">%1$s may access conntacts</string>
     <string name="HIPS_Perm_CallLog">Call records</string>
     <string name="HIPS_Perm_CallLog_Desc">Access your call records</string>
-    <string name="HIPS_Perm_CallLog_Hint">%1$smay access call history</string>
+    <string name="HIPS_Perm_CallLog_Hint">%1$s may access call history</string>
     <string name="HIPS_Perm_ROOT">ROOT permissions</string>
     <string name="HIPS_Perm_ROOT_Desc">Highest Access Level to all your Data</string>
     <string name="HIPS_Perm_ROOT_Hint">%1$s requests Permission for root</string>
@@ -65,7 +65,7 @@
     <string name="HIPS_Perm_Settings_Hint">%1$s may change system settings</string>
     <string name="HIPS_Perm_Recorder">Taking photographs and recording</string>
     <string name="HIPS_Perm_Recorder_Desc">Taking photographs and recording</string>
-    <string name="HIPS_Perm_Recorder_Hint">%1$smay take pictures</string>
+    <string name="HIPS_Perm_Recorder_Hint">%1$s may take pictures</string>
     <string name="HIPS_Perm_SendSMS_Recipient">Addressee</string>
     <string name="HIPS_Perm_SendSMS_Content">Content</string>
     <string name="HIPS_Perm_SendSMS_SMSC">SMS center number</string>
@@ -121,8 +121,8 @@
     <string name="button_cancel_download">Cancel</string>
     <string name="button_start_now">Start now</string>
     <string name="more_options">More features</string>
-    <string name="copyright">Copyright © 2012-2013 LBE Security Master &#160;All Rights Reserved</string>
-    <string name="share_desc">I am using LBE Security Master protect my phone, Block calls and messages, advertising, protect privacy, access control. Try it ! Download Link : http://www.lbesec.com or on http://forum.xda-developers.com/</string>
+    <string name="copyright">Copyright © 2012-2014 LBE Security Master ;All Rights Reserved</string>
+    <string name="share_desc">I am using LBE Security Master to really control my what my phone is doing. It protects my phone and data by: Blocking calls, text messages, advertising, configure Application permissions, Firewall, bloatware remover and more!  Try it ! Download Link : http://www.lbesec.com or on http://forum.xda-developers.com/</string>
     <string name="visit_website">Visit website</string>
     <string name="attention_sina_weibo">Follow Us</string>
     <string name="begin_use">Getting Started</string>
@@ -201,8 +201,8 @@
     <string name="AD_Risk_App">Apps to be reviewed (%1$d)</string>
     <string name="AD_No_Risk_App">Without risky Adware (%1$d)</string>
     <string name="AD_No_Exist_App">No Adware</string>
-    <string name="AD_Already_Blokced">Advertising blocked</string>
-    <string name="AD_OneClick_Diable">Oneclick Disable</string>
+    <string name="AD_Already_Blocked">Advertising blocked</string>
+    <string name="AD_OneClick_Disable">Oneclick Disable</string>
     <string name="AD_Cancel_Scan">Cancel a scan</string>
     <string name="AD_User_Feedback">User feedback</string>
     <string name="AD_AdwareSet_Update_Success">Ad blocking the update is successful</string>
@@ -221,7 +221,7 @@
     <string name="AD_Report_Hint">If you find no adware detection, please report</string>
     <string name="AD_Report_Success_Hint">You have successfully reported advertising applications, thank you</string>
     <string name="AD_Scan_Day_Ago">%1$d days ago</string>
-    <string name="AD_Scan_Long_Ago">Long time no check</string>
+    <string name="AD_Scan_Long_Ago">Long time since checked</string>
     <string name="AD_Scan_Today">You just checked today</string>
     <string name="AD_Scan_Again">Ad Scan</string>
     <string name="AD_Install_App">Installed Software</string>
@@ -239,7 +239,7 @@
     <string name="AV_NotDeep">just a quick scan ..</string>
     <string name="AV_Waiting">Queue waiting</string>
     <string name="AV_WaitingResume">The scan engine is busy, please wait a moment</string>
-    <string name="AV_ScanFail">Virus scan engine exception Samples of the virus might be your library or antivirus engine does not match the cause, it is recommended to update the latest version of the antivirus engine and virus sample library. </string>
+    <string name="AV_ScanFail">Virus scan engine exception; The cause may be your Sample Virus Library and/or AntiVirus engine does not match, it is recommended to check and update Virus definitions to the latest version. </string>
     <string name="AV_Check_Upgrade">Check for updates</string>
     <string name="AV_AutoUpdate_Title">Automatic upgrade check cycle</string>
     <string name="AV_AutoUpdate_NoTip">Never check</string>
@@ -257,9 +257,9 @@
     <string name="AV_ScanResult_Pending">Wait Clear</string>
     <string name="AV_ScanResult_Skip">Skip</string>
     <string name="AV_ScanResult_Succeed">Clear Success</string>
-    <string name="AV_NoVirus">Your phone is safe.Remember to check later</string>
+    <string name="AV_NoVirus">Your phone is safe. Remember to check later</string>
     <string name="AV_NoVirus1">Your phone is safe</string>
-    <string name="AV_NoVirus2">OK,but emember check later</string>
+    <string name="AV_NoVirus2">OK, but remember to check later</string>
     <string name="AV_ScanProgress">Is the background scan: %1$s</string>
     <string name="AV_ScanNewApp">Scanning :%1$s</string>
     <string name="AV_ScanNewApp_Virus">In %1$s threat is detected, immediately clear</string>
@@ -277,15 +277,15 @@
     <string name="AV_ScanResultReport_Report">Scan files :%1$d, virus :%2$d, warning :%3$d, clear :%4$d</string>
     <string name="AV_LastScanResult">%1$s%2$s</string>
     <string name="AV_LastScanResult_Safe">Scanning %1$d apps, no threat found</string>
-    <string name="AV_LastScanResult_Warn">Scanning %1$d apps found %2$d threats</string>
+    <string name="AV_LastScanResult_Warn">Scanning %1$d apps, found %2$d threats</string>
     <string name="AV_LocalUpdate">SD card virus database upgrade</string>
     <string name="AV_LocalUpdate_Des">Local upgrade version is: %1$s</string>
     <string name="AV_Copyright">Powered by Antiy AVL SDK antivirus engine</string>
     <string name="Battery">Battery Optimize</string>
     <string name="Battery_Settings">Power Save Settings</string>
     <string name="Battery_Backup">Energy-saving programs, regular programs and personalized configuration</string>
-    <string name="Battery_SavingModes">Power Saving Modes</string>
-    <string name="Battery_SavingMode_Des">Each program is kind of unique lifestyle</string>
+    <string name="Battery_SavingModes">Power Saving Modes</string>			           
+    <string name="Battery_SavingMode_Des">A plan to fit any changing  power needs</string>
     <string name="Battery_NightMode">Night Mode</string>
     <string name="Battery_NightMode_Des">Improve your quality of life at rest</string>
     <string name="Battery_CustomModes">Personalized saving</string>
@@ -907,14 +907,14 @@
     <string name="Traffic_Calibration_Succeed">Automatic Traffic calibration success</string>
     <string name="Traffic_Calibration_Start">Contacting the cloud server parses text, please wait</string>
     <string name="Traffic_Please_Set_Operator_Info_First">Please set the operator information</string>
-    <string name="Traffic_Calibration_Promo_Content">Recommend that you use the automatic calibration function Automatic Traffic correction function sends queries to the operator via SMS to automatically update Traffic Monitor data, more accurate and convenient</string>
+    <string name="Traffic_Calibration_Promo_Content">Recommend that you use the automatic calibration function. Automatic Traffic correction function sends queries to the operator via SMS to automatically update. Traffic Monitor data, more accurate and convenient</string>
     <string name="Traffic_Monitor_SetOperator_ButtonOk">Immediately set</string>
     <string name="Traffic_Monitor_SetOperator_ButtonCancal">Temporarily set</string>
-    <string name="Traffic_Monitor_Alarm">You have used more than 90% this months Dataplan, in order to avoid traffic overruns, we recommend that you use caution!</string>
-    <string name="Traffic_Monitor_Overproof_Alarm">You have used more than 100 percent of your Dataplan this month, we recommend that you immediately turn off networking!</string>
+    <string name="Traffic_Monitor_Alarm">You have used more than 90% of this months Data plan, in order to avoid traffic overruns, we recommend that you use caution!</string>
+    <string name="Traffic_Monitor_Overproof_Alarm">You have used more than 100 percent of your Data plan this month, we recommend that you immediately turn off networking!</string>
     <string name="Traffic_Monitor_Overproof_Dialog_Positive">Immediately off the net</string>
     <string name="Traffic_Monitor_Overproof_Dialog_Negative">Continue to use the</string>
-    <string name="Traffic_Monitor_Overproof_Dialog_Checkbox">This month is no longer remind</string>
+    <string name="Traffic_Monitor_Overproof_Dialog_Checkbox">This month is no longer reminded</string>
     <string name="Traffic_Monitor_Discount">Traffic at half time</string>
     <string name="Traffic_Monitor_Discount_Start">Start Time</string>
     <string name="Traffic_Monitor_Discount_End">End Time</string>
@@ -926,7 +926,7 @@
     <string name="Traffic_Monitor_Operator_Operator">Your cell phone carrier</string>
     <string name="Traffic_Monitor_Operator_Brand">Your package brand</string>
     <string name="Traffic_Monitor_Projection_Exceed">Traffic this month is expected to exceed %1$s</string>
-    <string name="Traffic_Monitor_Projection_OK">Adequate Dataplan, you can be assured</string>
+    <string name="Traffic_Monitor_Projection_OK">Adequate Data plan, you can be assured</string>
     <string name="Traffic_Monitor_Usage">Used this month:%1$s</string>
     <string name="Traffic_Monitor_Remain">Rest of the month:%1$s</string>
     <string name="Traffic_Monitor_Float_Progress">Month</string>
@@ -945,12 +945,12 @@
     <string name="Traffic_Retrieving">Retrieving</string>
     <string name="Traffic_NotConnected">Not connected</string>
     <string name="Traffic_Monitor_Usage_Hint">This month</string>
-    <string name="Traffic_Monitor_Plan_Hint">Dataplan</string>
+    <string name="Traffic_Monitor_Plan_Hint">Data plan</string>
     <string name="Traffic_Monitor_Today_Hint">Traffic Today</string>
     <string name="Traffic_Monitor_Dataplan_Amount">Total</string>
     <string name="Traffic_Net_App">Networking Software</string>
     <string name="Traffic_Rank_Month">Top this month</string>
-    <string name="Traffic_Rank_Today">Today\'s Top</string>
+    <string name="Traffic_Rank_Today">Today's Top</string>
     <string name="Traffic_rank_Realtime">Real-time Top</string>
     <string name="Traffic_Net_Firewall">Network firewall</string>
     <string name="Traffic_Carrier_CMCC">China Mobile</string>
@@ -1001,13 +1001,13 @@
     <string name="Patch_Check_Incompatible">Sorry, LBE group temporarily unable to provide for your phone system patches, open real-time virus scanning to protect your phone safe</string>
     <string name="Patch_Check_Fixed">Security patches have been applied</string>
     <string name="Patch_Check_Fixed_Dest">You have successfully applying security patches, open the active defense to protect your phone safe</string>
-    <string name="Patch_Check_Immune">Congratulations and found no security vulnerabilities</string>
-    <string name="Patch_Download_Success">Successfully donwloaded security patches, please click Apply security patches</string>
+    <string name="Patch_Check_Immune">Congratulations, no security vulnerabilities found</string>
+    <string name="Patch_Download_Success">Successfully downloaded security patches, please click Apply security patches</string>
     <string name="Patch_Download_Failure">Failed to get the security patches for your phone, please try again later.</string>
     <string name="Patch_Download_Cancelled">Cancelled</string>
     <string name="Patch_Title">Your system is vulnerable</string>
-    <string name="Patch_Description">Master detects that your system is vulnerable, the system could allow hackers to any application can be changed Trojans, full control of your phone in case you have not noticed, the theft of privacy and cause fees. We recommend that you obtain repair LBE Security Master plan to provide you protect your safety. </string>
-    <string name="Patch_Description_RootFree">LBE detected that your system is vulnerable, the system could allow hackers to any application can be changed, install Trojans, take full control of your phone, identitytheft and cause charges Before using Free ROOT, please fix this vulnerability. </string>
+    <string name="Patch_Description">LBE Master detected that your system is vulnerable, the system could allow hackers to change any application, install Trojans, take full control of your phone, identity theft and cause charges. We recommend that you obtain repair LBE Security Master plan to provide you protect your safety. </string>
+    <string name="Patch_Description_RootFree">LBE Master detected that your system is vulnerable, the system could allow hackers to change any application, install Trojans, take full control of your phone, identity theft and cause charges. Before using Free ROOT, please fix this vulnerability. </string>
     <string name="Patch_Query_Upload_Info">Contacting the cloud for repair program</string>
     <string name="Patch_Query_Download_Info">Fetching repair program</string>
     <string name="Patch_Query_Upload_APK">Fix the required data is being uploaded</string>
@@ -1139,7 +1139,7 @@
     <string name="Phone_Adding_Log">Adding intercept log</string>
     <string name="Phone_Loading">Processing</string>
     <string name="Phone_Data_Upload_Title">Cloud security services</string>
-    <string name="Phone_Data_Upload_Declare">LBE Security Master invites you to use cloud security services. Cloud-enabled security service, LBE can be more accurate intercept harassment, you can also feel free to report harassment. Cloud security services will not only waste your WIFI network data traffic . You can use it . Will you use ?</string>
+    <string name="Phone_Data_Upload_Declare">LBE Security Master invites you to use cloud security services. This can help for a more accurate intercept harassment option, you can also feel free to report harassment. Cloud security services will not only waste your WIFI network data traffic . You can use it . Will you use ?</string>
     <string name="Phone_MissCall_Title">There is a missed call alert</string>
     <string name="Phone_MissMsg_Title">There is an unread SMS alert</string>
     <string name="Phone_MissCallAlert_Type">Type of alert</string>
@@ -1256,7 +1256,7 @@
     <string name="Plugin_AntiTheft_Stopped">Security service is not open</string>
     <string name="Plugin_AntiTheft_Name">LBE security service</string>
     <string name="Plugin_AntiTheft_Welcome">Welcome LBE security service</string>
-    <string name="Plugin_AntiTheft_Introduction">LBE LBE Security Master security services launched an independent anti-theft module for your phone with the best anti-theft protection . LBE security service to provide you with the following functions: mobile phone positioning, data destruction, data backup, anti-theft alarm, virtual warnings The first time you use LBE security service, please download and install LBE security service module</string>
+    <string name="Plugin_AntiTheft_Introduction">LBE Security Master services launched an independent anti-theft module for your phone with the best anti-theft protection, providing you with the following functions: mobile phone positioning, data destruction, data backup, anti-theft alarm, virtual warnings. The first time you use LBE security service, please download and install LBE security service module</string>
     <string name="Plugin_AntiTheft_RootInstall">ROOT installation</string>
     <string name="Plugin_AntiTheft_RootIntroduction">ROOT installation mode LBE security service can be installed as a system component, can not be easily uninstalled. Even if your phone is to restore the factory settings, LBE security service can still work properly, to protect your phone safe</string>
     <string name="Plugin_AntiTheft_Install">Download and install LBE security service</string>
@@ -1292,7 +1292,7 @@
     <string name="pref_Password_Protection_Settings">Password protection settings</string>
     <string name="Pref_Main_Professional">Expert Mode</string>
     <string name="Pref_Main_Professional_Deep">Deep cleaning mode</string>
-    <string name="Pref_Main_Professional_DeepWarning">On this mode, the operation involving garbage, are completely removed, use with caution.</string>
+    <string name="Pref_Main_Professional_DeepWarning">On this mode, the operations involving garbage, are completely removed, use with caution.</string>
     <string name="Pref_Main_Password">Password Protection</string>
     <string name="Pref_Main_Password_Config">Set Password</string>
     <string name="Pref_Main_Password_Pattern">Setting Graphic password</string>
@@ -1441,7 +1441,7 @@
     <string name="HIPS_App_New">Configure permissions for %1$s</string>
     <string name="HIPS_App_NewApp">Click to view %1$s permissions</string>
     <string name="HIPS_App_NewApps">%1$d new apks to configure</string>
-    <string name="HIPS_App_NewAppsWithAdware">%1$d/%2$d apk to configure/with ads</string>
+    <string name="HIPS_App_NewAppsWithAdware">%1$d/%2$d apk to configure with ads</string>
     <string name="HIPS_App_New_Installed">%1$s has been installed</string>
     <string name="HIPS_App_New_Configure">Click the Permissions configuration software</string>
     <string name="HIPS_App_New_Configure_NoVirus">Not a threat is detected, click the Permissions configuration software</string>
@@ -1466,10 +1466,10 @@
     <string name="HIPS_Trust_NoConfig">Trusted software, you can configure permissions</string>
     <string name="HIPS_Notif">Active defense failed to load</string>
     <string name="HIPS_Notif_Detail">Active defense failed to load, click here for details</string>
-    <string name="HIPS_Notif_LoadTimeOut">LBE Security Master can not get ROOT access, your phone may not have ROOT privileges, or you do not grant Root to LBE Security Master.</string>
+    <string name="HIPS_Notif_LoadTimeOut">LBE Security Master can not get ROOT access, your phone may not have ROOT privileges, or you have not granted Root to LBE Security Master.</string>
     <string name="HIPS_Notif_LoadTimeOut_ROOT">Please help me ROOT my phone</string>
     <string name="HIPS_Notif_RebootRequired_Title">Please restart your phone</string>
-    <string name="HIPS_Notif_RebootRequired">Active defense service will start working after restart the phone . If the active defense still fails to load, you are prompted to restart your phone, long press the power button to manually restart the phone</string>
+    <string name="HIPS_Notif_RebootRequired">Active defense service will start working after a restart of the phone. If the active defense still fails to load, you are prompted to restart your phone, long press the power button to manually restart the phone</string>
     <string name="HIPS_Notif_UnknownReason">Active defense service failed to load, try restarting your phone. If the active defense still fails to load, you are prompted to restart your phone, long press the power button to manually restart the phone</string>
     <string name="HIPS_Conflict_MIUI_Title">Millet phone built LBE active defense services Please refer to the following steps to turn off</string>
     <string name="HIPS_Conflict_MIUI_Step1">Click on \"Software Permission manager\"</string>
@@ -1484,7 +1484,7 @@
     <string name="HIPS_Conflict_Verify_Positive">Closed</string>
     <string name="HIPS_Conflict_Verify_Negative">Not closed</string>
     <string name="HIPS_Reboot">Restart the phone</string>
-    <string name="HIPS_Reboot_Failure">If the phone does not restart, restart your phone your own</string>
+    <string name="HIPS_Reboot_Failure">If the phone does not restart, restart your phone on your own</string>
     <string name="HIPS_Defending">Active defense is protecting this device</string>
     <string name="HIPS_NOT_Defending">Active defense does not start</string>
     <string name="HIPS_Root_Mode">ROOT Activation</string>
@@ -1499,8 +1499,8 @@
     <string name="HIPS_AutoBoot_Desc">Control program from boot, mobile phones faster and more power-saving</string>
     <string name="HIPS_ADBlock_Desc">Block malicious ads</string>
     <string name="HIPS_NotifyMgr_Desc">Block ADs and annoying Notificatons.</string>
-    <string name="HIPS_Sys_Reduce_Desc">Powerful Uninstall phone pre-installed software to make your System slimmer</string>
-    <string name="HIPS_Net_Firewall_Desc">Control networking authority, to prevent unintended communication</string>
+    <string name="HIPS_Sys_Reduce_Desc">Uninstall pre-installed software</string>
+    <string name="HIPS_Net_Firewall_Desc">Control network permissions to prevent unintended communication</string>
     <string name="HIPS_HipsLog_Desc">Permission behavior control applications</string>
     <string name="HIPS_Not_Enable_Warn">Use the full functionality, you need to open the active defense</string>
     <string name="HIPS_Guide_HIPSEnable">Click the button to open the active defense services</string>
@@ -1568,7 +1568,7 @@
     <string name="private_show_password">Show password</string>
     <string name="private_input_password">Please enter your login password</string>
     <string name="private_input_password_again">Please enter the password again</string>
-    <string name="private_input_new_password">Please enter a new password ( length can not be more than 10 characters )</string>
+    <string name="private_input_new_password">Please enter a new password (length can not be more than 10 characters)</string>
     <string name="private_input_new_password_again">Please re- enter the new password</string>
     <string name="private_password_no_same">The two passwords do not match</string>
     <string name="private_password_length_alert">Password length can not exceed 10 characters</string>
@@ -1576,7 +1576,7 @@
     <string name="private_register_success">Registration is successful, remember passwords</string>
     <string name="private_password_false">Password input error</string>
     <string name="private_update_password">Modify the Privacy contact password</string>
-    <string name="private_open_fake_ui_summary">Prevent others ask to see the privacy space requirements, set up in advance so that privacy is more confidential false interface</string>
+    <string name="private_open_fake_ui_summary">Prevent others that ask to see the privacy space requirements, set up in advance so that privacy is more confidential false interface</string>
     <string name="private_setfalseui_password">Set false interface password</string>
     <string name="private_newmessage_notification_type">New message notification</string>
     <string name="private_newmessage_notification">Message notification</string>
@@ -1627,13 +1627,13 @@
     <string name="private_lock_settings">Lock settings</string>
     <string name="private_download_privatespace">Please download the latest version of the Privacy Space</string>
     <string name="private_download_privatespace_default">The module is being upgraded, so stay tuned...</string>
-    <string name="private_download_dialog_message">Soon as you download the privacy space Your program with files being more secure protection, whether to continue ?</string>
+    <string name="private_download_dialog_message">Soon as you download Privacy Space, your programs and files will be have more secure protection, whether to continue ?</string>
     <string name="private_upgrade_dialog_message">Soon as you update the Privacy Space Whether to continue ?</string>
-    <string name="private_install_fail">Privacy spatial installation fails</string>
+    <string name="private_install_fail">Privacy Space installation fails</string>
     <string name="private_setting_qasummary">Since setting a false password, security question failure</string>
     <string name="private_sms_unread">Unread</string>
-    <string name="Scan_RecommendScan">Protect your phone\'s security, physical examination immediately</string>
-    <string name="Scan_RecommendScan_LongTime">Long time no examination, let\'s see it masters</string>
+    <string name="Scan_RecommendScan">Protect your phone's security, physical examination immediately</string>
+    <string name="Scan_RecommendScan_LongTime">Long time no examination, let's see it masters</string>
     <string name="Scan_JustScanned">Just over physical examination, an easy</string>
     <string name="Scan_LastScanTitle">Last examination time in %1$s</string>
     <string name="Scan_ScanNow">Immediate Acceleration</string>
@@ -1650,7 +1650,7 @@
     <string name="Scan_Prepare">Preparing examination</string>
     <string name="Scan_Optimization_Finish">Congratulations, your phone is fine</string>
     <string name="Scan_Back_Warn_Title">Exit examination?</string>
-    <string name="Scan_Back_Warn_Content">Examination has not been completed, whether you want to exit Acceleration examination?</string>
+    <string name="Scan_Back_Warn_Content">Examination has not been completed, Do you want to exit Acceleration examination?</string>
     <string name="Scan_Start">Examination begins</string>
     <string name="Scan_Check_Configs">Checking Configuration</string>
     <string name="Scan_Check_HIPS">Checking for active defense services</string>
@@ -1689,7 +1689,7 @@
     <string name="Scan_Check_Cache_NoRoot">Application Cache check</string>
     <string name="Scan_Check_Cache_Name">Application Cache Total %1$s</string>
     <string name="Scan_Check_Cache_Fixed">Actual cleanup cache %1$s</string>
-    <string name="Scan_Check_AutoBoot_OK">You\'ve just configured software from start</string>
+    <string name="Scan_Check_AutoBoot_OK">You've just configured software from the start</string>
     <string name="Scan_Check_AutoBoot">Scanning software from the start</string>
     <string name="Scan_Check_AutoBoot_Name">%1$d may start on boot</string>
     <string name="Scan_Check_Update_Time">Checking for update</string>
@@ -1698,7 +1698,7 @@
     <string name="Scan_Check_Update_Time_Fixed">Checked</string>
     <string name="Scan_Check_Update_Time_Check">Security master version update</string>
     <string name="Scan_Check_Update_Time_Checked">You have checked version update</string>
-    <string name="Scan_Check_Fixed_Loophole">You\'ve just repaired vulnerabilities</string>
+    <string name="Scan_Check_Fixed_Loophole">You've just repaired vulnerabilities</string>
     <string name="Scan_Result_Excellent">Mobile has been optimized to perfection</string>
     <string name="Scan_Result_Good">Almost done, please continue to optimize</string>
     <string name="Scan_Result_Poor">Phone there are more risks, please Optimize Now</string>
@@ -1713,7 +1713,7 @@
     <string name="Scan_Clean_Thumb">Cleanup Thumbnails</string>
     <string name="Scan_Clean_EnptyDir">Cleaning up empty directories</string>
     <string name="Scan_Perfect_Not_Need_Check">Reached the optimum state, without examination</string>
-    <string name="Service_ServiceStarted">LBE Security Master is protecting your</string>
+    <string name="Service_ServiceStarted">LBE Security Master is protecting your phone</string>
     <string name="Service_HIPS_AcceptEvent">Allow %1$s%2$s</string>
     <string name="Service_HIPS_RejectEvent">Reject to %1$s%2$s</string>
     <string name="Service_TrafficMon_Stop">Traffic Monitoring is disabled</string>
@@ -1726,16 +1726,16 @@
     <string name="SoftMgr_Permission_Manage">Permission manager</string>
     <string name="SoftMgr_SysApk">Built-in software systems</string>
     <string name="SoftMgr_Recommend_Retain">Cautious unloading</string>
-    <string name="SoftMgr_Ram_Warning">Memory usage is too high, oh</string>
+    <string name="SoftMgr_Ram_Warning">Memory usage is too high</string>
     <string name="SoftMgr_Rom_Saving">Actual saving memory space %1$s</string>
     <string name="SoftMgr_Rom_Waste">Memory space actually occupied by %1$s</string>
     <string name="SoftMgr_Cache_Used">Other data %1$s</string>
     <string name="SoftMgr_Retain">%1$s &lt;font color=#FF7E00>%2$s>&lt;/font></string>
-    <string name="SoftMgr_AppPerm_Tip">&lt;font color=#17A4F5>active defense &lt;/font> to help you control the software Permission</string>
-    <string name="SoftMgr_AppUninstall_Tip">&lt;font color=#17A4F5>%1$d apks &lt;/font> User Software</string>
-    <string name="SoftMgr_SysUninstall_Tip">&lt;font color=#17A4F5>%1$d apks &lt;/font> preinstalled software</string>
+    <string name="SoftMgr_AppPerm_Tip">&lt;font color=#17A4F5>active defense &lt;/font>to control the software Permission</string>
+    <string name="SoftMgr_AppUninstall_Tip">&lt;font color=#17A4F5>%1$d &lt;/font> User installed Apps</string>
+    <string name="SoftMgr_SysUninstall_Tip">&lt;font color=#17A4F5>%1$d &lt;/font> preinstalled software Apps</string>
     <string name="SoftMgr_AppMove_Clean">Your system is very clean, &lt;font color=#17A4F5> without &lt;/font> Software Moving</string>
-    <string name="SoftMgr_AppMove_Suggest1">&lt;font color=#17A4F5>%1$d &lt;/font> Software recommends moved to SD card</string>
+    <string name="SoftMgr_AppMove_Suggest1">&lt;font color=#17A4F5>%1$d &lt;/font> Apps recommended moved to SD card</string>
     <string name="SoftMgr_AppMove_Suggest2">Without moving, &lt;font color=#17A4F5>%1$d &lt;/font> software has been on the SD card</string>
     <string name="SoftMgr_SdApk_LongAgo">&lt;font color=#17A4F5> long time &lt;/font> SD card not managed the installation package</string>
     <string name="SoftMgr_SdApk_DaysAgo">Last SD card installation package management is &lt;font color=#17A4F5>%1$d days&lt;/font> ago</string>
@@ -1812,7 +1812,7 @@
     <string name="SoftMgr_SysUninstall_Summary">Total %1$d models software has been uninstalled %2$d models of software</string>
     <string name="SoftMgr_SysUninstall_Disable">Disable Select Software (%1$d models )</string>
     <string name="SoftMgr_SysUninstall_Enable">Select Recovery Software (%1$d models )</string>
-    <string name="SoftMgr_SysUninstall_Guide">This feature is only for advanced users ! Security master can help you clean up the system junk software that comes with But accidentally deleted critical software may cause the system crash Use caution !</string>
+    <string name="SoftMgr_SysUninstall_Guide">This feature is only for advanced users ! Security master can help you clean up the system junk software that comes with But accidentally deleted critical software may cause the system crash. Use caution !</string>
     <string name="SoftMgr_SysUninstall_Warning">You sure you want to uninstall the software? If the system is not working properly after uninstallation, manually restore from the Recycle Bin</string>
     <string name="SoftMgr_SysUninstall_InstallWarning">System space remaining %1$s The application you choose to resume least %2$s space Note that when the system is out of space, it will cause the recovery to fail. Are you sure you want to restore the selected application ?</string>
     <string name="SoftMgr_SysUninstall_NoSpace">Insufficient system space, free space or choose other smaller systems installation package recovery.</string>
@@ -1835,7 +1835,7 @@
     <string name="SoftMgr_SDHelper_StartDelete">Start deleting</string>
     <string name="SoftMgr_SDHelper_Install">Installation (%1$d)</string>
     <string name="SoftMgr_SDHelper_SkipDifSig">%1$d signatures different installation to be skipped, please uninstall before installing.</string>
-    <string name="SoftMgr_SDHelper_InstallWait">The following installation packages you want to install because of signature or version issue, the need to replace the installation will cause the old data is lost. Please click OK to start the replacement installation, or click Cancel to exit </string>
+    <string name="SoftMgr_SDHelper_InstallWait">The following installation packages you want to install, because of signature or version issue, the need to replace the installation will cause the old data to be lost. Please click OK to start the replacement installation, or click Cancel to exit </string>
     <string name="SoftMgr_SDHelper_Selected">%1$d is selected one installation package.</string>
     <string name="SoftMgr_SDHelper_Delete">Delete (%1$d)</string>
     <string name="SoftMgr_SDHelper_Installed">Installed</string>
@@ -1913,7 +1913,7 @@
     <string name="SysOpt_Boost_Des">Manage boot and application startup background</string>
     <string name="SysOpt_Boost_AppWidget">You are using %1$s desktop plug-ins. To avoid Desktop exception from start housekeeper does not intercept the desktop plug-in applications . Please remove %1$s desktop plug and try again</string>
     <string name="SysOpt_Boost_Service">System is using %1$s to provide critical services ( input method ) . To avoid mobile paralyzed from start housekeeper does not intercept these applications.</string>
-    <string name="SysOpt_Boost_ShowSystem">WARNING ! Modify system software settings may cause the phone to crash Please click the unlock button to proceed</string>
+    <string name="SysOpt_Boost_ShowSystem">WARNING ! Modifing system software settings may cause the phone to crash.  Please click the unlock button to proceed</string>
     <string name="SysOpt_Boost_Boot">Boot from start</string>
     <string name="SysOpt_Boost_Receiver">Run Background</string>
     <string name="SysOpt_Boost_Deblocking">Unlock</string>
@@ -1932,12 +1932,12 @@
     <string name="SysOpt_Cache_Sys">Software cache</string>
     <string name="SysOpt_Cache_SD">Residual files</string>
     <string name="SysOpt_Cache_File">Junk Files</string>
-    <string name="SysOpt_Cache_Sys_Cleaned_Toast">Congratulations, you\'ve cleaned up the software cache, the total clearing cache file %1$s, you can shoot more than %2$d HD photos.</string>
-    <string name="SysOpt_Cache_Sys_Cleaned_Toast_Normal">Congratulations, you\'ve finished cleaning software cache, the total clean-up cache files %1$s.</string>
-    <string name="SysOpt_Cache_SD_Cleaned_Toast">Congratulations, you\'ve cleaned up the remaining documents, the total clean up residual files %1$s, you can shoot more than %2$d HD photos . Please keep cleaning residues ..</string>
-    <string name="SysOpt_Cache_SD_Cleaned_Toast_Normal">Congratulations, you\'ve finished cleaning up residual files, the total clean up residual files%1$s. Please maintain regular cleaning residues.</string>
-    <string name="SysOpt_Cache_File_Cleaned_Toast">Congratulations, you\'ve finished cleaning up junk files, the total clean up junk files %1$s, you can shoot more than %2$d HD photos . Please keep your rubbish ..</string>
-    <string name="SysOpt_Cache_File_Cleaned_Toast_Normal">Congratulations, you\'ve finished cleaning up junk files, the total clean up junk files%1$s. Please maintain regularly.</string>
+    <string name="SysOpt_Cache_Sys_Cleaned_Toast">Congratulations, you've cleaned up the software cache, the total clearing cache file %1$s, you can shoot more than %2$d HD photos.</string>
+    <string name="SysOpt_Cache_Sys_Cleaned_Toast_Normal">Congratulations, you've finished cleaning the software cache, the total clean-up cache files %1$s.</string>
+    <string name="SysOpt_Cache_SD_Cleaned_Toast">Congratulations, you've cleaned up the remaining documents, the total clean up residual files %1$s, you can shoot more than %2$d HD photos . Please maintain a regular cleaning schedule.</string>
+    <string name="SysOpt_Cache_SD_Cleaned_Toast_Normal">Congratulations, you've finished cleaning up residual files, the total clean up residual files%1$s. Please maintain a regular cleaning schedule.</string>
+    <string name="SysOpt_Cache_File_Cleaned_Toast">Congratulations, you've finished cleaning up junk files, the total clean up junk files %1$s, you can shoot more than %2$d HD photos . Please maintain a regular cleaning schedule.</string>
+    <string name="SysOpt_Cache_File_Cleaned_Toast_Normal">Congratulations, you've finished cleaning up junk files, the total clean up junk files%1$s. Please maintain a regular cleaning schedule.</string>
     <string name="SysOpt_CacheClean">Cache removal (%1$d)</string>
     <string name="SysOpt_Clean_Scanning">Scanning</string>
     <string name="SysOpt_Clean_Scanning_Init">Scan started, please wait a moment</string>
@@ -1945,9 +1945,9 @@
     <string name="SysOpt_Cache_Sys_AppsCount">Software system cache %1$d</string>
     <string name="SysOpt_Cache_SD_AppsCount">Software SD cache %1$d</string>
     <string name="SysOpt_Selected_SizeHuge">Directory of your choice larger files, clean up may also need to remove some of the data, make sure that you selected.</string>
-    <string name="SysOpt_Cache_None">Congratulations ! Your mobile phone is very clean, no cache file remains.</string>
-    <string name="SysOpt_Residual_None">Congratulations ! Your mobile phone is very clean, no residual files after uninstalling the software.</string>
-    <string name="SysOpt_Rubbish_None">Congratulations ! Your mobile phone is very clean, no useless junk files remain.</string>
+    <string name="SysOpt_Cache_None">Congratulations! Your mobile phone is clean, no cache file remains.</string>
+    <string name="SysOpt_Residual_None">Congratulations! Your mobile phone is clean, no residual files after uninstalling the software.</string>
+    <string name="SysOpt_Rubbish_None">Congratulations! Your mobile phone is clean, no useless junk files remain.</string>
     <string name="SysOpt_Uninstall_Left">LBE Security Master detects the following software has been uninstalled, but still remained on the SD card, temporary files, whether to clear</string>
     <string name="SysOpt_EmptyFolder">%1$d empty directories</string>
     <string name="SysOpt_Des_EmptyFolder">No respite free catalog</string>
@@ -1999,11 +1999,11 @@
     <string name="Update_Auto_NewAdwareSetVer">LBE Security Master repository has released updated ads</string>
     <string name="Update_Auto_NewPlugin">%1$s updated version has been released</string>
     <string name="Update_Auto_Detail">Click here to update to version %1$s</string>
-    <string name="Update_MainVersion">LBE Security Master %1$s updated version has been released, Update now ? %2$s</string>
-    <string name="Update_VirusPattern">Virus database update version %1$s has been released, Update now ? %2$s</string>
-    <string name="Update_VirusEngine">Virus Engine %1$s has been released. Update now ? %2$s</string>
-    <string name="Update_AdwareSet">Ad Library %1$s updated version has been released, Update now ? %2$s</string>
-    <string name="Update_Plugin">%1$s %2$s updated version has been released, Update now ? %3$s</string>
+    <string name="Update_MainVersion">LBE Security Master %1$s updated version has been released, update now ? %2$s</string>
+    <string name="Update_VirusPattern">Virus database update version %1$s has been released, update now ? %2$s</string>
+    <string name="Update_VirusEngine">Virus Engine %1$s has been released, update now ? %2$s</string>
+    <string name="Update_AdwareSet">Ad Library %1$s updated version has been released, update now ? %2$s</string>
+    <string name="Update_Plugin">%1$s %2$s updated version has been released, update now ? %3$s</string>
     <string name="Update_NoUpdate">You are already using the latest version.</string>
     <string name="Update_VirusPattern_Finish">Your virus database has been upgraded to the latest version :%1$s</string>
     <string name="Update_Check">Checking for updates...</string>
