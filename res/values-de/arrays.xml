@@ -244,7 +244,7 @@
         <item>Tool | Kategorie: Riskantes Tool</item>
         <item>"prv | Datenschutz
 Datendiebstahl durch undichte Privatsphäre"</item>
-        <item>"rmt | Fernteuerung
+        <item>"rmt | Fernsteuerung
 Fernsteuerung der Gerätefunktionen durch Remote-Server"</item>
         <item>pay | Bösartige Dienstleistung</item>
         <item>spr | Bösartiger Code</item>
@@ -471,16 +471,16 @@ Fernsteuerung"</item>
         <item>Backup &amp;amp;amp;amp;amp; Wiederherstellung</item>
     </string-array>
     <string-array name="home_settings_labels">
-        <item>Desktop-Verknüpfung</item>
-        <item>In Verknüpfung auf dem Desktop Oneclick clean-up</item>
-        <item>Oneclick sauberen weißen Liste</item>
+        <item>Einstellungen für Homescreen Symbol</item>
+        <item>Verlinkung für automatischen Taskkiller auf dem Homescreen erstellen</item>
+        <item>Weiße Liste (Ausnahmen) für Taskkiller</item>
         <item>Passwortschutz</item>
         <item>Systemeinstellungen</item>
     </string-array>
     <string-array name="home_about_labels">
-        <item>System Einstellungen</item>
-        <item>Software Update</item>
+        <item>Suche nach Updates </item>
         <item>Feedback</item>
+        <item>LBE im Playstore</item>
         <item>App Scoring</item>
         <item>Mit Freunden teilen</item>
     </string-array>
@@ -546,8 +546,8 @@ Fernsteuerung"</item>
         <item>Mein Lieblingssänger</item>
     </string-array>
     <string-array name="unlock_types">
-        <item>Graphics Entsperren</item>
-        <item>Passwort zu entsperren</item>
+        <item>Muster zum Entsperren</item>
+        <item>Passtwort zum Entsperren</item>
     </string-array>
     <string-array name="traffic_mobile_graph_wave_colors">
         <item>\#605fcaff</item>
@@ -558,71 +558,71 @@ Fernsteuerung"</item>
         <item>\#80db2c1b</item>
     </string-array>
     <string-array name="hardware_basic_info">
-        <item>1 brand</item>
+        <item>1 Marke</item>
         <item>2 Model</item>
-        <item>3 Android version</item>
-        <item>4 main camera</item>
-        <item>5 front camera</item>
+        <item>3 Android Version</item>
+        <item>4 Haupt Kamera</item>
+        <item>5 Front Kamera</item>
         <item>6 IMEI</item>
         <item>7 RAM</item>
         <item>8 CPU</item>
-        <item>9 SD Memory</item>
-        <item>10 weight</item>
+        <item>9 SD Speicher</item>
+        <item>10 Gewicht</item>
     </string-array>
     <string-array name="hardware_cpu_info">
-        <item>1 CPU Model</item>
-        <item>2 cores</item>
-        <item>3 Frequency</item>
+        <item>1 CPU Typ</item>
+        <item>2 Kerne</item>
+        <item>3 Taktfrequenz</item>
     </string-array>
     <string-array name="hardware_screen_info">
-        <item>1 GPU renderer</item>
-        <item>2 GPU supplier</item>
-        <item>3 GPU version</item>
-        <item>4 Resolution</item>
-        <item>5 Screen Size</item>
+        <item>1 GPU Renderer</item>
+        <item>2 GPU Hersteller</item>
+        <item>3 GPU Version</item>
+        <item>4 Auflösung</item>
+        <item>5 Bildschirm Größe</item>
         <item>6 Material</item>
-        <item>7 pixel density</item>
+        <item>7 Pixel Dichte</item>
         <item>8 Multi-touch</item>
     </string-array>
     <string-array name="hardware_network_info">
         <item>1 Standard network</item>
-        <item>2 WIFI support information</item>
-        <item>3 GPS support information</item>
-        <item>4 Bluetooth support information</item>
+        <item>2 WIFI Information</item>
+        <item>3 GPS Information </item>
+        <item>4 Bluetooth Information</item>
     </string-array>
     <string-array name="hardware_sensor_name">
-        <item>Acceleration sensor</item>
-        <item>Magnetic field sensor</item>
-        <item>Orientation Sensor</item>
-        <item>Gyro Sensor</item>
-        <item>Light sensor</item>
-        <item>Pressure Sensor</item>
-        <item>Temperature Sensor</item>
-        <item>Proximity sensor</item>
-        <item>Gravity Sensor</item>
-        <item>Linear Acceleration Sensor</item>
-        <item>Rotation vector sensor</item>
-        <item>Relative humidity sensor</item>
-        <item>Temperature sensor</item>
+        <item>Beschleunigungs Sensor</item>
+        <item>Magnet Sensor</item>
+        <item>Lage Sensor</item>
+        <item>Gyroskop</item>
+        <item>Licht sensor</item>
+        <item>Luftdruck Sensor</item>
+        <item>Temperatur Sensor</item>
+        <item>Annährungs Sensor</item>
+        <item>Gravitations Meter</item>
+        <item>Linearer Beschleunigungs Sensor</item>
+        <item>Rotations Sensor</item>
+        <item>Sensor für relative Luftfeuchtigkeit</item>
+        <item>Temperatur Sensor</item>
     </string-array>
     <string-array name="hardware_rank">
         <item>Model ranking</item>
         <item>Models percentage</item>
     </string-array>
     <string-array name="hardware_antutu_keys">
-        <item>Main camera</item>
-        <item>Front camera</item>
-        <item>Screen Size</item>
+        <item>Haupt Kamera</item>
+        <item>Front Kamera</item>
+        <item>Auflösung</item>
         <item>Material</item>
     </string-array>
     <string-array name="app_install_manage_mode_title">
-        <item>Allow automatic installation</item>
-        <item>Ask automatically installed</item>
-        <item>Disable the automatic installation</item>
+        <item>App Installation erlauben</item>
+        <item>Vor der App Installation nachfragen</item>
+        <item>App Installationen blockieren</item>
     </string-array>
     <string-array name="app_install_manage_mode_desc">
-        <item>Allows automatic installation software, prompt notification bar after installation</item>
-        <item>There dialog box prompts to install, requires you to manually confirm</item>
-        <item>Completely disable the automatic installation of software behavior</item>
+        <item>Apps werden normal installiert, es erfolgt eine Benachrichitung durch LBE.</item>
+        <item>Installation von Apps muss bestätigt werden.</item>
+        <item>Installation aller Apps wird blockiert.</item>
     </string-array>
 </resources>
