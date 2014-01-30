@@ -35,7 +35,7 @@
         <item>Mode personnalisé</item>
     </string-array>
     <string-array name="endcalltype">
-        <item>Eteint</item>
+        <item>Éteint</item>
         <item>N\'existe pas</item>
         <item>Hors service</item>
         <item>Occupé</item>
@@ -116,7 +116,7 @@
     <string-array name="msglog_oparete">
         <item>Supprimer</item>
         <item>Répondre par SMS</item>
-        <item>Appelez ce numéro</item>
+        <item>Appeler ce numéro</item>
         <item>Ajouter à la Liste Blanche</item>
         <item>Ajouter à la Liste Noire</item>
         <item>Restaurer SMS système</item>
@@ -124,7 +124,7 @@
     <string-array name="calllog_oparete">
         <item>Supprimer</item>
         <item>Répondre par SMS</item>
-        <item>Appelez ce numéro</item>
+        <item>Appeler ce numéro</item>
         <item>Ajouter à la liste blanche</item>
         <item>Ajouter à la liste noire</item>
         <item>Restaurer le journal des appels</item>
@@ -210,7 +210,7 @@
     <string-array name="notify_hips_event">
         <item>Notifier toutes les demandes</item>
         <item>Notifier demandes refusées uniquement</item>
-        <item>Notifier aucune demande</item>
+        <item>Ne notifier aucune demande</item>
     </string-array>
     <string-array name="notify_hips_event_values">
         <item>0</item>
@@ -573,7 +573,7 @@ pub, pop-up, etc"</item>
     </string-array>
     <string-array name="hardware_cpu_info">
         <item>1 Modèle du CPU</item>
-        <item>2 Nombre de coeurs</item>
+        <item>2 Nombre de cœurs</item>
         <item>3 Fréquence</item>
     </string-array>
     <string-array name="hardware_screen_info">
