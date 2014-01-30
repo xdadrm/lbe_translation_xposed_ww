@@ -546,8 +546,8 @@ Fernsteuerung"</item>
         <item>Mein Lieblingssänger</item>
     </string-array>
     <string-array name="unlock_types">
-        <item>Muster Entsperren</item>
-        <item>Passtwort zum entsperren</item>
+        <item>Muster zum Entsperren</item>
+        <item>Passtwort zum Entsperren</item>
     </string-array>
     <string-array name="traffic_mobile_graph_wave_colors">
         <item>\#605fcaff</item>
