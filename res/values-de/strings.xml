@@ -630,7 +630,7 @@ Langsamerer CPU-Takt bei Bildschirm aus kann eingestellt werden"</string>
     <string name="exit_edit_mode_to_add">Verlassen Sie den Bearbeitungsmodus hinzufügen</string>
     <string name="can_not_launch_app">Anwendung kann nicht gestartet ist, kann nicht installiert oder deinstalliert wurde</string>
     <string name="lbe_function_item">LBE funktionale Elemente</string>
-    <string name="one_key_clear_already_add_to_desktop">OneClick clean-up hat auf Ihrem Desktop hinzugefügt</string>
+    <string name="one_key_clear_already_add_to_desktop">OneClick clean-up wurde auf dem Homescreen verlinkt</string>
     <string name="Shortcut_Desc">LBE Security Master wird aktualisiert!</string>
     <string name="Shortcut_FirstUse_Hint">"Vorsichtig konzipierte Benutzeroberfläche. 
 Wir sichern Ihr Telefon ganz und gar! 
@@ -703,8 +703,8 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Generic_Restore">Wiederherstellen</string>
     <string name="Generic_Optimize">Optimieren</string>
     <string name="Generic_Ignore">Ignore</string>
-    <string name="Generic_Allow">Haben erlaubt ( %d )</string>
-    <string name="Generic_Forbid">Deaktiviert ( %d )</string>
+    <string name="Generic_Allow">gestattet ( %d )</string>
+    <string name="Generic_Forbid">blockiert ( %d )</string>
     <string name="Generic_Repair">Beheben</string>
     <string name="Generic_Edit">Andern</string>
     <string name="Generic_Adjust">Anpassung</string>
@@ -849,7 +849,7 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Home_Now_Loading">Lädt ...</string>
     <string name="Home_Phone_Accelerate">Gerät optimieren</string>
     <string name="Home_Battery_Optimize">Akku</string>
-    <string name="Home_Software_Manager">Software Management</string>
+    <string name="Home_Software_Manager">Apps und Rechteverwaltung</string>
     <string name="Home_Disturb_Block">Anrufschutz</string>
     <string name="Home_Traffic_Monitor">Datenzähler</string>
     <string name="Home_Ad_Block">Werbung</string>
@@ -886,8 +886,8 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Keyguard_Unlock_Fail_Answer">Falsche Antwort, entsperren scheitern</string>
     <string name="Keyguard_Unlock_Fail_Pattern">Grafische Fehler, nicht zu entsperren</string>
     <string name="Keyguard_Unlock_QA">Q &amp; Entsperren</string>
-    <string name="Keyguard_Unlock_Pattern">Graphics Entsperren</string>
-    <string name="Keyguard_Unlock_Password">Passwort zu entsperren</string>
+    <string name="Keyguard_Unlock_Pattern">Muster zum Entsperren</string>
+    <string name="Keyguard_Unlock_Password">Passwort zum Entsperren</string>
     <string name="Keyguard_ForgetPassword">Passwort vergessen?</string>
     <string name="Keyguard_USE_SAFEQA">Ob zu bedienen Sicherheitsfragen in</string>
     <string name="Keyguard_Select_Question">Bitte wählen Sie die Sicherheitsprobleme</string>
@@ -1506,7 +1506,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="HIPS_Defending">Aktive Verteidigung ist der Schutz der</string>
     <string name="HIPS_NOT_Defending">Aktive Verteidigung startet nicht</string>
     <string name="HIPS_Root_Mode">ROOT License Activation</string>
-    <string name="HIPS_Root_Mode_Desc">Mit Root-Berechtigung, um die aktive Verteidigung Dienste zu starten</string>
+    <string name="HIPS_Root_Mode_Desc">Mit Root-Berechtigung, um die aktive Verteidigung Dienste In Verknüpfung auf dem Desktop Onezu starten</string>
     <string name="HIPS_Root_Free_Mode">Kostenlose ROOT Start</string>
     <string name="HIPS_Root_Free_Mode_Desc">ROOT ohne aktive Verteidigung Dienste zu starten</string>
     <string name="HIPS_MIUI_Mode">MIUI License Activation</string>
@@ -1522,7 +1522,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="HIPS_HipsLog_Desc">Permission Verhalten Control-Anwendungen</string>
     <string name="HIPS_Not_Enable_Warn">Nutzen Sie die volle Funktionalität, müssen Sie die aktive Verteidigung öffnen</string>
     <string name="HIPS_Guide_HIPSEnable">Klicken Sie auf die Schaltfläche, um die aktive Verteidigung Dienste öffnen</string>
-    <string name="HIPS_ADB_MGR">Software installed automatically blacklist</string>
+    <string name="HIPS_ADB_MGR">Installation der Apps wird geblockt (Blacklist)</string>
     <string name="HIPS_ADB_DESC">verhindert verborgene Installationen von Apps</string>
     <string name="HIPS_ADB_Install_Title">Install the software via USB</string>
     <string name="HIPS_ADB_Install_Content">&lt;font color=#17A4F5>%1$s&lt;/font> is trying to automatically install &lt;font color=#17A4F5>%2$s&lt;/font> to your phone. If this is your own behavior, it is recommended to allow this, or you can choose to reject.</string>
@@ -1898,7 +1898,7 @@ Zuletzt geändert:
     <string name="SoftMgr_USB_Install_Blacklist">einzelne Apps blockieren</string>
     <string name="SoftMgr_USB_Install_Manage_Mode_Choice">Automatically install software management mode selection</string>
     <string name="SoftMgr_Current_Mode">Installation Management:</string>
-    <string name="SoftMgr_Add_Blacklist">hinzufügent</string>
+    <string name="SoftMgr_Add_Blacklist">hinzufügen</string>
     <string name="SoftMgr_Add_Blacklist_Numberic">Blacklist (%1$d)</string>
     <string name="SoftMgr_Remove_Blacklist">entfernen</string>
     <string name="SoftMgr_Remove_Blacklist_Numberic">Remove blacklist(%1$d)</string>
@@ -1924,7 +1924,7 @@ Zuletzt geändert:
     <string name="SysOpt_Backup">Since the launch of the housekeeper and the White List Task</string>
     <string name="SysOpt_Task_Running_Tip">&lt;font color=\"#FF7E00\">%1$d &lt;/font>laufende Tasks</string>
     <string name="SysOpt_AutoBoot_Tip">&lt;font color=\"#FF7E00\">%1$d &lt;/font>Apps starten im Hintergrund/Boot</string>
-    <string name="SysOpt_AutoBoot_Tip2">&lt;font color=\"#FF7E00\">%1$d &lt;/font>Applications from Kai monitoring</string>
+    <string name="SysOpt_AutoBoot_Tip2">&lt;font color=\"#FF7E00\">%1$d &lt;/font>Apps starten automatisch</string>
     <string name="SysOpt_White_Tip">&lt;font color=\"#FF7E00\">%1$d &lt;/font>Apps auf der Whitelist geschützt</string>
     <string name="SysOpt_Cache_Tip1">&lt;font color=\"#FF7E00\">längere Zeit &lt;/font>nicht auf Datenmüll überprüft</string>
     <string name="SysOpt_Cache_Tip2">letzter Datenmüll &lt;font color=\"#FF7E00\">%1$d Tage &lt;/font>before</string>
@@ -1933,7 +1933,7 @@ Zuletzt geändert:
     <string name="SysOpt_TaskMgr_Des">Background task management, monitoring memory, CPU occupancy</string>
     <string name="SysOpt_TaskMgr_RunningApp">Aktive Tasks</string>
     <string name="SysOpt_TaskMgr_Action">Ein-Tip Boost (beendet %1$d Tasks)</string>
-    <string name="SysOpt_TaskMgr_Action_Normal">OneClick Optimize</string>
+    <string name="SysOpt_TaskMgr_Action_Normal">alle automatisch optimieren</string>
     <string name="SysOpt_TaskMgr_Action_Select">Bitte Task zum beenden wählen</string>
     <string name="SysOpt_TaskMgr_Result">%1$d Tasks beendet, %2$s Speicherfreigabe</string>
     <string name="SysOpt_TaskMgr_Best_State_Tips">Has reached the optimum state</string>
@@ -1949,12 +1949,12 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SysOpt_Boost_Deblocking">Entsperren</string>
     <string name="SysOpt_Boost_None">Keine Autostart Apps</string>
     <string name="SysOpt_TrustApp">App wird nicht überwacht</string>   
-    <string name="SysOpt_UntrustApp">Rechte Anfragen der App werden überwacht</string>
-    <string name="SysOpt_Boot_Permission">Rechte seit letzten Boot</string>
-    <string name="SysOpt_RejectBootStart">boot from Kai ban prohibiting the background from Kai</string>
-    <string name="SysOpt_RejectAutoStart">prohibit the background from Kai</string>
-    <string name="SysOpt_AllowBootStart">allow boot from Kai, Allow background from Kai</string>
-    <string name="SysOpt_AllowAutoStart">Allow background from Kai</string>
+    <string name="SysOpt_UntrustApp">Rechte werden durch LBE verwaltet</string>
+    <string name="SysOpt_Boot_Permission">Autostart</string>
+    <string name="SysOpt_RejectBootStart">App wird nicht beim Gerätestart geladen</string>
+    <string name="SysOpt_RejectAutoStart">App wird nicht automatisch gestartet</string>
+    <string name="SysOpt_AllowBootStart">App wird beim Gerätestart geladen</string>
+    <string name="SysOpt_AllowAutoStart">App kann automatisch gestartet werden</string>
     <string name="SysOpt_RejectNotif">Entferne Pop-Up Benachrichtigunsleisten Meldung</string>
     <string name="SysOpt_AllowNotif">Erlaube Pop-Up Benachrichtigunsleisten Meldung</string>
     <string name="SysOpt_Clean">Cache löschen</string>
@@ -2082,11 +2082,11 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Traffic_Graph_Legend_Today">Verbrauch Heute</string>
     <string name="Traffic_Graph_Legend_Projection">Geschätzt Monat</string>
     <string name="HIPS_Perm_SendMMS">MMS senden</string>
-    <string name="HIPS_Perm_SendMMS_Desc">MM senden</string>
+    <string name="HIPS_Perm_SendMMS_Desc">MMS senden</string>
     <string name="HIPS_Perm_SendMMS_Hint">%1$s Apps können MMS senden</string>
-    <string name="HIPS_Perm_MMS">MMS records</string>
-    <string name="HIPS_Perm_MMS_Desc">Access your MMS inbox</string>
-    <string name="HIPS_Perm_MMS_Hint">%1$s may access the MMS Inbox</string>
+    <string name="HIPS_Perm_MMS">MMS lesen</string>
+    <string name="HIPS_Perm_MMS_Desc">Zugriff auf MMS Posteingang</string>
+    <string name="HIPS_Perm_MMS_Hint">%1$s dürfen auf MMS zugreifen</string>
     <string name="HIPS_Perm_AudioRecorder">Ton Aufnahme</string>
     <string name="HIPS_Perm_AudioRecorder_Desc">Aufnahme von Ton und Anrufen</string>
     <string name="HIPS_Perm_AudioRecorder_Hint">%1$s dürfen auf Anrufe und Mikrofon zugreifen</string>
