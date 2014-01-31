@@ -107,6 +107,13 @@ public class Translate_LBE implements IXposedHookZygoteInit, IXposedHookInitPack
         try { resparam.res.setReplacement(resparam.packageName, "drawable", "root_mode_auto_on", modRes.fwd(R.drawable.root_mode_auto_on)); } catch(RuntimeException e) { };
         try { resparam.res.setReplacement(resparam.packageName, "drawable", "home_swipe_up_guide_text", modRes.fwd(R.drawable.home_swipe_up_guide_text)); } catch(RuntimeException e) { };
 
+        try { resparam.res.setReplacement(resparam.packageName, "drawable", "phone_entry_ipcall_enable", modRes.fwd(R.drawable.phone_entry_ipcall_enable)); } catch(RuntimeException e) { };
+        try { resparam.res.setReplacement(resparam.packageName, "drawable", "phone_entry_ipcall_disable", modRes.fwd(R.drawable.phone_entry_ipcall_disable)); } catch(RuntimeException e) { };
+        try { resparam.res.setReplacement(resparam.packageName, "drawable", "phone_entry_location_enable", modRes.fwd(R.drawable.phone_entry_location_enable)); } catch(RuntimeException e) { };
+        try { resparam.res.setReplacement(resparam.packageName, "drawable", "phone_entry_location_disable", modRes.fwd(R.drawable.phone_entry_location_disable)); } catch(RuntimeException e) { };
+        try { resparam.res.setReplacement(resparam.packageName, "drawable", "phone_entry_unread_enable", modRes.fwd(R.drawable.phone_entry_unread_enable)); } catch(RuntimeException e) { };
+        try { resparam.res.setReplacement(resparam.packageName, "drawable", "phone_entry_unread_disable", modRes.fwd(R.drawable.phone_entry_unread_disable)); } catch(RuntimeException e) { };
+
 
       editResourceImage(resparam, resparam.res.getIdentifier("adware_banner_view_normal", "drawable", resparam.packageName), modRes.getString(R.string.AD_Report));
       editResourceImage(resparam, resparam.res.getIdentifier("adware_banner_view_press", "drawable", resparam.packageName), modRes.getString(R.string.AD_Report));

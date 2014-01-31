@@ -950,7 +950,7 @@
     <string name="Traffic_Monitor_Dataplan_Amount">Total</string>
     <string name="Traffic_Net_App">Networking Software</string>
     <string name="Traffic_Rank_Month">Top this month</string>
-    <string name="Traffic_Rank_Today">Today's Top</string>
+    <string name="Traffic_Rank_Today">Today\'s Top</string>
     <string name="Traffic_rank_Realtime">Real-time Top</string>
     <string name="Traffic_Net_Firewall">Network firewall</string>
     <string name="Traffic_Carrier_CMCC">China Mobile</string>
@@ -1632,8 +1632,8 @@
     <string name="private_install_fail">Privacy Space installation fails</string>
     <string name="private_setting_qasummary">Since setting a false password, security question failure</string>
     <string name="private_sms_unread">Unread</string>
-    <string name="Scan_RecommendScan">Protect your phone's security, physical examination immediately</string>
-    <string name="Scan_RecommendScan_LongTime">Long time no examination, let's see it masters</string>
+    <string name="Scan_RecommendScan">Protect your phone\'s security, physical examination immediately</string>
+    <string name="Scan_RecommendScan_LongTime">Long time no examination, let\'s see it masters</string>
     <string name="Scan_JustScanned">Just over physical examination, an easy</string>
     <string name="Scan_LastScanTitle">Last examination time in %1$s</string>
     <string name="Scan_ScanNow">Immediate Acceleration</string>
@@ -1689,7 +1689,7 @@
     <string name="Scan_Check_Cache_NoRoot">Application Cache check</string>
     <string name="Scan_Check_Cache_Name">Application Cache Total %1$s</string>
     <string name="Scan_Check_Cache_Fixed">Actual cleanup cache %1$s</string>
-    <string name="Scan_Check_AutoBoot_OK">You've just configured software from the start</string>
+    <string name="Scan_Check_AutoBoot_OK">You\'ve just configured software from the start</string>
     <string name="Scan_Check_AutoBoot">Scanning software from the start</string>
     <string name="Scan_Check_AutoBoot_Name">%1$d may start on boot</string>
     <string name="Scan_Check_Update_Time">Checking for update</string>
@@ -1698,7 +1698,7 @@
     <string name="Scan_Check_Update_Time_Fixed">Checked</string>
     <string name="Scan_Check_Update_Time_Check">Security master version update</string>
     <string name="Scan_Check_Update_Time_Checked">You have checked version update</string>
-    <string name="Scan_Check_Fixed_Loophole">You've just repaired vulnerabilities</string>
+    <string name="Scan_Check_Fixed_Loophole">You\'ve just repaired vulnerabilities</string>
     <string name="Scan_Result_Excellent">Mobile has been optimized to perfection</string>
     <string name="Scan_Result_Good">Almost done, please continue to optimize</string>
     <string name="Scan_Result_Poor">Phone there are more risks, please Optimize Now</string>
@@ -1932,12 +1932,12 @@
     <string name="SysOpt_Cache_Sys">Software cache</string>
     <string name="SysOpt_Cache_SD">Residual files</string>
     <string name="SysOpt_Cache_File">Junk Files</string>
-    <string name="SysOpt_Cache_Sys_Cleaned_Toast">Congratulations, you've cleaned up the software cache, the total clearing cache file %1$s, you can shoot more than %2$d HD photos.</string>
-    <string name="SysOpt_Cache_Sys_Cleaned_Toast_Normal">Congratulations, you've finished cleaning the software cache, the total clean-up cache files %1$s.</string>
-    <string name="SysOpt_Cache_SD_Cleaned_Toast">Congratulations, you've cleaned up the remaining documents, the total clean up residual files %1$s, you can shoot more than %2$d HD photos . Please maintain a regular cleaning schedule.</string>
-    <string name="SysOpt_Cache_SD_Cleaned_Toast_Normal">Congratulations, you've finished cleaning up residual files, the total clean up residual files%1$s. Please maintain a regular cleaning schedule.</string>
-    <string name="SysOpt_Cache_File_Cleaned_Toast">Congratulations, you've finished cleaning up junk files, the total clean up junk files %1$s, you can shoot more than %2$d HD photos . Please maintain a regular cleaning schedule.</string>
-    <string name="SysOpt_Cache_File_Cleaned_Toast_Normal">Congratulations, you've finished cleaning up junk files, the total clean up junk files%1$s. Please maintain a regular cleaning schedule.</string>
+    <string name="SysOpt_Cache_Sys_Cleaned_Toast">Congratulations, you\'ve cleaned up the software cache, the total clearing cache file %1$s, you can shoot more than %2$d HD photos.</string>
+    <string name="SysOpt_Cache_Sys_Cleaned_Toast_Normal">Congratulations, you\'ve finished cleaning the software cache, the total clean-up cache files %1$s.</string>
+    <string name="SysOpt_Cache_SD_Cleaned_Toast">Congratulations, you\'ve cleaned up the remaining documents, the total clean up residual files %1$s, you can shoot more than %2$d HD photos . Please maintain a regular cleaning schedule.</string>
+    <string name="SysOpt_Cache_SD_Cleaned_Toast_Normal">Congratulations, you\'ve finished cleaning up residual files, the total clean up residual files%1$s. Please maintain a regular cleaning schedule.</string>
+    <string name="SysOpt_Cache_File_Cleaned_Toast">Congratulations, you\'ve finished cleaning up junk files, the total clean up junk files %1$s, you can shoot more than %2$d HD photos . Please maintain a regular cleaning schedule.</string>
+    <string name="SysOpt_Cache_File_Cleaned_Toast_Normal">Congratulations, you\'ve finished cleaning up junk files, the total clean up junk files%1$s. Please maintain a regular cleaning schedule.</string>
     <string name="SysOpt_CacheClean">Cache removal (%1$d)</string>
     <string name="SysOpt_Clean_Scanning">Scanning</string>
     <string name="SysOpt_Clean_Scanning_Init">Scan started, please wait a moment</string>
