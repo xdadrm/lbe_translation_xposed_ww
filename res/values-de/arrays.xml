@@ -444,8 +444,8 @@ Fernsteuerung"</item>
     </string-array>
     <string-array name="anti_adware_user_feedback_type">
         <item>Ad-Blockierung gescheitert</item>
-        <item>Keine Adware gefunden</item>
-        <item>App instabil nach Ad-Blockierung</item>
+        <item>Keine Adware ist in dieser App</item>
+        <item>App abnormal nach Ad-Blockierung</item>
         <item>Schließen-Button wird nicht auf dem Banner angezeigt</item>
         <item>Abbrechen</item>
     </string-array>
@@ -457,7 +457,7 @@ Fernsteuerung"</item>
         <item>Sync</item>
         <item>WiFi</item>
         <item>GPS</item>
-        <item>Mobile Daten</item>
+        <item>Milbile Daten</item>
         <item>Rotation</item>
     </string-array>
     <string-array name="homepage_more_options_labels">
@@ -468,7 +468,7 @@ Fernsteuerung"</item>
         <item>Newsletter</item>
         <item>Sicherheit</item>
         <item>Kommunikations Tools</item>
-        <item>Backup und Wiederherstellung</item>
+        <item>Backup &amp;amp;amp;amp;amp; Wiederherstellung</item>
     </string-array>
     <string-array name="home_settings_labels">
         <item>Einstellungen für Homescreen Symbol</item>
@@ -500,9 +500,9 @@ Fernsteuerung"</item>
     </string-array>
     <string-array name="sdapk_status">
         <item>Auf der SD-Karte existieren keine Pakete</item>
-        <item>Auf der SD-Karte existieren keine updatebaren Pakete</item>
-        <item>Auf der SD-Karte existiert keine alte Version</item>
-        <item>Auf der SD-Karte existiert kein breits installiertes Paket</item>
+        <item>Auf der SD-Karte existieren keine updatebare Pakete</item>
+        <item>Auf der SD-Karte existiert keine alten Version</item>
+        <item>Auf der SD-Karte existiert keine breits installiertes Paket</item>
         <item>Auf der SD-Karte existiert kein Installations Fehler</item>
         <item>Auf der SD-Karte existieren keine Zertifizierungs Fehler</item>
         <item>Auf der SD-Karte existieren keine Duplikate</item>
@@ -522,9 +522,9 @@ Fernsteuerung"</item>
         <item>Inspektions App</item>
     </string-array>
     <string-array name="scan_item_type">
-        <item>Telefonie und Tasks</item>
-        <item>Apps</item>
-        <item>LBE und Komponenten</item>
+        <item>Automatische Eintrag</item>
+        <item>Manuelle Eingabe</item>
+        <item>Sicherheit</item>
     </string-array>
     <string-array name="toggles_add_options">
         <item>Schnelle Schalter</item>
@@ -538,11 +538,11 @@ Fernsteuerung"</item>
         <item>"Mutter's Geburtstag"</item>
         <item>Meine Frau heißt / Geburtstag</item>
         <item>Primär/Sekundär/Universität Name der Schule</item>
-        <item>Mein Lieblings-Roman</item>
+        <item>Meine Lieblings-Roman</item>
         <item>Mein Lieblingsfilm</item>
-        <item>Mein Lieblings-Anime</item>
+        <item>Meine Lieblings-Anime</item>
         <item>Meine Lieblingssportart</item>
-        <item>Mein Lieblings-Star</item>
+        <item>Meine Lieblings-Star</item>
         <item>Mein Lieblingssänger</item>
     </string-array>
     <string-array name="unlock_types">
@@ -621,7 +621,7 @@ Fernsteuerung"</item>
         <item>App Installationen blockieren</item>
     </string-array>
     <string-array name="app_install_manage_mode_desc">
-        <item>Installation erlauben und benachrichtigen.</item>
+        <item>Apps werden normal installiert, es erfolgt eine Benachrichitung durch LBE.</item>
         <item>Installation von Apps muss bestätigt werden.</item>
         <item>Installation aller Apps wird blockiert.</item>
     </string-array>

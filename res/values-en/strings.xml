@@ -661,8 +661,8 @@
     <string name="Shortcut_HardwareKey_NotSupported">Your phone does not support</string>
     <string name="app_name_beta">LBE Security Master ( beta )</string>
     <string name="app_task_manager">LBE Task Manager</string>
-    <string name="Generic_Loading">Loading...</string>
-    <string name="Generic_Operating">Executing...</string>
+    <string name="Generic_Loading">Loading&#8230;</string>
+    <string name="Generic_Operating">Executing&#8230;</string>
     <string name="Generic_InvalidInput">Input parameter is incorrect</string>
     <string name="Generic_Version">Version :%1$s</string>
     <string name="Generic_SystemApp">System Software</string>
@@ -672,7 +672,7 @@
     <string name="Generic_Beta_NotFound_Device">Sorry, your device is not within the scope of closed beta, please use the official version</string>
     <string name="Generic_Configuration">Set up</string>
     <string name="Generic_Configuration_Backup">LBE Security Master setting items</string>
-    <string name="Generic_Canceling">Cancelling...</string>
+    <string name="Generic_Canceling">Cancelling&#8230;</string>
     <string name="Generic_Service_Enabled">Service is open</string>
     <string name="Generic_Service_Disabled">Service has been shut down</string>
     <string name="Generic_Summary_Enabled">Enabled</string>
@@ -756,12 +756,12 @@
     <string name="Home_Feedback_Title">Please provide your comments and suggestions:</string>
     <string name="Home_Feedback_ErrorInput">Sorry, your feedback is too short, you can not submit</string>
     <string name="Home_Feedback_Send">Submit Feedback</string>
-    <string name="Home_Feedback_Sending">Submitting feedback...</string>
+    <string name="Home_Feedback_Sending">Submitting feedback&#8230;</string>
     <string name="Home_Feedback_NetError">Network anomalies, please check your network connection</string>
     <string name="Home_Feedback_Success">Your feedback has been submitted, thank you for your support</string>
     <string name="Home_Feedback_Error">Server is busy, please re-submit your feedback later</string>
     <string name="Home_Feedback_Url">http://bbs.lbesec.com</string>
-    <string name="Home_Feedback_CreatingLogErrorFile">Report an error log is being generated...</string>
+    <string name="Home_Feedback_CreatingLogErrorFile">Report an error log is being generated&#8230;</string>
     <string name="Home_Feedback_CreateLogErrorFile">Generates an error log report</string>
     <string name="Home_Feedback_LogErrorFile_Success">Your error log has been submitted, thank you for your support</string>
     <string name="Home_Feedback_LogErrorFile_Failture">Error log submission failed, please try again later</string>
@@ -821,7 +821,7 @@
     <string name="Home_Task_Wait_To_Clear">Tasks to be cleaned</string>
     <string name="Home_Block_Already">Has blocked</string>
     <string name="Home_Remain_Amount">Remaining Data</string>
-    <string name="Home_Now_Loading">Loading...</string>
+    <string name="Home_Now_Loading">Loading&#8230;</string>
     <string name="Home_Phone_Accelerate">Accelerate</string>
     <string name="Home_Battery_Optimize">Battery</string>
     <string name="Home_Software_Manager">App Manager</string>
@@ -1081,7 +1081,7 @@
     <string name="Phone_Block_Type_AllAllow_Content">Receive all the information and phone</string>
     <string name="Phone_Block_Type_Contact_Content">Only receive contacts, text messages and phone intercept other numbers</string>
     <string name="Phone_Block_Type_ContactAndWhite_Content">Receive only contacts and white list, blocking other text messages and phone numbers</string>
-    <string name="Phone_Block_Type_UserDefine_Content">User-defined whitelist, blacklist, contacts, and other smart way to intercept intercept intercept SMS</string>
+    <string name="Phone_Block_Type_UserDefine_Content">User-defined whitelist, blacklist, contacts, and other smart way to intercept SMS</string>
     <string name="Phone_Block_Blackwhitelist">Black and white lists</string>
     <string name="Phone_Clear">Empty</string>
     <string name="Phone_Select_City">Select Area</string>
@@ -1151,7 +1151,7 @@
     <string name="Phone_Common_Number">Frequently called numbers</string>
     <string name="Phone_Fixed_Line">Fixed telephone</string>
     <string name="Phone_UnKnow_Alert">Unread event reminders</string>
-    <string name="Phone_Select_Location">Attribution to inquiries</string>
+    <string name="Phone_Select_Location">Select Region</string>
     <string name="Phone_GoingCall_Alert">Access to electric shock</string>
     <string name="Phone_SignNumber_Title1">Beep</string>
     <string name="Phone_SignNumber_Title2">Spam phone calls</string>
@@ -1222,7 +1222,7 @@
     <string name="Phone_AddBlack_OrNot">Whether to join the blacklist</string>
     <string name="Phone_Tools">Communication tools</string>
     <string name="Phone_IP_Dial">IP dialing</string>
-    <string name="Phone_Local">Attribution</string>
+    <string name="Phone_Local">Location</string>
     <string name="Phone_Unread_Event">Unread event reminders</string>
     <string name="Phone_Connect_Vibrate">Connected to vibration</string>
     <string name="Phone_Mark_title">Number mark</string>
@@ -1320,9 +1320,9 @@
     <string name="Pref_Phone_NightMode_EndTime">End time settings</string>
     <string name="Pref_Phone_NightMode_BeginTime_Dlg">Start time</string>
     <string name="Pref_Phone_User_Defined_Rule">Set custom mode</string>
-    <string name="Pref_Phone_CallLocation">No attribution Tips</string>
-    <string name="Pref_Phone_CallLocation_Fixed">Locking attribution prompt box location</string>
-    <string name="Pref_Phone_CallLocation_Background">Attribution prompt box style</string>
+    <string name="Pref_Phone_CallLocation">Display Call Location</string>
+    <string name="Pref_Phone_CallLocation_Fixed">Locking Location prompt box position</string>
+    <string name="Pref_Phone_CallLocation_Background">Location prompt box style</string>
     <string name="Pref_Phone_CallMsg_Notification">Intercepted prompt notification bar</string>
     <string name="Pref_Phone_Data_Upload_Summary">LBE Security Master to help improve accuracy rate of interception</string>
     <string name="Pref_Phone_UseSuperEndCall">Enabling system-level telephone intercept</string>
@@ -1406,7 +1406,7 @@
     <string name="Pref_Traffic_Calibrate_SMS_Dialog_Title">Traffic calibration settings SMS</string>
     <string name="Pref_Traffic_Calibrate_SIM_Operator">SIM card</string>
     <string name="Pref_Traffic_Operator_Setting_SIM">Set up SIM card information</string>
-    <string name="Pref_Traffic_Operator_Setting_SIM_Message">Depending on your SIM card requires attribution information, check the exact operator SMS commands .</string>
+    <string name="Pref_Traffic_Operator_Setting_SIM_Message">Depending on your SIM card requires location information, check the exact operator SMS commands .</string>
     <string name="Pref_Traffic_Operator_SIM_Province">SIM card region</string>
     <string name="Pref_Traffic_Operator_SIM_City">SIM card city</string>
     <string name="Pref_Traffic_Operator_SIM_Operator">Select operators</string>
@@ -1626,7 +1626,7 @@
     <string name="private_title_individual">Privacy Space</string>
     <string name="private_lock_settings">Lock settings</string>
     <string name="private_download_privatespace">Please download the latest version of the Privacy Space</string>
-    <string name="private_download_privatespace_default">The module is being upgraded, so stay tuned...</string>
+    <string name="private_download_privatespace_default">The module is being upgraded, so stay tuned&#8230;</string>
     <string name="private_download_dialog_message">Soon as you download Privacy Space, your programs and files will be have more secure protection, whether to continue ?</string>
     <string name="private_upgrade_dialog_message">Soon as you update the Privacy Space Whether to continue ?</string>
     <string name="private_install_fail">Privacy Space installation fails</string>
@@ -2006,7 +2006,7 @@
     <string name="Update_Plugin">%1$s %2$s updated version has been released, update now ? %3$s</string>
     <string name="Update_NoUpdate">You are already using the latest version.</string>
     <string name="Update_VirusPattern_Finish">Your virus database has been upgraded to the latest version :%1$s</string>
-    <string name="Update_Check">Checking for updates...</string>
+    <string name="Update_Check">Checking for updates&#8230;</string>
     <string name="Update_Avaliable">Updatable</string>
     <string name="Update_Software">Software Updates</string>
     <string name="Update_Close">Close</string>
@@ -2103,7 +2103,7 @@
     <string name="yellow_loading_data">Loading data</string>
     <string name="yellow_no_more_data">no more data</string>
     <string name="yellow_shop_correct">error correction</string>
-    <string name="yellow_shop_loading">Loading ...</string>
+    <string name="yellow_shop_loading">Loading &#8230;</string>
     <string name="yellow_shop_server_error">server error !</string>
     <string name="yellow_shop_server_client">client requests mistake !</string>
     <string name="yellow_shop_request_error">access error !</string>

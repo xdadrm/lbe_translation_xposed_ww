@@ -15,28 +15,28 @@
     <string name="HIPS_Group_ROOT">&lt;ROOT></string>
     <string name="HIPS_Perm_SendSMS">SMS senden</string>
     <string name="HIPS_Perm_SendSMS_Desc">Sendet SMS direkt</string>
-    <string name="HIPS_Perm_SendSMS_Hint">%1$s App(s) mit Zugriff auf SMS oder MMS versenden</string>
+    <string name="HIPS_Perm_SendSMS_Hint">%1$s App(s) fragen nach Erlaubnis SMS oder MMS zu versenden</string>
     <string name="HIPS_Perm_Call">Anruf</string>
     <string name="HIPS_Perm_Call_Desc">Startet, Antwortet und beendet Anrufe</string>
-    <string name="HIPS_Perm_Call_Hint">%1$s App(s) mit Zugriff auf Telefonate anzunehmen oder zu beenden</string>
+    <string name="HIPS_Perm_Call_Hint">%1$s App(s) fragen nach Erlaubnis Anrufe anzunehmen und zu beenden</string>
     <string name="HIPS_Perm_CallState">Telefon Status</string>
     <string name="HIPS_Perm_CallState_Desc">Ermittelt Telefonstatus z.B Eingehende, angenommen und aufgelegte Anrufe</string>
-    <string name="HIPS_Perm_CallState_Hint">%1$s App(s) mit Zugriff auf den Telefonstatus</string>
+    <string name="HIPS_Perm_CallState_Hint">%1$s App(s) fragen nach Erlaubnis den Telefonstatus abzufragen</string>
     <string name="HIPS_Perm_CallMonitor">Anruf Überwachung</string>
     <string name="HIPS_Perm_CallMonitor_Desc">Überwacht Anrufe, und steuert die Lautstärke</string>
-    <string name="HIPS_Perm_CallMonitor_Hint">%1$s App(s) mit Zugriff auf Anrufe und Telefon Lautstärke</string>
+    <string name="HIPS_Perm_CallMonitor_Hint">%1$s App(s) fragen nach Erlaubnis Anrufe zu überwachen und die Telefon Lautstärke zu steuern</string>
     <string name="HIPS_Perm_Location">Lokalisierung</string>
     <string name="HIPS_Perm_Location_Desc">Lokalisiert Ihr Telefon über das Netzwerk oder GPS</string>
-    <string name="HIPS_Perm_Location_Hint">%1$s App(s) mit Zugriff auf Ermittlung der Position</string>
+    <string name="HIPS_Perm_Location_Hint">%1$s App(s) fragen nach Erlaubnis Ihre Position zu ermitteln</string>
     <string name="HIPS_Perm_PhoneID">Telefon-ID</string>
     <string name="HIPS_Perm_PhoneID_Desc">Ermittelt Ihre Telefons ID, einschließlich IMEI, IMSI und Telefonnummer</string>
-    <string name="HIPS_Perm_PhoneID_Hint">%1$s App(s) mit Zugriff auf Telefon-ID</string>
+    <string name="HIPS_Perm_PhoneID_Hint">%1$s App(s) fragen nach Erlaubnis Ihre Telefon-ID abzufragen</string>
     <string name="HIPS_Perm_MobileNetwork">Internet Zugang über mobiles Netz</string>
     <string name="HIPS_Perm_MobileNetwork_Desc">Greift aufs Internet über mobiles Netz zu</string>
-    <string name="HIPS_Perm_MobileNetwork_Hint">%1$s App(s) mit Zugriff aufs mobile Internet</string>
+    <string name="HIPS_Perm_MobileNetwork_Hint">%1$s App(s) fragen nach Erlaubnis für Zugang zum Internet</string>
     <string name="HIPS_Perm_WIFINetwork">Internet Zugang über WiFi</string>
     <string name="HIPS_Perm_WIFINetwork_Desc">Greift aufs Internet über WiFi zu</string>
-    <string name="HIPS_Perm_WIFINetwork_Hint">%1$s App(s) mit Zugriff auf Internet über WIFI</string>
+    <string name="HIPS_Perm_WIFINetwork_Hint">%1$s App(s) fragen nach Erlaubnis für Zugang zum Internet</string>
     <string name="HIPS_Perm_Network_UnknownAddr">Unbekannte Adresse</string>
     <string name="HIPS_Perm_Network_MobileEvent">2G/3G Nutzung</string>
     <string name="HIPS_Perm_Network_WIFIEvent">WiFi Nutzung</string>
@@ -47,22 +47,22 @@
     <string name="HIPS_Perm_Network_Send">Gesendete Daten</string>
     <string name="HIPS_Perm_SMS">SMS lesen</string>
     <string name="HIPS_Perm_SMS_Desc">Greift auf Ihren SMS Posteingang zu</string>
-    <string name="HIPS_Perm_SMS_Hint">%1$s App(s) mit Zugriff auf SMS Posteingang</string>
+    <string name="HIPS_Perm_SMS_Hint">%1$s App(s) fragen nach Erlaubnis, für Zugriff auf SMS Posteingang</string>
     <string name="HIPS_Perm_Contact">Kontaktdaten</string>
     <string name="HIPS_Perm_Contact_Desc">Greift auf Ihre Kontaktliste zu</string>
-    <string name="HIPS_Perm_Contact_Hint">%1$s App(s) mit Zugriff auf Kontaktliste</string>
+    <string name="HIPS_Perm_Contact_Hint">%1$s Ihre Kontaktliste</string>
     <string name="HIPS_Perm_CallLog">Anrufliste</string>
     <string name="HIPS_Perm_CallLog_Desc">Greift auf Ihre Anruflisten zu</string>
-    <string name="HIPS_Perm_CallLog_Hint">%1$s App(s) mit Zugriff auf Anrufliste</string>
+    <string name="HIPS_Perm_CallLog_Hint">%1$s App(s) fragen nach Erlaubnis, Ihre Anrufliste abzufragen</string>
     <string name="HIPS_Perm_ROOT">Root-Rechte</string>
     <string name="HIPS_Perm_ROOT_Desc">Fragt nach höchstem System Administratorrecht (root)</string>
-    <string name="HIPS_Perm_ROOT_Hint">%1$s App(s) mit Zugriff auf ROOT</string>
+    <string name="HIPS_Perm_ROOT_Hint">%1$s App(s) verlangen ROOT Berechtigungen</string>
     <string name="HIPS_Perm_Settings">System Einstellungen</string>
     <string name="HIPS_Perm_Settings_Desc">die System Einstellungen ändern</string>
-    <string name="HIPS_Perm_Settings_Hint">%1$s App(s) mit Zugriff auf System Einstellungen</string>
+    <string name="HIPS_Perm_Settings_Hint">%1$s App hat die Fähigkeit die System Einstellungen zu verändern</string>
     <string name="HIPS_Perm_Recorder">Bilder und Videos aufnehmen</string>
     <string name="HIPS_Perm_Recorder_Desc">Bilder und Videos aufnehmen</string>
-    <string name="HIPS_Perm_Recorder_Hint">%1$s App(s) mit Zugriff auf die Kamera</string>
+    <string name="HIPS_Perm_Recorder_Hint">%1$s sollte das recht haben Bilder oder Videos aufzunehmen</string>
     <string name="HIPS_Perm_SendSMS_Recipient">Empfänger</string>
     <string name="HIPS_Perm_SendSMS_Content">Inhalt</string>
     <string name="HIPS_Perm_SendSMS_SMSC">Nummer SMS Zentrale</string>
@@ -216,13 +216,13 @@ All Rights Reserved"</string>
     <string name="AD_Adware_Onekey_Block">Alle riskante blockieren</string>
     <string name="AD_Last_Scan_Time">Zuletzt gescannt</string>
     <string name="AD_Scan">Scan</string>
-    <string name="AD_Report">Werbeblocker Fehler melden</string>
-    <string name="AD_Report_Hint">Apps mit nicht geblockter Werbung markieren zum melden.</string>
+    <string name="AD_Report">Werbung melden</string>
+    <string name="AD_Report_Hint">Ich habe nicht erkannte Werbung gefunden, bitte melden</string>
     <string name="AD_Report_Success_Hint">Du hast erfolgreich Werbe Apps gemeldet, Vielen Dank</string>
     <string name="AD_Scan_Day_Ago">Vor %1$d Tagen</string>
     <string name="AD_Scan_Long_Ago">Länger nicht geprüft</string>
     <string name="AD_Scan_Today">Heute überprüft</string>
-    <string name="AD_Scan_Again">Apps auf Werbung untersuchen</string>
+    <string name="AD_Scan_Again">Ad Scan</string>
     <string name="AD_Install_App">Installierte App</string>
     <string name="AD_Sys_App">System App</string>
     <string name="AD_Number_App">Eine Anwendung mit Werbung</string>
@@ -243,7 +243,7 @@ All Rights Reserved"</string>
     <string name="AV_Cancel_Message">Virus Scan noch nicht beendet, Abbruch des Scan´s bestätigen?</string>
     <string name="AV_FastScan_Progress">(%d %%)</string>
     <string name="AV_DeepScan_Progress">SD-Karte wird gelesen ...</string>
-    <string name="AV_Clean">alle Säubern (%1$d Bedrohungen)</string>
+    <string name="AV_Clean">Ein-Tipp-Säuberung (%1$d Bedrohungen)</string>
     <string name="AV_Cleaning">Diese Bedrohung bereinigen</string>
     <string name="AV_ScanResult_Pending">Noch zu reinigen</string>
     <string name="AV_ScanResult_Skip">Überspringen</string>
@@ -286,7 +286,7 @@ Löschen?"</string>
     <string name="Battery_Consumption_Des">Alle löschen</string>
     <string name="Battery_NotifMode">Akku Benachrichtigung und Protokollierung</string>
     <string name="Battery_NotifMode_Des">Akku jeden Tag, immer begreifen</string>
-    <string name="Battery_ShowToast">Stromspar Einstellungen</string>
+    <string name="Battery_ShowToast">Stromspar Optimierungs Einstellungen</string>
     <string name="Battery_ShowToastDes">Akku ist voll</string>
     <string name="Battery_Bright_Resume">Ladestatus</string>
     <string name="Battery_Bright_CheckTitle">Modus</string>
@@ -584,13 +584,13 @@ Langsamerer CPU-Takt bei Bildschirm aus kann eingestellt werden"</string>
     <string name="Battery_Service">Saving optimization services</string>
     <string name="Battery_Show_Notif">LBE Akku Symbol einblenden</string>
     <string name="Battery_Show_NotifDes">Zeigt eigenes Akku Symbol in der Benachrichtigugsleiste</string>
-    <string name="Battery_CheckBright">Minimale Displayhelligkeit festtellen.</string>
-    <string name="Battery_CheckBrightDes">Versucht die geringte Helligkeit festzustellen.</string>
+    <string name="Battery_CheckBright">Minimum screen brightness detection</string>
+    <string name="Battery_CheckBrightDes">Detect mobile screen brightness can reach a minimum</string>
     <string name="Battery_Service_Autostart">Saving optimization services enabled</string>
     <string name="Battery_Capacity_Unit">mAH</string>
     <string name="Desktop_Backup">Custom desktop shortcut</string>
-    <string name="Desktop_Traffic">Datenvolumen heute</string>
-    <string name="Desktop_Traffic_None">Keine Volumendaten</string>
+    <string name="Desktop_Traffic">Traffic heute</string>
+    <string name="Desktop_Traffic_None">Keine Trafficdaten</string>
     <string name="Desktop_Shortcut">Verknüpfung</string>
     <string name="Desktop_Process">Taskmanagement</string>
     <string name="Desktop_Process_None">Keine laufenden Prozess</string>
@@ -600,8 +600,8 @@ Langsamerer CPU-Takt bei Bildschirm aus kann eingestellt werden"</string>
     <string name="Desktop_CPU_Hint">CPU:</string>
     <string name="Desktop_RAM_Hint">RAM</string>
     <string name="Desktop_Traffic_Hint">Heute:</string>
-    <string name="Desktop_Clean_Shortcut">alle Säubern</string>
-    <string name="Desktop_Clean_Later">Sie haben den RAM aufgeräumt, reinigen Sie später wieder</string>
+    <string name="Desktop_Clean_Shortcut">Ein-Tipp-Säuberung</string>
+    <string name="Desktop_Clean_Later">Sie haben das RAM aufgeräumt, reinigen Sie später wieder</string>
     <string name="Desktop_Task_Num">%1$d Tasks</string>
     <string name="Desktop_Net_ConnCount">%1$d Verbindung(en)</string>
     <string name="Desktop_Close_All">Alle beenden</string>
@@ -670,9 +670,9 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Shortcut_HardwareKey_Home_PreferredLauncher">Starten Sie den Desktop der Wahl</string>
     <string name="Shortcut_HardwareKey_Home_Launcher_Select">Starter Auswahl</string>
     <string name="Shortcut_HardwareKey_Search">Durch längeres Drücken der Taste zum Starten der Suche</string>
-    <string name="Shortcut_FloatWindow">Einstellungen für schwebendes LBE Schnellstart Symbol</string>
-    <string name="Shortcut_FloatWindow_Desc">LBE Symbol</string>
-    <string name="Shortcut_FloatWindow_LauncherOnly">nur auf dem Homescreen anzeigen</string>
+    <string name="Shortcut_FloatWindow">Starten Sie mit schwebendes Fenster</string>
+    <string name="Shortcut_FloatWindow_Desc">Dropzone</string>
+    <string name="Shortcut_FloatWindow_LauncherOnly">Nur schwebende Fenster auf dem Desktop</string>
     <string name="Shortcut_Notification">Starten Sie das System Anmeldung bar</string>
     <string name="Shortcut_Notification_Desc">Klicken Sie auf Start LBE System-Meldungen</string>
     <string name="Shortcut_HardwareKey_NotSupported">Ihr Telefon nicht unterstützt</string>
@@ -776,7 +776,7 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Home_Optimize_Memory">Speicher: %1$s / %2$s</string>
     <string name="Home_Traffic_Mobile">%1$s, %2$s, %3$s</string>
     <string name="Home_Traffic_Unlimited">Kein Daten-Plan</string>
-    <string name="Home_Optimize_OneClick">automatisch optimieren</string>
+    <string name="Home_Optimize_OneClick">Ein-Tipp Optimierung</string>
     <string name="Home_Feedback">Feedback</string>
     <string name="Home_Feedback_Saved">Ihr Feedback wurde gespeichert</string>
     <string name="Home_Feedback_Title">Bitte geben Sie Ihre Kommentare und Anregungen ab:</string>
@@ -977,7 +977,7 @@ Mit dem Absenden einer Betreiber Abfrage per SMS, kalibriert die App automatisch
     <string name="Traffic_Rank_Month">Monat</string>
     <string name="Traffic_Rank_Today">Heute</string>
     <string name="Traffic_rank_Realtime">Echtzeit</string>
-    <string name="Traffic_Net_Firewall">Firewall</string>
+    <string name="Traffic_Net_Firewall">Netzwerk-Firewall</string>
     <string name="Traffic_Carrier_CMCC">China Mobile</string>
     <string name="Traffic_Carrier_UNICOM">China Unicom</string>
     <string name="Traffic_Carrier_TELECOM">China Telecom</string>
@@ -992,7 +992,7 @@ Mit dem Absenden einer Betreiber Abfrage per SMS, kalibriert die App automatisch
     <string name="Nft_Mgr_Title_sub1">Benachrichtigungen</string>
     <string name="Nft_Mgr_Title_sub2">App Erlaubnisse</string>
     <string name="Nft_Mgr_Title_sub3">Blockier Log</string>
-    <string name="Nft_Mgr_Notification_Permission">Benachrichtigungen</string>
+    <string name="Nft_Mgr_Notification_Permission">Benachrichtigungs Berechtigungen</string>
     <string name="Nft_Mgr_Notification_News">Benachrichtigungen</string>
     <string name="Nft_Mgr_Notification_News_Empty">Keine Benachrichtigung</string>
     <string name="Nft_Mgr_App_Hint">Meldung von: %1$s</string>
@@ -1026,7 +1026,7 @@ Mit dem Absenden einer Betreiber Abfrage per SMS, kalibriert die App automatisch
     <string name="Patch_Check_Incompatible">Sorry, Scannen LBE Gruppe vorübergehend nicht für Ihr Handy-Patches bereitzustellen, offene Echtzeit-Virus zu schützen Sie Ihr Telefon sicher</string>
     <string name="Patch_Check_Fixed">Schwachstellen wurden behoben</string>
     <string name="Patch_Check_Fixed_Dest">Sie haben erfolgreich LBE MasterKey Bugfixes installiert haben Sicherheitslücken behoben</string>
-    <string name="Patch_Check_Immune">Keine Sicherheitslücken gefunden</string>
+    <string name="Patch_Check_Immune">Herzlichen Glückwunsch und fand keine Sicherheitslücken</string>
     <string name="Patch_Download_Success">Patch-System fertig ist, installieren</string>
     <string name="Patch_Download_Failure">Konnte das System bekommen, um Ihr Handy passen Patch, bitte versuchen Sie es später noch einmal</string>
     <string name="Patch_Download_Cancelled">Gelöscht</string>
@@ -1042,9 +1042,9 @@ Mit dem Absenden einer Betreiber Abfrage per SMS, kalibriert die App automatisch
     <string name="Patch_Need_Update_Title">System-Patches müssen modernisiert werden</string>
     <string name="Patch_Need_Update_Desc">System-Patches aktualisiert werden müssen, können mit den neuesten aktiven Verteidigung aufgerüstet werden, erhalten die neuesten System-Patches.</string>
     <string name="Phone">Kommunikations Firewall</string>
-    <string name="Phone_Setting">Belästigende Anrufer blockieren</string>
-    <string name="Phone_Running">Anrufschutz (Telefonnummerfilter): aktiviert</string>
-    <string name="Phone_Stopped">Anrufschutz (Telefonnummerfilter): deaktiviert</string>
+    <string name="Phone_Setting">Belästigungs Blockier Einstellungen</string>
+    <string name="Phone_Running">Kommunikations-Firewall-Dienst ist aktiviert</string>
+    <string name="Phone_Stopped">Kommunikations-Firewall-Dienst ist deaktiviert</string>
     <string name="Phone_Carrier_CM">China Mobile</string>
     <string name="Phone_Carrier_CU">China Unicom</string>
     <string name="Phone_Carrier_CT">China Telecom</string>
@@ -1207,7 +1207,7 @@ Den Cloud Security Dienst können sie auch beim Blockier Dienst deaktivieren"</s
     <string name="Phone_BlockLog_Save_Time">Blockier Log aufbewahren</string>
     <string name="Phone_Auto_AddTo_White">Intelligent zur Whitelist hinzufügen</string>
     <string name="Phone_Sgin_StrangeNumber">Bei unbekannten Nummern Schlagwörter anzeigen</string>
-    <string name="Phone_BlockOneRing">Anklingeln blockieren</string>
+    <string name="Phone_BlockOneRing">Blockieren von kurzen Klingel Anrufen</string>
     <string name="Phone_BlockVOIP">Unbekannte Nummern blockieren</string>
     <string name="Phone_BlockSetting">Blockier Einstellungen</string>
     <string name="Phone_Sgin_StrangeNumber_Delete">Löschen</string>
@@ -1464,15 +1464,15 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="HIPS_App_New_Configure">Tippen um App-Berechtigungen zu konfigurieren</string>
     <string name="HIPS_App_New_Configure_NoVirus">Keine Bedrohung gefunden, tippen um App-Berechtigungen zu konfigurieren</string>
     <string name="HIPS_App_Batch">Batch-Operation</string>
-    <string name="HIPS_Log">Ererignis Protokoll</string>
-    <string name="HIPS_Log_NoLog">Kein Aktivitäten aufgezeichnet</string>
-    <string name="HIPS_Log_Detail_Title">Protokoll Details</string>
+    <string name="HIPS_Log">Defense Log</string>
+    <string name="HIPS_Log_NoLog">Kein Active Defense Log</string>
+    <string name="HIPS_Log_Detail_Title">Log Details</string>
     <string name="HIPS_Log_Detail_Content">%1$s %2$s</string>
     <string name="HIPS_Log_Detail_None">Keine Details</string>
     <string name="HIPS_Log_Earlier">Vor 1 Woche (%1$d )</string>
     <string name="HIPS_Log_Week">Diese Woche (%1$d)</string>
     <string name="HIPS_Log_Today">Heute (%1$d)</string>
-    <string name="HIPS_Log_Clean">Lösche Protokoll</string>
+    <string name="HIPS_Log_Clean">Lösche Active Defense Log</string>
     <string name="HIPS_Action_Accept_Count">%1$d erlaubt</string>
     <string name="HIPS_Action_Reject_Count">%1$d verweigert</string>
     <string name="HIPS_SecurityPrompt_Caption">Sicherheitswarnung</string>
@@ -1503,27 +1503,27 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="HIPS_Conflict_Verify_Negative">Nicht geschlossen</string>
     <string name="HIPS_Reboot">Starten Sie das Telefon</string>
     <string name="HIPS_Reboot_Failure">Wenn das Telefon nicht neu gestartet wird, starten Sie Ihr Telefon Ihren eigenen</string>
-    <string name="HIPS_Defending">Dienst zur Rechteverwaltung durch LBE benötigt Root Zugriff.</string>
-    <string name="HIPS_NOT_Defending">Dienst zur Rechteverwaltung nicht aktiv.</string>
-    <string name="HIPS_Root_Mode">Active Defense Dienst Status:</string>
+    <string name="HIPS_Defending">Aktive Verteidigung ist der Schutz der</string>
+    <string name="HIPS_NOT_Defending">Aktive Verteidigung startet nicht</string>
+    <string name="HIPS_Root_Mode">ROOT License Activation</string>
     <string name="HIPS_Root_Mode_Desc">Mit Root-Berechtigung, um die aktive Verteidigung Dienste In Verknüpfung auf dem Desktop Onezu starten</string>
     <string name="HIPS_Root_Free_Mode">Kostenlose ROOT Start</string>
     <string name="HIPS_Root_Free_Mode_Desc">ROOT ohne aktive Verteidigung Dienste zu starten</string>
     <string name="HIPS_MIUI_Mode">MIUI License Activation</string>
     <string name="HIPS_MIUI_Mode_Desc">ROOT ohne aktive Verteidigung Dienste zu starten</string>
-    <string name="HIPS_Enableing">Rechte Verwaltungsdienst von LBE starten</string>
-    <string name="HIPS_Disableing">Rechte Verwaltungsdienst von LBE beenden</string>
-    <string name="HIPS_Permission_Desc">Ermöglicht Rechte per App und Kategorie einzuschränken.</string>
-    <string name="HIPS_AutoBoot_Desc">Verwalten von Apps die mit dem Gerät gestartet werden.</string>
-    <string name="HIPS_ADBlock_Desc">Blockiert Werbeeinblendungen.</string>
+    <string name="HIPS_Enableing">Aktive Verteidigung Dienstleistungen eröffnen</string>
+    <string name="HIPS_Disableing">Herunterfahren aktive Verteidigung Dienstleistungen</string>
+    <string name="HIPS_Permission_Desc">Control-Software Permission, Datenschutz</string>
+    <string name="HIPS_AutoBoot_Desc">Control-Programm von Boot, schneller Handys und mehr Energieeinsparung</string>
+    <string name="HIPS_ADBlock_Desc">Abgeschirmt bösartigen Anzeigen</string>
     <string name="HIPS_NotifyMgr_Desc">Abgeschirmt Belästigung Ankündigung, Abschirmung Ad Notifier</string>
-    <string name="HIPS_Sys_Reduce_Desc">Ermöglicht Deinstallation von System Apps.</string>
-    <string name="HIPS_Net_Firewall_Desc">Ermöglicht Zugriff aufs Internet per App einzuschränken.</string>
-    <string name="HIPS_HipsLog_Desc">Auflistung aller Aktionen die durch LBE erlaubt oder blockiert werden.</string>
-    <string name="HIPS_Not_Enable_Warn">Für die volle Funktionalität muss der Rechteverwalrungs Dienst aktiv sein.</string>
-    <string name="HIPS_Guide_HIPSEnable">Klicken Sie auf die Schaltfläche um den Dienst zu aktivieren</string>
+    <string name="HIPS_Sys_Reduce_Desc">Leistungsstarke Uninstall Telefon vorinstallierte Software für Mobiltelefone abnehmen</string>
+    <string name="HIPS_Net_Firewall_Desc">Kontrollieren Vernetzung Behörde zur Sneak Strömung verhindern</string>
+    <string name="HIPS_HipsLog_Desc">Permission Verhalten Control-Anwendungen</string>
+    <string name="HIPS_Not_Enable_Warn">Nutzen Sie die volle Funktionalität, müssen Sie die aktive Verteidigung öffnen</string>
+    <string name="HIPS_Guide_HIPSEnable">Klicken Sie auf die Schaltfläche, um die aktive Verteidigung Dienste öffnen</string>
     <string name="HIPS_ADB_MGR">Installation der Apps wird geblockt (Blacklist)</string>
-    <string name="HIPS_ADB_DESC">Kontrolle über App Installationen.</string>
+    <string name="HIPS_ADB_DESC">verhindert verborgene Installationen von Apps</string>
     <string name="HIPS_ADB_Install_Title">Install the software via USB</string>
     <string name="HIPS_ADB_Install_Content">&lt;font color=#17A4F5>%1$s&lt;/font> is trying to automatically install &lt;font color=#17A4F5>%2$s&lt;/font> to your phone. If this is your own behavior, it is recommended to allow this, or you can choose to reject.</string>
     <string name="HIPS_Detected_PC_Install_APK_To_Phone">Detected APK Installation</string>
@@ -1667,7 +1667,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="Scan_Checkup">Ein Tipp Überprüfung</string>
     <string name="Scan_Now_Checking">Überprüfung</string>
     <string name="Scan_Check_Again">Sortieren nach Name</string>
-    <string name="Scan_Checkup_Result">Ergebnisse der Überprüfung</string>
+    <string name="Scan_Checkup_Result">Überprüfungsergebnisse</string>
     <string name="Scan_Prepare">Vorbereitung zur Prüfung</string>
     <string name="Scan_Optimization_Finish">Ihr Telefon ist in guten Zustand</string>
     <string name="Scan_Back_Warn_Title">Untersuchung abbrechen?</string>
@@ -1676,25 +1676,25 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="Scan_Check_Configs">Konfiguration überprüfen</string>
     <string name="Scan_Check_HIPS">Prüft den Active Defense Dienst</string>
     <string name="Scan_Check_HIPS_Name">Active Defense Dienst</string>
-    <string name="Scan_Check_Phone">Untersuche Anrufschutz (Telefonnummerfilter)</string>
-    <string name="Scan_Check_Phone_Name">Anrufschutz (Telefonnummerfilter)</string>
+    <string name="Scan_Check_Phone">Untersuche Kommunikations-Firewall-Dienst</string>
+    <string name="Scan_Check_Phone_Name">Kommunikations-Firewall-Dienst</string>
     <string name="Scan_Check_DataPlan">Überprüfung des Daten-Plans</string>
     <string name="Scan_Check_DataPlan_Unlimited">Kein Daten-Plan</string>
     <string name="Scan_Check_DataPlan_Name">Daten-Plan gesetzt</string>
     <string name="Scan_Check_DataUsage">Datentarif Verbrauch überprüfen</string>
-    <string name="Scan_Check_DataUsage_OutPlan">Datenvolumen hat monatlichen Plan überschritten</string>
+    <string name="Scan_Check_DataUsage_OutPlan">Datentraffic hat monatlichen Plan überschritten</string>
     <string name="Scan_Check_DataUsage_Alarm">90% des monatlichen Daten-Plan überschritten</string>
-    <string name="Scan_Check_DataUsage_Name">Datenvolumen Verbrauch in diesem Monat</string>
+    <string name="Scan_Check_DataUsage_Name">Datentraffic Verbrauch in diesem Monat</string>
     <string name="Scan_Check_Traffic">Traffic-Überwachungs-Dienst überprüfen</string>
     <string name="Scan_Check_Traffic_Name">Traffic-Überwachungs-Dienst</string>
     <string name="Scan_Check_Traffic_Disabled">Mobile Daten sind ausgeschaltet</string>
     <string name="Scan_Check_Network">Überprüfe Cloud Antivirus Einstellungen</string>
     <string name="Scan_Check_Network_Name">Cloud Anti-Virus</string>
     <string name="Scan_Check_Service">Autostart-Einstellungen von Sicherheitsdiensten überprüfen</string>
-    <string name="Scan_Check_Service_Name">LBE Sicherheitsdienst im Autostart</string>
-    <string name="Scan_Check_RunningApp">Überprüfe aktive Tasks</string>
+    <string name="Scan_Check_Service_Name">Security-Dienste Autostart</string>
+    <string name="Scan_Check_RunningApp">Überprüfe laufende Tasks</string>
     <string name="Scan_Check_RunningApp_Noroot">Anwendungen im Hintergrund wurden überprüft</string>
-    <string name="Scan_Check_RunningApp_Name">aktive Tasks: %1$d, freier Speicher: %2$s</string>
+    <string name="Scan_Check_RunningApp_Name">Laufende Tasks: %1$d , verfügbarer Speicher: %2$s</string>
     <string name="Scan_Check_RunningApp_Fixed">%1$d Tasks beendet, %2$s Speicher freigegeben</string>
     <string name="Scan_Check_Cache_App">App Cache: %1$s</string>
     <string name="Scan_Check_Virus_Scan_name">Virus Scanning</string>
@@ -1712,22 +1712,22 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="Scan_Check_Cache_NoRoot">Überprüfe App Cache</string>
     <string name="Scan_Check_Cache_Name">Cache gescannt: %1$s insgesamt</string>
     <string name="Scan_Check_Cache_Fixed">Cache gelöscht: %1$s insgesamt</string>
-    <string name="Scan_Check_AutoBoot_OK">Autostart wurde optimiert.</string>
+    <string name="Scan_Check_AutoBoot_OK">you just configured from Kai software</string>
     <string name="Scan_Check_AutoBoot">Scanne Autostart Apps</string>
-    <string name="Scan_Check_AutoBoot_Name">Apps im Autostart können optimiert werden.</string>
+    <string name="Scan_Check_AutoBoot_Name">Autostart Apps können optimiert werden</string>
     <string name="Scan_Check_Update_Time">Überprüfen der letzten Prüfung auf Updates</string>
     <string name="Scan_Check_Update_Time_None">Sie haben noch nicht nach Updates gesucht</string>
-    <string name="Scan_Check_Update_Time_Name">Vor %d Tag(en) nach Updates gesucht</string>
+    <string name="Scan_Check_Update_Time_Name">Die letzte Überprüfung auf Updates war vor %d Tagen</string>
     <string name="Scan_Check_Update_Time_Fixed">aktiviert</string>
     <string name="Scan_Check_Update_Time_Check">Security Master Version Update</string>
     <string name="Scan_Check_Update_Time_Checked">Sie haben bereits nach einem Update gesucht</string>
     <string name="Scan_Check_Fixed_Loophole">Sie haben gerade Schwachstellen repariert</string>
     <string name="Scan_Result_Excellent">Es wurde kein Problem festgestellt</string>
-    <string name="Scan_Result_Good">Einige Optimierungen möglich</string>
-    <string name="Scan_Result_Poor">Viele Optimierungen möglich</string>
-    <string name="Scan_Alone">Einige Elemente manuell optimieren</string>
-    <string name="Scan_Click_Show_Check_Detail">Klicken, um Details zu sehen.</string>
-    <string name="Scan_Need_Manual_Optimize">Einige Elemente manuell optimieren</string>
+    <string name="Scan_Result_Good">Brauchte einige Optimierungen</string>
+    <string name="Scan_Result_Poor">Braucht viel Optimierung</string>
+    <string name="Scan_Alone">Einige Elemente müssen Sie manuell optimieren</string>
+    <string name="Scan_Click_Show_Check_Detail">Klicken, um Details zu sehen Acceleration</string>
+    <string name="Scan_Need_Manual_Optimize">Einige Elemente müssen Sie manuell optimieren</string>
     <string name="Scan_Have_No_Scan_Result">Keine Untersuchungsergebnisse</string>
     <string name="Scan_Hava_Sys_Loophole">System-Sicherheitsanfälligkeit</string>
     <string name="Scan_Log_Check_Cache_InstallApp">Saubere Installation Paketcache %1$s ( %2$d )</string>
@@ -1750,25 +1750,25 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="SoftMgr_Rom_Saving">Zu sparender Speicherplatz: %1$s</string>
     <string name="SoftMgr_Rom_Waste">Zu sparender Speicherplatz: %1$s</string>
     <string name="SoftMgr_Cache_Used">Cache Verbrauch: %1$s</string>
-    <string name="SoftMgr_AppPerm_Tip">Detaillierte Rechte per App und Kategorie konfigurieren.</string>
+    <string name="SoftMgr_AppPerm_Tip">&lt;font color=\"#17A4F5\">Active Defense &lt;/font>Berechtigungen einstellen</string>
     <string name="SoftMgr_AppUninstall_Tip">&lt;font color=\"#17A4F5\">%1$d &lt;/font>Benutzer Apps</string>
     <string name="SoftMgr_SysUninstall_Tip">&lt;font color=#17A4F5>%1$d apks &lt;/font> vorinstallierte System Apps</string>
     <string name="SoftMgr_AppMove_Clean">Ihr System ist sehr sauber, &lt;font color=\"#17A4F5\">without&lt;/font>App verschieben</string>
     <string name="SoftMgr_AppMove_Suggest1">&lt;font color=\"#17A4F5\">%1$d paragraph&lt;/font>App empfiehlt auf die SD Karte zu verschieben</string>
     <string name="SoftMgr_AppMove_Suggest2">without moving, &lt;font color=\"#17A4F5\">%1$d paragraph&lt;/font>software has been on the SD card</string>
     <string name="SoftMgr_SdApk_LongAgo">&lt;font color=\"#17A4F5\">a long time&lt;/font>never managed a package of SD card</string>
-    <string name="SoftMgr_SdApk_DaysAgo">vor &lt;font color=\"#17A4F5\">%1$d Tag(en)&lt;/font> durchsuch</string>
+    <string name="SoftMgr_SdApk_DaysAgo">Last SD card package management is &lt;font color=\"#17A4F5\">%1$d day&lt;/font>before</string>
     <string name="SoftMgr_SdApk_Today">&lt;font color=\"#17A4F5\">today&lt;/font>Packages have been finishing off the SD card</string>
     <string name="SoftMgr_Can_Opt">&lt;font color=\"#17A4F5\"> empfehlen Optimierung &lt;/ font></string>
-    <string name="SoftMgr_App_OptDesc1">%1$d Berechtigungen, &lt;font color=\"#17A4F5\"> %2$d &lt;/ font> heruntergefahren wird, &lt;font color=\"#17A4F5\"> %3$d &lt;/ font> Vorschlag zu öffnen</string>
-    <string name="SoftMgr_App_OptDesc2">%1$d Berechtigungen, &lt;font color=\"#17A4F5\"> %2$d schaltet &lt;/ font> Artikel unten</string>
-    <string name="SoftMgr_App_OptDesc3">%1$d Berechtigungen, &lt;font color=\"#17A4F5\"> %2$d &lt;/ font> Vorschlag zu öffnen</string>
-    <string name="SoftMgr_App_OptedDesc">%1$d Berechtigungen, &lt;font color=\"#17A4F5\"> %2$d &lt;/ font> Produkte wurden optimiert</string>
+    <string name="SoftMgr_App_OptDesc1">%1$d Schlüssel Berechtigungen, &lt;font color=\"#17A4F5\"> %2$d &lt;/ font> heruntergefahren wird, &lt;font color=\"#17A4F5\"> %3$d &lt;/ font> Vorschlag zu öffnen</string>
+    <string name="SoftMgr_App_OptDesc2">%1$d Schlüssel Berechtigungen, &lt;font color=\"#17A4F5\"> %2$d schaltet &lt;/ font> Artikel unten</string>
+    <string name="SoftMgr_App_OptDesc3">%1$d Schlüssel Berechtigungen, &lt;font color=\"#17A4F5\"> %2$d &lt;/ font> Vorschlag zu öffnen</string>
+    <string name="SoftMgr_App_OptedDesc">%1$d Schlüssel Berechtigungen, &lt;font color=\"#17A4F5\"> %2$d &lt;/ font> Produkte wurden optimiert</string>
     <string name="SoftMgr_Order">Sortieren</string>
     <string name="SoftMgr_NewApp">Nicht konfigurierte App</string>
     <string name="SoftMgr_Signature_Error">%1$s (Signatur Fehler)</string>
     <string name="SoftMgr_Down_Install">%1$s (Downgrade Installation)</string>
-    <string name="SoftMgr_NewApp_Configuration">%1$d Empfehlung(en)</string>
+    <string name="SoftMgr_NewApp_Configuration">%1$d Optimierungsvorschläge</string>
     <string name="SoftMgr_AppUninstall">Deinstallieren</string>
     <string name="SoftMgr_AppUninstall_Recycle">Mülleimer</string>
     <string name="SoftMgr_AppUninstall_Action">Deinstallieren ausgewählt (%1$d Apps)</string>
@@ -1778,10 +1778,10 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="SoftMgr_AppUninstall_SDCleanPrompt">Deinstallieren von %1$d App(s)?</string>
     <string name="SoftMgr_AppUninstall_Uninstall">Deinstallieren</string>
     <string name="SoftMgr_AppUninstall_SysWarning">built-in software to streamline the system may result in serious consequences. Please click on the unlock button to continue.</string>
-    <string name="SoftMgr_SysUninstall">Apps entfernen</string>
-    <string name="SoftMgr_SysUninstall_HIPS_Required">Dienst zur App Rechte Verwaltung nicht aktiv. Nicht alle Funktionen von LBE verfügbar.</string>
-    <string name="SoftMgr_SysUninstall_RecycleBin">Papierkorb</string>
-    <string name="SoftMgr_SysUninstall_EnterRecycleBin">in den Papierkorb</string>
+    <string name="SoftMgr_SysUninstall">App entfernen</string>
+    <string name="SoftMgr_SysUninstall_HIPS_Required">Aktive Verteidigung Service nicht eingeschaltet ist, können Sie nicht Straffung des Systems</string>
+    <string name="SoftMgr_SysUninstall_RecycleBin">Mülleimer</string>
+    <string name="SoftMgr_SysUninstall_EnterRecycleBin">in den Mülleimer</string>
     <string name="SoftMgr_SysUninstall_Uninstalling">"Entfernung: "</string>
     <string name="SoftMgr_SysUninstall_Restore">Wiederherstellung:</string>
     <string name="SoftMgr_SysUninstall_UninsFail">Entfernung fehlgeschlagen:</string>
@@ -1790,11 +1790,11 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="SoftMgr_SysUninstall_FreezeClean">LBE Security Master ist es, Ihnen einfrieren %1$s , die Verringerung der Belastung auf dem System.</string>
     <string name="SoftMgr_SysUninstall_RFail">Wiederherstellen fehlgeschlagen:</string>
     <string name="SoftMgr_Uninstall_UsrFail">Deinstallation fehlgeschlagen</string>
-    <string name="SoftMgr_AppPermission">App Zugriffsrechte verwalten</string>
+    <string name="SoftMgr_AppPermission">Rechte Management (Firewall)</string>
     <string name="SoftMgr_AppPermission2">App Rechte Scan</string>
     <string name="SoftMgr_AppPermission_opted">Wurde optimiert ( %1$s )</string>
-    <string name="SoftMgr_AppPermission_Suggest_Reject">evtl. nicht nötig für App Funktion</string>
-    <string name="SoftMgr_AppPermission_Suggest_Accept">evtl. wichtig für App Funktion</string>
+    <string name="SoftMgr_AppPermission_Suggest_Reject">wird empfohlen abzulehnen</string>
+    <string name="SoftMgr_AppPermission_Suggest_Accept">wird empfohlen zu erlauben</string>
     <string name="SoftMgr_AppPermission_Suggest_Others">weitere APP Rechte</string>
     <string name="SoftMgr_NoApp">App erfüllt nicht die Bedingungen</string>
     <string name="SoftMgr_App2SD">APP auf Speicherkarte verschieben</string>
@@ -1882,9 +1882,9 @@ Zuletzt geändert:
     <string name="SoftMgr_SDHelper_SelectDifSig">Ausw. Sig passt nicht</string>
     <string name="SoftMgr_OneKey_Optimize">alle automatisch optimieren</string>
     <string name="SoftMgr_All_Apks">Alle Software</string>
-    <string name="SoftMgr_Recommend_Opt">Empfehlungen</string>
+    <string name="SoftMgr_Recommend_Opt">Optimierungsvorschläge</string>
     <string name="SoftMgr_Opted">Wurde optimiert</string>
-    <string name="SoftMgr_CanOpt_Count">%1$d Empfehlung(en)</string>
+    <string name="SoftMgr_CanOpt_Count">%1$d Gastfreundschaft Optimierung</string>
     <string name="SoftMgr_Opted_Count">%1$d Modelle wurden optimiert</string>
     <string name="SoftMgr_Already_Reject_Install">Has refused to install</string>
     <string name="SoftMgr_Already_Uninstall">Not Installed</string>
@@ -1922,7 +1922,7 @@ Zuletzt geändert:
     <string name="SoftMgr_Already_Optimized">Optimized</string>
     <string name="SysOpt">Tuning</string>
     <string name="SysOpt_Backup">Since the launch of the housekeeper and the White List Task</string>
-    <string name="SysOpt_Task_Running_Tip">&lt;font color=\"#FF7E00\">%1$d &lt;/font>aktive Tasks</string>
+    <string name="SysOpt_Task_Running_Tip">&lt;font color=\"#FF7E00\">%1$d &lt;/font>laufende Tasks</string>
     <string name="SysOpt_AutoBoot_Tip">&lt;font color=\"#FF7E00\">%1$d &lt;/font>Apps starten im Hintergrund/Boot</string>
     <string name="SysOpt_AutoBoot_Tip2">&lt;font color=\"#FF7E00\">%1$d &lt;/font>Apps starten automatisch</string>
     <string name="SysOpt_White_Tip">&lt;font color=\"#FF7E00\">%1$d &lt;/font>Apps auf der Whitelist geschützt</string>
@@ -1932,8 +1932,8 @@ Zuletzt geändert:
     <string name="SysOpt_TaskMgr">Task-Manager</string>
     <string name="SysOpt_TaskMgr_Des">Background task management, monitoring memory, CPU occupancy</string>
     <string name="SysOpt_TaskMgr_RunningApp">Aktive Tasks</string>
-    <string name="SysOpt_TaskMgr_Action">markierte Apps schließen (%1$d Apps)</string>
-    <string name="SysOpt_TaskMgr_Action_Normal">alle optimieren</string>
+    <string name="SysOpt_TaskMgr_Action">Ein-Tip Boost (beendet %1$d Tasks)</string>
+    <string name="SysOpt_TaskMgr_Action_Normal">alle automatisch optimieren</string>
     <string name="SysOpt_TaskMgr_Action_Select">Bitte Task zum beenden wählen</string>
     <string name="SysOpt_TaskMgr_Result">%1$d Tasks beendet, %2$s Speicherfreigabe</string>
     <string name="SysOpt_TaskMgr_Best_State_Tips">Has reached the optimum state</string>
@@ -1944,8 +1944,8 @@ Zuletzt geändert:
     <string name="SysOpt_Boost_ShowSystem">"WARNUNG!
 Ändern der System App Einstellungen kann Ihr Telefon unbrauchbar machen.
 Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
-    <string name="SysOpt_Boost_Boot">startet beim Gerätestart</string>
-    <string name="SysOpt_Boost_Receiver">startet im Hintergrund</string>
+    <string name="SysOpt_Boost_Boot">Autostart beim Booten</string>
+    <string name="SysOpt_Boost_Receiver">Autostarts im Hintergrund</string>
     <string name="SysOpt_Boost_Deblocking">Entsperren</string>
     <string name="SysOpt_Boost_None">Keine Autostart Apps</string>
     <string name="SysOpt_TrustApp">App wird nicht überwacht</string>   
@@ -1955,8 +1955,8 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SysOpt_RejectAutoStart">App wird nicht automatisch gestartet</string>
     <string name="SysOpt_AllowBootStart">App wird beim Gerätestart geladen</string>
     <string name="SysOpt_AllowAutoStart">App kann automatisch gestartet werden</string>
-    <string name="SysOpt_RejectNotif">Verbiete Benachrichtigungen in der Statusleiste</string>
-    <string name="SysOpt_AllowNotif">Erlaube Benachrichtigungen in der Statusleiste</string>
+    <string name="SysOpt_RejectNotif">Entferne Pop-Up Benachrichtigunsleisten Meldung</string>
+    <string name="SysOpt_AllowNotif">Erlaube Pop-Up Benachrichtigunsleisten Meldung</string>
     <string name="SysOpt_Clean">Cache löschen</string>
     <string name="SysOpt_Clean_Des">Check the SD card to clean junk files and system cache</string>
     <string name="SysOpt_Cache_Sys">App Cache</string>
@@ -1989,7 +1989,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SysOpt_Des_WindowFile">Konfigurationsdateien von Desktop-System generiert</string>
     <string name="SysOpt_TaskMgr_WhiteWithWidgets_Remove">The existence of a desktop application or system component plug-ins, removed from the whitelist</string>
     <string name="SysOpt_TaskMgr_WhiteWithWidgets_Clean">The existence of a desktop application or system component plug-ins, forced the closure could lead to a black screen to restart the desktop</string>
-    <string name="SysOpt_TaskMgr_White">Weiße Liste für Taskkiller</string>
+    <string name="SysOpt_TaskMgr_White">Task Whitelist</string>
     <string name="SysOpt_TaskMgr_CPU">CPU: %1$s</string>
     <string name="SysOpt_TaskMgr_RAM">Speicher: %1$s</string>
     <string name="SysOpt_TaskMgr_WhiteEmpty">sie haben keine Whitelist Apps konfiguriert</string>
@@ -2083,22 +2083,22 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Traffic_Graph_Legend_Projection">Geschätzt Monat</string>
     <string name="HIPS_Perm_SendMMS">MMS senden</string>
     <string name="HIPS_Perm_SendMMS_Desc">MMS senden</string>
-    <string name="HIPS_Perm_SendMMS_Hint">%1$s App(s) mit Zugriff auf MMS senden</string>
+    <string name="HIPS_Perm_SendMMS_Hint">%1$s Apps können MMS senden</string>
     <string name="HIPS_Perm_MMS">MMS lesen</string>
     <string name="HIPS_Perm_MMS_Desc">Zugriff auf MMS Posteingang</string>
-    <string name="HIPS_Perm_MMS_Hint">%1$s App(s) mit Zugriff auf MMS</string>
+    <string name="HIPS_Perm_MMS_Hint">%1$s dürfen auf MMS zugreifen</string>
     <string name="HIPS_Perm_AudioRecorder">Ton Aufnahme</string>
     <string name="HIPS_Perm_AudioRecorder_Desc">Aufnahme von Ton und Anrufen</string>
-    <string name="HIPS_Perm_AudioRecorder_Hint">%1$s App(s) mit Zugriff auf Telefonate und Tonaufnamen</string>
+    <string name="HIPS_Perm_AudioRecorder_Hint">%1$s dürfen auf Anrufe und Mikrofon zugreifen</string>
     <string name="HIPS_Perm_Mobile_Connectivity">mobiles Internet</string>
     <string name="HIPS_Perm_Mobile_Connectivity_Desc">mobiles Internet</string>
-    <string name="HIPS_Perm_Mobile_Connectivity_Hint">%1$s App(s) mit Zugriff auf mobiles Internet</string>
+    <string name="HIPS_Perm_Mobile_Connectivity_Hint">%1$s Apps erwarten Zugriff aufs mobile Internet</string>
     <string name="HIPS_Perm_WIFI_Connectivity">WIFI Nutzung</string>
     <string name="HIPS_Perm_WIFI_Connectivity_Desc">WIFI Nutzung</string>
-    <string name="HIPS_Perm_WIFI_Connectivity_Hint">%1$s App(s) mit Zugriff auf WLAN</string>
-    <string name="HIPS_Perm_Bluetooth_Connectivity">Bluetooth Nutzung</string>
-    <string name="HIPS_Perm_Bluetooth_Connectivity_Desc">Bluetooth Nutzung</string>
-    <string name="HIPS_Perm_Bluetooth_Connectivity_Hint">%1$s App(s) mit Zugriff auf Bluetooth</string>
+    <string name="HIPS_Perm_WIFI_Connectivity_Hint">%1$s Apps erwarten Zugrif aufs WLAN</string>
+    <string name="HIPS_Perm_Bluetooth_Connectivity">Bluethooth Nutzung</string>
+    <string name="HIPS_Perm_Bluetooth_Connectivity_Desc">Bluethooth Nutzung</string>
+    <string name="HIPS_Perm_Bluetooth_Connectivity_Hint">%1$s Apps erwarten Zugriff auf Bluethooth</string>
     <string name="HIPS_Perm_MMS_Access">MMS lesen</string>
     <string name="HIPS_Perm_Recorder_Camera">Nutzung der Kamera</string>
     <string name="HIPS_Perm_Recorder_VoiceCall">Telefonate aufnehmen</string>
@@ -2151,14 +2151,14 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="yellow_data_supported">data from the</string>
     <string name="yellow_data_supported_by">provide</string>
 
-    <string name="HIPS_Perm_VideoRecorder">Fotos und Video</string>
-    <string name="HIPS_Perm_VideoRecorder_Desc">Zugriff auf die Kamera</string>
-    <string name="HIPS_Perm_VideoRecorder_Hint">%1$s können Fotos und Videos aufnehmen</string>
-    <string name="HIPS_Perm_Recorder_AudioVideo">Ton und Video aufnehmeno</string>
-    <string name="HIPS_Perm_Recorder_Video">Video aufnehmen</string>
-    <string name="HIPS_Perm_Recorder_Audio">Ton aufnehmeno</string>
+    <string name="HIPS_Perm_VideoRecorder">Pictures and Video</string>
+    <string name="HIPS_Perm_VideoRecorder_Desc">May take Pictures and Video</string>
+    <string name="HIPS_Perm_VideoRecorder_Hint">%1$s may take Pictures and record Video</string>
+    <string name="HIPS_Perm_Recorder_AudioVideo">Record Audio and Video</string>
+    <string name="HIPS_Perm_Recorder_Video">Record Videoo</string>
+    <string name="HIPS_Perm_Recorder_Audio">Record Audio</string>
     
-    <string name="private_netword_not_connected">Für dieses Feature muss Privacy Space herruntergeladen werden.</string>
+    <string name="private_netword_not_connected">Download the updated privacy space to use this feature </string>
     <string name="phone_restore_fail_message">Confirm whether there are other applications, blocking SMS or SMS records!</string>
     <string name="phone_restore_fail_title">Restore failed!</string>
     <string name="Home_Sepcial_Thanks_Title">Special Thanks</string>
