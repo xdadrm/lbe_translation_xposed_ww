@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <string-array name="addblacktype">
         <item>Из контактов</item>
@@ -127,7 +127,7 @@
         <item>В белый список</item>
         <item>В черный список</item>
         <item>Восстановить в журнале</item>
-    </string-array>
+	</string-array>
     <string-array name="preference_stopcalltype_options">
         <item>Отключить ночной режим</item>
         <item>Блокировать только черный список</item>
@@ -235,13 +235,13 @@
         <item>1</item>
     </string-array>
     <string-array name="virus_antivirus_antilib">
-        <item>Virus|Категория: Вирус</item>
-        <item>Worm|Категория: Червь</item>
-        <item>Trojan|Категория: Троян</item>
-        <item>G-Ware|Категория: Опасное приложение</item>
-        <item>AdWare|Категория: Рекламый модуль</item>
-        <item>RiskWare|Категория: Вредоносное приложение</item>
-        <item>Tool|Категория: Опасный нструмент</item>
+        <item>Virus|Категория: вирус</item>
+        <item>Worm|Категория: червь</item>
+        <item>Trojan|Категория: троян</item>
+        <item>G-Ware|Категория: опасное приложение</item>
+        <item>AdWare|Категория: рекламый модуль</item>
+        <item>RiskWare|Категория: риск применения</item>
+        <item>Tool|Категория: опасный нструмент</item>
         <item>"prv|Воровство
 личной информации"</item>
         <item>"rmt|Управление телефоном
@@ -267,7 +267,8 @@
         <item>spy|Программы-шпионы</item>
         <item>bkd|Вредоносное поведение</item>
         <item>rtt|Вредоносное поведение замаскированное под правильное поведение</item>
-        <item>gen|С помощью эвристических правил и широкого спектра обнаружения. Могут быть ложные срабатывания</item>
+        <item>gen|С помощью эвристических правил и широкого спектра обнаружения.
+Могут быть ложные срабатывания</item>
         <item>ads|Реклама</item>
         <item>default|Неизвестные угрозы</item>
     </string-array>
@@ -280,7 +281,7 @@
         <item>Каждые 3 дня</item>
         <item>Еженедельно</item>
         <item>Ежедневно</item>
-        <item>При отключении</item>
+        <item>Отключена</item>
     </string-array>
     <string-array name="showpowerquantitylower">
         <item>10%</item>
@@ -421,17 +422,17 @@
         <item>Удалить</item>
     </string-array>
     <string-array name="private_call_operator">
-        <item>Послать сообщение</item>
+        <item>Вызов</item>
+        <item>Послать СМС</item>
+        <item>Удалить</item>
+	</string-array>
+    <string-array name="private_message_operator">
+        <item>Вызов</item>
         <item>Удалить</item>
         <item>Восстановить в телефоне</item>
     </string-array>
-    <string-array name="private_message_operator">
-        <item>Вызов контакта</item>
-        <item>Удалить эту сессию</item>
-        <item>Восстановить в телефоне</item>
-    </string-array>
     <string-array name="private_message_dialog_operator">
-        <item>Удалить СМС</item>
+        <item>Удалить</item>
         <item>Восстановить в телефоне</item>
     </string-array>
     <string-array name="phone_block_type">
@@ -480,7 +481,7 @@
         <item>Настройки системы</item>
     </string-array>
     <string-array name="home_about_labels">
-        <item>Обновления</item>
+        <item>"Обновления "</item>
         <item>Обратная связь</item>
         <item>Маркет</item>
         <item>Поделиться с друзьями</item>
@@ -551,7 +552,7 @@
     <string-array name="unlock_types">
         <item>Рисунок</item>
         <item>Пароль</item>
-    </string-array>
+	</string-array>
     <string-array name="traffic_mobile_graph_wave_colors">
         <item>\#605fcaff</item>
         <item>\#8026acee</item>
@@ -628,7 +629,23 @@
         <item>Запрос на установку приложений</item>
         <item>Запретить автоустановку приложений</item>
     </string-array>
+    <string-array name="yellow_correction_no_num">
+        <item>Изменить контакт</item>
+        <item>Изменить номер</item>
+        <item>Другие вопросы</item>
+    </string-array>
+    <string-array name="yellow_correction_has_num">
+        <item>Неправильное имя</item>
+        <item>Правильное имя</item>
+        <item>Личный номер</item>
+    </string-array>
     <string-array name="special_thanks_list">
+        <item>Stink</item>
+        <item>griga211</item>
+        <item>Bonik75</item>
+        <item>veresen55</item>
+        <item>Roman_4pda</item>
+        <item>VityaPda</item>
         <item>LemonCC</item>
         <item>tamina</item>
         <item>Wei Ao06</item>
