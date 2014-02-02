@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="HIPS_Action_Accept">"Разр. "</string>
     <string name="HIPS_Action_Prompt">"Спрос. "</string>
@@ -143,8 +143,9 @@
     <string name="button_cancel_download">Отмена</string>
     <string name="button_start_now">Скачать</string>
     <string name="more_options">Еще</string>
-    <string name="copyright">"Авторское право © 2012-2014 LBE Security Master
-Все права защищены \nПеревод на русский язык: Владимир Бывалов"</string>
+    <string name="copyright">"Авторское право © 2012-2013 LBE Security Master
+ Все права защищены 
+Перевод на русский язык: Владимир Бывалов"</string>
     <string name="share_desc">Я использую LBE Security Master, он защищает мой телефон от рекламы, кражи, блокирорует нежелательные звонки и СМС, контролирует приложения. Попробуйте: http://www.lbesec.com</string>
     <string name="visit_website">Посетить веб-сайт</string>
     <string name="attention_sina_weibo">Следите за нами</string>
@@ -163,7 +164,7 @@
     <string name="call_number">Позвонить</string>
     <string name="ok">ОК</string>
     <string name="cancel">Отмена</string>
-    <string name="completed">ОК</string>
+    <string name="completed">Готово</string>
     <string name="continuation">Продолжить</string>
     <string name="close">Закрыть</string>
     <string name="delete">Удалить</string>
@@ -171,9 +172,9 @@
     <string name="miui_sms_block_desc">Если у Вас прошивка MIUI и Вы хотите использовать LBE Security Master для блокирования спам-сообщений, необходимо выполнить следующее:</string>
     <string name="block_error_desc">Описание ошибки</string>
     <string name="call_phone_error">Нет SIM-карты или сети, невозможно совершать звонки!</string>
-    <string name="block_error_tips_message">Если Вы сталкиваетесь с ошибкой кода MMI при блокировании в режиме \"Вне обслуживания", \"Несуществующий номер\", \"Занято\" - используйте переадресацию вызовов, также Вы можете указать телефон (бесплатный) оператора услуг.</string>
-    <string name="soft_manager_mem">Телефон</string>
-    <string name="soft_manager_sdcard">SD</string>
+    <string name="block_error_tips_message">Если Вы сталкиваетесь с ошибкой кода MMI при блокировании в режиме \"Вне обслуживания, \"Несуществующий номер\", \"Занято\" - используйте переадресацию вызовов, также Вы можете указать телефон (бесплатный) оператора услуг.</string>
+    <string name="soft_manager_mem">Память телефона</string>
+    <string name="soft_manager_sdcard">SD-карта</string>
     <string name="phone_accelerator_cpu">CPU</string>
     <string name="phone_accelerator_ram">RAM</string>
     <string name="hold_to_scan">Проверяемые</string>
@@ -214,7 +215,7 @@
     <string name="AD_Style_Credits_Wall">. Показывать всплывающую рекламу</string>
     <string name="AD_Style_App_List">. Показывать список приложений</string>
     <string name="AD_Style_Force_Window">. Показывать поп-объявления</string>
-	<string name="AD_Notification_Ticker">Обнаружена реклама</string>
+    <string name="AD_Notification_Ticker">Обнаружена реклама</string>
     <string name="AD_Notification_Content">Найден рекламный плагин, нажмите \"Подробно\"</string>
     <string name="AD_Detail_Activity_Title">Подробно</string>
     <string name="AD_Uninstall_App">Удалить</string>
@@ -286,18 +287,21 @@
     <string name="AV_NoVirus1">Ваш телефон в безопасности</string>
     <string name="AV_NoVirus2">Напомнить о проверке позже</string>
     <string name="AV_ScanProgress">Запуск в фоновом режиме: %1$s</string>
-<string name="AV_ScanNewApp">Проверка: %1$s</string>
+    <string name="AV_ScanNewApp">Проверка: %1$s</string>
     <string name="AV_ScanNewApp_Virus">В %1$s обнаружена угроза, немедленно удалите</string>
-    <string name="AV_Prompt">В %1$s обнаружена угроза
-\n%2$s
-\nУдалите немедленно!</string>
+    <string name="AV_Prompt">"В %1$s обнаружена угроза 
+%2$s 
+Удалите немедленно!"</string>
     <string name="AV_PromptMid">"В %1$s обнаружены угрозы
-\n%2$s"</string>
+
+%2$s
+
+Очистить?"</string>
     <string name="AV_StoragePath">Расположение</string>
     <string name="AV_VirusDetail1">Подробно</string>
     <string name="AV_VirusDetail2">Вред</string>
     <string name="AV_ToolStoragePath">[Местоположение]</string>
-    <string name="AV_DangerLevel_High">Угроза!</string>
+    <string name="AV_DangerLevel_High">Опасность</string>
     <string name="AV_DangerLevel_Mid">Предупреждение</string>
     <string name="AV_ScanCleanLog">Журнал</string>
     <string name="AV_ClearLog">Очистить</string>
@@ -308,32 +312,28 @@
     <string name="AV_LastScanResult_Warn">Проверено: %1$d, найдено угроз: %2$d</string>
     <string name="AV_LocalUpdate">Обновление вирусных баз с SD-карты</string>
     <string name="AV_LocalUpdate_Des">Версия вирусных баз на SD-карте: %1$s</string>
-    <string name="AV_PackPattern">Пакет вирусных баз</string>
-    <string name="AV_PackPattern_Des">Пакет вирусных баз на SD-карте</string>
-    <string name="AV_PackPattern_NoSD">SD-карта не установлена​​, операция отменена</string>
-    <string name="AV_PackPattern_OVER">Пакет образцов рекламы $1%s</string>
     <string name="AV_Copyright">Разработка Antiy AVL SDK</string>
     <string name="Battery">Батарея</string>
-    <string name="Battery_Settings">Настройки энергопотребления</string>
-    <string name="Battery_Backup">Режимы энергопотребления и персональные настройки</string>
-    <string name="Battery_SavingModes">Режим энергопотребления</string>
-    <string name="Battery_SavingMode_Des">Выберите режим энергопотребления</string>
-    <string name="Battery_NightMode">Профиль по времени</string>
-    <string name="Battery_NightMode_Des">Настройте профиль по времени</string>
-    <string name="Battery_CustomModes">Профиль по событию</string>
-    <string name="Battery_CustomModes_Des">Настройте профиль по событию</string>
+    <string name="Battery_Settings">Настройки энергосбережения</string>
+    <string name="Battery_Backup">Режимы энергосбережения и персональные настройки</string>
+    <string name="Battery_SavingModes">Режим энергосбережения</string>
+    <string name="Battery_SavingMode_Des">Выберите режим энергосбережения</string>
+    <string name="Battery_NightMode">Ночной</string>
+    <string name="Battery_NightMode_Des">Настройте ночной режим</string>
+    <string name="Battery_CustomModes">Пользовательский</string>
+    <string name="Battery_CustomModes_Des">Мой телефон, мой life style</string>
     <string name="Battery_BatteryLog">Журнал</string>
     <string name="Battery_Consumption">Расход</string>
     <string name="Battery_Consumption_Des">Расход батареи</string>
     <string name="Battery_Logs">Журнал</string>
-    <string name="Battery_Logs_Des">Журнал использования режимов и профилей</string>
+    <string name="Battery_Logs_Des">Журнал использования батареи</string>
     <string name="Battery_Bright_Resume">Яркость экрана будет восстановлена после закрытия этой страницы</string>
     <string name="Battery_Bright_CheckTitle">Определение минимальной яркости экрана</string>
     <string name="Battery_Bright_CheckMsg">При определении минимальной яркости экран телефона на некоторое время потускнеет, пожалуйста, не волнуйтесь.</string>
     <string name="Battery_Bright_Check">Определить</string>
     <string name="Battery_Bright_Next">Позже</string>
     <string name="Battery_Bright_Cancel">Отмена</string>
-    <string name="Battery_Bright_Min">LBE установил минимальную яркость экрана %1$d%%，чтобы сохранить Ваше зрение！</string>
+    <string name="Battery_Bright_Min">LBE рекомендует установить минимальную яркость экрана %1$d%%，чтобы сохранить Ваше зрение！</string>
     <string name="Battery_Delete_BatteryMode">Удалить текущий режим</string>
     <string name="Battery_Delete_BatteryModeTip">"Удалить текущий режим?
 Удаление режима может повлиять на задачи и персональные настройки, будьте осторожны."</string>
@@ -342,9 +342,9 @@
     <string name="Battery_Delete_Trigger">Удалить конфигурацию</string>
     <string name="Battery_Delete_TriggerTip">Удалить текущую конфигурацию, персональные задачи?</string>
     <string name="Battery_BatteryStatusLog">Журнал</string>
-    <string name="Battery_Add_NewMode">Добавить режим</string>
-    <string name="Battery_Add_NewNight">Добавить профиль</string>
-    <string name="Battery_Add_NewTrigger">Добавить профиль</string>
+    <string name="Battery_Add_NewMode">+ режим</string>
+    <string name="Battery_Add_NewNight">+ ночной</string>
+    <string name="Battery_Add_NewTrigger">+ новый персональный и эксклюзивный</string>
     <string name="Battery_Add_CustomAction">Выберите действие</string>
     <string name="Battery_Mode_Edit">Изменить режим</string>
     <string name="Battery_Mode_Select">Выбрать режим</string>
@@ -353,23 +353,23 @@
     <string name="Battery_Backup_Mode">Режим резервного копирования</string>
     <string name="Battery_Mode_Modify">Настройка</string>
     <string name="Battery_Mode_NoRunningMode">Режим не выбран</string>
-    <string name="Battery_Night_DefaultComment">Мне лень писать комментарий</string>
+    <string name="Battery_Night_DefaultComment">Мне лень писать комментария</string>
     <string name="Battery_TimePeriod_Start">Начало</string>
     <string name="Battery_TimePeriod_End">Окончание</string>
-    <string name="Battery_Trigger_Battery">Состояние батареи</string>
-    <string name="Battery_Trigger_Battery_Des">Зарядка, уровень заряда и др.</string>
-    <string name="Battery_Trigger_Screen">Состояние экрана</string>
-    <string name="Battery_Trigger_Screen_Des">Экран ВКЛ, ВЫКЛ и др.</string>
-    <string name="Battery_Trigger_TopApp">Запуск приложения</string>
-    <string name="Battery_Trigger_TopApp_Des">При запущенном приложении</string>
+    <string name="Battery_Trigger_Battery">На основе состояния батареи</string>
+    <string name="Battery_Trigger_Battery_Des">Дополнительная зарядка, разрядка и др.</string>
+    <string name="Battery_Trigger_Screen">На основе состояния экрана</string>
+    <string name="Battery_Trigger_Screen_Des">Выключение экрана и др.</string>
+    <string name="Battery_Trigger_TopApp">На основе запуска указанного приложения</string>
+    <string name="Battery_Trigger_TopApp_Des">Дополнительная иконка запуска приложения</string>
     <string name="Battery_Trigger_Condition">Условия запуска</string>
     <string name="Battery_Trigger_Operation">Запуск</string>
-    <string name="Battery_Trigger_Phone">Состояние телефона</string>
-    <string name="Battery_Trigger_Phone_Des">Сила сигнала и др.</string>
+    <string name="Battery_Trigger_Phone">На основе состояния телефона</string>
+    <string name="Battery_Trigger_Phone_Des">Сила сигнала, местоположение базовой станции и др.</string>
     <string name="Battery_Trigger_InvalidCondition">Настройте условие запуска на предыдущем шаге</string>
     <string name="Battery_Trigger_InvalidAction">Настройте действие на этой странице</string>
-    <string name="Battery_Condition_ChargeOn">Зарядка ВКЛ (подключен кабель)</string>
-    <string name="Battery_Condition_ChargeOff">Зарядка ОТКЛ (отключен кабель)</string>
+    <string name="Battery_Condition_ChargeOn">Начать зарядку (подключите кабель для зарядки)</string>
+    <string name="Battery_Condition_ChargeOff">Остановить зарядку (отключите кабель для зарядки)</string>
     <string name="Battery_Condition_LevelChange">Условия запуска: &lt;font color=\"#17A4F5\">&lt;U>%1$s&lt;/U>&lt;/font>， &lt;font color=\"#17A4F5\">&lt;U>%2$s&lt;/U>&lt;/font></string>
     <string name="Battery_Condition_Level">Батарея %1$d%% (%2$s %3$d%%)</string>
     <string name="Battery_Condition_LevelFull">Батарея заряжена (100%)</string>
@@ -379,16 +379,16 @@
     <string name="Battery_Condition_ScreenOff">"Экран ВЫКЛ "</string>
     <string name="Battery_Condition_TopApp">Запущено: %1$s</string>
     <string name="Battery_Condition_AppExit">В фоне: %1$s</string>
-    <string name="Battery_Condition_NotEqual">"Заряд не равен %1$d%% "</string>
-    <string name="Battery_Condition_Equal">"Заряд равен %1$d%% "</string>
-    <string name="Battery_Condition_Smaller">"Заряд меньше %1$d%% "</string>
-    <string name="Battery_Condition_Bigger">"Заряд больше %1$d%% "</string>
+    <string name="Battery_Condition_NotEqual">" заряд не равен %1$d%% "</string>
+    <string name="Battery_Condition_Equal">" заряд равен %1$d%% "</string>
+    <string name="Battery_Condition_Smaller">" заряд меньше %1$d%% "</string>
+    <string name="Battery_Condition_Bigger">" заряд больше %1$d%% "</string>
     <string name="Battery_Condition_BatteryFull">Батарея заряжена</string>
     <string name="Battery_Condition_BatteryLow">Низкий заряд (&lt;%1$d%%)</string>
-    <string name="Battery_Condition_BatteryUsing">"Батарея разряжается "</string>
-    <string name="Battery_Condition_Charging">"Зарядка "</string>
-    <string name="Battery_Condition_AppForeground">" запущен"</string>
-    <string name="Battery_Condition_AppBackground">" В фоне"</string>
+    <string name="Battery_Condition_BatteryUsing">" батарея разряжается "</string>
+    <string name="Battery_Condition_Charging">" зарядка "</string>
+    <string name="Battery_Condition_AppForeground">Запущено</string>
+    <string name="Battery_Condition_AppBackground">В фоне</string>
     <string name="Battery_Condition_Can_Use">Вы можете использовать</string>
     <string name="Battery_Action_KillSelf_ByLauncher">Это приложение останется работать в фоне</string>
     <string name="Battery_Action_KillApp">Очистка фоновых приложений</string>
@@ -397,7 +397,7 @@
     <string name="Battery_Action_KillApp_Tip">Очистка фоновых приложений</string>
     <string name="Battery_Action_PlayNotif_Tip">"Звук при запуске "</string>
     <string name="Battery_Action_KillSelf_Tip">Закрыть после очистки</string>
-    <string name="Battery_Action_LimitCPU_Tip">"Ограничение частоты процессора "</string>
+    <string name="Battery_Action_LimitCPU_Tip">"Запуск при максимальной частоте процессора "</string>
     <string name="Battery_Action_ActiveModeDes">Активировать режим</string>
     <string name="Battery_Action_ActiveMode">Активировать &lt;font color=\"#17A4F5\">%1$s&lt;/font></string>
     <string name="Battery_Action_ActiveAct">Выполнить действие</string>
@@ -405,31 +405,31 @@
     <string name="Battery_Action_DelayExecute">Отложено</string>
     <string name="Battery_Exception_Empty">"Нет дополнительных условий.
 Хотите узнать больше - свяжитесь с нами через QQ или Twitter"</string>
-    <string name="Battery_Exception_AddNew">Добавить исключение</string>
-    <string name="Battery_Exception_Skip">" Пропустить"</string>
+    <string name="Battery_Exception_AddNew">+ условие исключения</string>
+    <string name="Battery_Exception_Skip">Пропустить</string>
     <string name="Battery_Exception_Condition">Исключения</string>
-    <string name="Battery_Exception_ActiveDelay">Установите задержку для предотвращения повтора</string>
+    <string name="Battery_Exception_ActiveDelay">Установите задержку, чтобы предотвратить повтор</string>
     <string name="Battery_Exception_Delay">Время задержки</string>
     <string name="Battery_Exception_DelayTime">%1$s, задержка запуска %2$s</string>
     <string name="Battery_Exception_DelayTime_Simple">"Если условия удовлетворяются, то задержка запуска %1$s
-Если условия не отвечает критериям, то пропустить эту задачу"</string>
-    <string name="Battery_Exception_Extra">Расширенные настройки</string>
-    <string name="Battery_Exception_CantRestoreAct">Вы выбираете разовое действие, без восстановления</string>
+Если задержка запуска не отвечает критериям, то пропустить эту задачу"</string>
+    <string name="Battery_Exception_Extra">Расширенный набор</string>
+    <string name="Battery_Exception_CantRestoreAct">Вы можете выбрать разовое действие</string>
     <string name="Battery_Exception_CantRestoreCon">Вы не можете полностью изменить выбранное условие</string>
     <string name="Battery_Exception_Restore">Функция автоматического восстановления выключена</string>
-    <string name="Battery_Exception_RestoreMode">" Восстановить до исходного состояния"</string>
-    <string name="Battery_Exception_RunningPkg">Запуск приложения</string>
-    <string name="Battery_Exception_TimeDes">Отрезок времени</string>
-    <string name="Battery_Exception_PhoneDes">Состояниие связи</string>
-    <string name="Battery_Exception_Screen">Состояниие экрана</string>
-    <string name="Battery_Exception_ScreenOn">Экран ВКЛ - профиль ВЫКЛ</string>
-    <string name="Battery_Exception_ScreenOff">Экран ВЫКЛ - профиль ВЫКЛ</string>
-    <string name="Battery_Exception_Charge">Состояниие аккумулятора</string>
-    <string name="Battery_Exception_ChargeOn">Зарядка ВКЛ - профиль ВЫКЛ</string>
-    <string name="Battery_Exception_ChargeOff">Зарядка ОТКЛ - профиль ВЫКЛ</string>
-    <string name="Battery_Exception_RunDes">Если запущено - профиль ВЫКЛ</string>
+    <string name="Battery_Exception_RestoreMode">Восстанавливается до состояния перед триггером</string>
+    <string name="Battery_Exception_RunningPkg">Запущенные приложения недействительны</string>
+    <string name="Battery_Exception_TimeDes">Недопустимо в течение определенного времени</string>
+    <string name="Battery_Exception_PhoneDes">Конкретное государство является недействительным</string>
+    <string name="Battery_Exception_Screen">Неверный для определенного экрана</string>
+    <string name="Battery_Exception_ScreenOn">Неверный, когда экран ВКЛ</string>
+    <string name="Battery_Exception_ScreenOff">Неверный, когда экран ВЫКЛ</string>
+    <string name="Battery_Exception_Charge">Определенное состояние аккумулятора недействительно</string>
+    <string name="Battery_Exception_ChargeOn">Когда заряжается недействительно</string>
+    <string name="Battery_Exception_ChargeOff">Когда зарядка отключена недействительно</string>
+    <string name="Battery_Exception_RunDes">Пропущенные при работе этой задачи на переднем плане</string>
     <string name="Battery_Exception_Conflit">Из-за конфликта исключение было автоматически удалено</string>
-    <string name="Battery_Exception_Invalid">" - профиль ВЫКЛ"</string>
+    <string name="Battery_Exception_Invalid">Неверный</string>
     <string name="Battery_Restore_CPU">Восстановление частоты CPU</string>
     <string name="Battery_Restore_Auto">Автоматическое восстановление</string>
     <string name="Battery_Week_Monday">Пн</string>
@@ -439,11 +439,11 @@
     <string name="Battery_Week_Friday">Пт</string>
     <string name="Battery_Week_Saturday">Сб</string>
     <string name="Battery_Week_Sunday">Вс</string>
-    <string name="Battery_NightMode_Delay">После использования телефона ВЫКЛ экран и активировать профиль через %1$s</string>
+    <string name="Battery_NightMode_Delay">После использования телефона заблокировать экран и активировать приложение через %1$s</string>
     <string name="Battery_NightMode_NoDelay">После использования телефона восстановить текущее состояние</string>
-    <string name="Battery_NightMode_Edit">Изменить профиль</string>
-    <string name="Battery_NightMode_Enter">"Начало: "</string>
-    <string name="Battery_NightMode_Exit">"Окончание: "</string>
+    <string name="Battery_NightMode_Edit">Изменить ночной режим</string>
+    <string name="Battery_NightMode_Enter">"Начало ночного режима: "</string>
+    <string name="Battery_NightMode_Exit">"Окончание ночного режима: "</string>
     <string name="Battery_NightMode_Effective_Date">Когда</string>
     <string name="Battery_NightMode_Start_Date">Запуск</string>
     <string name="Battery_NightMode_Delay_Event">Пауза</string>
@@ -466,8 +466,8 @@
     <string name="Battery_Consumption_CntUsed">%1$d</string>
     <string name="Battery_Consumption_StatisticTime">Длительность: %1$s</string>
     <string name="Battery_Consumption_Save">LBE Security Master завершит фоновые процессы (%1$s), что увеличит использование батареи на 8 минут</string>
-    <string name="Battery_Error_WrongItem">Прверка измененных параметров</string>
-    <string name="Battery_Error_WrongCondition">Прверка условий запуска</string>
+    <string name="Battery_Error_WrongItem">Ошибка, параметры не могут быть изменены</string>
+    <string name="Battery_Error_WrongCondition">Ошибка условий запуска</string>
     <string name="Battery_Error_TooShortTimePeriod">Интервал между началом и окончанием слишком мал</string>
     <string name="Battery_Error_InvalidDayOfWeek">Должен быть отмечен минимум один день</string>
     <string name="Battery_Shortcut_Wifi">WIFI</string>
@@ -508,7 +508,7 @@
     <string name="Battery_Shortcut_NotSupport_GPS_AIR">Запустите активную защиту для использования автоматического включения режима полета и выключения GPS</string>
     <string name="Battery_Shortcut_NotSupport_GPS">Запустите активную защиту для использования автоматического выключения GPS</string>
     <string name="Battery_Shortcut_NotSupport_GPS2">Ваша система не поддерживает режим автоматическое выключение GPS</string>
-    <string name="Battery_Shortcut_NotSupport_AIR">Запустите активную защиту для использования автоматического включения режима полета</string> 
+    <string name="Battery_Shortcut_NotSupport_AIR">Запустите активную защиту для использования автоматического включения режима полета</string>
     <string name="Battery_ChargingLeft_Fast">Быстрая зарядка, осталось</string>
     <string name="Battery_ChargingLeft_Continue">Непрерывная зарядка, осталось</string>
     <string name="Battery_ChargingLeft_Tick">Подзарядка, осталось</string>
@@ -519,9 +519,9 @@
     <string name="Battery_BatteryMode_Change">Включен %1$s на %2$s</string>
     <string name="Battery_ScreenBrightness">Яркость</string>
     <string name="Battery_VolumnAlarm">Громкость будильника %1$d%%</string>
-    <string name="Battery_VolumnNotif">Громкость уведомлений %1$d%%</string>
+    <string name="Battery_VolumnNotif">Громкость звонка и СМС %1$d%%</string>
     <string name="Battery_VolumnRing">Громкость звонка %1$d%%</string>
-    <string name="Battery_VolumnAuto">Использовать текущие установки громкости</string>
+    <string name="Battery_VolumnAuto">Текущая громкость не изменяется при использовании телефона</string>
     <string name="Battery_HardwareConsumption_Radio">Интернет</string>
     <string name="Battery_HardwareConsumption_Wifi">WIFI</string>
     <string name="Battery_HardwareConsumption_Screen">Экран</string>
@@ -569,16 +569,16 @@
     <string name="Battery_Database_AdvanceMode_Comment">Для использования в дороге</string>
     <string name="Battery_Database_SuperMode_Name">Суперэкономичный</string>
     <string name="Battery_Database_SuperMode_Comment">Макс. экономия батареи</string>
-    <string name="Battery_Database_RestDayNightMode_Name">Выходные</string>
+    <string name="Battery_Database_RestDayNightMode_Name">Спокойные выходные</string>
     <string name="Battery_Database_RestDayNightMode_Comment">Для использования в выходные дни</string>
-    <string name="Battery_Database_NightPlan_Name">Ночь</string>
+    <string name="Battery_Database_NightPlan_Name">Ночной отдых</string>
     <string name="Battery_Database_NightPlan_Comment">Для использования ночью</string>
-    <string name="Battery_Log_Service_Start">^_^, служба логирования запущена</string>
-    <string name="Battery_Log_Service_Stop" formatted="false">%>_&lt;%， служба логирования остановлена</string>
-    <string name="Battery_Log_NightMode_Entered">Активирован %1$s, окончание через %2$s</string>
-    <string name="Battery_Log_NightMode_WillDelay">Профиль %1$s будет активирован через %2$s после выключения экрана</string>
-    <string name="Battery_Log_NightMode_Delay">%1$s будет активирован в %2$s</string>
-    <string name="Battery_Log_NightMode_Exit">Следующий запуск %1$s запланирован через %2$s</string>
+    <string name="Battery_Log_Service_Start">^_^,Аккумулятор помощник Здесь</string>
+    <string name="Battery_Log_Service_Stop" formatted="false">%>_&lt;%，Аккумулятор помощники уволены</string>
+    <string name="Battery_Log_NightMode_Entered">%1$s включается, ожидается %2$s после окончания</string>
+    <string name="Battery_Log_NightMode_WillDelay">Использование телефона %1$s отложить до блокировки экрана и никакого телефона после %2$s</string>
+    <string name="Battery_Log_NightMode_Delay">%1$s будет %2$s запуск</string>
+    <string name="Battery_Log_NightMode_Exit">%1$s следующий запуск, запланированный после %2$s</string>
     <string name="Battery_Log_NightMode_ScreenOff">Экран выключен, задержка %1$s, старт %2$s</string>
     <string name="Battery_Log_NightMode_Error">Исключение конфигурации: %1$s (%2$d)</string>
     <string name="Battery_Log_NightMode_EnterDes_Start">Запуск %1$s</string>
@@ -595,7 +595,7 @@
     <string name="Battery_Log_Cpu_Des_Sleeping">Сон</string>
     <string name="Battery_Log_Cpu_Des_Frequency">Рабочая частота</string>
     <string name="Battery_Log_Trigger_Des_When" />
-    <string name="Battery_Log_Trigger_Des_Moment">" Время"</string>
+    <string name="Battery_Log_Trigger_Des_Moment">Время</string>
     <string name="Battery_Log_TimePeriod_Des_To">" - "</string>
     <string name="Battery_Log_TimePeriod_Des_SecondDay" />
     <string name="Battery_Log_Night_Repeat_Des_EveryDay">"Еженедельно: "</string>
@@ -606,7 +606,7 @@
     <string name="Battery_Log_Night_Repeat_Des_Friday">Пт</string>
     <string name="Battery_Log_Night_Repeat_Des_Saturday">Сб</string>
     <string name="Battery_Log_Night_Repeat_Des_Sunday">Вс</string>
-    <string name="Battery_Log_TimeTask">"Время "</string>
+    <string name="Battery_Log_TimeTask">Время задачи</string>
     <string name="Battery_Log_Condition_BatteryUsing">Использование</string>
     <string name="Battery_Log_Tips_Air">В самолете</string>
     <string name="Battery_Log_Tips_BT">Bluetooth</string>
@@ -628,7 +628,7 @@
     <string name="Battery_Show_Notif">Иконка в статус баре</string>
     <string name="Battery_Show_NotifDes">Показывать иконку батареи в статус баре</string>
     <string name="Battery_ShowToast">Изменения режима</string>
-    <string name="Battery_ShowToastDes">Оповещать об изменении режима энергопотребления</string>
+    <string name="Battery_ShowToastDes">Оповещать об изменении режима энергосбережения</string>
     <string name="Battery_CheckBright">Минимальная яркость</string>
     <string name="Battery_CheckBrightDes">Установить минимальную яркость экрана</string>
     <string name="Battery_Service_Autostart">Автозапуск службы оптимизации</string>
@@ -662,12 +662,12 @@
     <string name="airplane_mode">В самолете</string>
     <string name="bluetooth">Bluetooth</string>
     <string name="screen_brightness">Яркость</string>
-    <string name="haptic_feedback">Вибро</string>
+    <string name="haptic_feedback">Обратная связь</string>
     <string name="sync">Синхр.</string>
     <string name="wifi">WIFI</string>
     <string name="gps">GPS</string>
-    <string name="mobile_network">2G/3G</string>
-    <string name="screen_rotation">Поворот</string>
+    <string name="mobile_network">Мобильные сети</string>
+    <string name="screen_rotation">Поворот экрана</string>
     <string name="Desktop_No_Apps_Running">Нет приложений, работающих в фоне</string>
     <string name="Desktop_Shortcut_Switch">Переключатель</string>
     <string name="delete_fail">Не удалось удалить</string>
@@ -703,7 +703,6 @@
     <string name="Generic_SystemApp">Системные</string>
     <string name="Generic_UserApp">Пользовательские</string>
     <string name="Generic_Copyright">Команда LBE</string>
-    <string name="Generic_Copyright_Version">Версия: %1$s</string>
     <string name="Generic_Beta">БЕТА-ВЕРСИЯ!!!</string>
     <string name="Generic_Beta_NotFound_Device">К сожалению, устройства нет в списках закрытого бета-тестирования, используйте официальную версию</string>
     <string name="Generic_Configuration">Настройки</string>
@@ -715,11 +714,11 @@
     <string name="Generic_Summary_Disabled">Отключено</string>
     <string name="Generic_Add">Добавить</string>
     <string name="Generic_Clip">Удалить</string>
-    <string name="Generic_Enable">" Вкл. "</string>
-    <string name="Generic_Disable">" Откл. "</string>
+    <string name="Generic_Enable">"Вкл. "</string>
+    <string name="Generic_Disable">"Откл. "</string>
     <string name="Generic_Enabled">"Включено: "</string>
-    <string name="Generic_Disabled">"Отключено: "</string>
-    <string name="Generic_Uninstalled">"Удалено: "</string>
+    <string name="Generic_Disabled">"Отключено "</string>
+    <string name="Generic_Uninstalled">"Удалено "</string>
     <string name="Generic_Blocked">Запр.</string>
     <string name="Generic_Restore">Разр.</string>
     <string name="Generic_Optimize">Оптимизация</string>
@@ -776,12 +775,12 @@
     <string name="Generic_Time_Noon" />
     <string name="Generic_Time_PM" />
     <string name="Generic_Time_Night" />
-    <string name="Generic_Date_Formatter">yy г MM м dd д  HH ч mm м</string>
+    <string name="Generic_Date_Formatter">yy г MM м dd д HH ч mm м</string>
     <string name="Generic_Time_Formatter">"HH ч mm м "</string>
-    <string name="Generic_Time_Day">" дн "</string>
-    <string name="Generic_Time_Hour">" час "</string>
-    <string name="Generic_Time_Minute">" мин "</string>
-    <string name="Generic_Time_Second">" сек "</string>
+    <string name="Generic_Time_Day">" д "</string>
+    <string name="Generic_Time_Hour">" ч "</string>
+    <string name="Generic_Time_Minute">" м "</string>
+    <string name="Generic_Time_Second">" с "</string>
     <string name="Generic_Time_Zero">0</string>
     <string name="Generic_Time_Never">Никогда</string>
     <string name="Generic_Time_Small">Менее 1 секунды</string>
@@ -798,12 +797,12 @@
     <string name="Home_Traffic_Mobile">%1$s/%2$s/%3$s</string>
     <string name="Home_Traffic_Unlimited">Нет лимита</string>
     <string name="Home_Optimize_OneClick">Оптимизировать</string>
-    <string name="Home_Feedback">Отзыв</string>
+    <string name="Home_Feedback">Обратная связь</string>
     <string name="Home_Feedback_Saved">Ваш отзыв сохранен</string>
     <string name="Home_Feedback_Title">Введите свои комментарии или вопросы:</string>
     <string name="Home_Feedback_ErrorInput">Введите минимум три слова</string>
     <string name="Home_Feedback_Send">Отправить</string>
-    <string name="Home_Feedback_Sending">Отправка отзыва...</string>
+    <string name="Home_Feedback_Sending">Обратная связь с...</string>
     <string name="Home_Feedback_NetError">Сеть недоступна, проверьте связь.</string>
     <string name="Home_Feedback_Success">Ваше сообщение отправлено, спасибо за поддержку.</string>
     <string name="Home_Feedback_Error">Сервер занят. Подождите или попробуйте позже.</string>
@@ -818,10 +817,9 @@
     <string name="Home_Feedback_LogErrorFile_Send">Создан отчет об ошибке, размер %1$s, загрузить файл %2$s?</string>
     <string name="Home_Feedback_LogErrorFile_NoSend">Создан отчет об ошибке %1$s</string>
     <string name="Home_About">О программе</string>
-    <string name="Home_About_PkgVersion">%1$s для Андроид версии %2$s
-"</string>
+    <string name="Home_About_PkgVersion">"%1$s для Андроид версии %2$s "</string>
     <string name="Home_About_urls">&lt;p>Оф. сайт: &lt;a href=http://www.lbesec.com>www.lbesec.com&lt;/a>&lt;/p>&lt;p>Блог продукта: &lt;a href=http://weibo.com/lbesec>Команда LBE&lt;/a>&lt;/p>&lt;p>Блог команды LBE&lt;/p>&lt;p> Lamian: &lt;a href=http://t.qq.com/lamian>http://t.qq.com/lamian&lt;/a>&lt;/p>&lt;p> Elviesss: &lt;a href=http://t.qq.com/elviesss>http://t.qq.com/elviesss&lt;/a>&lt;/p></string>
-	<string name="Home_About_phones">Телефон: &lt;a href=tel:01085997019>010-85997019&lt;/a></string>
+    <string name="Home_About_phones">Телефон: &lt;a href=tel:01085997019>010-85997019&lt;/a></string>
     <string name="Home_About_mail">Email: &lt;a href=mailto:lbe@lbesec.com>lbe@lbesec.com&lt;/a></string>
     <string name="Home_About_Copyright">"Команда LBE © 2011
 Авторское право John Young"</string>
@@ -878,7 +876,7 @@
     <string name="Home_Traffic_Monitor">Трафик</string>
     <string name="Home_Ad_Block">Реклама</string>
     <string name="Home_Virus_Kill">Антивирус</string>
-    <string name="Home_Defense">Защита</string>
+    <string name="Home_Defense">Активная защита</string>
     <string name="Home_Notification_Manager">Уведомления</string>
     <string name="Home_Personal_Privacy">Личное</string>
     <string name="Home_Anti_Burglary">Антивор</string>
@@ -886,7 +884,7 @@
     <string name="Home_Backup_Restore">Бекап</string>
     <string name="Home_First_Check_Tips">Существует риск для Вашего телефона, необходимо выполнить проверку!</string>
     <string name="Home_Defense_Not_Running">Нажмите на значок слева, чтобы посмотреть возможности активной защиты</string>
-    <string name="score">"%"</string>
+    <string name="score">%</string>
     <string name="Home_Autostart_Manager">С момента запуска</string>
     <string name="Home_Authorize_Manager">Управление лицензиями</string>
     <string name="Home_Guide_Reorder">Долго нажмите для перемещения иконки</string>
@@ -895,7 +893,7 @@
     <string name="Home_HipsBubble_Defense_Start">Нажмите на щит для запуска активной защиты</string>
     <string name="Home_Sepcial_Thanks_Title">Особая благодарность</string>
     <string name="Keyguard_lock_AQ">Вопрос</string>
-    <string name="Keyguard_lock_AQ_A">Пожалуйста, введите ответ</string>
+    <string name="Keyguard_lock_AQ_A">Введите вопрос</string>
     <string name="Keyguard_lock_AQ_Q">Вопрос</string>
     <string name="Keyguard_lock_AQ_CustomQ">Свой вопрос</string>
     <string name="Keyguard_Error_PasswordEqual">Пароли должны быть одинаковы</string>
@@ -905,14 +903,14 @@
     <string name="Keyguard_Pattern_Zoom">Изменение уровня безопасности</string>
     <string name="Keyguard_Pattern_Reset">Сброс</string>
     <string name="Keyguard_Pattern_First">Соедините не менее четырех точек</string>
-    <string name="Keyguard_Pattern_Second">Повторите рисунок</string>
-    <string name="Keyguard_Current_Active_Unlock">Текущий способ разблокировки: %1$s</string>
-    <string name="Keyguard_Unlock_Fail_Passwd">Неправильный пароль, не удалось разблокировать</string>
-    <string name="Keyguard_Unlock_Fail_Answer">Неправильный ответ, не удалось разблокировать</string>
+    <string name="Keyguard_Pattern_Second">Подтвердите</string>
+    <string name="Keyguard_Current_Active_Unlock">Текущий метод разблокировки: %1$s</string>
+    <string name="Keyguard_Unlock_Fail_Passwd">Неправильный пароль, невозможно разблокировать</string>
+    <string name="Keyguard_Unlock_Fail_Answer">Неправильный ответ, невозможно разблокировать</string>
     <string name="Keyguard_Unlock_Fail_Pattern">Неправильный рисунок, не удалось разблокировать</string>
-    <string name="Keyguard_Unlock_QA">Вопрос</string>
-    <string name="Keyguard_Unlock_Pattern">Рисунок</string>
-    <string name="Keyguard_Unlock_Password">Пароль</string>
+    <string name="Keyguard_Unlock_QA">Вопрос и разблокировка</string>
+    <string name="Keyguard_Unlock_Pattern">Рисунок для разблокировки</string>
+    <string name="Keyguard_Unlock_Password">Пароль для разблокировки</string>
     <string name="Keyguard_ForgetPassword">Забыли пароль?</string>
     <string name="Keyguard_USE_SAFEQA">Использовать вопросы?</string>
     <string name="Keyguard_Select_Question">Выберите вопрос</string>
@@ -921,21 +919,21 @@
     <string name="Keyguard_Guide_Pattern_Message">Просто и удобно</string>
     <string name="Keyguard_Guide_Pincode">Пароль</string>
     <string name="Keyguard_Guide_Pincode_Message">Традиционный способ</string>
-    <string name="Keyguard_Error_Inputtimes">"Неправильный пароль, попыток: "</string>
-    <string name="Keyguard_Wait_Time">"Время ожидания, сек: "</string>
-    <string name="Keyguard_Crack_Setting">Заблокировать при ошибке</string>
-    <string name="Keyguard_Forbidden_Input">Ошибок ввода пароля: %1$s， время ожидания, сек: %2$s</string>
+    <string name="Keyguard_Error_Inputtimes">"Неправильных попыток ввода пароля: "</string>
+    <string name="Keyguard_Wait_Time">"Подождите, чтобы разблокировать: "</string>
+    <string name="Keyguard_Crack_Setting">Установить принудительно</string>
+    <string name="Keyguard_Forbidden_Input">После %1$s ошибок ввода пароля отключить вход на %2$s сек</string>
     <string name="Keyguard_Fail_Residue_Time">Разблокировать не удалось, подождите %1$s сек</string>
-    <string name="Keyguard_Activate_Keyguard">Разблокировка</string>
+    <string name="Keyguard_Activate_Keyguard">Активировать способ разблокировки</string>
     <string name="Keyguard_Type_Pattern">Рисунок</string>
     <string name="Keyguard_Backup">Основная учетная запись и пароль</string>
     <string name="Keyguard_Type_Pincode">Пароль</string>
-    <string name="Keyguard_Type_Facerec">Распозн. лица</string>
-    <string name="Keyguard_Type_QA">Вопрос</string>
-    <string name="Keyguard_Setting_QA">Задайте вопрос, который поможет вспомнить пароль</string>
-    <string name="Keyguard_Crack_Setting_Default">5 ошибок при вводе пароля, ввод отключен на 50 секунд</string>
+    <string name="Keyguard_Type_Facerec">Распознавание лица</string>
+    <string name="Keyguard_Type_QA">Проблема безопасности</string>
+    <string name="Keyguard_Setting_QA">Задайте вопросы, которые помогут восстановить забытый пароль</string>
+    <string name="Keyguard_Crack_Setting_Default">5 ошибок при вводе пароля, вход отключен на 50 секунд</string>
     <string name="Keyguard_Question_Defualt">Мой лучший друг</string>
-    <string name="Keyguard_Alternative">Быстр. разблок.</string>
+    <string name="Keyguard_Alternative">Разблокировка</string>
     <string name="Keyguard_subkeyguard_nfc">NFC метка</string>
     <string name="Keyguard_Name_Nfc">NFC метка</string>
     <string name="Keyguard_Name_Facerec">Распознавание лиц</string>
@@ -943,8 +941,8 @@
     <string name="Keyguard_Name_Pin">Пароль</string>
     <string name="Keyguard_Summary_Facerec">Распознавание лиц</string>
     <string name="Keyguard_Summary_Nfc">NFC метка</string>
-    <string name="Keyguard_Message_Update">LBE Security не поддерживает текущую версию Блокировщика, обноките ее до версии 2.2.</string>
-    <string name="Keyguard_Fast_Unlock_Tips">Выберите способ быстрой разблокировки (необходимо скачать Блокировщик)</string>
+    <string name="Keyguard_Message_Update">LBE Security не поддерживает текущую версию PrivacySpace, обноките ее до версии 2.2.</string>
+    <string name="Keyguard_Fast_Unlock_Tips">Выберите способ быстрой разблокировки (необходимо скачать плагин PrivacySpace)</string>
     <string name="Keyguard_Tips_Pattern_Unlock">Пожалуйста, нарисуйте рисунок для разблокировки</string>
     <string name="Traffic">Трафик</string>
     <string name="Traffic_Setting">Настройки трафика</string>
@@ -969,7 +967,8 @@
     <string name="Traffic_Calibration_Start">Подключение к облаку, подождите</string>
     <string name="Traffic_Please_Set_Operator_Info_First">Укажите информацию об операторе</string>
     <string name="Traffic_Calibration_Promo_Content">"Рекомендуется использовать функцию автоматической калибровки.
-Функция автоматической калибровки отправляет запросы оператору для более точного учета трафика.\nРАБОТАЕТ ТОЛЬКО В КИТАЕ!"</string>
+Функция автоматической калибровки отправляет запросы оператору для более точного учета трафика.
+РАБОТАЕТ ТОЛЬКО В КИТАЕ!"</string>
     <string name="Traffic_Monitor_SetOperator_ButtonOk">Установить сейчас</string>
     <string name="Traffic_Monitor_SetOperator_ButtonCancal">Установить позже</string>
     <string name="Traffic_Monitor_Alarm">Ваш ежемесячный лимит приблизился к 90%. Отключить передачу данных?</string>
@@ -1068,13 +1067,11 @@
     <string name="Patch_Download_Failure">Не удалось загрузить обновления безопасности для Вашего телефона, повторите попытку позже</string>
     <string name="Patch_Download_Cancelled">Отменено</string>
     <string name="Patch_Title">Ваша система уязвима</string>
-    <string name="Patch_Description">Мастер обнаружил уязвимости в Вашей системе, что может позволить хакерам внедрить в Ваш телефон трояны, если Вы не имеете полного контроля над Вашим телефоном, и украсть Ваши личные данные.
-	
-LBE Security Master рекомендует устранить уязвимости, чтобы защитить Ваши личные данные."</string>
+    <string name="Patch_Description">Мастер обнаружил уязвимости в Вашей системе, что может позволить хакерам внедрить в Ваш телефон трояны, если Вы не имеете полного контроля над Вашим телефоном, и украсть Ваши личные данные. LBE Security Master рекомендует устранить уязвимости, чтобы защитить Ваши личные данные.</string>
     <string name="Patch_Description_RootFree">"Мастер обнаружил уязвимости в Вашей системе, что может позволить хакерам внедрить в Ваш телефон трояны, если Вы не имеете полного контроля над Вашим телефоном, и украсть Ваши личные данные.
-	
+\u0009
 LBE Security Master рекомендует устранить уязвимости, чтобы защитить Ваши личные данные.
-	
+\u0009
 Для работы активной защиты без ROOT требуется исправить эту уязвимость."</string>
     <string name="Patch_Query_Upload_Info">Обращение в облако за программой ремонта</string>
     <string name="Patch_Query_Download_Info">Получение программы ремонта</string>
@@ -1087,12 +1084,6 @@ LBE Security Master рекомендует устранить уязвимост
     <string name="Patch_Apply_Success">Поздравляем, обновления безопасности успешного применены</string>
     <string name="Patch_Enable_Hips_Tips">Запустить активную защиту?</string>
     <string name="Patch_Need_More_Request">Программа ремонта нуждается в обновлении</string>
-    <string name="HIPS_MasterKeyUpgrade">"Для правильной работы активной защиты Вам необходимо обновить до более новой версии патчи LBE MasterKey.
-
-Перед обновлением, пожалуйста, удалите старые патчи LBE Masterkey."</string>
-    <string name="HIPS_MasterKeyNotsupported">"LBE Masterkey установил, что Ваша система больше не нуждается в патчах.
-
-Чтобы избежать помех при работе активной защиты, Вам необходимо удалить патчи LBE Masterkey."</string>
     <string name="Phone">Телефон</string>
     <string name="Phone_Backup">Настройки телефона</string>
     <string name="Phone_Setting">Настройки блокировки</string>
@@ -1131,8 +1122,7 @@ LBE Security Master рекомендует устранить уязвимост
     <string name="Phone_Add_Manual">Вручную</string>
     <string name="Phone_Add_Manual_Name">"Имя: "</string>
     <string name="Phone_Add_Manual_Number">"Номер: "</string>
-    <string name="Phone_Add_Manual_Wildcard">Вы можете использовать * вместо одной или нескольких цифр.
-Например, 138* соответствует любому номеру с цифрами 138</string>
+    <string name="Phone_Add_Manual_Wildcard">Вы можете использовать * вместо одной или нескольких цифр. Например, 138* соответствует любому номеру с цифрами 138</string>
     <string name="Phone_Call_Intercept_ShortRing">Звонок: %1$s сек</string>
     <string name="Phone_Operate">Действие</string>
     <string name="Phone_Edit">Изменить</string>
@@ -1214,10 +1204,7 @@ LBE Security Master рекомендует устранить уязвимост
     <string name="Phone_Adding_Log">Добавить в журнал блокировок</string>
     <string name="Phone_Loading">Загрузка</string>
     <string name="Phone_Data_Upload_Title">Облачная служба безопасности</string>
-    <string name="Phone_Data_Upload_Declare">LBE Security Master предлагает Вам воспользоваться облачными сервисами безопасности.
-Включив облачную службу безопасности, Вы сможете сообщать о некорректной работе LBE Security Master по блокировке спама и телефонных звонков, и тем самым помочь группе LBE оптимизировать продукт, чтобы улучшить точность блокировки. Облачная служба безопасности по умолчанию работает только в сети WI-FI, не тратьте впустую свой драгоценный 3G-трафик. Вы можете в любое время запретить использование облачной службы безопасности в брандмауэре.
-
-Включить облачную службу безопасности?</string>
+    <string name="Phone_Data_Upload_Declare">LBE Security Master предлагает Вам воспользоваться облачными сервисами безопасности. Включив облачную службу безопасности, Вы сможете сообщать о некорректной работе LBE Security Master по блокировке спама и телефонных звонков, и тем самым помочь группе LBE оптимизировать продукт, чтобы улучшить точность блокировки. Облачная служба безопасности по умолчанию работает только в сети WI-FI, не тратьте впустую свой драгоценный 3G-трафик. Вы можете в любое время запретить использование облачной службы безопасности в брандмауэре. Включить облачную службу безопасности?</string>
     <string name="Phone_MissCall_Title">Пропущенные вызовы</string>
     <string name="Phone_MissMsg_Title">Непрочитанные СМС</string>
     <string name="Phone_MissCallAlert_Type">Тип напоминания</string>
@@ -1226,10 +1213,10 @@ LBE Security Master рекомендует устранить уязвимост
     <string name="Phone_NightSaving_BeginTime">Начало</string>
     <string name="Phone_NightSaving_EndTime">Конец</string>
     <string name="Phone_Alert_Add_White">Восстановить СМС и вызовы?</string>
-    <string name="Phone_Common_Number">База номеров</string>
+    <string name="Phone_Common_Number">Часто используемые номера</string>
     <string name="Phone_Fixed_Line">Фиксированная линия</string>
     <string name="Phone_UnKnow_Alert">Напоминания о событиях</string>
-    <string name="Phone_Select_Location">Поиск по номеру</string>
+    <string name="Phone_Select_Location">Введите номер</string>
     <string name="Phone_GoingCall_Alert">Вибрация после ответа</string>
     <string name="Phone_SignNumber_Title1">Сигнал</string>
     <string name="Phone_SignNumber_Title2">Вызовы</string>
@@ -1254,10 +1241,10 @@ LBE Security Master рекомендует устранить уязвимост
     <string name="Phone_Alert_Title">Мастер безопасности</string>
     <string name="Phone_Alert_Vibrate">Включить вибрацию при ответе на звонок?</string>
     <string name="Phone_Alert_AddBlack_Content">Незнакомый номер: %s, добавить в черный список?</string>
-    <string name="Phone_SupperSetting">Незнакомый номер</string>
-    <string name="Phone_Alert_AddTo_Black">В черный список</string>
+    <string name="Phone_SupperSetting">Расширенные настройки</string>
+    <string name="Phone_Alert_AddTo_Black">Незнакомый номер</string>
     <string name="Phone_Alert_AddTo_Black_Summary">Запрос на добавление в черный список через 15 секунд разговора</string>
-    <string name="Phone_BlockLog_Save_Time">На срок</string>
+    <string name="Phone_BlockLog_Save_Time">Время блокирования</string>
     <string name="Phone_Auto_AddTo_White">В белый список</string>
     <string name="Phone_Sgin_StrangeNumber">Незнакомые номера</string>
     <string name="Phone_BlockOneRing">Блокировать входящие вызовы</string>
@@ -1295,8 +1282,8 @@ LBE Security Master рекомендует устранить уязвимост
     <string name="Phone_MsgBlock_Fail_Hint">СМС не блокирована?</string>
     <string name="Phone_Block_Reason">"Причина блокировки: "</string>
     <string name="Phone_Mark_Hint">"Незнакомый номер: "</string>
-    <string name="Phone_Mark_New_Cate">"Новая категория: "</string>
-    <string name="Phone_Mark_Add_New_Cate_Hint">Добавить категорию</string>
+    <string name="Phone_Mark_New_Cate">"Новая категори: "</string>
+    <string name="Phone_Mark_Add_New_Cate_Hint">Нажмите \"Добавить категорию\"</string>
     <string name="Phone_AddBlack_OrNot">Добавить в черный список?</string>
     <string name="Phone_Tools">Телефон</string>
     <string name="Phone_IP_Dial">IP-набор</string>
@@ -1321,31 +1308,14 @@ LBE Security Master рекомендует устранить уязвимост
     <string name="Phone_Miui_setting_cancel">Отмена</string>
     <string name="Phone_SIM1_setting">Настройки SIM1</string>
     <string name="Phone_SIM2_setting">Настройки SIM2</string>
-    <string name="Phone_Database_Marker_Name_UserDefine">Мои телефоны</string>
+    <string name="Phone_Database_Marker_Name_UserDefine">Пользовательский</string>
     <string name="Phone_Black_restore_sms_tip">Восстановить заблокированные СМС в телефоне</string>
     <string name="Phone_connected_vibrate_abort">В системе выше 4.1 эта функция отключена</string>
-    <string name="Phone_Database_Marker_Name_Correction">Ненужные номера</string>
-    <string name="Phone_correction_no_data">Нет ненужных номеров</string>
+    <string name="Phone_Database_Marker_Name_Correction">Не корректировать номер</string>
+    <string name="Phone_correction_no_data">Нет необходимости корректировать номер</string>
     <string name="Phone_correction_delete_tips">Вы уверены, что хотите удалить этот номер?</string>
     <string name="phone_restore_fail_title">Восстановление не удалось</string>
     <string name="phone_restore_fail_message">Убедитесь, что у Вас есть другие приложения, запрещающие \"Отправить СМС\" или \"Записать СМС\"!</string>
-    <string name="phone_Click_to_Open">Нажмите, чтобы открыть</string>
-    <string name="phone_Click_to_Close">Нажмите, чтобы закрыть</string>
-    <string name="no_subject_view">(Нет темы)</string>
-    <string name="phone_number_tip_title">Советы</string>
-    <string name="phone_number_exist_black">Этот номер - в черном списке, Вы хотите добавить его в белый список?</string>
-    <string name="phone_number_exist_black_inneed_add">Этот номер уже в черном списке, Вам не нужно его добавлять!</string>
-    <string name="phone_number_exist_white">Этот номер - в белом списке, Вы хотите добавить его в черный список?</string>
-    <string name="phone_number_exist_white_inneed_add">Этот номер уже в белом списке, Вам не нужно его добавлять!</string>
-    <string name="phone_numbers_exist_black">Следующие номера: %1$s в черном списке, Вы хотите добавить их в белый список?</string>
-    <string name="phone_numbers_exist_white">Следующие номера: %1$s в белом списке, Вы хотите добавить их в черный список?</string>
-    <string name="phone_number_add_failed">Не удалось добавить номер</string>
-    <string name="phone_numbers_add_failed">Не удалось добавить номера: %1$s</string>
-    <string name="phone_delete_white_failed">Не удалось удалить номер мз белого списка!</string>
-    <string name="phone_delete_black_failed">Не удалось удалить номер мз черного списка!</string>
-    <string name="Phone_deal_later">Позже</string>
-    <string name="phone_add_to_contact">Добавить контакты</string>
-    <string name="phone_block_tips">В случае получения ошибки кода MMI, Вы можете позвонить на номер оператора (бесплатно)</string>
     <string name="Plugin_Upgrade_Title">Обновление: %1$s</string>
     <string name="Plugin_Upgrade_Succeed">%1$s успешно обновлен ​​до последней версии</string>
     <string name="Plugin_Upgrade_Failed">Ошибка обновления %1$s</string>
@@ -1358,7 +1328,12 @@ LBE Security Master рекомендует устранить уязвимост
     <string name="Plugin_AntiTheft_Welcome">Вас приветствует Антивор LBE</string>
     <string name="Plugin_AntiTheft_Introduction">"Антивор LBE - это независимый модуль, который представляет собой средство для защиты телефона от кражи или потери.
 
-Антивор LBE предоставит Вам следующие возможности: \n- определение местоположения телефона; \n- уничтожение данных; \n- резервное копирование данных; \n- сигнализация; \n- виртуальные предупреждения
+Антивор LBE предоставит Вам следующие возможности: 
+- определение местоположения телефона; 
+- уничтожение данных; 
+- резервное копирование данных; 
+- сигнализация; 
+- виртуальные предупреждения
 
 Нажмите ниже, чтобы скачать и установить Антивор LBE."</string>
     <string name="Plugin_AntiTheft_RootInstall">Права ROOT</string>
@@ -1433,7 +1408,8 @@ LBE Security Master рекомендует устранить уязвимост
     <string name="Pref_Phone_Data_Upload_Summary">Помочь LBE Security Master улучшить точность блокировки</string>
     <string name="Pref_Phone_UseSuperEndCall">Блокировка на системном уровне</string>
     <string name="Pref_Phone_SuperEndCallDialogBody">"Для блокировки на системном уровне Вам необходимо включить активную защиту.
-\nБлокировка на системном уровне с наивысшим приоритетом поможет эффективно отклонять вызовы. Однако в настоящее время блокировку на системном уровне поддерживают только некоторые модели, если Ваш телефон ведет себя некорректно - отключите эту функцию"</string>
+
+Блокировка на системном уровне с наивысшим приоритетом поможет эффективно отклонять вызовы. Однако в настоящее время блокировку на системном уровне поддерживают только некоторые модели, если Ваш телефон ведет себя некорректно - отключите эту функцию"</string>
     <string name="Pref_Phone_DelayUnknownCall">Звонок на незн. номер с задержкой 3 сек</string>
     <string name="Pref_Saving_ManageSetting">Настройки управления энергопотреблением</string>
     <string name="Pref_Saving_NotificationCategory">Другое</string>
@@ -1482,8 +1458,8 @@ LBE Security Master рекомендует устранить уязвимост
     <string name="Pref_Traffic_Adjust_Hint">Введите фактический трафик в этом месяце</string>
     <string name="Pref_Traffic_Adjust_AutoQuery">Автоматически</string>
     <string name="Pref_Traffic_Adjust_SMSQuery">Запрос СМС</string>
-    <string name="Pref_Traffic_Adjust_SMSQuery_Number">Номер</string>
-    <string name="Pref_Traffic_Adjust_SMSQuery_Content">Текст СМС</string>
+    <string name="Pref_Traffic_Adjust_SMSQuery_Number">СМС-номера</string>
+    <string name="Pref_Traffic_Adjust_SMSQuery_Content">Содержание сообщения</string>
     <string name="Pref_Traffic_Adjust_PhoneQuery">Запрос вызовов</string>
     <string name="Pref_Traffic_Adjust_PhoneQuery_Number">Номер телефона</string>
     <string name="Pref_Traffic_Adjust_Query">Запрос</string>
@@ -1507,10 +1483,10 @@ LBE Security Master рекомендует устранить уязвимост
     <string name="Pref_Shortcut_Settings">Ярлыки</string>
     <string name="Pref_Shortcut_Settings_Desc">Установите на рабочий стол ярлык для запуска диспетчера задач и окно контроля трафика в реальном времени</string>
     <string name="Pref_Clear_Ingore_Desc">Приложения из этого списка не будут остановлены</string>
-    <string name="Pref_Traffic_OnTime_Update_Setting">Только для Китая</string>
-    <string name="Pref_Traffic_Calibrate_OnTime_Auto">Автоматическая калибровка</string>
+    <string name="Pref_Traffic_OnTime_Update_Setting">Автоматическая калибровка трафика</string>
+    <string name="Pref_Traffic_Calibrate_OnTime_Auto">Регулярная автоматическая калибровка</string>
     <string name="Pref_Traffic_Calibrate_Sms_Setting">Трафик в СМС</string>
-    <string name="Pref_Traffic_Calibrate_SMS_Dialog_Title">Калибровка через СМС</string>
+    <string name="Pref_Traffic_Calibrate_SMS_Dialog_Title">Калибровка трафика через СМС</string>
     <string name="Pref_Traffic_Calibrate_SIM_Operator">SIM-карта</string>
     <string name="Pref_Traffic_Operator_Setting_SIM">Настройки SIM-карты</string>
     <string name="Pref_Traffic_Operator_Setting_SIM_Message">В зависимости от Вашей SIM-карты может потребоваться точная информация об операторе.</string>
@@ -1539,17 +1515,18 @@ LBE Security Master рекомендует устранить уязвимост
     <string name="HIPS_App_Count">%1$d</string>
     <string name="HIPS_App_Trust_SummaryOn">Разрешить все</string>
     <string name="HIPS_App_Trust_SummaryOff">Контролируется LBE Security Master</string>
-    <string name="HIPS_App_Perm_Count">Разр.: %1$d</string>
+    <string name="HIPS_App_Perm_Count">Разрешений: %1$d</string>
     <string name="HIPS_App_Monitored">Контролируемые (%1$d)</string>
     <string name="HIPS_App_Trusted">Доверенные (%1$d)</string>
     <string name="HIPS_App_System_UntrustFirst">"%1$s - системное приложение, изменение разрешений для него может привести к неправильной работе устройства.
-\nПродолжить?"</string>
+
+Продолжить?"</string>
     <string name="HIPS_App_Config">Разрешения</string>
     <string name="HIPS_App_Config_NoRoot">Вы не можете изменить разрешения для приложений, т.к. защита выключена. Нажмите здесь, чтобы включить</string>
     <string name="HIPS_App_New">Настройки разрешений для %1$s</string>
     <string name="HIPS_App_NewApp">Нажмите, чтобы посмотреть разрешения %1$s</string>
     <string name="HIPS_App_NewApps">Не настроены разрешения для приложений (%1$d)</string>
-    <string name="HIPS_App_NewAppsWithAdware">Разр.: %1$d (рекламных модулей: %2$d)</string>
+    <string name="HIPS_App_NewAppsWithAdware">Разрешений: %1$d (рекламных модулей: %2$d)</string>
     <string name="HIPS_App_New_Installed">Установлено: %1$s</string>
     <string name="HIPS_App_New_Configure">Нажмите, чтобы настроить разрешения</string>
     <string name="HIPS_App_New_Configure_NoVirus">Угроз не обнаружено, нажмите для настройки разрешений</string>
@@ -1645,7 +1622,7 @@ LBE Security Master рекомендует устранить уязвимост
     <string name="add_private_contact">Добавить контакт</string>
     <string name="private_contact_empty">Добавьте конфиденциальный контакт</string>
     <string name="private_phone_normal">Ответить</string>
-    <string name="private_phone_endcall">Сбросить</string>
+    <string name="private_phone_endcall">Положить трубку</string>
     <string name="private_message">СМС</string>
     <string name="private_manual_private_contact">Добавьте контакт</string>
     <string name="private_have_this">Этот номер был</string>
@@ -1665,15 +1642,15 @@ LBE Security Master рекомендует устранить уязвимост
     <string name="private_have_no_calllog">У Вас нет конфиденциальных вызовов</string>
     <string name="private_have_no_msglog">У Вас нет конфиденциальных СМС</string>
     <string name="private_delete">Удалить</string>
-    <string name="private_delete_calllog">Вы уверены, что хотите удалить журнал вызовов?</string>
-    <string name="private_delete_message">Вы уверены, что хотите удалить журнал СМС?</string>
+    <string name="private_delete_calllog">Вы хотите удалить эти записи о звонках?</string>
+    <string name="private_delete_message">Вы хотите удалить всю ветку сообщений?</string>
     <string name="private_delete_msg">Вы хотите удалить эту СМС?</string>
     <string name="private_oneself_name">Я</string>
-    <string name="private_recover_sms_success">Успешно восстановлено в системе</string>
+    <string name="private_recover_sms_success">Успешно восстановлено в системный почтовый ящик</string>
     <string name="private_recover_success">Успешно восстановлено в системе</string>
-    <string name="private_recover_sms_false">Не удалось восстановить в системе</string>
+    <string name="private_recover_sms_false">Не удалось восстановить в системный почтовый ящик</string>
     <string name="private_recovering_sms">Будет восстановлено в системе</string>
-    <string name="private_input_msgcontent">Введите сообщение</string>
+    <string name="private_input_msgcontent">Нажмите, чтобы ввести сообщение</string>
     <string name="private_reply">Ответить</string>
     <string name="private_cannot_sendmsg">Ваш телефон без SIM-карты или в режиме полета, невозможно отправить СМС</string>
     <string name="private_adding">Импорт журнала</string>
@@ -1741,16 +1718,16 @@ LBE Security Master рекомендует устранить уязвимост
     <string name="private_lock_settings">Настройки блокировки</string>
     <string name="private_download_privatespace">Скачайте последнюю версию Блокировщика</string>
     <string name="private_download_privatespace_default">Модуль в настоящее время модернизируется, следите за обновлениями...</string>
-    <string name="private_download_dialog_message">"Для использования этой функции Вам нужно загрузить и установить Блокировщик.
-Продолжить?"</string>
+    <string name="private_download_dialog_message">"С использованием Блокировщика Ваша программа станет более надежной.
+Продолжать?"</string>
     <string name="private_upgrade_dialog_message">"Обновление Блокировщика.
-Продолжить?"</string>
+Продолжать?"</string>
     <string name="private_install_fail">Сбой установки Блокировщика</string>
     <string name="private_setting_qasummary">Установлен ложный пароль, вопрос не может быть использован</string>
-    <string name="private_netword_not_connected">Cкачайте Блокировщик, чтобы использовать эту функцию</string>
+    <string name="private_netword_not_connected">Cкачайте обновленный Блокировщик, чтобы использовать эту функцию</string>
     <string name="private_sms_unread">Непрочитанная</string>
     <string name="private_skip_introduction">Пропустить</string>
-    <string name="private_download_tips">Вам нужно загрузить Блокировщик для быстрой разблокировки. Скачать?</string>
+    <string name="private_download_tips">Вам нужно скачать PrivacySpace для быстрой разблокировки. Скачать?</string>
     <string name="Scan_RecommendScan">Рекомендуется выполнить проверку Вашего телефона</string>
     <string name="Scan_RecommendScan_LongTime">Проверка выполнялась очень давно</string>
     <string name="Scan_JustScanned">Последняя проверка: только что</string>
@@ -1790,10 +1767,10 @@ LBE Security Master рекомендует устранить уязвимост
     <string name="Scan_Check_Network_Name">Облачная служба безопасности</string>
     <string name="Scan_Check_Service">Проверка безопасности, начиная с запуска</string>
     <string name="Scan_Check_Service_Name">Автозагрузка службы</string>
-    <string name="Scan_Check_RunningApp">Проверка системы: анализ</string>
+    <string name="Scan_Check_RunningApp">Проверка системы: выполняется</string>
     <string name="Scan_Check_RunningApp_Noroot">Фоновые приложения обработаны</string>
     <string name="Scan_Check_RunningApp_Name">В фоне: %1$d, своб. памяти: %2$s</string>
-    <string name="Scan_Check_RunningApp_Fixed">Заверш.: %1$d, освоб. памяти: %2$s</string>
+    <string name="Scan_Check_RunningApp_Fixed">Заверш.: %1$d, осв. памяти: %2$s</string>
     <string name="Scan_Check_Cache_App">Кэш: %1$s</string>
     <string name="Scan_Check_Virus_Scan_name">Проверка</string>
     <string name="Scan_Check_Virus_Scan_Start">Запуск проверки</string>
@@ -1801,9 +1778,11 @@ LBE Security Master рекомендует устранить уязвимост
     <string name="Scan_Check_Virus_Scan_Failed">Сбой проверки</string>
     <string name="Scan_Check_Virus_Scan">Проверка: %1$s</string>
     <string name="Scan_Check_VirusDetail">"Обнаружена угроза %1$s
-\nв %2$s"</string>
+
+в %2$s"</string>
     <string name="Scan_Check_VirusDetail_Warning">"В %1$s обнаружен риск
-\n%2$s"</string>
+
+%2$s"</string>
     <string name="Scan_Check_Virus_Fixed">Очищено</string>
     <string name="Scan_Check_Virus_NoVirus">Нет угроз</string>
     <string name="Scan_Check_Cache">Проверка кэша</string>
@@ -1822,7 +1801,7 @@ LBE Security Master рекомендует устранить уязвимост
     <string name="Scan_Check_Fixed_Loophole">Вы только что исправили уязвимости</string>
     <string name="Scan_Result_Excellent">LBE Security Master оптимизировал Ваш телефон - он теперь в отличном состоянии!</string>
     <string name="Scan_Result_Good">LBE Security Master может оптимизировать Ваш телефон!</string>
-    <string name="Scan_Result_Poor">LBE Security Master напоминает: Ваша система уязвима!</string>
+    <string name="Scan_Result_Poor">LBE Security Master напоминает: Ваша система в опасности!</string>
     <string name="Scan_Alone">Нужна оптимизация</string>
     <string name="Scan_Click_Show_Check_Detail">Нажмите, чтобы посмотреть подробности</string>
     <string name="Scan_Need_Manual_Optimize">Требуется ручная оптимизация</string>
@@ -1862,10 +1841,10 @@ LBE Security Master рекомендует устранить уязвимост
     <string name="SoftMgr_SdApk_DaysAgo">Последняя проверка: &lt;font color=\"#17A4F5\">%1$d дн&lt;/font> назад</string>
     <string name="SoftMgr_SdApk_Today">Последняя проверка: &lt;font color=\"#17A4F5\">сегодня &lt;/font></string>
     <string name="SoftMgr_Can_Opt">&lt;font color=\"#17A4F5\">Рекомендуем оптимизировать&lt;/font></string>
-    <string name="SoftMgr_App_OptDesc1">Разр.: %1$d, можно выкл.: &lt;font color=\"#17A4F5\">%2$d&lt;/font>, можно вкл.: &lt;font color=\"#17A4F5\">%3$d&lt;/font></string>
-    <string name="SoftMgr_App_OptDesc2">Разр.: %1$d, можно выкл.: &lt;font color=\"#17A4F5\">%2$d&lt;/font></string>
-    <string name="SoftMgr_App_OptDesc3">Разр.: %1$d, можно вкл.: &lt;font color=\"#17A4F5\">%2$d&lt;/font></string>
-    <string name="SoftMgr_App_OptedDesc">Разр.: %1$d, оптимиз.: &lt;font color=\"#17A4F5\">%2$d&lt;/font></string>
+    <string name="SoftMgr_App_OptDesc1">Разрешения: %1$d, можно выключить: &lt;font color=\"#17A4F5\">%2$d&lt;/font>, можно включить: &lt;font color=\"#17A4F5\">%3$d&lt;/font></string>
+    <string name="SoftMgr_App_OptDesc2">Разрешения: %1$d, можно выключить: &lt;font color=\"#17A4F5\">%2$d&lt;/font></string>
+    <string name="SoftMgr_App_OptDesc3">Разрешения: %1$d, можно включить: &lt;font color=\"#17A4F5\">%2$d&lt;/font></string>
+    <string name="SoftMgr_App_OptedDesc">Разрешения: %1$d， оптимизированы: &lt;font color=\"#17A4F5\">%2$d&lt;/font></string>
     <string name="SoftMgr_Order">Сортировать по</string>
     <string name="SoftMgr_NewApp">Не настроено</string>
     <string name="SoftMgr_Signature_Error">"%1$s （без подписи）
@@ -1941,10 +1920,13 @@ LBE Security Master рекомендует устранить уязвимост
     <string name="SoftMgr_SysUninstall_Summary">Всего приложений: %1$d, удалено: %2$d</string>
     <string name="SoftMgr_SysUninstall_Disable">Отключить выбранные (%1$d)</string>
     <string name="SoftMgr_SysUninstall_Enable">Включить выбранные (%1$d)</string>
-    <string name="SoftMgr_SysUninstall_Guide">"Эта функция только для \nпродвинутых пользователей!
+    <string name="SoftMgr_SysUninstall_Guide">"Эта функция только для 
+продвинутых пользователей!
 
-Security Master поможет Вам очистить \nсистему от лишнего мусора.
-Случайное отключение важных приложений \nможет привести к сбоям системы.
+Security Master поможет Вам очистить 
+систему от лишнего мусора.
+Случайное отключение важных приложений 
+может привести к сбоям системы.
 Будьте предельно осторожны！"</string>
     <string name="SoftMgr_SysUninstall_Warning">Вы уверены, что хотите удалить %s? Если после этого система не будет работать должным образом - восстановите их из корзины</string>
     <string name="SoftMgr_SysUninstall_InstallWarning">"Свободно памяти: %1$s
@@ -2059,13 +2041,9 @@ Security Master поможет Вам очистить \nсистему от л�
     <string name="SysOpt_TaskMgr_Best_State_Tips">Оптимальное состояние</string>
     <string name="SysOpt_Boost">Автозагрузка</string>
     <string name="SysOpt_Boost_Des">Управление запуском приложений при загрузке и в фоне</string>
-    <string name="SysOpt_Boost_AppWidget">%1$s - виджет на рабочем столе, и сейчас он используется. Менеджер автозагрузки не работает с активными виджетами.
-
-Удалите виджет %1$s с рабочего стола и попробуйте еще раз.</string>
+    <string name="SysOpt_Boost_AppWidget">%1$s - виджет на рабочем столе, и сейчас он используется. Менеджер автозагрузки не работает с активными виджетами. Удалите виджет %1$s с рабочего стола и попробуйте еще раз.</string>
     <string name="SysOpt_Boost_Service">Система использует %1$s для ключевой службы (метод ввода). Чтобы избежать системных сбоев, не удаляйте эти приложения из автозагрузки.</string>
-    <string name="SysOpt_Boost_ShowSystem">Внимание!
-Изменение системных приложений может привести к серьезным последствиям, телефон может не запуститься!
-Для продолжения нажмите на кнопку разблокировки</string>
+    <string name="SysOpt_Boost_ShowSystem">Внимание! Изменение системных приложений может привести к серьезным последствиям, телефон может не запуститься! Для продолжения нажмите на кнопку разблокировки</string>
     <string name="SysOpt_Boost_Boot">Автозагрузка</string>
     <string name="SysOpt_Boost_Receiver">В фоне</string>
     <string name="SysOpt_Boost_Deblocking">Разблокировать</string>
@@ -2133,42 +2111,43 @@ Security Master поможет Вам очистить \nсистему от л�
     <string name="SysOpt_Hardware_Display">Дисплей</string>
     <string name="SysOpt_Hardware_Device_Other">Датчики</string>
     <string name="SysOpt_Hardware_Device_Rank">Рейтинг</string>
-    <string name="SysOpt_Hardware_Antutu_Tips">Отмеченные звездочкой -  данные AnTuTu</string>
+    <string name="SysOpt_Hardware_Antutu_Tips">Отмеченные звездочкой - данные AnTuTu</string>
     <string name="SysOpt_Running_Memory">ОЗУ: &lt;font color=\"#40C0FF\">%1$s&lt;/font></string>
     <string name="SysOpt_DisplayDetails">&lt;u>Подробно&lt;/u></string>
     <string name="SysOpt_Hardware_Brand">Бренд</string>
     <string name="SysOpt_Hardware_Internet_Tips">Дополнительная информация в сети</string>
     <string name="Update">Проверить обновления</string>
     <string name="Update_sr">Обновление</string>
-    <string name="Update_Main_Title">Обновление \nLBE Security Master</string>
-    <string name="Update_VirusPattern_Title">"Обновление: "</string>
-    <string name="Update_VirusEngine_Title">"Обновление: "</string>
+    <string name="Update_Main_Title">"Обновление 
+LBE Security Master"</string>
+    <string name="Update_VirusPattern_Title">"Обновление вирусных баз: "</string>
+    <string name="Update_VirusEngine_Title">"Обновление антивирусного ядра: "</string>
     <string name="Update_VirusPattern_Desc">Обновляется до %1$s</string>
-    <string name="Update_AdwarePattern_Title">"Обновление: "</string>
+    <string name="Update_AdwarePattern_Title">"Обновление базы данных: "</string>
     <string name="Update_AdwarePattern_Desc">Обновляется до %1$s</string>
     <string name="Update_Plugin_Title">Обновление %1$s</string>
-    <string name="Update_AdwareSet_Title">"Обновление: "</string>
+    <string name="Update_AdwareSet_Title">"Обновление образцов рекламы: "</string>
     <string name="Update_Download">Загрузить</string>
     <string name="Update_Download_Main">Официальные обновления с сайта</string>
     <string name="Update_Download_Channel">Обновление %1$s</string>
     <string name="Update_Download_Channel_Install">Загрузить %1$s</string>
-    <string name="Update_Auto_NewVirusDb">Новая версия вирусных баз</string>
+    <string name="Update_Auto_NewVirusDb">Обновление вирусных баз</string>
     <string name="Update_Auto_NewMainVer">Новая версия LBE Security Master</string>
     <string name="Update_Auto_NewAdwareSetVer">Новая версия образцов рекламы LBE</string>
     <string name="Update_Auto_NewPlugin">Новая версия: %1$s</string>
     <string name="Update_Auto_Detail">Нажмите, чтобы обновить до версии %1$s</string>
-    <string name="Update_MainVersion">"Новая версия %1$s
+    <string name="Update_MainVersion">"Новая версия %1$s, загрузить?
 %2$s"</string>
-    <string name="Update_VirusPattern">"Вирусные базы %1$s
+    <string name="Update_VirusPattern">"Вирусные базы %1$s, загрузить?
 %2$s"</string>
-    <string name="Update_VirusEngine">"Антивирусное ядро %1$s
+    <string name="Update_VirusEngine">"Антивирусное ядро %1$s, загрузить?
 %2$s"</string>
-    <string name="Update_AdwareSet">"Образцы рекламы %1$s
+    <string name="Update_AdwareSet">"Образцы рекламы %1$s, загрузить?
 %2$s"</string>
-    <string name="Update_Plugin">"%1$s %2$s
+    <string name="Update_Plugin">"%1$s %2$s, загрузить?
 %3$s"</string>
     <string name="Update_NoUpdate">Вы используете последнюю версию</string>
-    <string name="Update_VirusPattern_Finish">Вирусные базы обновлены до версии: %1$s</string>
+    <string name="Update_VirusPattern_Finish">Вирусная база обновлена до версии: %1$s</string>
     <string name="Update_Check">Проверка обновлений...</string>
     <string name="Update_Avaliable">Обновление</string>
     <string name="Update_Software">Обновление</string>
@@ -2206,56 +2185,6 @@ Security Master поможет Вам очистить \nсистему от л�
     <string name="DownloadManager_Error_Cannot_Resume">Невозможно продолжить загрузку</string>
     <string name="DownloadManager_Error_File_Already_Exists">Файл уже существует</string>
     <string name="DownloadManager_Error_Unknown">Неизвестная ошибка</string>
-    <string name="Update_Frequently_Toast">Вы только что проверяли обновления, повторите попытку позже</string>
-    <string name="yellow_page_title">База номеров</string>
-    <string name="yellow_search_hint">Введите слово для поиска</string>
-    <string name="yellow_city_unknow">Неизвестно</string>
-    <string name="yellow_select_city">Выберите город!</string>
-    <string name="yellow_select_city_hit">Введите город или индекс</string>
-    <string name="yellow_category_locale">Бытовые услуги</string>
-    <string name="yellow_category_food">Еда</string>
-    <string name="yellow_category_funny">Отдых</string>
-    <string name="yellow_category_mail">Доставка</string>
-    <string name="yellow_category_order">Заказ еды</string>
-    <string name="yellow_category_sport">Спорт</string>
-    <string name="yellow_category_order_other">Другое</string>
-    <string name="yellow_select_city_title">Выберите город</string>
-    <string name="yellow_home_load_category_failed">Не удалось загрузить!</string>
-    <string name="yellow_no_more_category">Найти больше категорий!</string>
-    <string name="yellow_api_or_secret_key_missing">Введите ключ API или SECRET keySS！</string>
-    <string name="yellow_city_select_load_failed">Город не найден！</string>
-    <string name="yellow_search_list_title">Поиск по ключевым словам</string>
-    <string name="yellow_search_empty">Не найдены соответствующие данные</string>
-    <string name="yellow_search_input_key_words">Введите ключевое слово для поиска</string>
-    <string name="yellow_call_count_1">Звонков: %.1f</string>
-    <string name="yellow_call_count_2">Звонков: %d</string>
-    <string name="yellow_shop_detail">Контактная информация</string>
-    <string name="yellow_load_more">Загрузить дополнительные данные</string>
-    <string name="yellow_loading_data">Загрузка данных</string>
-    <string name="yellow_no_more_data">Нет больше данных</string>
-    <string name="yellow_shop_correct">Исправление ошибок</string>
-    <string name="yellow_shop_loading">Загрузка...</string>
-    <string name="yellow_shop_server_error">Ошибка сервера!</string>
-    <string name="yellow_shop_server_client">Ошибка клиента!</string>
-    <string name="yellow_shop_request_error">Ошибка доступа!</string>
-    <string name="yellow_correction_shop_profile">Изменить профиль</string>
-    <string name="yellow_correction_add_or_modify_number">Изменить номер</string>
-    <string name="yellow_correction_other_problem">Другие вопросы</string>
-    <string name="yellow_correction_name_incorrection">Неправильное имя</string>
-    <string name="yellow_correction_modify_profile">Правильное имя</string>
-    <string name="yellow_correction_private_phone">Личный номер</string>
-    <string name="yellow_shop_for_detail">Подробно</string>
-    <string name="yellow_no_such_data">Данные не найдены</string>
-    <string name="yellow_currennt_network_unavailable">Сеть недоступна</string>
-    <string name="yellow_server_error">Ошибка сервера</string>
-    <string name="yellow_server_timeout">Тайм-аут соединения, попробуйте еще раз</string>
-    <string name="yellow_data_supported">Данные</string>
-    <string name="yellow_data_supported_by" />
-    <string name="yellow_clear">Пусто</string>
-    <string name="yellow_shop_call">Вызов</string>
-    <string name="yellow_select_number">Выберите телефон</string>
-    <string name="yellow_hot_city">Города</string>
-    <string name="yellow_search">Поиск</string>
     <string name="Traffic_Graph_Trend">Трафик</string>
     <string name="Traffic_Graph_Detail">Подробно</string>
     <string name="Traffic_Graph_Legend_Limit">Лимит</string>
