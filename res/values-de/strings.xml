@@ -3,9 +3,9 @@
     <string name="HIPS_Action_Accept">Erlauben</string>
     <string name="HIPS_Action_Prompt">Erfragen</string>
     <string name="HIPS_Action_Reject">Ablehnen</string>
-    <string name="HIPS_Action_Accept_Colored">&lt;font color=#478800> Erlaubt &lt;/ font></string>
-    <string name="HIPS_Action_Prompt_Colored">&lt;font color=#FF8A00> Eingabe &lt;/ font></string>
-    <string name="HIPS_Action_Reject_Colored">&lt;font color=#DF0000> Verweigert &lt;/ font></string>
+    <string name="HIPS_Action_Accept_Colored">&lt;font color=#478800> Erlauben &lt;/font></string>
+    <string name="HIPS_Action_Prompt_Colored">&lt;font color=#FF8A00> Erfragen &lt;/font></string>
+    <string name="HIPS_Action_Reject_Colored">&lt;font color=#DF0000> Ablehnen &lt;/font></string>
     <string name="HIPS_Group_Expense">Sicherheit</string>
     <string name="HIPS_Group_PIM">Persönliche Informationen</string>
     <string name="HIPS_Group_Location">Lokalisierung</string>
@@ -14,29 +14,29 @@
     <string name="HIPS_Group_DataPrivacy">Datenschutz</string>
     <string name="HIPS_Group_ROOT">&lt;ROOT></string>
     <string name="HIPS_Perm_SendSMS">SMS senden</string>
-    <string name="HIPS_Perm_SendSMS_Desc">Sendet SMS direkt</string>
-    <string name="HIPS_Perm_SendSMS_Hint">%1$s App(s) mit Zugriff auf SMS oder MMS versenden</string>
+    <string name="HIPS_Perm_SendSMS_Desc">versendet SMS</string>
+    <string name="HIPS_Perm_SendSMS_Hint">%1$s App(s) mit Zugriff aufs versenden von SMS/MMS</string>
     <string name="HIPS_Perm_Call">Anruf</string>
-    <string name="HIPS_Perm_Call_Desc">Startet, Antwortet und beendet Anrufe</string>
-    <string name="HIPS_Perm_Call_Hint">%1$s App(s) mit Zugriff auf Telefonate anzunehmen oder zu beenden</string>
+    <string name="HIPS_Perm_Call_Desc">kann Telefonate starten, annehmen und beenden</string>
+    <string name="HIPS_Perm_Call_Hint">%1$s App(s) mit Zugriff aufs anzunehmen oder beenden von Telefonaten</string>
     <string name="HIPS_Perm_CallState">Telefon Status</string>
-    <string name="HIPS_Perm_CallState_Desc">Ermittelt Telefonstatus z.B Eingehende, angenommen und aufgelegte Anrufe</string>
+    <string name="HIPS_Perm_CallState_Desc">ermittelt Telefonstatus z.B Zugriff auf angenommene und gewählte Nummern</string>
     <string name="HIPS_Perm_CallState_Hint">%1$s App(s) mit Zugriff auf den Telefonstatus</string>
     <string name="HIPS_Perm_CallMonitor">Anruf Überwachung</string>
     <string name="HIPS_Perm_CallMonitor_Desc">Überwacht Anrufe, und steuert die Lautstärke</string>
-    <string name="HIPS_Perm_CallMonitor_Hint">%1$s App(s) mit Zugriff auf Anrufe und Telefon Lautstärke</string>
+    <string name="HIPS_Perm_CallMonitor_Hint">%1$s App(s) mit Zugriff auf Anrufe und Telefonie-Lautstärke</string>
     <string name="HIPS_Perm_Location">Lokalisierung</string>
     <string name="HIPS_Perm_Location_Desc">Lokalisiert Ihr Telefon über das Netzwerk oder GPS</string>
     <string name="HIPS_Perm_Location_Hint">%1$s App(s) mit Zugriff auf Ermittlung der Position</string>
     <string name="HIPS_Perm_PhoneID">Telefon-ID</string>
-    <string name="HIPS_Perm_PhoneID_Desc">Ermittelt Ihre Telefons ID, einschließlich IMEI, IMSI und Telefonnummer</string>
+    <string name="HIPS_Perm_PhoneID_Desc">Ermittelt Ihre Telefons ID (IMEI, IMSI und Telefonnummer)</string>
     <string name="HIPS_Perm_PhoneID_Hint">%1$s App(s) mit Zugriff auf Telefon-ID</string>
     <string name="HIPS_Perm_MobileNetwork">Internet Zugang über mobiles Netz</string>
-    <string name="HIPS_Perm_MobileNetwork_Desc">Greift aufs Internet über mobiles Netz zu</string>
+    <string name="HIPS_Perm_MobileNetwork_Desc">Zugriff aufs Internet über mobiles Netz</string>
     <string name="HIPS_Perm_MobileNetwork_Hint">%1$s App(s) mit Zugriff aufs mobile Internet</string>
     <string name="HIPS_Perm_WIFINetwork">Internet Zugang über WiFi</string>
-    <string name="HIPS_Perm_WIFINetwork_Desc">Greift aufs Internet über WiFi zu</string>
-    <string name="HIPS_Perm_WIFINetwork_Hint">%1$s App(s) mit Zugriff auf Internet über WIFI</string>
+    <string name="HIPS_Perm_WIFINetwork_Desc">Zugriff aufs Internet über WiFi</string>
+    <string name="HIPS_Perm_WIFINetwork_Hint">%1$s App(s) mit Zugriff aufs Internet über WIFI</string>
     <string name="HIPS_Perm_Network_UnknownAddr">Unbekannte Adresse</string>
     <string name="HIPS_Perm_Network_MobileEvent">2G/3G Nutzung</string>
     <string name="HIPS_Perm_Network_WIFIEvent">WiFi Nutzung</string>
@@ -46,26 +46,26 @@
     <string name="HIPS_Perm_Network_Recv">Empfangene Daten</string>
     <string name="HIPS_Perm_Network_Send">Gesendete Daten</string>
     <string name="HIPS_Perm_SMS">SMS lesen</string>
-    <string name="HIPS_Perm_SMS_Desc">Greift auf Ihren SMS Posteingang zu</string>
+    <string name="HIPS_Perm_SMS_Desc">Zugriff auf SMS Posteingang</string>
     <string name="HIPS_Perm_SMS_Hint">%1$s App(s) mit Zugriff auf SMS Posteingang</string>
     <string name="HIPS_Perm_Contact">Kontaktdaten</string>
-    <string name="HIPS_Perm_Contact_Desc">Greift auf Ihre Kontaktliste zu</string>
+    <string name="HIPS_Perm_Contact_Desc">Zugriff auf Kontaktliste</string>
     <string name="HIPS_Perm_Contact_Hint">%1$s App(s) mit Zugriff auf Kontaktliste</string>
     <string name="HIPS_Perm_CallLog">Anrufliste</string>
-    <string name="HIPS_Perm_CallLog_Desc">Greift auf Ihre Anruflisten zu</string>
-    <string name="HIPS_Perm_CallLog_Hint">%1$s App(s) mit Zugriff auf Anrufliste</string>
+    <string name="HIPS_Perm_CallLog_Desc">Zugriff auf  Anruflisten</string>
+    <string name="HIPS_Perm_CallLog_Hint">%1$s App(s) mit Zugriff auf Anruflisten</string>
     <string name="HIPS_Perm_ROOT">Root-Rechte</string>
-    <string name="HIPS_Perm_ROOT_Desc">Fragt nach höchstem System Administratorrecht (root)</string>
+    <string name="HIPS_Perm_ROOT_Desc">Fragt nach höchstem System Administratorrecht (ROOT)</string>
     <string name="HIPS_Perm_ROOT_Hint">%1$s App(s) mit Zugriff auf ROOT</string>
     <string name="HIPS_Perm_Settings">System Einstellungen</string>
-    <string name="HIPS_Perm_Settings_Desc">die System Einstellungen ändern</string>
+    <string name="HIPS_Perm_Settings_Desc">Zugriff auf System Einstellungen</string>
     <string name="HIPS_Perm_Settings_Hint">%1$s App(s) mit Zugriff auf System Einstellungen</string>
     <string name="HIPS_Perm_Recorder">Bilder und Videos aufnehmen</string>
-    <string name="HIPS_Perm_Recorder_Desc">Bilder und Videos aufnehmen</string>
+    <string name="HIPS_Perm_Recorder_Desc">Zugriff auf Aufnahme von Bildern und Videos</string>
     <string name="HIPS_Perm_Recorder_Hint">%1$s App(s) mit Zugriff auf die Kamera</string>
     <string name="HIPS_Perm_SendSMS_Recipient">Empfänger</string>
     <string name="HIPS_Perm_SendSMS_Content">Inhalt</string>
-    <string name="HIPS_Perm_SendSMS_SMSC">Nummer SMS Zentrale</string>
+    <string name="HIPS_Perm_SendSMS_SMSC">Nummer der SMS Zentrale</string>
     <string name="HIPS_Perm_SendSMS_SMSC_Default">Standard SMS Zentrale</string>
     <string name="HIPS_Perm_SendSMS_Port">Ziel Port</string>
     <string name="HIPS_Perm_SendSMS_Data">eine Nachricht an %1$s zu senden: %2$d</string>
@@ -77,8 +77,8 @@
     <string name="HIPS_Perm_Settings_Modify">Ändere die System Einstellungen</string>
     <string name="HIPS_Perm_Location_Source_Network">Datenquelle: WiFi</string>
     <string name="HIPS_Perm_Location_Source_GPS">Datenquelle: GPS</string>
-    <string name="HIPS_Perm_Location_Source_Cellular">Datenquelle: Basisstationen</string>
-    <string name="HIPS_Perm_Location_CellLocation">Funkzellen Basisstation abzufragen</string>
+    <string name="HIPS_Perm_Location_Source_Cellular">Datenquelle: Sendemast</string>
+    <string name="HIPS_Perm_Location_CellLocation">Sendemast Ort abzufragen</string>
     <string name="HIPS_Perm_Location_CellInfo">Funkzellen Informationen abzufragen</string>
     <string name="HIPS_Perm_Location_Monitor">Ihren Standort zu verfolgen</string>
     <string name="HIPS_Perm_Location_Access">Ihren Standort abzufragen</string>
@@ -87,9 +87,9 @@
     <string name="HIPS_Perm_PhoneID_ICCID">die SIM-Karten SN abzufragen</string>
     <string name="HIPS_Perm_PhoneID_Number">Ihre Telefonnummer abzufragen</string>
     <string name="HIPS_Perm_PhoneID_IMSI">die IMSI-Nummer abzufragen</string>
-    <string name="HIPS_Perm_AllowAll">Alle erlauben</string>
-    <string name="HIPS_Perm_PromptAll">Alle erfragen</string>
-    <string name="HIPS_Perm_RejectAll">Alle verweigern</string>
+    <string name="HIPS_Perm_AllowAll">alle erlauben</string>
+    <string name="HIPS_Perm_PromptAll">alle erfragen</string>
+    <string name="HIPS_Perm_RejectAll">alle ablehnen</string>
     <string name="HIPS_Perm_ROOT_Title">um root-Rechte zu erhalten</string>
     <string name="HIPS_Perm_ListenCallState">eingehende Anrufe zu überwachen</string>
     <string name="HIPS_Perm_GetCallState">den aktuellen Anruf-Status abzufragen</string>
@@ -101,7 +101,7 @@
     <string name="HIPS_Perm_AdjustRingerVolume">Rufton Lautstärke</string>
     <string name="HIPS_Perm_RecordAudio">Audio aufnehmen</string>
     <string name="HIPS_Perm_RecordVideo">Video aufnehmen</string>
-    <string name="HIPS_Perm_Picture">Bilder aufnehmen</string>
+    <string name="HIPS_Perm_Picture">Fotos aufnehmen</string>
     <string name="app_name">LBE Security Master</string>
     <string name="download_unknown_title">&lt;Untitled></string>
     <string name="notification_filename_separator">,</string>
@@ -109,16 +109,15 @@
     <string name="notification_download_complete">Download komplett</string>
     <string name="notification_download_failed">Download abgebrochen</string>
     <string name="notification_need_wifi_for_size">Download Größe benötigt Wi-Fi</string>
-    <string name="wifi_required_title">Download zu groß für Mobile Verbindung</string>
-    <string name="wifi_required_body">Sie müssen per WiFi verbunden sein um den Download zu beenden. Hier tippen zum Download wenn wieder mit WiFi verbunden</string>
+    <string name="wifi_required_title">Download zu groß für mobile Verbindung</string>
+    <string name="wifi_required_body">Sie müssen per WiFi verbunden sein um den Download zu beenden. Hier tippen zum laden wenn wieder mit WiFi verbunden</string>
     <string name="wifi_recommended_title">Für späteren Download auf Warteliste setzen?</string>
-    <string name="wifi_recommended_body" formatted="false">Der Download von %s würde den Akku stark belasten, und viel an Mobilen Daten verbrauchen. Tippe %s unten um den Download später in einem WiFi Netzwerk zu beginnen</string>
+    <string name="wifi_recommended_body" formatted="false">Der Download von %s würde den Akku stark belasten, und viel mobiles Datenvolumen verbrauchen. Tippe %s unten um den Download später in einem WiFi Netzwerk zu beginnen</string>
     <string name="button_queue_for_wifi">Warteliste</string>
     <string name="button_cancel_download">Abbrechen</string>
     <string name="button_start_now">Jetzt starten</string>
     <string name="more_options">Mehr</string>
-    <string name="copyright">"Copyright © 2012-2013 LBE Security Master 
-All Rights Reserved"</string>
+    <string name="copyright">"Copyright © 2012-2013 LBE Security Master All Rights Reserved"</string>
     <string name="share_desc">Ich schütze mein Android Telefon mit LBE Security Master. Download Link: http://www.lbesec.com</string>
     <string name="visit_website">Offizielle Seite besuchen</string>
     <string name="attention_sina_weibo">Folge uns</string>
@@ -135,13 +134,13 @@ All Rights Reserved"</string>
     <string name="miui_step_2">2. clicked the phone menu button, the pop-up menu, click on the \"settings\".</string>
     <string name="miui_step_1">1. Tippe \"SMS\" Icon um das SMS Hauptfenster zu öffnen</string>
     <string name="call_number">Nummer anrufen</string>
-    <string name="ok">Determine</string>
+    <string name="ok">Ok</string>
     <string name="cancel">Abbrechen</string>
-    <string name="completed">Vervollständigen</string>
+    <string name="completed">Vollständig</string>
     <string name="continuation">Weiter</string>
-    <string name="close">Aus</string>
+    <string name="close">Schließen</string>
     <string name="delete">Löschen</string>
-    <string name="uninstall">Uninstall</string>
+    <string name="uninstall">Deinstallieren</string>
     <string name="miui_sms_block_desc">MIUI System Standart Priorität für SMS Empfang, wenn die möchten das LBE Security Master Spam SMS blockiert, müssen Sie folgendes konfigurieren:</string>
     <string name="block_error_desc">Empfangsfehlerbeschreibung</string>
     <string name="call_phone_error">card or the network is not an exception, can not make calls!</string>
@@ -248,20 +247,12 @@ All Rights Reserved"</string>
     <string name="AV_ScanResult_Pending">Noch zu reinigen</string>
     <string name="AV_ScanResult_Skip">Überspringen</string>
     <string name="AV_ScanResult_Succeed">Erfolgreich bereinigt</string>
-    <string name="AV_NoVirus">"Ihr Telefon ist sicher. 
-Denken Sie daran es öfters zu untersuchen"</string>
+    <string name="AV_NoVirus">"Ihr Telefon ist sicher. Denken Sie daran es öfters zu untersuchen"</string>
     <string name="AV_ScanNewApp">Scanne \"%1$s\"</string>
     <string name="AV_ScanNewApp_Virus">Bedrohungen in \"%1$s\" erkannt, löschen Sie es bitte sofort!</string>
-    <string name="AV_Prompt">"In \"%1$s\" wurde gefährliches gefunden
-
-
-
-%2$s
-Bitte sofort löschen!"</string>
-    <string name="AV_PromptMid">"In \"%1$s\" wurden Bedrohungen gefunden,
-%2$s
-Löschen?"</string>
-    <string name="AV_StoragePath">Ort:</string>
+    <string name="AV_Prompt">"In \"%1$s\" wurde gefährliches gefunden %2$sBitte sofort löschen!"</string>
+    <string name="AV_PromptMid">"In \"%1$s\" wurden Bedrohungen gefunden, %2$s Löschen?"</string>
+    <string name="AV_StoragePath">Speicherort:</string>
     <string name="AV_VirusDetail1">Details</string>
     <string name="AV_VirusDetail2">Schaden</string>
     <string name="AV_ToolStoragePath">[Ort des Risiko-Tools]</string>
@@ -405,8 +396,8 @@ Löschen?"</string>
     <string name="Battery_NightMode_Effective_Date">Editor</string>
     <string name="Battery_NightMode_Start_Date">Start-up-Zeit</string>
     <string name="Battery_NightMode_Delay_Event">Verzögerung Veranstaltungen</string>
-    <string name="Battery_NightMode_Start">Starten Betrieb</string>
-    <string name="Battery_NightMode_Stop">Das Ende des Vorgangs</string>
+    <string name="Battery_NightMode_Start">Beginn Nachtmodus</string>
+    <string name="Battery_NightMode_Stop">Ende Nachtmodus</string>
     <string name="Battery_HardwareConsumption">Hardware Verbrauch</string>
     <string name="Battery_HardwareConsumption_None">Keine Daten zum Hardware Energieverbrauch</string>
     <string name="Battery_SoftwareConsumption">Software Energieverbrauch</string>
@@ -448,9 +439,7 @@ Löschen?"</string>
     <string name="Battery_Shortcut_VolumeRing_M">Verhalten bei Niedrigem Akkustand</string>
     <string name="Battery_Shortcut_VolumeSystem">Wiederholen</string>
     <string name="Battery_Shortcut_VolumeSystem_M">Eingabe</string>
-    <string name="Battery_Shortcut_VolumeVoice">"Klicken Sie auf intelligentes Energiesparen. 
-dann Beenden bei Bildschirm aus. 
-Langsamerer CPU-Takt bei Bildschirm aus kann eingestellt werden"</string>
+    <string name="Battery_Shortcut_VolumeVoice">"Klicken Sie auf intelligentes Energiesparen. dann Beenden bei Bildschirm aus. Langsamerer CPU-Takt bei Bildschirm aus kann eingestellt werden"</string>
     <string name="Battery_Shortcut_VolumeVoice_M">Top Typ</string>
     <string name="Battery_Shortcut_Vibration">LBE Quick Toggles</string>
     <string name="Battery_Shortcut_Rotation">Wichtigste Benachrichtigungen</string>
@@ -2151,12 +2140,12 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="yellow_data_supported">data from the</string>
     <string name="yellow_data_supported_by">provide</string>
 
-    <string name="HIPS_Perm_VideoRecorder">Pictures and Video</string>
-    <string name="HIPS_Perm_VideoRecorder_Desc">May take Pictures and Video</string>
-    <string name="HIPS_Perm_VideoRecorder_Hint">%1$s may take Pictures and record Video</string>
-    <string name="HIPS_Perm_Recorder_AudioVideo">Record Audio and Video</string>
-    <string name="HIPS_Perm_Recorder_Video">Record Videoo</string>
-    <string name="HIPS_Perm_Recorder_Audio">Record Audio</string>
+    <string name="HIPS_Perm_VideoRecorder">Fotos und Video</string>
+    <string name="HIPS_Perm_VideoRecorder_Desc">Zugriff auf Aufnahme von Fotos und Video</string>
+    <string name="HIPS_Perm_VideoRecorder_Hint">%1$s App(s) mit Zugriff auf die Kamera</string>
+    <string name="HIPS_Perm_Recorder_AudioVideo">Ron und Video aufnahmen</string>
+    <string name="HIPS_Perm_Recorder_Video">Video aufnehmen</string>
+    <string name="HIPS_Perm_Recorder_Audio">Ton aufnehmen</string>
     
     <string name="private_netword_not_connected">Download the updated privacy space to use this feature </string>
     <string name="phone_restore_fail_message">Confirm whether there are other applications, blocking SMS or SMS records!</string>
