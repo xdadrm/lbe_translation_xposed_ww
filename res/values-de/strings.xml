@@ -158,8 +158,8 @@ All Rights Reserved"</string>
     <string name="call">Wählen</string>
     <string name="settings">Set up</string>
     <string name="ad_scan_num">%1$d / %2$d</string>
-    <string name="notification_contain_adware">Mit Werbung</string>
-    <string name="notification_need_config_perm">Sie müssen die Berechtigungen konfigurieren</string>
+    <string name="notification_contain_adware">Werbung enthalten</string>
+    <string name="notification_need_config_perm">App Rechte können konfiguriert werden</string>
     <string name="special_thanks">Besonderer Dank geht an: und anderen Nutzern, Übersetzung ins Deutsche von VuHien, Korrektur von Xda_drm</string>
     <string name="thanks_tips">Vielen Dank für diesen schönen User Help LBE Fortschritt ^ _ ^</string>
     <string name="AD_Adware_Number_Contain">%1$d Adware(s) enthalten</string>
@@ -1526,11 +1526,11 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="HIPS_ADB_DESC">Kontrolle über App Installationen.</string>
     <string name="HIPS_ADB_Install_Title">Install the software via USB</string>
     <string name="HIPS_ADB_Install_Content">&lt;font color=#17A4F5>%1$s&lt;/font> is trying to automatically install &lt;font color=#17A4F5>%2$s&lt;/font> to your phone. If this is your own behavior, it is recommended to allow this, or you can choose to reject.</string>
-    <string name="HIPS_Detected_PC_Install_APK_To_Phone">Detected APK Installation</string>
-    <string name="HIPS_USB_Install_Remind">Automatically installed Software alert</string>
+    <string name="HIPS_Detected_PC_Install_APK_To_Phone">App Installation festgestellt</string>
+    <string name="HIPS_USB_Install_Remind">Hinweis über insallierte App</string>
     <string name="HIPS_USB_Install_Detail_Both">%1$d already installed, refused to install %2$d, click here for details</string>
-    <string name="HIPS_USB_Install_Detail_Install">%1$d already installed, click here for details</string>
-    <string name="HIPS_USB_Install_Detail_Rejected">Refuse to install %1$d, click here for details</string>
+    <string name="HIPS_USB_Install_Detail_Install">%1$d App aktualisiert...</string>
+    <string name="HIPS_USB_Install_Detail_Rejected">%1$d App an Installation gehindert...</string>
     <string name="HIPS_Manual_Start_Hips_Hint">Please manually open the active defense</string>
     <string name="private_phones">Private Kommunikation</string>
     <string name="private_phones_backup">Privacy contacts, text messages and call records</string>
@@ -1894,7 +1894,7 @@ Zuletzt geändert:
     <string name="SoftMgr_USB_Blacklist_Desc">Description: Add to blacklist after the software will no longer be allowed to install this on the phone.</string>
     <string name="SoftMgr_No_USB_Install_Log">No automatic installation log</string>
     <string name="SoftMgr_Clear_Log">Empty log</string>
-    <string name="SoftMgr_Install_Manage_Log">Automatic software installation log</string>
+    <string name="SoftMgr_Install_Manage_Log">Protokoll über neu installierte Apps</string>
     <string name="SoftMgr_USB_Install_Blacklist">einzelne Apps blockieren</string>
     <string name="SoftMgr_USB_Install_Manage_Mode_Choice">Automatically install software management mode selection</string>
     <string name="SoftMgr_Current_Mode">Installation Management:</string>
@@ -1902,13 +1902,13 @@ Zuletzt geändert:
     <string name="SoftMgr_Add_Blacklist_Numberic">Blacklist (%1$d)</string>
     <string name="SoftMgr_Remove_Blacklist">entfernen</string>
     <string name="SoftMgr_Remove_Blacklist_Numberic">Remove blacklist(%1$d)</string>
-    <string name="SoftMgr_Add_Blacklist_Desc">Added to the blacklist, it will uninstall the software, and no longer allow this software installed on the phone.</string>
+    <string name="SoftMgr_Add_Blacklist_Desc">Ein Hinzufügen zur schwarzen Liste deinstalliert die App und wird eine Neuinstallation blockieren.</string>
     <string name="SoftMgr_Add_Blacklist_Desc_Second">Apps auf der Blacklist werden automatisch bei der Installation blockiert.</string>
     <string name="SoftMgr_Apps_Auto_Install_Manage">App Installations Überwachung</string>
     <string name="SoftMgr_PC_Client_From">Installed from PC</string>
     <string name="SoftMgr_PC_Client">PC-side tools</string>
     <string name="SoftMgr_Unknown">Unknown</string>
-    <string name="SoftMgr_From">By the %1$s installation</string>
+    <string name="SoftMgr_From">Durch %1$s installirt</string>
     <string name="SoftMgr_Confirm_Install_This_App">Confirm installation&lt;font color=#17A4F5>%1$s&lt;/font>?</string>
     <string name="SoftMgr_Already_On">aktiviert</string>
     <string name="SoftMgr_Already_Off">deaktiviert</string>
