@@ -1752,7 +1752,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="SoftMgr_App_OptDesc1">%1$d Rechte, &lt;font color=\"#17A4F5\"> %2$d &lt;/ font> evtl. nicht benötigt, &lt;font color=\"#17A4F5\"> %3$d &lt;/ font> evtl. benötigt</string>
     <string name="SoftMgr_App_OptDesc2">%1$d Rechte, &lt;font color=\"#17A4F5\"> %2$d &lt;/ font> evtl. nicht benötigt</string>
     <string name="SoftMgr_App_OptDesc3">%1$d Rechte, &lt;font color=\"#17A4F5\"> %2$d &lt;/ font> evtl. benötigt</string>
-    <string name="SoftMgr_App_OptedDesc">%1$d Rechte, &lt;font color=\"#17A4F5\"> %2$d &lt;/ font> Rechte optimiert</string>
+    <string name="SoftMgr_App_OptedDesc">%1$d Rechte, &lt;font color=\"#17A4F5\"> %2$d &lt;/ font> sind optimal</string>
     <string name="SoftMgr_Order">Sortieren</string>
     <string name="SoftMgr_NewApp">Nicht konfigurierte App</string>
     <string name="SoftMgr_Signature_Error">%1$s (Signatur Fehler)</string>
