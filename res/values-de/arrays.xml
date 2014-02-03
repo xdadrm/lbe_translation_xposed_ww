@@ -372,7 +372,7 @@ Fernsteuerung"</item>
     <string-array name="misscalltype">
         <item>Klingeltöne und Vibration</item>
         <item>Klingel</item>
-        <item>Herz</item>
+        <item>Vibration</item>
     </string-array>
     <string-array name="misscalltype_value">
         <item>0</item>
@@ -518,8 +518,8 @@ Fernsteuerung"</item>
         <item>Nach Zeit sortieren</item>
     </string-array>
     <string-array name="hipsapk_types">
-        <item>Überwachte App</item>
-        <item>Inspektions App</item>
+        <item>überwachte App(s)</item>
+        <item>nicht überwachte App(s)</item>
     </string-array>
     <string-array name="scan_item_type">
         <item>Automatische Eintrag</item>
