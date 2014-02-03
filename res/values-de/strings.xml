@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="HIPS_Action_Accept">zulasen</string>
+    <string name="HIPS_Action_Accept">zulassen</string>
     <string name="HIPS_Action_Prompt">nachfragen</string>
     <string name="HIPS_Action_Reject">verweigern</string>
     <string name="HIPS_Action_Accept_Colored">&lt;font color=#478800> zulassen &lt;/font></string>
@@ -734,16 +734,16 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Generic_Exception">Deaktiviert</string>
     <string name="Generic_Setting">Einrichten</string>
     <string name="Generic_Finish_Setting">Beenden Sie die Einstellung</string>
-    <string name="Generic_Time_Today">heute</string>
-    <string name="zGeneric_Time_Yeserday">gestern</string>
-    <string name="zGeneric_Time_Before_Yesterday">vorgestern</string>
-    <string name="zGeneric_Time_Tomorrow">morgen</string>
-    <string name="zGeneric_Time_After_Tomorrow">übermorgen</string>
-    <string name="zGeneric_Time_Before_Dawn">morgens</string>
-    <string name="zGeneric_Time_AM">morgen</string>
-    <string name="zGeneric_Time_Noon">mittag</string>
-    <string name="zGeneric_Time_PM">nachmittag</string>
-    <string name="zGeneric_Time_Night">nachts</string>
+    <string name="Generic_Time_Today">ʜеυτе</string>
+    <string name="zGeneric_Time_Yeserday">Ԍеѕτеʀɴ</string>
+    <string name="zGeneric_Time_Before_Yesterday">Ѵοʀɡеѕτеʀɴ</string>
+    <string name="zGeneric_Time_Tomorrow">Μοʀɡеɴ</string>
+    <string name="zGeneric_Time_After_Tomorrow">ՍеЬеʀΜοʀɡеɴ</string>
+    <string name="zGeneric_Time_Before_Dawn">Fʀυеһⅿοʀɡеɴѕ</string>
+    <string name="zGeneric_Time_AM">Μοʀɡеɴ</string>
+    <string name="zGeneric_Time_Noon">Νοoɴ</string>
+    <string name="zGeneric_Time_PM">Nаϲһⅿіττаɡ</string>
+    <string name="zGeneric_Time_Night">Nаϲʜτѕ</string>
     <string name="Generic_Date_Formatter">MM-dd-yy HH:mm</string>
     <string name="Generic_Time_Formatter">HH:mm</string>
     <string name="Generic_Time_Day">Tag</string>

@@ -1741,10 +1741,10 @@
     <string name="SoftMgr_SdApk_DaysAgo">Last SD card installation package management is &lt;font color=#17A4F5>%1$d days&lt;/font> ago</string>
     <string name="SoftMgr_SdApk_Today">&lt;font color=#17A4F5>Today&lt;/font> has collated SD card installed package</string>
     <string name="SoftMgr_Can_Opt">&lt;font color=#17A4F5 recommend optimization >&lt;/font></string>
-    <string name="SoftMgr_App_OptDesc1">%1$d key permissions, &lt;font color=#17A4F5>%2$d &lt;/font> item shuts down, &lt;font color=#17A4F5%3$d &lt;/font> proposal to open</string>
-    <string name="SoftMgr_App_OptDesc2">%1$d key permissions, &lt;font color=#17A4F5>%2$d &lt;/font> item shuts down</string>
-    <string name="SoftMgr_App_OptDesc3">%1$d key permissions, &lt;font color=#17A4F5>%2$d &lt;/font> proposal to open</string>
-    <string name="SoftMgr_App_OptedDesc">%1$d key permissions, &lt;font color=#17A4F5>%2$d &lt;/font> items have been optimized</string>
+    <string name="SoftMgr_App_OptDesc1">%1$d permissions, &lt;font color=#17A4F5>%2$d&lt;/font> blocked, &lt;font color=#17A4F5%3$d &lt;/font> recommended to allow</string>
+    <string name="SoftMgr_App_OptDesc2">%1$d permissions, &lt;font color=#17A4F5>%2$d&lt;/font> recommended to block</string>
+    <string name="SoftMgr_App_OptDesc3">%1$d permissions, &lt;font color=#17A4F5>%2$d&lt;/font> recommended to allow</string>
+    <string name="SoftMgr_App_OptedDesc">%1$d permissions, &lt;font color=#17A4F5>%2$d&lt;/font> items have been customized</string>
     <string name="SoftMgr_Order">Select Sort by</string>
     <string name="SoftMgr_NewApp">Configurable Software</string>
     <string name="SoftMgr_Signature_Error">%1$s ( Certified exception )</string>
@@ -1779,9 +1779,9 @@
     <string name="SoftMgr_Uninstall_UsrFail">Uninstall Failed</string>
     <string name="SoftMgr_AppPermission">Software Permission manager</string>
     <string name="SoftMgr_AppPermission2">Scanning software Permissions</string>
-    <string name="SoftMgr_AppPermission_opted">Has been optimized (%1$s)</string>
-    <string name="SoftMgr_AppPermission_Suggest_Reject">Proposed to prohibit</string>
-    <string name="SoftMgr_AppPermission_Suggest_Accept">Recommended to allow</string>
+    <string name="SoftMgr_AppPermission_opted">Already optimized (%1$s)</string>
+    <string name="SoftMgr_AppPermission_Suggest_Reject">Recommended to Disallow</string>
+    <string name="SoftMgr_AppPermission_Suggest_Accept">Recommended to Allow</string>
     <string name="SoftMgr_AppPermission_Suggest_Others">Need to check</string>
     <string name="SoftMgr_NoApp">The software does not meet the conditions</string>
     <string name="SoftMgr_App2SD">Moving Software</string>
@@ -1855,7 +1855,7 @@
     <string name="SoftMgr_OneKey_Optimize">OneClick optimization</string>
     <string name="SoftMgr_All_Apks">All Software</string>
     <string name="SoftMgr_Recommend_Opt">Recommended Optimization</string>
-    <string name="SoftMgr_Opted">Has been optimized</string>
+    <string name="SoftMgr_Opted">Already optimized</string>
     <string name="SoftMgr_CanOpt_Count">%1$d apps</string>
     <string name="SoftMgr_Opted_Count">%1$d models have been optimized</string>
     <string name="SoftMgr_Already_Reject_Install">Has refused to install</string>
