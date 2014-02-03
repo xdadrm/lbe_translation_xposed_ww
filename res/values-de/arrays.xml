@@ -308,13 +308,13 @@ Fernsteuerung"</item>
         <item>7</item>
     </string-array>
     <string-array name="hips_batch_operation">
-        <item>Alle erlauben</item>
-        <item>Alle nachfragen</item>
-        <item>Alle ablehnen</item>
+        <item>alle zulassen</item>
+        <item>alle nachfragen</item>
+        <item>alle verweigern</item>
     </string-array>
     <string-array name="hips_batch_operation_ar">
-        <item>Alle erlauben</item>
-        <item>Alle ablehnen</item>
+        <item>alle zulassen</item>
+        <item>alle verweigern</item>
     </string-array>
     <string-array name="defaultfilesuffix">
         <item>epub</item>
@@ -616,7 +616,7 @@ Fernsteuerung"</item>
         <item>Material</item>
     </string-array>
     <string-array name="app_install_manage_mode_title">
-        <item>App Installation erlauben</item>
+        <item>App Installation zulassen</item>
         <item>Vor der App Installation nachfragen</item>
         <item>App Installationen blockieren</item>
     </string-array>
