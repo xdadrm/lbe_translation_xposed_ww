@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="HIPS_Action_Accept">Erlauben</string>
-    <string name="HIPS_Action_Prompt">Erfragen</string>
-    <string name="HIPS_Action_Reject">Ablehnen</string>
-    <string name="HIPS_Action_Accept_Colored">&lt;font color=#478800> Erlauben &lt;/font></string>
-    <string name="HIPS_Action_Prompt_Colored">&lt;font color=#FF8A00> Erfragen &lt;/font></string>
-    <string name="HIPS_Action_Reject_Colored">&lt;font color=#DF0000> Ablehnen &lt;/font></string>
+    <string name="HIPS_Action_Accept">zulasen</string>
+    <string name="HIPS_Action_Prompt">nachfragen</string>
+    <string name="HIPS_Action_Reject">verweigern</string>
+    <string name="HIPS_Action_Accept_Colored">&lt;font color=#478800> zulassen &lt;/font></string>
+    <string name="HIPS_Action_Prompt_Colored">&lt;font color=#FF8A00> nachfragen &lt;/font></string>
+    <string name="HIPS_Action_Reject_Colored">&lt;font color=#DF0000> verweigern &lt;/font></string>
     <string name="HIPS_Group_Expense">Sicherheit</string>
     <string name="HIPS_Group_PIM">Persönliche Informationen</string>
     <string name="HIPS_Group_Location">Lokalisierung</string>
@@ -87,9 +87,9 @@
     <string name="HIPS_Perm_PhoneID_ICCID">die SIM-Karten SN abzufragen</string>
     <string name="HIPS_Perm_PhoneID_Number">Ihre Telefonnummer abzufragen</string>
     <string name="HIPS_Perm_PhoneID_IMSI">die IMSI-Nummer abzufragen</string>
-    <string name="HIPS_Perm_AllowAll">alle erlauben</string>
-    <string name="HIPS_Perm_PromptAll">alle erfragen</string>
-    <string name="HIPS_Perm_RejectAll">alle ablehnen</string>
+    <string name="HIPS_Perm_AllowAll">alle zulassen</string>
+    <string name="HIPS_Perm_PromptAll">alle nachfragen</string>
+    <string name="HIPS_Perm_RejectAll">alle verweigern</string>
     <string name="HIPS_Perm_ROOT_Title">um root-Rechte zu erhalten</string>
     <string name="HIPS_Perm_ListenCallState">eingehende Anrufe zu überwachen</string>
     <string name="HIPS_Perm_GetCallState">den aktuellen Anruf-Status abzufragen</string>
@@ -698,9 +698,9 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Generic_Edit">Andern</string>
     <string name="Generic_Adjust">Anpassung</string>
     <string name="Generic_Auto">Automatische</string>
-    <string name="Generic_Accept">Erlauben</string>
-    <string name="Generic_Prompt">Erfragen</string>
-    <string name="Generic_Reject">Ablehnen</string>
+    <string name="Generic_Accept">zulassen</string>
+    <string name="Generic_Prompt">nachfragen</string>
+    <string name="Generic_Reject">verweigern</string>
     <string name="Generic_Check">Prüfen</string>
     <string name="Generic_Remove">Entfernen</string>
     <string name="Generic_Clean">Aufräumen</string>
