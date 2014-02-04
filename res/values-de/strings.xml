@@ -1516,7 +1516,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="HIPS_ADB_Install_Title">Install the software via USB</string>
     <string name="HIPS_ADB_Install_Content">&lt;font color=#17A4F5>%1$s&lt;/font> is trying to automatically install &lt;font color=#17A4F5>%2$s&lt;/font> to your phone. If this is your own behavior, it is recommended to allow this, or you can choose to reject.</string>
     <string name="HIPS_Detected_PC_Install_APK_To_Phone">App Installation festgestellt</string>
-    <string name="HIPS_USB_Install_Remind">Hinweis über insallierte App</string>
+    <string name="HIPS_USB_Install_Remind">neu installierte App(s)</string>
     <string name="HIPS_USB_Install_Detail_Both">%1$d already installed, refused to install %2$d, click here for details</string>
     <string name="HIPS_USB_Install_Detail_Install">%1$d App aktualisiert...</string>
     <string name="HIPS_USB_Install_Detail_Rejected">%1$d App an Installation gehindert...</string>
