@@ -962,7 +962,7 @@ Mit dem Absenden einer Betreiber Abfrage per SMS, kalibriert die App automatisch
     <string name="Traffic_Monitor_Plan_Hint">Datenverbrauch</string>
     <string name="Traffic_Monitor_Today_Hint">Heute</string>
     <string name="Traffic_Monitor_Dataplan_Amount">Gesamt:</string>
-    <string name="Traffic_Net_App">Apps mit Internet Zugriff mobil/WLan<</string>
+    <string name="Traffic_Net_App">Apps mit Internet Zugriff mobil/WLan</string>
     <string name="Traffic_Rank_Month">Monat</string>
     <string name="Traffic_Rank_Today">Heute</string>
     <string name="Traffic_rank_Realtime">Echtzeit</string>
