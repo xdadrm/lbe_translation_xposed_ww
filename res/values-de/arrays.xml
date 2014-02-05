@@ -200,8 +200,8 @@
         <item>2</item>
     </string-array>
     <string-array name="flowwindow_style">
-        <item>Standard</item>
-        <item>Frisch</item>
+        <item>dunkler Hintergrund</item>
+        <item>heller Hintergrund</item>
     </string-array>
     <string-array name="flowwindow_style_values">
         <item>0</item>
@@ -270,8 +270,8 @@ Fernsteuerung"</item>
         <item>default | unbekannten Bedrohungen</item>
     </string-array>
     <string-array name="traffic_cell_type">
-        <item>Sortieren nach Traffic in diesem Monat</item>
-        <item>Sortieren nach Traffic heute</item>
+        <item>Sortieren nach Verbrauch in diesem Monat</item>
+        <item>Sortieren nach Verbrauch heute</item>
         <item>Sortieren nach App Name</item>
     </string-array>
     <string-array name="calibration_period">
@@ -558,15 +558,15 @@ Fernsteuerung"</item>
         <item>\#80db2c1b</item>
     </string-array>
     <string-array name="hardware_basic_info">
-        <item>1 Marke</item>
+        <item>1 Hersteller</item>
         <item>2 Model</item>
         <item>3 Android Version</item>
-        <item>4 Haupt Kamera</item>
-        <item>5 Front Kamera</item>
+        <item>4 Auflösung Hauptkamera</item>
+        <item>5 Auflösung Frontkamera</item>
         <item>6 IMEI</item>
         <item>7 RAM</item>
-        <item>8 CPU</item>
-        <item>9 SD Speicher</item>
+        <item>8 interner Speicher</item>
+        <item>9 externer Speicher</item>
         <item>10 Gewicht</item>
     </string-array>
     <string-array name="hardware_cpu_info">
@@ -575,20 +575,20 @@ Fernsteuerung"</item>
         <item>3 Taktfrequenz</item>
     </string-array>
     <string-array name="hardware_screen_info">
-        <item>1 GPU Renderer</item>
-        <item>2 GPU Hersteller</item>
-        <item>3 GPU Version</item>
+        <item>1 Grafik Chip</item>
+        <item>2 Grafik Chip Hersteller</item>
+        <item>3 Grafik Chip Version</item>
         <item>4 Auflösung</item>
         <item>5 Bildschirm Größe</item>
-        <item>6 Material</item>
+        <item>6 Panel Bauart</item>
         <item>7 Pixel Dichte</item>
-        <item>8 Multi-touch</item>
+        <item>8 Multi-Touch</item>
     </string-array>
     <string-array name="hardware_network_info">
-        <item>1 Standard network</item>
-        <item>2 WIFI Information</item>
-        <item>3 GPS Information </item>
-        <item>4 Bluetooth Information</item>
+        <item>1 Mobilfunknetze</item>
+        <item>2 WIFI</item>
+        <item>3 GPS</item>
+        <item>4 Bluetooth Version</item>
     </string-array>
     <string-array name="hardware_sensor_name">
         <item>Beschleunigungs Sensor</item>
@@ -606,8 +606,8 @@ Fernsteuerung"</item>
         <item>Temperatur Sensor</item>
     </string-array>
     <string-array name="hardware_rank">
-        <item>Model ranking</item>
-        <item>Models percentage</item>
+        <item>Ranglistenplatz</item>
+        <item>prozentual</item>
     </string-array>
     <string-array name="hardware_antutu_keys">
         <item>Haupt Kamera</item>
