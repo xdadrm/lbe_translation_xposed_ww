@@ -670,8 +670,8 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Generic_Operating">Ausführen ...</string>
     <string name="Generic_InvalidInput">Input-Parameter ist falsch</string>
     <string name="Generic_Version">Version %1$s</string>
-    <string name="Generic_SystemApp">System App</string>
-    <string name="Generic_UserApp">Ihre Apps</string>
+    <string name="Generic_SystemApp">System Apps</string>
+    <string name="Generic_UserApp">Benutzer Apps</string>
     <string name="Generic_Copyright">by Team LBE</string>
     <string name="Generic_Beta">Alpha-Version, nicht verteilen</string>
     <string name="Generic_Beta_NotFound_Device">Sorry, Ihr Gerät nicht im Rahmen der Closed Beta, nutzen Sie bitte die offizielle Version</string>
@@ -746,16 +746,16 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="zGeneric_Time_Night">Nаϲʜτѕ</string>
     <string name="Generic_Date_Formatter">MM-dd-yy HH:mm</string>
     <string name="Generic_Time_Formatter">HH:mm</string>
-    <string name="Generic_Time_Day">Tag</string>
-    <string name="Generic_Time_Hour">Stunde</string>
-    <string name="Generic_Time_Minute">Minute</string>
-    <string name="Generic_Time_Second">Sekunde</string>
+    <string name="Generic_Time_Day">Tag(e)</string>
+    <string name="Generic_Time_Hour">Stunde(n)</string>
+    <string name="Generic_Time_Minute">Minute(n)</string>
+    <string name="Generic_Time_Second">Sekunde(n)</string>
     <string name="Generic_Time_Zero">Null</string>
-    <string name="Generic_Time_Never">Nie</string>
-    <string name="Generic_Time_Small">Recently</string>
-    <string name="Generic_Success">Success</string>
-    <string name="Generic_Failure">Ausfall</string>
-    <string name="Generic_Delete_Affirm">Confirm Delete?</string>
+    <string name="Generic_Time_Never">nie</string>
+    <string name="Generic_Time_Small">vor kurzem</string>
+    <string name="Generic_Success">Erfolg</string>
+    <string name="Generic_Failure">Fehlgschlagen</string>
+    <string name="Generic_Delete_Affirm">Wirklich löschen?</string>
     <string name="Home_Lbe_Remind">LBE Erinnerung: beta ist nicht die offizielle Version, mit Vorsicht zu verwenden. Wenn Sie unbequem Betrieb und fühlen funktionelle Probleme auftreten, wenden Sie sich bitte LBE Gruppe können Q-Gruppe offiziellen Microblogging LBE Forum sein. Vielen Dank für Ihre Teilnahme.</string>
     <string name="Home_Phone_Type">Blocking-Modi</string>
     <string name="Home_Phone_BlockedSms">%1$d neue blockierte SMS</string>
@@ -840,7 +840,7 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Home_Battery_Optimize">Akku</string>
     <string name="Home_Software_Manager">Apps und Rechteverwaltung</string>
     <string name="Home_Disturb_Block">Anrufschutz</string>
-    <string name="Home_Traffic_Monitor">Datenzähler</string>
+    <string name="Home_Traffic_Monitor">Datenverbrauch</string>
     <string name="Home_Ad_Block">Werbung</string>
     <string name="Home_Virus_Kill">Anti-Virus</string>
     <string name="Home_Defense">Active Defense</string>
@@ -898,11 +898,11 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Keyguard_Setting_QA">Stellen Sie die Fragen der Sicherheit, die verhindern Passwort vergessen wird</string>
     <string name="Keyguard_Crack_Setting_Default">Fünf Mal die Eingabe Fehler, deaktivieren Eingabe innerhalb 50 Sekunden</string>
     <string name="Keyguard_Question_Defualt">Mein bester Freund</string>
-    <string name="Traffic">Traffic</string>
-    <string name="Traffic_Setting">Traffic Monitor Einstellungen</string>
-    <string name="Traffic_Statistics">Traffic Statistik</string>
+    <string name="Traffic">Datenverbrauch</string>
+    <string name="Traffic_Setting">Datenverbrauch Überwachungs Einstellungen</string>
+    <string name="Traffic_Statistics">Datenverbrauch</string>
     <string name="Traffic_Permission">Berechtigungen</string>
-    <string name="Traffic_Ranks">Traffic Rank</string>
+    <string name="Traffic_Ranks">Rangliste Apps</string>
     <string name="Traffic_Mobile">Mobile Daten</string>
     <string name="Traffic_Mobile_Rank">Mobile Daten Traffic-Ranking</string>
     <string name="Traffic_Mobile_Rank_Empty">Aktuell keine Traffic-Ranking Daten</string>
@@ -932,7 +932,7 @@ Mit dem Absenden einer Betreiber Abfrage per SMS, kalibriert die App automatisch
     <string name="Traffic_Monitor_Discount">Traffic >50% Auszeit</string>
     <string name="Traffic_Monitor_Discount_Start">Startzeit</string>
     <string name="Traffic_Monitor_Discount_End">Endzeit</string>
-    <string name="Traffic_Monitor_DataPlan_NotSet">Daten-Plan ist nicht festgelegt</string>
+    <string name="Traffic_Monitor_DataPlan_NotSet">Datenverbrauchs Limit nicht festgelegt</string>
     <string name="Traffic_Monitor_DataPlan_Unlimited">Nicht festgelegt</string>
     <string name="Traffic_Monitor_Operator_Location">Ihr Standort (nur China)</string>
     <string name="Traffic_Monitor_Operator_Province">Ihre Provinz</string>
@@ -959,10 +959,10 @@ Mit dem Absenden einer Betreiber Abfrage per SMS, kalibriert die App automatisch
     <string name="Traffic_Retrieving">Rufe ab</string>
     <string name="Traffic_NotConnected">Nicht verbunden</string>
     <string name="Traffic_Monitor_Usage_Hint">Monat</string>
-    <string name="Traffic_Monitor_Plan_Hint">Traffic</string>
+    <string name="Traffic_Monitor_Plan_Hint">Datenverbrauch</string>
     <string name="Traffic_Monitor_Today_Hint">Heute</string>
-    <string name="Traffic_Monitor_Dataplan_Amount">Total:</string>
-    <string name="Traffic_Net_App">Netzwerk Software</string>
+    <string name="Traffic_Monitor_Dataplan_Amount">Gesamt:</string>
+    <string name="Traffic_Net_App">Apps mit Internet Zugriff mobil/WLan<</string>
     <string name="Traffic_Rank_Month">Monat</string>
     <string name="Traffic_Rank_Today">Heute</string>
     <string name="Traffic_rank_Realtime">Echtzeit</string>
@@ -1399,18 +1399,18 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="Pref_Traffic_Adjust_PhoneQuery">Anruf Abfrage</string>
     <string name="Pref_Traffic_Adjust_PhoneQuery_Number">Telefonnummer</string>
     <string name="Pref_Traffic_Adjust_Query">Anfrage</string>
-    <string name="Pref_Traffic_FloatWindow">Zeige Traffic-Anzeige</string>
-    <string name="Pref_Traffic_FloatWindow_Style">Traffic-Anzeige Stil</string>
-    <string name="Pref_Traffic_FloatWindow_Fixed">Traffic-Anzeige fixieren</string>
-    <string name="Pref_Traffic_FloatWindow_On_Statusbar">Traffic Anzeige in Statusleiste</string>
-    <string name="Pref_Traffic_FloatWindow_NoFocus">Traffic-Anzeige kann nicht gestartet werden, wenn sie gesperrt ist</string>
-    <string name="Pref_Traffic_FloatWindow_Refresh">Traffic-Anzeige Auffrisch-Rate</string>
-    <string name="Pref_Traffic_FloatWindow_Refresh_Summary">Eine höhere Auffrisch-Rate verbessert die Genauigkeit, führt aber zu mehr Akkuverbrauch</string>
+    <string name="Pref_Traffic_FloatWindow">Zeige Datenverbauch und Up-/Download in Statusleiste</string>
+    <string name="Pref_Traffic_FloatWindow_Style">Daten-Anzeige Stil</string>
+    <string name="Pref_Traffic_FloatWindow_Fixed">Daten-Anzeige fixieren</string>
+    <string name="Pref_Traffic_FloatWindow_On_Statusbar">Anzeige in die Statusleiste erlauben</string>
+    <string name="Pref_Traffic_FloatWindow_NoFocus">Daten-Anzeige kann nicht gestartet werden, wenn sie gesperrt ist</string>
+    <string name="Pref_Traffic_FloatWindow_Refresh">Daten-Anzeige Aktualisierungs-Rate</string>
+    <string name="Pref_Traffic_FloatWindow_Refresh_Summary">Eine höhere Aktualisierungs-Rate verbessert die Genauigkeit, führt aber zu mehr Akkuverbrauch</string>
     <string name="Pref_Traffic_FloatWindow_AutoDim">Autom. verstecken der Traffic-Anzeige</string>
-    <string name="Pref_Traffic_FloatWindow_AutoDim_Summary">Automatisch die Traffic-Anzeige verbergen, wenn nicht zuviel Traffic in einem Zeitrau angefallen</string>
-    <string name="Pref_Traffic_DataPlan">Daten Plan erstellen</string>
-    <string name="Pref_Traffic_Adjust">Traffic Gesamt in diesem Monat:</string>
-    <string name="Pref_Traffic_Clean">Traffic-Daten zurücksetzen</string>
+    <string name="Pref_Traffic_FloatWindow_AutoDim_Summary">Automatisch die Daten-Anzeige verbergen, wenn kaum Daten in einem Zeitraum verbraucht wurden</string>
+    <string name="Pref_Traffic_DataPlan">Daten Limit festlegen</string>
+    <string name="Pref_Traffic_Adjust">Datenverbrauch in diesem Monat:</string>
+    <string name="Pref_Traffic_Clean">Verbrauchs-Daten zurücksetzen</string>
     <string name="Pref_Traffic_Clean_Dialog">Alle Traffic-Statistiken werden gelöscht, wollen Sie fortfahren?</string>
     <string name="Pref_Traffic_OnTime_Update_Setting">Traffic Auto-Kalibration (nur China!)</string>
     <string name="Pref_Traffic_Auto_Update">Traffic Auto-Kalibrierung</string>
@@ -1674,8 +1674,8 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="Scan_Check_DataUsage_OutPlan">Datenvolumen hat monatlichen Plan überschritten</string>
     <string name="Scan_Check_DataUsage_Alarm">90% des monatlichen Daten-Plan überschritten</string>
     <string name="Scan_Check_DataUsage_Name">Datenvolumen Verbrauch in diesem Monat</string>
-    <string name="Scan_Check_Traffic">Traffic-Überwachungs-Dienst überprüfen</string>
-    <string name="Scan_Check_Traffic_Name">Traffic-Überwachungs-Dienst</string>
+    <string name="Scan_Check_Traffic">Daten-Überwachungs-Dienst überprüfen</string>
+    <string name="Scan_Check_Traffic_Name">Daten-Überwachungs-Dienst</string>
     <string name="Scan_Check_Traffic_Disabled">Mobile Daten sind ausgeschaltet</string>
     <string name="Scan_Check_Network">Überprüfe Cloud Antivirus Einstellungen</string>
     <string name="Scan_Check_Network_Name">Cloud Anti-Virus</string>
@@ -1706,7 +1706,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="Scan_Check_AutoBoot_Name">Apps im Autostart können optimiert werden.</string>
     <string name="Scan_Check_Update_Time">Überprüfen der letzten Prüfung auf Updates</string>
     <string name="Scan_Check_Update_Time_None">Sie haben noch nicht nach Updates gesucht</string>
-    <string name="Scan_Check_Update_Time_Name">Vor %d Tag(en) nach Updates gesucht</string>
+    <string name="Scan_Check_Update_Time_Name">vor %d Tag(en) nach Updates gesucht</string>
     <string name="Scan_Check_Update_Time_Fixed">aktiviert</string>
     <string name="Scan_Check_Update_Time_Check">Security Master Version Update</string>
     <string name="Scan_Check_Update_Time_Checked">Sie haben bereits nach einem Update gesucht</string>
@@ -1748,7 +1748,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="SoftMgr_SdApk_LongAgo">&lt;font color=\"#17A4F5\">a long time&lt;/font>never managed a package of SD card</string>
     <string name="SoftMgr_SdApk_DaysAgo">vor &lt;font color=\"#17A4F5\">%1$d Tag(en)&lt;/font> durchsucht</string>
     <string name="SoftMgr_SdApk_Today">&lt;font color=\"#17A4F5\">today&lt;/font>Packages have been finishing off the SD card</string>
-    <string name="SoftMgr_Can_Opt">&lt;font color=\"#17A4F5\"> empfehlen Optimierung &lt;/ font></string>
+    <string name="SoftMgr_Can_Opt">&lt;font color=\"#17A4F5\"> Optimierung(en) möglich &lt;/ font></string>
     <string name="SoftMgr_App_OptDesc1">%1$d Rechte, &lt;font color=\"#17A4F5\"> %2$d &lt;/ font> evtl. nicht benötigt, &lt;font color=\"#17A4F5\"> %3$d &lt;/ font> evtl. benötigt</string>
     <string name="SoftMgr_App_OptDesc2">%1$d Rechte, &lt;font color=\"#17A4F5\"> %2$d &lt;/ font> evtl. nicht benötigt</string>
     <string name="SoftMgr_App_OptDesc3">%1$d Rechte, &lt;font color=\"#17A4F5\"> %2$d &lt;/ font> evtl. benötigt</string>
@@ -1909,15 +1909,15 @@ Zuletzt geändert:
     <string name="SoftMgr_Blacklist">Blacklist</string>
     <string name="SoftMgr_Confirm_Remove">Confirm removal from the blacklist %1$s?</string>
     <string name="SoftMgr_Already_Optimized">Optimized</string>
-    <string name="SysOpt">Tuning</string>
+    <string name="SysOpt">Gerät optimieren</string>
     <string name="SysOpt_Backup">Since the launch of the housekeeper and the White List Task</string>
     <string name="SysOpt_Task_Running_Tip">&lt;font color=\"#FF7E00\">%1$d &lt;/font>aktive Tasks</string>
-    <string name="SysOpt_AutoBoot_Tip">&lt;font color=\"#FF7E00\">%1$d &lt;/font>Apps starten im Hintergrund/Boot</string>
-    <string name="SysOpt_AutoBoot_Tip2">&lt;font color=\"#FF7E00\">%1$d &lt;/font>Apps starten automatisch</string>
-    <string name="SysOpt_White_Tip">&lt;font color=\"#FF7E00\">%1$d &lt;/font>Apps auf der Whitelist geschützt</string>
+    <string name="SysOpt_AutoBoot_Tip">&lt;font color=\"#FF7E00\">%1$d &lt;/font>App(s) starten im Hintergrund/Boot</string>
+    <string name="SysOpt_AutoBoot_Tip2">&lt;font color=\"#FF7E00\">%1$d &lt;/font>App(s) starten automatisch</string>
+    <string name="SysOpt_White_Tip">&lt;font color=\"#FF7E00\">%1$d &lt;/font>App(s) auf der weißen Liste vorm Beenden geschützt</string>
     <string name="SysOpt_Cache_Tip1">&lt;font color=\"#FF7E00\">längere Zeit &lt;/font>nicht auf Datenmüll überprüft</string>
-    <string name="SysOpt_Cache_Tip2">letzter Datenmüll &lt;font color=\"#FF7E00\">%1$d Tage &lt;/font>before</string>
-    <string name="SysOpt_Cache_Tip3">Gratulation, heute wurde bereits nach Datenmüll gesucht</string>
+    <string name="SysOpt_Cache_Tip2">vor &lt;font color=\"#FF7E00\">%1$d Tag(en) &lt;/font> nach Datenmüll gescannt</string>
+    <string name="SysOpt_Cache_Tip3">letzer Scan:&lt;font color=\"#FF7E00\"> heute &lt;/font></string>
     <string name="SysOpt_TaskMgr">Task-Manager</string>
     <string name="SysOpt_TaskMgr_Des">Background task management, monitoring memory, CPU occupancy</string>
     <string name="SysOpt_TaskMgr_RunningApp">Aktive Tasks</string>
@@ -1949,7 +1949,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SysOpt_Clean">Cache löschen</string>
     <string name="SysOpt_Clean_Des">Check the SD card to clean junk files and system cache</string>
     <string name="SysOpt_Cache_Sys">App Cache</string>
-    <string name="SysOpt_Cache_SD">Rest Dateien</string>
+    <string name="SysOpt_Cache_SD">Restdaten</string>
     <string name="SysOpt_Cache_File">Junk Dateien</string>
     <string name="SysOpt_Cache_Sys_Cleaned_Toast">Herzlichen Glückwunsch, Sie haben die Software-Cache gereinigt, die gesamte Clearing-Cache-Datei %1$s , können Sie schießen mehr als %2$d HD-Fotos</string>
     <string name="SysOpt_Cache_Sys_Cleaned_Toast_Normal">Congratulations, you\'ve finished cleaning software cache, the total clean-up cache files %1$s.</string>
@@ -1958,16 +1958,16 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SysOpt_Cache_File_Cleaned_Toast">Herzlichen Glückwunsch, Sie fertig sind Reinigung Junk-Dateien, reinigen Sie die gesamte Junk-Dateien %1$s , können Sie schießen mehr als %2$d HD-Fotos. Bitte halten Sie Ihren Müll.</string>
     <string name="SysOpt_Cache_File_Cleaned_Toast_Normal">Congratulations, you\'ve finished cleaning up junk files, the total clean up junk files%1$s. Please maintain regularly.</string>
     <string name="SysOpt_CacheClean">Datenmüll entfernen (%1$d)</string>
-    <string name="SysOpt_Clean_Scanning">Scan ...</string>
+    <string name="SysOpt_Clean_Scanning">scanne ...</string>
     <string name="SysOpt_Clean_Scanning_Init">Scan start, bitte einen Moment warten</string>
     <string name="SysOpt_Cache_SD_More_Package">%1$s usw.</string>
     <string name="SysOpt_Cache_Sys_AppsCount">Software System-Cache %1$d</string>
     <string name="SysOpt_Cache_SD_AppsCount">Software SD Cache %1$d</string>
     <string name="SysOpt_Selected_SizeHuge">Große Dateien und Verzeichnisse sind ausgewählt. Die Reinigung kann Daten löschen, die noch benötigt werden. Auswahl sicher?</string>
     <string name="SysOpt_Cache_None">Ihr Telefon ist sauber</string>
-    <string name="SysOpt_Residual_None">Gratulation! Ihr Mobiltelefon ist sehr sauber, keine Rest Dateien von deinstallierten Apps</string>
-    <string name="SysOpt_Rubbish_None">Gratulation! Ihr Mobiltelefon ist sehr sauber, keine unnötigen Junk Dateien übrig</string>
-    <string name="SysOpt_Uninstall_Left">LBESM fand das Apps deinstalliert wurden, aber Temporäre Dateien geblieben sind, diese enfernen?</string>
+    <string name="SysOpt_Residual_None">Ihr Mobiltelefon ist sauber, keine Restdaten von deinstallierten Apps</string>
+    <string name="SysOpt_Rubbish_None">Ihr Mobiltelefon ist sauber, keine unnötigen Junk Dateien übrig</string>
+    <string name="SysOpt_Uninstall_Left">LBE stellte fest das Apps deinstalliert wurden, aber Temporäre Dateien geblieben sind, diese enfernen?</string>
     <string name="SysOpt_EmptyFolder">%1$d leere Verzeichnisse</string>
     <string name="SysOpt_Des_EmptyFolder">Leere nutzlose Verzeichnisse</string>
     <string name="SysOpt_ThumbFile">%1$d Miniaturansichten</string>
@@ -1983,19 +1983,19 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SysOpt_TaskMgr_RAM">Speicher: %1$s</string>
     <string name="SysOpt_TaskMgr_WhiteEmpty">sie haben keine Whitelist Apps konfiguriert</string>
     <string name="SysOpt_TaskMgr_Critical">Kritische Tasks</string>
-    <string name="SysOpt_TaskMgr_AddToWhite">Whitelist editieren</string>
-    <string name="SysOpt_TaskMgr_ToWhiteList">Zu Whitelist hinzufügen ( %1$d)</string>
+    <string name="SysOpt_TaskMgr_AddToWhite">weiße Liste bearbeiten</string>
+    <string name="SysOpt_TaskMgr_ToWhiteList">zur weißen Liste hinzufügen ( %1$d)</string>
     <string name="SysOpt_TaskMgr_AddWhite">Weiße Liste</string>
-    <string name="SysOpt_WhiteList_Tips">protect your mission, not to be a key clean-up</string>
-    <string name="SysOpt_Hardware">Device details</string>
-    <string name="SysOpt_Hardware_Basic">Basic Information</string>
+    <string name="SysOpt_WhiteList_Tips">Benötigte Apps vorm Beenden schützen.</string>
+    <string name="SysOpt_Hardware">Geräte Information</string>
+    <string name="SysOpt_Hardware_Basic">Allgemeines</string>
     <string name="SysOpt_Hardware_CPU_Storage">CPU</string>
-    <string name="SysOpt_Hardware_Network">Network</string>
-    <string name="SysOpt_Hardware_Display">Show</string>
-    <string name="SysOpt_Hardware_Device_Other">Sensor</string>
-    <string name="SysOpt_Hardware_Device_Rank">Rank Information</string>
-    <string name="SysOpt_Hardware_Antutu_Tips">Starred data from security Antutu</string>
-    <string name="SysOpt_Running_Memory">Running out of Memory: &lt;font color=#40C0FF>%1$s>&lt;/font></string>
+    <string name="SysOpt_Hardware_Network">Netzwerk</string>
+    <string name="SysOpt_Hardware_Display">Anzeige</string>
+    <string name="SysOpt_Hardware_Device_Other">Sensoren</string>
+    <string name="SysOpt_Hardware_Device_Rank">Rangliste</string>
+    <string name="SysOpt_Hardware_Antutu_Tips">mit * markierte Daten von www.antutu.net</string>
+    <string name="SysOpt_Running_Memory">Arbeitsspeicher (verwendet/Gesamt): &lt;font color=#40C0FF>%1$s>&lt;/font></string>
     <string name="SysOpt_DisplayDetails">&lt;u> Details   &lt;/u></string>
     <string name="SysOpt_Hardware_Brand">Brand</string>
     <string name="SysOpt_Hardware_Internet_Tips">Networking for more information</string>
