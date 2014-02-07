@@ -35,10 +35,10 @@
         <item>Benutzer-Modus</item>
     </string-array>
     <string-array name="endcalltype">
-        <item>Ausgeschaltet</item>
-        <item>Nicht vorhanden</item>
-        <item>Außer Betrieb</item>
-        <item>Beschäftigt</item>
+        <item>ausgeschaltet</item>
+        <item>nicht vorhanden</item>
+        <item>außer Betrieb</item>
+        <item>beschäftigt</item>
     </string-array>
     <string-array name="stopcalltype_values">
         <item>0</item>
@@ -288,14 +288,14 @@ Fernsteuerung"</item>
         <item>50%</item>
     </string-array>
     <string-array name="auto_update_period">
-        <item>Aus</item>
-        <item>Täglich</item>
-        <item>Alle 2 Tage</item>
-        <item>Alle 3 Tage</item>
-        <item>Alle 4 Tage</item>
-        <item>Alle 5 Tage</item>
-        <item>Alle 6 Tage</item>
-        <item>Alle 7 Tage</item>
+        <item>aus</item>
+        <item>täglich</item>
+        <item>alle 2 Tage</item>
+        <item>alle 3 Tage</item>
+        <item>alle 4 Tage</item>
+        <item>alle 5 Tage</item>
+        <item>alle 6 Tage</item>
+        <item>alle 7 Tage</item>
     </string-array>
     <string-array name="auto_update_period_values">
         <item>0</item>
@@ -457,7 +457,7 @@ Fernsteuerung"</item>
         <item>Sync</item>
         <item>WiFi</item>
         <item>GPS</item>
-        <item>Milbile Daten</item>
+        <item>Mobile Daten</item>
         <item>Rotation</item>
     </string-array>
     <string-array name="homepage_more_options_labels">
@@ -468,7 +468,7 @@ Fernsteuerung"</item>
         <item>Newsletter</item>
         <item>Sicherheit</item>
         <item>Kommunikations Tools</item>
-        <item>Backup &amp;amp;amp;amp;amp; Wiederherstellung</item>
+        <item>Backup &amp; Wiederherstellung</item>
     </string-array>
     <string-array name="home_settings_labels">
         <item>Einstellungen für Homescreen Symbol</item>
@@ -487,25 +487,25 @@ Fernsteuerung"</item>
     <string-array name="sdapk_sortypes">
         <item>Nach Name sortieren</item>
         <item>Nach Größe sortieren</item>
-        <item>Chronologisch</item>
+        <item>Nach Datum sortieren</item>
     </string-array>
     <string-array name="sdapk_types">
-        <item>Alle Pakete</item>
-        <item>Neuere Pakete</item>
-        <item>Ältere Pakete</item>
-        <item>Installierte Pakete</item>
-        <item>Paket ist nicht installiert</item>
-        <item>Zertifikations Ausnahme Paket</item>
-        <item>Paket installation wiederholen</item>
+        <item>alle apks</item>
+        <item>neuere apks</item>
+        <item>ältere apks</item>
+        <item>installierte apks</item>
+        <item>nicht installierte apks</item>
+        <item>apks ohne Zertifikation</item>
+        <item>apk Installation wiederholen</item>
     </string-array>
     <string-array name="sdapk_status">
-        <item>Auf der SD-Karte existieren keine Pakete</item>
-        <item>Auf der SD-Karte existieren keine updatebare Pakete</item>
-        <item>Auf der SD-Karte existiert keine alten Version</item>
-        <item>Auf der SD-Karte existiert keine breits installiertes Paket</item>
-        <item>Auf der SD-Karte existiert kein Installations Fehler</item>
-        <item>Auf der SD-Karte existieren keine Zertifizierungs Fehler</item>
-        <item>Auf der SD-Karte existieren keine Duplikate</item>
+        <item>keine apks auf SD Karte</item>
+        <item>keine Updates für installierte Apps auf der SD Karte</item>
+        <item>keine älteren Versionen installierter Apps auf der SD Karte</item>
+        <item>keine breits installiertes Apps auf der SD Karte</item>
+        <item>kein Installations Fehler auf der SD Karte</item>
+        <item>keine Zertifizierungs Fehler auf der SD Karte</item>
+        <item>keine Duplikate auf der SD Karte</item>
     </string-array>
     <string-array name="task_sortypes">
         <item>Nach Namen/Typ sortieren</item>
