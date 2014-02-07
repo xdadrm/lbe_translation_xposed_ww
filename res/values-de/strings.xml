@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="HIPS_Action_Accept">zulassen</string>
-    <string name="HIPS_Action_Prompt">nachfragen</string>
+    <string name="HIPS_Action_Prompt">&lt;font size="4"> nachfragen &lt;/font></string>
     <string name="HIPS_Action_Reject">verweigern</string>
     <string name="HIPS_Action_Accept_Colored">&lt;font color=#478800> zulassen &lt;/font></string>
     <string name="HIPS_Action_Prompt_Colored">&lt;font color=#FF8A00> nachfragen &lt;/font></string>
@@ -145,8 +145,8 @@
     <string name="block_error_desc">Empfangsfehlerbeschreibung</string>
     <string name="call_phone_error">card or the network is not an exception, can not make calls!</string>
     <string name="block_error_tips_message">when intercepting Options \"Shutdown\", \"empty number\", \"Shutdown\"mode, if you encounter MMI code error, please call forwarding feature, you can directly dial direct telephone operator services launched (free of charge).</string>
-    <string name="soft_manager_mem">Speicher</string>
-    <string name="soft_manager_sdcard">SD</string>
+    <string name="soft_manager_mem">int. Speicher</string>
+    <string name="soft_manager_sdcard">ext. Speicher</string>
     <string name="phone_accelerator_cpu">CPU</string>
     <string name="phone_accelerator_ram">RAM</string>
     <string name="hold_to_scan">scanne</string>
@@ -212,16 +212,16 @@
     <string name="AD_Adware_App">Apps mit Werbung</string>
     <string name="AD_Adware_Literal_Version">Ad Datenbank Version: %1$s</string>
     <string name="AD_Adware_Uninstall_Prompt">%1$s deinstallieren?</string>
-    <string name="AD_Adware_Onekey_Block">Alle riskante blockieren</string>
-    <string name="AD_Last_Scan_Time">Zuletzt gescannt</string>
-    <string name="AD_Scan">Scan</string>
+    <string name="AD_Adware_Onekey_Block">alle riskanten Ads blockieren</string>
+    <string name="AD_Last_Scan_Time">zuletzt überprüft</string>
+    <string name="AD_Scan">scanne</string>
     <string name="AD_Report">nicht blockierte Werbung melden</string>
     <string name="AD_Report_Hint">Apps mit nicht geblockter Werbung markieren zum melden.</string>
     <string name="AD_Report_Success_Hint">Du hast erfolgreich Werbe Apps gemeldet, Vielen Dank</string>
-    <string name="AD_Scan_Day_Ago">Vor %1$d Tagen</string>
-    <string name="AD_Scan_Long_Ago">Länger nicht geprüft</string>
-    <string name="AD_Scan_Today">Heute überprüft</string>
-    <string name="AD_Scan_Again">Apps auf Werbung untersuchen</string>
+    <string name="AD_Scan_Day_Ago">vor %1$d Tag(en)</string>
+    <string name="AD_Scan_Long_Ago">länger nicht geprüft</string>
+    <string name="AD_Scan_Today">heute überprüft</string>
+    <string name="AD_Scan_Again">nach Werbung suchen</string>
     <string name="AD_Install_App">Installierte App</string>
     <string name="AD_Sys_App">System App</string>
     <string name="AD_Number_App">Eine Anwendung mit Werbung</string>
@@ -229,7 +229,7 @@
     <string name="AV_FastScan">Schneller-Scan</string>
     <string name="AV_FastScan_Des">Schnelle Durchsuchung der install. Apps</string>
     <string name="AV_DeepScan">Tiefer-Scan</string>
-    <string name="AV_DeepScan_Des">Scannt Apps + apk-Pakete auf SD-Karte</string>
+    <string name="AV_DeepScan_Des">Scannt Apps + apks auf SD-Karte</string>
     <string name="AV_RelTimeScan">Echtzeit-Scan</string>
     <string name="AV_AutoUpdate_Title">Update Auto-Check Interval</string>
     <string name="AV_AutoUpdate_NoTip">Niemals</string>
@@ -416,10 +416,10 @@
     <string name="Battery_Consumption_StatisticTime">Timeframe:%1$s</string>
     <string name="Battery_Error_WrongCondition">Startzeit</string>
     <string name="Battery_Error_InvalidDayOfWeek">Niemals</string>
-    <string name="Battery_Shortcut_Wifi">Täglich</string>
-    <string name="Battery_Shortcut_APN">Niedriger Akkustand-Modus</string>
-    <string name="Battery_Shortcut_Sync">Niedriger Akkustand-Umschaltwert</string>
-    <string name="Battery_Shortcut_Bright">Zum %2$s wechseln, wenn Akku unter das Niveau von %1$s fällt</string>
+    <string name="Battery_Shortcut_Wifi">täglich</string>
+    <string name="Battery_Shortcut_APN">niedriger Akkustand-Modus</string>
+    <string name="Battery_Shortcut_Sync">niedriger Akkustand-Umschaltwert</string>
+    <string name="Battery_Shortcut_Bright">zum %2$s wechseln, wenn Akku unter das Niveau von %1$s fällt</string>
     <string name="Battery_Shortcut_GPS">Niedriger Akkuestand Energie-Spar-Dienste</string>
     <string name="Battery_Shortcut_LockTime">Akkuanzeige in der Statusleiste</string>
     <string name="Battery_Shortcut_Haptic">Ton bei Volladung</string>
@@ -682,57 +682,57 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Generic_Service_Disabled">Dienst ist ausgeschaltet</string>
     <string name="Generic_Summary_Enabled">Aktiviert</string>
     <string name="Generic_Summary_Disabled">Deaktiviert</string>
-    <string name="Generic_Add">Hinzufügen</string>
-    <string name="Generic_Clip">Straffen</string>
-    <string name="Generic_Enable">Aktivieren</string>
-    <string name="Generic_Disable">Deaktivieren</string>
-    <string name="Generic_Enabled">Aktiviert</string>
-    <string name="Generic_Disabled">Deaktiviert</string>
-    <string name="Generic_Blocked">Sperren</string>
-    <string name="Generic_Restore">Wiederherstellen</string>
-    <string name="Generic_Optimize">Optimieren</string>
-    <string name="Generic_Ignore">Ignore</string>
-    <string name="Generic_Allow">gestattet ( %d )</string>
-    <string name="Generic_Forbid">blockiert ( %d )</string>
-    <string name="Generic_Repair">Beheben</string>
-    <string name="Generic_Edit">Andern</string>
-    <string name="Generic_Adjust">Anpassung</string>
-    <string name="Generic_Auto">Automatische</string>
+    <string name="Generic_Add">hinzufügen</string>
+    <string name="Generic_Clip">einfrieren</string>
+    <string name="Generic_Enable">aktivieren</string>
+    <string name="Generic_Disable">deaktivieren</string>
+    <string name="Generic_Enabled">aktiviert</string>
+    <string name="Generic_Disabled">deaktiviert</string>
+    <string name="Generic_Blocked">sperren</string>
+    <string name="Generic_Restore">wiederherstellen</string>
+    <string name="Generic_Optimize">optimieren</string>
+    <string name="Generic_Ignore">ignorieren</string>
+    <string name="Generic_Allow">gestattet (%d)</string>
+    <string name="Generic_Forbid">blockiert (%d)</string>
+    <string name="Generic_Repair">beheben</string>
+    <string name="Generic_Edit">ändern</string>
+    <string name="Generic_Adjust">anpassen</string>
+    <string name="Generic_Auto">automatisch</string>
     <string name="Generic_Accept">zulassen</string>
     <string name="Generic_Prompt">nachfragen</string>
     <string name="Generic_Reject">verweigern</string>
-    <string name="Generic_Check">Prüfen</string>
-    <string name="Generic_Remove">Entfernen</string>
-    <string name="Generic_Clean">Aufräumen</string>
-    <string name="Generic_Start">Start</string>
-    <string name="Generic_Running">Betrieb</string>
-    <string name="Generic_Cleaned">Aufgeräumt</string>
-    <string name="Generic_CustomClean">Manuell bereinigen</string>
-    <string name="Generic_Good">Gut</string>
-    <string name="Generic_Detail">Detaillierte</string>
-    <string name="Generic_Default">Default</string>
+    <string name="Generic_Check">prüfen</string>
+    <string name="Generic_Remove">entfernen</string>
+    <string name="Generic_Clean">aufräumen</string>
+    <string name="Generic_Start">start</string>
+    <string name="Generic_Running">läuft</string>
+    <string name="Generic_Cleaned">aufgeräumt</string>
+    <string name="Generic_CustomClean">manuell bereinigen</string>
+    <string name="Generic_Good">gut</string>
+    <string name="Generic_Detail">detailliert</string>
+    <string name="Generic_Default">default</string>
     <string name="Generic_Shortcut">Verknüpfung</string>
-    <string name="Generic_Return">Zurück</string>
-    <string name="Generic_Save">Speichern</string>
-    <string name="Generic_SelectAll">Alle auswählen</string>
-    <string name="Generic_Select">Wählen</string>
-    <string name="Generic_Clear">Alle löschen</string>
-    <string name="Generic_Delete">Löschen</string>
-    <string name="Generic_More">Mehr</string>
-    <string name="Generic_Inform">Report</string>
+    <string name="Generic_Return">zurück</string>
+    <string name="Generic_Save">speichern</string>
+    <string name="Generic_SelectAll">alle auswählen</string>
+    <string name="Generic_Select">wählen</string>
+    <string name="Generic_Clear">alle löschen</string>
+    <string name="Generic_Delete">löschen</string>
+    <string name="Generic_More">mehr</string>
+    <string name="Generic_Inform">melden</string>
     <string name="Generic_Empty">Keine Daten</string>
     <string name="Generic_SelectReverse">Auswahl umkehren</string>
     <string name="Generic_Low_Memory">Der Telefonspeicher ist voll! Löschen Sie einige Dateien, um Speicherplatz freizugeben.</string>
     <string name="Generic_ON">AN</string>
     <string name="Generic_OFF">AUS</string>
     <string name="Generic_NoTipsNextShow">OK</string>
-    <string name="Generic_NextPage">Weiter</string>
-    <string name="Generic_NextStep">Weiter</string>
-    <string name="Generic_PrevStep">Früher</string>
-    <string name="Generic_Enabled_2">Aktiviert</string>
-    <string name="Generic_Disabled_2">Bitte tippen zum einstellen</string>
-    <string name="Generic_Exception">Deaktiviert</string>
-    <string name="Generic_Setting">Einrichten</string>
+    <string name="Generic_NextPage">weiter</string>
+    <string name="Generic_NextStep">weiter</string>
+    <string name="Generic_PrevStep">zurück</string>
+    <string name="Generic_Enabled_2">aktiviert</string>
+    <string name="Generic_Disabled_2">bitte tippen zum einstellen</string>
+    <string name="Generic_Exception">deaktiviert</string>
+    <string name="Generic_Setting">einrichten</string>
     <string name="Generic_Finish_Setting">Beenden Sie die Einstellung</string>
     <string name="Generic_Time_Today">ʜеυτе</string>
     <string name="zGeneric_Time_Yeserday">Ԍеѕτеʀɴ</string>
@@ -816,7 +816,7 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Home_BackupHint_FileName">Datei:</string>
     <string name="Home_BackupHint_Comment">Notiz:</string>
     <string name="Home_BackupProgress">Backup %1$d von insgesamt %2$d Teilen</string>
-    <string name="Home_Restore">Wiederherstellen</string>
+    <string name="Home_Restore">rückgängig</string>
     <string name="Home_Restore_OK">Restart security master</string>
     <string name="Home_RestoreConfirm">Durch das wiederherstellen dieses Backups werden alle Ihre Einstellungen verloren gehen, weiter?</string>
     <string name="Home_RestoreOK">Wiederherstellung erfolgreich</string>
@@ -962,9 +962,9 @@ Mit dem Absenden einer Betreiber Abfrage per SMS, kalibriert die App automatisch
     <string name="Traffic_Monitor_Plan_Hint">Datenverbrauch</string>
     <string name="Traffic_Monitor_Today_Hint">Heute</string>
     <string name="Traffic_Monitor_Dataplan_Amount">Gesamt:</string>
-    <string name="Traffic_Net_App">Apps mit Internet Zugriff mobil/WLan</string>
-    <string name="Traffic_Rank_Month">Monat</string>
-    <string name="Traffic_Rank_Today">Heute</string>
+    <string name="Traffic_Net_App">Apps mit Internet Zugriff (mobil / WiFi)</string>
+    <string name="Traffic_Rank_Month">Monat </string>
+    <string name="Traffic_Rank_Today">Heute </string>
     <string name="Traffic_rank_Realtime">Echtzeit</string>
     <string name="Traffic_Net_Firewall">Firewall</string>
     <string name="Traffic_Carrier_CMCC">China Mobile</string>
@@ -979,32 +979,32 @@ Mit dem Absenden einer Betreiber Abfrage per SMS, kalibriert die App automatisch
     <string name="Nft_Mgr_Title">Benachrichtigungs Manager</string>
     <string name="Nft_Mgr_Title_Hint">Benachrichtigungen einstellen</string>
     <string name="Nft_Mgr_Title_sub1">Benachrichtigungen</string>
-    <string name="Nft_Mgr_Title_sub2">App Rechte</string>
+    <string name="Nft_Mgr_Title_sub2">per App einstellen</string>
     <string name="Nft_Mgr_Title_sub3">Blockier Log</string>
     <string name="Nft_Mgr_Notification_Permission">Benachrichtigungen</string>
     <string name="Nft_Mgr_Notification_News">Benachrichtigungen</string>
     <string name="Nft_Mgr_Notification_News_Empty">Keine Benachrichtigung</string>
     <string name="Nft_Mgr_App_Hint">Meldung von: %1$s</string>
-    <string name="Nft_Mgr_Default_App">Unbekannte App</string>
-    <string name="Nft_Mgr_Block_Ads">Werbung verbannen</string>
+    <string name="Nft_Mgr_Default_App">unbekannte App</string>
+    <string name="Nft_Mgr_Block_Ads">Werbung blockieren</string>
     <string name="Nft_Mgr_Clear_Nft">Benachrichtigungen löschen</string>
-    <string name="Nft_Mgr_Showing">Angezeigt ( %1$d )</string>
-    <string name="Nft_Mgr_More">Mehr ( %1$d )</string>
-    <string name="Nft_Mgr_Blocked_Title">Blockier Log</string>
-    <string name="Nft_Mgr_No_Blocked">Kein Block aufgezeichnet</string>
+    <string name="Nft_Mgr_Showing">aktuelle Benachrichtigungen (%1$d)</string>
+    <string name="Nft_Mgr_More">alte Benachrichtigunegn (%1$d)</string>
+    <string name="Nft_Mgr_Blocked_Title">Blockier Protokoll</string>
+    <string name="Nft_Mgr_No_Blocked">keine Daten aufgezeichnet</string>
     <string name="Nft_Mgr_Clear_Blocked_Record">Löschen von Datensätzen</string>
-    <string name="Nft_Mgr_Uninstall_App">Deinstallieren</string>
-    <string name="Nft_Mgr_Blocked_List_Title">Aktuell geblockt ( %1$d )</string>
-    <string name="Nft_Mgr_App_List_Empty">Keine App erkannt die Benachrichtigungen sendet</string>
-    <string name="Nft_Mgr_App_Title">Erlaubte Apps</string>
-    <string name="Nft_Mgr_Reject">Verbiete</string>
-    <string name="Nft_Mgr_Accept">Erlaube</string>
-    <string name="Nft_Mgr_Reject_Title">Verweigert ( %1$d )</string>
-    <string name="Nft_Mgr_Accept_Title">Erlaubt ( %1$d )</string>
-    <string name="Nft_Mgr_Custom">Benutzerdefiniert</string>
-    <string name="Nft_Mgr_App_List_Title">Alle Apps ( %1$d )</string>
-    <string name="Nft_Mgr_Advanced_Title">%1$s : Benachrichtigung Details</string>
-    <string name="Nft_Mgr_Advanced_Empty">Keine Benachrichtigungen</string>
+    <string name="Nft_Mgr_Uninstall_App">deinstallieren</string>
+    <string name="Nft_Mgr_Blocked_List_Title">aktuell geblockt ( %1$d )</string>
+    <string name="Nft_Mgr_App_List_Empty">keine App gefunden die Benachrichtigungen sendet</string>
+    <string name="Nft_Mgr_App_Title">zugelassene Apps</string>
+    <string name="Nft_Mgr_Reject">verweigern</string>
+    <string name="Nft_Mgr_Accept">zulassen</string>
+    <string name="Nft_Mgr_Reject_Title">verweigert (%1$d)</string>
+    <string name="Nft_Mgr_Accept_Title">zugelassen (%1$d)</string>
+    <string name="Nft_Mgr_Custom">nachfragen</string>
+    <string name="Nft_Mgr_App_List_Title">alle Apps (%1$d)</string>
+    <string name="Nft_Mgr_Advanced_Title">%1$s : Benachrichtigungs Details</string>
+    <string name="Nft_Mgr_Advanced_Empty">keine Benachrichtigungen</string>
     <string name="Patch_Action_Get">Get-Patch</string>
     <string name="Patch_Action_Install">Installieren Sie System-Patches</string>
     <string name="Patch_Action_Failure">Rückkehr</string>
@@ -1037,8 +1037,8 @@ Mit dem Absenden einer Betreiber Abfrage per SMS, kalibriert die App automatisch
     <string name="Phone_Carrier_CM">China Mobile</string>
     <string name="Phone_Carrier_CU">China Unicom</string>
     <string name="Phone_Carrier_CT">China Telecom</string>
-    <string name="Phone_Blacklist">Blacklist</string>
-    <string name="Phone_Whitelist">Whitelist</string>
+    <string name="Phone_Blacklist">schwarze Liste (blockierte Nummern)</string>
+    <string name="Phone_Whitelist">weiße Liste (zugelassene Nummern)</string>
     <string name="Phone_Call_Intercept">Anrufe blockieren</string>
     <string name="Phone_Msg_Intercept">SMS blockieren</string>
     <string name="Phone_MsgAndCall_Intercept">Blockier Anrufe und SMS</string>
@@ -1073,24 +1073,24 @@ Mit dem Absenden einer Betreiber Abfrage per SMS, kalibriert die App automatisch
     <string name="Phone_UnknownNumber">Unbekannte Nummer</string>
     <string name="Phone_EmptyNumber">Nummer darf nicht leer sein</string>
     <string name="Phone_Select_Block_Type">Bitte wählen Art der Blockierung</string>
-    <string name="Phone_Block_Type_Norm">Intelligenter Blockier-Modus</string>
-    <string name="Phone_Block_Type_ContactAndWhite">Nur Empfang von Kontakten und der Whitelist</string>
-    <string name="Phone_Block_Type_Black">Nur Blacklist blockieren</string>
-    <string name="Phone_Block_Type_White">Empfangen nur von Whitelist</string>
-    <string name="Phone_Block_Type_ALlReject">Alle blockieren</string>
-    <string name="Phone_Block_Type_AllAllow">Alle erhalten</string>
+    <string name="Phone_Block_Type_Norm">intelligenter Blockier-Modus</string>
+    <string name="Phone_Block_Type_ContactAndWhite">nur Nummern aus Telefonbuch und weißer Liste zulassen</string>
+    <string name="Phone_Block_Type_Black">nur Nummern der schwarzen Liste blockieren</string>
+    <string name="Phone_Block_Type_White">nur Nummern aus weißer Liste zulassent</string>
+    <string name="Phone_Block_Type_ALlReject">alle blockieren</string>
+    <string name="Phone_Block_Type_AllAllow">alle zulassen</string>
     <string name="Phone_Block_Type_UserDefine">Benutzer-Modus</string>
-    <string name="Phone_Block_Type_Contact">Erhalten nur von Kontakten</string>
-    <string name="Phone_Block_Type_UserDefine_Edit">Benutzerdefinierten Modus einstellen</string>
-    <string name="Phone_Block_Type_Norm_Content">Blockt Blacklist, empfängt von der Whitelist, Kontakten und vor kurzem kontaktierten Nummern, blockt Stichworte, intelligente Filterung des Inhalts von erhaltenen Nachrichten</string>
-    <string name="Phone_Block_Type_Black_Content">Blockt Blacklist Nummer, empfängt SMS und Anrufe von anderen Nummern</string>
-    <string name="Phone_Block_Type_White_Content">Empfängt nur von Whitelist Nummern, blockt SMS und Anrufe von anderen Nummern</string>
+    <string name="Phone_Block_Type_Contact">nur Nummern aus Telefonbuch zulassen</string>
+    <string name="Phone_Block_Type_UserDefine_Edit">benutzerdefinierten Modus einstellen</string>
+    <string name="Phone_Block_Type_Norm_Content">Schwarze Liste und Stichworte werden blockiert. Weiße Liste, Kontakte und vor kurzem kontaktierten Nummern werden zugelassen.</string>
+    <string name="Phone_Block_Type_Black_Content">Nzmmern auf schwarzer Liste werden blockiert.</string>
+    <string name="Phone_Block_Type_White_Content">Nur Nummern von weißer Liste gesattet. SMS und Anrufe anderer Nummern werden abgelehnt.</string>
     <string name="Phone_Block_Type_ALlReject_Content">Blockiert alle SMS und Anrufe</string>
     <string name="Phone_Block_Type_AllAllow_Content">Empfängt alle SMS und Anrufe</string>
-    <string name="Phone_Block_Type_Contact_Content">Empfängt nur von Kontakten, blockt SMS und Anrufe von anderen Nummern</string>
-    <string name="Phone_Block_Type_ContactAndWhite_Content">Empfängt von Kontakten und der Whitelist, Blockt SMS und Anrufe von anderen Nummern</string>
-    <string name="Phone_Block_Type_UserDefine_Content">Benutzerdefinierte Blockierregelung mit Whitelist, Blacklist, Kontakte, intelligente Blockierung,etc.</string>
-    <string name="Phone_Block_Blackwhitelist">B&amp;W-Listen</string>
+    <string name="Phone_Block_Type_Contact_Content">Empfängt nur von Nummern aus Kontakten, blockt SMS und Anrufe von anderen Nummern</string>
+    <string name="Phone_Block_Type_ContactAndWhite_Content">Empfängt von Nummern aus Kontakten und der weißen Liste. Andere SMS und Anrufe werden abgelehnt.</string>
+    <string name="Phone_Block_Type_UserDefine_Content">Benutzerdefinierte Blockierregelung mit Ausnahmelisten, Kontakten, intelligenter Blockierung, etc.</string>
+    <string name="Phone_Block_Blackwhitelist">Ausnahmelisten</string>
     <string name="Phone_Clear">Alle löschen</string>
     <string name="Phone_Select_City">Stadt wählen</string>
     <string name="Phone_Select_All_Discrict">Alle Regionen></string>
@@ -1183,7 +1183,7 @@ Den Cloud Security Dienst können sie auch beim Blockier Dienst deaktivieren"</s
     <string name="Phone_Custom_Whitelist">Whitelist</string>
     <string name="Phone_Custom_Contact">Kontakt Anrufe und SMS</string>
     <string name="Phone_Custom_Conversation">Mitgeteilte Nummern</string>
-    <string name="Phone_Custom_KeyWord">Schlüsselbegriffe</string>
+    <string name="Phone_Custom_KeyWord">SMS Schlüsselbegriffe</string>
     <string name="Phone_Custom_Smart">SMS von Fremden</string>
     <string name="Phone_MIUI_Helper">SMS Abfang Hilfe (für MIUI Benutzer)</string>
     <string name="Phone_MIUI_Help_Title">MIUI Benutzer SMS Abfang Anweisungen</string>
@@ -1289,7 +1289,7 @@ vor der Aktivierung LBE Anti-Diebstahl-Dienstleistungen, downloaden und installi
     <string name="Plugin_Install_Toast_Download">Herunterladen %1$s wird automatisch nach dem Download installiert werden</string>
     <string name="Pref_Main_Cat_Service">Security-Dienste-Einstellungen</string>
     <string name="Pref_Main_HIPS_Service">LBE Rechteverwaltungs Dienst</string>
-    <string name="Pref_Main_Phone_Service">Firewall-Dienst</string>
+    <string name="Pref_Main_Phone_Service">Anruf-Firewall-Dienst</string>
     <string name="Pref_Main_Saving_Service">Energie-Spar-Dienstleistungen</string>
     <string name="Pref_Main_Traffic_Service">Traffic-Überwachungs-Dienst</string>
     <string name="Pref_Main_Cat_System">LBESM System-Einstellungen</string>
@@ -1442,18 +1442,18 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="HIPS_App_Perm_Count">%1$d Berechtigungen</string>
     <string name="HIPS_App_Monitored">überwachte App(s) (%1$d)</string>
     <string name="HIPS_App_Trusted">vertrauenswürdige App(s) (%1$d)</string>
-    <string name="HIPS_App_System_UntrustFirst">\"%1$s\" ist eine Standart App. Supervisen einer Standart App kann Probleme verursachen. Weiter?</string>
+    <string name="HIPS_App_System_UntrustFirst">\"%1$s\" ist eine System App. Rechte einer System App einschränken kann Probleme verursachen. Weiter?</string>
     <string name="HIPS_App_Config">Konfigurieren</string>
-    <string name="HIPS_App_Config_NoRoot">Active Defense ist deaktiviert, Sie können App-Berechtigungen nicht ändern. Tippen Sie hier, um Active Defense zu ermöglichen.</string>
+    <string name="HIPS_App_Config_NoRoot">Rechteverwaltungsdienst ist deaktiviert, Sie können App-Berechtigungen nicht ändern. Hier Dienst aktivieren.</string>
     <string name="HIPS_App_New">Bitte Berechtigungen für \"%1$s\" konfigurieren</string>
     <string name="HIPS_App_NewApp">Tippen für \"%1$s\" Berechtigungen</string>
-    <string name="HIPS_App_NewApps">Sie haben für %1$d Apps keine Berechtigungen konfiguriert</string>
-    <string name="HIPS_App_NewAppsWithAdware">%1$d Apps Berechtigungen konfiguriert(%2$d enthalten Adware)</string>
+    <string name="HIPS_App_NewApps">Rechte für %1$d App(s) einstellen</string>
+    <string name="HIPS_App_NewAppsWithAdware">Rechte für %1$d App(s) einstellen (%2$d mit Adware)</string>
     <string name="HIPS_App_New_Installed">\"%1$s\" wurde installiert</string>
     <string name="HIPS_App_New_Configure">Tippen um App-Berechtigungen zu konfigurieren</string>
     <string name="HIPS_App_New_Configure_NoVirus">Keine Bedrohung gefunden, tippen um App-Berechtigungen zu konfigurieren</string>
     <string name="HIPS_App_Batch">Batch-Operation</string>
-    <string name="HIPS_Log">Ererignis Protokoll</string>
+    <string name="HIPS_Log">Ereignis Protokoll</string>
     <string name="HIPS_Log_NoLog">Kein Aktivitäten aufgezeichnet</string>
     <string name="HIPS_Log_Detail_Title">Protokoll Details</string>
     <string name="HIPS_Log_Detail_Content">%1$s %2$s</string>
@@ -1530,19 +1530,19 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="private_password_reset_hint">Sie ändern das Passwort für die Private Kommunikation, bitte neues Passwort eingeben</string>
     <string name="private_password_setup">Passwort für Private Kommunikation festlegen</string>
     <string name="private_password_login">Bitte das Passwort für die Private Kommunikation eingeben</string>
-    <string name="private_sms">Private SMS</string>
-    <string name="privat_sms_intro">Ihr privater Kommunikationsplatz</string>
-    <string name="private_phone">Pvt Anrufe</string>
-    <string name="privates_contact">Geheime Kontakte</string>
-    <string name="private_contact">Pvt CNTX</string>
-    <string name="add_private_contact">Private Kontakte hinzufügen</string>
+    <string name="private_sms">private SMS</string>
+    <string name="privat_sms_intro">ihr privater Kommunikationsplatz</string>
+    <string name="private_phone">private Anrufe</string>
+    <string name="privates_contact">geheime Kontakte</string>
+    <string name="private_contact">private Kontakte</string>
+    <string name="add_private_contact">private Kontakte hinzufügen</string>
     <string name="private_contact_empty">Bitte Private Kontakte hinzufügen</string>
-    <string name="private_phone_normal">Normal annehmen</string>
-    <string name="private_phone_endcall">Sofort auflegen</string>
-    <string name="private_message">Private SMS</string>
-    <string name="private_manual_private_contact">Manuelles Hinzufügen eines privaten Kontaktes</string>
-    <string name="private_have_this">Existiert bereits</string>
-    <string name="private_write_message">Schreibe Textnachricht</string>
+    <string name="private_phone_normal">normal annehmen</string>
+    <string name="private_phone_endcall">sofort auflegen</string>
+    <string name="private_message">private SMS</string>
+    <string name="private_manual_private_contact">manuelles Hinzufügen eines privaten Kontaktes</string>
+    <string name="private_have_this">existiert bereits</string>
+    <string name="private_write_message">schreibe Textnachricht</string>
     <string name="private_send_message_body">SMS Inhalte</string>
     <string name="private_send">Senden</string>
     <string name="private_send_message_title">Senden Sie eine SMS</string>
@@ -1615,12 +1615,12 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="private_keyguard_setting_toosimple">Schalte Muster zu einfach</string>
     <string name="private_keyguard_unlock_fail_redraw">Schalte gescheitert, bitte neu zeichnen</string>
     <string name="private_entrance_privacy_name">Privatsphäre</string>
-    <string name="private_entrance_private_phone">Datenschutz Kontakte</string>
+    <string name="private_entrance_private_phone">private Kommunikation</string>
     <string name="private_choose_entrance">Wählen Eingang:</string>
     <string name="private_update_private_space">Aktualisiert Datenschutz Raumfahrt</string>
     <string name="private_keyguard_setting_pattern">Einstellen Graphic Entsperr-Passwort</string>
     <string name="private_keyguard_setting_unreal_pattern">Pattern-Passwort gesetzt ist falsch</string>
-    <string name="private_MainPage_Title_PrivatePhone">Datenschutz Kontakte</string>
+    <string name="private_MainPage_Title_PrivatePhone">private Kommunikation</string>
     <string name="private_MainPage_Title_Photo">Bild-Verschlüsselung</string>
     <string name="private_MainPage_Title_AppLock">Programm sperren</string>
     <string name="private_MainPage_Title_Video">Video Encryption</string>
@@ -1637,11 +1637,11 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="private_lock_settings">Einstellungen sperren</string>
     <string name="private_download_privatespace">Bitte laden Sie sich die neueste Version der Datenschutz-Raum</string>
     <string name="private_download_privatespace_default">Das Modul wird aktualisiert, so stay tuned ...</string>
-    <string name="private_download_dialog_message">Sobald Sie laden die Privatsphäre Platz Ihr Programm mit Dateien als sicherer Schutz, ob sie weiter?</string>
-    <string name="private_upgrade_dialog_message">Sobald Sie aktualisieren die Datenschutzpolitik Raum Ob Sie fortfahren?</string>
-    <string name="private_install_fail">Datenschutz räumliche Installation fehlschlägt</string>
+    <string name="private_download_dialog_message">Diese Funtktion benötigt das Zusatzprogramm Pricacy Space, runter laden?</string>
+    <string name="private_upgrade_dialog_message">Nach der Aktualisierung von Privaycy Space können Sie fortfahren?</string>
+    <string name="private_install_fail">Privacy Space Installation fehlgeschalgen</string>
     <string name="private_setting_qasummary">Seit Einstellung ein falsches Passwort, Sicherheitsfrage Ausfall</string>
-    <string name="private_sms_unread">Ungelesene</string>
+    <string name="private_sms_unread">ungelesene</string>
     <string name="Scan_RecommendScan">Überprüfen Sie jetzt die Sicherheit Ihres Telefons</string>
     <string name="Scan_RecommendScan_LongTime">Längere Zeit kein Untersuchung durchgeführt, lasse Security Master einen Blick drauf werfen</string>
     <string name="Scan_JustScanned">Frisch untersucht</string>
@@ -1691,10 +1691,8 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="Scan_Check_Virus_Scan_End">Virus Scan abgeschlossen</string>
     <string name="Scan_Check_Virus_Scan_Failed">Virus Scan fehlgeschlagen</string>
     <string name="Scan_Check_Virus_Scan">Scanne: %1$s</string>
-    <string name="Scan_Check_VirusDetail">"In %1$s wurde riskantes
-%2$s gefunden"</string>
-    <string name="Scan_Check_VirusDetail_Warning">"In %1$s wurde riskantes gefunden:
-%2$s"</string>
+    <string name="Scan_Check_VirusDetail">"In %1$s wurde %2$s gefunden"</string>
+    <string name="Scan_Check_VirusDetail_Warning">"Bedrohung in %1$s gefunden: %2$s"</string>
     <string name="Scan_Check_Virus_Fixed">Gelöscht!</string>
     <string name="Scan_Check_Virus_NoVirus">Keine Bedrohung</string>
     <string name="Scan_Check_Cache">Scanne Cache</string>
@@ -1741,42 +1739,42 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="SoftMgr_Cache_Used">Cache Verbrauch: %1$s</string>
     <string name="SoftMgr_AppPerm_Tip">Detaillierte Rechte per App und Kategorie konfigurieren.</string>
     <string name="SoftMgr_AppUninstall_Tip">&lt;font color=\"#17A4F5\">%1$d &lt;/font>Benutzer Apps</string>
-    <string name="SoftMgr_SysUninstall_Tip">&lt;font color=#17A4F5>%1$d apks &lt;/font> vorinstallierte System Apps</string>
-    <string name="SoftMgr_AppMove_Clean">Ihr System ist sehr sauber, &lt;font color=\"#17A4F5\">without&lt;/font>App verschieben</string>
-    <string name="SoftMgr_AppMove_Suggest1">&lt;font color=\"#17A4F5\">%1$d paragraph&lt;/font>App empfiehlt auf die SD Karte zu verschieben</string>
+    <string name="SoftMgr_SysUninstall_Tip">&lt;font color=#17A4F5>%1$d &lt;/font> vorinstallierte System Apps</string>
+    <string name="SoftMgr_AppMove_Clean">Ihr System ist in gutem Zustand, &lt;font color=\"#17A4F5\">ohne &lt;/font>verschieben von App(s)</string>
+    <string name="SoftMgr_AppMove_Suggest1">&lt;font color=\"#17A4F5\">%1$d paragraph&lt;/font>App(s) können auf die SD Karte verschoben werden</string>
     <string name="SoftMgr_AppMove_Suggest2">without moving, &lt;font color=\"#17A4F5\">%1$d paragraph&lt;/font>software has been on the SD card</string>
-    <string name="SoftMgr_SdApk_LongAgo">&lt;font color=\"#17A4F5\">a long time&lt;/font>never managed a package of SD card</string>
+    <string name="SoftMgr_SdApk_LongAgo">&lt;font color=\"#17A4F5\">lange &lt;/font>nicht die Speicher karte nach auf apks untersucht</string>
     <string name="SoftMgr_SdApk_DaysAgo">vor &lt;font color=\"#17A4F5\">%1$d Tag(en)&lt;/font> durchsucht</string>
-    <string name="SoftMgr_SdApk_Today">&lt;font color=\"#17A4F5\">today&lt;/font>Packages have been finishing off the SD card</string>
+    <string name="SoftMgr_SdApk_Today">&lt;font color=\"#17A4F5\">today&lt;/font> apk(s) auf SD Karte überprüft</string>
     <string name="SoftMgr_Can_Opt">&lt;font color=\"#17A4F5\"> Optimierung(en) möglich &lt;/ font></string>
-    <string name="SoftMgr_App_OptDesc1">%1$d Rechte, &lt;font color=\"#17A4F5\"> %2$d &lt;/ font> evtl. nicht benötigt, &lt;font color=\"#17A4F5\"> %3$d &lt;/ font> evtl. benötigt</string>
-    <string name="SoftMgr_App_OptDesc2">%1$d Rechte, &lt;font color=\"#17A4F5\"> %2$d &lt;/ font> evtl. nicht benötigt</string>
-    <string name="SoftMgr_App_OptDesc3">%1$d Rechte, &lt;font color=\"#17A4F5\"> %2$d &lt;/ font> evtl. benötigt</string>
-    <string name="SoftMgr_App_OptedDesc">%1$d Rechte, &lt;font color=\"#17A4F5\"> %2$d &lt;/ font> sind optimal</string>
+    <string name="SoftMgr_App_OptDesc1">%1$d verwaltbare Rechte, &lt;font color=\"#17A4F5\"> %2$d &lt;/ font> evtl. nicht benötigt, &lt;font color=\"#17A4F5\"> %3$d &lt;/ font> evtl. benötigt</string>
+    <string name="SoftMgr_App_OptDesc2">%1$d verwaltbare Rechte, &lt;font color=\"#17A4F5\"> %2$d &lt;/ font> evtl. nicht benötigt</string>
+    <string name="SoftMgr_App_OptDesc3">%1$d verwaktbare Rechte, &lt;font color=\"#17A4F5\"> %2$d &lt;/ font> evtl. benötigt</string>
+    <string name="SoftMgr_App_OptedDesc">%1$d verwaltbare Rechte, &lt;font color=\"#17A4F5\"> %2$d &lt;/ font> optimal</string>
     <string name="SoftMgr_Order">Sortieren</string>
     <string name="SoftMgr_NewApp">Nicht konfigurierte App</string>
     <string name="SoftMgr_Signature_Error">%1$s (Signatur Fehler)</string>
     <string name="SoftMgr_Down_Install">%1$s (Downgrade Installation)</string>
-    <string name="SoftMgr_NewApp_Configuration">%1$d Empfehlung(en)</string>
-    <string name="SoftMgr_AppUninstall">Deinstallieren</string>
-    <string name="SoftMgr_AppUninstall_Recycle">Mülleimer</string>
-    <string name="SoftMgr_AppUninstall_Action">Deinstallieren ausgewählt (%1$d Apps)</string>
-    <string name="SoftMgr_AppUninstall_Uninstalling">Deinstallieren %1$s</string>
+    <string name="SoftMgr_NewApp_Configuration">%1$d neue App(s) zum konfigurieren</string>
+    <string name="SoftMgr_AppUninstall">Benutzer Apps deinstallieren</string>
+    <string name="SoftMgr_AppUninstall_Recycle">deativierte System Apps</string>
+    <string name="SoftMgr_AppUninstall_Action">%1$d App(s) deinstallieren</string>
+    <string name="SoftMgr_AppUninstall_Uninstalling">deinstalliere %1$s</string>
     <string name="SoftMgr_AppUninstall_ClearCache">Gereinigt die SD-Karte Cache %1$s</string>
     <string name="SoftMgr_AppUninstall_StartClear">Leeren Sie die SD-Karte Cache deinstallierten Apps</string>
     <string name="SoftMgr_AppUninstall_SDCleanPrompt">Deinstallieren von %1$d App(s)?</string>
     <string name="SoftMgr_AppUninstall_Uninstall">Deinstallieren</string>
     <string name="SoftMgr_AppUninstall_SysWarning">built-in software to streamline the system may result in serious consequences. Please click on the unlock button to continue.</string>
-    <string name="SoftMgr_SysUninstall">Apps entfernen</string>
+    <string name="SoftMgr_SysUninstall">System Apps deaktivieren</string>
     <string name="SoftMgr_SysUninstall_HIPS_Required">Dienst zur App Rechte Verwaltung nicht aktiv. Nicht alle Funktionen von LBE verfügbar.</string>
     <string name="SoftMgr_SysUninstall_RecycleBin">Papierkorb</string>
-    <string name="SoftMgr_SysUninstall_EnterRecycleBin">in den Papierkorb</string>
+    <string name="SoftMgr_SysUninstall_EnterRecycleBin">deaktivierte Systemapps wiederherstellen</string>
     <string name="SoftMgr_SysUninstall_Uninstalling">"Entfernung: "</string>
     <string name="SoftMgr_SysUninstall_Restore">Wiederherstellung:</string>
     <string name="SoftMgr_SysUninstall_UninsFail">Entfernung fehlgeschlagen:</string>
-    <string name="SoftMgr_SysUninstall_RootClean">LBE security master hat Ihnen geholfen zu deinstallieren %1$s , wie Sie die Freigabe %2$s System Raum</string>
-    <string name="SoftMgr_SysUninstall_RootClean2">LBE security master hat Ihnen geholfen zu deinstallieren %1$s , die Verringerung der Belastung auf dem System.</string>
-    <string name="SoftMgr_SysUninstall_FreezeClean">LBE Security Master ist es, Ihnen einfrieren %1$s , die Verringerung der Belastung auf dem System.</string>
+    <string name="SoftMgr_SysUninstall_RootClean">%1$s wurde deinstalliert, %2$s frei geworden</string>
+    <string name="SoftMgr_SysUninstall_RootClean2">%1$s wurde deinstalliert</string>
+    <string name="SoftMgr_SysUninstall_FreezeClean">%1$s wurde eingefroren</string>
     <string name="SoftMgr_SysUninstall_RFail">Wiederherstellen fehlgeschlagen:</string>
     <string name="SoftMgr_Uninstall_UsrFail">Deinstallation fehlgeschlagen</string>
     <string name="SoftMgr_AppPermission">App Zugriffsrechte verwalten</string>
@@ -1830,7 +1828,7 @@ Sicher, dass Sie alle ausgewählten Apps wiederherstellen wollen?"</string>
     <string name="SoftMgr_SysUninstall_Enabled_Empty">Keine System App kann aktuell deinstalliert werden</string>
     <string name="SoftMgr_SysUninstall_NoSD">System App Deinstallation benötigt eine SD-Karte für Backups. Versuchen Sie es bitte wieder nach dem einlegen einer SD-Karte</string>
     <string name="SoftMgr_App_UnknownSize">Unbekannte Größe</string>
-    <string name="SoftMgr_SDHelper">APK Manager.</string>
+    <string name="SoftMgr_SDHelper">APK Manager</string>
     <string name="SoftMgr_SDHelper_Scan">Suche ...</string>
     <string name="SoftMgr_SDHelper_InnerSD">Auf Internem Speicher</string>
     <string name="SoftMgr_SDHelper_DefaultSD">Auf Standart SD Karte</string>
@@ -1871,7 +1869,7 @@ Zuletzt geändert:
     <string name="SoftMgr_SDHelper_SelectDifSig">Ausw. Sig passt nicht</string>
     <string name="SoftMgr_OneKey_Optimize">LBE Vorschläge für alle übernehmen</string>
     <string name="SoftMgr_All_Apks">alle App(s)</string>
-    <string name="SoftMgr_Recommend_Opt">Rechtevergabe evtl. nicht optimal </string>
+    <string name="SoftMgr_Recommend_Opt">evtl. nicht optimal \u0020</string>
     <string name="SoftMgr_Opted">Rechte entsprechen der Empfehlung </string>
     <string name="SoftMgr_CanOpt_Count">%1$d Recht(e)</string>
     <string name="SoftMgr_Opted_Count">%1$d sind optimal</string>
@@ -1913,7 +1911,7 @@ Zuletzt geändert:
     <string name="SysOpt_Backup">Since the launch of the housekeeper and the White List Task</string>
     <string name="SysOpt_Task_Running_Tip">&lt;font color=\"#FF7E00\">%1$d &lt;/font>aktive Tasks</string>
     <string name="SysOpt_AutoBoot_Tip">&lt;font color=\"#FF7E00\">%1$d &lt;/font>App(s) starten im Hintergrund/Boot</string>
-    <string name="SysOpt_AutoBoot_Tip2">&lt;font color=\"#FF7E00\">%1$d &lt;/font>App(s) starten automatisch</string>
+    <string name="SysOpt_AutoBoot_Tip2">&lt;font color=\"#FF7E00\">%1$d &lt;/font>App(s) vom Autostart blockiert</string>
     <string name="SysOpt_White_Tip">&lt;font color=\"#FF7E00\">%1$d &lt;/font>App(s) auf der weißen Liste vorm Beenden geschützt</string>
     <string name="SysOpt_Cache_Tip1">&lt;font color=\"#FF7E00\">längere Zeit &lt;/font>nicht auf Datenmüll überprüft</string>
     <string name="SysOpt_Cache_Tip2">vor &lt;font color=\"#FF7E00\">%1$d Tag(en) &lt;/font> nach Datenmüll gescannt</string>
@@ -1944,8 +1942,8 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SysOpt_RejectAutoStart">App wird nicht automatisch gestartet</string>
     <string name="SysOpt_AllowBootStart">App wird beim Gerätestart geladen</string>
     <string name="SysOpt_AllowAutoStart">App kann automatisch gestartet werden</string>
-    <string name="SysOpt_RejectNotif">Verbiete Benachrichtigungen in der Statusleiste</string>
-    <string name="SysOpt_AllowNotif">Erlaube Benachrichtigungen in der Statusleiste</string>
+    <string name="SysOpt_RejectNotif">Benachrichtigungen in Statusleiste verweigern</string>
+    <string name="SysOpt_AllowNotif">Benachrichtigungen in Statusleiste zulassen</string>
     <string name="SysOpt_Clean">Cache löschen</string>
     <string name="SysOpt_Clean_Des">Check the SD card to clean junk files and system cache</string>
     <string name="SysOpt_Cache_Sys">App Cache</string>
@@ -1995,7 +1993,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SysOpt_Hardware_Device_Other">Sensoren</string>
     <string name="SysOpt_Hardware_Device_Rank">Rangliste</string>
     <string name="SysOpt_Hardware_Antutu_Tips">mit * markierte Daten von www.antutu.net</string>
-    <string name="SysOpt_Running_Memory">Arbeitsspeicher (verwendet/Gesamt): &lt;font color=#40C0FF>%1$s>&lt;/font></string>
+    <string name="SysOpt_Running_Memory">Arbeitsspeicher (verwendet / gesamt): &lt;font color=#40C0FF>%1$s>&lt;/font></string>
     <string name="SysOpt_DisplayDetails">&lt;u> Details   &lt;/u></string>
     <string name="SysOpt_Hardware_Brand">Brand</string>
     <string name="SysOpt_Hardware_Internet_Tips">Networking for more information</string>
@@ -2084,7 +2082,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="HIPS_Perm_Mobile_Connectivity_Hint">%1$s App(s) mit Zugriff auf mobiles Internet</string>
     <string name="HIPS_Perm_WIFI_Connectivity">WIFI Nutzung</string>
     <string name="HIPS_Perm_WIFI_Connectivity_Desc">WIFI Nutzung</string>
-    <string name="HIPS_Perm_WIFI_Connectivity_Hint">%1$s App(s) mit Zugriff auf WLAN</string>
+    <string name="HIPS_Perm_WIFI_Connectivity_Hint">%1$s App(s) mit Zugriff auf WiFi</string>
     <string name="HIPS_Perm_Bluetooth_Connectivity">Bluetooth Nutzung</string>
     <string name="HIPS_Perm_Bluetooth_Connectivity_Desc">Bluetooth Nutzung</string>
     <string name="HIPS_Perm_Bluetooth_Connectivity_Hint">%1$s App(s) mit Zugriff auf Bluetooth</string>
@@ -2153,5 +2151,19 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Home_Sepcial_Thanks_Title">Special Thanks</string>
     <string name="boot_time_notification">Boottime is %1$s seconds</string>
 
+    <string name="Battery_Logs">Protokoll</string>
+    <string name="Battery_Logs_Des">Infos zu Stromsparmaßnahmen</string>
+    <string name="SoftMgr_Recommend_Retain">System relevante Apps</string>
+    <string name="AV_Waiting">in Warteschlange</string>
+    <string name="Generic_Finished">fertig</string>
+    <string name="AV_ScanInstalled">Scanne installierte Apps:</string>
+    <string name="AV_ScanAppsInSD">Scannne nicht installierte apksl:</string>
+    <string name="AV_Result">Ergebnisse:</string>
+    <string name="AV_WaitingResume">bitte warten</string>
+    <string name="AV_LastScanResult_Safe">%1$d App(s) überpüft, keine Bedrohung erkant</string>
+    <string name="AV_LastScanResult_Warn">%1$d App(s) überprüft,%2$d Bedrohung(en) erkannt</string>
+    <string name="AV_NotDeep"> nicht beim Schnell-Scan</string>
+    <string name="Battery_Consumption_CPU">CPU Nutzung</string>
+    <string name="Battery_Consumption_Sensor">Verbrauch durch Sensoren</string>
       
 </resources>
