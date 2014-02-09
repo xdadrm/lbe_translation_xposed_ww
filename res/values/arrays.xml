@@ -629,6 +629,16 @@ There may be false positives"</item>
         <item>There dialog box prompts to install, requires you to manually confirm</item>
         <item>Completely disable the automatic installation of software behavior</item>
     </string-array>
+    <string-array name="yellow_correction_no_num">
+        <item>Modify Mechant Data</item>
+        <item>Add or Modify the Number</item>
+        <item>Other Problems</item>
+    </string-array>
+    <string-array name="yellow_correction_has_num">
+        <item>Merchant Name incorrect</item>
+        <item>Correct Businessdata</item>
+        <item>Private Number</item>
+    </string-array>
     <string-array name="special_thanks_list">
         <item>xda_drm from xda-developers</item>
         <item>vuhien from xda-developers</item>

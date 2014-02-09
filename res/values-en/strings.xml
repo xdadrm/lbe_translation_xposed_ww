@@ -201,7 +201,7 @@
     <string name="AD_Risk_App">Apps to be reviewed (%1$d)</string>
     <string name="AD_No_Risk_App">Without risky Adware (%1$d)</string>
     <string name="AD_No_Exist_App">No Adware</string>
-    <string name="AD_Already_Blocked">Advertising blocked</string>
+    <string name="AD_Already_Blokced">Advertising blocked</string>
     <string name="AD_OneClick_Disable">Oneclick Disable</string>
     <string name="AD_Cancel_Scan">Cancel a scan</string>
     <string name="AD_User_Feedback">User feedback</string>
@@ -1895,8 +1895,8 @@
     <string name="SysOpt">Phone Accelerate</string>
     <string name="SysOpt_Backup">Since the launch of the housekeeper and the White List Task</string>
     <string name="SysOpt_Task_Running_Tip">&lt;font color=#FF7E00>%1$d&lt;/font> pending cleanup tasks</string>
-    <string name="SysOpt_AutoBoot_Tip">&lt;font color=#FF7E00>%1$d&lt;/font> Applications background / boot from start, the proposed treatment</string>
-    <string name="SysOpt_AutoBoot_Tip2">&lt;font color=#FF7E00>%1$d&lt;/font> Applications from start monitoring</string>
+    <string name="SysOpt_AutoBoot_Tip">&lt;font color=#FF7E00>%1$d&lt;/font> Applications background / Start at boot</string>
+    <string name="SysOpt_AutoBoot_Tip2">&lt;font color=#FF7E00>%1$d&lt;/font> Applications autostart monitoring</string>
     <string name="SysOpt_White_Tip">&lt;font color=#FF7E00>%1$d&lt;/font> Applications in the whitelist protection</string>
     <string name="SysOpt_Cache_Tip1">&lt;font color=#FF7E00>A long time &lt;/font> since check for garbage</string>
     <string name="SysOpt_Cache_Tip2">Last garbage check &lt;font color=#FF7E00>%1$d days&lt;/font> ago</string>
@@ -1914,17 +1914,17 @@
     <string name="SysOpt_Boost_AppWidget">You are using %1$s desktop plug-ins. To avoid Desktop exception from start housekeeper does not intercept the desktop plug-in applications . Please remove %1$s desktop plug and try again</string>
     <string name="SysOpt_Boost_Service">System is using %1$s to provide critical services ( input method ) . To avoid mobile paralyzed from start housekeeper does not intercept these applications.</string>
     <string name="SysOpt_Boost_ShowSystem">WARNING ! Modifing system software settings may cause the phone to crash.  Please click the unlock button to proceed</string>
-    <string name="SysOpt_Boost_Boot">Boot from start</string>
+    <string name="SysOpt_Boost_Boot">Start at Boot</string>
     <string name="SysOpt_Boost_Receiver">Run Background</string>
     <string name="SysOpt_Boost_Deblocking">Unlock</string>
     <string name="SysOpt_Boost_None">Congratulations! No self-starting applications</string>
     <string name="SysOpt_TrustApp">Request permission to trust this software</string>
     <string name="SysOpt_UntrustApp">The software monitors permission request</string>
     <string name="SysOpt_Boot_Permission">Boot launch permissions</string>
-    <string name="SysOpt_RejectBootStart">Forbidden boot from start, Forbidden run Background</string>
-    <string name="SysOpt_RejectAutoStart">Forbidden run Background</string>
-    <string name="SysOpt_AllowBootStart">Allow boot from start, Allow run background</string>
-    <string name="SysOpt_AllowAutoStart">Allow run background</string>
+    <string name="SysOpt_RejectBootStart">Forbidden to Start at Boot or run in Background</string>
+    <string name="SysOpt_RejectAutoStart">Forbidden to run in Background</string>
+    <string name="SysOpt_AllowBootStart">Allow Start at Boot and run in Background</string>
+    <string name="SysOpt_AllowAutoStart">Allow to run in background</string>
     <string name="SysOpt_RejectNotif">Block pop-up message notification bar</string>
     <string name="SysOpt_AllowNotif">Allow pop-up message notification bar</string>
     <string name="SysOpt_Clean">Clean trash</string>
@@ -2134,5 +2134,59 @@
     <string name="Home_Sepcial_Thanks_Title">Special Thanks</string>
     <string name="boot_time_notification">Boottime is %1$s seconds</string>
 
+
+    <string name="AD_OneClick_Diable">Oneclick Disable</string>
+    <string name="AV_PackPattern">virus pattern database </string>
+    <string name="AV_PackPattern_Des">virus patterns installed to the SD card </string>
+    <string name="AV_PackPattern_NoSD">SD not mounted, cancel the operation</string>
+    <string name="AV_PackPattern_OVER">virus patterns have been installed to $1%s</string>
+    <string name="Generic_Copyright_Version">LBE group product, version:%1$s</string>
+    <string name="Generic_Uninstalled"> has been uninstalled </string>
+    <string name="HIPS_Conflict_MIUI_Step1_V5_SC"> click "authorization" </string>
+    <string name="HIPS_Conflict_MIUI_Step2_V5_SC"> close "application access monitoring" </string>
+    <string name="HIPS_MasterKeyNotsupported"> "MasterKey vulnerabilities detected have repair your system, LBE MasterKey vulnerability patch is no longer needed. </string>
+    <string name="HIPS_MasterKeyUpgrade"> "active defense services require you to upgrade the LBE MasterKey patch to the updated version to normal operation. </string>
+    <string name="Keyguard_Alternative">Quick Unlock</string>
+    <string name="Keyguard_Fast_Unlock_Tips"> you can achieve fast unlock through the following ways to unlock (need to download the plug-in privacy space) </string>
+    <string name="Keyguard_Message_Update"> Security Master is not supported by the current version of privacy, please upgrade to the next version of the 2.2 privacy plugin, obtain better privacy experience, upgrade after you encrypted files into the normal use. </string>
+    <string name="Keyguard_Name_Facerec">Face Recognition</string> 
+    <string name="Keyguard_Name_Nfc">NFC unlock</string>
+    <string name="Keyguard_Name_Pattern">Pattern unlock</string>
+    <string name="Keyguard_Name_Pin">PIN unlock</string>
+    <string name="Keyguard_subkeyguard_nfc">NFC unlock </string>
+    <string name="Keyguard_Summary_Facerec"> the one and only facial recognition to unlock the </string>
+    <string name="Keyguard_Summary_Nfc">Quickly unlock using NFC</string>
+    <string name="Keyguard_Tips_Pattern_Unlock"> please draw pattern to unlock </string>
+    <string name="no_subject_view"> (no subject) </string>
+    <string name="phone_add_to_contact"> Add contacts </string>
+    <string name="phone_block_tips"> when the shutdown, spacing, shutdown mode, if the system prompts the MMI code error, please manually open the call transfer function, you can directly dial the operator service telephone directly open (free) </string>
+    <string name="phone_Click_to_Close"> Click shut down </string>
+    <string name="phone_Click_to_Open"> click open </string>
+    <string name="Phone_deal_later"> does not handle </string>
+    <string name="phone_delete_black_failed">delete blacklist number failed!</string>
+    <string name="phone_delete_white_failed">delete white list number failed!</string>
+    <string name="phone_number_add_failed">add number failed </string>
+    <string name="phone_number_exist_black">this number is already in the blacklist, are you sure you want to set this number to white list? </string>
+    <string name="phone_number_exist_black_inneed_add"> this number is already in the list, do not need to add! </string>
+    <string name="phone_number_exist_white">this number is already in the list, are you sure you want to set this number to blacklist? </string>
+    <string name="phone_number_exist_white_inneed_add"> this number is already in the list, do not need to add! </string>
+    <string name="phone_number_tip_title">Prompt</string>
+    <string name="phone_numbers_add_failed"> the following numbers:%1$s failed to add </string>
+    <string name="phone_numbers_exist_black"> the following numbers:%1$s already exists in the black list, put these numbers add to white list? </string>
+    <string name="phone_numbers_exist_white"> the following numbers:%1$s already exists in the white list, add to the blacklist? </string>
+    <string name="private_download_tips">You need to download the plug-in privacy space, to achieve rapid unlocking, download? </string>
+    <string name="private_skip_introduction"> skip </string>
+    <string name="SoftMgr_SysUninstall_Restore_Failed">of %s failed </string>
+    <string name="SoftMgr_SysUninstall_Restore_Successfully"> successfully restored the pre installed software%s </string>
+    <string name="SysOpt_TaskMgr_WhiteWithAlarm_Clean"> this application has wake-up alarm clock, forced to close may cause your configuration in the application of failure alarm </string> 
+    <string name="SysOpt_TaskMgr_WhiteWithAlarm_Remove"> this application has wake-up alarm clock, ban is removed from the list. </string>
+    <string name="SysOpt_TaskMgr_WhiteWithLauncher_Clean"> this application for the desktop or mini desktop application, forced to close may lead to desktop restart </string>
+    <string name="SysOpt_TaskMgr_WhiteWithLauncher_Remove"> this application for the desktop or mini desktop application, ban is removed from the list. </string>
+    <string name="Update_Frequently_Toast"> you just check the update, please try again later. </string>
+    <string name="yellow_clear">empty</string>
+    <string name="yellow_hot_city">Hot City</string>
+    <string name="yellow_search">search</string>
+    <string name="yellow_select_number">select Number</string>
+    <string name="yellow_shop_call">call</string>
       
 </resources>
