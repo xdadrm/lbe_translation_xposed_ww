@@ -320,7 +320,7 @@
     <string name="Battery_Backup_Mode">Backup mode</string>
     <string name="Battery_Mode_Modify">Adjustment</string>
     <string name="Battery_Mode_NoRunningMode">Not enable any power Plan</string>
-    <string name="Battery_Night_DefaultComment">I'm lazy, did not leave a comment ( I )</string>
+    <string name="Battery_Night_DefaultComment">I\'m lazy, did not leave a comment ( I )</string>
     <string name="Battery_TimePeriod_Start">Start time</string>
     <string name="Battery_TimePeriod_End">End Time</string>
     <string name="Battery_Trigger_Battery">Trigger -based battery status</string>
@@ -536,7 +536,7 @@
     <string name="Battery_Database_SuperMode_Comment">Low battery use, protect the battery</string>
     <string name="Battery_Database_RestDayNightMode_Name">Closed Friday night plans</string>
     <string name="Battery_Database_RestDayNightMode_Comment">Good nights rest day use set</string>
-    <string name="Battery_Database_NightPlan_Name">Night's rest plan</string>
+    <string name="Battery_Database_NightPlan_Name">Night\'s rest plan</string>
     <string name="Battery_Database_NightPlan_Comment">Suitable for use at night working set</string>
     <string name="Battery_Log_Service_Start">^ _ ^, Batteries assistant is Here</string>
     <string name="Battery_Log_Service_Stop" formatted="false">%> _ &lt;%, The battery assistant laid off</string>
@@ -950,7 +950,7 @@
     <string name="Traffic_Monitor_Dataplan_Amount">Total</string>
     <string name="Traffic_Net_App">Networking Software</string>
     <string name="Traffic_Rank_Month">Top this month</string>
-    <string name="Traffic_Rank_Today">Today's Top</string>
+    <string name="Traffic_Rank_Today">Today\'s Top</string>
     <string name="Traffic_rank_Realtime">Real-time Top</string>
     <string name="Traffic_Net_Firewall">Network firewall</string>
     <string name="Traffic_Carrier_CMCC">China Mobile</string>
@@ -1632,7 +1632,7 @@
     <string name="private_install_fail">Privacy Space installation fails</string>
     <string name="private_setting_qasummary">Since setting a false password, security question failure</string>
     <string name="private_sms_unread">Unread</string>
-    <string name="Scan_RecommendScan">Protect your phone's security, examine immediately.</string>
+    <string name="Scan_RecommendScan">Protect your phone\'s security, examine immediately.</string>
     <string name="Scan_RecommendScan_LongTime">Long time since last scan.</string>
     <string name="Scan_JustScanned">Just finished an examination</string>
     <string name="Scan_LastScanTitle">Last examination time in %1$s</string>
@@ -1698,7 +1698,7 @@
     <string name="Scan_Check_Update_Time_Fixed">Checked</string>
     <string name="Scan_Check_Update_Time_Check">Security master version update</string>
     <string name="Scan_Check_Update_Time_Checked">You have checked version update</string>
-    <string name="Scan_Check_Fixed_Loophole">You've just repaired vulnerabilities</string>
+    <string name="Scan_Check_Fixed_Loophole">You\'ve just repaired vulnerabilities</string>
     <string name="Scan_Result_Excellent">Mobile has been optimized to perfection</string>
     <string name="Scan_Result_Good">Almost done, please continue to optimize</string>
     <string name="Scan_Result_Poor">There are more phone risks, please Optimize Now</string>
@@ -2071,7 +2071,7 @@
     <string name="HIPS_Perm_MMS_Access">read MMS data</string>
     <string name="HIPS_Perm_Recorder_Camera">Photos</string>
     <string name="HIPS_Perm_Recorder_VoiceCall">recorded call audio</string>
-    <string name="thanks_tips">Thank these users for their help in LBE's progress ^ _ ^ WIHOUT%1$s</string>
+    <string name="thanks_tips">Thank these users for their help in LBE\'s progress ^ _ ^ WIHOUT%1$s</string>
     <string name="Desktop_Traffic_Month_Hint">month :%1$s</string>
     <string name="Phone_Database_Marker_Name_Correction">number of error correction</string>
     <string name="Phone_correction_no_data">no need correcting numbers</string>
