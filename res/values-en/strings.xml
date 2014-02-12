@@ -1915,7 +1915,7 @@
     <string name="SysOpt_Boost_Service">System is using %1$s to provide critical services ( input method ) . To avoid mobile paralyzed from start housekeeper does not intercept these applications.</string>
     <string name="SysOpt_Boost_ShowSystem">WARNING ! Modifing system software settings may cause the phone to crash.  Please click the unlock button to proceed</string>
     <string name="SysOpt_Boost_Boot">Start at Boot</string>
-    <string name="SysOpt_Boost_Receiver">Run Background</string>
+    <string name="SysOpt_Boost_Receiver">Run in Background</string>
     <string name="SysOpt_Boost_Deblocking">Unlock</string>
     <string name="SysOpt_Boost_None">Congratulations! No self-starting applications</string>
     <string name="SysOpt_TrustApp">Request permission to trust this software</string>
@@ -1967,7 +1967,7 @@
     <string name="SysOpt_TaskMgr_AddToWhite">Add white list</string>
     <string name="SysOpt_TaskMgr_ToWhiteList">Add white list (%1$d)</string>
     <string name="SysOpt_TaskMgr_AddWhite">WhiteList</string>
-    <string name="SysOpt_WhiteList_Tips">Protect your mission, not to be OneClick clean-up</string>
+    <string name="SysOpt_WhiteList_Tips">Protect Apps from OneClick clean-up</string>
     <string name="SysOpt_Hardware">Device details</string>
     <string name="SysOpt_Hardware_Basic">Basic Information</string>
     <string name="SysOpt_Hardware_CPU_Storage">CPU</string>
@@ -1976,7 +1976,7 @@
     <string name="SysOpt_Hardware_Device_Other">Sensor</string>
     <string name="SysOpt_Hardware_Device_Rank">Rank Information</string>
     <string name="SysOpt_Hardware_Antutu_Tips">Starred data from security Antutu</string>
-    <string name="SysOpt_Running_Memory">Running out of Memory: &lt;font color=#40C0FF>%1$s>&lt;/font></string>
+    <string name="SysOpt_Running_Memory">Memory (RAM): &lt;font color=#40C0FF>%1$s&lt;/font></string>
     <string name="SysOpt_DisplayDetails">&lt;u> Details   &lt;/u></string>
     <string name="SysOpt_Hardware_Brand">Brand</string>
     <string name="SysOpt_Hardware_Internet_Tips">Networking for more information</string>
