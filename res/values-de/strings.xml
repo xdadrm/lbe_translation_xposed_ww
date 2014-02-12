@@ -321,7 +321,7 @@
     <string name="Battery_Trigger_InvalidAction">Security Master Benachrichtigung</string>
     <string name="Battery_Condition_ChargeOn">beim Einstecken des Ladekabels</string>
     <string name="Battery_Condition_ChargeOff">beim Abstecken des Ladekabels</string>
-    <string name="Battery_Condition_LevelChange">%1$s von 100 %%</string>
+    <string name="Battery_Condition_LevelChange">&lt;font color=#17A4F5> &lt;U>%1$s &lt;/U> &lt;/font>, &lt;font color=#17A4F5> &lt;U>%2$s &lt;/U> &lt;/font></string>
     <string name="Battery_Condition_Level">Akku: %1$d%% (%2$s%3$d%%)</string>
     <string name="Battery_Condition_LevelFull">wenn Akku 100% voll</string>
     <string name="Battery_Condition_LevelLow">Akkustand niedrig %1$d%%</string>
@@ -335,21 +335,21 @@
     <string name="Battery_Condition_Smaller">Stromstärke kleiner als %1$d%%</string>
     <string name="Battery_Condition_Bigger">Stromstärke größer als %1$d%%</string>
     <string name="Battery_Condition_BatteryFull">der Akkuz voll ist</string>
-    <string name="Battery_Condition_BatteryLow">Akkustand niedrig ist (&lt; %1$d %% )</string>
+    <string name="Battery_Condition_BatteryLow">Akkustand niedrig ist (&lt;%1$d%%)</string>
     <string name="Battery_Condition_BatteryUsing">Akku-Nutzung</string>
     <string name="Battery_Condition_Charging">Aufladen</string>
     <string name="Battery_Condition_AppForeground">Vorne läuft</string>
     <string name="Battery_Condition_AppBackground">Zurück zurück</string>
     <string name="Battery_Condition_Can_Use">Sie können auch</string>
     <string name="Battery_Action_KillSelf_ByLauncher">Diese Anwendung beendet reinigen ihr Hintergrund</string>
-    <string name="Battery_Action_KillApp">OneClick clean-up</string>
+    <string name="Battery_Action_KillApp">Taskkiller</string>
     <string name="Battery_Action_LimitCPU">CPU Taktfrequenz beschränken</string>
     <string name="Battery_Action_PlayNotif">Ton abspielen</string>
     <string name="Battery_Action_KillApp_Tip">Schließt laufende Hintergrund Apps</string>
-    <string name="Battery_Action_PlayNotif_Tip">Ton wird abgespeilt wenn Aktion ausgeführt wird</string>
+    <string name="Battery_Action_PlayNotif_Tip">Ton wird abgespielt wenn Aktion ausgeführt wird</string>
     <string name="Battery_Action_KillSelf_Tip">Aktion beendet sich selbst</string>
     <string name="Battery_Action_LimitCPU_Tip">Aktions startet ab einer Gewissen CPU Taktfrequenz</string>
-    <string name="Battery_Action_ActiveModeDes">Aktivieren Sie das angegebenen Stromsparprofil</string>
+    <string name="Battery_Action_ActiveModeDes">Aktivieren Sie das angegebene Stromsparprofil</string>
     <string name="Battery_Action_ActiveMode">Energiesparprofil:\u0020 &lt;font color=\"#17A4F5\"> %1$s &lt;/ font></string>
     <string name="Battery_Action_ActiveAct">Aktion ausführen</string>
     <string name="Battery_Action_MemFreed">%1$s Speicher freiogeben</string>
@@ -475,7 +475,7 @@
     <string name="Battery_HardwareConsumption_BT">Energieverbrauch durch Bluetooth</string>
     <string name="Battery_BatteryInfo_Edit">max. mAh anpassen</string>
     <string name="Battery_BatteryInfo">Akku-Info</string>
-    <string name="Battery_BatteryInfo_BatteryHealth">Akkuzustand</string>
+    <string name="Battery_BatteryInfo_BatteryHealth">Akku Zustand</string>
     <string name="Battery_BatteryInfo_HealthGood">gut</string>
     <string name="Battery_BatteryInfo_HealthBroke">schlecht</string>
     <string name="Battery_BatteryInfo_MaxElectricity">maximale Stromstärke</string>
@@ -619,7 +619,7 @@
     <string name="exit_edit_mode_to_add">Verlassen Sie den Bearbeitungsmodus hinzufügen</string>
     <string name="can_not_launch_app">Anwendung kann nicht gestartet ist, kann nicht installiert oder deinstalliert wurde</string>
     <string name="lbe_function_item">LBE funktionale Elemente</string>
-    <string name="one_key_clear_already_add_to_desktop">OneClick clean-up wurde auf dem Homescreen verlinkt</string>
+    <string name="one_key_clear_already_add_to_desktop">Taskkiller wurde auf dem Homescreen verlinkt</string>
     <string name="Shortcut_Desc">LBE Security Master wird aktualisiert!</string>
     <string name="Shortcut_FirstUse_Hint">"Vorsichtig konzipierte Benutzeroberfläche. 
 Wir sichern Ihr Telefon ganz und gar! 
@@ -844,7 +844,7 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Home_Ad_Block">Werbung</string>
     <string name="Home_Virus_Kill">Anti-Virus</string>
     <string name="Home_Defense">Active Defense</string>
-    <string name="Home_Notification_Manager">&lt;font size="4">Benachrich- tigungen&lt;/font></string>
+    <string name="Home_Notification_Manager">Benachrich- tigungen</string>
     <string name="Home_Personal_Privacy">Verschlüsselung</string>
     <string name="Home_Anti_Burglary">Anti-Diebstahl</string>
     <string name="Home_Communication_Tools">Kommunikations-Tools</string>
