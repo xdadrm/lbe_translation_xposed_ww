@@ -251,7 +251,7 @@ Mogą powodować obciążenia"</item>
         <item>"spr|Złośliwe rozprzestrzenianie
 Automatyczne rozprzestrzenianie złośliwych kodów"</item>
         <item>"exp|Koszta
-Ruch danych komórk. i wysyłanie SMS
+Ruch danych komórk. i ciche SMS
 powodując dodatkowe koszta"</item>
         <item>"sys|Uszkodzenie systemu
 Niektóre uszkodzenia systemu
@@ -319,59 +319,6 @@ okienka reklamowe, ipt."</item>
         <item>Zawsze zezwalaj</item>
         <item>Zawsze blokuj</item>
     </string-array>
-    <string-array name="defaultfilesuffix">
-        <item>epub</item>
-        <item>chm</item>
-        <item>ndk</item>
-        <item>umd</item>
-        <item>pdf</item>
-    </string-array>
-    <string-array name="filesuffix">
-        <item>avi</item>
-        <item>wmv</item>
-        <item>flv</item>
-        <item>mov</item>
-        <item>3gp</item>
-        <item>mp4</item>
-        <item>mpg</item>
-        <item>rmvb</item>
-        <item>mp3</item>
-        <item>wav</item>
-        <item>wma</item>
-        <item>mid</item>
-        <item>flac</item>
-        <item>lrc</item>
-        <item>m4a</item>
-        <item>krc</item>
-        <item>apk</item>
-        <item>f4v</item>
-        <item>dat</item>
-        <item>tsk</item>
-        <item>db3</item>
-    </string-array>
-    <integer-array name="filesuffix_id">
-        <item>1</item>
-        <item>2</item>
-        <item>4</item>
-        <item>8</item>
-        <item>16</item>
-        <item>32</item>
-        <item>64</item>
-        <item>128</item>
-        <item>256</item>
-        <item>512</item>
-        <item>1024</item>
-        <item>2048</item>
-        <item>4096</item>
-        <item>8192</item>
-        <item>16384</item>
-        <item>32768</item>
-        <item>65536</item>
-        <item>131072</item>
-        <item>262144</item>
-        <item>524288</item>
-        <item>1048576</item>
-    </integer-array>
     <string-array name="misscalltype">
         <item>Dzwonek i wibracja</item>
         <item>Dzwonek</item>
@@ -422,6 +369,7 @@ okienka reklamowe, ipt."</item>
         <item>Usuń</item>
     </string-array>
     <string-array name="private_call_operator">
+        <item>Zadzwoń</item>
         <item>Wyślij SMSa</item>
         <item>Usuń</item>
         <item>Przywróć do systemu</item>
@@ -434,6 +382,8 @@ okienka reklamowe, ipt."</item>
     <string-array name="private_message_dialog_operator">
         <item>Usuń tego SMSa</item>
         <item>Przywróć do skrzynki odbiorczej</item>
+        <item>Kopia</item>
+        <item>Przekierowanie</item>
     </string-array>
     <string-array name="phone_block_type">
         <item>Połączenia i SMSy</item>
@@ -446,7 +396,7 @@ okienka reklamowe, ipt."</item>
         <item>10</item>
     </string-array>
     <string-array name="anti_adware_user_feedback_type">
-        <item>Blokowanie reklam nie powiodło się.</item>
+        <item>Nie zablokowano reklamy.</item>
         <item>Brak reklam w tej aplikacji.</item>
         <item>Aplikacja działa źle po blokadzie reklam.</item>
         <item>Brak \"Zamknij\" na banerze.</item>
@@ -622,12 +572,24 @@ okienka reklamowe, ipt."</item>
     <string-array name="app_install_manage_mode_title">
         <item>Umożliwiaj automatyczne instalacje</item>
         <item>Zapytaj</item>
+        <item>Wskazówki</item>
         <item>Blokuj automatyczne instalacje</item>
     </string-array>
     <string-array name="app_install_manage_mode_desc">
         <item>Automatyczna instalacja apk.</item>
         <item>Okna dialogowe, potwierdzanie ręczne</item>
+        <item>Automatyczne instalacje przy blokadzie ekranu, inne sytuacje wymagają ręcznego potwierdzania</item>
         <item>Wyłączenie automatycznej instalacji</item>
+    </string-array>
+    <string-array name="yellow_correction_no_num">
+        <item>Modyfikuj kontakt</item>
+        <item>Dodaj lub edytuj nr</item>
+        <item>Inne</item>
+    </string-array>
+    <string-array name="yellow_correction_has_num">
+        <item>Nieprawidłowa nazwa</item>
+        <item>Pozostałe informacje</item>
+        <item>Nr własne</item>
     </string-array>
     <string-array name="special_thanks_list">
         <item>Dziękujemy całej chińskiej ekipie LBE</item>
@@ -636,5 +598,256 @@ okienka reklamowe, ipt."</item>
         <item>Praca nad wersją polską:</item>
         <item>Slupek i Renegade</item>
         <item>- Amnezja Team</item>
+    </string-array>
+    <string-array name="atp_function_label">
+        <item>Blokada telefonu</item>
+        <item>Lokalizacja telefonu</item>
+        <item>Kopia kontaktów</item>
+        <item>Usuwanie danych</item>
+        <item>Hasło</item>
+        <item>Dźwięk alarmu</item>
+        <item>Wirtualne ostrzeżenia</item>
+    </string-array>
+    <string-array name="atp_function_des">
+        <item>Blokada telefonu przyjaciela</item>
+        <item>Lokalizowanie telefonu przyjaciela</item>
+        <item>Kopia zapasowa kontaktów przyjaciela</item>
+        <item>Usuwanie prywatnych danych i kontaktów w tel. przyjaciela.</item>
+        <item>Przypomnienie hasła</item>
+        <item>Alarm na tel. przyjaciela</item>
+        <item>Komunikat ostrzegawczy na tel. przyjaciela.</item>
+    </string-array>
+    <string-array name="empty_subject_strings">
+        <item>Brak tematu</item>
+    </string-array>
+    <string-array name="music_type_files">
+        <item>mp3</item>
+        <item>wmv</item>
+        <item>wma</item>
+        <item>acc</item>
+        <item>amr</item>
+        <item>snd</item>
+        <item>mid</item>
+        <item>midi</item>
+        <item>kar</item>
+        <item>xmf</item>
+        <item>mxmf</item>
+        <item>mpga</item>
+        <item>mpega</item>
+        <item>mp2</item>
+        <item>m4a</item>
+        <item>m3u</item>
+        <item>sid</item>
+        <item>aif</item>
+        <item>aiff</item>
+        <item>aifc</item>
+        <item>gsm</item>
+        <item>m3u</item>
+        <item>wax</item>
+        <item>ra</item>
+        <item>ram</item>
+        <item>pls</item>
+        <item>sd2</item>
+        <item>wav</item>
+        <item>flac</item>
+        <item>ape</item>
+    </string-array>
+    <string-array name="video_type_files">
+        <item>mp4</item>
+        <item>3gp</item>
+        <item>rmvb</item>
+        <item>rm</item>
+        <item>avi</item>
+        <item>flv</item>
+        <item>flash</item>
+        <item>swf</item>
+        <item>3gpp</item>
+        <item>3g2</item>
+        <item>dl</item>
+        <item>dif</item>
+        <item>dv</item>
+        <item>fli</item>
+        <item>m4v</item>
+        <item>mpeg</item>
+        <item>mpg</item>
+        <item>mpe</item>
+        <item>vob</item>
+        <item>qt</item>
+        <item>mov</item>
+        <item>mxu</item>
+        <item>lsf</item>
+        <item>lsx</item>
+        <item>mng</item>
+        <item>asf</item>
+        <item>asx</item>
+        <item>wm</item>
+        <item>movie</item>
+    </string-array>
+    <string-array name="document_type_files">
+        <item>txt</item>
+        <item>doc</item>
+        <item>docx</item>
+        <item>pdf</item>
+        <item>ppt</item>
+        <item>chm</item>
+        <item>umd</item>
+        <item>pdb</item>
+        <item>ebk2</item>
+        <item>epub</item>
+        <item>ebk</item>
+        <item>ndz</item>
+        <item>ndb1</item>
+        <item>ics</item>
+        <item>icz</item>
+        <item>csv</item>
+        <item>css</item>
+        <item>htm</item>
+        <item>html</item>
+        <item>323</item>
+        <item>uls</item>
+        <item>mml</item>
+        <item>asc</item>
+        <item>text</item>
+        <item>diff</item>
+        <item>po</item>
+        <item>rtx</item>
+        <item>rtf</item>
+        <item>ts</item>
+        <item>phps</item>
+        <item>tsv</item>
+        <item>xml</item>
+        <item>bib</item>
+        <item>boo</item>
+        <item>h++</item>
+        <item>hpp</item>
+        <item>hxx</item>
+        <item>hh</item>
+        <item>c++</item>
+        <item>cpp</item>
+        <item>cxx</item>
+        <item>h</item>
+        <item>htc</item>
+        <item>csh</item>
+        <item>c</item>
+        <item>d</item>
+        <item>hs</item>
+        <item>java</item>
+        <item>lhs</item>
+        <item>moc</item>
+        <item>p</item>
+        <item>pas</item>
+        <item>gcd</item>
+        <item>etx</item>
+        <item>tcl</item>
+        <item>tex</item>
+        <item>ltx</item>
+        <item>sty</item>
+        <item>cls</item>
+        <item>vcs</item>
+        <item>vcf</item>
+    </string-array>
+    <string-array name="other_type_files">
+        <item>zip</item>
+        <item>7z</item>
+        <item>rar</item>
+        <item>gz</item>
+        <item>gzip</item>
+        <item>tar</item>
+    </string-array>
+    <string-array name="Root_Path">
+        <item>baidu</item>
+        <item>netease</item>
+        <item>tencent</item>
+        <item>sina</item>
+        <item>.lbe</item>
+        <item>com.lbe.security</item>
+        <item>android</item>
+        <item>dcim</item>
+        <item>.android_secure</item>
+        <item>download</item>
+        <item>miui</item>
+        <item>movie</item>
+        <item>notifications</item>
+        <item>pictures</item>
+        <item>ringtones</item>
+        <item>.bluetooth</item>
+        <item>albumart</item>
+        <item>gameloft</item>
+        <item>lost.dir</item>
+        <item>my documents</item>
+        <item>media</item>
+        <item>downloaded_rom</item>
+        <item>music</item>
+        <item>picture</item>
+        <item>snda</item>
+        <item>video</item>
+        <item>sdfuse</item>
+        <item>mnt</item>
+        <item>audio</item>
+        <item>bluetooth</item>
+        <item>playlists</item>
+        <item>cache</item>
+        <item>books</item>
+        <item>document</item>
+        <item>openfeint</item>
+        <item>glu</item>
+        <item>record</item>
+        <item>.utsystemconfig</item>
+        <item>.thumbnails</item>
+        <item>msc</item>
+        <item>muzhiwan</item>
+        <item>.splanner_spenmemo</item>
+        <item>pictures/ideasketch</item>
+        <item>pictures/screenshots</item>
+        <item>samsung</item>
+        <item>dcim/.thumbnails</item>
+    </string-array>
+    <string-array name="Root_Path_Des">
+        <item>Cache aplik. Baidu</item>
+        <item>Cache aplik. NetEase</item>
+        <item>Cache aplik. Tencent</item>
+        <item>Cache aplik. Sina</item>
+        <item>LBE Prywatność</item>
+        <item>LBE SM</item>
+        <item>Dane aplikacji</item>
+        <item>Foto</item>
+        <item>App2sd</item>
+        <item>Pobieranie</item>
+        <item>Cache MIUI</item>
+        <item>Filmy</item>
+        <item>Dźwięki powiadomień</item>
+        <item>Zdjęcia</item>
+        <item>Dzwonki</item>
+        <item>Cache Bluetooth</item>
+        <item>Okładki albumów</item>
+        <item>Dane gier</item>
+        <item>Utracone pliki</item>
+        <item>Moje dokumenty</item>
+        <item>Media</item>
+        <item>MIUI Brush</item>
+        <item>Muzyka</item>
+        <item>Zdjęcia</item>
+        <item>Cache aplikacji</item>
+        <item>Wideo</item>
+        <item>Lenovo ROM upgrade</item>
+        <item>Przenoszone apk</item>
+        <item>Przechowywanie audio</item>
+        <item>Cache Bluetooth</item>
+        <item>Playlista</item>
+        <item>Cache</item>
+        <item>Książki</item>
+        <item>Dokumenty</item>
+        <item>Gry OpenFeint</item>
+        <item>Dane gier Glu</item>
+        <item>Płyty</item>
+        <item>Cache aplik. Alibaba</item>
+        <item>Miniatury</item>
+        <item>Temp kamery</item>
+        <item>Miniatury apk</item>
+        <item>Kopia zapasowa S Planner</item>
+        <item>Szkice S Note</item>
+        <item>Zrzuty ekranu</item>
+        <item>Dane Samsung</item>
+        <item>Miniatury zdjęć i wideo</item>
     </string-array>
 </resources>
