@@ -625,4 +625,268 @@ Fernsteuerung"</item>
         <item>Installation von Apps muss bestätigt werden.</item>
         <item>Installation aller Apps wird blockiert.</item>
     </string-array>
+    
+     <string-array name="atp_function_label">
+        <item>Gerät sperren</item>
+        <item>Ortung</item>
+        <item>Kontakte sichern</item>
+        <item>alle Daten vom Gerät löschen</item>
+        <item>Passwort erstellen</item>
+        <item>Alarmton abspielen</item>
+        <item>visuelle Warnung</item>
+    </string-array>
+
+   <string-array name="atp_function_des">
+       <item>Gerät aus der Ferne sperren</item>
+        <item>gestohlenes Gerät orten</item>
+        <item>Kontakte vom gestohlenen Gerät sichern</item>
+        <item>Kontakte und Daten auf gestohlenem Gerät löschen</item>
+        <item>Passwort vergessen</item>
+        <item>Alarmton in voller Lautstärke auf gestohlenem Gerät abspielen</item>
+        <item>eigene Meldungen auf gestohlenem Gerät anzeigen</item>
+    </string-array>
+
+    <string-array name="empty_subject_strings">
+        <item>kein Betreff</item>
+  </string-array>
+
+  <string-array name="music_type_files">
+        <item>mp3</item>
+        <item>wmv</item>
+        <item>wma</item>
+        <item>acc</item>
+        <item>amr</item>
+        <item>snd</item>
+        <item>mid</item>
+        <item>midi</item>
+        <item>kar</item>
+        <item>xmf</item>
+        <item>mxmf</item>
+        <item>mpga</item>
+        <item>mpega</item>
+        <item>mp2</item>
+        <item>m4a</item>
+        <item>m3u</item>
+        <item>sid</item>
+        <item>ape</item>
+        <item>aif</item>
+        <item>aiff</item>
+        <item>aifc</item>
+        <item>gsm</item>
+        <item>m3u</item>
+        <item>wax</item>
+        <item>ra</item>
+        <item>ram</item>
+        <item>pls</item>
+        <item>sd2</item>
+        <item>wav</item>
+        <item>flac</item>
+        <item>ape</item>
+        <item>plays</item>
+        <item>alac</item>
+        <item>ogg</item>
+        <item>wav</item>
+        <item>wv</item>
+        <item>tta</item>
+        <item>mpc</item>
+    </string-array>
+    <string-array name="video_type_files">
+        <item>mp4</item>
+        <item>3gp</item>
+        <item>rmvb</item>
+        <item>rm</item>
+        <item>avi</item>
+        <item>flv</item>
+        <item>flash</item>
+        <item>swf</item>
+        <item>3gpp</item>
+        <item>3g2</item>
+        <item>dl</item>
+        <item>dif</item>
+        <item>dv</item>
+        <item>fli</item>
+        <item>m4v</item>
+        <item>mpeg</item>
+        <item>mpg</item>
+        <item>mpe</item>
+        <item>vob</item>
+        <item>qt</item>
+        <item>mov</item>
+        <item>mxu</item>
+        <item>lsf</item>
+        <item>lsx</item>
+        <item>mng</item>
+        <item>asf</item>
+        <item>asx</item>
+        <item>wm</item>
+        <item>movie</item>
+    </string-array>
+    <string-array name="document_type_files">
+        <item>txt</item>
+        <item>doc</item>
+        <item>docx</item>
+        <item>pdf</item>
+        <item>ppt</item>
+        <item>chm</item>
+        <item>umd</item>
+        <item>pdb</item>
+        <item>ebk2</item>
+        <item>epub</item>
+        <item>ebk</item>
+        <item>ndz</item>
+        <item>ndb1</item>
+        <item>ics</item>
+        <item>icz</item>
+        <item>csv</item>
+        <item>css</item>
+        <item>htm</item>
+        <item>html</item>
+        <item>323</item>
+        <item>uls</item>
+        <item>mml</item>
+        <item>asc</item>
+        <item>text</item>
+        <item>diff</item>
+        <item>po</item>
+        <item>rtx</item>
+        <item>rtf</item>
+        <item>ts</item>
+        <item>phps</item>
+        <item>tsv</item>
+        <item>xml</item>
+        <item>bib</item>
+        <item>boo</item>
+        <item>h++</item>
+        <item>hpp</item>
+        <item>hxx</item>
+        <item>hh</item>
+        <item>c++</item>
+        <item>cpp</item>
+        <item>cxx</item>
+        <item>h</item>
+        <item>htc</item>
+        <item>csh</item>
+        <item>c</item>
+        <item>d</item>
+        <item>hs</item>
+        <item>java</item>
+        <item>lhs</item>
+        <item>moc</item>
+        <item>p</item>
+        <item>pas</item>
+        <item>gcd</item>
+        <item>etx</item>
+        <item>tcl</item>
+        <item>tex</item>
+        <item>ltx</item>
+        <item>sty</item>
+        <item>cls</item>
+        <item>vcs</item>
+        <item>vcf</item>
+    </string-array>
+    <string-array name="other_type_files">
+        <item>zip</item>
+        <item>7z</item>
+        <item>rar</item>
+        <item>gz</item>
+        <item>gzip</item>
+        <item>tar</item>
+    </string-array>
+    <string-array name="Root_Path">
+        <item>baidu</item>
+        <item>netease</item>
+        <item>tencent</item>
+        <item>sina</item>
+        <item>. lbe</item>
+        <item>com.lbe.security</item>
+        <item>android</item>
+        <item>dcim</item>
+        <item>. android_secure</item>
+        <item>download</item>
+        <item>miui</item>
+        <item>movie</item>
+        <item>notifications</item>
+        <item>pictures</item>
+        <item>ringtones</item>
+        <item>. bluetooth</item>
+        <item>albumart</item>
+        <item>gameloft</item>
+        <item>lost.dir</item>
+        <item>my documents</item>
+        <item>media</item>
+        <item>downloaded_rom</item>
+        <item>music</item>
+        <item>picture</item>
+        <item>snda</item>
+        <item>video</item>
+        <item>sdfuse</item>
+        <item>mnt</item>
+        <item>audio</item>
+        <item>bluetooth</item>
+        <item>playlists</item>
+        <item>cache</item>
+        <item>books</item>
+        <item>document</item>
+        <item>openfeint</item>
+        <item>glu</item>
+        <item>record</item>
+        <item>. utsystemconfig</item>
+        <item>. thumbnails</item>
+        <item>msc</item>
+        <item>muzhiwan</item>
+        <item>. splanner_spenmemo</item>
+        <item>pictures / ideasketch</item>
+        <item>pictures / screenshots</item>
+        <item>samsung</item>
+        <item>dcim / .thumbnails</item>
+    </string-array>
+    <string-array name="Root_Path_Des">
+        <item>Baidu application cache</item>
+        <item>Netease application cache</item>
+        <item>Tencent Application Cache</item>
+        <item>Sina application cache</item>
+        <item>LBE Privacy space</item>
+        <item>LBE security master</item>
+        <item>application data directory</item>
+        <item>camera photography store directory</item>
+        <item>app2sd move directory</item>
+        <item>download directory</item>
+        <item>MIUI cache directory</item>
+        <item>movie store directory</item>
+        <item>notification sound storage directory</item>
+        <item>picture directory</item>
+        <item>custom ringtone store directory</item>
+        <item>Bluetooth cache directory</item>
+        <item>music album cover</item>
+        <item>Gameloft game data directory</item>
+        <item>lost files temporary directory</item>
+        <item>My Documents</item>
+        <item>media files</item>
+        <item>MIUI Brush Pack directory</item>
+        <item>music store directory</item>
+        <item>image storage directory</item>
+        <item>grand application cache</item>
+        <item>video store directory</item>
+        <item>Lenovo ROM upgrade directory</item>
+        <item>Moving application directory</item>
+        <item>audio storage directory</item>
+        <item>Bluetooth cache directory</item>
+        <item>Playlist</item>
+        <item>cache directory</item>
+        <item>books store directory</item>
+        <item>documentation directory</item>
+        <item>OpenFeint gaming platform cache</item>
+        <item>Glu game data directory</item>
+        <item>recording storage directory</item>
+        <item>Alibaba application cache</item>
+        <item>thumbnail storage directory</item>
+        <item>camera temporary directory</item>
+        <item>thumb playing application directory</item>
+        <item>S Planner graffiti backup</item>
+        <item>S Note creative sketch</item>
+        <item>screenshot store</item>
+        <item>Samsung Data</item>
+        <item>photos and video thumbnails</item>
+    </string-array>
+    
 </resources>
