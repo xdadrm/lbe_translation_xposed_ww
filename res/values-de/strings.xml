@@ -666,7 +666,7 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Generic_Operating">Ausführen ...</string>
     <string name="Generic_InvalidInput">Input-Parameter ist falsch</string>
     <string name="Generic_Version">Version %1$s</string>
-    <string name="Generic_SystemApp">System Apps</string>
+    <string name="Generic_SystemApp">System App</string>
     <string name="Generic_UserApp">Benutzer Apps</string>
     <string name="Generic_Copyright">by Team LBE</string>
     <string name="Generic_Beta">Alpha-Version, nicht verteilen</string>
@@ -1453,8 +1453,8 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="HIPS_SecurityPrompt_Caption">Sicherheitswarnung</string>
     <string name="HIPS_SecurityPrompt_Title">%1$s versucht Zugriff auf %2$s</string>
     <string name="HIPS_SecurityPrompt_Remember">Einstellung merken</string>
-    <string name="HIPS_SecurityPrompt_Accept">Zulassen %d</string>
-    <string name="HIPS_SecurityPrompt_Reject">Verweigern %d</string>
+    <string name="HIPS_SecurityPrompt_Accept">autom. zulassen in: %d</string>
+    <string name="HIPS_SecurityPrompt_Reject">autom. verweigern in: %d</string>
     <string name="HIPS_Perm">Berechtigungen</string>
     <string name="HIPS_Trust_NoConfig">App Überwachung durch LBE muss erst aktviert werden zur Rechteverwaltung.</string>
     <string name="HIPS_Notif">Aktive Verteidigung konnte nicht geladen werden</string>
@@ -1738,7 +1738,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="SoftMgr_App_OptDesc3">%1$d verwaltbare Rechte, &lt;font color=\"#17A4F5\"> %2$d &lt;/ font> evtl. benötigt</string>
     <string name="SoftMgr_App_OptedDesc">%1$d verwaltbare Rechte, &lt;font color=\"#17A4F5\"> %2$d &lt;/ font> optimal</string>
     <string name="SoftMgr_Order">Sortieren</string>
-    <string name="SoftMgr_NewApp">Nicht konfigurierte App</string>
+    <string name="SoftMgr_NewApp">App Rechtevergabe prüfen</string>
     <string name="SoftMgr_Signature_Error">%1$s (Signatur Fehler)</string>
     <string name="SoftMgr_Down_Install">%1$s (Downgrade Installation)</string>
     <string name="SoftMgr_NewApp_Configuration">%1$d neue App(s) zum konfigurieren</string>
@@ -1860,7 +1860,7 @@ Zuletzt geändert:
     <string name="SoftMgr_CanOpt_Count">%1$d Recht(e)</string>
     <string name="SoftMgr_Opted_Count">%1$d sind optimal</string>
     <string name="SoftMgr_Already_Reject_Install">Installation verweigert</string>
-    <string name="SoftMgr_Already_Uninstall">nicht installiert</string>
+    <string name="SoftMgr_Already_Uninstall">deinstalliert</string>
     <string name="SoftMgr_Uninstall_Selected_Software">ausgewählte App deinstallieren</string>
     <string name="SoftMgr_Confirm_Uninstall_Software">deinstalliere %1$s?</string>
     <string name="SoftMgr_Add_USB_Blacklist">At the same time the software is installed automatically added to blacklist</string>
