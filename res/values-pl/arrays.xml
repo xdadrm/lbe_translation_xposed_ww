@@ -21,19 +21,6 @@
         <item>Dodaj z listy SMS</item>
         <item>Dodaj ręcznie</item>
     </string-array>
-    <string-array name="select_sim">
-        <item>Z SIM1</item>
-        <item>Z SIM2</item>
-    </string-array>
-    <string-array name="stopmsgtype_options">
-        <item>Inteligentny tryb blokowania</item>
-        <item>Blokuj tylko Czarną listę</item>
-        <item>Odbieraj tylko z Białej listy</item>
-        <item>Blokuj wszystko</item>
-        <item>Odbieraj od wszystkich</item>
-        <item>Odbieraj tylko z kontaktów</item>
-        <item>Tryb własny</item>
-    </string-array>
     <string-array name="endcalltype">
         <item>Wyłączony</item>
         <item>Nie istnieje</item>
@@ -152,12 +139,6 @@
         <item>Słowa kluczowe</item>
         <item>Inteligentne blokowanie</item>
     </string-array>
-    <string-array name="user_phone_defined">
-        <item>Biała lista</item>
-        <item>Czarna lista</item>
-        <item>Kontakty</item>
-        <item>Niedawno kontaktujące się</item>
-    </string-array>
     <string-array name="select_allow">
         <item>Odbierz</item>
         <item>Ignoruj</item>
@@ -272,23 +253,11 @@ okienka reklamowe, ipt."</item>
         <item>ads|Zawiera adware</item>
         <item>default|Nieznane zagrożenie</item>
     </string-array>
-    <string-array name="traffic_cell_type">
-        <item>Sortuj wg ruchu w tym miesiącu</item>
-        <item>Sortuj wg ruchu dziś</item>
-        <item>Sortuj wg nazwy aplikacji</item>
-    </string-array>
     <string-array name="calibration_period">
         <item>Co 3 dni</item>
         <item>Co tydzień</item>
         <item>Codziennie</item>
         <item>Ręcznie</item>
-    </string-array>
-    <string-array name="showpowerquantitylower">
-        <item>10%</item>
-        <item>20%</item>
-        <item>30%</item>
-        <item>40%</item>
-        <item>50%</item>
     </string-array>
     <string-array name="auto_update_period">
         <item>nigdy</item>
@@ -315,10 +284,6 @@ okienka reklamowe, ipt."</item>
         <item>Zawsze pytaj</item>
         <item>Zawsze blokuj</item>
     </string-array>
-    <string-array name="hips_batch_operation_ar">
-        <item>Zawsze zezwalaj</item>
-        <item>Zawsze blokuj</item>
-    </string-array>
     <string-array name="misscalltype">
         <item>Dzwonek i wibracja</item>
         <item>Dzwonek</item>
@@ -343,10 +308,6 @@ okienka reklamowe, ipt."</item>
         <item>1Klik Home</item>
         <item>2Klik Home</item>
     </string-array>
-    <string-array name="lbe_shortcut_start_mode">
-        <item>Pasek powiadomień</item>
-        <item>Skrót na pulpicie</item>
-    </string-array>
     <string-array name="blocklog_save_time">
         <item>Tydzień</item>
         <item>Miesiąc</item>
@@ -358,8 +319,8 @@ okienka reklamowe, ipt."</item>
         <item>2</item>
     </string-array>
     <string-array name="phone_marker_operator">
-        <item>Przenieś do innego znacznika</item>
-        <item>Usuń z tego znacznika</item>
+        <item>Przenieś do innej etykiety</item>
+        <item>Usuń z tej etykiety</item>
         <item>Dodaj do czarnej listy</item>
     </string-array>
     <string-array name="private_contact_operator">
@@ -390,38 +351,12 @@ okienka reklamowe, ipt."</item>
         <item>Połączenia</item>
         <item>SMS</item>
     </string-array>
-    <string-array name="battery_scene_killtask_interval_values">
-        <item>1</item>
-        <item>5</item>
-        <item>10</item>
-    </string-array>
     <string-array name="anti_adware_user_feedback_type">
         <item>Nie zablokowano reklamy.</item>
         <item>Brak reklam w tej aplikacji.</item>
         <item>Aplikacja działa źle po blokadzie reklam.</item>
         <item>Brak \"Zamknij\" na banerze.</item>
         <item>Anuluj</item>
-    </string-array>
-    <string-array name="desktop_float_toggles_labels">
-        <item>T.samolot.</item>
-        <item>Bluetooth</item>
-        <item>Jasność</item>
-        <item>Haptic</item>
-        <item>Synch</item>
-        <item>WIFI</item>
-        <item>GPS</item>
-        <item>Dane</item>
-        <item>Obrót</item>
-    </string-array>
-    <string-array name="homepage_more_options_labels">
-        <item>Antywirus</item>
-        <item>Uprawnienia</item>
-        <item>Powiadom.</item>
-        <item>Prywatne</item>
-        <item>Pry.Komu.</item>
-        <item>Anti-Theft</item>
-        <item>Narz.Komu.</item>
-        <item>Kopia</item>
     </string-array>
     <string-array name="home_settings_labels">
         <item>Sposoby uruchomienia</item>
@@ -474,11 +409,6 @@ okienka reklamowe, ipt."</item>
     <string-array name="hipsapk_types">
         <item>Monitorowane</item>
         <item>Zaufane</item>
-    </string-array>
-    <string-array name="scan_item_type">
-        <item>Obsługa automatyczna</item>
-        <item>Obsługa ręczna</item>
-        <item>Bezpieczeństwo</item>
     </string-array>
     <string-array name="toggles_add_options">
         <item>Szybke przełączniki</item>
@@ -600,22 +530,22 @@ okienka reklamowe, ipt."</item>
         <item>- Amnezja Team</item>
     </string-array>
     <string-array name="atp_function_label">
-        <item>Blokada telefonu</item>
-        <item>Lokalizacja telefonu</item>
+        <item>Blokada</item>
+        <item>Lokalizowanie</item>
         <item>Kopia kontaktów</item>
         <item>Usuwanie danych</item>
         <item>Hasło</item>
-        <item>Dźwięk alarmu</item>
+        <item>Alarm</item>
         <item>Wirtualne ostrzeżenia</item>
     </string-array>
     <string-array name="atp_function_des">
-        <item>Blokada telefonu przyjaciela</item>
-        <item>Lokalizowanie telefonu przyjaciela</item>
-        <item>Kopia zapasowa kontaktów przyjaciela</item>
-        <item>Usuwanie prywatnych danych i kontaktów w tel. przyjaciela.</item>
+        <item>Zablokowanie telefonu</item>
+        <item>Zlokalizowanie telefonu</item>
+        <item>Kopia zapasowa kontaktów</item>
+        <item>Usunięcie prywatnych danych i kontaktów</item>
         <item>Przypomnienie hasła</item>
-        <item>Alarm na tel. przyjaciela</item>
-        <item>Komunikat ostrzegawczy na tel. przyjaciela.</item>
+        <item>Głośny alarm</item>
+        <item>Komunikat ostrzegawczy/informacja</item>
     </string-array>
     <string-array name="empty_subject_strings">
         <item>Brak tematu</item>
@@ -638,6 +568,7 @@ okienka reklamowe, ipt."</item>
         <item>m4a</item>
         <item>m3u</item>
         <item>sid</item>
+        <item>ape</item>
         <item>aif</item>
         <item>aiff</item>
         <item>aifc</item>
@@ -651,6 +582,13 @@ okienka reklamowe, ipt."</item>
         <item>wav</item>
         <item>flac</item>
         <item>ape</item>
+        <item>plays</item>
+        <item>alac</item>
+        <item>ogg</item>
+        <item>wav</item>
+        <item>wv</item>
+        <item>tta</item>
+        <item>mpc</item>
     </string-array>
     <string-array name="video_type_files">
         <item>mp4</item>
@@ -849,5 +787,64 @@ okienka reklamowe, ipt."</item>
         <item>Zrzuty ekranu</item>
         <item>Dane Samsung</item>
         <item>Miniatury zdjęć i wideo</item>
+    </string-array>
+    <string-array name="sdclean_special_path">
+        <item>/wandoujia/app/</item>
+        <item>/91 WireLess/PandaSpace/apps/</item>
+        <item>/baidu/AppSearch/downloads/</item>
+        <item>/tencent/tassistant/apk/</item>
+        <item>/anzhi/download/</item>
+        <item>/AppGame/GOMarket/GoStore/download/</item>
+        <item>/360Download/</item>
+        <item>/360Browser/download/</item>
+        <item>/QQBrowser/apk/</item>
+        <item>/baidu/flyflow/downloads/</item>
+        <item>/kbrowser/download/app/</item>
+        <item>/NearMeMarket/application/</item>
+        <item>/sogouappmall/downloads/</item>
+        <item>/ucappstore/apk/</item>
+        <item>/hiapk_market/app/download/</item>
+        <item>/baoruan_download/shangcheng/software/</item>
+        <item>/digua/downs/</item>
+        <item>/hispace/application/</item>
+        <item>/gfan/market/</item>
+        <item>/.LeStore/download/</item>
+        <item>/skymarket/com.skymobi.appstore/download/</item>
+        <item>/MzwDownloads/</item>
+        <item>/mumayi/download/</item>
+        <item>/crossmo_app/apk/</item>
+        <item>/appcenter/app/</item>
+        <item>/Yingyonghui/apk/</item>
+        <item>/download/</item>
+        <item>/downloadapp/</item>
+        <item>/moji/mojidownload/</item>
+        <item>/ttpod/app/</item>
+        <item>/ZTEMarket/download/</item>
+    </string-array>
+    <string-array name="sdclean_skip_path">
+        <item>/dcim</item>
+        <item>/android</item>
+        <item>/tencent</item>
+        <item>/sina/weibo</item>
+        <item>/yixin</item>
+        <item>/iaround</item>
+        <item>/ganji</item>
+        <item>/immomo</item>
+        <item>/zaker</item>
+        <item>/news</item>
+        <item>/qiyivideop2p</item>
+        <item>/tieba</item>
+        <item>/myxj</item>
+        <item>/renren</item>
+        <item>/weimi</item>
+        <item>/qqmusic</item>
+        <item>/viva2</item>
+        <item>/.sohunewscache</item>
+        <item>/baidu</item>
+        <item>/qvod</item>
+        <item>/pptv</item>
+        <item>/baofeng</item>
+        <item>/kgmusic/download</item>
+        <item>/kugou</item>
     </string-array>
 </resources>
