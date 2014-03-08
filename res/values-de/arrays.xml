@@ -2,7 +2,7 @@
 <resources>
     <string-array name="addblacktype">
         <item>Hinzufügen aus Kontakten</item>
-        <item>Hinzufügen aus Anrufliste</item>
+        <item>Hinzufügen aus Anruferliste</item>
         <item>Hinzufügen aus SMS-Liste</item>
         <item>Manuell hinzufügen</item>
         <item>Hinzufügen aus Bereichen</item>
@@ -10,28 +10,29 @@
     </string-array>
     <string-array name="addwhitetype">
         <item>Hinzufügen aus Kontakten</item>
-        <item>Hinzufügen aus Anrufliste</item>
+        <item>Hinzufügen aus Anruferliste</item>
         <item>Hinzufügen aus SMS-Liste</item>
+        <item>Manuell hinzufügen</item>
         <item>Hinzufügen aus Bereichen</item>
         <item>Hinzufügen von Tags</item>
     </string-array>
     <string-array name="addnouseiptype">
         <item>Hinzufügen aus Kontakten</item>
-        <item>Hinzufügen aus Anrufliste</item>
+        <item>Hinzufügen aus Anruferliste</item>
         <item>Hinzufügen aus SMS-Liste</item>
-        <item>Manuell hinzufügen</item>
+        <item>Hinzufügen aus Bereichen</item>
     </string-array>
     <string-array name="select_sim">
-        <item>Von SIM1</item>
-        <item>Von SIM2</item>
+        <item>von SIM1</item>
+        <item>von SIM2</item>
     </string-array>
     <string-array name="stopmsgtype_options">
-        <item>Intelligenter Block-Modus</item>
-        <item>Nur Schwarze Liste blockieren</item>
-        <item>Nur von Weißer Liste empfangen</item>
-        <item>Alle blockieren</item>
-        <item>Alle erhalten</item>
-        <item>Nur von Kontakten erhalten</item>
+        <item>intelligenter Block-Modus</item>
+        <item>vur Schwarze Liste blockieren</item>
+        <item>nur von Weißer Liste empfangen</item>
+        <item>alle blockieren</item>
+        <item>alle erhalten</item>
+        <item>nur von Kontakten zulassen</item>
         <item>Benutzer-Modus</item>
     </string-array>
     <string-array name="endcalltype">
@@ -48,37 +49,37 @@
         <item>4</item>
     </string-array>
     <string-array name="trafficBillingDay">
-        <item>1. eines jeden Monats</item>
-        <item>2. eines jeden Monats</item>
-        <item>3. eines jeden Monats</item>
-        <item>4. eines jeden Monats</item>
-        <item>5. eines jeden Monats</item>
-        <item>6. eines jeden Monats</item>
-        <item>7. eines jeden Monats</item>
-        <item>8. eines jeden Monats</item>
-        <item>9. eines jeden Monats</item>
-        <item>10. eines jeden Monats</item>
-        <item>11. eines jeden Monats</item>
-        <item>12. eines jeden Monats</item>
-        <item>13. eines jeden Monats</item>
-        <item>14. eines jeden Monats</item>
-        <item>15. eines jeden Monats</item>
-        <item>16. eines jeden Monats</item>
-        <item>17. eines jeden Monats</item>
-        <item>18. eines jeden Monats</item>
-        <item>19. eines jeden Monats</item>
-        <item>20. eines jeden Monats</item>
-        <item>21. eines jeden Monats</item>
-        <item>22. eines jeden Monats</item>
-        <item>23. eines jeden Monats</item>
-        <item>24. eines jeden Monats</item>
-        <item>25. eines jeden Monats</item>
-        <item>26. eines jeden Monats</item>
-        <item>27. eines jeden Monats</item>
-        <item>28. eines jeden Monats</item>
-        <item>29. eines jeden Monats</item>
-        <item>30. eines jeden Monats</item>
-        <item>31. eines jeden Monats</item>
+        <item>1. des Monats</item>
+        <item>2. des Monats</item>
+        <item>3. des Monats</item>
+        <item>4. des Monats</item>
+        <item>5. des Monats</item>
+        <item>6. des Monats</item>
+        <item>7. des Monats</item>
+        <item>8. des Monats</item>
+        <item>9. des Monats</item>
+        <item>10. des Monats</item>
+        <item>11. des Monats</item>
+        <item>12. des Monats</item>
+        <item>13. des Monats</item>
+        <item>14. des Monats</item>
+        <item>15. des Monats</item>
+        <item>16. des Monats</item>
+        <item>17. des Monats</item>
+        <item>18. des Monats</item>
+        <item>19. des Monats</item>
+        <item>20. des Monats</item>
+        <item>21. des Monats</item>
+        <item>22. des Monats</item>
+        <item>23. des Monats</item>
+        <item>24. des Monats</item>
+        <item>25. des Monats</item>
+        <item>26. des Monats</item>
+        <item>27. des Monats</item>
+        <item>28. des Monats</item>
+        <item>29. des Monats</item>
+        <item>30. des Monats</item>
+        <item>31. des Monats</item>
     </string-array>
     <string-array name="trafficBillingDay_values">
         <item>1</item>
@@ -114,28 +115,27 @@
         <item>31.</item>
     </string-array>
     <string-array name="msglog_oparete">
-        <item>Löschen</item>
-        <item>Antwort per SMS</item>
-        <item>Diese Nummer anrufen</item>
-        <item>Der Whitelist hinzufügen</item>
-        <item>Der Blacklist hinzufügen</item>
-        <item>Widerherstellen System SMS</item>
-    </string-array>
+        <item>mit SMS antworten</item>
+        <item>Nummer anrufen</item>
+        <item>zur weißen Liste hinzufügen</item>
+        <item>zur schwarzen Liste hinzugfügen</item>
+        <item>Bericht</item>
+      </string-array>
     <string-array name="calllog_oparete">
-        <item>Löschen</item>
-        <item>Antwort per SMS</item>
-        <item>Diese Nummer anrufen</item>
-        <item>Zur Whitelist hinzufügen</item>
-        <item>Zur Blacklist hinzufügen</item>
-        <item>Zur Anrufliste hinzufügen</item>
+        <item>löschen</item>
+        <item>mit SMS antworten</item>
+        <item>Nummer anrufen</item>
+        <item>zur weißen Liste hinzugfügen</item>
+        <item>zur schwarzen Liste hinzugfügen</item>
+        <item>zur Anruferliste hinzufügen</item>
     </string-array>
     <string-array name="preference_stopcalltype_options">
         <item>Nacht-Modus aus</item>
-        <item>Blockieren nur Blacklist</item>
-        <item>Empfangen nur Weiße Liste</item>
-        <item>Alle blockieren</item>
-        <item>Alle erhalten</item>
-        <item>Empfangen nur Whitelist und Kontakte</item>
+        <item>schwarzen Liste blockieren</item>
+        <item>nur weiße Liste zulassen</item>
+        <item>alle blockieren</item>
+        <item>alle zulassen</item>
+        <item>nur weiße Liste und Kontakte zulassen</item>
     </string-array>
     <string-array name="preference_stopcalltype_values">
         <item>0</item>
@@ -160,17 +160,17 @@
         <item>Kürzlich kontaktiert</item>
     </string-array>
     <string-array name="select_allow">
-        <item>Empfangen</item>
-        <item>Ignorieren</item>
+        <item>zulassen</item>
+        <item>ignorieren</item>
     </string-array>
     <string-array name="select_reject">
-        <item>Sperren</item>
-        <item>Ignorieren</item>
+        <item>blockieren</item>
+        <item>nicht verwenden</item>
     </string-array>
     <string-array name="traffic_refresh">
-        <item>Hoch</item>
-        <item>Mittel</item>
-        <item>Niedrig</item>
+        <item>hoch</item>
+        <item>mittel</item>
+        <item>niedrig</item>
     </string-array>
     <string-array name="traffic_refresh_values">
         <item>2000</item>
@@ -181,7 +181,7 @@
         <item>10 Sekunden</item>
         <item>15 Sekunden</item>
         <item>20 Sekunden</item>
-        <item>Immer angezeigt</item>
+        <item>immer anzeigen</item>
     </string-array>
     <string-array name="traffic_autodim_values">
         <item>10000</item>
@@ -208,9 +208,9 @@
         <item>1</item>
     </string-array>
     <string-array name="notify_hips_event">
-        <item>Benachrichtigen über alle Anfragen</item>
-        <item>Benachrichtigen nur über abgelehnte Anfragen</item>
-        <item>Über keine Anfrage benachrichtigen</item>
+        <item>über alle Anfragen benachrichtigen</item>
+        <item>nur über abgelehnte Anfragen benachrichtigen</item>
+        <item>über keine Anfrage benachrichtigen</item>
     </string-array>
     <string-array name="notify_hips_event_values">
         <item>0</item>
@@ -218,8 +218,8 @@
         <item>2</item>
     </string-array>
     <string-array name="record_telephony_event">
-        <item>Alle Apps aufzeichnen</item>
-        <item>Nicht vertrauenswürdige Apps aufzeichnen</item>
+        <item>alle Telefonnummern protokollieren</item>
+        <item>nicht vertrauenswürdige Nummern protokollieren</item>
     </string-array>
     <string-array name="record_telephony_event_values">
         <item>0</item>
@@ -228,7 +228,7 @@
     <string-array name="auto_ip_callist">
         <item>Rufnummern von anderen Provinzen</item>
         <item>Rufnummern aus anderen Städten</item>
-        <item>Eine beliebige Nummer anrufen</item>
+        <item>eine beliebige Nummer anrufen</item>
     </string-array>
     <string-array name="auto_ip_callist_value">
         <item>0</item>
@@ -240,45 +240,35 @@
         <item>Worm | Kategorie: Wurm</item>
         <item>Trojan | Kategorie: Trojaner</item>
         <item>G-Ware | Kategorie: Riskante App</item>
-        <item>Tools | Kategorie: Riskante Tools</item>
+        <item>AdWare | Kategorie: Werbung</item>
+        <item>RiskWare | Kategorie: riskante Software</item>
         <item>Tool | Kategorie: Riskantes Tool</item>
-        <item>"prv | Datenschutz
-Datendiebstahl durch undichte Privatsphäre"</item>
-        <item>"rmt | Fernsteuerung
-Fernsteuerung der Gerätefunktionen durch Remote-Server"</item>
+        <item>"prv | Datenschutz: Datendiebstahl"</item>
+        <item>"rmt | Fernsteuerung: Fernsteuerung der Gerätefunktionen durch Remote-Server"</item>
         <item>pay | Bösartige Dienstleistung</item>
         <item>spr | Bösartiger Code</item>
-        <item>"exp | Traffic Verbrauch
-Traffic durch Internet Zugang oder Messaging"</item>
-        <item>"sys | System Beschädigung
-Verursacht instabilität des Systems"</item>
-        <item>"fra | Betrug 
-Gefälschte SMS Geblockte SMS"</item>
-        <item>"rog | Böswilliges Verhalten
-Verbrauch von Systemressourcen z.B Werbe-Pop-ups"</item>
-        <item>"sms | Böswilliges Verhalten
-SMS-Versand"</item>
-        <item>"spy | Böswilliges Verhalten
-Spyware"</item>
-        <item>"bkd | Böswilliges Verhalten
-Hintertüren"</item>
-        <item>"rtt | Böswilliges Verhalten
-Fernsteuerung"</item>
+        <item>"exp | Traffic Verbrauch: Traffic durch Internet Zugang oder Messaging"</item>
+        <item>"sys | System Beschädigung: Verursacht instabilität des Systems"</item>
+        <item>"fra | Betrug: Gefälschte SMS Geblockte SMS"</item>
+        <item>"rog | Böswilliges Verhalten: Verbrauch von Systemressourcen z.B Werbe-Pop-ups"</item>
+        <item>"sms | Böswilliges Verhalten: SMS-Versand"</item>
+        <item>"spy | Böswilliges Verhalten: Spyware"</item>
+        <item>"bkd | Böswilliges Verhalten: Hintertüren"</item>
+        <item>"rtt | Böswilliges Verhalten: Fernsteuerung"</item>
         <item>gen | Heuristiken und Regeln von Breitspektrum-Erkennung</item>
+        <item>ads | Werbung enthalten</item>
         <item>default | Unbekannte Bedrohung</item>
-        <item>Anzeigen | Adware enthalten</item>
-        <item>default | unbekannten Bedrohungen</item>
     </string-array>
     <string-array name="traffic_cell_type">
-        <item>Sortieren nach Verbrauch in diesem Monat</item>
-        <item>Sortieren nach Verbrauch heute</item>
-        <item>Sortieren nach App Name</item>
+        <item>nach Verbrauch in diesem Monat</item>
+        <item>nach Verbrauch heute</item>
+        <item>nach App Name</item>
     </string-array>
     <string-array name="calibration_period">
-        <item>Alle 3 Tage</item>
-        <item>Jede Woche</item>
-        <item>Täglich</item>
-        <item>Manuelle Korrektur</item>
+        <item>alle 3 Tage</item>
+        <item>wöchentlich</item>
+        <item>täglich</item>
+        <item>eigener Zeitraum</item>
     </string-array>
     <string-array name="showpowerquantitylower">
         <item>10%</item>
@@ -370,8 +360,8 @@ Fernsteuerung"</item>
         <item>1048576</item>
     </integer-array>
     <string-array name="misscalltype">
-        <item>Klingeltöne und Vibration</item>
-        <item>Klingel</item>
+        <item>Klingelton und Vibration</item>
+        <item>Klingelton</item>
         <item>Vibration</item>
     </string-array>
     <string-array name="misscalltype_value">
@@ -380,9 +370,9 @@ Fernsteuerung"</item>
         <item>2</item>
     </string-array>
     <string-array name="miss_alert_time">
-        <item>Alle 5 Minuten</item>
-        <item>Alle 10 Minuten</item>
-        <item>Alle 20 Minuten</item>
+        <item>alle 5 Minuten</item>
+        <item>alle 10 Minuten</item>
+        <item>alle 20 Minuten</item>
     </string-array>
     <string-array name="miss_alert_time_value">
         <item>5</item>
@@ -390,17 +380,17 @@ Fernsteuerung"</item>
         <item>20</item>
     </string-array>
     <string-array name="desktop_home_launch_mode">
-        <item>Tippen Home-Taste</item>
-        <item>Doppeltippen Home-Taste</item>
+        <item>startet bei einmaligen Antippen</item>
+        <item>startet bei doppeltem Antippen</item>
     </string-array>
     <string-array name="lbe_shortcut_start_mode">
-        <item>Haupt Benachrichtigung</item>
-        <item>Desktop Verknüpfung</item>
+        <item>Benachrichtigungleiste</item>
+        <item>Homescreen Verknüpfung</item>
     </string-array>
     <string-array name="blocklog_save_time">
-        <item>Eine Woche</item>
-        <item>Einen Monat</item>
-        <item>Dauerhaft</item>
+        <item>eine Woche</item>
+        <item>einen Monat</item>
+        <item>dauerhaft</item>
     </string-array>
     <string-array name="blocklog_save_time_values">
         <item>0</item>
@@ -429,12 +419,12 @@ Fernsteuerung"</item>
         <item>Diesen Dialog löschen</item>
     </string-array>
     <string-array name="private_message_dialog_operator">
-        <item>Diese SMS löschen</item>
-        <item>Zurück zum Posteingang</item>
+        <item>diese SMS löschen</item>
+        <item>zurück zum Posteingang</item>
     </string-array>
     <string-array name="phone_block_type">
-        <item>Anrufe und SMS</item>
-        <item>Anrufe</item>
+        <item>Telefonnummern und SMS</item>
+        <item>Telefonnummern</item>
         <item>SMS</item>
     </string-array>
     <string-array name="battery_scene_killtask_interval_values">
@@ -444,10 +434,10 @@ Fernsteuerung"</item>
     </string-array>
     <string-array name="anti_adware_user_feedback_type">
         <item>Ad-Blockierung gescheitert</item>
-        <item>Keine Adware gefunden</item>
+        <item>keine Adware gefunden</item>
         <item>App instabil nach Ad-Blockierung</item>
         <item>Schließen-Button wird nicht auf dem Banner angezeigt</item>
-        <item>Abbrechen</item>
+        <item>abbrechen</item>
     </string-array>
     <string-array name="desktop_float_toggles_labels">
         <item>Flugmodus</item>
@@ -485,9 +475,9 @@ Fernsteuerung"</item>
         <item>Mit Freunden teilen</item>
     </string-array>
     <string-array name="sdapk_sortypes">
-        <item>Nach Name sortieren</item>
-        <item>Nach Größe sortieren</item>
-        <item>Nach Datum sortieren</item>
+        <item>nach Name sortieren</item>
+        <item>nach Größe sortieren</item>
+        <item>nach Datum sortieren</item>
     </string-array>
     <string-array name="sdapk_types">
         <item>alle apks</item>
@@ -513,13 +503,13 @@ Fernsteuerung"</item>
         <item>Nach CPU Auslastung sortieren</item>
     </string-array>
     <string-array name="hipsapk_sortypes">
-        <item>Nach Name sortieren</item>
-        <item>Nach Anzahl der Berechtigungen sortieren</item>
-        <item>Nach Zeit sortieren</item>
+        <item>nach Name sortieren</item>
+        <item>nach Anzahl der Berechtigungen sortieren</item>
+        <item>nach Datum sortieren</item>
     </string-array>
     <string-array name="hipsapk_types">
-        <item>überwachte App(s)</item>
-        <item>nicht überwachte App(s)</item>
+        <item>Beutzer verwaltete App(s)</item>
+        <item>LBE verwaltete App(s)</item>
     </string-array>
     <string-array name="scan_item_type">
         <item>Telefonie und Tasks</item>
