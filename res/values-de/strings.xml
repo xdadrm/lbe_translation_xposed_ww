@@ -31,9 +31,9 @@
     <string name="HIPS_Perm_PhoneID">Telefon-ID</string>
     <string name="HIPS_Perm_PhoneID_Desc">Ermittelt Ihre Telefons ID (IMEI, IMSI und Telefonnummer)</string>
     <string name="HIPS_Perm_PhoneID_Hint">%1$s App(s) mit Zugriff auf Telefon-ID</string>
-    <string name="HIPS_Perm_MobileNetwork">Internet Zugang über mobiles Netz</string>
-    <string name="HIPS_Perm_MobileNetwork_Desc">Zugriff aufs Internet über mobiles Netz</string>
-    <string name="HIPS_Perm_MobileNetwork_Hint">%1$s App(s) mit Zugriff aufs mobile Internet</string>
+    <string name="HIPS_Perm_MobileNetwork">Internet Zugang über mobile Daten</string>
+    <string name="HIPS_Perm_MobileNetwork_Desc">Zugriff aufs Internet über mobile Daten</string>
+    <string name="HIPS_Perm_MobileNetwork_Hint">%1$s App(s) mit Zugriff aufs Internet per mobile Daten</string>
     <string name="HIPS_Perm_WIFINetwork">Internet Zugang über WiFi</string>
     <string name="HIPS_Perm_WIFINetwork_Desc">Zugriff aufs Internet über WiFi</string>
     <string name="HIPS_Perm_WIFINetwork_Hint">%1$s App(s) mit Zugriff aufs Internet über WiFi</string>
@@ -60,8 +60,8 @@
     <string name="HIPS_Perm_Settings">System Einstellungen</string>
     <string name="HIPS_Perm_Settings_Desc">Zugriff auf System Einstellungen</string>
     <string name="HIPS_Perm_Settings_Hint">%1$s App(s) mit Zugriff auf System Einstellungen</string>
-    <string name="HIPS_Perm_Recorder">Bilder und Videos aufnehmen</string>
-    <string name="HIPS_Perm_Recorder_Desc">Zugriff auf Aufnahme von Bildern und Videos</string>
+    <string name="HIPS_Perm_Recorder">Fotos und Videos aufnehmen</string>
+    <string name="HIPS_Perm_Recorder_Desc">Zugriff auf Aufnahme von Fotos und Videos</string>
     <string name="HIPS_Perm_Recorder_Hint">%1$s App(s) mit Zugriff auf die Kamera</string>
     <string name="HIPS_Perm_SendSMS_Recipient">Empfänger</string>
     <string name="HIPS_Perm_SendSMS_Content">Inhalt</string>
@@ -587,7 +587,7 @@
     <string name="Desktop_CPU_Hint">CPU:</string>
     <string name="Desktop_RAM_Hint">RAM</string>
     <string name="Desktop_Traffic_Hint">Heute:</string>
-    <string name="Desktop_Clean_Shortcut">alle Säubern</string>
+    <string name="Desktop_Clean_Shortcut">Speicher freigeben</string>
     <string name="Desktop_Clean_Later">Sie haben den RAM aufgeräumt, reinigen Sie später wieder</string>
     <string name="Desktop_Task_Num">%1$d Tasks</string>
     <string name="Desktop_Net_ConnCount">%1$d Verbindung(en)</string>
@@ -824,12 +824,12 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Home_Now_Loading">Lädt ...</string>
     <string name="Home_Phone_Accelerate">Gerät optimieren</string>
     <string name="Home_Battery_Optimize">Akku</string>
-    <string name="Home_Software_Manager">Apps und Rechte</string>
+    <string name="Home_Software_Manager">App Manager</string>
     <string name="Home_Disturb_Block">Anrufschutz</string>
     <string name="Home_Traffic_Monitor">Datenverbrauch</string>
     <string name="Home_Ad_Block">Werbung</string>
     <string name="Home_Virus_Kill">Anti-Virus</string>
-    <string name="Home_Defense">Active Defense</string>
+    <string name="Home_Defense">Rechteverwaltungsdienst</string>
     <string name="Home_Notification_Manager">Benachrich- tigungen</string>
     <string name="Home_Personal_Privacy">Verschlüsselung</string>
     <string name="Home_Anti_Burglary">Anti-Diebstahl</string>
@@ -854,8 +854,8 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Keyguard_Error_Empty_answer">Die Antwort darf nicht leer sein</string>
     <string name="Keyguard_Pattern_Zoom">Ändern Sie das Sicherheitsschloss Ebene</string>
     <string name="Keyguard_Pattern_Reset">Zurücksetzen</string>
-    <string name="Keyguard_Pattern_First">Anschließen mindestens vier Punkte Set Grafiken</string>
-    <string name="Keyguard_Pattern_Second">Schließen bestätigen Graphics</string>
+    <string name="Keyguard_Pattern_First">mindestens 4 Punkte verbinden</string>
+    <string name="Keyguard_Pattern_Second">zum Bestätigen wiederholen</string>
     <string name="Keyguard_Current_Active_Unlock">Diese Methode zum Entsperren: %1$s</string>
     <string name="Keyguard_Unlock_Fail_Passwd">Falsche Passwort entsperren scheitern</string>
     <string name="Keyguard_Unlock_Fail_Answer">Falsche Antwort, entsperren scheitern</string>
@@ -965,14 +965,14 @@ Mit dem Absenden einer Betreiber Abfrage per SMS, kalibriert die App automatisch
     <string name="Nft_Mgr_Title">Benachrichtigungs Manager</string>
     <string name="Nft_Mgr_Title_Hint">Benachrichtigungen einstellen</string>
     <string name="Nft_Mgr_Title_sub1">Benachrichtigungen</string>
-    <string name="Nft_Mgr_Title_sub2">per App einstellen</string>
-    <string name="Nft_Mgr_Title_sub3">Protokoll über blockierte Apps</string>
+    <string name="Nft_Mgr_Title_sub2">App Liste</string>
+    <string name="Nft_Mgr_Title_sub3">Protokoll</string>
     <string name="Nft_Mgr_Notification_Permission">Benachrichtigungen</string>
     <string name="Nft_Mgr_Notification_News">Benachrichtigungen</string>
     <string name="Nft_Mgr_Notification_News_Empty">Keine Benachrichtigung</string>
     <string name="Nft_Mgr_App_Hint">Meldung von: %1$s</string>
     <string name="Nft_Mgr_Default_App">unbekannte App</string>
-    <string name="Nft_Mgr_Block_Ads">Werbung blockieren</string>
+    <string name="Nft_Mgr_Block_Ads">Benachrichtigungen blockieren</string>
     <string name="Nft_Mgr_Clear_Nft">Benachrichtigungen löschen</string>
     <string name="Nft_Mgr_Showing">aktuelle Benachrichtigungen (%1$d)</string>
     <string name="Nft_Mgr_More">alte Benachrichtigunegn (%1$d)</string>
@@ -1025,10 +1025,10 @@ Mit dem Absenden einer Betreiber Abfrage per SMS, kalibriert die App automatisch
     <string name="Phone_Carrier_CT">China Telecom</string>
     <string name="Phone_Blacklist">schwarze Liste (blockierte Nummern)</string>
     <string name="Phone_Whitelist">weiße Liste (zugelassene Nummern)</string>
-    <string name="Phone_Call_Intercept">Anrufe blockieren</string>
-    <string name="Phone_Msg_Intercept">SMS blockieren</string>
-    <string name="Phone_MsgAndCall_Intercept">Blockier Anrufe und SMS</string>
-    <string name="Phone_MsgAdnCall_pass">Release-Anrufe und SMS</string>
+    <string name="Phone_Call_Intercept">Anrufe werden blockiert</string>
+    <string name="Phone_Msg_Intercept">SMS werden blockiert</string>
+    <string name="Phone_MsgAndCall_Intercept">Anrufe und SMS werden blockiert</string>
+    <string name="Phone_MsgAdnCall_pass">Anrufe und SMS erlaubt</string>
     <string name="Phone_Rule_Yes">Empfangen</string>
     <string name="Phone_Rule_No">Sperren</string>
     <string name="Phone_Rule_Smart">intelligente Blockierung</string>
@@ -1062,7 +1062,7 @@ Mit dem Absenden einer Betreiber Abfrage per SMS, kalibriert die App automatisch
     <string name="Phone_Block_Type_Norm">intelligenter Blockier-Modus</string>
     <string name="Phone_Block_Type_ContactAndWhite">nur Nummern aus Telefonbuch und weißer Liste zulassen</string>
     <string name="Phone_Block_Type_Black">nur Nummern der schwarzen Liste blockieren</string>
-    <string name="Phone_Block_Type_White">nur Nummern aus weißer Liste zulassent</string>
+    <string name="Phone_Block_Type_White">nur Nummern aus weißer Liste zulassen</string>
     <string name="Phone_Block_Type_ALlReject">alle blockieren</string>
     <string name="Phone_Block_Type_AllAllow">alle zulassen</string>
     <string name="Phone_Block_Type_UserDefine">Benutzer-Modus</string>
@@ -1107,7 +1107,7 @@ Mit dem Absenden einer Betreiber Abfrage per SMS, kalibriert die App automatisch
     <string name="Phone_Affirm_Delete">Sicher, dass Sie die ausgewählte Nummer löschen wollen?</string>
     <string name="Phone_Affirm_Clear">Sicher, dass Sie alle Dateien löschen wollen?</string>
     <string name="Phone_BlockType">Blockier-Modus</string>
-    <string name="Phone_BlockType_UserDifine_Set">Benbutzer-Modus Einstellungen</string>
+    <string name="Phone_BlockType_UserDifine_Set">Benutzer-Modus Einstellungen</string>
     <string name="Phone_NoUseIP">Nummern ohne IP-Einwahl</string>
     <string name="Phone_BlockLog_Title">%1$s%2$s</string>
     <string name="Phone_Adding">Hinzufügen, bitte warten</string>
@@ -1141,7 +1141,7 @@ Standardmäßig funktioniert der Cloud Security Dienst nur, wenn WiFi eingeschal
 
 Den Cloud Security Dienst können sie auch beim Blockier Dienst deaktivieren"</string>
     <string name="Phone_MissCall_Title">Benachrichtigung über verpasste Anrufe</string>
-    <string name="Phone_MissMsg_Title">Ungelesene SMS-Benachrichtigung</string>
+    <string name="Phone_MissMsg_Title">Benachrichtigung über ungelesene SMS</string>
     <string name="Phone_MissCallAlert_Type">Benachrichtigungstyp</string>
     <string name="Phone_MissCallAlert_Time">Alarm Interval</string>
     <string name="Phone_MissCall_SelectRing">Ton</string>
@@ -1150,7 +1150,7 @@ Den Cloud Security Dienst können sie auch beim Blockier Dienst deaktivieren"</s
     <string name="Phone_Alert_Add_White">diese Nummer zur weißen Liste hinzufügen</string>
     <string name="Phone_Common_Number">Häufig verwendete Nummern</string>
     <string name="Phone_Fixed_Line">Festnetz</string>
-    <string name="Phone_UnKnow_Alert">Ungelesene Benachrichtigung</string>
+    <string name="Phone_UnKnow_Alert">ungelesene Benachrichtigung(en)</string>
     <string name="Phone_Select_Location">Regions Nummer fragen</string>
     <string name="Phone_GoingCall_Alert">Vibrieren wenn Anruf angenommen</string>
     <string name="Phone_SignNumber_Title1">Kurz Klingel Anrufer</string>
@@ -1223,7 +1223,7 @@ Den Cloud Security Dienst können sie auch beim Blockier Dienst deaktivieren"</s
     <string name="Phone_Tools">Komm. Tools</string>
     <string name="Phone_IP_Dial">IP Einwahl</string>
     <string name="Phone_Local">Region Fenster</string>
-    <string name="Phone_Unread_Event">Ungelesene Ereignissbenachrichtigung</string>
+    <string name="Phone_Unread_Event">ungelesene Benachrichtigung(en)</string>
     <string name="Phone_Connect_Vibrate">Vibration:\u0020</string>
     <string name="Phone_Mark_title">Nummer Tag</string>
     <string name="Phone_UnKnow_Number">Unbekannte Nummer</string>
@@ -1477,7 +1477,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="HIPS_Conflict_Verify_Positive">Geschlossen</string>
     <string name="HIPS_Conflict_Verify_Negative">Nicht geschlossen</string>
     <string name="HIPS_Reboot">Starten Sie das Telefon</string>
-    <string name="HIPS_Reboot_Failure">Wenn das Telefon nicht neu gestartet wird, starten Sie Ihr Telefon Ihren eigenen</string>
+    <string name="HIPS_Reboot_Failure">Wenn das Telefon nicht neu gestartet wird, starten manuell neu.</string>
     <string name="HIPS_Defending">LBE Rechteverwaltungsdienst benötigt Rootrechte.</string>
     <string name="HIPS_NOT_Defending">Dienst zur Rechteverwaltung nicht aktiv.</string>
     <string name="HIPS_Root_Mode">LBE Rechteverwaltungs Dienst Status:</string>
@@ -1509,7 +1509,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="HIPS_Manual_Start_Hips_Hint">Please manually open the active defense</string>
     <string name="private_phones">Private Kommunikation</string>
     <string name="private_phones_backup">Privacy contacts, text messages and call records</string>
-    <string name="private_phones_AddNewAccount">Fügen Sie einen Datenschutz Space Account</string>
+    <string name="private_phones_AddNewAccount">Privacy Space Konto erstellen</string>
     <string name="private_phones_AddFakeAccount">Fake-Account hinzufügen</string>
     <string name="private_phones_FakeAccount_Invalid">Falsche Konto-Passwort kann nicht mit dem Master-Kennwort wiederholt werden</string>
     <string name="private_password_hint">Willkommen bei Private Kommunikation. Wenn Sie die Funktion das erste mal nutzen, erstellen Sie bitte ein Passwort</string>
@@ -1638,7 +1638,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="Scan_DangerItem">RISIKO</string>
     <string name="Scan_Cancel">abbrechen</string>
     <string name="Scan_Return">zurück</string>
-    <string name="Scan_OneClickOptimize">alle automatisch optimieren</string>
+    <string name="Scan_OneClickOptimize">alle autom. optimieren</string>
     <string name="Scan_Checkup">alle überprüfen</string>
     <string name="Scan_Now_Checking">überprüfe...</string>
     <string name="Scan_Check_Again">Sortieren nach Name</string>
@@ -1646,7 +1646,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="Scan_Prepare">Vorbereitung zur Prüfung</string>
     <string name="Scan_Optimization_Finish">Ihr Telefon ist in guten Zustand</string>
     <string name="Scan_Back_Warn_Title">Untersuchung abbrechen?</string>
-    <string name="Scan_Back_Warn_Content">Die physikalische Untersuchung ist noch nicht abgeschlossen, möchten Sie die medizinische Untersuchung beenden?</string>
+    <string name="Scan_Back_Warn_Content">Die physikalische Untersuchung ist noch nicht abgeschlossen, wirklich abbrechen?</string>
     <string name="Scan_Start">Prüfung starten</string>
     <string name="Scan_Check_Configs">Konfiguration überprüfen</string>
     <string name="Scan_Check_HIPS">Prüft den LBE Rechteverwaltungs Dienst</string>
@@ -1722,7 +1722,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="SoftMgr_Ram_Warning">Speicherverbrauch ist zu hoch!</string>
     <string name="SoftMgr_Rom_Saving">Zu sparender Speicherplatz: %1$s</string>
     <string name="SoftMgr_Rom_Waste">Zu sparender Speicherplatz: %1$s</string>
-    <string name="SoftMgr_Cache_Used">Cache Verbrauch: %1$s</string>
+    <string name="SoftMgr_Cache_Used">Größe: %1$s</string>
     <string name="SoftMgr_AppPerm_Tip">Detaillierte Rechte per App und Kategorie konfigurieren.</string>
     <string name="SoftMgr_AppUninstall_Tip">&lt;font color=\"#17A4F5\">%1$d &lt;/font>Benutzer Apps</string>
     <string name="SoftMgr_SysUninstall_Tip">&lt;font color=#17A4F5>%1$d &lt;/font> vorinstallierte System Apps</string>
@@ -1764,7 +1764,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="SoftMgr_SysUninstall_RFail">Wiederherstellen fehlgeschlagen:</string>
     <string name="SoftMgr_Uninstall_UsrFail">Deinstallation fehlgeschlagen</string>
     <string name="SoftMgr_AppPermission">App Zugriffsrechte verwalten</string>
-    <string name="SoftMgr_AppPermission2">App Rechte Scan</string>
+    <string name="SoftMgr_AppPermission2">Übersicht über App Rechte</string>
     <string name="SoftMgr_AppPermission_opted">Wurde optimiert ( %1$s )</string>
     <string name="SoftMgr_AppPermission_Suggest_Reject">evtl. nicht nötig für App Funktion</string>
     <string name="SoftMgr_AppPermission_Suggest_Accept">evtl. wichtig für App Funktion</string>
@@ -1921,8 +1921,8 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SysOpt_Boost_Receiver">startet im Hintergrund</string>
     <string name="SysOpt_Boost_Deblocking">Entsperren</string>
     <string name="SysOpt_Boost_None">Keine Autostart Apps</string>
-    <string name="SysOpt_TrustApp">App wird nicht überwacht</string>   
-    <string name="SysOpt_UntrustApp">Rechte werden durch LBE verwaltet</string>
+    <string name="SysOpt_TrustApp">LBE verwaltet App Rechte automatisch (Empfehlungen)</string>   
+    <string name="SysOpt_UntrustApp">Rechte werden durch Benutzer verwaltet</string>
     <string name="SysOpt_Boot_Permission">Autostart</string>
     <string name="SysOpt_RejectBootStart">App wird nicht beim Gerätestart geladen</string>
     <string name="SysOpt_RejectAutoStart">App wird nicht automatisch gestartet</string>
@@ -2127,7 +2127,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="HIPS_Perm_VideoRecorder">Fotos und Video</string>
     <string name="HIPS_Perm_VideoRecorder_Desc">Zugriff auf Aufnahme von Fotos und Video</string>
     <string name="HIPS_Perm_VideoRecorder_Hint">%1$s App(s) mit Zugriff auf die Kamera</string>
-    <string name="HIPS_Perm_Recorder_AudioVideo">Ron und Video aufnahmen</string>
+    <string name="HIPS_Perm_Recorder_AudioVideo">Ton und Video aufnahmen</string>
     <string name="HIPS_Perm_Recorder_Video">Video aufnehmen</string>
     <string name="HIPS_Perm_Recorder_Audio">Ton aufnehmen</string>
     
@@ -2293,7 +2293,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="HIPS_Trust_No">nicht vertrauenswürdige App</string>
     <string name="HIPS_Trust_Permission">App hat ungehinderten Zugriff auf Rechte</string>
     <string name="HIPS_Trust_Yes">vertrauenswürdige App</string>
-    <string name="Home_About_LBE">Info über</string>
+    <string name="Home_About_LBE">evtl. sinnvolle Cache Daten</string>
     <string name="Home_Enable_FloatWindow_Step1" >1. Auf dem LBE Hauptbildschirm oben rechts auf Einstellungen klicken.</string>
     <string name="Home_Enable_FloatWindow_Step2" >2. Dann auf "Einstellungen für Homescreen Symbol" um es dort zu aktivieren.</string>
     <string name="Home_Enable_FloatWindow_Title">Um das schwebende Homescreen Symbol von LBE Secrutiy Master zu aktiviren tun Sie folgendes:</string>
@@ -2305,7 +2305,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Home_Permission_Manage">Rechte verwalten</string> 
     <string name="Home_Phone_Yellow_page">Nummernliste</string>
     <string name="Home_Running_Prompt">läuft bereits</string>
-    <string name="Home_SD_Clean">SD Karte aufräumen</string>
+    <string name="Home_SD_Clean">Datenspeicher bereinigen</string>
     <string name="Home_Setting_Center">mittig platzieren</string>
     <string name="Home_Setting_Now">jetzt</string>
     <string name="Home_Skip">überspringen</string>
@@ -2379,12 +2379,12 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Scan_Optimizing">optimiere..</string>
     <string name="Scan_Recommend_Item">Empfehlung</string>
     <string name="screen_timeout">Bildschirm Timeout</string>
-    <string name="SDClean">Papierkorb</string>
+    <string name="SDClean">unötige Dateien suchen</string>
     <string name="SDClean_Adavanced_Clean"> Datei Manager </string>
     <string name="SDClean_Clean_ActionBar">lösche</string>
     <string name="SDClean_Clean_ActionBar_Tips">lösche (%1$d)</string>
-    <string name="SDClean_Clean_Advert">Werbe Datei</string>
-    <string name="SDClean_Clean_Advert_Result">in &lt; font color=\ "#66ccff\" >%1$s&lt; /font> wurde Werbung gefunden, säubern empfohlen</string>
+    <string name="SDClean_Clean_Advert">Daten aus Werbeeinblendungen</string>
+    <string name="SDClean_Clean_Advert_Result">&lt;font color=\"#66ccff\">%1$s&lt;/font> alte Daten aus Werbung gefunden</string>
     <string name="SDClean_Clean_Advise">Vorschläge:</string>
     <string name="SDClean_Clean_All">alle</string>
     <string name="SDClean_Clean_Apk">APK</string>
@@ -2392,7 +2392,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SDClean_Clean_App_Not_Running">nicht aktiv</string>
     <string name="SDClean_Clean_App_Running">aktiv</string>
     <string name="SDClean_Clean_Cache">alte Cache Daten</string>
-    <string name="SDClean_Clean_Cache_Result">in &lt; font color=\ "#66ccff\" >%1$s&lt; /font> wurden unötige Cache Dateien gefunden, bereinigen wird empfohlen</string>
+    <string name="SDClean_Clean_Cache_Result">&lt;font color=\"#66ccff\">%1$s&lt;/font> unötige Cache Dateien gefunden</string>
     <string name="SDClean_Clean_Cleanable">können bereinigt werden</string>
     <string name="SDClean_Clean_Cleaned_Residuel_Files">%1$s Installations Reste entfernt</string>
     <string name="SDClean_Clean_Cleaning">"ist bereinigt:</string>
@@ -2413,13 +2413,13 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SDClean_Clean_Current_No_Residuel">keine Restdateien gefunden</string>
     <string name="SDClean_Clean_Deep">Info über</string>
     <string name="SDClean_Clean_Deep_Manager">sie können auch einen Tiefenscan starten</string>
-    <string name="SDClean_Clean_Deep_Result">&lt; font color=\ "#ffcb2d\" >%1$s&lt; /font> sollte nicht gelöscht werden</string>
+    <string name="SDClean_Clean_Deep_Result">&lt;font color=\"#ffcb2d\">%1$s&lt;/font> sollten nicht gelöscht werden</string>
     <string name="SDClean_Clean_Derelict_Apk">nutzlose APK(s)</string>
-    <string name="SDClean_Clean_Derelict_Result">in &lt; font color=\ "#ffcb2d\" >%1$d&lt; /font> wurden unnütze APK(s) gefunden</string>
-    <string name="SDClean_Clean_Detail_Title_Text" >%1$s &lt; font color=\ "#339900\">(%2$s) &lt; /font></string>
+    <string name="SDClean_Clean_Derelict_Result">&lt;font color=\"#ffcb2d\">%1$d&lt;/font> nicht benötigte APK(s) gefunden</string>
+    <string name="SDClean_Clean_Detail_Title_Text" >%1$s &lt;font color=\"#339900\">(%2$s) &lt;/font></string>
     <string name="SDClean_Clean_Document">Dokument</string>
     <string name="SDClean_Clean_Empty_Folder">leerer Ordner</string>
-    <string name="SDClean_Clean_Empty_Rest">Rest Dateien &lt; font color=\ "#66ccff\" >%1$d&lt; /font> leere Ordner</string>
+    <string name="SDClean_Clean_Empty_Rest">Rest Dateien &lt;font color=\"#66ccff\">%1$d&lt;/font> leere Ordner</string>
     <string name="SDClean_Clean_File_Open">öffnen</string>
     <string name="SDClean_Clean_Finished">%1$s wurden freigegeben durchs Bereinigen</string>
     <string name="SDClean_Clean_Init">Scan wird initiiert, bitte warten</string>
@@ -2428,7 +2428,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SDClean_Clean_Local_Prepare_Scan">Scan wird vorbereitet</string>
     <string name="SDClean_Clean_Location">Ortung:</string>
     <string name="SDClean_Clean_Music">Musik</string>
-    <string name="SDClean_Clean_No_Advert">keine Dateien mit Werbung gefunden</string>
+    <string name="SDClean_Clean_No_Advert">keine alten Datein aus Werbeeinblendungen gefunden</string>
     <string name="SDClean_Clean_No_Advert_Found" >keine Werbung gefunden</string>
     <string name="SDClean_Clean_No_Cache">Bereinigen des Cachs ist nicht notwendig</string>
     <string name="SDClean_Clean_No_Cache_Found" >keine unötigen Chache Daten gefunden</string>
@@ -2446,8 +2446,8 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SDClean_Clean_Other">andere</string>
     <string name="SDClean_Clean_Prepare">bereit zum Bereinigen</string>
     <string name="SDClean_Clean_Purpose">benutze:</string>
-    <string name="SDClean_Clean_Remained">lösche Restdateien</string>
-    <string name="SDClean_Clean_Remained_Result">wurde in &lt; font color=\ "#66ccff\" >%1$s&lt; /font> gefunden, Reinigen wird empfohlen</string>
+    <string name="SDClean_Clean_Remained">Reste deinsatallierter Apps</string>
+    <string name="SDClean_Clean_Remained_Result">&lt;font color=\ "#66ccff\">%1$s&lt;/font> können freigegeben werden</string>
     <string name="SDClean_Clean_Residuel_File">Datei Reste:</string>
     <string name="SDClean_Clean_Scanning">scanne: %1$s%2$s (%3$s)</string>
     <string name="SDClean_Clean_Scanning_Simple">scanne: %1$s</string>
@@ -2458,14 +2458,14 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SDClean_Clean_Setting_Item_Residuel">Restdaten deinstallierter Apps löschen</string>
     <string name="SDClean_Clean_Setting_Title">Papierkorb Einstellungen</string>
     <string name="SDClean_Clean_Size">Größe:</string>
-    <string name="SDClean_Clean_Start_Clean">reinigen von </string>
-    <string name="SDClean_Clean_Start_Clean_Summary">Kann bereinigt werden: %1$d</string>
+    <string name="SDClean_Clean_Start_Clean">zum Löschen auswählen </string>
+    <string name="SDClean_Clean_Start_Clean_Summary">%1$d löschen</string>
     <string name="SDClean_Clean_Stop_Scan">anhalten</string>
     <string name="SDClean_Clean_Success">erfolgreich d%1$s Cache freigegeben</string>
-    <string name="SDClean_Clean_SysCache_Result">wurde gefunden, in: &lt; font color=\ "#ffcb2d\" >%1$s&lt; /font> cache</string>
+    <string name="SDClean_Clean_SysCache_Result">&lt;font color=\"#ffcb2d\">%1$s&lt;/font> alte Cache Dateien gefunden</string>
     <string name="SDClean_Clean_System_Cache">System Cache</string>
     <string name="SDClean_Clean_SystemCache_Clean_Size">%1$s aus dem Cache bereinigt</string>
-    <string name="SDClean_Clean_Text_Found">wurde gefunden</string>
+    <string name="SDClean_Clean_Text_Found">freizugeben</string>
     <string name="SDClean_Clean_Tidy">Keine unnötigen Dateien gefunden.</string>
     <string name="SDClean_Clean_Tips">Es würden %1$d hochauflösende Fotos in den Speicher passen.</string>
     <string name="SDClean_Clean_Total_Clean_Message">Es wurden %1$s an unnötigen Dateien entfernt.</string>
@@ -2512,7 +2512,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SDClean_SpecialFile_Size">Größe:</string>
     <string name="SDClean_SpecialFile_Type">Dateityp:</string>
     <string name="SDClean_SpecialFile_Unknow_Type">unbekant</string>
-    <string name="SDClean_Title">Papierkorb</string>
+    <string name="SDClean_Title">unötige Dateien suchen</string>
     <string name="Short_Whitelist">Weiße Liste (%1$d)</string>
     <string name="Shortcut_Add_No_Hips">Rechteverwaltungsdienst nicht aktiv, Funktion nicht verfügbar</string>
     <string name="Shortcut_Continue">fortsetzen</string>
@@ -2544,5 +2544,141 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Traffic_Network_Firewall_Tips">Internet Zugrif per APP zulassen oder ablehnen</string>
     <string name="viberate">vibration</string>
     <string name="yellow_page">Nummer Service</string>
-      
+   
+   <!-- 5.2.6549 -->    
+   
+    <string name="AD_Banner_Adware">Werbebanner</string>
+    <string name="AD_Notification_Adware">Werbung in Benachrichtigungeleiste</string>
+    <string name="AD_Wall_Adware">Pop-Up Werbung</string>
+    <string name="back">zurück</string>
+    <string name="Epayguard">Schutz für Bezahldienste</string>
+    <string name="Epayguard_Download">Schutz für Bezahldiesnte runterladen</string>
+    <string name="Epayguard_Download_Message">Diese Zusatz APP schütz sie bei Online Einkäufen.</string>
+    <string name="Epayguard_Install_Failed">Installation fehlgeschlagen</string>
+    <string name="Epayguard_Summary">untertützt derzeit &lt;font color=#ff9400> Taobao and Alipay  the &lt;/font> es werden verschiedene Angriffsmöglichkeiten überwacht wie das abfangen der Daten durch Viren und andere gefährliche Software. Beim bezahlen wird ein einmaliger Bestätigungscode genutzt.</string>
+    <string name="HIPS_Aliyun_Nolimit_Message">bitte starten sie ihr Gerät neu</string>
+    <string name="HIPS_Aliyun_Reboot_Message">ihr Gerät muss neu gestartet werden</string>
+    <string name="HIPS_App_Batch_Trust_Toast">batch operation needs to relieve the jurisdiction to trust</string>
+    <string name="HIPS_App_Sort_Title">sorting way</string>
+    <string name="HIPS_Conflict_Title">" your cell phone establishment and active defense conflict</string>
+    <string name="HIPS_Fallback_Conflict_Message">examines in the system to have &lt;font color=\"#17A4F5\">%1$s&lt;/font> can have the conflict with the LBE security master active defense, please close this application rights management function</string>
+    <string name="HIPS_Sys_Mode">system is authorized to start</string>
+    <string name="Home_Agree_And_Use">enters security master</string>
+    <string name="Home_Epayguard">Schutz für Bezahldienste<</string>
+    <string name="Home_EULA">installment permission agreement</string>
+    <string name="Home_Install_Permit_Agreement">"Installment Permission Agreement"</string>
+    <string name="Home_Readed_And_Agreed">read and agreed with</string>
+    <string name="Home_You_Must_Agree_Before_Use">you must agree that the agreement can use!</string>
+    <string name="miui_iuni_hips_label">rights management</string>
+    <string name="miui_lbe_su_hips_label">LBE administration bureau</string>
+    <string name="miui_meitu_hips_label">rights management</string>
+    <string name="miui_v4_hips_label">administration bureau</string>
+    <string name="miui_v5_hips_label">administration bureau</string>
+    <string name="miui_v5_sc_hips_label">security center</string>
+    <string name="Plugin_ATP_No_net">network connections not available</string>
+    <string name="Plugin_ATP_Uninstall_Failed">LBE security service unloading defeat</string>
+    <string name="Plugin_ATP_Uninstall_Successfully">LBE security service unloads successful</string>
+    <string name="Plugin_Epayguard_Name">SMS Guard</string>
+    <string name="Pref_Main_Hardware_Accelerate">use hardware acceleration</string>
+    <string name="Pref_Traffic_FloatWindow_FullScreen_Hide">current capacity floating window</string>
+    <string name="private_add_contact">increase privacy contact person</string>
+    <string name="private_decrypt_fail">decipher defeat</string>
+    <string name="private_decrypt_fail_detail">please the prompt backup data, preserve the issue scene.</string>
+    <string name="private_text_zero">0</string>
+    <string name="Scan_Already_Clear">has cleaned up</string>
+    <string name="Scan_Already_Enable">enabled</string>
+    <string name="Scan_Already_Optimized">optimized</string>
+    <string name="Scan_Already_Scan_Ad">had scanned software built-in advertisement</string>
+    <string name="Scan_Already_Scan_Virus">has carried on the virus to scan</string>
+    <string name="Scan_Already_Trust_LBE_Security_Master">trusted LBE security master</string>
+    <string name="Scan_Already_Watch_MIUI_FloatWindow_Setting_Guide">examined that the MIUI aerosol window establishes guide</string>
+    <string name="Scan_Autoboot_Software">autostarting software</string>
+    <string name="Scan_AutoStart">Autostart Software</string>
+    <string name="Scan_Check_Update">inspection renews</string>
+    <string name="Scan_Cheking_Update">is inspecting to renew</string>
+    <string name="Scan_Cleaning_Virus_Now">is scanning viral</string>
+    <string name="Scan_Clear">cleans up</string>
+    <string name="Scan_Cloud_Permission_Expired">Cloud configuration data already expired</string>
+    <string name="Scan_Cloud_Permission_Updated">Cloud configuration data is newest</string>
+    <string name="Scan_Cloud_Service_Disable">cloud service disabled</string>
+    <string name="Scan_Cloud_Service_Enable">cloud service enabled</string>
+    <string name="Scan_Cloud_Service_Starting">starting cloud service</string>
+    <string name="Scan_Disable_AutoStart">Autostart deaktiviren</string>
+    <string name="Scan_Disconnect_Network">Internetverbindung trennen</string>
+    <string name="Scan_Disconnecting_Network">Verbindung wird getrennt</string>
+    <string name="Scan_Enable">aktiv</string>
+    <string name="Scan_Enable_Float_Window_On_MIUI">is the MIUI system enables floating window function</string>
+    <string name="Scan_Have_Garbage_To_Clear">your cell phone exists to treat cleaning up trash</string>
+    <string name="Scan_Hips_Already_Enabled">active defense enabled</string>
+    <string name="Scan_Hips_Disable">active defense disabled</string>
+    <string name="Scan_Hips_Starting">is starting the active defense to serve</string>
+    <string name="Scan_Immediate_Clear">cleans up immediately</string> 
+    <string name="Scan_Instant_Anti_Virus_Disable">Echtzeit Virenschutz deaktiviert</string>
+    <string name="Scan_Instant_Anti_Virus_Enable">Echtzeit Virenschutz aktiviert</string>
+    <string name="Scan_Instant_Anti_Virus_Starting">Echtzeit Virenschutz wird gestartet</string>
+    <string name="Scan_Long_Time_Not_Clear_Garbage">lange nicht nach unnötige Dateien gescannt</string>
+    <string name="Scan_No_Background_Running_Task">non-backstage advancement may clean up</string>
+    <string name="Scan_No_Garbage_Need_Clear">in your cell phone may not clean up trash</string>
+    <string name="Scan_Now_Cleaning">is cleaning up trash document</string>
+    <string name="Scan_Openning_AutoStart">is starting auto-starting</string>
+    <string name="Scan_Optimize_Autoboot">is optimizing auto-starting software</string>
+    <string name="Scan_Phone_Service_Disbale">harassment interception service disabled</string>
+    <string name="Scan_Phone_Service_Enable">harassment interception service enabled</string>
+    <string name="Scan_Phone_Service_Starting">is starting the harassment interception to serve</string>
+    <string name="Scan_Please_Update_Cloud_Permission_After_Connect_Network">invited the networking, renewed cloud configuration data again</string>
+    <string name="Scan_Recommend_Optimize_Autoboot_Software">recommendation optimizes autostarting software</string>
+    <string name="Scan_Recommend_Scan_Ad_Now">recommends you to scan software built-in advertisement immediately</string>
+    <string name="Scan_Scan">scans</string>
+    <string name="Scan_Scanning_Ad">is scanning application built-in advertisement</string>
+    <string name="Scan_Scanning_Virus_Now">is scanning viral</string>
+    <string name="Scan_Set_Trust_LBE_Security_Master">establishes the LBE security master to trust software</string>
+    <string name="Scan_Setting_FloatWindow">is establishing aerosol window</string>
+    <string name="Scan_Setting_Trust_LBE_Security_Master">is establishing trust software</string>
+    <string name="Scan_Stopping_Background_Running_Task">was finishing backstage advancement</string>
+    <string name="Scan_Traffic_Dataplan_Desc">current capacity meal has established is %1$s every month</string>
+    <string name="Scan_Traffic_Dataplan_Plenty">this month current capacity surplus sufficient</string>
+    <string name="Scan_Traffic_Dataplan_Setting">is establishing current capacity meal</string>
+    <string name="Scan_Traffic_Dataplan_UnSet">current capacity meal has not established</string>
+    <string name="Scan_Traffic_Monitor_Disable">Monitor disabled</string>
+    <string name="Scan_Traffic_Monitor_Enable">Monitor enabled</string>
+    <string name="Scan_Traffic_Monitor_Starting">Starting Traffic Monitor</string>
+    <string name="Scan_Updating_Cloud_Permission_Data">is renewing cloud configuration data</string>
+    <string name="Scan_Watch_Guide">examination course</string>
+    <string name="Scan_Watch_MIUI_Phone_Service_Start_Guide">examines MIUI opening harassment interception service course</string>
+    <string name="Scan_Watched_MIUI_Phone_Service_Start_Guide">examined MIUI opening harassment interception service course</string>
+    <string name="Scan_Watching_MIUI_Phone_Service_Start_Guide">is examining MIUI harassment interception establishment course</string>
+    <string name="SDClean_Clean_Apk_Broken">damaged</string>
+    <string name="SDClean_Clean_Apk_Dialog_Item">&lt;font color=\"#666666\">%1$s&lt;/font> &lt;font color=\"#333333\">%2$s&lt;/font></string>
+    <string name="SDClean_Clean_Apk_Old_Version">old edition</string>
+    <string name="SDClean_Clean_Clean_May_Wait">is cleaning up, please wait a bit</string>
+    <string name="SDClean_Clean_DeepClean_Summary">discovers in addition &lt;font color=\"#ffcb2d\">%1$s&lt;/font> depth scanning document, suggested that retains or cleans up discretely</string> 
+    <string name="SDClean_Clean_Install_Apk_Informations">%1$s(%2$s)</string>
+    <string name="SDClean_Clean_Install_Apk_Summary">discovered that the old apk still exists, deleting it may save %1$s space, delete?</string>
+    <string name="SDClean_Clean_Install_Apk_Tips">you have installed the following software:</string>
+    <string name="SDClean_Clean_No_Advert_Found">Orz, has not discovered any advertisement document!</string>
+    <string name="SDClean_Clean_No_Cache_Found">Orz, has not discovered any trash buffer document!</string>
+    <string name="SDClean_Clean_No_DeepFile">congratulates, your cell phone had not discovered that suggested to retain document</string>
+    <string name="SDClean_Clean_No_Derelict_Found">Orz, has not discovered the discrete cleaning up document!</string>
+    <string name="SDClean_Clean_No_Residuel_Found">Orz, has not discovered the unloading residual document!</string>
+    <string name="SDClean_Clean_No_Unuse_Apk">congratulates, your cell phone had not discovered that useless APK wraps</string>
+    <string name="SDClean_Clean_Please_Keep">your SD card is very clean, please many maintains!</string>
+    <string name="SDClean_Clean_Text_Clean_Size">deletion (%1$s)</string>
+    <string name="SDClean_Clean_Text_Finish">completes</string>
+    <string name="SDClean_Clean_Uninstall_Advise_Clean">suggested you to clean up, saves space</string>
+    <string name="SDClean_Clean_Uninstall_Text_Apk">apk &lt;font color=\"#66ccff\">%1$d&lt;/font> (&lt;font color=\"#66ccff\">%2$s&lt;/font>)</string> 
+    <string name="SDClean_Clean_Uninstall_Text_Doc">document file &lt;font color=\"#66ccff\">%1$d&lt;/font> (&lt;font color=\"#66ccff\">%2$s&lt;/font>)</string>
+    <string name="SDClean_Clean_Uninstall_Text_Music">music file &lt;font color=\"#66ccff\">%1$d&lt;/font> (&lt;font color=\"#66ccff\">%2$s&lt;/font>)</string>
+    <string name="SDClean_Clean_Uninstall_Text_Other">has</string>
+    <string name="SDClean_Clean_Uninstall_Text_Title">discovers &lt;font color=\"#66ccff\">%1$d&lt; a/font> application remains &lt;font color=\"#66ccff\">%2$s&lt;/font> document</string>
+    <string name="SDClean_Clean_Uninstall_Text_Video">video document &lt;font color=\"#66ccff\">%1$d&lt;/font> (&lt;font color=\"#66ccff\">%2$s&lt;/font>)</string>
+    <string name="SoftMgr_SysUninstall_Careful_Uninstall">uninstall discretely</string> 
+    <string name="SoftMgr_SysUninstall_Careful_Uninstall_Not_Found">has not for the present the system of discovery discrete unloading to apply</string>
+    <string name="SoftMgr_SysUninstall_May_Uninstall">kann deinstalliert werden</string>
+    <string name="SoftMgr_SysUninstall_May_Uninstall_Not_Found">has not for the present the system that the discovery can unload to apply</string>
+    <string name="SysOpt_TaskMgr_Clearable">löschen</string>
+    <string name="SysOpt_TaskMgr_InternalWhiteList_Remove">Nachdem entfernen von der weißen Liste wird die Anwendung geschlossen.</string>
+    <string name="Traffic_Unit">(M)</string>
+    <string name="Update_Component_Epayguard">Schutz für Bezahldienste</string>
+    <string name="Update_Epayguard">Update für Bezahldienst Schutz</string>
+    
 </resources>
