@@ -471,8 +471,8 @@
         <item>Suche nach Updates </item>
         <item>Feedback</item>
         <item>LBE im Playstore</item>
-        <item>App Scoring</item>
-        <item>Mit Freunden teilen</item>
+        <item>Mit Freundne teilen</item>
+        <item>LBE Community</item>
     </string-array>
     <string-array name="sdapk_sortypes">
         <item>nach Name sortieren</item>
