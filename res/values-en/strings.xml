@@ -2237,7 +2237,7 @@
     <string name="Home_Lbe_Remind_internal_beta">warm reminder: This version is beta version, please be careful. The emphasis on improved garbage, authorization management, a key clean-up and other major function, also please online before the mobile phone data backup, so as not to cause the mobile phone store content is deleted. There is also the problem please promptly to the forum online plate feedback.</string>
     <string name="Home_LBE_Remind_Tips" >LBE security master reminder</string>
     <string name="Home_Other">other</string>
-    <string name="Home_Permission_Manage">permission management</string> 
+    <string name="Home_Permission_Manage">Permissions</string> 
     <string name="Home_Phone_Yellow_page">number pages</string>
     <string name="Home_Running_Prompt">running remind</string>
     <string name="Home_SD_Clean">Cleanup</string>
@@ -2250,7 +2250,7 @@
     <string name="Keyguard_Vibrate_Off">No vibration for drawing pattern</string>
     <string name="Keyguard_Vibrate_On">drawing pattern vibration</string>
     <string name="lbe_function_already_exist">this LBE function item already exists, without adding ^_^</string>
-    <string name="Plugin_ATP">mobile phone anti-theft</string>
+    <string name="Plugin_ATP">Anti-theft Plugin</string>
     <string name="Plugin_ATP_Action">you can perform the following operations: mobile phone to a friend</string>
     <string name="Plugin_ATP_cancel_destroy">cancel the destruction of</string>
     <string name="Plugin_ATP_destroy_hint">destruction of data will be destroyed the stolen mobile phone mail list data, it is recommended that you backup to restore good contacts after the destruction of data.</string>
@@ -2481,11 +2481,11 @@
     <string name="AD_Notification_Adware">notiification ads</string>
     <string name="AD_Wall_Adware">pop-up ads</string>
     <string name="back">back</string>
-    <string name="Epayguard">SMS Guard</string>
-    <string name="Epayguard_Download">downloading installment SMS Guard</string>
-    <string name="Epayguard_Download_Message">soon will download the SMS Guard for you, your net buys the short note to obtain a better protection , to continue?</string>
-    <string name="Epayguard_Install_Failed">SMS Guard installs defeat</string>
-    <string name="Epayguard_Summary">supports perfectly &lt;font color=#ff9400> Taobao, day cat and Alipay  the &lt;/font> three clathrias buy product short note protection, avoids the net buying the short note intercepts by the virus and malicious software, the monitoring application automatic transmission network buys the short note behavior, preventing the evil intention to buckle the fee. &lt; br>&lt; br> intelligent identification more than 400 types of networks buy the short note, the intelligent classification automatic labeling convenience management, after reading, burns, confirms the code short note to be no longer disorderly.</string>
+    <string name="Epayguard">ePayment Guard</string>
+    <string name="Epayguard_Download">downloading installment ePayment Guard</string>
+    <string name="Epayguard_Download_Message">soon will download the ePayment Guard for you, your net buys the short note to obtain a better protection , to continue?</string>
+    <string name="Epayguard_Install_Failed">ePayment Guard installs defeat</string>
+    <string name="Epayguard_Summary">supports &lt;font color=#ff9400> Taobao, day cat and Alipay  the &lt;/font> three clathrias buy product short note protection, avoids the net buying the short note intercepts by the virus and malicious software, the monitoring application automatic transmission network buys the short note behavior, preventing the evil intention to buckle the fee. &lt; br>&lt; br> intelligent identification more than 400 types of networks buy the short note, the intelligent classification automatic labeling convenience management, after reading, deletes, confirms the code SMS.</string>
     <string name="HIPS_Aliyun_Nolimit_Message">LBE security master examines your cell phone system is Ali says the OS system, is stable for the guarantee system, before exempting Root starts the active defense, please manual restart cell phone</string>
     <string name="HIPS_Aliyun_Reboot_Message">LBE security master examines your cell phone system is Ali says the OS system, is stable for the guarantee system, before cutting the active defense, needs to restart the cell phone to close active defense</string>
     <string name="HIPS_App_Batch_Trust_Toast">batch operation needs to relieve the jurisdiction to trust</string>
@@ -2494,7 +2494,7 @@
     <string name="HIPS_Fallback_Conflict_Message">examines in the system to have &lt;font color=\"#17A4F5\">%1$s&lt;/font> can have the conflict with the LBE security master active defense, please close this application rights management function</string>
     <string name="HIPS_Sys_Mode">system is authorized to start</string>
     <string name="Home_Agree_And_Use">enters security master</string>
-    <string name="Home_Epayguard">SMS Guard</string>
+    <string name="Home_Epayguard">ePayment</string>
     <string name="Home_EULA">installment permission agreement</string>
     <string name="Home_Install_Permit_Agreement">"Installment Permission Agreement"</string>
     <string name="Home_Readed_And_Agreed">read and agreed with</string>

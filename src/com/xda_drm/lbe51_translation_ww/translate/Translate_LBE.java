@@ -120,6 +120,10 @@ public class Translate_LBE implements IXposedHookZygoteInit, IXposedHookInitPack
       editResourceImage(resparam, resparam.res.getIdentifier("phone_intercept_hint_bg_normal", "drawable", resparam.packageName), modRes.getString(R.string.Phone_ReportMessageTitle));
       editResourceImage(resparam, resparam.res.getIdentifier("phone_intercept_hint_bg_pressed", "drawable", resparam.packageName), modRes.getString(R.string.Phone_ReportMessageTitle));
 
+      editResourceImage(resparam, resparam.res.getIdentifier("atp_main_pic", "drawable", resparam.packageName), modRes.getString(R.string.Plugin_ATP));
+      editResourceImage(resparam, resparam.res.getIdentifier("epayguard_banner", "drawable", resparam.packageName), modRes.getString(R.string.Epayguard));
+
+      
       
       // Require UTF-8 16 bit Characters - see http://www.irongeek.com/homoglyph-attack-generator.php
       try { resparam.res.setReplacement(resparam.packageName, "string", "Generic_Time_Today","﻿Το�?ау"); } catch(RuntimeException e) { };
