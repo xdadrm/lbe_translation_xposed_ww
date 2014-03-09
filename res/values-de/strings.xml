@@ -671,7 +671,7 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Generic_Copyright">by Team LBE</string>
     <string name="Generic_Beta">Alpha-Version, nicht verteilen</string>
     <string name="Generic_Beta_NotFound_Device">Sorry, Ihr Gerät nicht im Rahmen der Closed Beta, nutzen Sie bitte die offizielle Version</string>
-    <string name="Generic_Configuration">einrichten/string>
+    <string name="Generic_Configuration">einrichten</string>
     <string name="Generic_Configuration_Backup">LBE Security Master setting items</string>
     <string name="Generic_Canceling">abbrechen…</string>
     <string name="Generic_Service_Enabled">Dienst ist eingeschaltet</string>
@@ -2429,14 +2429,10 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SDClean_Clean_Location">Ortung:</string>
     <string name="SDClean_Clean_Music">Musik</string>
     <string name="SDClean_Clean_No_Advert">keine alten Datein aus Werbeeinblendungen gefunden</string>
-    <string name="SDClean_Clean_No_Advert_Found" >keine Werbung gefunden</string>
     <string name="SDClean_Clean_No_Cache">Bereinigen des Cachs ist nicht notwendig</string>
-    <string name="SDClean_Clean_No_Cache_Found" >keine unötigen Chache Daten gefunden</string>
     <string name="SDClean_Clean_No_Choose_File">Datei zum bereinigen auswählen</string>
     <string name="SDClean_Clean_No_Deep">kein Tiefenscan notwendig</string>
-    <string name="SDClean_Clean_No_Derelict_Found" >nichts zum bereinigen gefunden</string>
     <string name="SDClean_Clean_No_Residuel">keine Rest Dateien gefunden</string>
-    <string name="SDClean_Clean_No_Residuel_Found" >keine Restdateien gefunden</string>
     <string name="SDClean_Clean_No_Root_Note">kein Root Zugriff, Cache kann nicht bereinigt werden</string>
     <string name="SDClean_Clean_No_System_Cache">keine überflüssigen Cache Dateien gefunden</string>
     <string name="SDClean_Clean_Not_Found_SDCard">keine SD Karte gefunden</string>
@@ -2564,7 +2560,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="HIPS_Fallback_Conflict_Message">examines in the system to have &lt;font color=\"#17A4F5\">%1$s&lt;/font> can have the conflict with the LBE security master active defense, please close this application rights management function</string>
     <string name="HIPS_Sys_Mode">system is authorized to start</string>
     <string name="Home_Agree_And_Use">enters security master</string>
-    <string name="Home_Epayguard">Schutz für Bezahldienste<</string>
+    <string name="Home_Epayguard">Schutz für Bezahldienste</string>
     <string name="Home_EULA">installment permission agreement</string>
     <string name="Home_Install_Permit_Agreement">"Installment Permission Agreement"</string>
     <string name="Home_Readed_And_Agreed">gelesen und zustimmen</string>
@@ -2585,7 +2581,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="private_decrypt_fail">entschlüsseln fehlgeschlagen</string>
     <string name="private_decrypt_fail_detail">please the prompt backup data, preserve the issue scene.</string>
     <string name="private_text_zero">0</string>
-    <string name="Scan_Already_Clear">alles sauber/string>
+    <string name="Scan_Already_Clear">alles sauber</string>
     <string name="Scan_Already_Enable">aktivieren</string>
     <string name="Scan_Already_Optimized">optimal</string>
     <string name="Scan_Already_Scan_Ad">bereits nach Werbung gesucht</string>
@@ -2658,7 +2654,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SDClean_Clean_No_Advert_Found">keine unnötigen Datein durch Werbeeinblendungen gefunden</string>
     <string name="SDClean_Clean_No_Cache_Found">keine unnötigen Cache Dateien gefunden</string>
     <string name="SDClean_Clean_No_DeepFile">congratulates, your cell phone had not discovered that suggested to retain document</string>
-    <string name="SDClean_Clean_No_Derelict_Found">Orz, has not discovered the discrete cleaning up document!</string>
+    <string name="SDClean_Clean_No_Derelict_Found" >nichts zum bereinigen gefunden</string>
     <string name="SDClean_Clean_No_Residuel_Found">keine Reste deinstallieter Apps gefunden</string>
     <string name="SDClean_Clean_No_Unuse_Apk">keine unbenötigten APKs gefunden</string>
     <string name="SDClean_Clean_Please_Keep">Speicherkarte in gutem Zustand</string>

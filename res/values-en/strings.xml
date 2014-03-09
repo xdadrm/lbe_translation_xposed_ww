@@ -226,7 +226,7 @@
     <string name="AD_Scan_Again">AD Scan</string>
     <string name="AD_Install_App">Installed Software</string>
     <string name="AD_Sys_App">System Software</string>
-    <string name="AD_Number_App">An application containing advertising</string>
+    <string name="AD_Number_App">app(s) containing advertising</string>
     <string name="AV_Title">Antivirus</string>
     <string name="AV_Result">Virus scan results</string>
     <string name="AV_FastScan">Quick Scan</string>
@@ -2403,7 +2403,7 @@
     <string name="SDClean_Clean_Uninstall_Clean_Title">find unloading residual</string>
     <string name="SDClean_Clean_Uninstall_Left" >LBE security master detected the following software has been uninstalled, but on the SD card remain temporary files, clear?</string>
     <string name="SDClean_Clean_Video">video</string>
-    <string name="SDClean_Clena_No_SysCache_Found" >Orz, no system cache found to clean up</string>
+    <string name="SDClean_Clena_No_SysCache_Found" >no system cache found to clean up</string>
     <string name="SDClean_Delete_Result_Conent">delete the%1$d directory,%2$d files, a total of%3$s</string>
     <string name="SDClean_Delete_Result_Conent_Only_File">delete%1$d files, a total of%2$s</string>
     <string name="SDClean_Delete_Result_Title">delete</string>
@@ -2412,7 +2412,7 @@
     <string name="SDClean_Dialog_Cancel">cancel</string>
     <string name="SDClean_Dialog_Confirm">OK</string>
     <string name="SDClean_Empty_Button_Back">Back</string>
-    <string name="SDClean_Empty_File" >Orz, did not find any file</string>
+    <string name="SDClean_Empty_File" >did not find any file</string>
     <string name="SDClean_Empty_SpecialFile">no files larger than 10M</string>
     <string name="SDClean_External_Storage">attached storage</string>
     <string name="SDClean_File_Clean">delete file</string>
@@ -2585,11 +2585,11 @@
     <string name="SDClean_Clean_Install_Apk_Informations">%1$s(%2$s)</string>
     <string name="SDClean_Clean_Install_Apk_Summary">discovered that the old apk still exists, deleting it may save %1$s space, delete?</string>
     <string name="SDClean_Clean_Install_Apk_Tips">you have installed the following software:</string>
-    <string name="SDClean_Clean_No_Advert_Found">Orz, has not discovered any advertisement document!</string>
-    <string name="SDClean_Clean_No_Cache_Found">Orz, has not discovered any trash buffer document!</string>
+    <string name="SDClean_Clean_No_Advert_Found">has not discovered any advertisement document!</string>
+    <string name="SDClean_Clean_No_Cache_Found">has not discovered any trash buffer document!</string>
     <string name="SDClean_Clean_No_DeepFile">congratulates, your cell phone had not discovered that suggested to retain document</string>
-    <string name="SDClean_Clean_No_Derelict_Found">Orz, has not discovered the discrete cleaning up document!</string>
-    <string name="SDClean_Clean_No_Residuel_Found">Orz, has not discovered the unloading residual document!</string>
+    <string name="SDClean_Clean_No_Derelict_Found">has not discovered the discrete cleaning up document!</string>
+    <string name="SDClean_Clean_No_Residuel_Found">has not discovered the unloading residual document!</string>
     <string name="SDClean_Clean_No_Unuse_Apk">congratulates, your cell phone had not discovered that useless APK wraps</string>
     <string name="SDClean_Clean_Please_Keep">your SD card is very clean, please many maintains!</string>
     <string name="SDClean_Clean_Text_Clean_Size">deletion (%1$s)</string>
@@ -2601,9 +2601,9 @@
     <string name="SDClean_Clean_Uninstall_Text_Other">has</string>
     <string name="SDClean_Clean_Uninstall_Text_Title">discovers &lt;font color=\"#66ccff\">%1$d&lt; a/font> application remains &lt;font color=\"#66ccff\">%2$s&lt;/font> document</string>
     <string name="SDClean_Clean_Uninstall_Text_Video">video document &lt;font color=\"#66ccff\">%1$d&lt;/font> (&lt;font color=\"#66ccff\">%2$s&lt;/font>)</string>
-    <string name="SoftMgr_SysUninstall_Careful_Uninstall">uninstall discretely</string> 
+    <string name="SoftMgr_SysUninstall_Careful_Uninstall">uninstall carefully</string> 
     <string name="SoftMgr_SysUninstall_Careful_Uninstall_Not_Found">has not for the present the system of discovery discrete unloading to apply</string>
-    <string name="SoftMgr_SysUninstall_May_Uninstall">can unload</string>
+    <string name="SoftMgr_SysUninstall_May_Uninstall">may be uninstalled</string>
     <string name="SoftMgr_SysUninstall_May_Uninstall_Not_Found">has not for the present the system that the discovery can unload to apply</string>
     <string name="SysOpt_TaskMgr_Clearable">may clean up duty</string>
     <string name="SysOpt_TaskMgr_InternalWhiteList_Remove">after white list detachment, cleaning up will close this application automatically, may affect your normal use.</string>
