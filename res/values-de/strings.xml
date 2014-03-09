@@ -207,7 +207,7 @@
     <string name="AD_AdwareSet_Update_Content">Ad Muster Datenbank auf Version %1$s aktualisiert</string>
     <string name="AD_Report_Success_Toast">Erfolgreiches Feedback an LBESM</string>
     <string name="AD_Antiadware">Ad Blocker</string>
-    <string name="AD_Antiadware_Dsc1">Bitte nach Werbung suchen</string>
+    <string name="AD_Antiadware_Dsc1">Bitte auf Werbung untersuchen</string>
     <string name="AD_Antiadware_Dsc2">Nach Werbung suchen und blockieren</string>
     <string name="AD_Adware_App">Apps mit Werbung</string>
     <string name="AD_Adware_Literal_Version">Ad Datenbank Version: %1$s</string>
@@ -221,7 +221,7 @@
     <string name="AD_Scan_Day_Ago">vor %1$d Tag(en)</string>
     <string name="AD_Scan_Long_Ago">länger nicht geprüft</string>
     <string name="AD_Scan_Today">heute überprüft</string>
-    <string name="AD_Scan_Again">nach Werbung suchen</string>
+    <string name="AD_Scan_Again">auf Werbung untersuchen</string>
     <string name="AD_Install_App">Installierte App</string>
     <string name="AD_Sys_App">System App</string>
     <string name="AD_Number_App">Anwendung(en) mit Werbung gefunden</string>
@@ -242,7 +242,7 @@
     <string name="AV_Cancel_Message">Virus Scan noch nicht beendet, Abbruch des Scan´s bestätigen?</string>
     <string name="AV_FastScan_Progress">(%d %%)</string>
     <string name="AV_DeepScan_Progress">SD-Karte wird gelesen ...</string>
-    <string name="AV_Clean">alle Säubern (%1$d Bedrohungen)</string>
+    <string name="AV_Clean">alle Bereinigen (%1$d Bedrohungen)</string>
     <string name="AV_Cleaning">Diese Bedrohung bereinigen</string>
     <string name="AV_ScanResult_Pending">Noch zu reinigen</string>
     <string name="AV_ScanResult_Skip">Überspringen</string>
@@ -812,7 +812,7 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Home_DeleteConfirm">Dieses Backup löschen?</string>
     <string name="Home_Backup_NoSDCard">SD-Karte wird benötigt für Backup und Wiederherstellung</string>
     <string name="Home_Security_Plugin">Sicherheits Plugins</string>
-    <string name="Home_Security_Plugin_Desc">Datenschutz Space, Anti-Theft</string>
+    <string name="Home_Security_Plugin_Desc">Privacy Space, Diebstahl Schutz</string>
     <string name="Home_Onekey_Check">Überprüfung</string>
     <string name="Home_Manual_Optimize">Manuell</string>
     <string name="Home_Running_Slowly">Läuft langsam</string>
@@ -822,18 +822,18 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Home_Block_Already">bereits blockiert</string>
     <string name="Home_Remain_Amount">Noch Traffic übrig</string>
     <string name="Home_Now_Loading">Lädt ...</string>
-    <string name="Home_Phone_Accelerate">Gerät optimieren</string>
+    <string name="Home_Phone_Accelerate">Task Manager, Autostart</string>
     <string name="Home_Battery_Optimize">Akku</string>
     <string name="Home_Software_Manager">App Manager</string>
     <string name="Home_Disturb_Block">Nummern blockieren</string>
     <string name="Home_Traffic_Monitor">Datenverbrauch</string>
     <string name="Home_Ad_Block">Werbung</string>
-    <string name="Home_Virus_Kill">Anti-Virus</string>
+    <string name="Home_Virus_Kill">Anti Virus</string>
     <string name="Home_Defense">Rechteverwaltungsdienst</string>
     <string name="Home_Notification_Manager">Benachrich- tigungen</string>
     <string name="Home_Personal_Privacy">Verschlüsselung</string>
-    <string name="Home_Anti_Burglary">Anti-Diebstahl</string>
-    <string name="Home_Communication_Tools">Kommunikations-Tools</string>
+    <string name="Home_Anti_Burglary">Anti Diebstahl</string>
+    <string name="Home_Communication_Tools">Kommunikations Tools</string>
     <string name="Home_Backup_Restore">Backup und Wiederherstellung</string>
     <string name="Home_First_Check_Tips">Es besteht die Gefahr des Telefons kommen Prüfung unter der Stange!</string>
     <string name="Home_Defense_Not_Running">Klicken Sie auf das linke Symbol, um die aktiven Verteidigungsfähigkeit öffnen</string>
@@ -857,9 +857,9 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Keyguard_Pattern_First">mindestens 4 Punkte verbinden</string>
     <string name="Keyguard_Pattern_Second">zum Bestätigen wiederholen</string>
     <string name="Keyguard_Current_Active_Unlock">Diese Methode zum Entsperren: %1$s</string>
-    <string name="Keyguard_Unlock_Fail_Passwd">Falsche Passwort entsperren scheitern</string>
-    <string name="Keyguard_Unlock_Fail_Answer">Falsche Antwort, entsperren scheitern</string>
-    <string name="Keyguard_Unlock_Fail_Pattern">Grafische Fehler, nicht zu entsperren</string>
+    <string name="Keyguard_Unlock_Fail_Passwd">Passwort falsch</string>
+    <string name="Keyguard_Unlock_Fail_Answer">Antwort falsch</string>
+    <string name="Keyguard_Unlock_Fail_Pattern">Muster falsch</string>
     <string name="Keyguard_Unlock_QA">Q &amp; Entsperren</string>
     <string name="Keyguard_Unlock_Pattern">Muster zum Entsperren</string>
     <string name="Keyguard_Unlock_Password">Passwort zum Entsperren</string>
@@ -875,9 +875,9 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Keyguard_Wait_Time">Wartenzeit bis zum nächsten Versuch: </string>
     <string name="Keyguard_Crack_Setting">Kennwort Versuche einschränken</string>
     <string name="Keyguard_Forbidden_Input">nach %1$s falschen Eingaben für %2$s sperren</string>
-    <string name="Keyguard_Fail_Residue_Time">Schalte gescheitert, bitte warten %1$s Sekunden nach dem Entriegeln</string>
+    <string name="Keyguard_Fail_Residue_Time">zu viele Versuche, bitte %1$s Sekunden warten</string>
     <string name="Keyguard_Activate_Keyguard">Klicken Sie auf das Symbol, können Sie ändern, und aktivieren Sie die entsprechenden Unlock</string>
-    <string name="Keyguard_Type_Pattern">Musterc Sperre</string>
+    <string name="Keyguard_Type_Pattern">Muster Sperre</string>
     <string name="Keyguard_Type_Pincode">Pin Sperre</string>
     <string name="Keyguard_Type_Facerec">Gesichtserkennung</string>
     <string name="Keyguard_Type_QA">Sicherheitsproblem</string>
@@ -1249,11 +1249,11 @@ Den Cloud Security Dienst können sie auch beim Blockier Dienst deaktivieren"</s
     <string name="Plugin_Upgrade_Failed">%1$s fehlgeschlagen</string>
     <string name="Plugin_Delete_Title">%1$s deinstallieren</string>
     <string name="Plugin_Delete_Message">Sie versuchen, zu deinstallieren %1$s . Nach der Deinstallation %1$s wird aus dem System entfernt werden. Möchten Sie fortfahren?</string>
-    <string name="Plugin_AntiTheft">Mobile Security</string>
-    <string name="Plugin_AntiTheft_Running">Anti-Diebstahl-Dienst schützt Ihr Gerät</string>
-    <string name="Plugin_AntiTheft_Stopped">Diebstahlsicherung wird deaktiviert</string>
-    <string name="Plugin_AntiTheft_Name">LBE Anti-Diebstahl-Dienst</string>
-    <string name="Plugin_AntiTheft_Welcome">Willkommen beim LBE Anti-Diebstahl-Dienst</string>
+    <string name="Plugin_AntiTheft">Diebstahlschutz</string>
+    <string name="Plugin_AntiTheft_Running">Diebstahl Schutz ist aktiv</string>
+    <string name="Plugin_AntiTheft_Stopped">Diebstahl Schutz inaktiv</string>
+    <string name="Plugin_AntiTheft_Name">LBE Diebstahl Schutz</string>
+    <string name="Plugin_AntiTheft_Welcome">Willkommen beim LBE Diebstahl Schutz</string>
     <string name="Plugin_AntiTheft_Introduction">"[ACHTUNG: Modul nicht übersetzt, NICHT VERWENDEN, wenn Sie nicht chinesisch sprechen]
 Die LBE Einbrecher Dienstleistungen LBE Security Master startete eine unabhängige Anti-Diebstahl-Modul, um die beste Anti-Diebstahl-Schutz für Ihr Handy.
 
@@ -1669,8 +1669,8 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="Scan_Check_Service_Name">LBE Secruity Master mit Gerät starten</string>
     <string name="Scan_Check_RunningApp">Überprüfe aktive Tasks</string>
     <string name="Scan_Check_RunningApp_Noroot">Anwendungen im Hintergrund wurden überprüft</string>
-    <string name="Scan_Check_RunningApp_Name">aktive Tasks: %1$d, freier Speicher: %2$s</string>
-    <string name="Scan_Check_RunningApp_Fixed">%1$d Tasks beendet, %2$s Speicher freigegeben</string>
+    <string name="Scan_Check_RunningApp_Name">%1$d aktive App(s), %2$s frei</string>
+    <string name="Scan_Check_RunningApp_Fixed">%1$d App(s) beendet, %2$s freigegeben</string>
     <string name="Scan_Check_Cache_App">App Cache: %1$s</string>
     <string name="Scan_Check_Virus_Scan_name">scanne nach Viren</string>
     <string name="Scan_Check_Virus_Scan_Start">Virus Scan gestartet</string>
@@ -1764,7 +1764,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="SoftMgr_SysUninstall_RFail">Wiederherstellen fehlgeschlagen:</string>
     <string name="SoftMgr_Uninstall_UsrFail">Deinstallation fehlgeschlagen</string>
     <string name="SoftMgr_AppPermission">App Zugriffsrechte verwalten</string>
-    <string name="SoftMgr_AppPermission2">Übersicht über App Rechte</string>
+    <string name="SoftMgr_AppPermission2">Übersicht der App Rechte</string>
     <string name="SoftMgr_AppPermission_opted">Wurde optimiert ( %1$s )</string>
     <string name="SoftMgr_AppPermission_Suggest_Reject">evtl. nicht nötig für App Funktion</string>
     <string name="SoftMgr_AppPermission_Suggest_Accept">evtl. wichtig für App Funktion</string>
@@ -1892,8 +1892,8 @@ Zuletzt geändert:
     <string name="SoftMgr_Monitor_Mode">Überwachungsmethode</string>
     <string name="SoftMgr_Blacklist">schwarze Liste</string>
     <string name="SoftMgr_Confirm_Remove">Entfernen von schwarzer Liste bestätigen: %1$s?</string>
-    <string name="SoftMgr_Already_Optimized">Optimized</string>
-    <string name="SysOpt">Task Manager &amp; Autostart</string>
+    <string name="SoftMgr_Already_Optimized">optimal</string>
+    <string name="SysOpt">Gerät optimieren</string>
     <string name="SysOpt_Backup">Since the launch of the housekeeper and the White List Task</string>
     <string name="SysOpt_Task_Running_Tip">&lt;font color=\"#FF7E00\">%1$d &lt;/font>aktive Tasks</string>
     <string name="SysOpt_AutoBoot_Tip">&lt;font color=\"#FF7E00\">%1$d &lt;/font>App(s) starten im Hintergrund/Boot</string>
@@ -1903,7 +1903,7 @@ Zuletzt geändert:
     <string name="SysOpt_Cache_Tip2">vor &lt;font color=\"#FF7E00\">%1$d Tag(en) &lt;/font> nach Datenmüll gescannt</string>
     <string name="SysOpt_Cache_Tip3">letzer Scan:&lt;font color=\"#FF7E00\"> heute &lt;/font></string>
     <string name="SysOpt_TaskMgr">Task-Manager</string>
-    <string name="SysOpt_TaskMgr_Des">Background task management, monitoring memory, CPU occupancy</string>
+    <string name="SysOpt_TaskMgr_Des">App Speicher und CPU Nutzung</string>
     <string name="SysOpt_TaskMgr_RunningApp">Aktive Tasks</string>
     <string name="SysOpt_TaskMgr_Action">markierte Apps schließen (%1$d Apps)</string>
     <string name="SysOpt_TaskMgr_Action_Normal">alle optimieren</string>
@@ -1947,13 +1947,13 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SysOpt_Cache_SD_More_Package">%1$s usw.</string>
     <string name="SysOpt_Cache_Sys_AppsCount">Software System-Cache %1$d</string>
     <string name="SysOpt_Cache_SD_AppsCount">Software SD Cache %1$d</string>
-    <string name="SysOpt_Selected_SizeHuge">Große Dateien und Verzeichnisse sind ausgewählt. Die Reinigung kann Daten löschen, die noch benötigt werden. Auswahl sicher?</string>
-    <string name="SysOpt_Cache_None">Ihr Telefon ist sauber</string>
-    <string name="SysOpt_Residual_None">Ihr Mobiltelefon ist sauber, keine Restdaten von deinstallierten Apps</string>
-    <string name="SysOpt_Rubbish_None">Ihr Mobiltelefon ist sauber, keine unnötigen Junk Dateien übrig</string>
+    <string name="SysOpt_Selected_SizeHuge">Viele Dateien und Ordner sind ausgewählt. Berreinigung könnte Daten löschen benötigt werden. Wirklich ausführen?</string>
+    <string name="SysOpt_Cache_None">keine ungenutzen Cache Daten vorhangen</string>
+    <string name="SysOpt_Residual_None">keine Reste deinstallierter Apps vorhanden</string>
+    <string name="SysOpt_Rubbish_None">keine überflüssigen Dateien vorhanden</string>
     <string name="SysOpt_Uninstall_Left">LBE stellte fest das Apps deinstalliert wurden, aber Temporäre Dateien geblieben sind, diese enfernen?</string>
     <string name="SysOpt_EmptyFolder">%1$d leere Verzeichnisse</string>
-    <string name="SysOpt_Des_EmptyFolder">Leere nutzlose Verzeichnisse</string>
+    <string name="SysOpt_Des_EmptyFolder">leere nicht benötigte Verzeichnisse</string>
     <string name="SysOpt_ThumbFile">%1$d Miniaturansichten</string>
     <string name="SysOpt_Des_ThumbFile">Miniaturansichten vom System generiert</string>
     <string name="SysOpt_LogFile">%1$d Debug-Dateien</string>
@@ -2015,13 +2015,13 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Update_Software">Update</string>
     <string name="Update_Close">Schließen</string>
     <string name="Update_Privacy_Space">Privatsphäre</string>
-    <string name="Update_Anti_Theft">Mobile Security</string>
+    <string name="Update_Anti_Theft">Diebstahl Schutz</string>
     <string name="Update_Component_Main">LBE Security Master</string>
-    <string name="Update_Component_VirusPattern">Virus-Datenbank</string>
+    <string name="Update_Component_VirusPattern">Virus Datenbank</string>
     <string name="Update_Component_VirusEngine">Virus Engine</string>
-    <string name="Update_Component_AdwarePattern">Ad-Bibliothek</string>
-    <string name="Update_Component_Private_Space">Privatsphäre</string>
-    <string name="Update_Component_AntiTheft">Sicherheit</string>
+    <string name="Update_Component_AdwarePattern">Werbe Datenbank</string>
+    <string name="Update_Component_Private_Space">Privacy Space</string>
+    <string name="Update_Component_AntiTheft">Diebstahl Schutz</string>
     <string name="DownloadManager_Hint">Herunterladen %1$s</string>
     <string name="DownloadManager_Progress">%1$s abgeschlossen, %2$s insgesamt</string>
     <string name="DownloadManager_Failed">Konnte nicht heruntergeladen werden %1$s</string>
@@ -2277,13 +2277,13 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="HIPS_App_Batch_With_Tips">Batch operation (nur für Überwachungssoftware)</string>
     <string name="HIPS_Has_Cloud_ItemNum" >Empfehlungen basierend auf %1$s%2$s Cloud Nutzern</string>
     <string name="HIPS_None_Has_Cloud_ItemNum" >%1$s Rechte einstellen, keine Cloud Infos</string> 
-    <string name="HIPS_Rejected_Desc">wurde abgelehnt</string>
-    <string name="HIPS_Rootfree_Not_Supported">Ihr Gerät unterstützt nicht die "free root" Methode.</string> 
+    <string name="HIPS_Rejected_Desc">wird verweigert</string>
+    <string name="HIPS_Rootfree_Not_Supported">Ihr Gerät unterstützt die "free root" Methode nicht.</string> 
     <string name="HIPS_Software_Permission">App Rechte</string> 
-    <string name="HIPS_Suggest_Accept" >%1$.2f%% Benutzer haben es zugelassen</string>
-    <string name="HIPS_Suggest_Accept_Radio0">zulassen wird empfohlen</string>
-    <string name="HIPS_Suggest_Reject" >%1$.2f%% Benutzer haben es abgelehnt</string>
-    <string name="HIPS_Suggest_Reject_Radio0">ablehnen wird empfohlen</string>
+    <string name="HIPS_Suggest_Accept" >%1$.2f%% der Benutzer haben es zugelassen</string>
+    <string name="HIPS_Suggest_Accept_Radio0">Zulassen wird empfohlen</string>
+    <string name="HIPS_Suggest_Reject" >%1$.2f%% der Benutzer haben es abgelehnt</string>
+    <string name="HIPS_Suggest_Reject_Radio0">Ablehnen wird empfohlen</string>
     <string name="HIPS_Tips_Desc_1">vorinstallierte System Apps deinstallieren </string> 
     <string name="HIPS_Tips_Desc_2">Apps vom Autostart entfernen und Rechte verwalten</string> 
     <string name="HIPS_Tips_Desc_3">bösartige Werbung blockieren</string>
@@ -2360,7 +2360,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="private_copy_content_to_clipboard_success">in Zwischenablage kopiert</string>
     <string name="private_log_add_sms_fail">SMS importieren fehlgeschlagen</string>
     <string name="reboot">Geräte Neustart</string>
-    <string name="Scan_Auto_Item">auto</string>
+    <string name="Scan_Auto_Item">automatisch</string>
     <string name="Scan_Check_Clear_Now">sofortige Entfernung von </string>
     <string name="Scan_Check_Manage">Verwaltung</string>
     <string name="Scan_Check_MIUI_Float_Window_Guide" >MIUI Homescreen Setup</string>
@@ -2411,10 +2411,10 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SDClean_Clean_Current_No_Advert">keine Werbung gefunden</string>
     <string name="SDClean_Clean_Current_No_Cache">keine alten Cache Dateien vorhanden</string>
     <string name="SDClean_Clean_Current_No_Residuel">keine Restdateien gefunden</string>
-    <string name="SDClean_Clean_Deep">Info über</string>
+    <string name="SDClean_Clean_Deep">evtl. benötigte Dateien</string>
     <string name="SDClean_Clean_Deep_Manager">sie können auch einen Tiefenscan starten</string>
     <string name="SDClean_Clean_Deep_Result">&lt;font color=\"#ffcb2d\">%1$s&lt;/font> sollten nicht gelöscht werden</string>
-    <string name="SDClean_Clean_Derelict_Apk">nutzlose APK(s)</string>
+    <string name="SDClean_Clean_Derelict_Apk">nicht benötigte APK(s)</string>
     <string name="SDClean_Clean_Derelict_Result">&lt;font color=\"#ffcb2d\">%1$d&lt;/font> nicht benötigte APK(s) gefunden</string>
     <string name="SDClean_Clean_Detail_Title_Text" >%1$s &lt;font color=\"#339900\">(%2$s) &lt;/font></string>
     <string name="SDClean_Clean_Document">Dokument</string>
@@ -2442,9 +2442,9 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SDClean_Clean_Other">andere</string>
     <string name="SDClean_Clean_Prepare">bereit zum Bereinigen</string>
     <string name="SDClean_Clean_Purpose">benutze:</string>
-    <string name="SDClean_Clean_Remained">Reste deinsatallierter Apps</string>
+    <string name="SDClean_Clean_Remained">Reste deinstallierter Apps</string>
     <string name="SDClean_Clean_Remained_Result">&lt;font color=\ "#66ccff\">%1$s&lt;/font> können freigegeben werden</string>
-    <string name="SDClean_Clean_Residuel_File">Datei Reste:</string>
+    <string name="SDClean_Clean_Residuel_File">App Reste:</string>
     <string name="SDClean_Clean_Scanning">scanne: %1$s%2$s (%3$s)</string>
     <string name="SDClean_Clean_Scanning_Simple">scanne: %1$s</string>
     <string name="SDClean_Clean_SDCard_Manager">SD Karte bereinigen</string>
@@ -2462,15 +2462,15 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SDClean_Clean_System_Cache">System Cache</string>
     <string name="SDClean_Clean_SystemCache_Clean_Size">%1$s aus dem Cache bereinigt</string>
     <string name="SDClean_Clean_Text_Found">freizugeben</string>
-    <string name="SDClean_Clean_Tidy">Keine unnötigen Dateien gefunden.</string>
+    <string name="SDClean_Clean_Tidy">Keine überflüssigen Dateien gefunden.</string>
     <string name="SDClean_Clean_Tips">Es würden %1$d hochauflösende Fotos in den Speicher passen.</string>
-    <string name="SDClean_Clean_Total_Clean_Message">Es wurden %1$s an unnötigen Dateien entfernt.</string>
+    <string name="SDClean_Clean_Total_Clean_Message">Es wurden %1$s in überflüssigen Dateien entfernt.</string>
     <string name="SDClean_Clean_Uninstall_Clean_Title">find unloading residual</string>
     <string name="SDClean_Clean_Uninstall_Left" >LBE Security Master hat festgestellt das folgende App deinstalliert wurde aber noch Dateirückstände hinterlassen hat, ebenso löschen?</string>
-    <string name="SDClean_Clean_Video">video</string>
+    <string name="SDClean_Clean_Video">Video</string>
     <string name="SDClean_Clena_No_SysCache_Found" >keine Cache Dateien zum löschen gefunden</string>
-    <string name="SDClean_Delete_Result_Conent">lösche den %1$d Ordner,%2$d Dateien, insgedamt %3$s</string>
-    <string name="SDClean_Delete_Result_Conent_Only_File">lösche %1$d Dateien, insgesamt %2$s</string>
+    <string name="SDClean_Delete_Result_Conent">lösche den %1$d Ordner, %2$d Datei(en), insgedamt %3$s</string>
+    <string name="SDClean_Delete_Result_Conent_Only_File">lösche %1$d Datei(en), insgesamt %2$s</string>
     <string name="SDClean_Delete_Result_Title">Vorschläge zum Löschen</string>
     <string name="SDClean_Deleting_Dialog_Title">lösche...</string> 
     <string name="SDClean_Deleting_Tips">wurde gelöscht: </string>
@@ -2484,10 +2484,10 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SDClean_FileManager_Delete">lösche den %1$d Ordner und %2$d Datei(en) (%3$s)?</string>
     <string name="SDClean_FileManager_Delete_File">lösche %1$d Dateien?</string>
     <string name="SDClean_FileManager_Delete_Folder">lösche den %1$d Ordner?</string>
-    <string name="SDClean_FileManager_Only_File" >%1$d Datei (%2$s)</string>
+    <string name="SDClean_FileManager_Only_File" >%1$d Datei(en) (%2$s)</string>
     <string name="SDClean_FileManager_Only_Folder" >%1$d Ordner</string>
     <string name="SDClean_FileManager_Root">Hauptordner</string>
-    <string name="SDClean_FileManager_Tips" >%1$d Ordner, die %2$d Datei (%3$s)</string>
+    <string name="SDClean_FileManager_Tips" >%1$d Ordner, die %2$d Datei(en) (%3$s)</string>
     <string name="SDClean_Internal_Storage">interner Speicher</string>
     <string name="SDClean_Item_Count" >%1$d</string>
     <string name="SDClean_Manual_Clean">Ordner durchsuchen</string>
@@ -2584,7 +2584,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Scan_Already_Clear">alles sauber</string>
     <string name="Scan_Already_Enable">aktivieren</string>
     <string name="Scan_Already_Optimized">optimal</string>
-    <string name="Scan_Already_Scan_Ad">bereits nach Werbung gesucht</string>
+    <string name="Scan_Already_Scan_Ad">bereits auf Werbung untersucht</string>
     <string name="Scan_Already_Scan_Virus">bereits nach Viren gesucht</string>
     <string name="Scan_Already_Trust_LBE_Security_Master">LBE wird vertraut</string>
     <string name="Scan_Already_Watch_MIUI_FloatWindow_Setting_Guide">examined that the MIUI aerosol window establishes guide</string>
@@ -2593,16 +2593,16 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Scan_Check_Update">auf Update prüfen</string>
     <string name="Scan_Cheking_Update">prüfe auf Updates</string>
     <string name="Scan_Cleaning_Virus_Now">Suche nach Viren</string>
-    <string name="Scan_Clear">nichts gefunden</string>
+    <string name="Scan_Clear">optimal</string>
     <string name="Scan_Cloud_Permission_Expired">App Infos aus der Cloud sind veraltet</string>
     <string name="Scan_Cloud_Permission_Updated">App Infos aus der Cloud sind aktuell</string>
-    <string name="Scan_Cloud_Service_Disable">cloud Daten Dienst inaktiv</string>
-    <string name="Scan_Cloud_Service_Enable">cloud Daten Dienst aktiv</string>
+    <string name="Scan_Cloud_Service_Disable">Cloud Daten Dienst inaktiv</string>
+    <string name="Scan_Cloud_Service_Enable">Cloud Daten Dienst aktiv</string>
     <string name="Scan_Cloud_Service_Starting">starte Cloud Daten Dienst</string>
     <string name="Scan_Disable_AutoStart">Autostart deaktiviren</string>
     <string name="Scan_Disconnect_Network">Internetverbindung getrennt</string>
     <string name="Scan_Disconnecting_Network">Verbindung wird getrennt</string>
-    <string name="Scan_Enable">aktiv</string>
+    <string name="Scan_Enable">aktivieren</string>
     <string name="Scan_Enable_Float_Window_On_MIUI">is the MIUI system enables floating window function</string>
     <string name="Scan_Have_Garbage_To_Clear">es wurden nicht benötigte Dateien gefunden</string>
     <string name="Scan_Hips_Already_Enabled">Rechteverwaltungsdienst aktiv</string>
@@ -2612,7 +2612,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Scan_Instant_Anti_Virus_Disable">Echtzeit Virenschutz deaktiviert</string>
     <string name="Scan_Instant_Anti_Virus_Enable">Echtzeit Virenschutz aktiviert</string>
     <string name="Scan_Instant_Anti_Virus_Starting">Echtzeit Virenschutz wird gestartet</string>
-    <string name="Scan_Long_Time_Not_Clear_Garbage">lange nicht nach unnötige Dateien gescannt</string>
+    <string name="Scan_Long_Time_Not_Clear_Garbage">lange nicht nach überflüssigen Dateien gescannt</string>
     <string name="Scan_No_Background_Running_Task">keine Apps im Hintergrund</string>
     <string name="Scan_No_Garbage_Need_Clear">Bereinigen nicht nötig</string>
     <string name="Scan_Now_Cleaning">unötige Dateien werden gelöscht</string>
@@ -2623,9 +2623,9 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Scan_Phone_Service_Starting">Anruf Firewall Dienst wird gestartet</string>
     <string name="Scan_Please_Update_Cloud_Permission_After_Connect_Network">bitte Cloud Daten aktualisieren</string>
     <string name="Scan_Recommend_Optimize_Autoboot_Software">Optimierung der Apps die mit dem Gerät starten empfohlen</string>
-    <string name="Scan_Recommend_Scan_Ad_Now">Apps nach Werbung durchsuchen empfohlen</string>
+    <string name="Scan_Recommend_Scan_Ad_Now">Apps auf Werbung untersuchen empfohlen</string>
     <string name="Scan_Scan">scannen</string>
-    <string name="Scan_Scanning_Ad">durchsuche Apps nach Werbung </string>
+    <string name="Scan_Scanning_Ad">überprüfe Apps auf Werbung </string>
     <string name="Scan_Scanning_Virus_Now">scanne nach Viren</string>
     <string name="Scan_Set_Trust_LBE_Security_Master">prüfe ob LBE vertraut wird</string>
     <string name="Scan_Setting_FloatWindow">is establishing aerosol window</string>
@@ -2651,10 +2651,10 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SDClean_Clean_Install_Apk_Informations">%1$s(%2$s)</string>
     <string name="SDClean_Clean_Install_Apk_Summary">allte APK datei gefunen, %1$s können eingespart werdnespace, löschen?</string>
     <string name="SDClean_Clean_Install_Apk_Tips">folgende App installiert:</string>
-    <string name="SDClean_Clean_No_Advert_Found">keine unnötigen Datein durch Werbeeinblendungen gefunden</string>
-    <string name="SDClean_Clean_No_Cache_Found">keine unnötigen Cache Dateien gefunden</string>
+    <string name="SDClean_Clean_No_Advert_Found">keine überflüssigen Dateien von Werbeeinblendungen vorhanden</string>
+    <string name="SDClean_Clean_No_Cache_Found">keine überflüssigen Cache Dateien vorhanden</string>
     <string name="SDClean_Clean_No_DeepFile">congratulates, your cell phone had not discovered that suggested to retain document</string>
-    <string name="SDClean_Clean_No_Derelict_Found" >nichts zum bereinigen gefunden</string>
+    <string name="SDClean_Clean_No_Derelict_Found" >nichts zum Bereinigen gefunden</string>
     <string name="SDClean_Clean_No_Residuel_Found">keine Reste deinstallieter Apps gefunden</string>
     <string name="SDClean_Clean_No_Unuse_Apk">keine unbenötigten APKs gefunden</string>
     <string name="SDClean_Clean_Please_Keep">Speicherkarte in gutem Zustand</string>
