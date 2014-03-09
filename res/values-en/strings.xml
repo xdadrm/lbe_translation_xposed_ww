@@ -2307,7 +2307,7 @@
     <string name="Scan_Check_Virus_Not_Exist">no detectable virus file</string>
     <string name="Scan_Check_Virus_Scan_Now">scan immediately</string>
     <string name="Scan_Check_Virus_Scaned">has scanning</string>
-    <string name="Scan_ContinueOptimize">continue to optimize the</string>
+    <string name="Scan_ContinueOptimize">repeat optimization</string>
     <string name="Scan_Item_Count">(%1$d)</string>
     <string name="Scan_Manual_Item">Manual</string>
     <string name="Scan_Optimized">Optimized</string>
@@ -2483,9 +2483,9 @@
     <string name="back">back</string>
     <string name="Epayguard">ePayment Guard</string>
     <string name="Epayguard_Download">downloading installment ePayment Guard</string>
-    <string name="Epayguard_Download_Message">soon will download the ePayment Guard for you, your net buys the short note to obtain a better protection , to continue?</string>
+    <string name="Epayguard_Download_Message">soon will download the ePayment Guard for you, your net buys the SMS to obtain a better protection , to continue?</string>
     <string name="Epayguard_Install_Failed">ePayment Guard installs defeat</string>
-    <string name="Epayguard_Summary">supports &lt;font color=#ff9400> Taobao, day cat and Alipay  the &lt;/font> three clathrias buy product short note protection, avoids the net buying the short note intercepts by the virus and malicious software, the monitoring application automatic transmission network buys the short note behavior, preventing the evil intention to buckle the fee. &lt; br>&lt; br> intelligent identification more than 400 types of networks buy the short note, the intelligent classification automatic labeling convenience management, after reading, deletes, confirms the code SMS.</string>
+    <string name="Epayguard_Summary">supports &lt;font color=#ff9400> Taobao, day cat and Alipay  the &lt;/font> three clathrias buy product SMS protection, avoids the net buying the SMS intercepts by the virus and malicious software, the monitoring application automatic transmission network buys the SMS behavior, preventing the evil intention to buckle the fee. &lt; br>&lt; br> intelligent identification more than 400 types of networks buy the SMS, the intelligent classification automatic labeling convenience management, after reading, deletes, confirms the code SMS.</string>
     <string name="HIPS_Aliyun_Nolimit_Message">LBE security master examines your cell phone system is Ali says the OS system, is stable for the guarantee system, before exempting Root starts the active defense, please manual restart cell phone</string>
     <string name="HIPS_Aliyun_Reboot_Message">LBE security master examines your cell phone system is Ali says the OS system, is stable for the guarantee system, before cutting the active defense, needs to restart the cell phone to close active defense</string>
     <string name="HIPS_App_Batch_Trust_Toast">batch operation needs to relieve the jurisdiction to trust</string>
@@ -2506,8 +2506,8 @@
     <string name="miui_v5_hips_label">administration bureau</string>
     <string name="miui_v5_sc_hips_label">security center</string>
     <string name="Plugin_ATP_No_net">network connections not available</string>
-    <string name="Plugin_ATP_Uninstall_Failed">LBE security service unloading defeat</string>
-    <string name="Plugin_ATP_Uninstall_Successfully">LBE security service unloads successful</string>
+    <string name="Plugin_ATP_Uninstall_Failed">LBE security service uninstall failed</string>
+    <string name="Plugin_ATP_Uninstall_Successfully">LBE security service uninstall successful</string>
     <string name="Plugin_Epayguard_Name">SMS Guard</string>
     <string name="Pref_Main_Hardware_Accelerate">use hardware acceleration</string>
     <string name="Pref_Traffic_FloatWindow_FullScreen_Hide">current capacity floating window</string>
@@ -2524,18 +2524,18 @@
     <string name="Scan_Already_Watch_MIUI_FloatWindow_Setting_Guide">examined that the MIUI aerosol window establishes guide</string>
     <string name="Scan_Autoboot_Software">autostarting software</string>
     <string name="Scan_AutoStart">Autostart Software</string>
-    <string name="Scan_Check_Update">inspection renews</string>
-    <string name="Scan_Cheking_Update">is inspecting to renew</string>
-    <string name="Scan_Cleaning_Virus_Now">is scanning viral</string>
-    <string name="Scan_Clear">cleans up</string>
+    <string name="Scan_Check_Update">Check for Updates</string>
+    <string name="Scan_Cheking_Update">checking for update</string>
+    <string name="Scan_Cleaning_Virus_Now">scanning for virus</string>
+    <string name="Scan_Clear">Clear</string>
     <string name="Scan_Cloud_Permission_Expired">Cloud configuration data already expired</string>
     <string name="Scan_Cloud_Permission_Updated">Cloud configuration data is newest</string>
     <string name="Scan_Cloud_Service_Disable">cloud service disabled</string>
     <string name="Scan_Cloud_Service_Enable">cloud service enabled</string>
     <string name="Scan_Cloud_Service_Starting">starting cloud service</string>
-    <string name="Scan_Disable_AutoStart"/>
-    <string name="Scan_Disconnect_Network">closure network</string>
-    <string name="Scan_Disconnecting_Network">is closing mobile network</string>
+    <string name="Scan_Disable_AutoStart">Disable autostart</string>
+    <string name="Scan_Disconnect_Network">Disconnect network</string>
+    <string name="Scan_Disconnecting_Network">disconnecting mobile network</string>
     <string name="Scan_Enable">enabled</string>
     <string name="Scan_Enable_Float_Window_On_MIUI">is the MIUI system enables floating window function</string>
     <string name="Scan_Have_Garbage_To_Clear">your cell phone exists to treat cleaning up trash</string>
@@ -2588,10 +2588,10 @@
     <string name="SDClean_Clean_No_Advert_Found">has not discovered any advertisement document!</string>
     <string name="SDClean_Clean_No_Cache_Found">has not discovered any trash buffer document!</string>
     <string name="SDClean_Clean_No_DeepFile">congratulates, your cell phone had not discovered that suggested to retain document</string>
-    <string name="SDClean_Clean_No_Derelict_Found">has not discovered the discrete cleaning up document!</string>
-    <string name="SDClean_Clean_No_Residuel_Found">has not discovered the unloading residual document!</string>
-    <string name="SDClean_Clean_No_Unuse_Apk">congratulates, your cell phone had not discovered that useless APK wraps</string>
-    <string name="SDClean_Clean_Please_Keep">your SD card is very clean, please many maintains!</string>
+    <string name="SDClean_Clean_No_Derelict_Found">no individual files to cleaning up!</string>
+    <string name="SDClean_Clean_No_Residuel_Found">no residual file from uninstall!</string>
+    <string name="SDClean_Clean_No_Unuse_Apk">No unused APK found</string>
+    <string name="SDClean_Clean_Please_Keep">your SD card is very clean, perfect !</string>
     <string name="SDClean_Clean_Text_Clean_Size">deletion (%1$s)</string>
     <string name="SDClean_Clean_Text_Finish">completes</string>
     <string name="SDClean_Clean_Uninstall_Advise_Clean">suggested you to clean up, saves space</string>
@@ -2602,13 +2602,13 @@
     <string name="SDClean_Clean_Uninstall_Text_Title">discovers &lt;font color=\"#66ccff\">%1$d&lt; a/font> application remains &lt;font color=\"#66ccff\">%2$s&lt;/font> document</string>
     <string name="SDClean_Clean_Uninstall_Text_Video">video document &lt;font color=\"#66ccff\">%1$d&lt;/font> (&lt;font color=\"#66ccff\">%2$s&lt;/font>)</string>
     <string name="SoftMgr_SysUninstall_Careful_Uninstall">uninstall carefully</string> 
-    <string name="SoftMgr_SysUninstall_Careful_Uninstall_Not_Found">has not for the present the system of discovery discrete unloading to apply</string>
+    <string name="SoftMgr_SysUninstall_Careful_Uninstall_Not_Found">there are no apks to uninstall</string>
     <string name="SoftMgr_SysUninstall_May_Uninstall">may be uninstalled</string>
-    <string name="SoftMgr_SysUninstall_May_Uninstall_Not_Found">has not for the present the system that the discovery can unload to apply</string>
+    <string name="SoftMgr_SysUninstall_May_Uninstall_Not_Found">there are no apks to uninstall</string>
     <string name="SysOpt_TaskMgr_Clearable">may clean up duty</string>
-    <string name="SysOpt_TaskMgr_InternalWhiteList_Remove">after white list detachment, cleaning up will close this application automatically, may affect your normal use.</string>
+    <string name="SysOpt_TaskMgr_InternalWhiteList_Remove">after removal from white list, cleaning up will close this application automatically, may affect your normal use.</string>
     <string name="Traffic_Unit">(M)</string>
-    <string name="Update_Component_Epayguard">SMS guard</string>
-    <string name="Update_Epayguard">SMS guard</string>
+    <string name="Update_Component_Epayguard">ePayment Guard</string>
+    <string name="Update_Epayguard">ePayment Guard</string>
     
 </resources>
