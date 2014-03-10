@@ -422,6 +422,7 @@ Có thể phát hiện là virus"</item>
         <item>xóa</item>
     </string-array>
     <string-array name="private_call_operator">
+        <item>Gọi</item>
         <item>Nhắn tin</item>
         <item>xóa</item>
         <item>Khôi phục lại điện thoại</item>
@@ -434,6 +435,8 @@ Có thể phát hiện là virus"</item>
     <string-array name="private_message_dialog_operator">
         <item>Xóa tin nhắn này</item>
         <item>Khôi phục lại điện thoại</item>
+        <item>Tạo bản sao</item>
+        <item>Chuyển tiếp</item>
     </string-array>
     <string-array name="phone_block_type">
         <item>Cuộc gọi và tin nhắn SMS</item>
@@ -622,22 +625,56 @@ Có thể phát hiện là virus"</item>
     <string-array name="app_install_manage_mode_title">
         <item>Cho phép cài đặt tự động</item>
         <item>Hỏi tự động cài đặt</item>
+        <item>Lời khuyên thông minh cài đặt</item>
         <item>Vô hiệu hóa các cài đặt tự động</item>
     </string-array>
     <string-array name="app_install_manage_mode_desc">
         <item>Cho phép phần mềm cài đặt tự động, thông báo sau khi cài đặt</item>
-        <item>Hộp thoại có nhắc nhở để cài đặt, yêu cầu bạn phải tự xác nhận</item>
+        <item>Luôn luôn có một hộp thoại sẽ nhắc bạn, yêu cầu bạn phải xác nhận</item>
+        <item>Khóa cho phép cài đặt tự động, các trường hợp khác yêu cầu xác nhận</item>
         <item>Hoàn toàn vô hiệu hóa các cài đặt tự động của hành vi phần mềm</item>
     </string-array>
+    <string-array name="yellow_correction_no_num">
+        <item>Liên hệ sửa đổi</item>
+        <item>Thêm hoặc chỉnh sửa số</item>
+        <item>Các vấn đề khác</item>
+    </string-array>
+    <string-array name="yellow_correction_has_num">
+        <item>Tên người bán không chính xác</item>
+        <item>Sửa thông tin người bán</item>
+        <item>Số bí mật</item>
+    </string-array>
     <string-array name="special_thanks_list">
+        <item>VuHien (Mr Mobile) từ xda-developers</item>
+        <item>Mr Mobile (VuHien) từ diễn đàn tinhte</item>
         <item>xda_drm từ xda-developers</item>
-        <item>vuhien từ xda-developers</item>
-        <item>Mr Mobile từ diễn đàn tinhte</item>
         <item>LemonCC vs Tamina</item>
         <item>影殇1 vs 魏傲06</item>
         <item>GTRZ vs 留不住</item>
         <item>兵部尚书</item>
         <item>断线的鸭子</item>
         <item>℡秋殇づ落葉ず</item>
+        <item>混沌</item>
+    </string-array>
+    <string-array name="atp_function_label">
+        <item>Khóa điện thoại</item>
+        <item>Định vị điện thoại</item>
+        <item>Sao lưu danh bạ</item>
+        <item>Phá hủy dữ liệu</item>
+        <item>Lấy mật khẩu</item>
+        <item>Chuông báo động</item>
+        <item>Cảnh báo ảo</item>
+    </string-array>
+    <string-array name="atp_function_des">
+        <item>Khóa điện thoại bạn bè của bạn</item>
+        <item>Định vị vị trí điện thoại của bạn</item>
+        <item>Sao lưu danh bạ của bạn bè</item>
+        <item>Phá hủy danh bạ và dữ liệu cá nhân khác</item>
+        <item>Lấy mật khẩu trên máy của bạn</item>
+        <item>Bật chuông báo thức với âm thanh to nhất</item>
+        <item>Gửi tin nhắn cảnh báo ảo</item>
+    </string-array>
+    <string-array name="empty_subject_strings">
+        <item>Không chủ đề</item>
     </string-array>
 </resources>

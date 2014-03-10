@@ -422,6 +422,7 @@ There may be false positives"</item>
         <item>Delete</item>
     </string-array>
     <string-array name="private_call_operator">
+        <item>Dial</item>
         <item>Texting</item>
         <item>Delete</item>
         <item>Restored to the phone</item>
@@ -434,6 +435,8 @@ There may be false positives"</item>
     <string-array name="private_message_dialog_operator">
         <item>Delete this message</item>
         <item>Restored to the phone</item>
+        <item>Make Copy</item>
+        <item>Forwarding</item>
     </string-array>
     <string-array name="phone_block_type">
         <item>Call and SMS</item>
@@ -622,6 +625,7 @@ There may be false positives"</item>
     <string-array name="app_install_manage_mode_title">
         <item>Allow automatic installation</item>
         <item>Ask automatically installed</item>
+        <item>Smart Tips to install</item>
         <item>Disable the automatic installation</item>
     </string-array>
     <string-array name="app_install_manage_mode_desc">
@@ -895,7 +899,7 @@ There may be false positives"</item>
         <item>Playlist</item>
         <item>cache directory</item>
         <item>books store directory</item>
-        <item>documentation directory</item>
+        <item>Documents directory</item>
         <item>OpenFeint gaming platform cache</item>
         <item>Glu game data directory</item>
         <item>recording storage directory</item>
