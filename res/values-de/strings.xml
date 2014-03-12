@@ -71,9 +71,9 @@
     <string name="HIPS_Perm_SendSMS_Data">eine Nachricht an %1$s zu senden: %2$d</string>
     <string name="HIPS_Perm_SendSMS_Text">eine Nachricht an %1$s zu senden</string>
     <string name="HIPS_Perm_Call_Number">%1$s anzurufen</string>
- 	<string name="HIPS_Perm_Contact_Access">die Kontaktdaten</string>
-	<string name="HIPS_Perm_SMS_Access">die SMS Daten</string>
-	<string name="HIPS_Perm_CallLog_Access">die Anruflisten</string>
+    <string name="HIPS_Perm_Contact_Access">die Kontaktdaten</string>
+    <string name="HIPS_Perm_SMS_Access">die SMS Daten</string>
+    <string name="HIPS_Perm_CallLog_Access">die Anruflisten</string>
     <string name="HIPS_Perm_Settings_Modify">Ändere die System Einstellungen</string>
     <string name="HIPS_Perm_Location_Source_Network">Datenquelle: WiFi</string>
     <string name="HIPS_Perm_Location_Source_GPS">Datenquelle: GPS</string>
@@ -103,7 +103,7 @@
     <string name="HIPS_Perm_RecordVideo">Video aufnehmen</string>
     <string name="HIPS_Perm_Picture">Fotos aufnehmen</string>
     <string name="app_name">LBE Security Master</string>
-    <string name="download_unknown_title">&lt;Untitled></string>
+    <string name="download_unknown_title">&lt;unbenannt></string>
     <string name="notification_filename_separator">,</string>
     <string name="notification_filename_extras">und %d mehr</string>
     <string name="notification_download_complete">Download komplett</string>
@@ -180,15 +180,15 @@
     <string name="AD_Behavior_Write_Browser_Bookmark">- Browserlesezeichen hinzufügen</string>
     <string name="AD_Behavior_Send_SMS">- Senden von SMS</string>
     <string name="AD_Behavior">Verhalten von Werbung</string>
-    <string name="AD_Plugin">Adwares</string>
-    <string name="AD_Style">Anzeigentypen:</string>
-    <string name="AD_Style_Notification">- Werbung in Benachrichtigungsleiste</string>
-    <string name="AD_Style_Banner">- Werbebanner</string>
-    <string name="AD_Style_Credits_Wall">- Popup Werbung (mit Eingabe)</string>
+    <string name="AD_Plugin">Werbung</string>
+    <string name="AD_Style">Werbetypen:</string>
+    <string name="AD_Style_Notification">- Benachrichtigungsleiste</string>
+    <string name="AD_Style_Banner">- Banner</string>
+    <string name="AD_Style_Credits_Wall">- Popup (mit Eingabe)</string>
     <string name="AD_Style_App_List">- App Liste</string>
-    <string name="AD_Style_Force_Window">- Popup Werbung</string>
-    <string name="AD_Notification_Ticker">Adware gefunden</string>
-    <string name="AD_Notification_Content">Adware gefunden, für Details tippen</string>
+    <string name="AD_Style_Force_Window">- Popup</string>
+    <string name="AD_Notification_Ticker">Werbung gefunden</string>
+    <string name="AD_Notification_Content">Werbung gefunden, für Details tippen</string>
     <string name="AD_Detail_Activity_Title">Anzeigendetails</string>
     <string name="AD_Uninstall_App">App deinstallieren</string>
     <string name="AD_Block_App">App blocken</string>
@@ -228,7 +228,7 @@
     <string name="AV_Title">Anti-Virus</string>
     <string name="AV_FastScan">Schneller-Scan</string>
     <string name="AV_FastScan_Des">Schnelle Durchsuchung der install. Apps</string>
-    <string name="AV_DeepScan">Tiefer-Scan</string>
+    <string name="AV_DeepScan">Tiefen Scan</string>
     <string name="AV_DeepScan_Des">Scannt Apps und Apks auf SD-Karte</string>
     <string name="AV_RelTimeScan">Echtzeit-Scan</string>
     <string name="AV_AutoUpdate_Title">Update Auto-Check Interval</string>
@@ -237,7 +237,7 @@
     <string name="AV_Update_Local">Virus Datenbank wird mit lokaler Datei geupdatet</string>
     <string name="AV_Update_CurrentVer">Virus Datenbank Version: %1$s</string>
     <string name="AV_CancelScan">"Scan abbrechen "</string>
-    <string name="AV_Settings_Title">Virus Beseitigungseinstellungen</string>
+    <string name="AV_Settings_Title">Einstellungen</string>
     <string name="AV_Init">(AV-Engine wird gestartet)</string>
     <string name="AV_Cancel_Message">Virus Scan noch nicht beendet, Abbruch des Scan´s bestätigen?</string>
     <string name="AV_FastScan_Progress">(%d %%)</string>
@@ -267,7 +267,7 @@
     <string name="Battery_SavingModes">Energiespar-Profile</string>
     <string name="Battery_SavingMode_Des">Profile zum Steuern des Stromverbrauchs</string>
     <string name="AV_LocalUpdate">SD card virus database upgrade</string>
-    <string name="Battery_NightMode">zeitgesteuerte Ruhemodus</string>
+    <string name="Battery_NightMode">zeitgesteuerter Ruhemodus</string>
     <string name="Battery_NightMode_Des">Einstellungen z.B. für die Nacht anpassen</string>
     <string name="Battery_CustomModes">Aktionen abhängig vom Ladestand</string>
     <string name="Battery_CustomModes_Des">Je nach Ladestand des Akkus verschiedene Aktionen ausführen</string>
@@ -407,7 +407,7 @@
     <string name="Battery_Consumption_WakeCnts">Anzahl Gerät aufgeweckt</string>
     <string name="Battery_Consumption_WakeTime">Dauer die das Gerät wach gehalten wurde</string>
     <string name="Battery_Consumption_Wakeups">Wakeups</string>
-    <string name="Battery_Consumption_Dataflow">Datenverbrauch</string>
+    <string name="Battery_Consumption_Dataflow">Datennutzung</string>
     <string name="Battery_Error_WrongItem">Nacht-Modus Einstellungen</string>
     <string name="Battery_Consumption_TimeUsed">%1$.1fs</string>
     <string name="Battery_Consumption_CntUsed">%1$d</string>
@@ -571,7 +571,7 @@
     <string name="Battery_Service">Stromparfunktionen aktivieren</string>
     <string name="Battery_Show_Notif">LBE Akku Symbol einblenden</string>
     <string name="Battery_Show_NotifDes">Zeigt eigenes Akku Symbol in der Benachrichtigugsleiste</string>
-    <string name="Battery_CheckBright">Minimale Displayhelligkeit festtellen.</string>
+    <string name="Battery_CheckBright">Minimale Displayhelligkeit feststellen.</string>
     <string name="Battery_CheckBrightDes">Versucht die geringste Helligkeit festzustellen.</string>
     <string name="Battery_Service_Autostart">Energiespardienst aktiv</string>
     <string name="Battery_Capacity_Unit">mAh</string>
@@ -587,20 +587,20 @@
     <string name="Desktop_CPU_Hint">CPU:</string>
     <string name="Desktop_RAM_Hint">RAM</string>
     <string name="Desktop_Traffic_Hint">Heute:</string>
-    <string name="Desktop_Clean_Shortcut">Speicher freigeben</string>
-    <string name="Desktop_Clean_Later">Sie haben den RAM aufgeräumt, reinigen Sie später wieder</string>
-    <string name="Desktop_Task_Num">%1$d Tasks</string>
+    <string name="Desktop_Clean_Shortcut">Hintergrundapps beenden</string>
+    <string name="Desktop_Clean_Later">Apps im Hintergrund wurden beendet</string>
+    <string name="Desktop_Task_Num">%1$d App(s)</string>
     <string name="Desktop_Net_ConnCount">%1$d Verbindung(en)</string>
-    <string name="Desktop_Close_All">Alle beenden</string>
+    <string name="Desktop_Close_All">alle beenden</string>
     <string name="Desktop_Set_Launch_Mode">Startmodus wählen</string>
     <string name="Desktop_Unlock_Type_Pattern">Diese Möglichkeiten zu entsperren: Entsperren Grafiken</string>
     <string name="Desktop_Unlock_Type_Password">Diese Möglichkeiten zu entsperren: Entsperren vergessen</string>
     <string name="Desktop_Choose_Unlock_Type">Wählen Sie Entsperren Modus</string>
-    <string name="Desktop_Password_Setting">Password Settings</string>
-    <string name="Desktop_Recommend_Setting">Recommended setting</string>
-    <string name="Desktop_Recommend_Setting_Desc">You can set the white list, to avoid the application is shut down when a key clean. You can also set from Kai managed to avoid the application starts at boot time.</string>
-    <string name="Desktop_White_List">WhiteList</string>
-    <string name="Desktop_AutoStart_Manage">Since the launch of Management</string>
+    <string name="Desktop_Password_Setting">Passwort Einstellungen</string>
+    <string name="Desktop_Recommend_Setting">empfohlene Einstellung</string>
+    <string name="Desktop_Recommend_Setting_Desc">Nutzen sie die weiße Liste um wichtige Apps vorm Beenden zubewahren. Vergessen sie nicht die Autostart Rechte der Apps zu prüfen.</string>
+    <string name="Desktop_White_List">weiße Listet</string>
+    <string name="Desktop_AutoStart_Manage">seit dem Start</string>
     <string name="airplane_mode">Flugmodus</string>
     <string name="bluetooth">Bluetooth</string>
     <string name="screen_brightness">Helligkeit</string>
@@ -826,7 +826,7 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Home_Battery_Optimize">Akku</string>
     <string name="Home_Software_Manager">App Manager</string>
     <string name="Home_Disturb_Block">Nummern blockieren</string>
-    <string name="Home_Traffic_Monitor">Datenverbrauch</string>
+    <string name="Home_Traffic_Monitor">Datennutzung</string>
     <string name="Home_Ad_Block">Werbung</string>
     <string name="Home_Virus_Kill">Anti Virus</string>
     <string name="Home_Defense">Rechteverwaltungsdienst</string>
@@ -884,18 +884,18 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Keyguard_Setting_QA">Stellen Sie die Fragen der Sicherheit, die verhindern Passwort vergessen wird</string>
     <string name="Keyguard_Crack_Setting_Default">Fünf Mal die Eingabe Fehler, deaktivieren Eingabe innerhalb 50 Sekunden</string>
     <string name="Keyguard_Question_Defualt">Mein bester Freund</string>
-    <string name="Traffic">Datenverbrauch</string>
-    <string name="Traffic_Setting">Datenverbrauch Überwachungs Einstellungen</string>
-    <string name="Traffic_Statistics">Datenverbrauch</string>
+    <string name="Traffic">Datennutzung</string>
+    <string name="Traffic_Setting">Einstellungen zur Überwachung der Datennutzung</string>
+    <string name="Traffic_Statistics">Datennutzung</string>
     <string name="Traffic_Permission">Berechtigungen</string>
     <string name="Traffic_Ranks">Rangliste Apps</string>
     <string name="Traffic_Mobile">Mobile Daten</string>
-    <string name="Traffic_Mobile_Rank">Mobile Daten Traffic-Ranking</string>
-    <string name="Traffic_Mobile_Rank_Empty">Aktuell keine Traffic-Ranking Daten</string>
+    <string name="Traffic_Mobile_Rank">Mobile Daten Rangliste</string>
+    <string name="Traffic_Mobile_Rank_Empty">Aktuell keine Infos zum Datenverbrauch</string>
     <string name="Traffic_Mobile_Permission">Mobile Daten Berechtigungen</string>
     <string name="Traffic_Mobile_Disable">Mobile Daten deaktivieren</string>
     <string name="Traffic_WIFI">WiFi</string>
-    <string name="Traffic_WIFI_Rank">WiFi Traffic-Ranking</string>
+    <string name="Traffic_WIFI_Rank">WiFi Rangliste</string>
     <string name="Traffic_WIFI_Permission">WiFi Berechtigungen</string>
     <string name="Traffic_DataPlan_Set">Erstellen</string>
     <string name="Traffic_Calibrate">Traffic kalibrieren</string>
@@ -915,10 +915,10 @@ Mit dem Absenden einer Betreiber Abfrage per SMS, kalibriert die App automatisch
     <string name="Traffic_Monitor_Overproof_Dialog_Positive">Unmittelbar aus dem Netz</string>
     <string name="Traffic_Monitor_Overproof_Dialog_Negative">Weiterhin den Einsatz</string>
     <string name="Traffic_Monitor_Overproof_Dialog_Checkbox">In diesem Monat ist nicht mehr erinnern</string>
-    <string name="Traffic_Monitor_Discount">Traffic >50% Auszeit</string>
-    <string name="Traffic_Monitor_Discount_Start">Startzeit</string>
-    <string name="Traffic_Monitor_Discount_End">Endzeit</string>
-    <string name="Traffic_Monitor_DataPlan_NotSet">Datenverbrauchs Limit nicht festgelegt</string>
+    <string name="Traffic_Monitor_Discount">mobile Daten deaktivieren</string>
+    <string name="Traffic_Monitor_Discount_Start">von:</string>
+    <string name="Traffic_Monitor_Discount_End">bis:</string>
+    <string name="Traffic_Monitor_DataPlan_NotSet">Datennutzungs Limit nicht festgelegt</string>
     <string name="Traffic_Monitor_DataPlan_Unlimited">Nicht festgelegt</string>
     <string name="Traffic_Monitor_Operator_Location">Ihr Standort (nur China)</string>
     <string name="Traffic_Monitor_Operator_Province">Ihre Provinz</string>
@@ -945,7 +945,7 @@ Mit dem Absenden einer Betreiber Abfrage per SMS, kalibriert die App automatisch
     <string name="Traffic_Retrieving">Rufe ab</string>
     <string name="Traffic_NotConnected">Nicht verbunden</string>
     <string name="Traffic_Monitor_Usage_Hint">im Monat verbraucht:\u0020</string>
-    <string name="Traffic_Monitor_Plan_Hint">Datenverbrauch</string>
+    <string name="Traffic_Monitor_Plan_Hint">Datennutzung</string>
     <string name="Traffic_Monitor_Today_Hint">heute verbraucht:\u0020</string>
     <string name="Traffic_Monitor_Dataplan_Amount">Gesamt:</string>
     <string name="Traffic_Net_App">Apps mit Internet Zugriff (mobil / WiFi)</string>
@@ -975,7 +975,7 @@ Mit dem Absenden einer Betreiber Abfrage per SMS, kalibriert die App automatisch
     <string name="Nft_Mgr_Block_Ads">Benachrichtigungen blockieren</string>
     <string name="Nft_Mgr_Clear_Nft">Benachrichtigungen löschen</string>
     <string name="Nft_Mgr_Showing">aktuelle Benachrichtigungen (%1$d)</string>
-    <string name="Nft_Mgr_More">alte Benachrichtigunegn (%1$d)</string>
+    <string name="Nft_Mgr_More">alte Benachrichtigungen (%1$d)</string>
     <string name="Nft_Mgr_Blocked_Title">Blockier Protokoll</string>
     <string name="Nft_Mgr_No_Blocked">keine Daten aufgezeichnet</string>
     <string name="Nft_Mgr_Clear_Blocked_Record">Löschen von Datensätzen</string>
@@ -1281,7 +1281,7 @@ vor der Aktivierung LBE Anti-Diebstahl-Dienstleistungen, downloaden und installi
     <string name="Pref_Main_Cat_System">LBESM System-Einstellungen</string>
     <string name="Pref_Main_AnonymousReport">Cloud für Anti Virus verwenden</string>
     <string name="Pref_Main_ErrorReport">Fehlerberichte senden</string>
-    <string name="Pref_Main_Notification">Benachrichtigungs Symbol</string>
+    <string name="Pref_Main_Notification">LBE in Benachrichtigungsleiste</string>
     <string name="Pref_Main_AutoStart">Autostart</string>
     <string name="Pref_Main_Cat_Shortcut">Einstellungen für LBE Homescreen Symbol</string>
     <string name="Pref_Main_CleanShortcut">Ein-Tip-Aufräum Verknüpfung hinzufügen</string>
@@ -1299,11 +1299,11 @@ vor der Aktivierung LBE Anti-Diebstahl-Dienstleistungen, downloaden und installi
     <string name="Pref_Main_Password">Passwortschutz</string>
     <string name="Pref_Main_Password_Config">Passwort festlegen:</string>
     <string name="Pref_Main_Password_Pattern">Einstellen Graphic vergessen</string>
-    <string name="Pref_Main_Password_QA">Set Sicherheitsfragen</string>
+    <string name="Pref_Main_Password_QA">Sicherheitsfrage festlegen</string>
     <string name="Pref_Main_Password_Prompt">Bitte Passwort eingeben</string>
     <string name="Pref_Main_Password_Error">Falsches Passwort</string>
     <string name="Pref_Main_Password_Mismatch">Passwörter stimmen nicht überein, geben Sie es bitte erneut ein</string>
-    <string name="Pref_Main_Password_Set">Passwort wurde eingestellt</string>
+    <string name="Pref_Main_Password_Set">Passwort wurde festgelegt</string>
     <string name="Pref_Main_Password_New">Passwort:</string>
     <string name="Pref_Main_Password_Confirm">Password bestätigen:</string>
     <string name="Pref_AV_AutoDownload">Updates automatisch herunterladen</string>
@@ -1385,18 +1385,18 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="Pref_Traffic_Adjust_PhoneQuery">Anruf Abfrage</string>
     <string name="Pref_Traffic_Adjust_PhoneQuery_Number">Telefonnummer</string>
     <string name="Pref_Traffic_Adjust_Query">Anfrage</string>
-    <string name="Pref_Traffic_FloatWindow">Zeige Datenverbauch und Up-/Download in Statusleiste</string>
-    <string name="Pref_Traffic_FloatWindow_Style">Daten-Anzeige Stil</string>
-    <string name="Pref_Traffic_FloatWindow_Fixed">Daten-Anzeige fixieren</string>
-    <string name="Pref_Traffic_FloatWindow_On_Statusbar">Anzeige in die Statusleiste erlauben</string>
-    <string name="Pref_Traffic_FloatWindow_NoFocus">Daten-Anzeige kann nicht gestartet werden, wenn sie gesperrt ist</string>
-    <string name="Pref_Traffic_FloatWindow_Refresh">Daten-Anzeige Aktualisierungs-Rate</string>
-    <string name="Pref_Traffic_FloatWindow_Refresh_Summary">Eine höhere Aktualisierungs-Rate verbessert die Genauigkeit, führt aber zu mehr Akkuverbrauch</string>
-    <string name="Pref_Traffic_FloatWindow_AutoDim">Autom. verstecken der Traffic-Anzeige</string>
-    <string name="Pref_Traffic_FloatWindow_AutoDim_Summary">Automatisch die Daten-Anzeige verbergen, wenn kaum Daten in einem Zeitraum verbraucht wurden</string>
+    <string name="Pref_Traffic_FloatWindow">Zeige Datentransferrate in Statusleiste</string>
+    <string name="Pref_Traffic_FloatWindow_Style">Anzeige Stil</string>
+    <string name="Pref_Traffic_FloatWindow_Fixed">Anzeige fixieren</string>
+    <string name="Pref_Traffic_FloatWindow_On_Statusbar">Anzeige in die Statusleiste verschieben</string>
+    <string name="Pref_Traffic_FloatWindow_NoFocus">mehr Infos durch antippen der Anzeige sperren</string>
+    <string name="Pref_Traffic_FloatWindow_Refresh">Aktualisierungs-Rate</string>
+    <string name="Pref_Traffic_FloatWindow_Refresh_Summary">höhere Aktualisierungs-Rate verbessert die Genauigkeit, erhöht aber den Akkuverbrauch</string>
+    <string name="Pref_Traffic_FloatWindow_AutoDim">automatisches Ausblenden</string>
+    <string name="Pref_Traffic_FloatWindow_AutoDim_Summary">Zeitraum ab dem bei Inaktivität die Anzeige ausgeblendet wird</string>
     <string name="Pref_Traffic_DataPlan">Daten Limit festlegen</string>
-    <string name="Pref_Traffic_Adjust">Datenverbrauch in diesem Monat:</string>
-    <string name="Pref_Traffic_Clean">Verbrauchs-Daten zurücksetzen</string>
+    <string name="Pref_Traffic_Adjust">Datennutzung in diesem Monat:</string>
+    <string name="Pref_Traffic_Clean">Protokoll zurücksetzen</string>
     <string name="Pref_Traffic_Clean_Dialog">Alle Traffic-Statistiken werden gelöscht, wollen Sie fortfahren?</string>
     <string name="Pref_Traffic_OnTime_Update_Setting">Traffic Auto-Kalibration (nur China!)</string>
     <string name="Pref_Traffic_Auto_Update">Traffic Auto-Kalibrierung</string>
@@ -1457,13 +1457,13 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="HIPS_SecurityPrompt_Reject">autom. verweigern in: %d</string>
     <string name="HIPS_Perm">Berechtigungen</string>
     <string name="HIPS_Trust_NoConfig">App Überwachung durch LBE muss erst aktviert werden zur Rechteverwaltung.</string>
-    <string name="HIPS_Notif">Aktive Verteidigung konnte nicht geladen werden</string>
-    <string name="HIPS_Notif_Detail">Aktive Verteidigung konnte nicht geladen werden, klicken Sie hier für weitere Details</string>
+    <string name="HIPS_Notif">Rechte-Verwaltungsdienst konnte nicht geladen werden</string>
+    <string name="HIPS_Notif_Detail">Rechte-Verwaltungsdienst konnte nicht geladen werden, klicken Sie hier für weitere Details</string>
     <string name="HIPS_Notif_LoadTimeOut">LBE Security Master wurden keine Root Rechte gewährt. Bitter geben Sie LBE in Ihrer Superuser App frei.</string>
-    <string name="HIPS_Notif_LoadTimeOut_ROOT">hilfe beim rooten</string>
+    <string name="HIPS_Notif_LoadTimeOut_ROOT">Hilfe beim rooten:</string>
     <string name="HIPS_Notif_RebootRequired_Title">Bitte starten Sie Ihr Telefon neu.</string>
     <string name="HIPS_Notif_RebootRequired">Nach dem Neustart des Telefon wird der Rechteverwaltungsdienst funktionieren.</string>
-    <string name="HIPS_Notif_UnknownReason">Rechte Verwaltungsdienst konnte nicht geladen werden, starten Sie Ihr Gerät neu.</string>
+    <string name="HIPS_Notif_UnknownReason">Rechte-Verwaltungsdienst konnte nicht geladen werden, starten Sie Ihr Gerät neu.</string>
     <string name="HIPS_Conflict_MIUI_Title">Millet Telefon gebaut LBE aktive Verteidigung Dienstleistungen Bitte beachten Sie die folgenden Schritte zum Ausschalten</string>
     <string name="HIPS_Conflict_MIUI_Step1">Klicken Sie auf \"Software Permission Manager\"</string>
     <string name="HIPS_Conflict_MIUI_Step2_V4">Schließen Sie das \"Software Permission Manager\"</string>
@@ -1500,7 +1500,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="HIPS_ADB_MGR">Installation der Apps wird geblockt (Blacklist)</string>
     <string name="HIPS_ADB_DESC">Kontrolle über App Installationen.</string>
     <string name="HIPS_ADB_Install_Title">Install the software via USB</string>
-    <string name="HIPS_ADB_Install_Content">&lt;font color=#17A4F5>%1$s&lt;/font> is trying to automatically install &lt;font color=#17A4F5>%2$s&lt;/font> to your phone. If this is your own behavior, it is recommended to allow this, or you can choose to reject.</string>
+    <string name="HIPS_ADB_Install_Content">&lt;font color=#17A4F5>%1$s&lt;/font> versucht &lt;font color=#17A4F5>%2$s&lt;/font> zu installieren.</string>
     <string name="HIPS_Detected_PC_Install_APK_To_Phone">App Installation festgestellt</string>
     <string name="HIPS_USB_Install_Remind">neu installierte App(s)</string>
     <string name="HIPS_USB_Install_Detail_Both">%1$d bereits installiert, Installation von %2$d abgebrochen, hier tippen für Details:</string>
@@ -1704,10 +1704,10 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="Scan_Have_No_Scan_Result">Keine Untersuchungsergebnisse</string>
     <string name="Scan_Hava_Sys_Loophole">System-Sicherheitsanfälligkeit</string>
     <string name="Scan_Log_Check_Cache_InstallApp">Saubere Installation Paketcache %1$s ( %2$d )</string>
-    <string name="Scan_Clean_Cache">Leeren Sie den Cache</string>
-    <string name="Scan_Clean_CacheFile">Clean up Junk-Dateien</string>
-    <string name="Scan_Clean_Thumb">Cleanup Thumbnails</string>
-    <string name="Scan_Clean_EnptyDir">Aufräumen leerer Verzeichnisse</string>
+    <string name="Scan_Clean_Cache">App Cache löschen</string>
+    <string name="Scan_Clean_CacheFile">nicht benötigte Dateien entfernen</string>
+    <string name="Scan_Clean_Thumb">Vorschaubilder entfernen</string>
+    <string name="Scan_Clean_EnptyDir">leere Ordner entfernen</string>
     <string name="Service_ServiceStarted">Security Master Schutz</string>
     <string name="Service_HIPS_AcceptEvent">\"%1$s\" erlaubt %2$s</string>
     <string name="Service_HIPS_RejectEvent">\"%1$s\" verweigert %2$s</string>
@@ -1867,7 +1867,7 @@ Zuletzt geändert:
     <string name="SoftMgr_USB_Blacklist_Desc">Description: Add to blacklist after the software will no longer be allowed to install this on the phone.</string>
     <string name="SoftMgr_No_USB_Install_Log">No automatic installation log</string>
     <string name="SoftMgr_Clear_Log">Protokoll löschen</string>
-    <string name="SoftMgr_Install_Manage_Log">Protokoll über neu installierte Apps</string>
+    <string name="SoftMgr_Install_Manage_Log">neue oder aktualisierte App(s)</string>
     <string name="SoftMgr_USB_Install_Blacklist">einzelne Apps blockieren</string>
     <string name="SoftMgr_USB_Install_Manage_Mode_Choice">Automatically install software management mode selection</string>
     <string name="SoftMgr_Current_Mode">Installations Management:</string>
@@ -1880,9 +1880,9 @@ Zuletzt geändert:
     <string name="SoftMgr_Apps_Auto_Install_Manage">App Installations Überwachung</string>
     <string name="SoftMgr_PC_Client_From">Installed from PC</string>
     <string name="SoftMgr_PC_Client">PC-side tools</string>
-    <string name="SoftMgr_Unknown">Unknown</string>
+    <string name="SoftMgr_Unknown">Unbekannt</string>
     <string name="SoftMgr_From">Durch %1$s installirt</string>
-    <string name="SoftMgr_Confirm_Install_This_App">Confirm installation&lt;font color=#17A4F5>%1$s&lt;/font>?</string>
+    <string name="SoftMgr_Confirm_Install_This_App">Installation von &lt;font color=#17A4F5>%1$s&lt;/font> zulassen?</string>
     <string name="SoftMgr_Already_On">aktiviert</string>
     <string name="SoftMgr_Already_Off">deaktiviert</string>
     <string name="SoftMgr_App_Install_Manage_Service">Dienst zur Überwachung von App Installationen</string>
@@ -1917,8 +1917,8 @@ Zuletzt geändert:
     <string name="SysOpt_Boost_ShowSystem">"WARNUNG!
 Ändern der System App Einstellungen kann Ihr Telefon unbrauchbar machen.
 Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
-    <string name="SysOpt_Boost_Boot">startet beim Gerätestart</string>
-    <string name="SysOpt_Boost_Receiver">startet im Hintergrund</string>
+    <string name="SysOpt_Boost_Boot">beim Gerätestart </string>
+    <string name="SysOpt_Boost_Receiver">autom. im Hintergrund </string>
     <string name="SysOpt_Boost_Deblocking">Entsperren</string>
     <string name="SysOpt_Boost_None">Keine Autostart Apps</string>
     <string name="SysOpt_TrustApp">LBE verwaltet App Rechte automatisch (Empfehlungen)</string>   
@@ -1952,8 +1952,8 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SysOpt_Residual_None">keine Reste deinstallierter Apps vorhanden</string>
     <string name="SysOpt_Rubbish_None">keine überflüssigen Dateien vorhanden</string>
     <string name="SysOpt_Uninstall_Left">LBE stellte fest das Apps deinstalliert wurden, aber Temporäre Dateien geblieben sind, diese enfernen?</string>
-    <string name="SysOpt_EmptyFolder">%1$d leere Verzeichnisse</string>
-    <string name="SysOpt_Des_EmptyFolder">leere nicht benötigte Verzeichnisse</string>
+    <string name="SysOpt_EmptyFolder">%1$d leere Ordner</string>
+    <string name="SysOpt_Des_EmptyFolder">leere nicht benötigte Ordner</string>
     <string name="SysOpt_ThumbFile">%1$d Miniaturansichten</string>
     <string name="SysOpt_Des_ThumbFile">Miniaturansichten vom System generiert</string>
     <string name="SysOpt_LogFile">%1$d Debug-Dateien</string>
@@ -2019,7 +2019,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Update_Component_Main">LBE Security Master</string>
     <string name="Update_Component_VirusPattern">Virus Datenbank</string>
     <string name="Update_Component_VirusEngine">Virus Engine</string>
-    <string name="Update_Component_AdwarePattern">Werbe Datenbank</string>
+    <string name="Update_Component_AdwarePattern">Werbeblocker Datenbank</string>
     <string name="Update_Component_Private_Space">Privacy Space</string>
     <string name="Update_Component_AntiTheft">Diebstahl Schutz</string>
     <string name="DownloadManager_Hint">Herunterladen %1$s</string>
@@ -2081,7 +2081,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Phone_correction_delete_tips">you sure you want to delete this number ?</string>
     <string name="yellow_page_title">number service Guinness</string>
     <string name="yellow_search_hint">enter the keyword to see more</string>
-    <string name="yellow_city_unknow">unknown</string>
+    <string name="yellow_city_unknow">unbekannt</string>
     <string name="yellow_select_city">select cities !</string>
     <string name="yellow_select_city_hit">Enter city or Pinyin</string>
     <string name="yellow_category_locale">local life service</string>
@@ -2135,7 +2135,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="phone_restore_fail_message">Confirm whether there are other applications, blocking SMS or SMS records!</string>
     <string name="phone_restore_fail_title">Restore failed!</string>
     <string name="Home_Sepcial_Thanks_Title">Special Thanks</string>
-    <string name="boot_time_notification">Gerätestart dauerte %1$s Sekunden</string>
+    <string name="boot_time_notification">Gerätestart in: %1$s Sekunden</string>
 
     <string name="Battery_Logs">Protokoll</string>
     <string name="Battery_Logs_Des">Infos zu Stromsparmaßnahmen</string>
@@ -2218,7 +2218,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Pref_Traffic_Calibrate_SIM_Operator">SIM Karte</string>
     <string name="Pref_Traffic_Calibrate_SMS_Dialog_Title">SMS Textkorrektur</string>
     <string name="Pref_Traffic_Calibrate_Sms_Setting">SMS Einstellungen</string>
-    <string name="Pref_Traffic_FloatWindow_On_Statusbar_Summary">Die Helligkeitsregelung möchten die betroffenen Teile der Software, Sie können    deaktivieren</string>
+    <string name="Pref_Traffic_FloatWindow_On_Statusbar_Summary">sollte es zu Darstellungesfehlern kommen, bitte deaktivieren</string>
     <string name="Pref_Traffic_Operator_Setting_SIM">SIM-Karteninformationen</string>
     <string name="Pref_Traffic_Operator_Setting_SIM_Message">Je nach SIM-Karte erfordert Attributierungsinformationssätze, überprüfen Sie die genaue Betreiber SMS-Befehle.</string>
     <string name="Pref_Traffic_Operator_SIM_Brand">Anbieter wählen</string>
@@ -2270,7 +2270,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Generic_Untrust">vertrauen nicht</string>
     <string name="Generic_View">anzeigen</string>
     <string name="Generic_Viewed">wurden angezeigt</string>
-    <string name="HIPS_Accepted_Desc">ist zugelassen</string>
+    <string name="HIPS_Accepted_Desc">wird zugelassen</string>
     <string name="HIPS_Allow_AD">folgede Werbetypen werden erlaubt:</string>
     <string name="HIPS_Allow_Autoboot">Starten mit dem Gerät zulassen</string>
     <string name="HIPS_Allow_Notification">Benachrichtigungen zulassen</string>
@@ -2291,9 +2291,9 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="HIPS_Tips_Title">Mit dem Rechteverwaltungsdienst könen Sie:</string>
     <string name="HIPS_Trust_Action_Hint">Die Überwachung durch LBE ist für diese APP derzeit deaktiviert.</string> 
     <string name="HIPS_Trust_No">nicht vertrauenswürdige App</string>
-    <string name="HIPS_Trust_Permission">App hat ungehinderten Zugriff auf Rechte</string>
+    <string name="HIPS_Trust_Permission">App hat vollen Zugriff auf alle Rechte</string>
     <string name="HIPS_Trust_Yes">vertrauenswürdige App</string>
-    <string name="Home_About_LBE">evtl. sinnvolle Cache Daten</string>
+    <string name="Home_About_LBE">Support und Benutzervereinbarung</string>
     <string name="Home_Enable_FloatWindow_Step1" >1. Auf dem LBE Hauptbildschirm oben rechts auf Einstellungen klicken.</string>
     <string name="Home_Enable_FloatWindow_Step2" >2. Dann auf "Einstellungen für Homescreen Symbol" um es dort zu aktivieren.</string>
     <string name="Home_Enable_FloatWindow_Title">Um das schwebende Homescreen Symbol von LBE Secrutiy Master zu aktiviren tun Sie folgendes:</string>
@@ -2534,24 +2534,24 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SysOpt_Network_Tips">Netzwerk nicht verfügbar</string>
     <string name="toggle_already_exist">Verknüpfung existiert bereits</string>
     <string name="Traffic_Detail">mehr Details</string>
-    <string name="Traffic_Detail_Desc_Tips">Protokoll über tägliche Datennutzung</string>
+    <string name="Traffic_Detail_Desc_Tips">Übersicht der Datennutzung</string>
     <string name="Traffic_Instant_Flow">Echtzeit Datennutzung</string>
     <string name="Traffic_Instant_Flow_Tips">aktuelle Datennutzung zeigen</string>
     <string name="Traffic_Network_Firewall_Tips">Internet Zugrif per APP zulassen oder ablehnen</string>
-    <string name="viberate">vibration</string>
+    <string name="viberate">Vibration</string>
     <string name="yellow_page">Nummer Service</string>
    
    <!-- 5.2.6549 -->    
    
-    <string name="AD_Banner_Adware">Werbebanner</string>
-    <string name="AD_Notification_Adware">Werbung in Benachrichtigungeleiste</string>
-    <string name="AD_Wall_Adware">Pop-Up Werbung</string>
+    <string name="AD_Banner_Adware">Banner</string>
+    <string name="AD_Notification_Adware">Benachrichtigungeleiste</string>
+    <string name="AD_Wall_Adware">Pop-Up</string>
     <string name="back">zurück</string>
     <string name="Epayguard">Schutz für Bezahldienste</string>
-    <string name="Epayguard_Download">Schutz für Bezahldiesnte runterladen</string>
+    <string name="Epayguard_Download">Schutz für Bezahldienste runterladen</string>
     <string name="Epayguard_Download_Message">Diese Zusatz APP schütz sie bei Online Einkäufen.</string>
     <string name="Epayguard_Install_Failed">Installation fehlgeschlagen</string>
-    <string name="Epayguard_Summary">untertützt derzeit &lt;font color=#ff9400> Taobao and Alipay  the &lt;/font> es werden verschiedene Angriffsmöglichkeiten überwacht wie das abfangen der Daten durch Viren und andere gefährliche Software. Beim bezahlen wird ein einmaliger Bestätigungscode genutzt. ACHTUNG: Zusatz App ist nicht übersetzt</string>
+    <string name="Epayguard_Summary">Untertützt derzeit &lt;font color=#ff9400> Taobao und Alipay &lt;/font>, es werden verschiedene Angriffsmöglichkeiten überwacht (z.B.: abfangen von Daten durch Viren). Beim Bezahlen wird ein einmaliger Bestätigungscode genutzt. ACHTUNG: Zusatz-App ist nicht übersetzt.</string>
     <string name="HIPS_Aliyun_Nolimit_Message">bitte starten sie ihr Gerät neu</string>
     <string name="HIPS_Aliyun_Reboot_Message">ihr Gerät muss neu gestartet werden</string>
     <string name="HIPS_App_Batch_Trust_Toast">batch operation needs to relieve the jurisdiction to trust</string>
@@ -2584,8 +2584,8 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Scan_Already_Clear">alles sauber</string>
     <string name="Scan_Already_Enable">aktivieren</string>
     <string name="Scan_Already_Optimized">optimal</string>
-    <string name="Scan_Already_Scan_Ad">bereits auf Werbung untersucht</string>
-    <string name="Scan_Already_Scan_Virus">bereits nach Viren gesucht</string>
+    <string name="Scan_Already_Scan_Ad">Apps wurden auf Werbung untersucht</string>
+    <string name="Scan_Already_Scan_Virus">Apps wurden auf Viren untersucht</string>
     <string name="Scan_Already_Trust_LBE_Security_Master">LBE wird vertraut</string>
     <string name="Scan_Already_Watch_MIUI_FloatWindow_Setting_Guide">examined that the MIUI aerosol window establishes guide</string>
     <string name="Scan_Autoboot_Software">\u0020mit Gerät starten</string>
@@ -2609,8 +2609,8 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Scan_Hips_Disable">Rechteverwaltungsdienst inaktiv</string>
     <string name="Scan_Hips_Starting">Rechteverwaltungsdienst wird gestartet</string>
     <string name="Scan_Immediate_Clear">sofort bereinigen</string> 
-    <string name="Scan_Instant_Anti_Virus_Disable">Echtzeit Virenschutz deaktiviert</string>
-    <string name="Scan_Instant_Anti_Virus_Enable">Echtzeit Virenschutz aktiviert</string>
+    <string name="Scan_Instant_Anti_Virus_Disable">Echtzeit Virenschutz inaktiv</string>
+    <string name="Scan_Instant_Anti_Virus_Enable">Echtzeit Virenschutz aktiv</string>
     <string name="Scan_Instant_Anti_Virus_Starting">Echtzeit Virenschutz wird gestartet</string>
     <string name="Scan_Long_Time_Not_Clear_Garbage">lange nicht nach überflüssigen Dateien gescannt</string>
     <string name="Scan_No_Background_Running_Task">keine Apps im Hintergrund</string>
@@ -2635,9 +2635,9 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Scan_Traffic_Dataplan_Plenty">Datenvolumengrenze noch nicht erreicht</string>
     <string name="Scan_Traffic_Dataplan_Setting">Datenvolumenlimit wird ermittelt</string>
     <string name="Scan_Traffic_Dataplan_UnSet">Datenvolumenlimit wurde nicht festgelegt</string>
-    <string name="Scan_Traffic_Monitor_Disable">Messung der Datentransferrate inaktiv</string>
-    <string name="Scan_Traffic_Monitor_Enable">Messung der Datentransferrate aktiv</string>
-    <string name="Scan_Traffic_Monitor_Starting">starte Messung der Datentransferrate</string>
+    <string name="Scan_Traffic_Monitor_Disable">Messung der Datennutzung inaktiv</string>
+    <string name="Scan_Traffic_Monitor_Enable">Messung der Datentnutzung aktiv</string>
+    <string name="Scan_Traffic_Monitor_Starting">starte Überwachung der Datennutzung</string>
     <string name="Scan_Updating_Cloud_Permission_Data">Cloud Daten werden erneuert</string>
     <string name="Scan_Watch_Guide">examination course</string>
     <string name="Scan_Watch_MIUI_Phone_Service_Start_Guide">examines MIUI opening harassment interception service course</string>
