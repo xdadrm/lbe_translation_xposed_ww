@@ -607,18 +607,19 @@
         <item>Front Kamera</item>
         <item>Auflösung</item>
         <item>Material</item>
-    </string-array>
-    <string-array name="app_install_manage_mode_title">
+     </string-array>
+     <string-array name="app_install_manage_mode_title">
         <item>alle Installationen zulassen</item>
         <item>vor Installation nachfragen</item>
-        <item>vor Installation nachfragen und Clouddaten einbeziehen</item>
+        <item>vor Installation nachfragen (Cloud Daten einbeziehen)</item>
         <item>alle Installationen blockieren</item>
-    </string-array>
-    <string-array name="app_install_manage_mode_desc">
+      </string-array>
+      <string-array name="app_install_manage_mode_desc">
         <item>Installation erlauben und benachrichtigen.</item>
-        <item>Installation von Apps muss bestätigt werden.</item>
-        <item>Installation aller Apps wird blockiert.</item>
-    </string-array>
+        <item>Benutzer muss Installation bestätigen.</item>
+        <item>Benutzer muss Installation bestätigen wenn Bildschrim an, ansonsten automatische Entscheidung auf Basis von Cloud Daten.</item>
+        <item>Installation jeder App wird blockiert.</item>
+     </string-array>
     
      <string-array name="atp_function_label">
         <item>Gerät sperren</item>
