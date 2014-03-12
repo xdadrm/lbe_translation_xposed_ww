@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="addblacktype">
-        <item>Hinzufügen aus Kontakten</item>
-        <item>Hinzufügen aus Anruferliste</item>
-        <item>Hinzufügen aus SMS-Liste</item>
-        <item>Manuell hinzufügen</item>
-        <item>Hinzufügen aus Bereichen</item>
-        <item>Hinzufügen von Tags</item>
+        <item>hinzufügen aus Kontakten</item>
+        <item>hinzufügen aus Anruferliste</item>
+        <item>hinzufügen aus SMS-Liste</item>
+        <item>manuell hinzufügen</item>
+        <item>hinzufügen aus Bereichen</item>
+        <item>hinzufügen von Tags</item>
     </string-array>
     <string-array name="addwhitetype">
-        <item>Hinzufügen aus Kontakten</item>
-        <item>Hinzufügen aus Anruferliste</item>
-        <item>Hinzufügen aus SMS-Liste</item>
-        <item>Manuell hinzufügen</item>
-        <item>Hinzufügen aus Bereichen</item>
-        <item>Hinzufügen von Tags</item>
+        <item>hinzufügen aus Kontakten</item>
+        <item>hinzufügen aus Anruferliste</item>
+        <item>hinzufügen aus SMS-Liste</item>
+        <item>manuell hinzufügen</item>
+        <item>hinzufügen aus Bereichen</item>
+        <item>hinzufügen von Tags</item>
     </string-array>
     <string-array name="addnouseiptype">
-        <item>Hinzufügen aus Kontakten</item>
-        <item>Hinzufügen aus Anruferliste</item>
-        <item>Hinzufügen aus SMS-Liste</item>
-        <item>Hinzufügen aus Bereichen</item>
+        <item>hinzufügen aus Kontakten</item>
+        <item>hinzufügen aus Anruferliste</item>
+        <item>hinzufügen aus SMS-Liste</item>
+        <item>manuell hinzufügen</item>
     </string-array>
     <string-array name="select_sim">
         <item>von SIM1</item>
@@ -28,12 +28,12 @@
     </string-array>
     <string-array name="stopmsgtype_options">
         <item>intelligenter Block-Modus</item>
-        <item>vur Schwarze Liste blockieren</item>
+        <item>nur Schwarze Liste blockieren</item>
         <item>nur von Weißer Liste empfangen</item>
         <item>alle blockieren</item>
         <item>alle erhalten</item>
         <item>nur von Kontakten zulassen</item>
-        <item>Benutzer-Modus</item>
+        <item>manuell konfigurieren</item>
     </string-array>
     <string-array name="endcalltype">
         <item>ausgeschaltet</item>
@@ -219,7 +219,7 @@
     </string-array>
     <string-array name="record_telephony_event">
         <item>alle Telefonnummern protokollieren</item>
-        <item>nicht vertrauenswürdige Nummern protokollieren</item>
+        <item>nur unbekannte Nummern protokollieren</item>
     </string-array>
     <string-array name="record_telephony_event_values">
         <item>0</item>
@@ -260,8 +260,8 @@
         <item>default | Unbekannte Bedrohung</item>
     </string-array>
     <string-array name="traffic_cell_type">
-        <item>nach Verbrauch in diesem Monat</item>
-        <item>nach Verbrauch heute</item>
+        <item>nach monatlichem Verbrauch</item>
+        <item>nach heutigem Verbrauch</item>
         <item>nach App Name</item>
     </string-array>
     <string-array name="calibration_period">
@@ -398,9 +398,9 @@
         <item>2</item>
     </string-array>
     <string-array name="phone_marker_operator">
-        <item>Verschieben anderer Tag</item>
-        <item>Entfernen von diesem Tag</item>
-        <item>Zur schwarzen Liste hinzufügen</item>
+        <item>in anderer Klassifizierung verschieben</item>
+        <item>Klassifizierung löschen</item>
+        <item>zur schwarzen Liste hinzufügen</item>
     </string-array>
     <string-array name="private_contact_operator">
         <item>Anrufen</item>
@@ -409,9 +409,10 @@
         <item>Löschen</item>
     </string-array>
     <string-array name="private_call_operator">
+        <item>Anrufen</item>
         <item>SMS senden</item>
         <item>Löschen</item>
-        <item>Zum Posteingang wiederherstellen</item>
+        <item>Wiederherstellen</item>
     </string-array>
     <string-array name="private_message_operator">
         <item>SMS Dialog</item>
@@ -420,7 +421,9 @@
     </string-array>
     <string-array name="private_message_dialog_operator">
         <item>diese SMS löschen</item>
-        <item>zurück zum Posteingang</item>
+        <item>Wiederherstellen</item>
+        <item>Kopie erstellen</item>
+        <item>weiterleiten</item>
     </string-array>
     <string-array name="phone_block_type">
         <item>Telefonnummern und SMS</item>
@@ -433,10 +436,10 @@
         <item>10</item>
     </string-array>
     <string-array name="anti_adware_user_feedback_type">
-        <item>Ad-Blockierung gescheitert</item>
+        <item>Werbung trotz Blocken sichtbar</item>
         <item>keine Adware gefunden</item>
-        <item>App instabil nach Ad-Blockierung</item>
-        <item>Schließen-Button wird nicht auf dem Banner angezeigt</item>
+        <item>App instabil nach Blockierung der Werbung</item>
+        <item>Schließen wird nicht auf dem WerbeBanner angezeigt</item>
         <item>abbrechen</item>
     </string-array>
     <string-array name="desktop_float_toggles_labels">
@@ -444,21 +447,21 @@
         <item>Bluetooth</item>
         <item>Helligkeit</item>
         <item>Touch</item>
-        <item>Sync</item>
+        <item>Synchronisation</item>
         <item>WiFi</item>
         <item>GPS</item>
         <item>Mobile Daten</item>
-        <item>Rotation</item>
+        <item>Bildschirm Drehung</item>
     </string-array>
     <string-array name="homepage_more_options_labels">
-        <item>Anti-Virus</item>
-        <item>Active Defense</item>
-        <item>Benachrichtigungen</item>
-        <item>Privatsphäre</item>
-        <item>Newsletter</item>
-        <item>Sicherheit</item>
+        <item>Anti Virus</item>
+        <item>Rechteverwaltungsdinst</item>
+        <item>Benachrichtigungen verwalten</item>
+        <item>Privacy Space</item>
+        <item>Telefonnummern blockieren</item>
+        <item>Anti Diebstahl</item>
         <item>Kommunikations Tools</item>
-        <item>Backup &amp; Wiederherstellung</item>
+        <item>Backup und Wiederherstellung</item>
     </string-array>
     <string-array name="home_settings_labels">
         <item>Einstellungen für Homescreen Symbol</item>
@@ -471,7 +474,7 @@
         <item>Suche nach Updates </item>
         <item>Feedback</item>
         <item>LBE im Playstore</item>
-        <item>Mit Freundne teilen</item>
+        <item>mit Freunden teilen</item>
         <item>LBE Community</item>
     </string-array>
     <string-array name="sdapk_sortypes">
@@ -485,7 +488,7 @@
         <item>ältere apks</item>
         <item>installierte apks</item>
         <item>nicht installierte apks</item>
-        <item>apks ohne Zertifikation</item>
+        <item>apks ohne Zertifik</item>
         <item>apk Installation wiederholen</item>
     </string-array>
     <string-array name="sdapk_status">
@@ -493,14 +496,14 @@
         <item>keine Updates für installierte Apps auf der SD Karte</item>
         <item>keine älteren Versionen installierter Apps auf der SD Karte</item>
         <item>keine breits installiertes Apps auf der SD Karte</item>
-        <item>kein Installations Fehler auf der SD Karte</item>
+        <item>keine apks installierter Apps auf der SD Karte</item>
         <item>keine Zertifizierungs Fehler auf der SD Karte</item>
         <item>keine Duplikate auf der SD Karte</item>
     </string-array>
     <string-array name="task_sortypes">
-        <item>Nach Namen/Typ sortieren</item>
-        <item>Nach Speicherverbrauch sortieren</item>
-        <item>Nach CPU Auslastung sortieren</item>
+        <item>nach Namen/Typ sortieren</item>
+        <item>nach Speicherverbrauch sortieren</item>
+        <item>nach CPU Auslastung sortieren</item>
     </string-array>
     <string-array name="hipsapk_sortypes">
         <item>nach Name sortieren</item>
@@ -508,7 +511,7 @@
         <item>nach Datum sortieren</item>
     </string-array>
     <string-array name="hipsapk_types">
-        <item>Beutzer verwaltete App(s)</item>
+        <item>Benutzer verwaltete App(s)</item>
         <item>LBE verwaltete App(s)</item>
     </string-array>
     <string-array name="scan_item_type">
@@ -517,8 +520,8 @@
         <item>LBE und Komponenten</item>
     </string-array>
     <string-array name="toggles_add_options">
-        <item>Schnelle Schalter</item>
-        <item>Anwendungen</item>
+        <item>schnelle Schalter</item>
+        <item>Apps</item>
         <item>LBE funktionale Elemente</item>
     </string-array>
     <string-array name="questions">
@@ -537,7 +540,7 @@
     </string-array>
     <string-array name="unlock_types">
         <item>Muster zum Entsperren</item>
-        <item>Passtwort zum Entsperren</item>
+        <item>Passwort zum Entsperren</item>
     </string-array>
     <string-array name="traffic_mobile_graph_wave_colors">
         <item>\#605fcaff</item>
@@ -576,7 +579,7 @@
     </string-array>
     <string-array name="hardware_network_info">
         <item>1 Mobilfunknetze</item>
-        <item>2 WIFI</item>
+        <item>2 WiFi</item>
         <item>3 GPS</item>
         <item>4 Bluetooth Version</item>
     </string-array>
@@ -606,9 +609,10 @@
         <item>Material</item>
     </string-array>
     <string-array name="app_install_manage_mode_title">
-        <item>App Installation zulassen</item>
-        <item>Vor der App Installation nachfragen</item>
-        <item>App Installationen blockieren</item>
+        <item>alle Installationen zulassen</item>
+        <item>vor Installation nachfragen</item>
+        <item>vor Installation nachfragen und Clouddaten einbeziehen</item>
+        <item>alle Installationen blockieren</item>
     </string-array>
     <string-array name="app_install_manage_mode_desc">
         <item>Installation erlauben und benachrichtigen.</item>
@@ -876,7 +880,7 @@
         <item>S Note creative sketch</item>
         <item>screenshot store</item>
         <item>Samsung Data</item>
-        <item>photos and video thumbnails</item>
+        <item>Foto und Video Vorschau</item>
     </string-array>
     
 </resources>
