@@ -104,11 +104,11 @@
     <string name="HIPS_Perm_Picture">Fotos aufnehmen</string>
     <string name="app_name">LBE Security Master</string>
     <string name="download_unknown_title">&lt;unbenannt></string>
-    <string name="notification_filename_separator">,</string>
+    <string name="notification_filename_separator">,\u0020</string>
     <string name="notification_filename_extras">und %d mehr</string>
     <string name="notification_download_complete">Download komplett</string>
     <string name="notification_download_failed">Download abgebrochen</string>
-    <string name="notification_need_wifi_for_size">Download Größe benötigt Wi-Fi</string>
+    <string name="notification_need_wifi_for_size">WiFi aufgrund Größe des Downloads empfohlen</string>
     <string name="wifi_required_title">Download zu groß für mobile Verbindung</string>
     <string name="wifi_required_body">Sie müssen per WiFi verbunden sein um den Download zu beenden. Hier tippen zum laden wenn wieder mit WiFi verbunden</string>
     <string name="wifi_recommended_title">Für späteren Download auf Warteliste setzen?</string>
@@ -179,7 +179,7 @@
     <string name="AD_Behavior_Open_Camera">- Kamera</string>
     <string name="AD_Behavior_Write_Browser_Bookmark">- Browserlesezeichen hinzufügen</string>
     <string name="AD_Behavior_Send_SMS">- Senden von SMS</string>
-    <string name="AD_Behavior">Verhalten von Werbung</string>
+    <string name="AD_Behavior">Werbung hat Zugriff auf:</string>
     <string name="AD_Plugin">Werbung</string>
     <string name="AD_Style">Werbetypen:</string>
     <string name="AD_Style_Notification">- Benachrichtigungsleiste</string>
@@ -191,8 +191,8 @@
     <string name="AD_Notification_Content">Werbung gefunden, für Details tippen</string>
     <string name="AD_Detail_Activity_Title">Anzeigendetails</string>
     <string name="AD_Uninstall_App">App deinstallieren</string>
-    <string name="AD_Block_App">App blocken</string>
-    <string name="AD_Ublock_App">App entsperren</string>
+    <string name="AD_Block_App">Werbung blockieren</string>
+    <string name="AD_Ublock_App">Werbung zulassen</string>
     <string name="AD_Expo_Activity_Title">Werbeblocker</string>
     <string name="AD_Scan_Activity_Title">Apps Scannen</string>
     <string name="AD_No_Adware_App">keine Adware gefunden</string>
@@ -206,7 +206,7 @@
     <string name="AD_AdwareSet_Update_Success">Ad Block erfolgreich aktualisiert</string>
     <string name="AD_AdwareSet_Update_Content">Ad Muster Datenbank auf Version %1$s aktualisiert</string>
     <string name="AD_Report_Success_Toast">Erfolgreiches Feedback an LBESM</string>
-    <string name="AD_Antiadware">Ad Blocker</string>
+    <string name="AD_Antiadware">Werbe Blocker</string>
     <string name="AD_Antiadware_Dsc1">Bitte auf Werbung untersuchen</string>
     <string name="AD_Antiadware_Dsc2">Nach Werbung suchen und blockieren</string>
     <string name="AD_Adware_App">Apps mit Werbung</string>
@@ -222,7 +222,7 @@
     <string name="AD_Scan_Long_Ago">länger nicht geprüft</string>
     <string name="AD_Scan_Today">heute überprüft</string>
     <string name="AD_Scan_Again">auf Werbung untersuchen</string>
-    <string name="AD_Install_App">Installierte App</string>
+    <string name="AD_Install_App">Liste verfügbarer Apps</string>
     <string name="AD_Sys_App">System App</string>
     <string name="AD_Number_App">Anwendung(en) mit Werbung gefunden</string>
     <string name="AV_Title">Anti-Virus</string>
@@ -827,9 +827,9 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Home_Software_Manager">App Manager</string>
     <string name="Home_Disturb_Block">Nummern blockieren</string>
     <string name="Home_Traffic_Monitor">Datennutzung</string>
-    <string name="Home_Ad_Block">Werbung</string>
+    <string name="Home_Ad_Block">Werbe Blocker</string>
     <string name="Home_Virus_Kill">Anti Virus</string>
-    <string name="Home_Defense">Rechteverwaltungsdienst</string>
+    <string name="Home_Defense">Rechte verwalten</string>
     <string name="Home_Notification_Manager">Benachrich- tigungen</string>
     <string name="Home_Personal_Privacy">Verschlüsselung</string>
     <string name="Home_Anti_Burglary">Anti Diebstahl</string>
@@ -1434,7 +1434,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="HIPS_App_New">Bitte Berechtigungen für \"%1$s\" konfigurieren</string>
     <string name="HIPS_App_NewApp">Tippen für \"%1$s\" Berechtigungen</string>
     <string name="HIPS_App_NewApps">Rechte für %1$d App(s) einstellen</string>
-    <string name="HIPS_App_NewAppsWithAdware">Rechte für %1$d App(s) einstellen (%2$d mit Adware)</string>
+    <string name="HIPS_App_NewAppsWithAdware">Rechte von %1$d App(s) (%2$d mit Werbung) prüfen</string>
     <string name="HIPS_App_New_Installed">\"%1$s\" wurde installiert</string>
     <string name="HIPS_App_New_Configure">Tippen um App-Berechtigungen zu konfigurieren</string>
     <string name="HIPS_App_New_Configure_NoVirus">Keine Bedrohung gefunden, tippen um App-Berechtigungen zu konfigurieren</string>
@@ -1501,11 +1501,11 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="HIPS_ADB_DESC">Installationen erlauben, bestätigen lassen oder verweigern</string>
     <string name="HIPS_ADB_Install_Title">Install the software via USB</string>
     <string name="HIPS_ADB_Install_Content">&lt;font color=#17A4F5>%1$s&lt;/font> versucht &lt;font color=#17A4F5>%2$s&lt;/font> zu installieren.</string>
-    <string name="HIPS_Detected_PC_Install_APK_To_Phone">App Installation festgestellt</string>
-    <string name="HIPS_USB_Install_Remind">neu installierte App(s)</string>
-    <string name="HIPS_USB_Install_Detail_Both">%1$d bereits installiert, Installation von %2$d abgebrochen, hier tippen für Details:</string>
-    <string name="HIPS_USB_Install_Detail_Install">%1$d App(s) aktualisiert...</string>
-    <string name="HIPS_USB_Install_Detail_Rejected">%1$d App(s) an Installation gehindert...</string>
+    <string name="HIPS_Detected_PC_Install_APK_To_Phone">Installation von App(s) vom PC festgestellt</string>
+    <string name="HIPS_USB_Install_Remind">Installation von App(s) festgestellt</string>
+    <string name="HIPS_USB_Install_Detail_Both">%1$d App(s) installiert, %2$d App(s) blockiert</string>
+    <string name="HIPS_USB_Install_Detail_Install">%1$d App(s) installiert</string>
+    <string name="HIPS_USB_Install_Detail_Rejected">%1$d App(s) an Installation gehindert</string>
     <string name="HIPS_Manual_Start_Hips_Hint">Please manually open the active defense</string>
     <string name="private_phones">Private Kommunikation</string>
     <string name="private_phones_backup">Privacy contacts, text messages and call records</string>
