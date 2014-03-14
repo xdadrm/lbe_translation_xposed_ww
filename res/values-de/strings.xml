@@ -151,8 +151,8 @@
     <string name="phone_accelerator_ram">RAM</string>
     <string name="hold_to_scan">scanne</string>
     <string name="finish_scan">Der Scanvorgang ist abgeschlossen</string>
-    <string name="add">Hinzufügen</string>
-    <string name="add_numeric">Add ( %1$d )</string>
+    <string name="add">keine App gewählt</string>
+    <string name="add_numeric">hinzufügen (%1$d)</string>
     <string name="application">Apps</string>
     <string name="call">Wählen</string>
     <string name="settings">Einstellungen</string>
@@ -397,9 +397,9 @@
     <string name="Battery_NightMode_Start">Aktionen zum Beginn</string>
     <string name="Battery_NightMode_Stop">Aktionen beim Ende</string>
     <string name="Battery_HardwareConsumption">Hardware Verbrauch</string>
-    <string name="Battery_HardwareConsumption_None">Keine Daten zum Hardware Energieverbrauch</string>
+    <string name="Battery_HardwareConsumption_None">keine Daten zum Hardware Energieverbrauch</string>
     <string name="Battery_SoftwareConsumption">Software Energieverbrauch</string>
-    <string name="Battery_SoftwareConsumption_None">Keine Daten zum Software Energieverbrauch</string>
+    <string name="Battery_SoftwareConsumption_None">keine Daten zum Software Energieverbrauch</string>
     <string name="Battery_Consumption_Save">Nacht-Energie-Spar-Modus</string>
     <string name="Battery_Consumption_CPU_FG">Empfangs Zeit</string>
     <string name="Battery_Consumption_GPS">GPS Laufzeit</string>
@@ -716,7 +716,7 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Generic_Delete">löschen</string>
     <string name="Generic_More">mehr</string>
     <string name="Generic_Inform">melden</string>
-    <string name="Generic_Empty">Keine Daten</string>
+    <string name="Generic_Empty">Keine Einträge</string>
     <string name="Generic_SelectReverse">Auswahl umkehren</string>
     <string name="Generic_Low_Memory">Der Telefonspeicher ist voll! Löschen Sie einige Dateien, um Speicherplatz freizugeben.</string>
     <string name="Generic_ON">AN</string>
@@ -933,7 +933,7 @@ Mit dem Absenden einer Betreiber Abfrage per SMS, kalibriert die App automatisch
     <string name="Traffic_Rank_NetType">Netzwerktyp</string>
     <string name="Traffic_Rank_TimeType">Zeittyp</string>
     <string name="Traffic_Permission_NoData">keine Daten</string>
-    <string name="Traffic_Permission_Loading">Wird geladen</string>
+    <string name="Traffic_Permission_Loading">wird geladen</string>
     <string name="Traffic_Summary_Unknow">Unbekannt</string>
     <string name="Traffic_Summary_ConnectionSpeed">aktuelle Datentransferrate</string>
     <string name="Traffic_Summary_IPAddress">IP Addresse</string>
@@ -942,8 +942,8 @@ Mit dem Absenden einer Betreiber Abfrage per SMS, kalibriert die App automatisch
     <string name="Traffic_Summary_Hotspot">HotSpot Name</string>
     <string name="Traffic_Summary_Security">Sicherheit</string>
     <string name="Traffic_Summary_TheoryNetworkSpeed">Theoretische Netzwerk Geschw.</string>
-    <string name="Traffic_Retrieving">Rufe ab</string>
-    <string name="Traffic_NotConnected">Nicht verbunden</string>
+    <string name="Traffic_Retrieving">rufe ab</string>
+    <string name="Traffic_NotConnected">nicht verbunden</string>
     <string name="Traffic_Monitor_Usage_Hint">im Monat verbraucht:\u0020</string>
     <string name="Traffic_Monitor_Plan_Hint">Datennutzung</string>
     <string name="Traffic_Monitor_Today_Hint">heute verbraucht:\u0020</string>
@@ -1497,8 +1497,8 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="HIPS_HipsLog_Desc">Auflistung aller Aktionen die durch LBE erlaubt oder blockiert werden.</string>
     <string name="HIPS_Not_Enable_Warn">Für die volle Funktionalität muss der Rechteverwaltungs Dienst aktiv sein.</string>
     <string name="HIPS_Guide_HIPSEnable">Klicken Sie auf die Schaltfläche um den Dienst zu aktivieren</string>
-    <string name="HIPS_ADB_MGR">Installation der Apps wird geblockt (Blacklist)</string>
-    <string name="HIPS_ADB_DESC">Kontrolle über App Installationen.</string>
+    <string name="HIPS_ADB_MGR">Installation der Apps wird geblockt (schwarze Liste)</string>
+    <string name="HIPS_ADB_DESC">Installationen erlauben, bestätigen lassen oder verweigern</string>
     <string name="HIPS_ADB_Install_Title">Install the software via USB</string>
     <string name="HIPS_ADB_Install_Content">&lt;font color=#17A4F5>%1$s&lt;/font> versucht &lt;font color=#17A4F5>%2$s&lt;/font> zu installieren.</string>
     <string name="HIPS_Detected_PC_Install_APK_To_Phone">App Installation festgestellt</string>
@@ -1729,7 +1729,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="SoftMgr_AppMove_Clean">Ihr System ist in gutem Zustand, &lt;font color=\"#17A4F5\">ohne &lt;/font>verschieben von App(s)</string>
     <string name="SoftMgr_AppMove_Suggest1">&lt;font color=\"#17A4F5\">%1$d paragraph&lt;/font>App(s) können auf die SD Karte verschoben werden</string>
     <string name="SoftMgr_AppMove_Suggest2">without moving, &lt;font color=\"#17A4F5\">%1$d paragraph&lt;/font>software has been on the SD card</string>
-    <string name="SoftMgr_SdApk_LongAgo">&lt;font color=\"#17A4F5\">lange &lt;/font>nicht die Speicher karte nach auf apks untersucht</string>
+    <string name="SoftMgr_SdApk_LongAgo">Speicherkarte &lt;font color=\"#17A4F5\">lange &lt;/font>nicht auf Apks untersucht</string>
     <string name="SoftMgr_SdApk_DaysAgo">vor &lt;font color=\"#17A4F5\">%1$d Tag(en)&lt;/font> durchsucht</string>
     <string name="SoftMgr_SdApk_Today">&lt;font color=\"#17A4F5\">today&lt;/font> apk(s) auf SD Karte überprüft</string>
     <string name="SoftMgr_Can_Opt">&lt;font color=\"#17A4F5\"> Optimierung(en) möglich &lt;/ font></string>
@@ -1782,7 +1782,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="SoftMgr_App2SD_ToSD_Warning">Die App %1$s empfielt es selbst nicht verschoben zu werden, da es sonst zu unbekannten Fehlern kommt</string>
     <string name="SoftMgr_App2SD_Phone_Empty">Keine verschiebbaren Apps im Telefon gefunden</string>
     <string name="SoftMgr_App2SD_SD_Empty">Keine verschiebbaren Apps auf SD-Karte gefunden</string>
-    <string name="SoftMgr_App2SD_Emulated">Ihr Telefon verfügt über einen eingebauten Speicher. Sie müssen Apps nicht auf die SD-Karte verschieben</string>
+    <string name="SoftMgr_App2SD_Emulated">Interner Speicher im Gerät, verschieben auf SD nicht notwendig.</string>
     <string name="SoftMgr_App2SD_MIUIV5">Bitte beachten Sie: Ihr Telefonsystem MIUI V5, in der ein Teil der Entwickler-Version, starten Sie das Telefon nach dem Umzug der Software, die Software wird verschwinden, vorsichtig sein, um diese Funktion zu nutzen. Oder Abbrechen Einsatz.</string>
     <string name="SoftMgr_App2SD_ERR_NOMEM">Nicht genügend Speicher, Verschieben fehlgeschlagen (%1$s)</string>
     <string name="SoftMgr_App2SD_ERR_NOEXIST">%1$s existiert nicht, kann es nicht verschieben</string>
@@ -1814,7 +1814,7 @@ Sicher, dass Sie alle ausgewählten Apps wiederherstellen wollen?"</string>
     <string name="SoftMgr_SysUninstall_Enabled_Empty">Keine System App kann aktuell deinstalliert werden</string>
     <string name="SoftMgr_SysUninstall_NoSD">System App Deinstallation benötigt eine SD-Karte für Backups. Versuchen Sie es bitte wieder nach dem einlegen einer SD-Karte</string>
     <string name="SoftMgr_App_UnknownSize">Unbekannte Größe</string>
-    <string name="SoftMgr_SDHelper">APK Manager</string>
+    <string name="SoftMgr_SDHelper">Apk Manager</string>
     <string name="SoftMgr_SDHelper_Scan">Suche ...</string>
     <string name="SoftMgr_SDHelper_InnerSD">Auf Internem Speicher</string>
     <string name="SoftMgr_SDHelper_DefaultSD">Auf Standart SD Karte</string>
@@ -1877,19 +1877,19 @@ Zuletzt geändert:
     <string name="SoftMgr_Remove_Blacklist_Numberic">entfernen von (%1$d) App(s)</string>
     <string name="SoftMgr_Add_Blacklist_Desc">Ein Hinzufügen zur schwarzen Liste deinstalliert die App und wird eine Neuinstallation blockieren.</string>
     <string name="SoftMgr_Add_Blacklist_Desc_Second">Apps auf der Blacklist werden automatisch bei der Installation blockiert.</string>
-    <string name="SoftMgr_Apps_Auto_Install_Manage">App Installations Überwachung</string>
-    <string name="SoftMgr_PC_Client_From">Installed from PC</string>
-    <string name="SoftMgr_PC_Client">PC-side tools</string>
+    <string name="SoftMgr_Apps_Auto_Install_Manage">Kontrolle über App Installationen</string>
+    <string name="SoftMgr_PC_Client_From">vom PC installiert</string>
+    <string name="SoftMgr_PC_Client">PC Tools</string>
     <string name="SoftMgr_Unknown">Unbekannt</string>
     <string name="SoftMgr_From">Durch %1$s installirt</string>
     <string name="SoftMgr_Confirm_Install_This_App">Installation von &lt;font color=#17A4F5>%1$s&lt;/font> zulassen?</string>
     <string name="SoftMgr_Already_On">aktiviert</string>
     <string name="SoftMgr_Already_Off">deaktiviert</string>
-    <string name="SoftMgr_App_Install_Manage_Service">Dienst zur Überwachung von App Installationen</string>
+    <string name="SoftMgr_App_Install_Manage_Service">Installations Überwachungs Dienst</string>
     <string name="SoftMgr_App_Install_Manage_Service_Tips">Hier haben Sie die Kontrolle darüber welche Apps auf Ihrem Gerät installiert werden.</string>
     <string name="SoftMgr_Add_Blacklist_Success">der schwarzen Liste hinzugefügt</string>
     <string name="SoftMgr_Add_Blacklist_Fail">hinzufügen fehlgeschlagen</string>
-    <string name="SoftMgr_Monitor_Mode">Überwachungsmethode</string>
+    <string name="SoftMgr_Monitor_Mode">Verhalten bei App Installation</string>
     <string name="SoftMgr_Blacklist">schwarze Liste</string>
     <string name="SoftMgr_Confirm_Remove">Entfernen von schwarzer Liste bestätigen: %1$s?</string>
     <string name="SoftMgr_Already_Optimized">optimal</string>
