@@ -471,7 +471,7 @@
         <item>Systemeinstellungen</item>
     </string-array>
     <string-array name="home_about_labels">
-        <item>Suche nach Updates </item>
+        <item>auf Updates prüfen\u0020</item>
         <item>Feedback</item>
         <item>LBE im Playstore</item>
         <item>mit Freunden teilen</item>
@@ -617,7 +617,7 @@
       <string-array name="app_install_manage_mode_desc">
         <item>Installation erlauben und benachrichtigen.</item>
         <item>Benutzer muss Installation bestätigen.</item>
-        <item>Benutzer muss Installation bestätigen wenn Bildschrim an, ansonsten automatische Entscheidung auf Basis von Cloud Daten.</item>
+        <item>Benutzer muss Installation bestätigen wenn Bildschirm an, ansonsten automatische Entscheidung auf Basis von Cloud Daten.</item>
         <item>Installation jeder App wird blockiert.</item>
      </string-array>
     
