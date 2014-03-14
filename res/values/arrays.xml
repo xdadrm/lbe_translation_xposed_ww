@@ -625,13 +625,13 @@ There may be false positives"</item>
     <string-array name="app_install_manage_mode_title">
         <item>Allow automatic installation</item>
         <item>Ask automatically installed</item>
-        <item>Smart Tips to install</item>
+        <item>Smart Installation</item>
         <item>Disable the automatic installation</item>
     </string-array>
     <string-array name="app_install_manage_mode_desc">
         <item>Allows automatic installation software, prompt notification bar after installation</item>
         <item>There dialog box prompts to install, requires you to manually confirm</item>
-        <item>Lock screen allows automatic installation, other cases require manual confirmation</item>
+        <item>Smart Filter (From Data cloud by other user online)</item>
         <item>Completely disable the automatic installation of software behavior</item>
     </string-array>
     <string-array name="yellow_correction_no_num">
