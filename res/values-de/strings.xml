@@ -216,7 +216,7 @@
     <string name="AD_Last_Scan_Time">zuletzt überprüft</string>
     <string name="AD_Scan">scanne</string>
     <string name="AD_Report">nicht blockierte Werbung melden</string>
-    <string name="AD_Report_Hint">Apps mit nicht geblockter Werbung markieren zum melden.</string>
+    <string name="AD_Report_Hint">Trotz Blockierung gezeigte Werbung melden.</string>
     <string name="AD_Report_Success_Hint">Du hast erfolgreich Werbe Apps gemeldet, Vielen Dank</string>
     <string name="AD_Scan_Day_Ago">vor %1$d Tag(en)</string>
     <string name="AD_Scan_Long_Ago">länger nicht geprüft</string>
@@ -1831,10 +1831,10 @@ Sicher, die ausgewählten Apps installieren?"</string>
     <string name="SoftMgr_SDHelper_SkipDifSig">%1$d -Installationen übersprungen wegen unpassender Signatur. Bitte deinstallieren Sie vor der Installation.</string>
     <string name="SoftMgr_SDHelper_InstallWait">Wenn Sie eine APK mit Signatur oder Versions Konflikt installieren, gehen die alten Daten verloren. Tippen Sie OK für die installation, oder Cancel für abbruch</string>
     <string name="SoftMgr_SDHelper_Selected">%1$d APKs gewählt</string>
-    <string name="SoftMgr_SDHelper_Delete">Löschen</string>
-    <string name="SoftMgr_SDHelper_Installed">Installierte APKs</string>
-    <string name="SoftMgr_SDHelper_Frozen">Eingefroren</string>
-    <string name="SoftMgr_SDHelper_NotInstalled">Nicht installierte APKs</string>
+    <string name="SoftMgr_SDHelper_Delete">löschen</string>
+    <string name="SoftMgr_SDHelper_Installed">installiert</string>
+    <string name="SoftMgr_SDHelper_Frozen">eingefroren</string>
+    <string name="SoftMgr_SDHelper_NotInstalled">nicht installiert</string>
     <string name="SoftMgr_SDHelper_ApkInfo">"%1$s 
 
 APK Name:
@@ -1875,13 +1875,13 @@ Zuletzt geändert:
     <string name="SoftMgr_Add_Blacklist_Numberic">Blacklist (%1$d)</string>
     <string name="SoftMgr_Remove_Blacklist">entfernen</string>
     <string name="SoftMgr_Remove_Blacklist_Numberic">entfernen von (%1$d) App(s)</string>
-    <string name="SoftMgr_Add_Blacklist_Desc">Ein Hinzufügen zur schwarzen Liste deinstalliert die App und wird eine Neuinstallation blockieren.</string>
+    <string name="SoftMgr_Add_Blacklist_Desc">Das Hinzufügen zur schwarzen Liste deinstalliert die App und wird eine Neuinstallation blockieren.</string>
     <string name="SoftMgr_Add_Blacklist_Desc_Second">Apps auf der Blacklist werden automatisch bei der Installation blockiert.</string>
     <string name="SoftMgr_Apps_Auto_Install_Manage">Kontrolle über App Installationen</string>
     <string name="SoftMgr_PC_Client_From">vom PC installiert</string>
     <string name="SoftMgr_PC_Client">PC Tools</string>
     <string name="SoftMgr_Unknown">Unbekannt</string>
-    <string name="SoftMgr_From">Durch %1$s installirt</string>
+    <string name="SoftMgr_From">von %1$s installiert</string>
     <string name="SoftMgr_Confirm_Install_This_App">Installation von &lt;font color=#17A4F5>%1$s&lt;/font> zulassen?</string>
     <string name="SoftMgr_Already_On">aktiviert</string>
     <string name="SoftMgr_Already_Off">deaktiviert</string>
@@ -2559,12 +2559,12 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="HIPS_Conflict_Title">" your cell phone establishment and active defense conflict</string>
     <string name="HIPS_Fallback_Conflict_Message">examines in the system to have &lt;font color=\"#17A4F5\">%1$s&lt;/font> can have the conflict with the LBE security master active defense, please close this application rights management function</string>
     <string name="HIPS_Sys_Mode">system is authorized to start</string>
-    <string name="Home_Agree_And_Use">enters security master</string>
+    <string name="Home_Agree_And_Use">LBE Security Master starten</string>
     <string name="Home_Epayguard">Schutz für Bezahldienste</string>
-    <string name="Home_EULA">installment permission agreement</string>
-    <string name="Home_Install_Permit_Agreement">"Installment Permission Agreement"</string>
-    <string name="Home_Readed_And_Agreed">gelesen und zustimmen</string>
-    <string name="Home_You_Must_Agree_Before_Use">Sie müssen vor der Nutzung den Bedingungen zustummen</string>
+    <string name="Home_EULA">Endbenutzer-Lizenzvertrag</string>
+    <string name="Home_Install_Permit_Agreement">"Nutzungsbedingungen"</string>
+    <string name="Home_Readed_And_Agreed">ich stimme zu</string>
+    <string name="Home_You_Must_Agree_Before_Use">Sie müssen vor der Nutzung den Bedingungen zustimmen.</string>
     <string name="miui_iuni_hips_label">Rechte Management</string>
     <string name="miui_lbe_su_hips_label">LBE administration bureau</string>
     <string name="miui_meitu_hips_label">Rechte Managemnt</string>
