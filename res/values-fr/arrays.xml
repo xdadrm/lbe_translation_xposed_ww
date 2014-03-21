@@ -389,92 +389,92 @@ pub, pop-up, etc"</item>
     <string-array name="app_install_manage_mode_title">
         <item>Autorise les installations automatiques</item>
         <item>Demander lors d\'une installation automatique</item>
-        <item>智能提示安装</item>
+        <item>Smart Installation</item>
         <item>Désactive les installations automatiques</item>
     </string-array>
     <string-array name="app_install_manage_mode_desc">
         <item>Autorise les installations automatiques d\'applis, et affiche une notification dans la barre après l\'installation</item>
         <item>Une boite de dialogue s\'affiche lors de l\'installation, pour vous demander de confirmer l\'autorisation de l\'installation</item>
-        <item>锁屏时允许自动安装，其他情况需手工确认</item>
+        <item>Smart Filter (From Data cloud by other user online)</item>
         <item>Désactive complètement l\'installation automatique des applis</item>
     </string-array>
     <string-array name="empty_subject_strings">
         <item>Aucun sujet</item>
     </string-array>
     <string-array name="atp_function_des">
-        <item>锁定您的好友手机</item>
-        <item>定位您的好友手机位置</item>
-        <item>备份您的好友手机联系人</item>
-        <item>销毁您的好友手机联系人等隐私数据</item>
-        <item>忘记密码后获得密码</item>
-        <item>令您的好友手机最大音量播放报警音</item>
-        <item>发送自定义警告信息到您好友手机</item>
+        <item>lock your friends phone</item>
+        <item>locate your friends phone location</item>
+        <item>backup your friends phone contacts</item>
+        <item>destroy your friends phone contacts and other private data</item>
+        <item>Forgot your password after password get</item>
+        <item>make your friends playing at full volume alarm tone phone</item>
+        <item>occurred custom warning messages to your friends mobile phone</item>
     </string-array>
     <string-array name="atp_function_label">
-        <item>锁定手机</item>
-        <item>手机定位</item>
-        <item>备份联系人</item>
-        <item>销毁数据</item>
-        <item>获得密码</item>
-        <item>响警报音</item>
-        <item>虚拟警告</item>
+        <item>lock the phone</item>
+        <item>mobile positioning</item>
+        <item>backup contacts</item>
+        <item>destroy data</item>
+        <item>obtain a password</item>
+        <item>rang alarm tone</item>
+        <item>virtual Warning</item>
     </string-array>
     <string-array name="yellow_correction_no_num">
-        <item>修改商户资料</item>
-        <item>添加或修改号码</item>
-        <item>其它问题</item>
+        <item>Modify Mechant Data</item>
+        <item>Add or Modify the Number</item>
+        <item>Other Problems</item>
     </string-array>
     <string-array name="yellow_correction_has_num">
-        <item>商户名称不正确</item>
-        <item>更正商户其它资料</item>
-        <item>私人号码</item>
+        <item>Merchant Name incorrect</item>
+        <item>Correct Businessdata</item>
+        <item>Private Number</item>
     </string-array>
     <string-array name="Root_Path_Des">
-        <item>百度应用缓存</item>
-        <item>网易应用缓存</item>
-        <item>腾讯应用缓存</item>
-        <item>新浪应用缓存</item>
-        <item>LBE隐私空间</item>
-        <item>LBE安全大师</item>
-        <item>应用程序数据目录</item>
-        <item>拍照摄影存储目录</item>
-        <item>app2sd搬家目录</item>
-        <item>下载目录</item>
-        <item>MIUI缓存目录</item>
-        <item>电影存放目录</item>
-        <item>通知音存放目录</item>
-        <item>图片目录</item>
-        <item>自定义铃音存放目录</item>
-        <item>蓝牙传输缓存目录</item>
-        <item>音乐专辑封面</item>
-        <item>智乐游戏数据目录</item>
-        <item>丢失文件暂存目录</item>
-        <item>我的文档</item>
-        <item>媒体文档</item>
-        <item>MIUI刷机包目录</item>
-        <item>音乐存放目录</item>
-        <item>图片存放目录</item>
-        <item>盛大应用缓存</item>
-        <item>视频存放目录</item>
-        <item>联想ROM升级目录</item>
-        <item>应用搬家目录</item>
-        <item>音频存放目录</item>
-        <item>蓝牙缓存目录</item>
-        <item>播放列表</item>
-        <item>缓存目录</item>
-        <item>书籍存放目录</item>
-        <item>文档目录</item>
-        <item>OpenFeint游戏平台缓存</item>
-        <item>Glu游戏数据目录</item>
-        <item>录音存放目录</item>
-        <item>阿里巴巴应用缓存</item>
-        <item>缩略图存放目录</item>
-        <item>相机临时目录</item>
-        <item>拇指玩应用目录</item>
-        <item>S Planner涂鸦备份</item>
-        <item>S Note创意素描</item>
-        <item>截屏存放</item>
-        <item>三星数据</item>
-        <item>照片与视频缩略图</item>
+        <item>Baidu application cache</item>
+        <item>Netease application cache</item>
+        <item>Tencent Application Cache</item>
+        <item>Sina application cache</item>
+        <item>LBE Privacy space</item>
+        <item>LBE security master</item>
+        <item>application data directory</item>
+        <item>camera photography store directory</item>
+        <item>app2sd move directory</item>
+        <item>download directory</item>
+        <item>MIUI cache directory</item>
+        <item>movie store directory</item>
+        <item>notification sound storage directory</item>
+        <item>picture directory</item>
+        <item>custom ringtone store directory</item>
+        <item>Bluetooth cache directory</item>
+        <item>music album cover</item>
+        <item>Gameloft game data directory</item>
+        <item>lost files temporary directory</item>
+        <item>My Documents</item>
+        <item>media files</item>
+        <item>MIUI Brush Pack directory</item>
+        <item>music store directory</item>
+        <item>image storage directory</item>
+        <item>grand application cache</item>
+        <item>video store directory</item>
+        <item>Lenovo ROM upgrade directory</item>
+        <item>Moving application directory</item>
+        <item>audio storage directory</item>
+        <item>Bluetooth cache directory</item>
+        <item>Playlist</item>
+        <item>cache directory</item>
+        <item>books store directory</item>
+        <item>Documents directory</item>
+        <item>OpenFeint gaming platform cache</item>
+        <item>Glu game data directory</item>
+        <item>recording storage directory</item>
+        <item>Alibaba application cache</item>
+        <item>thumbnail storage directory</item>
+        <item>camera temporary directory</item>
+        <item>thumb playing application directory</item>
+        <item>S Planner graffiti backup</item>
+        <item>S Note creative sketch</item>
+        <item>screenshot store</item>
+        <item>Samsung Data</item>
+        <item>photos and video thumbnails</item>
     </string-array>
 </resources>
