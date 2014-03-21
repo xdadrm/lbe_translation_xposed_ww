@@ -720,7 +720,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Generic_NextStep">Suivant</string>
     <string name="Generic_PrevStep">Précédent</string>
     <string name="Generic_Setting">Régler</string>
-- <!--  These need to be in UTF-8 16bbit due to LBE Code otherwise you'll get crashes in Antivirus
+ <!--  These need to be in UTF-8 16bbit due to LBE Code otherwise you'll get crashes in Antivirus
     <string name="Generic_Time_Today">aujourd\'hui</string>
     <string name="Generic_Time_Yesterday">hier</string>
     <string name="Generic_Time_Before_Yesterday">avant-hier</string>
