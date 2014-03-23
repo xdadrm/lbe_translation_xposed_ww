@@ -104,7 +104,7 @@
     <string name="HIPS_Perm_Picture">Fotos aufnehmen</string>
     <string name="app_name">LBE Security Master</string>
     <string name="download_unknown_title">&lt;unbenannt></string>
-    <string name="notification_filename_separator">,\u0020</string>
+    <string name="notification_filename_separator">, \u0020</string>
     <string name="notification_filename_extras">und %d mehr</string>
     <string name="notification_download_complete">Download komplett</string>
     <string name="notification_download_failed">Download abgebrochen</string>
@@ -699,7 +699,7 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Generic_Reject">verweigern</string>
     <string name="Generic_Check">prüfen</string>
     <string name="Generic_Remove">entfernen</string>
-    <string name="Generic_Clean">aufräumen</string>
+    <string name="Generic_Clean">säubern</string>
     <string name="Generic_Start">start</string>
     <string name="Generic_Running">läuft</string>
     <string name="Generic_Cleaned">aufgeräumt</string>
@@ -1240,7 +1240,7 @@ Den Cloud Security Dienst können sie auch beim Blockier Dienst deaktivieren"</s
     <string name="Phone_Miui_setting_title">MIUI Benutzereinstellungen</string>
     <string name="Phone_Miui_setting_message">Ihr Telefon ist MIUI-System können Sie einrichten und verwenden LBE Blockieren von Anrufen und Nachrichten-Dienste.</string>
     <string name="Phone_Miui_setting_set">Datenschutzeinstellungen</string>
-    <string name="Phone_Miui_setting_cancel">ABBRECHEN</string>
+    <string name="Phone_Miui_setting_cancel">abbrechen</string>
     <string name="Phone_SIM1_setting">SIM1 Einstellungen</string>
     <string name="Phone_SIM2_setting">SIM2 Einstellungen</string>
     <string name="Phone_Database_Marker_Name_UserDefine">Brauch</string>
@@ -1501,7 +1501,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="HIPS_ADB_DESC">Installationen erlauben, bestätigen lassen oder verweigern</string>
     <string name="HIPS_ADB_Install_Title">Install the software via USB</string>
     <string name="HIPS_ADB_Install_Content">&lt;font color=#17A4F5>%1$s&lt;/font> versucht &lt;font color=#17A4F5>%2$s&lt;/font> zu installieren.</string>
-    <string name="HIPS_Detected_PC_Install_APK_To_Phone">Installation von App(s) vom PC festgestellt</string>
+    <string name="HIPS_Detected_PC_Install_APK_To_Phone">App(s) wurden installiert</string>
     <string name="HIPS_USB_Install_Remind">Installation von App(s) festgestellt</string>
     <string name="HIPS_USB_Install_Detail_Both">%1$d App(s) installiert, %2$d App(s) blockiert</string>
     <string name="HIPS_USB_Install_Detail_Install">%1$d App(s) installiert</string>
@@ -1618,7 +1618,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="private_warm_tips">Tipps</string>
     <string name="private_add_fakeUser_warning">Legen falscher Benutzer, Ausfallsicherheit Quiz, weiterhin eingestellt?</string>
     <string name="private_ok">Bestimmen</string>
-    <string name="private_cancel">ABBRECHEN</string>
+    <string name="private_cancel">abbrechen</string>
     <string name="private_title_individual">Verschlüsselung</string>
     <string name="private_lock_settings">Einstellungen sperren</string>
     <string name="private_download_privatespace">Bitte laden Sie sich die neueste Version der Zusatzapp Privacy Space</string>
@@ -1881,7 +1881,7 @@ Zuletzt geändert:
     <string name="SoftMgr_PC_Client_From">vom PC installiert</string>
     <string name="SoftMgr_PC_Client">PC Tools</string>
     <string name="SoftMgr_Unknown">Unbekannt</string>
-    <string name="SoftMgr_From">von %1$s installiert</string>
+    <string name="SoftMgr_From">von %1$s </string>
     <string name="SoftMgr_Confirm_Install_This_App">Installation von &lt;font color=#17A4F5>%1$s&lt;/font> zulassen?</string>
     <string name="SoftMgr_Already_On">aktiviert</string>
     <string name="SoftMgr_Already_Off">deaktiviert</string>
@@ -2394,7 +2394,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SDClean_Clean_Cache">alte Cache Daten</string>
     <string name="SDClean_Clean_Cache_Result">&lt;font color=\"#66ccff\">%1$s&lt;/font> unötige Cache Dateien gefunden</string>
     <string name="SDClean_Clean_Cleanable">können bereinigt werden</string>
-    <string name="SDClean_Clean_Cleaned_Residuel_Files">%1$s Installations Reste entfernt</string>
+    <string name="SDClean_Clean_Cleaned_Residuel_Files">%1$s Reste deinstallierter App entfernt</string>
     <string name="SDClean_Clean_Cleaning">"ist bereinigt:</string>
     <string name="SDClean_Clean_Cleaning_Detail">"ist bereinigt:</string>
     <string name="SDClean_Clean_Cleaning_No_Detail">"ist bereinigt:</string>
@@ -2465,7 +2465,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SDClean_Clean_Tidy">Keine überflüssigen Dateien gefunden.</string>
     <string name="SDClean_Clean_Tips">Es würden %1$d hochauflösende Fotos in den Speicher passen.</string>
     <string name="SDClean_Clean_Total_Clean_Message">Es wurden %1$s in überflüssigen Dateien entfernt.</string>
-    <string name="SDClean_Clean_Uninstall_Clean_Title">find unloading residual</string>
+    <string name="SDClean_Clean_Uninstall_Clean_Title">Restdaten soeben deinstallierter App gefunden</string>
     <string name="SDClean_Clean_Uninstall_Left" >LBE Security Master hat festgestellt das folgende App deinstalliert wurde aber noch Dateirückstände hinterlassen hat, ebenso löschen?</string>
     <string name="SDClean_Clean_Video">Video</string>
     <string name="SDClean_Clena_No_SysCache_Found" >keine Cache Dateien zum löschen gefunden</string>
@@ -2660,12 +2660,12 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SDClean_Clean_Please_Keep">Speicherkarte in gutem Zustand</string>
     <string name="SDClean_Clean_Text_Clean_Size">lösche (%1$s)</string>
     <string name="SDClean_Clean_Text_Finish">fertig</string>
-    <string name="SDClean_Clean_Uninstall_Advise_Clean">es wird empfohlen Speicher freizugeben</string>
+    <string name="SDClean_Clean_Uninstall_Advise_Clean">Löschen wird empfohlen</string>
     <string name="SDClean_Clean_Uninstall_Text_Apk">Apk &lt;font color=\"#66ccff\">%1$d&lt;/font> (&lt;font color=\"#66ccff\">%2$s&lt;/font>)</string> 
     <string name="SDClean_Clean_Uninstall_Text_Doc">Dokument &lt;font color=\"#66ccff\">%1$d&lt;/font> (&lt;font color=\"#66ccff\">%2$s&lt;/font>)</string>
     <string name="SDClean_Clean_Uninstall_Text_Music">Musik Datei &lt;font color=\"#66ccff\">%1$d&lt;/font> (&lt;font color=\"#66ccff\">%2$s&lt;/font>)</string>
     <string name="SDClean_Clean_Uninstall_Text_Other">has</string>
-    <string name="SDClean_Clean_Uninstall_Text_Title">discovers &lt;font color=\"#66ccff\">%1$d&lt; a/font> application remains &lt;font color=\"#66ccff\">%2$s&lt;/font> document</string>
+    <string name="SDClean_Clean_Uninstall_Text_Title">&lt;font color=\"#66ccff\">%1$d&lt;/font> App Reste von &lt;font color=\"#66ccff\">%2$s&lt;/font> gefunden</string>
     <string name="SDClean_Clean_Uninstall_Text_Video">Video Datei &lt;font color=\"#66ccff\">%1$d&lt;/font> (&lt;font color=\"#66ccff\">%2$s&lt;/font>)</string>
     <string name="SoftMgr_SysUninstall_Careful_Uninstall">uninstall discretely</string> 
     <string name="SoftMgr_SysUninstall_Careful_Uninstall_Not_Found">has not for the present the system of discovery discrete unloading to apply</string>
