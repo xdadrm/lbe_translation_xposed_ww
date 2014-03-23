@@ -611,13 +611,13 @@
      <string-array name="app_install_manage_mode_title">
         <item>alle Installationen zulassen</item>
         <item>vor Installation nachfragen</item>
-        <item>vor Installation nachfragen (Cloud Daten einbeziehen)</item>
+        <item>vor Installation nachfragen (Cloud Daten nutzen)</item>
         <item>alle Installationen blockieren</item>
       </string-array>
       <string-array name="app_install_manage_mode_desc">
         <item>Installation erlauben und benachrichtigen.</item>
         <item>Benutzer muss Installation bestätigen.</item>
-        <item>Benutzer muss Installation bestätigen wenn Bildschirm an, ansonsten automatische Entscheidung auf Basis von Cloud Daten.</item>
+        <item>Entscheidung auf Basis von Cloud Daten wenn Gerät inaktiv</item>
         <item>Installation jeder App wird blockiert.</item>
      </string-array>
     
