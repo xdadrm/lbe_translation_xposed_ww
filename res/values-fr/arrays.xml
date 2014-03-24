@@ -477,4 +477,54 @@ pub, pop-up, etc"</item>
         <item>Samsung Data</item>
         <item>photos and video thumbnails</item>
     </string-array>
+<!-- old strings prior 5.2.6620 : -->
+    <string-array name="select_sim">
+        <item>De SIM1</item>
+        <item>De SIM2</item>
+    </string-array>
+    <string-array name="stopmsgtype_options">
+        <item>Blocage Intelligent</item>
+        <item>Bloquer par liste noire</item>
+        <item>Recevoir de liste blanche uniquement</item>
+        <item>Bloquer tout</item>
+        <item>Recevoir tout</item>
+        <item>Recevoir des contacts uniquement</item>
+        <item>Mode personnalisé</item>
+    </string-array>
+    <string-array name="user_phone_defined">
+        <item>Liste Blanche</item>
+        <item>Liste noire</item>
+        <item>Contacts</item>
+        <item>Récemment contacté</item>
+    </string-array>
+    <string-array name="lbe_shortcut_start_mode">
+        <item>Notification</item>
+        <item>Raccourci sur le bureau</item>
+    </string-array>
+    <string-array name="desktop_float_toggles_labels">
+        <item>Mode Avion</item>
+        <item>Bluetooth</item>
+        <item>Luminosité</item>
+        <item>Vibreur</item>
+        <item>Synchronisation</item>
+        <item>WIFI</item>
+        <item>GPS</item>
+        <item>Données</item>
+        <item>Rotation</item>
+    </string-array>
+    <string-array name="homepage_more_options_labels">
+        <item>Antivirus</item>
+        <item>Défense active</item>
+        <item>Notifications</item>
+        <item>Espace privées</item>
+        <item>Com. Privées</item>
+        <item>Antivol (chinois)</item>
+        <item>Outils téléphonie</item>
+        <item>Sauv/Restaur.</item>
+    </string-array>
+    <string-array name="scan_item_type">
+        <item>Action auto</item>
+        <item>Action manuelle</item>
+        <item>Sécurité</item>
+    </string-array>
 </resources>
