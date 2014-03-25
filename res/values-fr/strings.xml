@@ -650,24 +650,24 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Shortcut_Notification">Barre de notifications</string>
     <string name="Shortcut_Notification_Desc"/>
     <string name="Shortcut_HardwareKey_NotSupported">"Votre téléphone n\'est pas compatible"</string>
-    <string name="Short_Whitelist">white list (%1$d)</string>
+    <string name="Short_Whitelist">Liste blanche (%1$d)</string>
     <string name="toggle_already_exist">the fast switch already exists, without adding ^_^</string>
-    <string name="app_already_exist">applications already exist, not added</string>
-    <string name="lbe_function_already_exist">this LBE function item already exists, without adding ^_^</string>
-    <string name="Shortcut_Reboot_Hint">LBE security master will restart your mobile phone</string>
-    <string name="Shortcut_Continue">continue with</string>
-    <string name="Shortcut_Still_Add">still add</string>
-    <string name="Shortcut_LockScreen">lock screen</string>
-    <string name="Shortcut_Add_No_Hips">active defense is not open, the function will not be able to use</string>
-    <string name="Shortcut_No_Hips">active defense is not open, can not use the function of</string>
+    <string name="app_already_exist">L\'application existe déjà, pas besoin de l\'ajouter</string>
+    <string name="lbe_function_already_exist">La fonction LBE existe déjà, pas besoin de l\'ajouter ^_^</string>
+    <string name="Shortcut_Reboot_Hint">LBE Security Master va redémarrer votre téléphone</string>
+    <string name="Shortcut_Continue">Continuer avec </string>
+    <string name="Shortcut_Still_Add">Ajouter encore</string>
+    <string name="Shortcut_LockScreen">Ecran de verrouillage</string>
+    <string name="Shortcut_Add_No_Hips">La Défense active n'est pas démarrée, cette fonction n'est pas disponible</string>
+    <string name="Shortcut_No_Hips">La Défense active n'est pas démarrée, cette fonction n'est pas disponible</string>
     <string name="Epayguard">ePayment Guard</string>
-    <string name="Epayguard_Summary">supports &lt;font color=#ff9400> Taobao, day cat and Alipay  the &lt;/font> three clathrias buy product SMS protection, avoids the net buying the SMS intercepts by the virus and malicious software, the monitoring application automatic transmission network buys the SMS behavior, preventing the evil intention to buckle the fee. &lt; br>&lt; br> intelligent identification more than 400 types of networks buy the SMS, the intelligent classification automatic labeling convenience management, after reading, deletes, confirms the code SMS.</string>
-    <string name="Epayguard_Download">downloading installment ePayment Guard</string>
+    <string name="Epayguard_Summary">Fonction pour la Chine uniquement, pour le contrôle des paiements par SMS. Supports &lt;font color=#ff9400> Taobao, day cat and Alipay  the &lt;/font> three clathrias buy product SMS protection, avoids the net buying the SMS intercepts by the virus and malicious software, the monitoring application automatic transmission network buys the SMS behavior, preventing the evil intention to buckle the fee. &lt; br>&lt; br> intelligent identification more than 400 types of networks buy the SMS, the intelligent classification automatic labeling convenience management, after reading, deletes, confirms the code SMS.</string>
+    <string name="Epayguard_Download">Télécharger l\'appli non traduite ePayment Guard</string>
     <string name="Epayguard_Download_Message">soon will download the ePayment Guard for you, your net buys the SMS to obtain a better protection , to continue?</string>
     <string name="Epayguard_Install_Failed">ePayment Guard installs defeat</string>
     <string name="app_name_beta">LBE security master (beta)</string>
     <string name="app_name_internal_beta">LBE security master (beta)</string>
-    <string name="app_task_manager">LBE Task Manager</string>
+    <string name="app_task_manager">LBE Gestionnaire de tâche</string>
     <string name="Generic_Loading">Chargement …</string>
     <string name="Generic_Operating">En cours …</string>
     <string name="Generic_InvalidInput">Paramètre incorrect</string>
@@ -792,7 +792,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Home_Anti_Burglary">Antivol</string>
     <string name="Home_Communication_Tools">Appels</string>
     <string name="Home_Backup_Restore">Restaurer</string>
-    <string name="Home_SD_Clean">Cleanup</string>
+    <string name="Home_SD_Clean">Nettoyage</string>
     <string name="Home_Epayguard">ePayment</string>
     <string name="Home_Permission_Manage">Permissions</string>
     <string name="score">%</string>
@@ -1355,17 +1355,17 @@ and active defense conflict"</string>
     <string name="HIPS_USB_Install_Detail_Install">%1$d déjà installée, cliquer ici pour le détail</string>
     <string name="HIPS_USB_Install_Detail_Rejected">Installation refusée de %1$d, cliquer ici pour le détail</string>
     <string name="HIPS_Manual_Start_Hips_Hint">Ouvrir manuellement Active defense</string>
-    <string name="HIPS_Tips_Title">start active defense you can:</string>
-    <string name="HIPS_Tips_Desc_1">uninstall pre-installed system software</string>
-    <string name="HIPS_Tips_Desc_2">banned software automatically start, control software permissions</string>
-    <string name="HIPS_Tips_Desc_3">blocking software malicious ads, prevent sneak flow</string>
-    <string name="HIPS_Tips_End">open active defense after the comprehensive protection for your mobile phone security</string>
-    <string name="HIPS_Rootfree_Not_Supported">your mobile phone does not support free ROOT method to open the active defense, try opening ROOT</string>
+    <string name="HIPS_Tips_Title">Avec la Défense active, vous pouvez:</string>
+    <string name="HIPS_Tips_Desc_1">désinstaller des applis Système pré-installées avec la ROM</string>
+    <string name="HIPS_Tips_Desc_2">empêcher le démarrage automatique de certaines applis, contrôler les autorisations des applis</string>
+    <string name="HIPS_Tips_Desc_3">empêcher les publicités malveillantes, empêcher les fuites d\'informations</string>
+    <string name="HIPS_Tips_End">Démarrer la Défense active assure une protection complète de votre téléphone</string>
+    <string name="HIPS_Rootfree_Not_Supported">Votre téléphone n'a pas obtenu les droits ROOT pour démarrer la Défense active, vérifiez d\'abord les droits ROOT</string>
     <string name="HIPS_Suggest_Reject">%1$.2f%% users choose to ban</string>
     <string name="HIPS_Suggest_Accept">%1$.2f%% users choose to allow</string>
     <string name="HIPS_Suggest_Accept_Radio0">master recommended to allow</string>
     <string name="HIPS_Suggest_Reject_Radio0">master recommended refused to</string>
-    <string name="HIPS_Software_Permission">software permissions</string>
+    <string name="HIPS_Software_Permission">Autorisations des applis</string>
     <string name="HIPS_Allow_AD">allows advertisement behavior of</string>
     <string name="HIPS_Rejected_Desc">has banned</string>
     <string name="HIPS_Accepted_Desc">has allowed</string>
@@ -1554,132 +1554,132 @@ and active defense conflict"</string>
     <string name="Scan_Check_Update">Check for Updates</string>
     <string name="Scan_Cheking_Update">checking for update</string>
     <string name="Scan_Immediate_Clear">cleans up immediately</string>
-    <string name="Scan_Cleaning_Virus_Now">scanning for virus</string>
-    <string name="SDClean">Cleanup</string>
-    <string name="SDClean_No_Cloud">first time performing a cleanup, need to first connect and update cloud database.</string>
-    <string name="SDClean_SD_Manager">SD card management</string>
+    <string name="Scan_Cleaning_Virus_Now">recherche de virus</string>
+    <string name="SDClean">Nettoyage</string>
+    <string name="SDClean_No_Cloud">Lors du premier nettoyage, il est nécessaire de se connecter au cloud et de mettre à jour la base de données.</string>
+    <string name="SDClean_SD_Manager">Gestion de la carte SD</string>
     <string name="SDClean_Dialog_Confirm">OK</string>
-    <string name="SDClean_Dialog_Cancel">cancel</string>
-    <string name="SDClean_SpecialFile_Position">at:</string>
-    <string name="SDClean_SpecialFile_Size">size:</string>
+    <string name="SDClean_Dialog_Cancel">Annuler</string>
+    <string name="SDClean_SpecialFile_Position">à:</string>
+    <string name="SDClean_SpecialFile_Size">taille:</string>
     <string name="SDClean_SpecialFile_Type">format:</string>
-    <string name="SDClean_SpecialFile_Unknow_Type">unknown</string>
-    <string name="SDClean_SpecialFile_Only_Read">read-only file or directory</string>
-    <string name="SDClean_SpecialFile_Last_Modify_Date">the last access date:</string>
-    <string name="SDClean_SpecialFile_Delete_Tips">delete the%1$d files (%2$s)?</string>
-    <string name="SDClean_FileManager_Delete">delete the%1$d directory and the%2$d file (%3$s)?</string>
-    <string name="SDClean_FileManager_Delete_Folder">delete the%1$d directory?</string>
-    <string name="SDClean_Deleting_Tips">is deleted:</string>
-    <string name="SDClean_Empty_File">did not find any file</string>
-    <string name="SDClean_Internal_Storage">standard storage</string>
-    <string name="SDClean_External_Storage">attached storage</string>
-    <string name="SDClean_Sdcard_Capacity">(residual%1$s, total%2$s)</string>
-    <string name="SDClean_Clean_ActionBar">delete</string>
-    <string name="SDClean_File_Clean">delete file</string>
-    <string name="SDClean_Clean_ActionBar_Tips">delete (%1$d)</string>
+    <string name="SDClean_SpecialFile_Unknow_Type">inconnu</string>
+    <string name="SDClean_SpecialFile_Only_Read">fichier ou répertoire en lecture seule</string>
+    <string name="SDClean_SpecialFile_Last_Modify_Date">date de dernier accès:</string>
+    <string name="SDClean_SpecialFile_Delete_Tips">supprimer les %1$d fichiers (%2$s)?</string>
+    <string name="SDClean_FileManager_Delete">supprimer les %1$d répertoire et les %2$d fichiers (%3$s)?</string>
+    <string name="SDClean_FileManager_Delete_Folder">supprimer les %1$d répertoire ?</string>
+    <string name="SDClean_Deleting_Tips">a été supprimé :</string>
+    <string name="SDClean_Empty_File">aucun fichier trouvé</string>
+    <string name="SDClean_Internal_Storage">stockage interne</string>
+    <string name="SDClean_External_Storage">stockage externe</string>
+    <string name="SDClean_Sdcard_Capacity">(résiduel %1$s, total %2$s)</string>
+    <string name="SDClean_Clean_ActionBar">supprimer</string>
+    <string name="SDClean_File_Clean">suppression de fichier</string>
+    <string name="SDClean_Clean_ActionBar_Tips">supprimer (%1$d)</string>
     <string name="SDClean_Item_Count">%1$d</string>
-    <string name="SDClean_FileManager_Root">root directory</string>
-    <string name="SDClean_Adavanced_Clean">file management</string>
-    <string name="SDClean_Manual_Clean">browse the directory</string>
-    <string name="SDClean_SDManager_Scaning">Scanning...</string>
-    <string name="SDClean_FileManager_Only_Folder">%1$d directory</string>
-    <string name="SDClean_FileManager_Only_File">%1$d file (%2$s)</string>
-    <string name="SDClean_ScanFile_All">the scanning the file</string>
-    <string name="SDClean_ScanFile_Video">the scanning video files to</string>
-    <string name="SDClean_ScanFile_Music">the scanning music files</string>
-    <string name="SDClean_ScanFile_Doc">the scanning document</string>
-    <string name="SDClean_ScanFile_Other">the scanning miscellaneous files</string>
-    <string name="SDClean_None_Sdcard">no SD card available</string>
-    <string name="SDClean_Title">Cleanup</string>
-    <string name="SDClean_Clean_All">all</string>
-    <string name="SDClean_Clean_Video">video</string>
-    <string name="SDClean_Clean_Music">Music</string>
-    <string name="SDClean_Clean_Apk">the installation package</string>
-    <string name="SDClean_Clean_Document">document</string>
-    <string name="SDClean_Clean_Other">other</string>
-    <string name="SDClean_Clean_Cache">garbage cache</string>
-    <string name="SDClean_Clean_Remained">unloading residual</string>
-    <string name="SDClean_Clean_Advert">advertisement file</string>
-    <string name="SDClean_Clean_Deep">about</string>
-    <string name="SDClean_Clean_System_Cache">system cache</string>
-    <string name="SDClean_Clean_Derelict_Apk">useless APK</string>
-    <string name="SDClean_Clean_Stop_Scan">exit</string>
-    <string name="SDClean_Clean_One_Key_Clean">press to clean up</string>
-    <string name="SDClean_Clean_One_Key_Clean_Folder">press to clean up (%1$s)</string>
-    <string name="SDClean_Clean_One_Key_Clean_Empty">press to clean up (%1$d empty folder)</string>
-    <string name="SDClean_Clean_SDCard_Rest">available %1$s of %2$s</string>
-    <string name="SDClean_Clean_Cache_Result">has been found in &lt;font color=\"#66ccff\">%1$s&lt;/font> application cache, we recommend cleaning</string>
-    <string name="SDClean_Clean_Remained_Result">has been found in &lt;font color=\"#66ccff\">%1$s&lt;/font> unloading residual, we recommend cleaning</string>
-    <string name="SDClean_Clean_Advert_Result">has been found in &lt;font color=\"#66ccff\">%1$s&lt;/font> advertising folders, the proposed clean-up</string>
-    <string name="SDClean_Clean_Deep_Result">has been found in &lt;font color=\"#ffcb2d\">%1$s&lt;/font> proposed to retain the file</string>
-    <string name="SDClean_Clean_SysCache_Result">has been found in &lt;font color=\"#ffcb2d\">%1$s&lt;/font> cache</string>
-    <string name="SDClean_Clean_Derelict_Result">has been found in &lt;font color=\"#ffcb2d\">%1$d&lt;/font> useless the installation package</string>
+    <string name="SDClean_FileManager_Root">répertoire racine</string>
+    <string name="SDClean_Adavanced_Clean">gestion des fichiers</string>
+    <string name="SDClean_Manual_Clean">naviguer dans le répertoire</string>
+    <string name="SDClean_SDManager_Scaning">Analyse...</string>
+    <string name="SDClean_FileManager_Only_Folder">%1$d répertoire</string>
+    <string name="SDClean_FileManager_Only_File">%1$d fichier (%2$s)</string>
+    <string name="SDClean_ScanFile_All">Fichiers trouvés</string>
+    <string name="SDClean_ScanFile_Video">Fichiers video trouvés</string>
+    <string name="SDClean_ScanFile_Music">Fichiers musique trouvés</string>
+    <string name="SDClean_ScanFile_Doc">Fichiers document trouvés</string>
+    <string name="SDClean_ScanFile_Other">Fichiers divers trouvés</string>
+    <string name="SDClean_None_Sdcard">Pas de carte SD disponible</string>
+    <string name="SDClean_Title">Nettoyage</string>
+    <string name="SDClean_Clean_All">Tous</string>
+    <string name="SDClean_Clean_Video">Video</string>
+    <string name="SDClean_Clean_Music">Musique</string>
+    <string name="SDClean_Clean_Apk">package d\'installation</string>
+    <string name="SDClean_Clean_Document">Document</string>
+    <string name="SDClean_Clean_Other">Autre</string>
+    <string name="SDClean_Clean_Cache">Cache en corbeille </string>
+    <string name="SDClean_Clean_Remained">Résidu de désinstallation</string>
+    <string name="SDClean_Clean_Advert">fichier de publicité</string>
+    <string name="SDClean_Clean_Deep">A propos</string>
+    <string name="SDClean_Clean_System_Cache">cache système</string>
+    <string name="SDClean_Clean_Derelict_Apk">Fichier APK inutile</string>
+    <string name="SDClean_Clean_Stop_Scan">Quitter</string>
+    <string name="SDClean_Clean_One_Key_Clean">Appuyer pour nettoyer</string>
+    <string name="SDClean_Clean_One_Key_Clean_Folder">Appuyer pour nettoyer (%1$s)</string>
+    <string name="SDClean_Clean_One_Key_Clean_Empty">Appuyer pour nettoyer (%1$d répertoires vides)</string>
+    <string name="SDClean_Clean_SDCard_Rest">%1$s disponible sur  %2$s</string>
+    <string name="SDClean_Clean_Cache_Result">&lt;font color=\"#66ccff\">%1$s&lt;/font> de cache d\'application trouvé, nettoyage recommandé</string>
+    <string name="SDClean_Clean_Remained_Result">&lt;font color=\"#66ccff\">%1$s&lt;/font> de fichiers résiduels trouvé, nettoyage recommandé</string>
+    <string name="SDClean_Clean_Advert_Result">&lt;font color=\"#66ccff\">%1$s&lt;/font> de fichiers publicitaires trouvé</string>
+    <string name="SDClean_Clean_Deep_Result">&lt;font color=\"#ffcb2d\">%1$s&lt;/font> trouvé, conservation recommandée</string>
+    <string name="SDClean_Clean_SysCache_Result">&lt;font color=\"#ffcb2d\">%1$s&lt;/font> de cache trouvé</string>
+    <string name="SDClean_Clean_Derelict_Result">&lt;font color=\"#ffcb2d\">%1$d&lt;/font> fichiers APK inutiles trouvé</string>
     <string name="SDClean_Clean_Detail_Title_Text">%1$s &lt;font color=\"#339900\">(%2$s)&lt;/font></string>
-    <string name="SDClean_Clean_Cloudy_Prepare_Scan">is cloud pre scanning</string>
-    <string name="SDClean_Clean_Init">scan initialization, please wait</string>
-    <string name="SDClean_Clean_Scanning">is scanning:%1$s%2$s (%3$s)</string>
-    <string name="SDClean_Clean_Scanning_Simple">is scanning:%1$s</string>
-    <string name="SDClean_Clean_SDCard_Manager">SD card management</string>
-    <string name="SDClean_Clean_File_Open">open</string>
-    <string name="SDClean_Clean_Loading">loading</string>
-    <string name="SDClean_Clean_Confirm_Clean">just about to start to clean up garbage, your mobile phone will save%1$s space</string>
-    <string name="SDClean_Clean_Confirm_SysCache_Clean">just about to start to clean up the system cache, for your mobile phone to save%1$s memory</string>
-    <string name="SDClean_Clean_No_Cache_Found">has not discovered any trash buffer document!</string>
-    <string name="SDClean_Clean_No_Advert_Found">has not discovered any advertisement document!</string>
-    <string name="SDClean_Clean_No_Residuel_Found">no residual file from uninstall!</string>
-    <string name="SDClean_Clean_No_Derelict_Found">no individual files to cleaning up!</string>
-    <string name="SDClean_Clena_No_SysCache_Found">no system cache found to clean up</string>
-    <string name="SDClean_Clean_Success">successfully cleaned%1$s cache</string>
-    <string name="SDClean_Clean_Tips">can be expected to make you take%1$d high-resolution photos</string>
-    <string name="SDClean_Clean_No_Choose_File">please select the need to clean up the file</string>
-    <string name="SDClean_Clean_Start_Clean">began to clean up the</string>
-    <string name="SDClean_Clean_Start_Clean_Summary">start cleaning (%1$d)</string>
-    <string name="SDClean_Clean_Prepare">ready to clean up</string>
-    <string name="SDClean_Clean_No_Cache">congratulations, your mobile phone does not recommend that the application cache cleaning</string>
-    <string name="SDClean_Clean_No_Residuel">congratulations, your mobile phone without unloading residual files</string>
-    <string name="SDClean_Clean_No_Advert">congratulations, your mobile phone no advertisement file</string>
-    <string name="SDClean_Clean_No_System_Cache">congratulations, your mobile phone did not find the system cache</string>
-    <string name="SDClean_Clean_No_Unuse_Apk">No unused APK found</string>
-    <string name="SDClean_Clean_No_DeepFile">congratulates, your cell phone had not discovered that suggested to retain document</string>
-    <string name="SDClean_Clean_Cleaned_Residuel_Files">has clean unloading residual files%1$s</string>
-    <string name="SDClean_Clean_Setting_Title">Cleanup set</string>
-    <string name="SDClean_Clean_Setting_Item_Residuel">uninstall the software after removing residual files to remind</string>
-    <string name="SDClean_Clean_Setting_Item_Apk">after software installation package to delete</string>
-    <string name="SDClean_Clean_Cleaning">"is clear:</string>
-    <string name="SDClean_Clean_Cleaning_Detail">"is clear:</string>
-    <string name="SDClean_Clean_Cleaning_No_Detail">"is clear:</string>
-    <string name="SDClean_Clean_App_Name">software name:</string>
-    <string name="SDClean_Clean_Size">size:</string>
-    <string name="SDClean_Clean_Purpose">use:</string>
-    <string name="SDClean_Clean_Location">location:</string>
-    <string name="SDClean_Clean_Advise">prompt:</string>
-    <string name="SDClean_Clean_Cleanable">can clear</string>
-    <string name="SDClean_Clean_Empty_Rest">residual &lt;font color=\"#66ccff\">%1$d&lt;/font> empty directory</string>
-    <string name="SDClean_Clean_Empty_Folder">empty directory</string>
-    <string name="SDClean_Clean_Uninstall_Clean_Title">find unloading residual</string>
-    <string name="SDClean_Clean_No_Root_Note">your mobile phone is not ROOT, not clear individual system cache, please select</string>
-    <string name="SDClean_Clean_App_Running">operation</string>
-    <string name="SDClean_Clean_Cleanning_SysCache">is clearing system cache</string>
-    <string name="SDClean_Clean_Clean_May_Wait">is cleaning up, please wait a bit</string>
-    <string name="SDClean_Clean_SystemCache_Clean_Size">has clear the%1$s cache</string>
-    <string name="SDClean_Clean_Text_Found">has been found</string>
-    <string name="SDClean_Clean_Text_Finish">completes</string>
-    <string name="SDClean_Clean_DeepClean_Summary">discovers in addition &lt;font color=\"#ffcb2d\">%1$s&lt;/font> depth scanning document, suggested that retains or cleans up discretely</string>
-    <string name="SDClean_Clean_Please_Keep">your SD card is very clean, perfect !</string>
+    <string name="SDClean_Clean_Cloudy_Prepare_Scan">Pré-analyse du cloud en cours</string>
+    <string name="SDClean_Clean_Init">Initialisation de l\'analyse, veuillez patienter</string>
+    <string name="SDClean_Clean_Scanning">Analyse en cours:%1$s%2$s (%3$s)</string>
+    <string name="SDClean_Clean_Scanning_Simple">Analys en cours:%1$s</string>
+    <string name="SDClean_Clean_SDCard_Manager">Gestion de la carte SD</string>
+    <string name="SDClean_Clean_File_Open">Ouvrir</string>
+    <string name="SDClean_Clean_Loading">Chargement...</string>
+    <string name="SDClean_Clean_Confirm_Clean">Le nettoyage de la corbeille va commencer, cela permettra de gagner %1$s</string>
+    <string name="SDClean_Clean_Confirm_SysCache_Clean">Le nettoyage du cache système va commencer, cela permettra de gagner %1$s</string>
+    <string name="SDClean_Clean_No_Cache_Found">Pas de fichier trouvé en corbeille !</string>
+    <string name="SDClean_Clean_No_Advert_Found">Pas de fichier publicitaire trouvé !</string>
+    <string name="SDClean_Clean_No_Residuel_Found">Pas de résidu de désintallation trouvé !</string>
+    <string name="SDClean_Clean_No_Derelict_Found">Pas de fichier inutile trouvé !</string>
+    <string name="SDClean_Clena_No_SysCache_Found">Pas de cache système trouvé</string>
+    <string name="SDClean_Clean_Success">Cache nettoyé avec succès: %1$s</string>
+    <string name="SDClean_Clean_Tips">devrait vous permettre de prendre %1$d photos haute résolution</string>
+    <string name="SDClean_Clean_No_Choose_File">Sélectionner des fichiers à nettoyer</string>
+    <string name="SDClean_Clean_Start_Clean">Démarrer le nettoyage</string>
+    <string name="SDClean_Clean_Start_Clean_Summary"Nettoyage démarré (%1$d)</string>
+    <string name="SDClean_Clean_Prepare">Prêt pour le nettoyage</string>
+    <string name="SDClean_Clean_No_Cache">Félicitations, le cache d\'application est vide</string>
+    <string name="SDClean_Clean_No_Residuel">Félicitations, aucun fichier résiduel trouvé</string>
+    <string name="SDClean_Clean_No_Advert">Félicitations, aucun fichier publicitaire trouvé</string>
+    <string name="SDClean_Clean_No_System_Cache">Félicitations, le cache système est vide</string>
+    <string name="SDClean_Clean_No_Unuse_Apk">Félicitations, pas de fichier APK inutile trouvé</string>
+    <string name="SDClean_Clean_No_DeepFile">Félicitations, your cell phone had not discovered that suggested to retain document</string>
+    <string name="SDClean_Clean_Cleaned_Residuel_Files">%1$s de fichiers résiduels nettoyés</string>
+    <string name="SDClean_Clean_Setting_Title">Paramètres</string>
+    <string name="SDClean_Clean_Setting_Item_Residuel">Me rappeler de supprimer les fichiers résiduels après la désinstallation d\'une appli</string>
+    <string name="SDClean_Clean_Setting_Item_Apk">Me rappeler de supprimer le package d\'installation après installation d\'une appli</string>
+    <string name="SDClean_Clean_Cleaning">"nettoyage:</string>
+    <string name="SDClean_Clean_Cleaning_Detail">"nettoyage:</string>
+    <string name="SDClean_Clean_Cleaning_No_Detail">"nettoyage:</string>
+    <string name="SDClean_Clean_App_Name">nom de l\'appli:</string>
+    <string name="SDClean_Clean_Size">taille:</string>
+    <string name="SDClean_Clean_Purpose">utilisation:</string>
+    <string name="SDClean_Clean_Location">emplacement:</string>
+    <string name="SDClean_Clean_Advise">proposition:</string>
+    <string name="SDClean_Clean_Cleanable">peut être nettoyé</string>
+    <string name="SDClean_Clean_Empty_Rest">&lt;font color=\"#66ccff\">%1$d&lt;/font> répertoires vides résiduels</string>
+    <string name="SDClean_Clean_Empty_Folder">répertoires vides</string>
+    <string name="SDClean_Clean_Uninstall_Clean_Title">Résidus de désinstallation trouvés</string>
+    <string name="SDClean_Clean_No_Root_Note">Votre téléphone n'a pas les droits ROOT, nettoyage du cache système impossible</string>
+    <string name="SDClean_Clean_App_Running">operation en cours</string>
+    <string name="SDClean_Clean_Cleanning_SysCache">nettoyage du cache système en cours</string>
+    <string name="SDClean_Clean_Clean_May_Wait">Nettoyage en cours, veuillez patienter</string>
+    <string name="SDClean_Clean_SystemCache_Clean_Size">%1$s de cache système nettoyés</string>
+    <string name="SDClean_Clean_Text_Found">trouvé</string>
+    <string name="SDClean_Clean_Text_Finish">terminé</string>
+    <string name="SDClean_Clean_DeepClean_Summary">&lt;font color=\"#ffcb2d\">%1$s&lt;/font> d\'autres types de document ont été trouvés, il est conseillé de les conserver ou de les nettoyer avec prudence</string>
+    <string name="SDClean_Clean_Please_Keep">Votre carte SD est vraiment propre, impeccable !</string>
     <string name="SDClean_Clean_Apk_Dialog_Item">&lt;font color=\"#666666\">%1$s&lt;/font> &lt;font color=\"#333333\">%2$s&lt;/font></string>
-    <string name="SDClean_Clean_Apk_Broken">damaged</string>
-    <string name="SDClean_Clean_Apk_Old_Version">old edition</string>
-    <string name="SDClean_Clean_Install_Apk_Tips">you have installed the following software:</string>
+    <string name="SDClean_Clean_Apk_Broken">endommagé</string>
+    <string name="SDClean_Clean_Apk_Old_Version">Version ancienne</string>
+    <string name="SDClean_Clean_Install_Apk_Tips">Vous avez installé:</string>
     <string name="SDClean_Clean_Install_Apk_Informations">%1$s(%2$s)</string>
-    <string name="SDClean_Clean_Install_Apk_Summary">discovered that the old apk still exists, deleting it may save %1$s space, delete?</string>
-    <string name="SDClean_Clean_Text_Clean_Size">deletion (%1$s)</string>
-    <string name="SDClean_Clean_Uninstall_Advise_Clean">suggested you to clean up, saves space</string>
-    <string name="SDClean_Clean_Uninstall_Text_Title">discovers &lt;font color=\"#66ccff\">%1$d&lt; a/font> application remains &lt;font color=\"#66ccff\">%2$s&lt;/font> document</string>
-    <string name="SDClean_Clean_Uninstall_Text_Other">has</string>
-    <string name="SDClean_Clean_Uninstall_Text_Doc">document file &lt;font color=\"#66ccff\">%1$d&lt;/font> (&lt;font color=\"#66ccff\">%2$s&lt;/font>)</string>
-    <string name="SDClean_Clean_Uninstall_Text_Video">video document &lt;font color=\"#66ccff\">%1$d&lt;/font> (&lt;font color=\"#66ccff\">%2$s&lt;/font>)</string>
-    <string name="SDClean_Clean_Uninstall_Text_Music">music file &lt;font color=\"#66ccff\">%1$d&lt;/font> (&lt;font color=\"#66ccff\">%2$s&lt;/font>)</string>
-    <string name="SDClean_Clean_Uninstall_Text_Apk">apk &lt;font color=\"#66ccff\">%1$d&lt;/font> (&lt;font color=\"#66ccff\">%2$s&lt;/font>)</string>
+    <string name="SDClean_Clean_Install_Apk_Summary">Le fichier APK d\'une ancienne version existe toujours, le supprimer fera gagner %1$s; le supprimer ?</string>
+    <string name="SDClean_Clean_Text_Clean_Size">Suppression (%1$s)</string>
+    <string name="SDClean_Clean_Uninstall_Advise_Clean">Il est recommandé de nettoyer, pour gagner de l\'espace mémoire</string>
+    <string name="SDClean_Clean_Uninstall_Text_Title">&lt;font color=\"#66ccff\">%1$d&lt; a/font> de résidus d\'application et &lt;font color=\"#66ccff\">%2$s&lt;/font> de fichiers  trouvé</string>
+    <string name="SDClean_Clean_Uninstall_Text_Other">divers</string>
+    <string name="SDClean_Clean_Uninstall_Text_Doc">&lt;font color=\"#66ccff\">%1$d&lt;/font> de documents (&lt;font color=\"#66ccff\">%2$s&lt;/font>)</string>
+    <string name="SDClean_Clean_Uninstall_Text_Video">&lt;font color=\"#66ccff\">%1$d&lt;/font> de vidéos (&lt;font color=\"#66ccff\">%2$s&lt;/font>)</string>
+    <string name="SDClean_Clean_Uninstall_Text_Music">&lt;font color=\"#66ccff\">%1$d&lt;/font> de musiques (&lt;font color=\"#66ccff\">%2$s&lt;/font>)</string>
+    <string name="SDClean_Clean_Uninstall_Text_Apk">&lt;font color=\"#66ccff\">%1$d&lt;/font> de fichiers APK (&lt;font color=\"#66ccff\">%2$s&lt;/font>)</string>
     <string name="Service_ServiceStarted">LBESM protège votre téléphone</string>
     <string name="Service_HIPS_AcceptEvent">%1$s autorisé à %2$s</string>
     <string name="Service_HIPS_RejectEvent">Refusé %1$s %2$s</string>
