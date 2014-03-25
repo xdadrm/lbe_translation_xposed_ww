@@ -1608,12 +1608,12 @@ and active defense conflict"</string>
     <string name="SDClean_Clean_One_Key_Clean_Folder">Appuyer pour nettoyer (%1$s)</string>
     <string name="SDClean_Clean_One_Key_Clean_Empty">Appuyer pour nettoyer (%1$d répertoires vides)</string>
     <string name="SDClean_Clean_SDCard_Rest">%1$s disponible sur  %2$s</string>
-    <string name="SDClean_Clean_Cache_Result">trouvé &lt;font color=\"#66ccff\">%1$s&lt;/font> de cache d\'appli, nettoyage recommandé</string>
-    <string name="SDClean_Clean_Remained_Result">trouvé &lt;font color=\"#66ccff\">%1$s&lt;/font> de fichiers résiduels, nettoyage recommandé</string>
-    <string name="SDClean_Clean_Advert_Result">trouvés &lt;font color=\"#66ccff\">%1$s&lt;/font> de fichiers publicitaires</string>
-    <string name="SDClean_Clean_Deep_Result">trouvé &lt;font color=\"#ffcb2d\">%1$s&lt;/font>, conservation recommandée</string>
-    <string name="SDClean_Clean_SysCache_Result">trouvé &lt;font color=\"#ffcb2d\">%1$s&lt;/font> de cache</string>
-    <string name="SDClean_Clean_Derelict_Result">trouvé &lt;font color=\"#ffcb2d\">%1$d&lt;/font> fichiers APK inutiles</string>
+    <string name="SDClean_Clean_Cache_Result">&lt;font color=\"#66ccff\">%1$s&lt;/font> de cache d\'application trouvé, nettoyage recommandé</string>
+    <string name="SDClean_Clean_Remained_Result">&lt;font color=\"#66ccff\">%1$s&lt;/font> de fichiers résiduels trouvé, nettoyage recommandé</string>
+    <string name="SDClean_Clean_Advert_Result">&lt;font color=\"#66ccff\">%1$s&lt;/font> de fichiers publicitaires trouvé</string>
+    <string name="SDClean_Clean_Deep_Result">&lt;font color=\"#ffcb2d\">%1$s&lt;/font> trouvé, conservation recommandée</string>
+    <string name="SDClean_Clean_SysCache_Result">&lt;font color=\"#ffcb2d\">%1$s&lt;/font> de cache trouvé</string>
+    <string name="SDClean_Clean_Derelict_Result">&lt;font color=\"#ffcb2d\">%1$d&lt;/font> fichiers APK inutiles trouvé</string>
     <string name="SDClean_Clean_Detail_Title_Text">%1$s &lt;font color=\"#339900\">(%2$s)&lt;/font></string>
     <string name="SDClean_Clean_Cloudy_Prepare_Scan">Pré-analyse du cloud en cours</string>
     <string name="SDClean_Clean_Init">Initialisation de l\'analyse, veuillez patienter</string>
@@ -1674,7 +1674,7 @@ and active defense conflict"</string>
     <string name="SDClean_Clean_Install_Apk_Summary">Le fichier APK d\'une ancienne version existe toujours, le supprimer fera gagner %1$s; le supprimer ?</string>
     <string name="SDClean_Clean_Text_Clean_Size">Suppression (%1$s)</string>
     <string name="SDClean_Clean_Uninstall_Advise_Clean">Il est recommandé de nettoyer, pour gagner de l\'espace mémoire</string>
-    <string name="SDClean_Clean_Uninstall_Text_Title">trouvé &lt;font color=\"#66ccff\">%1$d&lt; a/font> de résidus d\'application et &lt;font color=\"#66ccff\">%2$s&lt;/font> de fichiers</string>
+    <string name="SDClean_Clean_Uninstall_Text_Title">&lt;font color=\"#66ccff\">%1$d&lt; a/font> de résidus d\'application et &lt;font color=\"#66ccff\">%2$s&lt;/font> de fichiers  trouvé</string>
     <string name="SDClean_Clean_Uninstall_Text_Other">divers</string>
     <string name="SDClean_Clean_Uninstall_Text_Doc">&lt;font color=\"#66ccff\">%1$d&lt;/font> de documents (&lt;font color=\"#66ccff\">%2$s&lt;/font>)</string>
     <string name="SDClean_Clean_Uninstall_Text_Video">&lt;font color=\"#66ccff\">%1$d&lt;/font> de vidéos (&lt;font color=\"#66ccff\">%2$s&lt;/font>)</string>
