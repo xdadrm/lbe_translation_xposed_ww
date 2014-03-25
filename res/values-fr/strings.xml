@@ -650,10 +650,10 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Shortcut_Notification">Barre de notifications</string>
     <string name="Shortcut_Notification_Desc"/>
     <string name="Shortcut_HardwareKey_NotSupported">"Votre téléphone n\'est pas compatible"</string>
-    <string name="Short_Whitelist">Liste balnche (%1$d)</string>
+    <string name="Short_Whitelist">Liste blanche (%1$d)</string>
     <string name="toggle_already_exist">the fast switch already exists, without adding ^_^</string>
-    <string name="app_already_exist">L\'application existe déjà, pas besoin de l'\ajouter</string>
-    <string name="lbe_function_already_exist">La fonction LBE existe déjà, pas besoin de l'\ajouter ^_^</string>
+    <string name="app_already_exist">L\'application existe déjà, pas besoin de l\'ajouter</string>
+    <string name="lbe_function_already_exist">La fonction LBE existe déjà, pas besoin de l\'ajouter ^_^</string>
     <string name="Shortcut_Reboot_Hint">LBE Security Master va redémarrer votre téléphone</string>
     <string name="Shortcut_Continue">Continuer avec </string>
     <string name="Shortcut_Still_Add">Ajouter encore</string>
@@ -662,7 +662,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Shortcut_No_Hips">La Défense active n'est pas démarrée, cette fonction n'est pas disponible</string>
     <string name="Epayguard">ePayment Guard</string>
     <string name="Epayguard_Summary">Fonction pour la Chine uniquement, pour le contrôle des paiements par SMS. Supports &lt;font color=#ff9400> Taobao, day cat and Alipay  the &lt;/font> three clathrias buy product SMS protection, avoids the net buying the SMS intercepts by the virus and malicious software, the monitoring application automatic transmission network buys the SMS behavior, preventing the evil intention to buckle the fee. &lt; br>&lt; br> intelligent identification more than 400 types of networks buy the SMS, the intelligent classification automatic labeling convenience management, after reading, deletes, confirms the code SMS.</string>
-    <string name="Epayguard_Download">Télécharger l'appli chinoise ePayment Guard</string>
+    <string name="Epayguard_Download">Télécharger l\'appli non traduite ePayment Guard</string>
     <string name="Epayguard_Download_Message">soon will download the ePayment Guard for you, your net buys the SMS to obtain a better protection , to continue?</string>
     <string name="Epayguard_Install_Failed">ePayment Guard installs defeat</string>
     <string name="app_name_beta">LBE security master (beta)</string>
@@ -1358,9 +1358,9 @@ and active defense conflict"</string>
     <string name="HIPS_Tips_Title">Avec la Défense active, vous pouvez:</string>
     <string name="HIPS_Tips_Desc_1">désinstaller des applis Système pré-installées avec la ROM</string>
     <string name="HIPS_Tips_Desc_2">empêcher le démarrage automatique de certaines applis, contrôler les autorisations des applis</string>
-    <string name="HIPS_Tips_Desc_3">empêcher les publicités malveillantes, empêcher les fuites d'informations</string>
+    <string name="HIPS_Tips_Desc_3">empêcher les publicités malveillantes, empêcher les fuites d\'informations</string>
     <string name="HIPS_Tips_End">Démarrer la Défense active assure une protection complète de votre téléphone</string>
-    <string name="HIPS_Rootfree_Not_Supported">Votre téléphone n'a pas obtenu les droits ROOT pour démarrer la Défense active, vérifiez d'abord les droits ROOT</string>
+    <string name="HIPS_Rootfree_Not_Supported">Votre téléphone n'a pas obtenu les droits ROOT pour démarrer la Défense active, vérifiez d\'abord les droits ROOT</string>
     <string name="HIPS_Suggest_Reject">%1$.2f%% users choose to ban</string>
     <string name="HIPS_Suggest_Accept">%1$.2f%% users choose to allow</string>
     <string name="HIPS_Suggest_Accept_Radio0">master recommended to allow</string>
@@ -1635,7 +1635,7 @@ and active defense conflict"</string>
     <string name="SDClean_Clean_Start_Clean">Démarrer le nettoyage</string>
     <string name="SDClean_Clean_Start_Clean_Summary"Nettoyage démarré (%1$d)</string>
     <string name="SDClean_Clean_Prepare">Prêt pour le nettoyage</string>
-    <string name="SDClean_Clean_No_Cache">Félicitations, le cache d'application est vide</string>
+    <string name="SDClean_Clean_No_Cache">Félicitations, le cache d\'application est vide</string>
     <string name="SDClean_Clean_No_Residuel">Félicitations, aucun fichier résiduel trouvé</string>
     <string name="SDClean_Clean_No_Advert">Félicitations, aucun fichier publicitaire trouvé</string>
     <string name="SDClean_Clean_No_System_Cache">Félicitations, le cache système est vide</string>
@@ -1643,12 +1643,12 @@ and active defense conflict"</string>
     <string name="SDClean_Clean_No_DeepFile">Félicitations, your cell phone had not discovered that suggested to retain document</string>
     <string name="SDClean_Clean_Cleaned_Residuel_Files">%1$s de fichiers résiduels nettoyés</string>
     <string name="SDClean_Clean_Setting_Title">Paramètres</string>
-    <string name="SDClean_Clean_Setting_Item_Residuel">Me rappeler de supprimer les fichiers résiduels après la désinstallation d'une appli</string>
-    <string name="SDClean_Clean_Setting_Item_Apk">Me rappeler de supprimer le package d'installation après installation d'une appli</string>
+    <string name="SDClean_Clean_Setting_Item_Residuel">Me rappeler de supprimer les fichiers résiduels après la désinstallation d\'une appli</string>
+    <string name="SDClean_Clean_Setting_Item_Apk">Me rappeler de supprimer le package d\'installation après installation d\'une appli</string>
     <string name="SDClean_Clean_Cleaning">"nettoyage:</string>
     <string name="SDClean_Clean_Cleaning_Detail">"nettoyage:</string>
     <string name="SDClean_Clean_Cleaning_No_Detail">"nettoyage:</string>
-    <string name="SDClean_Clean_App_Name">nom de l'appli:</string>
+    <string name="SDClean_Clean_App_Name">nom de l\'appli:</string>
     <string name="SDClean_Clean_Size">taille:</string>
     <string name="SDClean_Clean_Purpose">utilisation:</string>
     <string name="SDClean_Clean_Location">emplacement:</string>
@@ -1671,10 +1671,10 @@ and active defense conflict"</string>
     <string name="SDClean_Clean_Apk_Old_Version">Version ancienne</string>
     <string name="SDClean_Clean_Install_Apk_Tips">Vous avez installé:</string>
     <string name="SDClean_Clean_Install_Apk_Informations">%1$s(%2$s)</string>
-    <string name="SDClean_Clean_Install_Apk_Summary">Le fichier APK d'une ancienne version existe toujours, le supprimer fera gagner %1$s; le supprimer ?</string>
+    <string name="SDClean_Clean_Install_Apk_Summary">Le fichier APK d\'une ancienne version existe toujours, le supprimer fera gagner %1$s; le supprimer ?</string>
     <string name="SDClean_Clean_Text_Clean_Size">Suppression (%1$s)</string>
-    <string name="SDClean_Clean_Uninstall_Advise_Clean">Il est recommandé de nettoyer, pour gagner de l'espace mémoire</string>
-    <string name="SDClean_Clean_Uninstall_Text_Title">trouvé &lt;font color=\"#66ccff\">%1$d&lt; a/font> de résidus d'application et &lt;font color=\"#66ccff\">%2$s&lt;/font> de fichiers</string>
+    <string name="SDClean_Clean_Uninstall_Advise_Clean">Il est recommandé de nettoyer, pour gagner de l\'espace mémoire</string>
+    <string name="SDClean_Clean_Uninstall_Text_Title">trouvé &lt;font color=\"#66ccff\">%1$d&lt; a/font> de résidus d\'application et &lt;font color=\"#66ccff\">%2$s&lt;/font> de fichiers</string>
     <string name="SDClean_Clean_Uninstall_Text_Other">divers</string>
     <string name="SDClean_Clean_Uninstall_Text_Doc">&lt;font color=\"#66ccff\">%1$d&lt;/font> de documents (&lt;font color=\"#66ccff\">%2$s&lt;/font>)</string>
     <string name="SDClean_Clean_Uninstall_Text_Video">&lt;font color=\"#66ccff\">%1$d&lt;/font> de vidéos (&lt;font color=\"#66ccff\">%2$s&lt;/font>)</string>
