@@ -657,7 +657,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Shortcut_Reboot_Hint">LBE Security Master va redémarrer votre téléphone</string>
     <string name="Shortcut_Continue">Continuer avec </string>
     <string name="Shortcut_Still_Add">Ajouter encore</string>
-    <string name="Shortcut_LockScreen">Ecran de vérouillage</string>
+    <string name="Shortcut_LockScreen">Ecran de verrouillage</string>
     <string name="Shortcut_Add_No_Hips">La Défense active n'est pas démarrée, cette fonction n'est pas disponible</string>
     <string name="Shortcut_No_Hips">La Défense active n'est pas démarrée, cette fonction n'est pas disponible</string>
     <string name="Epayguard">ePayment Guard</string>
