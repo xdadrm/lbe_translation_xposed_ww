@@ -645,7 +645,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Shortcut_HardwareKey_Search">Appui long sur Recherche pour commencer</string>
     <string name="Shortcut_Swipe_Up_Gesture_Launch">Start draw gesture on the home page</string>
     <string name="Shortcut_FloatWindow">Fenêtres flottantes</string>
-    <string name="Shortcut_FloatWindow_Desc">Icone accueil flottant</string>
+    <string name="Shortcut_FloatWindow_Desc">Icône accueil flottant</string>
     <string name="Shortcut_FloatWindow_LauncherOnly">"Uniquement sur l\'accueil"</string>
     <string name="Shortcut_Notification">Barre de notifications</string>
     <string name="Shortcut_Notification_Desc"/>
@@ -655,9 +655,9 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="app_already_exist">L\'application existe déjà, pas besoin de l\'ajouter</string>
     <string name="lbe_function_already_exist">La fonction LBE existe déjà, pas besoin de l\'ajouter ^_^</string>
     <string name="Shortcut_Reboot_Hint">LBE Security Master va redémarrer votre téléphone</string>
-    <string name="Shortcut_Continue">Continuer avec </string>
+    <string name="Shortcut_Continue">Continuer avec</string>
     <string name="Shortcut_Still_Add">Ajouter encore</string>
-    <string name="Shortcut_LockScreen">Ecran de verrouillage</string>
+    <string name="Shortcut_LockScreen">Écran de verrouillage</string>
     <string name="Shortcut_Add_No_Hips">La Défense active n'est pas démarrée, cette fonction n'est pas disponible</string>
     <string name="Shortcut_No_Hips">La Défense active n'est pas démarrée, cette fonction n'est pas disponible</string>
     <string name="Epayguard">ePayment Guard</string>
@@ -1585,14 +1585,14 @@ and active defense conflict"</string>
     <string name="SDClean_FileManager_Only_Folder">%1$d répertoire</string>
     <string name="SDClean_FileManager_Only_File">%1$d fichier (%2$s)</string>
     <string name="SDClean_ScanFile_All">Fichiers trouvés</string>
-    <string name="SDClean_ScanFile_Video">Fichiers video trouvés</string>
+    <string name="SDClean_ScanFile_Video">Fichiers vidéo trouvés</string>
     <string name="SDClean_ScanFile_Music">Fichiers musique trouvés</string>
     <string name="SDClean_ScanFile_Doc">Fichiers document trouvés</string>
     <string name="SDClean_ScanFile_Other">Fichiers divers trouvés</string>
     <string name="SDClean_None_Sdcard">Pas de carte SD disponible</string>
     <string name="SDClean_Title">Nettoyage</string>
     <string name="SDClean_Clean_All">Tous</string>
-    <string name="SDClean_Clean_Video">Video</string>
+    <string name="SDClean_Clean_Video">Vidéo</string>
     <string name="SDClean_Clean_Music">Musique</string>
     <string name="SDClean_Clean_Apk">package d\'installation</string>
     <string name="SDClean_Clean_Document">Document</string>
@@ -1618,7 +1618,7 @@ and active defense conflict"</string>
     <string name="SDClean_Clean_Cloudy_Prepare_Scan">Pré-analyse du cloud en cours</string>
     <string name="SDClean_Clean_Init">Initialisation de l\'analyse, veuillez patienter</string>
     <string name="SDClean_Clean_Scanning">Analyse en cours:%1$s%2$s (%3$s)</string>
-    <string name="SDClean_Clean_Scanning_Simple">Analys en cours:%1$s</string>
+    <string name="SDClean_Clean_Scanning_Simple">Analyse en cours:%1$s</string>
     <string name="SDClean_Clean_SDCard_Manager">Gestion de la carte SD</string>
     <string name="SDClean_Clean_File_Open">Ouvrir</string>
     <string name="SDClean_Clean_Loading">Chargement...</string>
@@ -1626,14 +1626,14 @@ and active defense conflict"</string>
     <string name="SDClean_Clean_Confirm_SysCache_Clean">Le nettoyage du cache système va commencer, cela permettra de gagner %1$s</string>
     <string name="SDClean_Clean_No_Cache_Found">Pas de fichier trouvé en corbeille !</string>
     <string name="SDClean_Clean_No_Advert_Found">Pas de fichier publicitaire trouvé !</string>
-    <string name="SDClean_Clean_No_Residuel_Found">Pas de résidu de désintallation trouvé !</string>
+    <string name="SDClean_Clean_No_Residuel_Found">Pas de résidu de désinstallation trouvé !</string>
     <string name="SDClean_Clean_No_Derelict_Found">Pas de fichier inutile trouvé !</string>
     <string name="SDClean_Clena_No_SysCache_Found">Pas de cache système trouvé</string>
     <string name="SDClean_Clean_Success">Cache nettoyé avec succès: %1$s</string>
     <string name="SDClean_Clean_Tips">devrait vous permettre de prendre %1$d photos haute résolution</string>
     <string name="SDClean_Clean_No_Choose_File">Sélectionner des fichiers à nettoyer</string>
     <string name="SDClean_Clean_Start_Clean">Démarrer le nettoyage</string>
-    <string name="SDClean_Clean_Start_Clean_Summary"Nettoyage démarré (%1$d)</string>
+    <string name="SDClean_Clean_Start_Clean_Summary">Nettoyage démarré (%1$d)</string>
     <string name="SDClean_Clean_Prepare">Prêt pour le nettoyage</string>
     <string name="SDClean_Clean_No_Cache">Félicitations, le cache d\'application est vide</string>
     <string name="SDClean_Clean_No_Residuel">Félicitations, aucun fichier résiduel trouvé</string>
@@ -1658,7 +1658,7 @@ and active defense conflict"</string>
     <string name="SDClean_Clean_Empty_Folder">répertoires vides</string>
     <string name="SDClean_Clean_Uninstall_Clean_Title">Résidus de désinstallation trouvés</string>
     <string name="SDClean_Clean_No_Root_Note">Votre téléphone n'a pas les droits ROOT, nettoyage du cache système impossible</string>
-    <string name="SDClean_Clean_App_Running">operation en cours</string>
+    <string name="SDClean_Clean_App_Running">opération en cours</string>
     <string name="SDClean_Clean_Cleanning_SysCache">nettoyage du cache système en cours</string>
     <string name="SDClean_Clean_Clean_May_Wait">Nettoyage en cours, veuillez patienter</string>
     <string name="SDClean_Clean_SystemCache_Clean_Size">%1$s de cache système nettoyés</string>
@@ -1699,9 +1699,9 @@ and active defense conflict"</string>
     <string name="SoftMgr_Retain">%1$s &lt;font color=\"#FF7E00\">%2$s&lt;/font></string>
     <string name="SoftMgr_AppUninstall_Tip">&lt;font color=\"#17A4F5\">%1$d-&lt;/font>Apps utilisateur</string>
     <string name="SoftMgr_SysUninstall_Tip">&lt;font color=\"#17A4F5\">%1$d apks &lt;/font> logiciel préinstallé</string>
-    <string name="SoftMgr_AppMove_Clean">Votre système est sain，&lt;font color=\"#17A4F5\">Non&lt;/font>Appli de déplacement</string>
-    <string name="SoftMgr_AppMove_Suggest1">&lt;font color=\"#17A4F5\">%1$d-&lt;/font>Appli recommandée pour déplacmeent sur SD</string>
-    <string name="SoftMgr_AppMove_Suggest2">"Ne pas déplacer，&lt;font color=\"#17A4F5\">%1$d-&lt;/font>L\'appli a été déplacée sur SD"</string>
+    <string name="SoftMgr_AppMove_Clean">Votre système est sain, &lt;font color=\"#17A4F5\">Non&lt;/font>Appli de déplacement</string>
+    <string name="SoftMgr_AppMove_Suggest1">&lt;font color=\"#17A4F5\">%1$d-&lt;/font>Appli recommandée pour déplacement sur SD</string>
+    <string name="SoftMgr_AppMove_Suggest2">"Ne pas déplacer, &lt;font color=\"#17A4F5\">%1$d-&lt;/font>L\'appli a été déplacée sur SD"</string>
     <string name="SoftMgr_SdApk_LongAgo">&lt;font color=\"#17A4F5\">&lt;/font>Carte SD non gérée</string>
     <string name="SoftMgr_SdApk_DaysAgo">Dernière gestion de la SD &lt;font color=\"#17A4F5\">%1$d jours&lt;/font>Il y a</string>
     <string name="SoftMgr_SdApk_Today">"&lt;font color=\"#17A4F5\">aujourd\'hui&lt;/font>applis déplacées sur la SD"</string>
