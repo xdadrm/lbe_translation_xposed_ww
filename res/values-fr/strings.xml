@@ -658,8 +658,8 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Shortcut_Continue">Continuer avec</string>
     <string name="Shortcut_Still_Add">Ajouter encore</string>
     <string name="Shortcut_LockScreen">Écran de verrouillage</string>
-    <string name="Shortcut_Add_No_Hips">La Défense active n'est pas démarrée, cette fonction n'est pas disponible</string>
-    <string name="Shortcut_No_Hips">La Défense active n'est pas démarrée, cette fonction n'est pas disponible</string>
+    <string name="Shortcut_Add_No_Hips">La Défense active n\'est pas démarrée, cette fonction n\'est pas disponible</string>
+    <string name="Shortcut_No_Hips">La Défense active n\'est pas démarrée, cette fonction n\'est pas disponible</string>
     <string name="Epayguard">ePayment Guard</string>
     <string name="Epayguard_Summary">Fonction pour la Chine uniquement, pour le contrôle des paiements par SMS. Supports &lt;font color=#ff9400> Taobao, day cat and Alipay  the &lt;/font> three clathrias buy product SMS protection, avoids the net buying the SMS intercepts by the virus and malicious software, the monitoring application automatic transmission network buys the SMS behavior, preventing the evil intention to buckle the fee. &lt; br>&lt; br> intelligent identification more than 400 types of networks buy the SMS, the intelligent classification automatic labeling convenience management, after reading, deletes, confirms the code SMS.</string>
     <string name="Epayguard_Download">Télécharger l\'appli non traduite ePayment Guard</string>
@@ -1657,7 +1657,7 @@ and active defense conflict"</string>
     <string name="SDClean_Clean_Empty_Rest">&lt;font color=\"#66ccff\">%1$d&lt;/font> répertoires vides résiduels</string>
     <string name="SDClean_Clean_Empty_Folder">répertoires vides</string>
     <string name="SDClean_Clean_Uninstall_Clean_Title">Résidus de désinstallation trouvés</string>
-    <string name="SDClean_Clean_No_Root_Note">Votre téléphone n'a pas les droits ROOT, nettoyage du cache système impossible</string>
+    <string name="SDClean_Clean_No_Root_Note">Votre téléphone n\'a pas les droits ROOT, nettoyage du cache système impossible</string>
     <string name="SDClean_Clean_App_Running">opération en cours</string>
     <string name="SDClean_Clean_Cleanning_SysCache">nettoyage du cache système en cours</string>
     <string name="SDClean_Clean_Clean_May_Wait">Nettoyage en cours, veuillez patienter</string>
