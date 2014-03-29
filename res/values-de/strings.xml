@@ -2677,4 +2677,34 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Update_Component_Epayguard">Schutz für Bezahldienste</string>
     <string name="Update_Epayguard">Update für Bezahldienst Schutz</string>
     
+       <!-- 5.2.6840 --> 
+    <string name="Battery_Condition_TickerCharge">Erhaltungsladung aktiv (es wird empfohlen den Ladevorgang zu beenden)</string>
+    <string name="Battery_Condition_TickerChargeFull">Erhaltungsladung: Akku ist voll</string>
+    <string name="Battery_Condition_TickerCharge_Over">Erhaltungsladung abgeschlossen</string>
+    <string name="Home_Open_Source">Open source Lizenz</string>
+    <string name="Patch_Check_Immune_Desc">Ihr Gerät ist nicht gerootet. Für die volle Funktionalität wird Root Zugriff benötig.</string>
+    <string name="phone_number_already_exists">diese Nummer ist bereits in der schwarzen oder weißen Liste </string>
+    <string name="SDClean_Clean_Garbage">Dateiüberreste säubern </string>
+    <string name="SDClean_Clean_Join_WhiteList">weiße Liste</string>
+    <string name="SDClean_Clean_Remove_WhiteList">von weißer Liste entfernen</string>
+    <string name="SDClean_Clean_Text_Clean">säubern</string>
+    <string name="SDClean_Clean_WhiteList">weiße Liste</string>
+    <string name="SDClean_SDManager_Scaning">scanne...</string>
+    <string name="Shortcut_Create_Shortcut">Verküpfung zum Taskkiller erstellen</string>
+    <string name="Shortcut_Swipe_Up_Gesture_Launch">LBE durch nach oben streichen auf dem Homesymbol starten</string>
+    <string name="SysOpt_Boost_Block">Autostart deaktivieren</string>
+    <string name="SysOpt_Boost_Deblock">Autostart aktivieren</string>
+    <string name="SysOpt_Hardware_Cpu_Core">%1$s Kern CPU</string>
+    <string name="SysOpt_Hardware_Cpu_LogicCore">%1$s Logik Kern CPU</string>
+    <string name="SysOpt_Hardware_Cpu_Soket">%1$s Slots</string>
+    <string name="SysOpt_TaskMgr_AutoAllow">zugelassen</string>
+    <string name="SysOpt_TaskMgr_AutoReject">verweigern</string>
+    <string name="SysOpt_TaskMgr_InWhite">hinzugefügt</string>
+    <string name="SysOpt_TaskMgr_LookDetail">Details anzeigen</string>
+    <string name="SysOpt_TaskMgr_OutWhite">nicht hinzugefügt</string>
+    <string name="SysOpt_TaskMgr_Tips">%1$s App(s) auf der weißen Liste, %2$s App(s) im Autostartk</string>
+    <string name="SysOpt_TaskMgr_WhiteWithLocation_Clean">Diese App ist für die Ortungsdienste verantwortlich, Beenden kann sich auf darauf angewiesene Apps auswirken.</string>
+    <string name="unknown_hips_label">unbekannte App</string>
+    
+    
 </resources>
