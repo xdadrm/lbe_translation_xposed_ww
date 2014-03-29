@@ -21,26 +21,13 @@
         <item>Thêm từ tin nhắn</item>
         <item>Nhập thủ công</item>
     </string-array>
-    <string-array name="select_sim">
-        <item>Từ thẻ SIM 1</item>
-        <item>Từ thẻ SIM 2</item>
-    </string-array>
-    <string-array name="stopmsgtype_options">
-        <item>Chế độ chặn thông minh</item>
-        <item>Chỉ chặn Black list</item>
-        <item>Chỉ nhận White list</item>
-        <item>Chặn tất cả</item>
-        <item>Chấp nhận tất cả</item>
-        <item>Chỉ chấp nhận các số trong danh bạ</item>
-        <item>Chế độ tùy chỉnh</item>
-    </string-array>
     <string-array name="endcalltype">
         <item>Máy bận</item>
         <item>Số không liên lạc được</item>
         <item>Dừng cuộc gọi</item>
         <item>Ngắt cuộc gọi</item>
     </string-array>
-    <string-array name="stopcalltype_values">
+    <string-array name="endcalltype_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -113,14 +100,15 @@
         <item>30</item>
         <item>31</item>
     </string-array>
-    <string-array name="msglog_oparete">
+    <string-array name="msglog_operate">
+        <item>Xóa</item>
         <item>Gửi trả lời</item>
         <item>Gọi lại</item>
         <item>Thêm vào White list</item>
         <item>Thêm vào Black list</item>
         <item>Báo cáo</item>
     </string-array>
-    <string-array name="calllog_oparete">
+    <string-array name="calllog_operate">
         <item>Xóa</item>
         <item>Trả lời tin nhắn SMS</item>
         <item>Gọi lại</item>
@@ -151,12 +139,6 @@
         <item>Liên lạc gần đây</item>
         <item>Từ khóa</item>
         <item>Nhóm thông minh</item>
-    </string-array>
-    <string-array name="user_phone_defined">
-        <item>White list</item>
-        <item>Black list</item>
-        <item>Danh bạ</item>
-        <item>Liên lạc gần đây</item>
     </string-array>
     <string-array name="select_allow">
         <item>Nhận</item>
@@ -272,23 +254,11 @@ Có thể phát hiện là virus"</item>
         <item>ads|Chứa quảng cáo</item>
         <item>default|Mối nguy hiểm khác</item>
     </string-array>
-    <string-array name="traffic_cell_type">
-        <item>Sắp xếp theo lưu lượng hàng tháng</item>
-        <item>Sắp xếp theo lưu lượng hàng ngày</item>
-        <item>Sắp xếp theo tên phần mềm</item>
-    </string-array>
     <string-array name="calibration_period">
         <item>Cứ ba ngày</item>
         <item>Hàng tuần</item>
         <item>Mỗi ngày</item>
         <item>Hiệu chỉnh thủ công</item>
-    </string-array>
-    <string-array name="showpowerquantitylower">
-        <item>10%</item>
-        <item>20%</item>
-        <item>30%</item>
-        <item>40%</item>
-        <item>50%</item>
     </string-array>
     <string-array name="auto_update_period">
         <item>Đóng</item>
@@ -315,63 +285,6 @@ Có thể phát hiện là virus"</item>
         <item>Tất cả phải hỏi</item>
         <item>Từ chối tất cả</item>
     </string-array>
-    <string-array name="hips_batch_operation_ar">
-        <item>Cho phép tất cả</item>
-        <item>Từ chối tất cả</item>
-    </string-array>
-    <string-array name="defaultfilesuffix">
-        <item>epub</item>
-        <item>chm</item>
-        <item>ndk</item>
-        <item>umd</item>
-        <item>pdf</item>
-    </string-array>
-    <string-array name="filesuffix">
-        <item>avi</item>
-        <item>wmv</item>
-        <item>flv</item>
-        <item>mov</item>
-        <item>3gp</item>
-        <item>mp4</item>
-        <item>mpg</item>
-        <item>rmvb</item>
-        <item>mp3</item>
-        <item>wav</item>
-        <item>wma</item>
-        <item>giữa</item>
-        <item>flac</item>
-        <item>lrc</item>
-        <item>m4a</item>
-        <item>KRC</item>
-        <item>apk</item>
-        <item>f4v</item>
-        <item>dat</item>
-        <item>tsk</item>
-        <item>DB3</item>
-    </string-array>
-    <integer-array name="filesuffix_id">
-        <item>1</item>
-        <item>2</item>
-        <item>4</item>
-        <item>8</item>
-        <item>16</item>
-        <item>32</item>
-        <item>64</item>
-        <item>128</item>
-        <item>256</item>
-        <item>512</item>
-        <item>1024</item>
-        <item>2048</item>
-        <item>4096</item>
-        <item>8192</item>
-        <item>16384</item>
-        <item>32768</item>
-        <item>65536</item>
-        <item>131072</item>
-        <item>262144</item>
-        <item>524288</item>
-        <item>1048576</item>
-    </integer-array>
     <string-array name="misscalltype">
         <item>Chuông và rung</item>
         <item>Chỉ chuông</item>
@@ -395,10 +308,6 @@ Có thể phát hiện là virus"</item>
     <string-array name="desktop_home_launch_mode">
         <item>Nhấp vào nút Home</item>
         <item>Nhấp đúp vào nút Home</item>
-    </string-array>
-    <string-array name="lbe_shortcut_start_mode">
-        <item>Nút home</item>
-        <item>Phím tắt màn hình chính</item>
     </string-array>
     <string-array name="blocklog_save_time">
         <item>Một tuần</item>
@@ -443,38 +352,12 @@ Có thể phát hiện là virus"</item>
         <item>Cuộc gọi</item>
         <item>Tin nhắn SMS</item>
     </string-array>
-    <string-array name="battery_scene_killtask_interval_values">
-        <item>1</item>
-        <item>5</item>
-        <item>10</item>
-    </string-array>
     <string-array name="anti_adware_user_feedback_type">
         <item>Chặn quảng cáo lỗi</item>
         <item>Phần mềm quảng cáo của phần mềm chính</item>
         <item>Sau khi chặn quảng cáo tự khôi phục</item>
         <item>Không thể được hiển thị trên nút biểu ngữ</item>
         <item>Hủy bỏ</item>
-    </string-array>
-    <string-array name="desktop_float_toggles_labels">
-        <item>Chế độ máy bay</item>
-        <item>bluetooth</item>
-        <item>Độ sáng màn hình</item>
-        <item>Chạm</item>
-        <item>Đồng bộ</item>
-        <item>WIFI</item>
-        <item>GPS</item>
-        <item>Mạng di động</item>
-        <item>Xoay màn hình</item>
-    </string-array>
-    <string-array name="homepage_more_options_labels">
-        <item>Antivirus</item>
-        <item>Active defense</item>
-        <item>Notification bar</item>
-        <item>Privacy Space</item>
-        <item>Call blocking</item>
-        <item>Antitheft</item>
-        <item>Communication</item>
-        <item>Backup restore</item>
     </string-array>
     <string-array name="home_settings_labels">
         <item>Phím tắt ngoài màn hình</item>
@@ -528,11 +411,6 @@ Có thể phát hiện là virus"</item>
         <item>Phần mềm người dùng</item>
         <item>Phần mềm hệ thống</item>
     </string-array>
-    <string-array name="scan_item_type">
-        <item>Tự động</item>
-        <item>Tự tùy chỉnh</item>
-        <item>Bảo mật</item>
-    </string-array>
     <string-array name="toggles_add_options">
         <item>Chuyển đổi nhanh chóng</item>
         <item>Ứng dụng</item>
@@ -556,7 +434,7 @@ Có thể phát hiện là virus"</item>
         <item>Vẽ để Mở khóa</item>
         <item>Mật khẩu để mở khóa</item>
     </string-array>
-	    <string-array name="traffic_mobile_graph_wave_colors">
+    <string-array name="traffic_mobile_graph_wave_colors">
         <item>\#605fcaff</item>
         <item>\#8026acee</item>
     </string-array>
@@ -621,6 +499,9 @@ Có thể phát hiện là virus"</item>
         <item>Camera phụ</item>
         <item>Kích thước màn hình</item>
         <item>Vật liệu</item>
+        <item>CPU Model</item>
+        <item>GPU renderer</item>
+        <item>GPU vendor</item>
     </string-array>
     <string-array name="app_install_manage_mode_title">
         <item>Cho phép cài đặt tự động</item>
@@ -676,5 +557,302 @@ Có thể phát hiện là virus"</item>
     </string-array>
     <string-array name="empty_subject_strings">
         <item>Không chủ đề</item>
+    </string-array>
+    <string-array name="music_type_files">
+        <item>mp3</item>
+        <item>wmv</item>
+        <item>wma</item>
+        <item>acc</item>
+        <item>amr</item>
+        <item>snd</item>
+        <item>mid</item>
+        <item>midi</item>
+        <item>kar</item>
+        <item>xmf</item>
+        <item>mxmf</item>
+        <item>mpga</item>
+        <item>mpega</item>
+        <item>mp2</item>
+        <item>m4a</item>
+        <item>m3u</item>
+        <item>sid</item>
+        <item>ape</item>
+        <item>aif</item>
+        <item>aiff</item>
+        <item>aifc</item>
+        <item>gsm</item>
+        <item>m3u</item>
+        <item>wax</item>
+        <item>ra</item>
+        <item>ram</item>
+        <item>pls</item>
+        <item>sd2</item>
+        <item>wav</item>
+        <item>flac</item>
+        <item>ape</item>
+        <item>plays</item>
+        <item>alac</item>
+        <item>ogg</item>
+        <item>wav</item>
+        <item>wv</item>
+        <item>tta</item>
+        <item>mpc</item>
+    </string-array>
+    <string-array name="video_type_files">
+        <item>mp4</item>
+        <item>3gp</item>
+        <item>rmvb</item>
+        <item>rm</item>
+        <item>avi</item>
+        <item>flv</item>
+        <item>flash</item>
+        <item>swf</item>
+        <item>3gpp</item>
+        <item>3g2</item>
+        <item>dl</item>
+        <item>dif</item>
+        <item>dv</item>
+        <item>fli</item>
+        <item>m4v</item>
+        <item>mpeg</item>
+        <item>mpg</item>
+        <item>mpe</item>
+        <item>vob</item>
+        <item>qt</item>
+        <item>mov</item>
+        <item>mxu</item>
+        <item>lsf</item>
+        <item>lsx</item>
+        <item>mng</item>
+        <item>asf</item>
+        <item>asx</item>
+        <item>wm</item>
+        <item>movie</item>
+    </string-array>
+    <string-array name="document_type_files">
+        <item>txt</item>
+        <item>doc</item>
+        <item>docx</item>
+        <item>pdf</item>
+        <item>ppt</item>
+        <item>chm</item>
+        <item>umd</item>
+        <item>pdb</item>
+        <item>ebk2</item>
+        <item>epub</item>
+        <item>ebk</item>
+        <item>ndz</item>
+        <item>ndb1</item>
+        <item>ics</item>
+        <item>icz</item>
+        <item>csv</item>
+        <item>css</item>
+        <item>htm</item>
+        <item>html</item>
+        <item>323</item>
+        <item>uls</item>
+        <item>mml</item>
+        <item>asc</item>
+        <item>text</item>
+        <item>diff</item>
+        <item>po</item>
+        <item>rtx</item>
+        <item>rtf</item>
+        <item>ts</item>
+        <item>phps</item>
+        <item>tsv</item>
+        <item>xml</item>
+        <item>bib</item>
+        <item>boo</item>
+        <item>h++</item>
+        <item>hpp</item>
+        <item>hxx</item>
+        <item>hh</item>
+        <item>c++</item>
+        <item>cpp</item>
+        <item>cxx</item>
+        <item>h</item>
+        <item>htc</item>
+        <item>csh</item>
+        <item>c</item>
+        <item>d</item>
+        <item>hs</item>
+        <item>java</item>
+        <item>lhs</item>
+        <item>moc</item>
+        <item>p</item>
+        <item>pas</item>
+        <item>gcd</item>
+        <item>etx</item>
+        <item>tcl</item>
+        <item>tex</item>
+        <item>ltx</item>
+        <item>sty</item>
+        <item>cls</item>
+        <item>vcs</item>
+        <item>vcf</item>
+    </string-array>
+    <string-array name="other_type_files">
+        <item>zip</item>
+        <item>7z</item>
+        <item>rar</item>
+        <item>gz</item>
+        <item>gzip</item>
+        <item>tar</item>
+    </string-array>
+    <string-array name="Root_Path">
+        <item>baidu</item>
+        <item>netease</item>
+        <item>tencent</item>
+        <item>sina</item>
+        <item>.lbe</item>
+        <item>com.lbe.security</item>
+        <item>android</item>
+        <item>dcim</item>
+        <item>.android_secure</item>
+        <item>download</item>
+        <item>miui</item>
+        <item>movie</item>
+        <item>notifications</item>
+        <item>pictures</item>
+        <item>ringtones</item>
+        <item>.bluetooth</item>
+        <item>albumart</item>
+        <item>gameloft</item>
+        <item>lost.dir</item>
+        <item>my documents</item>
+        <item>media</item>
+        <item>downloaded_rom</item>
+        <item>music</item>
+        <item>picture</item>
+        <item>snda</item>
+        <item>video</item>
+        <item>sdfuse</item>
+        <item>mnt</item>
+        <item>audio</item>
+        <item>bluetooth</item>
+        <item>playlists</item>
+        <item>cache</item>
+        <item>books</item>
+        <item>document</item>
+        <item>openfeint</item>
+        <item>glu</item>
+        <item>record</item>
+        <item>.utsystemconfig</item>
+        <item>.thumbnails</item>
+        <item>msc</item>
+        <item>muzhiwan</item>
+        <item>.splanner_spenmemo</item>
+        <item>pictures/ideasketch</item>
+        <item>pictures/screenshots</item>
+        <item>samsung</item>
+        <item>dcim/.thumbnails</item>
+    </string-array>
+    <string-array name="Root_Path_Des">
+        <item>Baidu Application Cache</item>
+        <item>NetEase Application Cache</item>
+        <item>Tencent Application Cache</item>
+        <item>Sina Application Cache</item>
+        <item>LBE Privacy Space</item>
+        <item>LBE security master</item>
+        <item>Application data directory</item>
+        <item>Photographs store directory</item>
+        <item>app2sd move directory</item>
+        <item>Download the catalog</item>
+        <item>MIUI cache directory</item>
+        <item>Movie store directory</item>
+        <item>Notification sound storage directory</item>
+        <item>Image catalog</item>
+        <item>Custom ring tones store directory</item>
+        <item>Bluetooth cache directory</item>
+        <item>Music album cover</item>
+        <item>Playwright game data directory</item>
+        <item>Lost files temporary directory</item>
+        <item>My Documents</item>
+        <item>Media Documentation</item>
+        <item>MIUI Brush Pack directory</item>
+        <item>Music store directory</item>
+        <item>Image storage directory</item>
+        <item>Grand Application Cache</item>
+        <item>Video store directory</item>
+        <item>Lenovo ROM upgrade directory</item>
+        <item>Moving the application directory</item>
+        <item>Audio storage directory</item>
+        <item>Bluetooth cache directory</item>
+        <item>Playlist</item>
+        <item>Cache directory</item>
+        <item>Books store directory</item>
+        <item>Documents directory</item>
+        <item>OpenFeint gaming platform cache</item>
+        <item>Glu game data directory</item>
+        <item>Record store directory</item>
+        <item>Alibaba Application Cache</item>
+        <item>Thumbnail store directory</item>
+        <item>Camera temporary directory</item>
+        <item>Thumb playing application directory</item>
+        <item>S Planner graffiti backup</item>
+        <item>S Note creative sketch</item>
+        <item>Screenshot store</item>
+        <item>Samsung Data</item>
+        <item>Photos and video thumbnails</item>
+    </string-array>
+    <string-array name="sdclean_special_path">
+        <item>/wandoujia/app/</item>
+        <item>/91 WireLess/PandaSpace/apps/</item>
+        <item>/baidu/AppSearch/downloads/</item>
+        <item>/tencent/tassistant/apk/</item>
+        <item>/anzhi/download/</item>
+        <item>/AppGame/GOMarket/GoStore/download/</item>
+        <item>/360Download/</item>
+        <item>/360Browser/download/</item>
+        <item>/QQBrowser/安装包/</item>
+        <item>/baidu/flyflow/downloads/</item>
+        <item>/kbrowser/download/app/</item>
+        <item>/NearMeMarket/application/</item>
+        <item>/sogouappmall/downloads/</item>
+        <item>/ucappstore/apk/</item>
+        <item>/hiapk_market/app/download/</item>
+        <item>/baoruan_download/shangcheng/software/</item>
+        <item>/digua/downs/</item>
+        <item>/hispace/application/</item>
+        <item>/gfan/market/</item>
+        <item>/.LeStore/download/</item>
+        <item>/skymarket/com.skymobi.appstore/download/</item>
+        <item>/MzwDownloads/</item>
+        <item>/mumayi/download/</item>
+        <item>/crossmo_app/apk/</item>
+        <item>/appcenter/app/</item>
+        <item>/Yingyonghui/apk/</item>
+        <item>/download/</item>
+        <item>/downloadapp/</item>
+        <item>/moji/mojidownload/</item>
+        <item>/ttpod/app/</item>
+        <item>/ZTEMarket/download/</item>
+    </string-array>
+    <string-array name="sdclean_skip_path">
+        <item>/dcim</item>
+        <item>/android</item>
+        <item>/tencent</item>
+        <item>/sina/weibo</item>
+        <item>/yixin</item>
+        <item>/iaround</item>
+        <item>/ganji</item>
+        <item>/immomo</item>
+        <item>/zaker</item>
+        <item>/news</item>
+        <item>/qiyivideop2p</item>
+        <item>/tieba</item>
+        <item>/myxj</item>
+        <item>/renren</item>
+        <item>/weimi</item>
+        <item>/qqmusic</item>
+        <item>/viva2</item>
+        <item>/.sohunewscache</item>
+        <item>/baidu</item>
+        <item>/qvod</item>
+        <item>/pptv</item>
+        <item>/baofeng</item>
+        <item>/kgmusic/download</item>
+        <item>/kugou</item>
     </string-array>
 </resources>

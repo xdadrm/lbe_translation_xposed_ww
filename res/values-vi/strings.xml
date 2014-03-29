@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">LBE security master</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Hủy</string>
+    <string name="Traffic_Graph_Trend">Biểu đồ lưu lượng</string>
+    <string name="Traffic_Graph_Detail">Chi tiết lưu lượng hàng ngày</string>
+    <string name="Traffic_Graph_Legend_Limit">Gói lưu lượng</string>
+    <string name="Traffic_Graph_Legend_Limit_Notset">Không được thiết lập</string>
+    <string name="Traffic_Graph_Legend_Month">Tháng này</string>
+    <string name="Traffic_Graph_Legend_Today">Hôm nay</string>
+    <string name="Traffic_Graph_Legend_Projection">Tháng này dự kiến</string>
+    <string name="Battery_TimePeriod_Start">Thời gian bắt đầu</string>
+    <string name="Battery_TimePeriod_End">Thời gian kết thúc</string>
+    <string name="Generic_Loading">Loading ...</string>
+    <string name="Generic_Empty">Không có dữ liệu</string>
+    <string name="Generic_Accept">Cho phép</string>
+    <string name="Generic_Prompt">Hỏi</string>
+    <string name="Generic_Reject">Từ chối</string>
+    <string name="yellow_currennt_network_unavailable">Hiện không có sẵn</string>
     <string name="HIPS_Action_Accept">Cho phép</string>
     <string name="HIPS_Action_Prompt">Hỏi</string>
     <string name="HIPS_Action_Reject">Từ chối</string>
@@ -123,7 +141,6 @@
     <string name="HIPS_Perm_Recorder_Video">Quay video</string>
     <string name="HIPS_Perm_Recorder_Audio">Ghi âm audio</string>
     <string name="HIPS_Perm_Recorder_VoiceCall">Ghi âm VoiceCall</string>
-    <string name="app_name">LBE security master</string>
     <string name="Generic_Low_Memory">Bộ nhớ điện thoại hết! Xóa một số tập tin để giải phóng thêm.</string>
     <string name="download_unknown_title">&lt;Untitled></string>
     <string name="notification_filename_separator">,</string>
@@ -157,8 +174,6 @@ Tất cả các quyền"</string>
     <string name="miui_step_2">2 Nhấp vào nút menu điện thoại, menu pop-up, click vào \"Cài đặt\".</string>
     <string name="miui_step_1">1 Click biểu tượng \"SMS\" để mở giao diện chính của tin nhắn SMS .</string>
     <string name="call_number">Gọi đến số</string>
-    <string name="ok">OK</string>
-    <string name="cancel">Hủy bỏ</string>
     <string name="completed">Hoàn thành</string>
     <string name="continuation">Tiếp tục</string>
     <string name="close">Đóng</string>
@@ -242,8 +257,9 @@ Tất cả các quyền"</string>
     <string name="AV_NotDeep">Nhanh chóng quét để phát hiện</string>
     <string name="AV_Waiting">Đợi quét sau</string>
     <string name="AV_WaitingResume">Công cụ quét đang bận, xin vui lòng chờ trong giây lát</string>
-    <string name="AV_ScanFail">"Công cụ quét virus ngoại lệ
-Các mẫu virus có thể là thư viện của bạn hoặc công cụ chống virus không phù hợp với nguyên nhân, nó được khuyến khích để cập nhật các phiên bản mới nhất của công cụ chống virus và thư viện mẫu virus"</string>
+    <string name="AV_ScanFail">"Công cụ quét Virus ngoại trừ
+Các mẫu virus có thể là thư viện của bạn hoặc công cụ chống virus không phù hợp với nguyên nhân, nó được khuyến khích để cập nhật các phiên bản mới nhất của công cụ chống virus và thư viện mẫu virus.
+Mã lỗi：%1$d"</string>
     <string name="AV_Check_Upgrade">Kiểm tra cập nhật</string>
     <string name="AV_AutoUpdate_Title">Chu kỳ tự động kiểm tra cập nhật</string>
     <string name="AV_AutoUpdate_NoTip">Không bao giờ kiểm tra</string>
@@ -330,8 +346,6 @@ Loại bỏ các chương trình năng lượng có thể ảnh hưởng đến 
     <string name="Battery_Mode_Modify">Chỉnh sửa</string>
     <string name="Battery_Mode_NoRunningMode">Không cho phép bất kỳ cấu hình</string>
     <string name="Battery_Night_DefaultComment">Tôi không để lại một bình luận (点我)</string>
-    <string name="Battery_TimePeriod_Start">Thời gian bắt đầu</string>
-    <string name="Battery_TimePeriod_End">Thời gian kết thúc</string>
     <string name="Battery_Trigger_Battery">Tình trạng pin kích hoạt dựa trên</string>
     <string name="Battery_Trigger_Battery_Des">Tùy chọn sạc, xả, pin và các tình huống</string>
     <string name="Battery_Trigger_Screen">Trạng thái màn hình dựa trên kích hoạt</string>
@@ -344,11 +358,13 @@ Loại bỏ các chương trình năng lượng có thể ảnh hưởng đến 
     <string name="Battery_Trigger_InvalidAction">Cấu hình các hành động trên trang này</string>
     <string name="Battery_Condition_ChargeOn">Bắt đầu sạc (cắm cáp)</string>
     <string name="Battery_Condition_ChargeOff">Ngừng sạc (tháo cáp)</string>
+    <string name="Battery_Condition_TickerCharge">Sạc xong(lưu ý bạn nên tháo cáp Sạc)</string>
     <string name="Battery_Condition_LevelChange">&lt;font color=\"#17A4F5\">&lt;U>%1$s，%2$s&lt;/U>&lt;/font> có hiệu lực</string>
     <string name="Battery_Condition_Level">Sạc pin %1$d%%(%2$s%3$d%%)</string>
     <string name="Battery_Condition_LevelFull">Pin đầy 100%</string>
     <string name="Battery_Condition_LevelLow">Pin thấp %1$d%%</string>
     <string name="Battery_Condition_LevelChanged_Des">Dựa trên những thay đổi của điện thoại</string>
+    <string name="Battery_Condition_TickerCharge_Over">Sạc xong</string>
     <string name="Battery_Condition_ScreenOn">Màn hình bật</string>
     <string name="Battery_Condition_ScreenOff">Màn hình tắt</string>
     <string name="Battery_Condition_TopApp">%1$s bắt đầu</string>
@@ -358,6 +374,7 @@ Loại bỏ các chương trình năng lượng có thể ảnh hưởng đến 
     <string name="Battery_Condition_Smaller">Công suất nhỏ hơn %1$d%%</string>
     <string name="Battery_Condition_Bigger">Công suất lớn hơn%1$d%%</string>
     <string name="Battery_Condition_BatteryFull">Pin đầy</string>
+    <string name="Battery_Condition_TickerChargeFull">Sạc đầy</string>
     <string name="Battery_Condition_BatteryLow">Pin thấp (&lt;%1$d%%)</string>
     <string name="Battery_Condition_BatteryUsing">Sử dụng pin</string>
     <string name="Battery_Condition_Charging">Sạc</string>
@@ -651,6 +668,7 @@ Muốn nhiều hơn nữa, bạn có thể liên hệ với chúng tôi qua QQ h
     <string name="Shortcut_HardwareKey_Home_PreferredLauncher">Khởi động bằng Launcher</string>
     <string name="Shortcut_HardwareKey_Home_Launcher_Select">Lựa chọn khởi động</string>
     <string name="Shortcut_HardwareKey_Search">Bấm nút tìm kiếm để bắt đầu</string>
+    <string name="Shortcut_Swipe_Up_Gesture_Launch">Vuốt vào phím Home để bắt đầu</string>
     <string name="Shortcut_FloatWindow">Sử dụng Thông báo nổi</string>
     <string name="Shortcut_FloatWindow_Desc">Hiển thị bộ nhớ RAM đang sử dụng</string>
     <string name="Shortcut_FloatWindow_LauncherOnly">Chỉ hiển thị ngoài màn hình chính</string>
@@ -675,7 +693,6 @@ Muốn nhiều hơn nữa, bạn có thể liên hệ với chúng tôi qua QQ h
     <string name="app_name_beta">LBE Security Master (beta)</string>
     <string name="app_name_internal_beta">LBE Security Master (beta version)</string>
     <string name="app_task_manager">LBE task manager</string>
-    <string name="Generic_Loading">Loading...</string>
     <string name="Generic_Operating">Đang thực hiện...</string>
     <string name="Generic_InvalidInput">Nhập chưa đúng</string>
     <string name="Generic_Copyright_Version">Nhóm LBE phiên bản: %1$s</string>
@@ -703,9 +720,6 @@ Muốn nhiều hơn nữa, bạn có thể liên hệ với chúng tôi qua QQ h
     <string name="Generic_Forbid">Đã chặn (%d)</string>
     <string name="Generic_Adjust">Điều chỉnh</string>
     <string name="Generic_Auto">Tự động</string>
-    <string name="Generic_Accept">Cho phép</string>
-    <string name="Generic_Prompt">Hỏi</string>
-    <string name="Generic_Reject">Chặn</string>
     <string name="Generic_Remove">Hủy bỏ</string>
     <string name="Generic_Clean">Làm sạch</string>
     <string name="Generic_Start">Bắt đầu</string>
@@ -720,7 +734,6 @@ Muốn nhiều hơn nữa, bạn có thể liên hệ với chúng tôi qua QQ h
     <string name="Generic_Delete">Xóa</string>
     <string name="Generic_More">Hơn</string>
     <string name="Generic_Inform">Khôi phục lại điện thoại</string>
-    <string name="Generic_Empty">Không có dữ liệu</string>
     <string name="Generic_SelectReverse">Đảo ngược lựa chọn</string>
     <string name="Generic_ON">Bật</string>
     <string name="Generic_OFF">Tắt</string>
@@ -1188,12 +1201,7 @@ Bạn sẽ sử dụng ?"</string>
     <string name="phone_Click_to_Close">Nhấn vào đây để đóng</string>
     <string name="no_subject_view">（Không có chủ đề）</string>
     <string name="phone_number_tip_title">Nhanh chóng</string>
-    <string name="phone_number_exist_black">Số này đã có trong blacklist, bạn muốn số này vào whitelist?</string>
-    <string name="phone_number_exist_black_inneed_add">Số này đã có trong blacklist, không cần phải thêm!</string>
-    <string name="phone_number_exist_white">Số này đã có trong whitelist, bạn xác nhận rằng bạn muốn số này vào blacklist?</string>
-    <string name="phone_number_exist_white_inneed_add">Số này đã có trong whitelist, không cần phải thêm!</string>
-    <string name="phone_numbers_exist_black">Những số sau đây: %1$s đã tồn tại trong blacklist, bạn muốn những số này thêm vào whitelist?</string>
-    <string name="phone_numbers_exist_white">Những số sau đây: %1$s đã tồn tại trong whitelist, bạn muốn những số này thêm vào blacklist?</string>
+    <string name="phone_number_already_exists">Số này đã tồn tại trong danh sách đen hoặc danh sách trắng, xóa không</string>
     <string name="phone_number_add_failed">Thêm số bị lỗi</string>
     <string name="phone_numbers_add_failed">Những số sau đây: %1$s không thêm được</string>
     <string name="phone_delete_white_failed">Xóa số whitelist không thành công!</string>
@@ -1407,6 +1415,7 @@ Xin vui lòng tham khảo các bước sau để giải quyết."</string>
     <string name="miui_iuni_hips_label">Quản lý quyền</string>
     <string name="miui_meitu_hips_label">Quản lý quyền</string>
     <string name="miui_lbe_su_hips_label">LBE License Manager</string>
+    <string name="unknown_hips_label">Ứng dụng chưa biết</string>
     <string name="private_phones">Thông tin liên lạc riêng tư</string>
     <string name="private_phones_backup">Địa chỉ liên lạc riêng tư, tin nhắn và nhật ký cuộc gọi</string>
     <string name="private_phones_AddNewAccount">Thêm một tài khoản không gian bảo mật</string>
@@ -1670,6 +1679,10 @@ Chương trình của bạn với các tập tin được bảo vệ an toàn h�
 %1$s(%2$s)"</string>
     <string name="SDClean_Clean_Cleaning_Detail">"Được làm sạch:
 %1$s %2$s(%3$s)"</string>
+    <string name="SDClean_Clean_Garbage">Có thể được dọn rác</string>
+    <string name="SDClean_Clean_WhiteList">Whitelist</string>
+    <string name="SDClean_Clean_Join_WhiteList">Whitelist</string>
+    <string name="SDClean_Clean_Remove_WhiteList">Xóa Whitelist</string>
     <string name="SDClean_Clean_Cleaning_No_Detail">"Được làm sạch:
 %1$s"</string>
     <string name="SDClean_Clean_App_Name">Tên phần mềm:</string>
@@ -1690,13 +1703,14 @@ Chương trình của bạn với các tập tin được bảo vệ an toàn h�
     <string name="SDClean_Clean_Text_Finish">Hoàn thành</string>
     <string name="SDClean_Clean_DeepClean_Summary">Phát hiện một &lt;font color=\"#ffcb2d\">%1$s&lt;/font> file hệ thống, đề xuất để giữ lại hoặc dọn dẹp thận trọng</string>
     <string name="SDClean_Clean_Please_Keep">Thẻ SD của bạn đã sạch rác</string>
-    <string name="SDClean_Clean_Apk_Dialog_Item">&lt;font color=\"#666666\">%1$s&lt;/font> &lt;font color=\"#333333\">%2$s&lt;/font></string>
+    <string name="SDClean_Clean_Apk_Dialog_Item">&lt;font color=\"#333333\">%1$s&lt;/font></string>
     <string name="SDClean_Clean_Apk_Broken">Đã bị hư hỏng</string>
     <string name="SDClean_Clean_Apk_Old_Version">Phiên bản cũ</string>
     <string name="SDClean_Clean_Install_Apk_Tips">Bạn đã cài đặt phần mềm:</string>
     <string name="SDClean_Clean_Install_Apk_Informations">%1$s(%2$s)</string>
     <string name="SDClean_Clean_Install_Apk_Summary">Phát hiện ra rằng các gói cài đặt cũ , xóa %1$s có thể tiết kiệm bộ nhớ, xóa?</string>
     <string name="SDClean_Clean_Text_Clean_Size">Xóa(%1$s)</string>
+    <string name="SDClean_Clean_Text_Clean">Dọn dẹp</string>
     <string name="SDClean_Clean_Uninstall_Advise_Clean">Chúng tôi khuyên bạn nên làm sạch, tiết kiệm không gian</string>
     <string name="SDClean_Clean_Uninstall_Text_Title">Tìm thấy &lt;font color=\"#66ccff\">%1$d&lt;/font> ứng dụng &lt;font color=\"#66ccff\">%2$s&lt;/font> File</string>
     <string name="SDClean_Clean_Uninstall_Text_Other">Khác</string>
@@ -1863,6 +1877,8 @@ Hãy click nút mở khóa để tiến hành"</string>
     <string name="SysOpt_Boost_Boot">Tự chạy khi khởi động</string>
     <string name="SysOpt_Boost_Receiver">Chạy ngầm</string>
     <string name="SysOpt_Boost_Deblocking">Mở khóa</string>
+    <string name="SysOpt_Boost_Block">Vô hiệu hoá tự động khởi động</string>
+    <string name="SysOpt_Boost_Deblock">Phục hồi từ khởi động</string>
     <string name="SysOpt_Boost_None">Xin chúc mừng không có các ứng dụng tự khởi động</string>
     <string name="SysOpt_TaskMgr_WhiteWithWidgets_Remove">Tồn tại của một ứng dụng ngoài màn hình hoặc các thành phần hệ thống liên kết xóa ra khỏi whitelist</string>
     <string name="SysOpt_TaskMgr_WhiteWithWidgets_Clean">Tồn tại của một ứng dụng ngoài màn hình hoặc các thành phần hệ thống liên kết buộc đóng có thể dẫn đến một màn hình màu đen để khởi động lại</string>
@@ -1870,6 +1886,7 @@ Hãy click nút mở khóa để tiến hành"</string>
     <string name="SysOpt_TaskMgr_WhiteWithAlarm_Clean">Ứng dụng này tồn tại Wake Up, buộc đóng cửa có thể làm các cảnh báo bị lỗi</string>
     <string name="SysOpt_TaskMgr_WhiteWithLauncher_Remove">Ứng dụng này là một widget hoặc ứng dụng shortcut, không khỏi danh sách trắng.</string>
     <string name="SysOpt_TaskMgr_WhiteWithLauncher_Clean">Ứng dụng này là một widget hoặc shortcut, buộc đóng có thể dẫn đến màn hình khởi động lại</string>
+    <string name="SysOpt_TaskMgr_WhiteWithLocation_Clean">Ứng dụng này là hệ thống các dịch vụ vị trí mặc định, buộc phải đóng cửa các lớp học có thể dẫn đến các ứng dụng không thể được cập nhật thời tiết</string>
     <string name="SysOpt_TaskMgr_InternalWhiteList_Remove">Loại bỏ khỏi danh sách trắng, sẽ tự động đóng ứng dụng, nó có thể ảnh hưởng đến sử dụng bình thường</string>
     <string name="SysOpt_TaskMgr_White">Quản lý Whitelist</string>
     <string name="SysOpt_TaskMgr_CPU">CPU: %1$s</string>
@@ -1878,11 +1895,20 @@ Hãy click nút mở khóa để tiến hành"</string>
     <string name="SysOpt_TaskMgr_Clearable">Nhiệm vụ có thể được làm sạch</string>
     <string name="SysOpt_TaskMgr_Critical">Hệ thống</string>
     <string name="SysOpt_TaskMgr_AddToWhite">Whitelist</string>
+    <string name="SysOpt_TaskMgr_Tips">%1$s oneclick làm sạch whitelist,%2$s từ đầu</string>
+    <string name="SysOpt_TaskMgr_InWhite">Đã được thêm vào</string>
+    <string name="SysOpt_TaskMgr_OutWhite">Không được thêm</string>
+    <string name="SysOpt_TaskMgr_AutoReject">Đã bị chặn</string>
+    <string name="SysOpt_TaskMgr_AutoAllow">Đã cho phép</string>
     <string name="SysOpt_TaskMgr_ToWhiteList">Thêm vào Whitelist (%1$d)</string>
     <string name="SysOpt_TaskMgr_AddWhite">Whitelist</string>
+    <string name="SysOpt_TaskMgr_LookDetail">Xem chi tiết</string>
     <string name="SysOpt_WhiteList_Tips">Bảo vệ ứng dụng riêng của bạn, không bị tắt khi OneClick làm sạch</string>
     <string name="SysOpt_Hardware">Chi tiết</string>
     <string name="SysOpt_Hardware_Basic">Thông tin cơ bản</string>
+    <string name="SysOpt_Hardware_Cpu_Soket">%1$s Slots</string>
+    <string name="SysOpt_Hardware_Cpu_Core">%1$s Core CPU</string>
+    <string name="SysOpt_Hardware_Cpu_LogicCore">%1$s Logic Core CPU</string>
     <string name="SysOpt_Hardware_CPU_Storage">CPU</string>
     <string name="SysOpt_Hardware_Network">Mạng</string>
     <string name="SysOpt_Hardware_Display">Hiển thị</string>
@@ -1902,13 +1928,6 @@ Hãy click nút mở khóa để tiến hành"</string>
     <string name="SysOpt_Hardware_Feedback_Empty_Tips">Lỗi thông tin điều chỉnh không thể để trống!</string>
     <string name="SysOpt_Hardware_Feedback_Fail_Tips">Thông tin phản hồi lỗi!</string>
     <string name="SysOpt_Hardware_Feedback_Success_Tips">Phản hồi thành công!</string>
-    <string name="Traffic_Graph_Trend">Biểu đồ Lưu lượng</string>
-    <string name="Traffic_Graph_Detail">Chi tiết Lưu lượng hàng ngày</string>
-    <string name="Traffic_Graph_Legend_Limit">Gói Lưu lượng</string>
-    <string name="Traffic_Graph_Legend_Limit_Notset">Không được thiết lập</string>
-    <string name="Traffic_Graph_Legend_Month">Tháng này</string>
-    <string name="Traffic_Graph_Legend_Today">Hôm nay</string>
-    <string name="Traffic_Graph_Legend_Projection">Tháng này dự kiến</string>
     <string name="Update_sr">Cập nhật</string>
     <string name="Update_Main_Title">LBE security master update</string>
     <string name="Update_VirusPattern_Title">virus cập nhật cơ sở dữ liệu</string>
@@ -1993,7 +2012,6 @@ Hãy click nút mở khóa để tiến hành"</string>
     <string name="yellow_shop_request_error">Lỗi truy cập!</string>
     <string name="yellow_shop_for_detail">Giới thiệu chi tiết</string>
     <string name="yellow_no_such_data">Không tìm thấy dữ liệu</string>
-    <string name="yellow_currennt_network_unavailable">Hiện không có sẵn</string>
     <string name="yellow_data_supported">Dữ liệu từ</string>
     <string name="yellow_data_supported_by">Cung cấp</string>
     <string name="yellow_shop_call">Gọi</string>

@@ -914,4 +914,30 @@ There may be false positives"</item>
         <item>Samsung Data</item>
         <item>photos and video thumbnails</item>
     </string-array>
+    
+    <!-- 5.2.6840 --> 
+    
+    <string-array name="endcalltype_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+        <string-array name="msglog_operate">
+        <item>Reply SMS</item>
+        <item>Call this number</item>
+        <item>Add to whitelist</item>
+        <item>Add to blacklist</item>
+        <item>Report</item>
+    </string-array>
+    <string-array name="calllog_operate">
+        <item>Delete</item>
+        <item>Reply SMS</item>
+        <item>Call this number</item>
+        <item>Add to whitelist</item>
+        <item>Add to blacklist</item>
+        <item>Restored to the system call log</item>
+    </string-array>
+        
 </resources>

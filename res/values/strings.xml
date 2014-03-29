@@ -2191,7 +2191,7 @@
     
 <!-- 5.1.6xxx --> 
     <string name="app_already_exist">applications already exist, not added</string>
-    <string name="app_name_internal_beta" >LBE security master (beta version)</string>
+    <string name="app_name_internal_beta">LBE security master (beta version)</string>
     <string name="Battery_Exception_RestoreTitle">triggers the reduction of</string>
     <string name="Battery_Night_Page1Dsc">select plan starting and ending time is</string>
     <string name="Battery_Night_Page2Dsc">select switch plan</string>
@@ -2210,14 +2210,14 @@
     <string name="HIPS_Allow_Autoboot">allows self starting</string>
     <string name="HIPS_Allow_Notification">display notification</string>
     <string name="HIPS_App_Batch_With_Tips">batch operation (only for monitoring software)</string>
-    <string name="HIPS_Has_Cloud_ItemNum" >%1$s%2$s permissions, a master user recommended configuration</string>
-    <string name="HIPS_None_Has_Cloud_ItemNum" >%1$s permissions</string> 
+    <string name="HIPS_Has_Cloud_ItemNum">%1$s%2$s permissions, a master user recommended configuration</string>
+    <string name="HIPS_None_Has_Cloud_ItemNum">%1$s permissions</string> 
     <string name="HIPS_Rejected_Desc">has banned</string>
     <string name="HIPS_Rootfree_Not_Supported">your mobile phone does not support free ROOT method to open the active defense, try opening ROOT</string> 
     <string name="HIPS_Software_Permission">software permissions</string> 
-    <string name="HIPS_Suggest_Accept" >%1$.2f%% users choose to allow</string>
+    <string name="HIPS_Suggest_Accept">%1$.2f%% users choose to allow</string>
     <string name="HIPS_Suggest_Accept_Radio0">master recommended to allow</string>
-    <string name="HIPS_Suggest_Reject" >%1$.2f%% users choose to ban</string>
+    <string name="HIPS_Suggest_Reject">%1$.2f%% users choose to ban</string>
     <string name="HIPS_Suggest_Reject_Radio0">master recommended refused to</string>
     <string name="HIPS_Tips_Desc_1">uninstall pre-installed system software </string> 
     <string name="HIPS_Tips_Desc_2">banned software automatically start, control software permissions</string> 
@@ -2229,13 +2229,13 @@
     <string name="HIPS_Trust_Permission">trust the software permission requests</string>
     <string name="HIPS_Trust_Yes">has trust in</string>
     <string name="Home_About_LBE">about</string>
-    <string name="Home_Enable_FloatWindow_Step1" >1, in the application of information interface click on the "LBE security master display suspended window" switch.</string>
-    <string name="Home_Enable_FloatWindow_Step2" >2, click "in the pop-up dialog box to determine" to open the floating window display ^_^</string>
+    <string name="Home_Enable_FloatWindow_Step1">1, in the application of information interface click on the "LBE security master display suspended window" switch.</string>
+    <string name="Home_Enable_FloatWindow_Step2">2, click "in the pop-up dialog box to determine" to open the floating window display ^_^</string>
     <string name="Home_Enable_FloatWindow_Title">LBE security master suspended window function, efficient protect your mobile phone, please perform the following:</string>
     <string name="Home_Hotline">hotline</string>
     <string name="Home_Installed_In_SD_Prompt">LBE security master installation will seriously affect its function in SD, strongly recommend that you will be moving or re install LBE security master to mobile phone memory.</string>
     <string name="Home_Lbe_Remind_internal_beta">warm reminder: This version is beta version, please be careful. The emphasis on improved garbage, authorization management, a key clean-up and other major function, also please online before the mobile phone data backup, so as not to cause the mobile phone store content is deleted. There is also the problem please promptly to the forum online plate feedback.</string>
-    <string name="Home_LBE_Remind_Tips" >LBE security master reminder</string>
+    <string name="Home_LBE_Remind_Tips">LBE security master reminder</string>
     <string name="Home_Other">other</string>
     <string name="Home_Permission_Manage">Permissions</string> 
     <string name="Home_Phone_Yellow_page">number pages</string>
@@ -2260,13 +2260,13 @@
     <string name="Plugin_ATP_Insert_Sim">please insert SIM card</string>
     <string name="Plugin_ATP_Install">LBE to download and install security service</string>
     <string name="Plugin_ATP_Install_Explanation">click on will automatically download and install LBE security service</string>
-    <string name="Plugin_ATP_Install_Fail" >LBE security services installation failed, please try again later.</string>
-    <string name="Plugin_ATP_Install_RootFail" >LBE security service ROOT installation failed, probably because your machine does not support the ROOT installation mode, please close the ROOT installation option and try again</string>
+    <string name="Plugin_ATP_Install_Fail">LBE security services installation failed, please try again later.</string>
+    <string name="Plugin_ATP_Install_RootFail">LBE security service ROOT installation failed, probably because your machine does not support the ROOT installation mode, please close the ROOT installation option and try again</string>
     <string name="Plugin_ATP_Installing">is installing</string>
-    <string name="Plugin_ATP_Introduction" >LBE security service is LBE security master launched independent security module, provide the most excellent anti-theft protection for your mobile phone. Provide the following functions LBE security service for you: mobile phone positioning, data destruction, data backup, anti-theft alarm, virtual warning</string>
-    <string name="Plugin_ATP_Introduction_Root" >ROOT install mode can be LBE security service for the installation of system components, can not be easily uninstall. Even if your mobile phone is to restore the factory settings, LBE security services can still normal operation, protect your mobile phone security</string>
+    <string name="Plugin_ATP_Introduction">LBE security service is LBE security master launched independent security module, provide the most excellent anti-theft protection for your mobile phone. Provide the following functions LBE security service for you: mobile phone positioning, data destruction, data backup, anti-theft alarm, virtual warning</string>
+    <string name="Plugin_ATP_Introduction_Root">ROOT install mode can be LBE security service for the installation of system components, can not be easily uninstall. Even if your mobile phone is to restore the factory settings, LBE security services can still normal operation, protect your mobile phone security</string>
     <string name="Plugin_ATP_Is_Security_Phone">security mobile phone</string>
-    <string name="Plugin_ATP_Name" >LBE security service</string>
+    <string name="Plugin_ATP_Name">LBE security service</string>
     <string name="Plugin_ATP_Number_Empty">stolen mobile phone number can not be empty</string>
     <string name="Plugin_ATP_on_checked_hint">you have checked the security mobile phone options, this time without the need to enter your security password. Please carefully confirmed the mobile phone number for safety mobile phone no..</string>
     <string name="Plugin_ATP_Password">lost mobile phone anti-theft password</string>
@@ -2275,7 +2275,7 @@
     <string name="Plugin_ATP_Psw_No_Neccessary">security mobile phone without the password</string>
     <string name="Plugin_ATP_Retrieve">find friends mobile phone</string>
     <string name="Plugin_ATP_Retrieve_Explanation">use lock screen, the positioning function to retrieve the lost mobile phone</string>
-    <string name="Plugin_ATP_RootInstall" >ROOT install</string>
+    <string name="Plugin_ATP_RootInstall">ROOT install</string>
     <string name="Plugin_ATP_Running">security service protection</string>
     <string name="Plugin_ATP_Select_Number">select number</string>
     <string name="Plugin_ATP_SMS_Cost">command will be in the form of text messages sent to the mobile phone number is missing you set. By the local operators collect routine message cost.</string>
@@ -2288,7 +2288,7 @@
     <string name="Plugin_ATP_Start_Explanation">configure this machine anti-theft protection set</string>
     <string name="Plugin_ATP_still_destroy">still destroy</string>
     <string name="Plugin_ATP_Stopped">security service is not open</string>
-    <string name="Plugin_ATP_Title" >LBE security service</string>
+    <string name="Plugin_ATP_Title">LBE security service</string>
     <string name="Plugin_ATP_warm_hint">reminder</string>
     <string name="Plugin_ATP_Welcome">Welcome to the LBE security service</string>
     <string name="private_content_is_null">the content is empty</string>
@@ -2298,8 +2298,8 @@
     <string name="Scan_Auto_Item">Automatic</string>
     <string name="Scan_Check_Clear_Now">the immediate removal of</string>
     <string name="Scan_Check_Manage">Manage</string>
-    <string name="Scan_Check_MIUI_Float_Window_Guide" >MIUI desktop suspension windows setup wizard</string>
-    <string name="Scan_Check_MIUI_Phone_Guide" >MIUI harassment intercept the</string>
+    <string name="Scan_Check_MIUI_Float_Window_Guide">MIUI desktop suspension windows setup wizard</string>
+    <string name="Scan_Check_MIUI_Phone_Guide">MIUI harassment intercept the</string>
     <string name="Scan_Check_Traffic_Dataplan">Settings Internet traffic packages</string>
     <string name="Scan_Check_Trust_LBE_Permission">LBE security master trust permissions in</string>
     <string name="Scan_Check_Virus_Exist">the presence of a virus file</string>
@@ -2351,7 +2351,7 @@
     <string name="SDClean_Clean_Deep_Result">has been found in &lt;font color=\"#ffcb2d\">%1$s&lt;/font> proposed to retain the file</string>
     <string name="SDClean_Clean_Derelict_Apk">useless APK</string>
     <string name="SDClean_Clean_Derelict_Result">has been found in &lt;font color=\"#ffcb2d\">%1$d&lt;/font> useless the installation package</string>
-    <string name="SDClean_Clean_Detail_Title_Text" >%1$s &lt;font color=\"#339900\">(%2$s) &lt;/font></string>
+    <string name="SDClean_Clean_Detail_Title_Text">%1$s &lt;font color=\"#339900\">(%2$s) &lt;/font></string>
     <string name="SDClean_Clean_Document">document</string>
     <string name="SDClean_Clean_Empty_Folder">empty directory</string>
     <string name="SDClean_Clean_Empty_Rest">residual &lt;font color=\"#66ccff\">%1$d&lt;/font> empty directory</string>
@@ -2401,9 +2401,9 @@
     <string name="SDClean_Clean_Tips">can be expected to make you take%1$d high-resolution photos</string>
     <string name="SDClean_Clean_Total_Clean_Message">cleared, the total clearance of%1$s garbage, please always clean up</string>
     <string name="SDClean_Clean_Uninstall_Clean_Title">find unloading residual</string>
-    <string name="SDClean_Clean_Uninstall_Left" >LBE security master detected the following software has been uninstalled, but on the SD card remain temporary files, clear?</string>
+    <string name="SDClean_Clean_Uninstall_Left">LBE security master detected the following software has been uninstalled, but on the SD card remain temporary files, clear?</string>
     <string name="SDClean_Clean_Video">video</string>
-    <string name="SDClean_Clena_No_SysCache_Found" >no system cache found to clean up</string>
+    <string name="SDClean_Clena_No_SysCache_Found">no system cache found to clean up</string>
     <string name="SDClean_Delete_Result_Conent">delete the%1$d directory,%2$d files, a total of%3$s</string>
     <string name="SDClean_Delete_Result_Conent_Only_File">delete%1$d files, a total of%2$s</string>
     <string name="SDClean_Delete_Result_Title">delete</string>
@@ -2412,19 +2412,19 @@
     <string name="SDClean_Dialog_Cancel">cancel</string>
     <string name="SDClean_Dialog_Confirm">OK</string>
     <string name="SDClean_Empty_Button_Back">Back</string>
-    <string name="SDClean_Empty_File" >did not find any file</string>
+    <string name="SDClean_Empty_File">did not find any file</string>
     <string name="SDClean_Empty_SpecialFile">no files larger than 10M</string>
     <string name="SDClean_External_Storage">attached storage</string>
     <string name="SDClean_File_Clean">delete file</string>
     <string name="SDClean_FileManager_Delete">delete the%1$d directory and the%2$d file (%3$s)?</string>
     <string name="SDClean_FileManager_Delete_File">delete the%1$d files?</string>
     <string name="SDClean_FileManager_Delete_Folder">delete the%1$d directory?</string>
-    <string name="SDClean_FileManager_Only_File" >%1$d file (%2$s)</string>
-    <string name="SDClean_FileManager_Only_Folder" >%1$d directory</string>
+    <string name="SDClean_FileManager_Only_File">%1$d file (%2$s)</string>
+    <string name="SDClean_FileManager_Only_Folder">%1$d directory</string>
     <string name="SDClean_FileManager_Root">root directory</string>
-    <string name="SDClean_FileManager_Tips" >%1$d directory, the%2$d file (%3$s)</string>
+    <string name="SDClean_FileManager_Tips">%1$d directory, the%2$d file (%3$s)</string>
     <string name="SDClean_Internal_Storage">standard storage</string>
-    <string name="SDClean_Item_Count" >%1$d</string>
+    <string name="SDClean_Item_Count">%1$d</string>
     <string name="SDClean_Manual_Clean">browse the directory</string>
     <string name="SDClean_No_Cloud">first time performing a cleanup, need to first connect and update cloud database.</string> 
     <string name="SDClean_None_Sdcard">no SD card available</string>
@@ -2449,7 +2449,7 @@
     <string name="Shortcut_Continue">continue with</string>
     <string name="Shortcut_LockScreen">lock screen</string>
     <string name="Shortcut_No_Hips">active defense is not open, can not use the function of</string>
-    <string name="Shortcut_Reboot_Hint" >LBE security master will restart your mobile phone</string>
+    <string name="Shortcut_Reboot_Hint">LBE security master will restart your mobile phone</string>
     <string name="Shortcut_Still_Add">still add</string>
     <string name="Silence">silent</string>
     <string name="SoftMgr_SysUninstall_Cannot_Delete_Disabled">cannot completely remove the disabled system using</string>
@@ -2610,5 +2610,34 @@
     <string name="Traffic_Unit">(M)</string>
     <string name="Update_Component_Epayguard">ePayment Guard</string>
     <string name="Update_Epayguard">ePayment Guard</string>
+    
+    <!-- 5.2.6840 --> 
+    <string name="Battery_Condition_TickerCharge">Trickle charging is completed (recommended at this time to stop charging)</string>
+    <string name="Battery_Condition_TickerChargeFull">Ticker Charge Full</string>
+    <string name="Battery_Condition_TickerCharge_Over">Trickle charging is completed</string>
+    <string name="Home_Open_Source">Open source licenses</string>
+    <string name="Patch_Check_Immune_Desc">您的手机系统暂时不支持用免Root方式开启主动防御，请尝试用Root方式开启主动防御，并开启实时病毒扫描，以保护您的手机安全</string>
+    <string name="phone_number_already_exists">This number already exists in the blacklist or whitelist, please delete </string>
+    <string name="SDClean_Clean_Garbage">Garbage removal </string>
+    <string name="SDClean_Clean_Join_WhiteList">Whitelist</string>
+    <string name="SDClean_Clean_Remove_WhiteList">Remove whitelist</string>
+    <string name="SDClean_Clean_Text_Clean">Clear up</string>
+    <string name="SDClean_Clean_WhiteList">Whitelist</string>
+    <string name="SDClean_SDManager_Scaning">Scanning .......</string>
+    <string name="Shortcut_Create_Shortcut">Create one-click Cleanup shortcuts</string>
+    <string name="Shortcut_Swipe_Up_Gesture_Launch">Start draw gesture on the home keys</string>
+    <string name="SysOpt_Boost_Block">Disable autostart</string>
+    <string name="SysOpt_Boost_Deblock">Recovery from boot</string>
+    <string name="SysOpt_Hardware_Cpu_Core">%1$s Core CPU</string>
+    <string name="SysOpt_Hardware_Cpu_LogicCore">%1$s Logic Core CPU</string>
+    <string name="SysOpt_Hardware_Cpu_Soket">%1$s Slots</string>
+    <string name="SysOpt_TaskMgr_AutoAllow">Has allowed</string>
+    <string name="SysOpt_TaskMgr_AutoReject">Has been banned</string>
+    <string name="SysOpt_TaskMgr_InWhite">Has been added</string>
+    <string name="SysOpt_TaskMgr_LookDetail">View details</string>
+    <string name="SysOpt_TaskMgr_OutWhite">Not added</string>
+    <string name="SysOpt_TaskMgr_Tips">%1$s oneclick to clean whitelist,%2$s from the start</string>
+    <string name="SysOpt_TaskMgr_WhiteWithLocation_Clean">This application is the system default location services, forced the closure of the class may result in the application can not be updated weather</string>
+    <string name="unknown_hips_label">Unknown application</string>
     
 </resources>

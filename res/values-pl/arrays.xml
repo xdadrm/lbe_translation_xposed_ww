@@ -27,7 +27,7 @@
         <item>Poza zasięgiem</item>
         <item>Zajęty</item>
     </string-array>
-    <string-array name="stopcalltype_values">
+    <string-array name="endcalltype_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -100,14 +100,15 @@
         <item>30</item>
         <item>31</item>
     </string-array>
-    <string-array name="msglog_oparete">
+    <string-array name="msglog_operate">
+        <item>Usuń</item>
         <item>Odpowiedz SMSem</item>
         <item>Zadzwoń na ten numer</item>
         <item>Dodaj do Białej listy</item>
         <item>Dodaj do Czarnej listy</item>
         <item>Raport</item>
     </string-array>
-    <string-array name="calllog_oparete">
+    <string-array name="calllog_operate">
         <item>Usuń</item>
         <item>Odpowiedz SMSem</item>
         <item>Zadzwoń na ten numer</item>
@@ -498,6 +499,9 @@ okienka reklamowe, ipt."</item>
         <item>Kamera przednia</item>
         <item>Przekątna ekranu</item>
         <item>Materiał</item>
+        <item>Typ CPU</item>
+        <item>Renderer GPU</item>
+        <item>Dostawca GPU</item>
     </string-array>
     <string-array name="app_install_manage_mode_title">
         <item>Umożliwiaj automatyczne instalacje</item>

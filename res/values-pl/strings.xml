@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">LBE Security</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Anuluj</string>
+    <string name="Traffic_Graph_Trend">Wykres</string>
+    <string name="Traffic_Graph_Detail">Szczegóły ruchu</string>
+    <string name="Traffic_Graph_Legend_Limit">Pakiet danych</string>
+    <string name="Traffic_Graph_Legend_Limit_Notset">Nie ustawiono</string>
+    <string name="Traffic_Graph_Legend_Month">Ruch miesięczny</string>
+    <string name="Traffic_Graph_Legend_Today">Dziś</string>
+    <string name="Traffic_Graph_Legend_Projection">Przewidywane miesięczne zużycie</string>
+    <string name="Battery_TimePeriod_Start">Start</string>
+    <string name="Battery_TimePeriod_End">Koniec</string>
+    <string name="Generic_Loading">Ładowanie...</string>
+    <string name="Generic_Empty">Brak danych</string>
+    <string name="Generic_Accept">Tak</string>
+    <string name="Generic_Prompt">Pytaj</string>
+    <string name="Generic_Reject">Nie</string>
+    <string name="yellow_currennt_network_unavailable">Chwilowo niedostępny</string>
     <string name="HIPS_Action_Accept">Zezwól</string>
     <string name="HIPS_Action_Prompt">Pytaj</string>
     <string name="HIPS_Action_Reject">Odrzuć</string>
@@ -123,7 +141,6 @@
     <string name="HIPS_Perm_Recorder_Video">"  nagranie wideo"</string>
     <string name="HIPS_Perm_Recorder_Audio">"  dyktafon"</string>
     <string name="HIPS_Perm_Recorder_VoiceCall">"  nagranie rozmów"</string>
-    <string name="app_name">LBE Security</string>
     <string name="Generic_Low_Memory">Pamięć jest wyczerpana! Usuń niektóre pliki, aby zwolnić miejsce.</string>
     <string name="download_unknown_title">&lt;Bez tytułu></string>
     <string name="notification_filename_separator">,</string>
@@ -157,8 +174,6 @@ Kliknij %s poniżej, by po połączniu z Wi-Fi zacząć pobieranie."</string>
     <string name="miui_step_2">2. Kliknij przycisk menu, w wyskakującym polu, wybierz \"Ustawienia\".</string>
     <string name="miui_step_1">1. Kliknij ikonę \"SMS\" aby otworzyć główny interfejs SMS.</string>
     <string name="call_number">Połącz</string>
-    <string name="ok">OK</string>
-    <string name="cancel">Anuluj</string>
     <string name="completed">Zakończono</string>
     <string name="continuation">Kontynuuj</string>
     <string name="close">Zamknij</string>
@@ -243,7 +258,8 @@ Kliknij %s poniżej, by po połączniu z Wi-Fi zacząć pobieranie."</string>
     <string name="AV_Waiting">Oczekiwanie...</string>
     <string name="AV_WaitingResume">Czekaj, silnik skanowania jest zajęty</string>
     <string name="AV_ScanFail">"Błąd skanowania
-Zaleca się, zaktualizować najnowszą wersję silnika antywirusowego i bibliotekę wirusów."</string>
+Zaleca się, zaktualizować najnowszą wersję silnika antywirusowego i bibliotekę wirusów.
+Kod błędu: %1$d"</string>
     <string name="AV_Check_Upgrade">Sprawdź aktualizacje</string>
     <string name="AV_AutoUpdate_Title">Sprawdzanie aktualizacji</string>
     <string name="AV_AutoUpdate_NoTip">Nigdy</string>
@@ -329,8 +345,6 @@ Może mieć to wpływ na spersonalizowaną konfigurację, zachowaj ostrożność
     <string name="Battery_Mode_Modify">Opis</string>
     <string name="Battery_Mode_NoRunningMode">Niedostępny żaden tryb</string>
     <string name="Battery_Night_DefaultComment">Brak komentarza</string>
-    <string name="Battery_TimePeriod_Start">Start</string>
-    <string name="Battery_TimePeriod_End">Koniec</string>
     <string name="Battery_Trigger_Battery">Oparty na statusie baterii</string>
     <string name="Battery_Trigger_Battery_Des">Ładowanie, rozładowywanie baterii i inne stany</string>
     <string name="Battery_Trigger_Screen">Oparty na bazie użycia ekranu</string>
@@ -343,11 +357,13 @@ Może mieć to wpływ na spersonalizowaną konfigurację, zachowaj ostrożność
     <string name="Battery_Trigger_InvalidAction">Skonfiguruj elementy działania na tej stronie</string>
     <string name="Battery_Condition_ChargeOn">Początek ładowania (podłączenie)</string>
     <string name="Battery_Condition_ChargeOff">Zatrzymanie ładowania (odłączenie)</string>
+    <string name="Battery_Condition_TickerCharge">Ładowanie podtrzymujące kompletne (zalecane jest zakończenie dalszego ładowania)</string>
     <string name="Battery_Condition_LevelChange">&lt;font color=\"#17A4F5\">&lt;U>%1$s，%2$s&lt;/U>&lt;/font> - zostanie zastosowane</string>
     <string name="Battery_Condition_Level">Bateria %1$d%%(%2$s%3$d%%)</string>
     <string name="Battery_Condition_LevelFull">Full 100%</string>
     <string name="Battery_Condition_LevelLow">Poziom niski %1$d%%</string>
     <string name="Battery_Condition_LevelChanged_Des">Na podstawie konsumpcji energii</string>
+    <string name="Battery_Condition_TickerCharge_Over">Zakończenie podładowywania</string>
     <string name="Battery_Condition_ScreenOn">Ekran włączony</string>
     <string name="Battery_Condition_ScreenOff">Ekran wyłączony</string>
     <string name="Battery_Condition_TopApp">%1$s start</string>
@@ -357,6 +373,7 @@ Może mieć to wpływ na spersonalizowaną konfigurację, zachowaj ostrożność
     <string name="Battery_Condition_Smaller">" jest mniejsze od %1$d%%"</string>
     <string name="Battery_Condition_Bigger">" jest większa od %1$d%%"</string>
     <string name="Battery_Condition_BatteryFull">Bateria pełna</string>
+    <string name="Battery_Condition_TickerChargeFull">Koniec podładowywania</string>
     <string name="Battery_Condition_BatteryLow">Niski poziom (&lt;%1$d%%)</string>
     <string name="Battery_Condition_BatteryUsing">Zużycie baterii</string>
     <string name="Battery_Condition_Charging">Poziom ładowania</string>
@@ -650,6 +667,8 @@ Możesz skontaktować się z nami przez QQ lub Twitter"</string>
     <string name="Shortcut_HardwareKey_Home_PreferredLauncher">Preferowany Launcher</string>
     <string name="Shortcut_HardwareKey_Home_Launcher_Select">Wybór Launchera</string>
     <string name="Shortcut_HardwareKey_Search">Przez długie naciśnięcie \"Szukaj\"</string>
+    <string name="Shortcut_Create_Shortcut">Utwórz skrót \"Oczyść\"</string>
+    <string name="Shortcut_Swipe_Up_Gesture_Launch">Zaplanowane gesty</string>
     <string name="Shortcut_FloatWindow">Przez ruchome okno</string>
     <string name="Shortcut_FloatWindow_Desc">Ruchome okno</string>
     <string name="Shortcut_FloatWindow_LauncherOnly">Pokazuj Ruchome onko tylko na pulpicie</string>
@@ -674,7 +693,6 @@ Możesz skontaktować się z nami przez QQ lub Twitter"</string>
     <string name="app_name_beta">LBE SM (Beta)</string>
     <string name="app_name_internal_beta">LBE SM (Beta)</string>
     <string name="app_task_manager">Menadżer Zadań LBE</string>
-    <string name="Generic_Loading">Ładowanie...</string>
     <string name="Generic_Operating">Uruchamianie...</string>
     <string name="Generic_InvalidInput">Wprowadzany parametr jest błędny</string>
     <string name="Generic_Copyright_Version">Produkt Grupy LBE, wersja: %1$s</string>
@@ -702,9 +720,6 @@ Możesz skontaktować się z nami przez QQ lub Twitter"</string>
     <string name="Generic_Forbid">Zabroniono (%d)</string>
     <string name="Generic_Adjust">"Reguluj "</string>
     <string name="Generic_Auto">Automatycznie</string>
-    <string name="Generic_Accept">Tak</string>
-    <string name="Generic_Prompt">Pytaj</string>
-    <string name="Generic_Reject">Nie</string>
     <string name="Generic_Remove">Usuń</string>
     <string name="Generic_Clean">Oczyść</string>
     <string name="Generic_Start">Start</string>
@@ -719,7 +734,6 @@ Możesz skontaktować się z nami przez QQ lub Twitter"</string>
     <string name="Generic_Delete">Usuń</string>
     <string name="Generic_More">Więcej</string>
     <string name="Generic_Inform">Przywrócone</string>
-    <string name="Generic_Empty">Brak danych</string>
     <string name="Generic_SelectReverse">Odwróć zaznaczenie</string>
     <string name="Generic_ON">WŁ.</string>
     <string name="Generic_OFF">WYŁ.</string>
@@ -954,7 +968,7 @@ Możesz skontaktować się z nami przez QQ lub Twitter"</string>
     <string name="Patch_Check_Incompatible">Niestety, w grupie LBE czasowo brak jest poprawek systemowych.</string>
     <string name="Patch_Check_Fixed">Poprawki bezpieczeństwa zostały zastosowane</string>
     <string name="Patch_Check_Fixed_Dest">Zainstalowano poprawki bezpieczeństwa, uruchom aktywną obronę, by chronić telefon</string>
-    <string name="Patch_Check_Immune">Gratulacje, brak luk w zabezpieczeniach</string>
+    <string name="Patch_Check_Immune_Desc">Niestety Twój system nie obsługuje FreeRoot. Musisz mieć zrotowany telefon, by korzystać z Aktywnej obrony.</string>
     <string name="Patch_Download_Success">Poprawka jest gotowa, należy ją zainstalować</string>
     <string name="Patch_Download_Failure">Błąd pobierania, spróbuj później</string>
     <string name="Patch_Download_Cancelled">Anulowano</string>
@@ -1188,12 +1202,7 @@ CHCESZ KORZYSTAĆ?."</string>
     <string name="phone_Click_to_Close">Wyłącz</string>
     <string name="no_subject_view">（Brak tematu）</string>
     <string name="phone_number_tip_title">Podpowiedź</string>
-    <string name="phone_number_exist_black">Nr znajduje się już na czarnej liście, dodać go do Białej listy?</string>
-    <string name="phone_number_exist_black_inneed_add">Nr już znajduje się na czarnej liście!</string>
-    <string name="phone_number_exist_white">Nr znajduje się już na białej liście, dodać go do Czarnej listy?</string>
-    <string name="phone_number_exist_white_inneed_add">Nr już znajduje się na białej liście!</string>
-    <string name="phone_numbers_exist_black">Nr: %1$s są na czarnej liście. Dodać je do Białej listy?</string>
-    <string name="phone_numbers_exist_white">Nr: %1$s są na białej liście. Dodać je do Czarnej listy?</string>
+    <string name="phone_number_already_exists">Numer już jest na Czarnej lub Białej liście</string>
     <string name="phone_number_add_failed">Błąd dodania nr</string>
     <string name="phone_numbers_add_failed">Błąd dodania nr: %1$s</string>
     <string name="phone_delete_white_failed">Błąd usunięcia z Białej listy!</string>
@@ -1408,6 +1417,7 @@ Odnieś się do kolejnych kroków w celu rozwiązania problemu."</string>
     <string name="miui_iuni_hips_label">Zarządzanie Prawami</string>
     <string name="miui_meitu_hips_label">Zarządzanie Prawami</string>
     <string name="miui_lbe_su_hips_label">Zarządzanie licencją LBE</string>
+    <string name="unknown_hips_label">Nieznane apk</string>
     <string name="private_phones">Prywatność</string>
     <string name="private_phones_backup">Prywatne kontakty, SMS, połączenia</string>
     <string name="private_phones_AddNewAccount">Dodawanie własnego prywatnego konta</string>
@@ -1642,7 +1652,7 @@ zwolniono: %2$s"</string>
     <string name="SDClean_Clean_Derelict_Result">Znaleziono: &lt;font color=\"#ffcb2d\">%1$d&lt;/font> (&lt;font color=\"#ffcb2d\">%2$s&lt;/font>)zbędnych instalacji apk.</string>
     <string name="SDClean_Clean_Detail_Title_Text">%1$s &lt;font color=\"#339900\">(%2$s)&lt;/font></string>
     <string name="SDClean_Clean_Cloudy_Prepare_Scan">Pre-skan w Chmurze</string>
-    <string name="SDClean_Clean_Init">Inicjowania skanowania, czekaj</string>
+    <string name="SDClean_Clean_Init">Inicjowanie skanowania, czekaj</string>
     <string name="SDClean_Clean_Scanning">Skanowanie: %1$s%2$s (%3$s)</string>
     <string name="SDClean_Clean_Scanning_Simple">Skanowanie: %1$s</string>
     <string name="SDClean_Clean_SDCard_Manager">Zarządzaj SD</string>
@@ -1675,6 +1685,10 @@ zwolniono: %2$s"</string>
 %1$s(%2$s)"</string>
     <string name="SDClean_Clean_Cleaning_Detail">"Czyszczenie:
 %1$s %2$s(%3$s)"</string>
+    <string name="SDClean_Clean_Garbage">Można oczyścić śmieci</string>
+    <string name="SDClean_Clean_WhiteList">Biała lista</string>
+    <string name="SDClean_Clean_Join_WhiteList">Dodaj do Białej listy</string>
+    <string name="SDClean_Clean_Remove_WhiteList">Usuń z Białej listy</string>
     <string name="SDClean_Clean_Cleaning_No_Detail">"Czyszczenie:
 %1$s"</string>
     <string name="SDClean_Clean_App_Name">Nazwa:</string>
@@ -1695,13 +1709,14 @@ zwolniono: %2$s"</string>
     <string name="SDClean_Clean_Text_Finish">Ukończono</string>
     <string name="SDClean_Clean_DeepClean_Summary">Inne. &lt;font color=\"#ffcb2d\">%1$s&lt;/font>Zachowaj ostrożność przy czyszczeniu!</string>
     <string name="SDClean_Clean_Please_Keep">Karta SD bardzo czysta. Tak trzymaj!</string>
-    <string name="SDClean_Clean_Apk_Dialog_Item">&lt;font color=\"#666666\">%1$s&lt;/font> &lt;font color=\"#333333\">%2$s&lt;/font></string>
+    <string name="SDClean_Clean_Apk_Dialog_Item">&lt;font color=\"#333333\">%1$s&lt;/font></string>
     <string name="SDClean_Clean_Apk_Broken">Uszkodzone</string>
     <string name="SDClean_Clean_Apk_Old_Version">Starsza wersja</string>
     <string name="SDClean_Clean_Install_Apk_Tips">Zainstalowano:</string>
     <string name="SDClean_Clean_Install_Apk_Informations">%1$s (%2$s)</string>
     <string name="SDClean_Clean_Install_Apk_Summary">Pakiet instalacyjny jest w telefonie. Usunąć instalator, by oszczędzić: %1$s?</string>
     <string name="SDClean_Clean_Text_Clean_Size">Usuń (%1$s)</string>
+    <string name="SDClean_Clean_Text_Clean">Oczyść</string>
     <string name="SDClean_Clean_Uninstall_Advise_Clean">Zalecane sprzątanie w celu oszczędności miejsca.</string>
     <string name="SDClean_Clean_Uninstall_Text_Title">Wykryto: &lt;font color=\"#66ccff\">%1$d&lt;/font>pozostałości apk. &lt;font color=\"#66ccff\">%2$s&lt;/font> plików</string>
     <string name="SDClean_Clean_Uninstall_Text_Other">Pozostałe</string>
@@ -1856,7 +1871,7 @@ Używaj z ostrożnością!"</string>
     <string name="SysOpt_Cache_Tip3">Sprawdzano niedawno</string>
     <string name="SysOpt_TaskMgr">Menadżer zadań</string>
     <string name="SysOpt_TaskMgr_Des">Zarządzanie procesami w tle, monitorowanie RAM i CPU</string>
-    <string name="SysOpt_TaskMgr_RunningApp">Uruchomione</string>
+    <string name="SysOpt_TaskMgr_RunningApp">Działa</string>
     <string name="SysOpt_TaskMgr_Action">Oczyść (%1$d)</string>
     <string name="SysOpt_TaskMgr_Action_Normal">Przyśpiesz</string>
     <string name="SysOpt_TaskMgr_Action_Select">Wybierz zadania do zakończenia</string>
@@ -1871,6 +1886,8 @@ Aby kontynuować, proszę kliknij przycisk odblokowujący."</string>
     <string name="SysOpt_Boost_Boot">autostart przy bootowaniu</string>
     <string name="SysOpt_Boost_Receiver">autostart w tle</string>
     <string name="SysOpt_Boost_Deblocking">Odblokuj</string>
+    <string name="SysOpt_Boost_Block">Blokuj autostart</string>
+    <string name="SysOpt_Boost_Deblock">Odblokuj autostart</string>
     <string name="SysOpt_Boost_None">Gratulacje! Brak autostartujących aplikacji</string>
     <string name="SysOpt_TaskMgr_WhiteWithWidgets_Remove">Komponenty systemowe, widget na pulpicie. Nie należy usuwać z Białej listy</string>
     <string name="SysOpt_TaskMgr_WhiteWithWidgets_Clean">Komponenty systemowe, widget na pulpicie. Zamknięcie może doprowadzić do czarnego ekranu lub przeładowania (zamrożenia) pulpitu.</string>
@@ -1878,6 +1895,7 @@ Aby kontynuować, proszę kliknij przycisk odblokowujący."</string>
     <string name="SysOpt_TaskMgr_WhiteWithAlarm_Clean">Zamknięcie Budzika może spowodować awarię skonfigurowanego alarmu.</string>
     <string name="SysOpt_TaskMgr_WhiteWithLauncher_Remove">To aplikacja pulpitu, nie mozna usunąć z Białej listy.</string>
     <string name="SysOpt_TaskMgr_WhiteWithLauncher_Clean">To aplikacja pulpitu, zamknięcie jej może spowodować konieczność ponownego uruchomienia telefonu</string>
+    <string name="SysOpt_TaskMgr_WhiteWithLocation_Clean">To systemowa aplikacja lokalizacji, zamknięcie jej może powodować, że nie będzie można aktualizować pogody</string>
     <string name="SysOpt_TaskMgr_InternalWhiteList_Remove">Usunięto z Białej listy. Apk podlega czyszczeniu, może to mieć wpływ na korzystanie z niej.</string>
     <string name="SysOpt_TaskMgr_White">Biała lista</string>
     <string name="SysOpt_TaskMgr_CPU">CPU: %1$s</string>
@@ -1886,11 +1904,20 @@ Aby kontynuować, proszę kliknij przycisk odblokowujący."</string>
     <string name="SysOpt_TaskMgr_Clearable">Do czyszczenia</string>
     <string name="SysOpt_TaskMgr_Critical">Krytyczne zadania</string>
     <string name="SysOpt_TaskMgr_AddToWhite">Edytuj białą listę</string>
+    <string name="SysOpt_TaskMgr_Tips">%1$s Oczyść Białą listę, %2$s od startu</string>
+    <string name="SysOpt_TaskMgr_InWhite">Dodano</string>
+    <string name="SysOpt_TaskMgr_OutWhite">Nie dodano</string>
+    <string name="SysOpt_TaskMgr_AutoReject">Zablokowano</string>
+    <string name="SysOpt_TaskMgr_AutoAllow">Zezwolono</string>
     <string name="SysOpt_TaskMgr_ToWhiteList">Dodaj (%1$d)</string>
     <string name="SysOpt_TaskMgr_AddWhite">Biała lista</string>
+    <string name="SysOpt_TaskMgr_LookDetail">Szczegóły</string>
     <string name="SysOpt_WhiteList_Tips">Ochrona aplik przed czyszczeniem</string>
     <string name="SysOpt_Hardware">Dane sprzętu</string>
     <string name="SysOpt_Hardware_Basic">Podstawowe dane</string>
+    <string name="SysOpt_Hardware_Cpu_Soket">Slot %1$s</string>
+    <string name="SysOpt_Hardware_Cpu_Core">%1$s Physical CPU</string>
+    <string name="SysOpt_Hardware_Cpu_LogicCore">%1$s Logic CPU</string>
     <string name="SysOpt_Hardware_CPU_Storage">CPU</string>
     <string name="SysOpt_Hardware_Network">Sieć</string>
     <string name="SysOpt_Hardware_Display">Ekran</string>
@@ -1910,13 +1937,6 @@ Aby kontynuować, proszę kliknij przycisk odblokowujący."</string>
     <string name="SysOpt_Hardware_Feedback_Empty_Tips">Informacja nie może być pusta!</string>
     <string name="SysOpt_Hardware_Feedback_Fail_Tips">Błąd opinii!</string>
     <string name="SysOpt_Hardware_Feedback_Success_Tips">Przesłano z powodzeniem.</string>
-    <string name="Traffic_Graph_Trend">Wykres</string>
-    <string name="Traffic_Graph_Detail">Szczegóły ruchu</string>
-    <string name="Traffic_Graph_Legend_Limit">Pakiet danych</string>
-    <string name="Traffic_Graph_Legend_Limit_Notset">Nie ustawiono</string>
-    <string name="Traffic_Graph_Legend_Month">Ruch miesięczny</string>
-    <string name="Traffic_Graph_Legend_Today">Dziś</string>
-    <string name="Traffic_Graph_Legend_Projection">Przewidywane miesięczne zużycie</string>
     <string name="Update_sr">Aktualizuj</string>
     <string name="Update_Main_Title">Aktualizacja LBE SM</string>
     <string name="Update_VirusPattern_Title">"Aktualizacja bazy wirusów. "</string>
@@ -2000,7 +2020,6 @@ Aby kontynuować, proszę kliknij przycisk odblokowujący."</string>
     <string name="yellow_shop_request_error">Błąd dostępu!</string>
     <string name="yellow_shop_for_detail">Szczegóły</string>
     <string name="yellow_no_such_data">Brak danych</string>
-    <string name="yellow_currennt_network_unavailable">Chwilowo niedostępny</string>
     <string name="yellow_data_supported">Dane od:</string>
     <string name="yellow_data_supported_by" />
     <string name="yellow_shop_call">Dzwoń</string>
