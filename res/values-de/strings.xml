@@ -271,7 +271,7 @@
     <string name="Battery_NightMode_Des">Einstellungen z.B. für die Nacht anpassen</string>
     <string name="Battery_CustomModes">Aktionen abhängig vom Ladestand</string>
     <string name="Battery_CustomModes_Des">Je nach Ladestand des Akkus verschiedene Aktionen ausführen</string>
-    <string name="Battery_Backup">Einstellungen weitere Engergiesparapps</string>
+    <string name="Battery_Backup">Einstellungen zum Engergiesparen</string>
     <string name="Battery_BatteryLog">Übersicht der Energiesparmaßnahmen</string>
     <string name="Battery_Consumption">Energieverbrauch</string>
     <string name="Battery_Consumption_Des">Verbrauch einzelner Komponenten und Apps</string>
@@ -575,7 +575,7 @@
     <string name="Battery_CheckBrightDes">Versucht die geringste Helligkeit festzustellen.</string>
     <string name="Battery_Service_Autostart">Energiespardienst aktiv</string>
     <string name="Battery_Capacity_Unit">mAh</string>
-    <string name="Desktop_Backup">Custom desktop shortcut</string>
+    <string name="Desktop_Backup">Homescreen Verknüpfungen</string>
     <string name="Desktop_Traffic">Datenvolumen heute</string>
     <string name="Desktop_Traffic_None">Keine Volumendaten</string>
     <string name="Desktop_Shortcut">Verknüpfung</string>
@@ -672,7 +672,7 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Generic_Beta">Alpha-Version, nicht verteilen</string>
     <string name="Generic_Beta_NotFound_Device">Sorry, Ihr Gerät nicht im Rahmen der Closed Beta, nutzen Sie bitte die offizielle Version</string>
     <string name="Generic_Configuration">einrichten</string>
-    <string name="Generic_Configuration_Backup">LBE Security Master setting items</string>
+    <string name="Generic_Configuration_Backup">LBE Security Master Einstellungen</string>
     <string name="Generic_Canceling">abbrechen…</string>
     <string name="Generic_Service_Enabled">Dienst ist eingeschaltet</string>
     <string name="Generic_Service_Disabled">Dienst ist ausgeschaltet</string>
@@ -805,7 +805,7 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Home_Restore">rückgängig</string>
     <string name="Home_Restore_OK">Restart security master</string>
     <string name="Home_RestoreConfirm">Durch das wiederherstellen dieses Backups werden alle Ihre Einstellungen verloren gehen, weiter?</string>
-    <string name="Home_RestoreOK">Wiederherstellung erfolgreich</string>
+    <string name="Home_RestoreOK">Wiederherstellung bestätigen</string>
     <string name="Home_RestoreFail">Wiederherstellen fehlgeschlagen, versuchen Sie es erneut</string>
     <string name="Home_RestoreProgress">Wiederherstellen %1$d von insgesamt %2$d Teilen</string>
     <string name="Home_Delete">Löschen</string>
@@ -834,7 +834,7 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Home_Personal_Privacy">Verschlüsselung</string>
     <string name="Home_Anti_Burglary">Anti Diebstahl</string>
     <string name="Home_Communication_Tools">Kommunikations Tools</string>
-    <string name="Home_Backup_Restore">Backup und Wiederherstellung</string>
+    <string name="Home_Backup_Restore"> LBE Einstellungen sichern</string>
     <string name="Home_First_Check_Tips">Es besteht die Gefahr des Telefons kommen Prüfung unter der Stange!</string>
     <string name="Home_Defense_Not_Running">Klicken Sie auf das linke Symbol, um die aktiven Verteidigungsfähigkeit öffnen</string>
     <string name="score">%</string>
@@ -885,7 +885,7 @@ um ihren Sicherheitsstatus zu erfahren"</string>
     <string name="Keyguard_Crack_Setting_Default">Fünf Mal die Eingabe Fehler, deaktivieren Eingabe innerhalb 50 Sekunden</string>
     <string name="Keyguard_Question_Defualt">Mein bester Freund</string>
     <string name="Traffic">Datennutzung</string>
-    <string name="Traffic_Setting">Einstellungen zur Überwachung der Datennutzung</string>
+    <string name="Traffic_Setting">Einstellungen zur Datennutzung</string>
     <string name="Traffic_Statistics">Datennutzung</string>
     <string name="Traffic_Permission">Berechtigungen</string>
     <string name="Traffic_Ranks">Rangliste Apps</string>
@@ -1508,7 +1508,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="HIPS_USB_Install_Detail_Rejected">%1$d App(s) an Installation gehindert</string>
     <string name="HIPS_Manual_Start_Hips_Hint">Please manually open the active defense</string>
     <string name="private_phones">Private Kommunikation</string>
-    <string name="private_phones_backup">Privacy contacts, text messages and call records</string>
+    <string name="private_phones_backup">Private Kontakte und Nachrichten</string>
     <string name="private_phones_AddNewAccount">Privacy Space Konto erstellen</string>
     <string name="private_phones_AddFakeAccount">Fake-Account hinzufügen</string>
     <string name="private_phones_FakeAccount_Invalid">Falsche Konto-Passwort kann nicht mit dem Master-Kennwort wiederholt werden</string>
@@ -1894,7 +1894,7 @@ Zuletzt geändert:
     <string name="SoftMgr_Confirm_Remove">Entfernen von schwarzer Liste bestätigen: %1$s?</string>
     <string name="SoftMgr_Already_Optimized">optimal</string>
     <string name="SysOpt">Gerät optimieren</string>
-    <string name="SysOpt_Backup">Since the launch of the housekeeper and the White List Task</string>
+    <string name="SysOpt_Backup">weiße Liste Taskmanager</string>
     <string name="SysOpt_Task_Running_Tip">&lt;font color=\"#FF7E00\">%1$d &lt;/font>aktive Tasks</string>
     <string name="SysOpt_AutoBoot_Tip">&lt;font color=\"#FF7E00\">%1$d &lt;/font>App(s) starten im Hintergrund/Boot</string>
     <string name="SysOpt_AutoBoot_Tip2">&lt;font color=\"#FF7E00\">%1$d &lt;/font>App(s) vom Autostart blockiert</string>
@@ -2171,14 +2171,14 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Battery_Shortcut_NotSupport_GPS2">automatische GPS Verwaltung nicht unterstüzt</string>
     <string name="Generic_Copyright_Version">LBE Version: %1$s</string>
     <string name="Generic_Uninstalled">deinstalliert</string>
-    <string name="HIPS_Backup">Konfiguration der Software-Berechtigungen</string>
+    <string name="HIPS_Backup">App Rechte</string>
     <string name="HIPS_Conflict_MIUI_Step1_V5_SC">Klicken Sie auf authorisieren</string>
     <string name="HIPS_Conflict_MIUI_Step2_V5_SC">Rechteüberwachung ausschalten</string>
     <string name="HIPS_MasterKeyNotsupported">System wurde repariertm kein Patch mehr nötig</string>
     <string name="HIPS_MasterKeyUpgrade">Rechteverwaltungs Dienst benötigt ein Update</string>
     <string name="Home_About_urls">&lt;p> offizielle Webseite: &lt;a href=http://www.lbesec.com> www.lbesec.com &lt;/a> &lt;/p> &lt;p> Blog: &lt;a href=http://weibo.com/lbesec> &lt;/a> &lt;/p></string>
     <string name="Keyguard_Alternative">schnell entsperren</string>
-    <string name="Keyguard_Backup">Einstellungen Master Kennwort</string>
+    <string name="Keyguard_Backup">Passwort Einstellungen</string>
     <string name="Keyguard_Fast_Unlock_Tips">zum schnellen Entsperren ist Privacy Space nötig</string>
     <string name="Keyguard_Name_Facerec">Gesichtserkennung</string>
     <string name="Keyguard_Message_Update">Privacy Space muss aktualisiert werden</string>
@@ -2194,7 +2194,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Patch_Enable_Hips_Tips">Rechteverwaltung aktivieren?</string>
     <string name="Patch_Need_More_Request">Aktualisierung nötig</string>
     <string name="phone_add_to_contact"> Kontakte hinzufügen </string>
-    <string name="Phone_Backup">Einstellungen zum blockieren von Telefonaten und Nachrichten</string>
+    <string name="Phone_Backup">Einstellungen zum Nummernfilter</string>
     <string name="Phone_Black_restore_sms_tip">abgefangene Nachrichten wiederherstellen</string>
     <string name="phone_block_tips"> Bei der Auswahl von Herunterfahren, wenn leer, Stop, wenn das System den MMI-Code-Fehler fordert Anrufweiterleitung Feature manuell aktivieren, Sie können direkt den Operator Service-Aufrufe direkt öffnen wählen (kostenlos)</string>
     <string name="phone_Click_to_Open">aus</string>
@@ -2563,7 +2563,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Home_Epayguard">Schutz für Bezahldienste</string>
     <string name="Home_EULA">Endbenutzer-Lizenzvertrag</string>
     <string name="Home_Install_Permit_Agreement">"Nutzungsbedingungen"</string>
-    <string name="Home_Readed_And_Agreed">ich stimme zu</string>
+    <string name="Home_Readed_And_Agreed">ich stimme zu: </string>
     <string name="Home_You_Must_Agree_Before_Use">Sie müssen vor der Nutzung den Bedingungen zustimmen.</string>
     <string name="miui_iuni_hips_label">Rechte Management</string>
     <string name="miui_lbe_su_hips_label">LBE administration bureau</string>
@@ -2636,7 +2636,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Scan_Traffic_Dataplan_Setting">Datenvolumenlimit wird ermittelt</string>
     <string name="Scan_Traffic_Dataplan_UnSet">Datenvolumenlimit wurde nicht festgelegt</string>
     <string name="Scan_Traffic_Monitor_Disable">Messung der Datennutzung inaktiv</string>
-    <string name="Scan_Traffic_Monitor_Enable">Messung der Datentnutzung aktiv</string>
+    <string name="Scan_Traffic_Monitor_Enable">Messung der Datennutzung aktiv</string>
     <string name="Scan_Traffic_Monitor_Starting">starte Überwachung der Datennutzung</string>
     <string name="Scan_Updating_Cloud_Permission_Data">Cloud Daten werden erneuert</string>
     <string name="Scan_Watch_Guide">examination course</string>
