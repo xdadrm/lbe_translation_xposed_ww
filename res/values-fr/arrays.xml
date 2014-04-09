@@ -142,7 +142,7 @@
         <item>RiskWare|Catégorie: App à risque</item>
         <item>Outil|Catégorie: Outils à risque</item>
         <item>"prv|Confidentialité
-Vol d'info privée de l'utilisateur"</item>
+Vol d\'info privée de l\'utilisateur"</item>
         <item>"rmt|Télécommande
 \u0009\u0009Dispositif de contrôle par des serveurs distants"</item>
         <item>"pay|Malveillants payants
@@ -411,71 +411,71 @@ pub, pop-up, etc"</item>
         <item>occurred custom warning messages to your friends mobile phone</item>
     </string-array>
     <string-array name="atp_function_label">
-        <item>lock the phone</item>
-        <item>mobile positioning</item>
-        <item>backup contacts</item>
-        <item>destroy data</item>
-        <item>obtain a password</item>
-        <item>rang alarm tone</item>
-        <item>virtual Warning</item>
+        <item>Verrouiller le téléphone</item>
+        <item>Positionnement mobile</item>
+        <item>Sauvegarder les contacts</item>
+        <item>Détruire les données</item>
+        <item>Obtenir un mot de passe</item>
+        <item>Sonnerie d\'alarme</item>
+        <item>Avertissement virtuel</item>
     </string-array>
     <string-array name="yellow_correction_no_num">
-        <item>Modify Mechant Data</item>
-        <item>Add or Modify the Number</item>
-        <item>Other Problems</item>
+        <item>Modifier les données</item>
+        <item>Ajouter ou modifier le numéro</item>
+        <item>Autres problèmes</item>
     </string-array>
     <string-array name="yellow_correction_has_num">
-        <item>Merchant Name incorrect</item>
-        <item>Correct Businessdata</item>
-        <item>Private Number</item>
+        <item>Nom du commerçant incorrect</item>
+        <item>Corriger les données</item>
+        <item>Numéro privé</item>
     </string-array>
     <string-array name="Root_Path_Des">
-        <item>Baidu application cache</item>
-        <item>Netease application cache</item>
-        <item>Tencent Application Cache</item>
-        <item>Sina application cache</item>
+        <item>Cache d\'application Baidu</item>
+        <item>Cache d\'application Netease</item>
+        <item>Cache d\'application Tencent</item>
+        <item>Cache d\'application Sina</item>
         <item>LBE Privacy space</item>
-        <item>LBE security master</item>
-        <item>application data directory</item>
-        <item>camera photography store directory</item>
-        <item>app2sd move directory</item>
-        <item>download directory</item>
-        <item>MIUI cache directory</item>
-        <item>movie store directory</item>
-        <item>notification sound storage directory</item>
-        <item>picture directory</item>
-        <item>custom ringtone store directory</item>
-        <item>Bluetooth cache directory</item>
-        <item>music album cover</item>
-        <item>Gameloft game data directory</item>
-        <item>lost files temporary directory</item>
-        <item>My Documents</item>
-        <item>media files</item>
-        <item>MIUI Brush Pack directory</item>
-        <item>music store directory</item>
-        <item>image storage directory</item>
-        <item>grand application cache</item>
-        <item>video store directory</item>
-        <item>Lenovo ROM upgrade directory</item>
-        <item>Moving application directory</item>
-        <item>audio storage directory</item>
-        <item>Bluetooth cache directory</item>
+        <item>LBE Security master</item>
+        <item>Rep. de données d\'application</item>
+        <item>Rep. des photos</item>
+        <item>Rep. app2sd</item>
+        <item>Rep. de téléchargement</item>
+        <item>Rep. de cache MIUI</item>
+        <item>Rep. des vidéos</item>
+        <item>Rep. des sons de notification</item>
+        <item>Rep. des images</item>
+        <item>Rep. de musique</item>
+        <item>Rep. de cache Bluetooth</item>
+        <item>Rep. des pochettes d\'album</item>
+        <item>Rep. des jeux Gameloft</item>
+        <item>Rep. des fichiers perdus</item>
+        <item>Mes documents</item>
+        <item>Fichiers Media</item>
+        <item>Rep. d\'installation des ROM MIUI</item>
+        <item>Rep. des musiques</item>
+        <item>Rep. des images</item>
+        <item>Rep. des caches application</item>
+        <item>Rep. des videos</item>
+        <item>Rep. d\'installation des ROM Lenovo</item>
+        <item>Rep. de déplacement des applications</item>
+        <item>Rep. audio</item>
+        <item>Rep. de cache Bluetooth</item>
         <item>Playlist</item>
-        <item>cache directory</item>
-        <item>books store directory</item>
-        <item>Documents directory</item>
-        <item>OpenFeint gaming platform cache</item>
-        <item>Glu game data directory</item>
-        <item>recording storage directory</item>
-        <item>Alibaba application cache</item>
-        <item>thumbnail storage directory</item>
-        <item>camera temporary directory</item>
-        <item>thumb playing application directory</item>
-        <item>S Planner graffiti backup</item>
-        <item>S Note creative sketch</item>
-        <item>screenshot store</item>
-        <item>Samsung Data</item>
-        <item>photos and video thumbnails</item>
+        <item>Rep. de cache</item>
+        <item>Rep. de livres</item>
+        <item>Rep. de documents</item>
+        <item>Cache de plafrome de jeux OpenFeint</item>
+        <item>Rep. de données de jeux Glu</item>
+        <item>Rep. d\'enregistrement audio</item>
+        <item>Rep. de cache d\'applications Alibaba</item>
+        <item>Rep. de vignettes</item>
+        <item>Rep. temporaire de photos</item>
+        <item>Rep. de lecture</item>
+        <item>Sauvegarde de S Planner graffiti</item>
+        <item>Sauvegarde de S Note creative sketch</item>
+        <item>Rep. de copie d\'écran</item>
+        <item>Données Samsung</item>
+        <item>Vignettes photos and vidéos</item>
     </string-array>
 <!-- old strings prior 5.2.6620 : -->
     <string-array name="select_sim">
