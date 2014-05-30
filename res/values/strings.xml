@@ -2696,7 +2696,7 @@
     <string name= "AD_Contain_Ads">application containing advertising</string>
     <string name= "Ad_Report_More">report more</string>
     <string name= "AD_Scan_Adware_Total">scanned%1$d software</string>
-    <string name= "AD_Scan_Contain_Adware">&lt; font color=\"#e03311\">%1$d&lt; /font> software including advertising</string>
+    <string name= "AD_Scan_Contain_Adware">&lt;font color=\"#e03311\">%1$d&lt;/font> software including advertising</string>
     <string name= "AD_Scanning">is scanning:%1$s</string>
     <string name= "AV_Scan_Background">background scanning</string>
     <string name= "AV_Scan_Cancel">cancel scanning</string>
