@@ -106,10 +106,10 @@
     <string name="HIPS_Perm_RecordVideo">Video Recording</string>
     <string name="HIPS_Perm_Picture">Photographs</string>
     <string name="app_name">LBE Security Master</string>
-    <string name="Generic_Low_Memory">Phone memory is exhausted ! Delete some files to free up space.</string>
+    <string name="Generic_Low_Memory">Phone memory is exhausted! Delete some files to free up space.</string>
     <string name="download_unknown_title">Untitled</string>
     <string name="notification_filename_separator">, </string>
-    <string name="notification_filename_extras">and%d more</string>
+    <string name="notification_filename_extras">and %d more</string>
     <string name="notification_download_complete">Download complete</string>
     <string name="notification_download_failed">Download unsuccessful</string>
     <string name="notification_need_wifi_for_size">Download size requires Wi-Fi</string>
@@ -121,7 +121,7 @@
     <string name="button_cancel_download">Cancel</string>
     <string name="button_start_now">Start now</string>
     <string name="more_options">More features</string>
-    <string name="copyright">Copyright © 2012-2014 LBE Security Master &#160;All Rights Reserved</string>
+    <string name="copyright">Copyright © 2012-2014 LBE Security Master &#160; All Rights Reserved</string>
     <string name="share_desc">I am using LBE Security Master to protect my phone; Block calls,  Block messages, Block advertising, privacy protection, program access control, Firewall and more. Try it ! Download Link : http://www.lbesec.com or on http://forum.xda-developers.com/</string>
     <string name="visit_website">Visit website</string>
     <string name="attention_sina_weibo">Follow Us</string>
@@ -132,13 +132,13 @@
     <string name="recommend_lbe_master">Recommended LBE Security Master</string>
     <string name="already_block">Has blocked</string>
     <string name="Download_NoSd_Hint">No SD card, insert the SD card to complete the download</string>
-    <string name="miui_step_5">5 . Congratulations ! Complete the setup, you can normally use text messaging blocked.</string>
+    <string name="miui_step_5">5 Congratulations! Complete the setup, you can normally use text messaging blocked.</string>
     <string name="miui_step_4">4 Click Close \"System Message Priority\", which allows third-party application intercepts the SMS notification.</string>
     <string name="miui_step_3">3 Slide the list in the end portion, click on \"Advanced Settings\"</string>
     <string name="miui_step_2">2 Click the phone menu button, the pop-up menu, click on \"Settings\"</string>
-    <string name="miui_step_1">1 Click \"SMS \"icon to open the SMS main interface.</string>
+    <string name="miui_step_1">1 Click \"SMS\" icon to open the SMS main interface.</string>
     <string name="call_number">Call</string>
-    <string name="ok">Determine</string>
+    <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
     <string name="completed">Complete</string>
     <string name="continuation">Continue</string>
@@ -148,7 +148,7 @@
     <string name="miui_sms_block_desc">MIUI system default priority on SMS intercept, if you want to use LBE Security Master blocking spam messages, you need to configure the following</string>
     <string name="block_error_desc">Intercept error description</string>
     <string name="call_phone_error">No cards or network anomalies, can not make calls</string>
-    <string name="block_error_tips_message">When blocking mode select \"Off \", \"empty number \", \"stop\" mode, if you encounter MMI code error, please call forwarding feature, you can directly dial telephone operator services directly open ( free ).</string>
+    <string name="block_error_tips_message">When blocking mode select \"Off \", \"Empty Number\", \"Stop\" mode, if you encounter MMI code error, please call forwarding feature, you can directly dial telephone operator services directly open ( free ).</string>
     <string name="soft_manager_mem">Memory</string>
     <string name="soft_manager_sdcard">SD</string>
     <string name="phone_accelerator_cpu">CPU</string>
@@ -161,10 +161,11 @@
     <string name="call">Dial</string>
     <string name="settings">Set up</string>
     <string name="ad_scan_num">%1$d/%2$d</string>
-    <string name="notification_contain_adware">Containing advertising</string>
+    <string name="notification_contain_adware">Contains advertising</string>
     <string name="notification_need_config_perm">You need to configure permissions</string>
+
     <string name="AD_Adware_Number_Contain">%1$d containing adware</string>
-    <string name="AD_AdwareApp_Number">Containing adware :%1$d a</string>
+    <string name="AD_AdwareApp_Number">Contains adware :%1$d a</string>
     <string name="AD_Behavior_Title">Contains adware may have the following behavior:</string>
     <string name="AD_Behavior_Get_Phone_Status">Gets the phone status information</string>
     <string name="AD_Behavior_Get_Location">Gets your location</string>
@@ -192,15 +193,15 @@
     <string name="AD_Notification_Ticker">Found adware</string>
     <string name="AD_Notification_Content">Found adware, Click here for details</string>
     <string name="AD_Detail_Activity_Title">Ad Details</string>
-    <string name="AD_Uninstall_App">Uninstalling the software</string>
-    <string name="AD_Block_App">Block ads</string>
-    <string name="AD_Ublock_App">Unmask</string>
-    <string name="AD_Expo_Activity_Title">Ad block</string>
+    <string name="AD_Uninstall_App">Uninstall Application</string>
+    <string name="AD_Block_App">Block Ads</string>
+    <string name="AD_Ublock_App">Unblock Ads</string>
+    <string name="AD_Expo_Activity_Title">Ad Block</string>
     <string name="AD_Scan_Activity_Title">Ad Scan</string>
     <string name="AD_No_Adware_App">Found no adware</string>
     <string name="AD_Risk_App">Apps to be reviewed (%1$d)</string>
-    <string name="AD_No_Risk_App">Without risky Adware (%1$d)</string>
-    <string name="AD_No_Exist_App">No Adware</string>
+    <string name="AD_No_Risk_App">Blocked adware (%1$d)</string>
+    <string name="AD_No_Exist_App">No adware</string>
     <string name="AD_Already_Blokced">Advertising blocked</string>
     <string name="AD_OneClick_Disable">Oneclick Disable</string>
     <string name="AD_Cancel_Scan">Cancel a scan</string>
@@ -217,11 +218,11 @@
     <string name="AD_Adware_Onekey_Block">Oneclick risk AD Block</string>
     <string name="AD_Last_Scan_Time">Last Scan Time</string>
     <string name="AD_Scan">Ad Scan</string>
-    <string name="AD_Report">Report ad</string>
-    <string name="AD_Report_Hint">If you find no adware detection, please report</string>
+    <string name="AD_Report">Report advertising</string>
+    <string name="AD_Report_Hint">Please report applications containing adverts</string>
     <string name="AD_Report_Success_Hint">You have successfully reported advertising applications, Thank you.</string>
     <string name="AD_Scan_Day_Ago">%1$d days ago</string>
-    <string name="AD_Scan_Long_Ago">Long time since last checked</string>
+    <string name="AD_Scan_Long_Ago">It's been a long time since the last check</string>
     <string name="AD_Scan_Today">You just checked today</string>
     <string name="AD_Scan_Again">AD Scan</string>
     <string name="AD_Install_App">Installed Software</string>
@@ -236,8 +237,8 @@
     <string name="AV_RelTimeScan">Real-time virus scanning</string>
     <string name="AV_NoScan">No virus scan recording</string>
     <string name="AV_NoResult">Regular testing, wholesome</string>
-    <string name="AV_NotDeep">just a quick scan ..</string>
-    <string name="AV_Waiting">Queue waiting</string>
+    <string name="AV_NotDeep">Just a quick scan...</string>
+    <string name="AV_Waiting">Waiting</string>
     <string name="AV_WaitingResume">The scan engine is busy, please wait a moment</string>
     <string name="AV_ScanFail">Virus scan engine exception; The cause may be your Sample Virus Library and/or AntiVirus engine does not match, it is recommended to check and update Virus definitions to the latest version. </string>
     <string name="AV_Check_Upgrade">Check for updates</string>
@@ -246,25 +247,25 @@
     <string name="AV_AutoUpdate_period">%1$s check again</string>
     <string name="AV_Update_Local">Virus database is being upgraded through a local</string>
     <string name="AV_Update_CurrentVer">Virus database version: %1$s ( %2$s )</string>
-    <string name="AV_ScanInstalled">Scan installed applications:</string>
-    <string name="AV_ScanAppsInSD">Scanning is not applied to install:</string>
+    <string name="AV_ScanInstalled">Scan installed applications: </string>
+    <string name="AV_ScanAppsInSD">Scanning SD card application: </string>
     <string name="AV_CancelScan">Cancel a scan</string>
     <string name="AV_Settings_Title">Antivirus set</string>
     <string name="AV_Init">Starting antivirus engine</string>
-    <string name="AV_Cancel_Message">Antivirus has not been completed, terminate the scan ?</string>
-    <string name="AV_Clean">OneCLick clean-up (%1$d threat )</string>
+    <string name="AV_Cancel_Message">Antivirus has not been completed, terminate the scan?</string>
+    <string name="AV_Clean">OneCLick clean-up (%1$d threat)</string>
     <string name="AV_Cleaning">Being cleaned</string>
     <string name="AV_ScanResult_Pending">Wait Clear</string>
     <string name="AV_ScanResult_Skip">Skip</string>
     <string name="AV_ScanResult_Succeed">Clear Success</string>
-    <string name="AV_NoVirus">Your phone is safe. Remember to check later</string>
+    <string name="AV_NoVirus">Your phone is safe. Remember to check often</string>
     <string name="AV_NoVirus1">Your phone is safe</string>
-    <string name="AV_NoVirus2">OK, Remember to check again later</string>
-    <string name="AV_ScanProgress">Is the background scan: %1$s</string>
+    <string name="AV_NoVirus2">Remember to check again often</string>
+    <string name="AV_ScanProgress">Background scan: %1$s</string>
     <string name="AV_ScanNewApp">Scanning :%1$s</string>
-    <string name="AV_ScanNewApp_Virus">In %1$s threat is detected, immediately clear</string>
-    <string name="AV_Prompt">In %1$s threat is detected %2$s, immediately clear</string>
-    <string name="AV_PromptMid">Risks in %1$s risk detected %2$s, clear them ?</string>
+    <string name="AV_ScanNewApp_Virus">Threat detected In %1$s, clear immediately</string>
+    <string name="AV_Prompt">Threat detected in %1$s, %2$s, clear immediately</string>
+    <string name="AV_PromptMid">Risks in %1$s risk detected %2$s, clear them?</string>
     <string name="AV_StoragePath">Located</string>
     <string name="AV_VirusDetail1">Specific</string>
     <string name="AV_VirusDetail2">Harm</string>
@@ -275,12 +276,13 @@
     <string name="AV_ClearLog">Empty log</string>
     <string name="AV_NoneLog">No Log</string>
     <string name="AV_ScanResultReport_Report">Scan files :%1$d, virus :%2$d, warning :%3$d, clear :%4$d</string>
-    <string name="AV_LastScanResult">%1$s%2$s</string>
+    <string name="AV_LastScanResult">%1$s %2$s</string>
     <string name="AV_LastScanResult_Safe">Scanning %1$d apps, no threat found</string>
     <string name="AV_LastScanResult_Warn">Scanning %1$d apps, found %2$d threats</string>
     <string name="AV_LocalUpdate">SD card virus database upgrade</string>
     <string name="AV_LocalUpdate_Des">Local upgrade version is: %1$s</string>
     <string name="AV_Copyright">Powered by Antiy AVL SDK antivirus engine</string>
+
     <string name="Battery">Battery Optimize</string>
     <string name="Battery_Settings">Power Save Settings</string>
     <string name="Battery_Backup">Energy-saving programs, regular programs and personalized configuration</string>
@@ -1505,7 +1507,7 @@
     <string name="HIPS_Not_Enable_Warn">To use the full functionality, you need to open the active defense</string>
     <string name="HIPS_Guide_HIPSEnable">Click the button to open the active defense services</string>
     <string name="HIPS_ADB_MGR">Software installed automatically blacklist</string>
-    <string name="HIPS_ADB_DESC">Helps you to prevent and monitor &lt;font color=#17A4F5> silently installed software >&lt;/font></string>
+    <string name="HIPS_ADB_DESC">Helps you to prevent silently installed software</string>
     <string name="HIPS_ADB_Install_Title">Install the software via USB</string>
     <string name="HIPS_ADB_Install_Content">&lt;font color=#17A4F5>%1$s&lt;/font> is trying to automatically install &lt;font color=#17A4F5>%2$s&lt;/font> to your phone. If this is deliberate behavior, it is recommended to allow this, or you can choose to reject.</string>
     <string name="HIPS_Detected_PC_Install_APK_To_Phone">Detected APK Installation</string>
@@ -1732,13 +1734,13 @@
     <string name="SoftMgr_Cache_Used">Other data %1$s</string>
     <string name="SoftMgr_Retain">%1$s &lt;font color=#FF7E00>%2$s>&lt;/font></string>
     <string name="SoftMgr_AppPerm_Tip">&lt;font color=#17A4F5>active defense &lt;/font>to control the software Permission</string>
-    <string name="SoftMgr_AppUninstall_Tip">&lt;font color=#17A4F5>%1$d &lt;/font> User installed Apps</string>
-    <string name="SoftMgr_SysUninstall_Tip">&lt;font color=#17A4F5>%1$d &lt;/font> preinstalled software Apps</string>
-    <string name="SoftMgr_AppMove_Clean">Your system is very clean, &lt;font color=#17A4F5> without &lt;/font> Software Moving</string>
-    <string name="SoftMgr_AppMove_Suggest1">&lt;font color=#17A4F5>%1$d &lt;/font> Apps recommended moved to SD card</string>
+    <string name="SoftMgr_AppUninstall_Tip">&lt;font color=#17A4F5>%1$d &lt;/font> user installed applications</string>
+    <string name="SoftMgr_SysUninstall_Tip">&lt;font color=#17A4F5>%1$d &lt;/font> preinstalled software applications</string>
+    <string name="SoftMgr_AppMove_Clean">Your system is clean, &lt;font color=#17A4F5> without &lt;/font> Software Moving</string>
+    <string name="SoftMgr_AppMove_Suggest1">&lt;font color=#17A4F5>%1$d &lt;/font> Apps recommended to be moved to SD card</string>
     <string name="SoftMgr_AppMove_Suggest2">Without moving, &lt;font color=#17A4F5>%1$d &lt;/font> software has been on the SD card</string>
-    <string name="SoftMgr_SdApk_LongAgo">&lt;font color=#17A4F5> long time &lt;/font> SD card not managed the installation package</string>
-    <string name="SoftMgr_SdApk_DaysAgo">Last SD card installation package management is &lt;font color=#17A4F5>%1$d days&lt;/font> ago</string>
+    <string name="SoftMgr_SdApk_LongAgo">Last SD card package management was a long time ago</string>
+    <string name="SoftMgr_SdApk_DaysAgo">Last SD card package management was &lt;font color=#17A4F5>%1$d days&lt;/font> ago</string>
     <string name="SoftMgr_SdApk_Today">&lt;font color=#17A4F5>Today&lt;/font> has collated SD card installed package</string>
     <string name="SoftMgr_Can_Opt">&lt;font color=#17A4F5 recommend optimization >&lt;/font></string>
     <string name="SoftMgr_App_OptDesc1">%1$d permissions, &lt;font color=#17A4F5>%2$d&lt;/font> blocked, &lt;font color=#17A4F5%3$d &lt;/font> recommended to allow</string>
@@ -1753,10 +1755,10 @@
     <string name="sm_sau_may_uninstall">You can uninstall</string>
     <string name="sm_sau_recommend_uninstall">Recommend uninstalling</string>
     <string name="sm_sau_careful_uninstall">Cautious unloading</string>
-    <string name="SoftMgr_AppUninstall">Software uninstall</string>
+    <string name="SoftMgr_AppUninstall">Software Uninstall</string>
     <string name="SoftMgr_AppUninstall_Des">Third-party applications offload non-System Preferences</string>
     <string name="SoftMgr_AppUninstall_Recycle">Recycle</string>
-    <string name="SoftMgr_AppUninstall_Action">Uninstall the selected software (%1$d models )</string>
+    <string name="SoftMgr_AppUninstall_Action">Uninstall the selected software (%1$d models)</string>
     <string name="SoftMgr_AppUninstall_Uninstalling">Uninstalling :%1$s</string>
     <string name="SoftMgr_AppUninstall_ClearCache">Cleared %1$s SD card cache</string>
     <string name="SoftMgr_AppUninstall_StartClear">Empty the SD card is uninstalled software cache</string>
@@ -2318,25 +2320,25 @@
     <string name="SDClean_Adavanced_Clean"> file management </string>
     <string name="SDClean_Clean_ActionBar">delete</string>
     <string name="SDClean_Clean_ActionBar_Tips">delete (%1$d)</string>
-    <string name="SDClean_Clean_Advert">advertisement file</string>
-    <string name="SDClean_Clean_Advert_Result">has been found in &lt;font color=\"#66ccff\">%1$s&lt;/font> advertising folders, the proposed clean-up</string>
+    <string name="SDClean_Clean_Advert">Advertisement files</string>
+    <string name="SDClean_Clean_Advert_Result">&lt;font color=\"#66ccff\">%1$s&lt;/font> found, cleaning recommended</string>
     <string name="SDClean_Clean_Advise">prompt:</string>
     <string name="SDClean_Clean_All">all</string>
     <string name="SDClean_Clean_Apk">the installation package</string>
     <string name="SDClean_Clean_App_Name">software name:</string>
     <string name="SDClean_Clean_App_Not_Running">is not running</string>
     <string name="SDClean_Clean_App_Running">operation</string>
-    <string name="SDClean_Clean_Cache">garbage cache</string>
-    <string name="SDClean_Clean_Cache_Result">has been found in &lt;font color=\"#66ccff\">%1$s&lt;/font> application cache, we recommend cleaning</string>
+    <string name="SDClean_Clean_Cache">Application Cache</string>
+    <string name="SDClean_Clean_Cache_Result">&lt;font color=\"#66ccff\">%1$s&lt;/font> found, cleaning recommended cleaning</string>
     <string name="SDClean_Clean_Cleanable">can clear</string>
-    <string name="SDClean_Clean_Cleaned_Residuel_Files">has clean unloading residual files%1$s</string>
-    <string name="SDClean_Clean_Cleaning">"is clear:</string>
-    <string name="SDClean_Clean_Cleaning_Detail">"is clear:</string>
-    <string name="SDClean_Clean_Cleaning_No_Detail">"is clear:</string>
-    <string name="SDClean_Clean_Cleanning_SysCache">is clearing system cache</string>
-    <string name="SDClean_Clean_Cloudy_Prepare_Scan">is cloud pre scanning</string>
-    <string name="SDClean_Clean_Confirm_Clean">just about to start to clean up garbage, your mobile phone will save%1$s space</string>
-    <string name="SDClean_Clean_Confirm_SysCache_Clean">just about to start to clean up the system cache, for your mobile phone to save%1$s memory</string>
+    <string name="SDClean_Clean_Cleaned_Residuel_Files">Has clean unloading residual files (%1$s)</string>
+    <string name="SDClean_Clean_Cleaning">Cleaning, please wait...</string>
+    <string name="SDClean_Clean_Cleaning_Detail">Cleaning, please wait...</string>
+    <string name="SDClean_Clean_Cleaning_No_Detail">Cleaning, please wait...</string>
+    <string name="SDClean_Clean_Cleanning_SysCache">Clearing System Cache</string>
+    <string name="SDClean_Clean_Cloudy_Prepare_Scan">Cloud Pre-Scan</string>
+    <string name="SDClean_Clean_Confirm_Clean">Clean up garbage? This will save%1$s space</string>
+    <string name="SDClean_Clean_Confirm_SysCache_Clean">Clean up the System Cache? This will save %1$s space</string>
     <string name="SDClean_Clean_Contain_Apk">containing the installation package%1$d (%2$s)</string>
     <string name="SDClean_Clean_Contain_Document">including document file%1$d (%2$s)</string>
     <string name="SDClean_Clean_Contain_Empty">empty directory%1$d</string>
@@ -2346,11 +2348,11 @@
     <string name="SDClean_Clean_Current_No_Advert">no current advertisement file</string>
     <string name="SDClean_Clean_Current_No_Cache">is not currently cached file</string>
     <string name="SDClean_Clean_Current_No_Residuel">there is currently no unloading residual files</string>
-    <string name="SDClean_Clean_Deep">about</string>
-    <string name="SDClean_Clean_Deep_Manager">you can also use the SD card depth management</string>
-    <string name="SDClean_Clean_Deep_Result">has been found in &lt;font color=\"#ffcb2d\">%1$s&lt;/font> proposed to retain the file</string>
-    <string name="SDClean_Clean_Derelict_Apk">useless APK</string>
-    <string name="SDClean_Clean_Derelict_Result">has been found in &lt;font color=\"#ffcb2d\">%1$d&lt;/font> useless the installation package</string>
+    <string name="SDClean_Clean_Deep">Other Files</string>
+    <string name="SDClean_Clean_Deep_Manager">You can also use the SD card depth management</string>
+    <string name="SDClean_Clean_Deep_Result">&lt;font color=\"#ffcb2d\">%1$s&lt;/font> found</string>
+    <string name="SDClean_Clean_Derelict_Apk">Unused APKs</string>
+    <string name="SDClean_Clean_Derelict_Result">&lt;font color=\"#ffcb2d\">%1$d&lt;/font> found</string>
     <string name="SDClean_Clean_Detail_Title_Text">%1$s &lt;font color=\"#339900\">(%2$s) &lt;/font></string>
     <string name="SDClean_Clean_Document">document</string>
     <string name="SDClean_Clean_Empty_Folder">empty directory</string>
@@ -2363,13 +2365,13 @@
     <string name="SDClean_Clean_Local_Prepare_Scan">are local pre scanning</string>
     <string name="SDClean_Clean_Location">location:</string>
     <string name="SDClean_Clean_Music">Music</string>
-    <string name="SDClean_Clean_No_Advert">congratulations, your mobile phone no advertisement file</string>
-    <string name="SDClean_Clean_No_Cache">congratulations, your mobile phone does not recommend that the application cache cleaning</string>
-    <string name="SDClean_Clean_No_Choose_File">please select the need to clean up the file</string>
-    <string name="SDClean_Clean_No_Deep">congratulations, your mobile phone found no need to carefully clean up the file</string>
-    <string name="SDClean_Clean_No_Residuel">congratulations, your mobile phone without unloading residual files</string>
-    <string name="SDClean_Clean_No_Root_Note">your mobile phone is not ROOT, not clear individual system cache, please select</string>
-    <string name="SDClean_Clean_No_System_Cache">congratulations, your mobile phone did not find the system cache</string>
+    <string name="SDClean_Clean_No_Advert">No advertisement files found</string>
+    <string name="SDClean_Clean_No_Cache">Application Cache clean</string>
+    <string name="SDClean_Clean_No_Choose_File">Please select the need to clean up the file</string>
+    <string name="SDClean_Clean_No_Deep">Other Files clean</string>
+    <string name="SDClean_Clean_No_Residuel">No residual files found</string>
+    <string name="SDClean_Clean_No_Root_Note">ROOT access not available</string>
+    <string name="SDClean_Clean_No_System_Cache">System Cache clean</string>
     <string name="SDClean_Clean_Not_Found_SDCard">found no available SD card</string>
     <string name="SDClean_Clean_One_Key_Clean">press to clean up</string>
     <string name="SDClean_Clean_One_Key_Clean_Empty">press to clean up (%1$d empty folder)</string>
@@ -2380,7 +2382,7 @@
     <string name="SDClean_Clean_Remained">unloading residual</string>
     <string name="SDClean_Clean_Remained_Result">has been found in &lt;font color=\"#66ccff\">%1$s&lt;/font> unloading residual, we recommend cleaning</string>
     <string name="SDClean_Clean_Residuel_File">residual file:</string>
-    <string name="SDClean_Clean_Scanning">is scanning:%1$s%2$s (%3$s)</string>
+    <string name="SDClean_Clean_Scanning">is scanning: %1$s%2$s (%3$s)</string>
     <string name="SDClean_Clean_Scanning_Simple">is scanning:%1$s</string>
     <string name="SDClean_Clean_SDCard_Manager">SD card management</string>
     <string name="SDClean_Clean_SDCard_Rest">available %1$s of %2$s</string>
@@ -2388,14 +2390,14 @@
     <string name="SDClean_Clean_Setting_Item_Apk">after software installation package to delete</string>
     <string name="SDClean_Clean_Setting_Item_Residuel">uninstall the software after removing residual files to remind</string>
     <string name="SDClean_Clean_Setting_Title">Cleanup set</string>
-    <string name="SDClean_Clean_Size">size:</string>
-    <string name="SDClean_Clean_Start_Clean">began to clean up the</string>
-    <string name="SDClean_Clean_Start_Clean_Summary">start cleaning (%1$d)</string>
-    <string name="SDClean_Clean_Stop_Scan">exit</string>
+    <string name="SDClean_Clean_Size">Size: </string>
+    <string name="SDClean_Clean_Start_Clean">Select items to clean</string>
+    <string name="SDClean_Clean_Start_Clean_Summary">Start Cleanup (%1$d)</string>
+    <string name="SDClean_Clean_Stop_Scan">Exit</string>
     <string name="SDClean_Clean_Success">successfully cleaned%1$s cache</string>
-    <string name="SDClean_Clean_SysCache_Result">has been found in &lt;font color=\"#ffcb2d\">%1$s&lt;/font> cache</string>
-    <string name="SDClean_Clean_System_Cache">system cache</string>
-    <string name="SDClean_Clean_SystemCache_Clean_Size">has clear the%1$s cache</string>
+    <string name="SDClean_Clean_SysCache_Result">&lt;font color=\"#ffcb2d\">%1$s&lt;/font> found, cleanup recommended</string>
+    <string name="SDClean_Clean_System_Cache">System Cache</string>
+    <string name="SDClean_Clean_SystemCache_Clean_Size">has clear the %1$s cache</string>
     <string name="SDClean_Clean_Text_Found">has been found</string>
     <string name="SDClean_Clean_Tidy">your mobile phone is very clean, no need to clear</string>
     <string name="SDClean_Clean_Tips">can be expected to make you take%1$d high-resolution photos</string>
@@ -2490,13 +2492,13 @@
     <string name="HIPS_Aliyun_Reboot_Message">LBE security master examines your cell phone system is Ali says the OS system, is stable for the guarantee system, before cutting the active defense, needs to restart the cell phone to close active defense</string>
     <string name="HIPS_App_Batch_Trust_Toast">batch operation needs to relieve the jurisdiction to trust</string>
     <string name="HIPS_App_Sort_Title">sorting way</string>
-    <string name="HIPS_Conflict_Title">" your cell phone establishment and active defense conflict</string>
+    <string name="HIPS_Conflict_Title"> your cell phone establishment and active defense conflict</string>
     <string name="HIPS_Fallback_Conflict_Message">examines in the system to have &lt;font color=\"#17A4F5\">%1$s&lt;/font> can have the conflict with the LBE security master active defense, please close this application rights management function</string>
     <string name="HIPS_Sys_Mode">system is authorized to start</string>
     <string name="Home_Agree_And_Use">enters security master</string>
     <string name="Home_Epayguard">ePayment</string>
     <string name="Home_EULA">installment permission agreement</string>
-    <string name="Home_Install_Permit_Agreement">"Installment Permission Agreement"</string>
+    <string name="Home_Install_Permit_Agreement">"Instalation Agreement"</string>
     <string name="Home_Readed_And_Agreed">read and agreed with</string>
     <string name="Home_You_Must_Agree_Before_Use">you must agree that the agreement can use!</string>
     <string name="miui_iuni_hips_label">rights management</string>
@@ -2509,7 +2511,7 @@
     <string name="Plugin_ATP_Uninstall_Failed">LBE security service uninstall failed</string>
     <string name="Plugin_ATP_Uninstall_Successfully">LBE security service uninstall successful</string>
     <string name="Plugin_Epayguard_Name">SMS Guard</string>
-    <string name="Pref_Main_Hardware_Accelerate">use hardware acceleration</string>
+    <string name="Pref_Main_Hardware_Accelerate">Use Hardware Acceleration</string>
     <string name="Pref_Traffic_FloatWindow_FullScreen_Hide">current capacity floating window</string>
     <string name="private_add_contact">increase privacy contact person</string>
     <string name="private_decrypt_fail">decipher defeat</string>
@@ -2601,19 +2603,19 @@
     <string name="SDClean_Clean_Uninstall_Text_Other">has</string>
     <string name="SDClean_Clean_Uninstall_Text_Title">discovers &lt;font color=\"#66ccff\">%1$d&lt; a/font> application remains &lt;font color=\"#66ccff\">%2$s&lt;/font> document</string>
     <string name="SDClean_Clean_Uninstall_Text_Video">video document &lt;font color=\"#66ccff\">%1$d&lt;/font> (&lt;font color=\"#66ccff\">%2$s&lt;/font>)</string>
-    <string name="SoftMgr_SysUninstall_Careful_Uninstall">uninstall carefully</string> 
-    <string name="SoftMgr_SysUninstall_Careful_Uninstall_Not_Found">there are no apks to uninstall</string>
-    <string name="SoftMgr_SysUninstall_May_Uninstall">may be uninstalled</string>
-    <string name="SoftMgr_SysUninstall_May_Uninstall_Not_Found">there are no apks to uninstall</string>
+    <string name="SoftMgr_SysUninstall_Careful_Uninstall">Uninstall carefully</string> 
+    <string name="SoftMgr_SysUninstall_Careful_Uninstall_Not_Found">There are no APKs to uninstall</string>
+    <string name="SoftMgr_SysUninstall_May_Uninstall">May be uninstalled</string>
+    <string name="SoftMgr_SysUninstall_May_Uninstall_Not_Found">There are no APKs to uninstall</string>
     <string name="SysOpt_TaskMgr_Clearable">may clean up duty</string>
-    <string name="SysOpt_TaskMgr_InternalWhiteList_Remove">after removal from white list, cleaning up will close this application automatically, may affect your normal use.</string>
+    <string name="SysOpt_TaskMgr_InternalWhiteList_Remove">After removal from the white list, cleaning up will close this application automatically, this may affect your normal use.</string>
     <string name="Traffic_Unit">(M)</string>
     <string name="Update_Component_Epayguard">ePayment Guard</string>
     <string name="Update_Epayguard">ePayment Guard</string>
     
     <!-- 5.2.6840 --> 
-    <string name="Battery_Condition_TickerCharge">Trickle charging is completed (recommended at this time to stop charging)</string>
-    <string name="Battery_Condition_TickerChargeFull">Ticker Charge Full</string>
+    <string name="Battery_Condition_TickerCharge">Trickle charge is completed (recommended at this time to stop charging)</string>
+    <string name="Battery_Condition_TickerChargeFull">Tickle charge full</string>
     <string name="Battery_Condition_TickerCharge_Over">Trickle charging is completed</string>
     <string name="Home_Open_Source">Open source licenses</string>
     <string name="Patch_Check_Immune_Desc">Your mobile phone does not support free Root method to open the active defense, please try to use the Root method to open the active defense, and open real-time virus scanning, to protect your mobile phone security</string>
@@ -2623,42 +2625,42 @@
     <string name="SDClean_Clean_Remove_WhiteList">Remove whitelist</string>
     <string name="SDClean_Clean_Text_Clean">Clear up</string>
     <string name="SDClean_Clean_WhiteList">Whitelist</string>
-    <string name="SDClean_SDManager_Scaning">Scanning .......</string>
-    <string name="Shortcut_Create_Shortcut">Create one-click Cleanup shortcuts</string>
+    <string name="SDClean_SDManager_Scaning">Scanning...</string>
+    <string name="Shortcut_Create_Shortcut">Create OneClick Cleanup shortcuts</string>
     <string name="Shortcut_Swipe_Up_Gesture_Launch">Start draw gesture on the home keys</string>
     <string name="SysOpt_Boost_Block">Disable autostart</string>
     <string name="SysOpt_Boost_Deblock">Recovery from boot</string>
     <string name="SysOpt_Hardware_Cpu_Core">%1$s Core CPU</string>
     <string name="SysOpt_Hardware_Cpu_LogicCore">%1$s Logic Core CPU</string>
     <string name="SysOpt_Hardware_Cpu_Soket">%1$s Slots</string>
-    <string name="SysOpt_TaskMgr_AutoAllow">Has allowed</string>
+    <string name="SysOpt_TaskMgr_AutoAllow">Is allowed</string>
     <string name="SysOpt_TaskMgr_AutoReject">Has been banned</string>
     <string name="SysOpt_TaskMgr_InWhite">Has been added</string>
     <string name="SysOpt_TaskMgr_LookDetail">View details</string>
     <string name="SysOpt_TaskMgr_OutWhite">Not added</string>
-    <string name="SysOpt_TaskMgr_Tips">%1$s oneclick to clean whitelist,%2$s from the start</string>
+    <string name="SysOpt_TaskMgr_Tips">%1$s OneClick to clean whitelist, %2$s from the start</string>
     <string name="SysOpt_TaskMgr_WhiteWithLocation_Clean">This application is the system default location services, forced the closure of the class may result in the application can not be updated weather</string>
     <string name="unknown_hips_label">Unknown application</string>
 
     <!-- 5.2.7301 --> 
-    <string name= "Account_Captcha_Error">verification code format error, must be 6 digits</string>
+    <string name= "Account_Captcha_Error">Verification code format error, must be 6 digits</string>
     <string name= "Account_Captcha_Retry">in a</string>
     <string name= "Account_Captcha_Retry_Tip">service exception, you need to enter the following code</string>
-    <string name= "Account_Change_Nickname">change nickname</string>
-    <string name= "Account_Change_Password">change password</string>
+    <string name= "Account_Change_Nickname">Change nickname</string>
+    <string name= "Account_Change_Password">Change password</string>
     <string name= "Account_Changing_PW">is to change the password, please wait</string>
     <string name= "Account_EULA">LBE security master user protocol</string>
-    <string name= "Account_EULA_Check">I have read and agree to the</string>
+    <string name= "Account_EULA_Check">I have read and agreed to the</string>
     <string name= "Account_Feedback_Des">logged in to submit feedback, can receive service reply.</string> 
-    <string name= "Account_Feedback_User">Hello,%1$s</string>
+    <string name= "Account_Feedback_User">Hello, %1$s</string>
     <string name= "Account_Forum">LBE official forum</string>
     <string name= "Account_GetSmsCaptcha">get verification code</string>
     <string name= "Account_Hint_Captcha">verification code</string>
-    <string name= "Account_Hint_Change_Nickname">please enter a new nickname</string>
-    <string name= "Account_Hint_Confirm_Passwd">please enter new password again</string>
-    <string name= "Account_Hint_New_Password">please enter a new password for</string>
-    <string name= "Account_Hint_Old_Password">please enter the original password</string>
-    <string name= "Account_Hint_Password">password</string>
+    <string name= "Account_Hint_Change_Nickname">Please enter a new nickname</string>
+    <string name= "Account_Hint_Confirm_Passwd">Please enter new password again</string>
+    <string name= "Account_Hint_New_Password">Please enter a new password for</string>
+    <string name= "Account_Hint_Old_Password">Please enter the original password</string>
+    <string name= "Account_Hint_Password">Password</string>
     <string name= "Account_Hint_Phone_Number">11 mobile phone No.</string>
     <string name= "Account_Input_Pic_Captcha">please letters and numbers to enter the picture in</string>
     <string name= "Account_Login">logged on to</string>
@@ -2691,14 +2693,14 @@
     <string name= "Account_Third_Login_Warning">"you are currently using third party account login, not in the machine change nickname and password, please go to the%1$s to modify the nickname and password.</string>
     <string name= "Account_title">Personal center</string>
     <string name= "Account_User_Login">user login</string>
-    <string name= "AD_Adware_Contain_Desc">Application ad</string>
+    <string name= "AD_Adware_Contain_Desc">Application(s)</string>
     <string name= "AD_Block_Settings">ad blocking set</string>
-    <string name= "AD_Contain_Ads">application containing advertising</string>
-    <string name= "Ad_Report_More">report more</string>
-    <string name= "AD_Scan_Adware_Total">scanned%1$d software</string>
-    <string name= "AD_Scan_Contain_Adware">&lt;font color=\"#e03311\">%1$d&lt;/font> software including advertising</string>
-    <string name= "AD_Scanning">is scanning:%1$s</string>
-    <string name= "AV_Scan_Background">background scanning</string>
+    <string name= "AD_Contain_Ads">Application contains advertising</string>
+    <string name= "Ad_Report_More">Report More</string>
+    <string name= "AD_Scan_Adware_Total">Scanned %1$d applications</string>
+    <string name= "AD_Scan_Contain_Adware">&lt;font color=\"#e03311\">%1$d&lt;/font> applications include advertising</string>
+    <string name= "AD_Scanning">Scanning: %1$s</string>
+    <string name= "AV_Scan_Background">Background scanning</string>
     <string name= "AV_Scan_Cancel">cancel scanning</string>
     <string name= "Generic_Fail">failure</string>
     <string name= "HIPS_Dialog_Rootfree_Success">free ROOT success!</string>
@@ -2770,10 +2772,10 @@
     <string name= "SDClean_Clean_Wait_For_Cleaning">to wait for the scan</string>
     <string name= "SoftMgr_Already_Downlaoded_Please_Install">has been downloaded, click Install</string>
     <string name= "SoftMgr_App_Upgrade_Tip">&lt;font color=\"#17A4F5\">%1$d version of the &lt;/font> software can be upgraded </string>
-    <string name= "SoftMgr_AppGrade">software update</string>
-    <string name= "SoftMgr_AppGrade_Des">Upgrade software to the latest version of</string>
-     <string name= "SoftMgr_AppGrade_Des_2">can upgrade the software (%1$d)</string>
-    <string name= "SoftMgr_Data_Subregion">"data partition</string>
+    <string name= "SoftMgr_AppGrade">Software Updates</string>
+    <string name= "SoftMgr_AppGrade_Des">Update software to the latest version</string>
+    <string name= "SoftMgr_AppGrade_Des_2">Software updates available (%1$d)</string>
+    <string name= "SoftMgr_Data_Subregion">"Data Partition</string>
     <string name= "SoftMgr_Downlaod_Fail_Please_Retry">download failed, please try again</string>
     <string name= "SoftMgr_Downlaod_Speed_Description">downloading%1$s/S</string>
     <string name= "SoftMgr_Fake_Version_Need_Uninstall_First">the copycat version, uninstall to upgrade</string>
@@ -2788,16 +2790,16 @@
     <string name= "SoftMgr_Now_Uninstalling">uninstalling</string>
     <string name= "SoftMgr_Pending_Download">waiting for download...</string>
     <string name= "SoftMgr_Request_Server_Data_Fail">request server data failure!</string>
-    <string name= "SoftMgr_Retry">retry</string>
-    <string name= "SoftMgr_SD_Storage_Text">SD card%1$s/%2$s</string>
-    <string name= "SoftMgr_Sdcard_Space_Not_Enough_Please_Clear_Some_Space_Then_Retry">equipment surplus capacity is insufficient, please try again after cleaning,</string>
-    <string name= "SoftMgr_Start">start</string>
+    <string name= "SoftMgr_Retry">Retry</string>
+    <string name= "SoftMgr_SD_Storage_Text">SD card %1$s/%2$s</string>
+    <string name= "SoftMgr_Sdcard_Space_Not_Enough_Please_Clear_Some_Space_Then_Retry">SD card free space is insufficient, please try again after cleaning</string>
+    <string name= "SoftMgr_Start">Start</string>
     <string name= "SoftMgr_Sys_Storage_Text">%1$s/%2$s</string>
-    <string name= "SoftMgr_Sys_Subregion">"system partition</string>
+    <string name= "SoftMgr_Sys_Subregion">"System partition</string>
     <string name= "SoftMgr_Total_Grade">update all%1$s</string>
     <string name= "SoftMgr_Total_Grade_Saved">update all%1$s (CO%2$s)</string>
-    <string name= "SoftMgr_Uninstall">uninstall...</string>
-    <string name= "SoftMgr_Unuse_Subregion">"surplus space</string>
+    <string name= "SoftMgr_Uninstall">Uninstall...</string>
+    <string name= "SoftMgr_Unuse_Subregion">"Free space</string>
     <string name= "SoftMgr_Upgrade">upgrade</string>
     <string name= "SoftMgr_Upgrade_Completed">upgrade is complete</string>
     <string name= "SoftMgr_Upgrade_Notification_Desc">Click province traffic upgrade%1$s</string>
@@ -2807,9 +2809,9 @@
     <string name= "SysOpt_TaskMgr_Restart_Tip">has applications in repeated self start, please click on the application of the self start or join a clean-up banned white list</string>
     <string name= "SysOpt_WhiteList_Added">%1$d app has joined a clean white list</string>
     <string name= "Tips_Auto_Block_Text">you have more than 1/3 software has not been configured and permissions in</string>
-    <string name= "Tips_Hips_New_App_Installed">new software:%1$s recommends configure permissions</string>
+    <string name= "Tips_Hips_New_App_Installed">new software: %1$s recommends configure permissions</string>
     <string name= "Tips_SDClean_Text">you have more than one week without cleaning up junk</string>
-    <string name= "Tips_WebView_Loading_Text">is loading, please wait</string>
+    <string name= "Tips_WebView_Loading_Text">is loading, please wait...</string>
     <string name= "user_defined">Custom</string>
 
 </resources>
