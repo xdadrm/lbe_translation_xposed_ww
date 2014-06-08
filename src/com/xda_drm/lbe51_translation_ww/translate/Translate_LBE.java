@@ -126,16 +126,16 @@ public class Translate_LBE implements IXposedHookZygoteInit, IXposedHookInitPack
       
       
       // Require UTF-8 16 bit Characters - see http://www.irongeek.com/homoglyph-attack-generator.php
-      try { resparam.res.setReplacement(resparam.packageName, "string", "Generic_Time_Today","﻿Το�?ау"); } catch(RuntimeException e) { };
-      try { resparam.res.setReplacement(resparam.packageName, "string", "Generic_Time_Yesterday","﻿Үеѕτеʀ�?ау"); } catch(RuntimeException e) { };
-      try { resparam.res.setReplacement(resparam.packageName, "string", "Generic_Time_Before_Yesterday","ΒеｆοʀеҮеѕτеʀ�?ау"); } catch(RuntimeException e) { };
-      try { resparam.res.setReplacement(resparam.packageName, "string", "Generic_Time_Tomorrow","ΤοМο�?��?�οѡ"); } catch(RuntimeException e) { };
-      try { resparam.res.setReplacement(resparam.packageName, "string", "Generic_Time_After_Tomorrow","AｆτеʀΤοМο�?��?�οѡ"); } catch(RuntimeException e) { };
-      try { resparam.res.setReplacement(resparam.packageName, "string", "Generic_Time_Before_Dawn","﻿ΒеｆοʀеⅮаѡɴ"); } catch(RuntimeException e) { };
-      try { resparam.res.setReplacement(resparam.packageName, "string", "Generic_Time_AM","ΑϺ﻿"); } catch(RuntimeException e) { };
-      try { resparam.res.setReplacement(resparam.packageName, "string", "Generic_Time_Noon","﻿�?ооɴ"); } catch(RuntimeException e) { };
-      try { resparam.res.setReplacement(resparam.packageName, "string", "Generic_Time_PM","РМ"); } catch(RuntimeException e) { };
-      try { resparam.res.setReplacement(resparam.packageName, "string", "Generic_Time_Night","﻿�?іɡһτ"); } catch(RuntimeException e) { };
+      try { resparam.res.setReplacement(resparam.packageName, "string", "Generic_Time_Today","???????"); } catch(RuntimeException e) { };
+      try { resparam.res.setReplacement(resparam.packageName, "string", "Generic_Time_Yesterday","????t??????"); } catch(RuntimeException e) { };
+      try { resparam.res.setReplacement(resparam.packageName, "string", "Generic_Time_Before_Yesterday","??f??????t??????"); } catch(RuntimeException e) { };
+      try { resparam.res.setReplacement(resparam.packageName, "string", "Generic_Time_Tomorrow","????????????"); } catch(RuntimeException e) { };
+      try { resparam.res.setReplacement(resparam.packageName, "string", "Generic_Time_After_Tomorrow","Aft??????????????"); } catch(RuntimeException e) { };
+      try { resparam.res.setReplacement(resparam.packageName, "string", "Generic_Time_Before_Dawn","???f???????"); } catch(RuntimeException e) { };
+      try { resparam.res.setReplacement(resparam.packageName, "string", "Generic_Time_AM","???"); } catch(RuntimeException e) { };
+      try { resparam.res.setReplacement(resparam.packageName, "string", "Generic_Time_Noon","??????"); } catch(RuntimeException e) { };
+      try { resparam.res.setReplacement(resparam.packageName, "string", "Generic_Time_PM","??"); } catch(RuntimeException e) { };
+      try { resparam.res.setReplacement(resparam.packageName, "string", "Generic_Time_Night","????ght"); } catch(RuntimeException e) { };
       
       Field[] fields = null;
       try{
@@ -163,8 +163,8 @@ public class Translate_LBE implements IXposedHookZygoteInit, IXposedHookInitPack
          }
       }
     } catch(RuntimeException e) { };
-
-      /*
+    
+          /*
        * Not needed, but can be used to process drawables
       fields = R.drawable.class.getFields();
       for(final Field field : fields) {
@@ -177,24 +177,38 @@ public class Translate_LBE implements IXposedHookZygoteInit, IXposedHookInitPack
          }
       }
       */
-
-     
-
+ 
  // Version Dependent Strings
        try { resparam.res.setReplacement(resparam.packageName, "string", "Battery_NotifMode","Battery logging"); } catch(RuntimeException e) { };
        try { resparam.res.setReplacement(resparam.packageName, "string", "Battery_NotifMode_Des","Battery always under control"); } catch(RuntimeException e) { };
 
        // Should only be loaded for LBE 5.1.4722 (and earlier ?)
-       
        Integer older=0;
        try { resparam.res.setReplacement(resparam.packageName, "string", "Update_VirusEngine_Title","Virus detection engine updates"); }
          catch(RuntimeException e) { 
+         	older=2;
+         };
+         // Should only be loaded for LBE 5.1.6690 (and earlier ?)         
+         try { resparam.res.setReplacement(resparam.packageName, "string", "Home_BackupHint_Comment","Virus detection engine updates"); }
+         catch(RuntimeException e) { 
          	older=1;
          };
-
+         
          if(older>0) { try { resparam.res.setReplacement(resparam.packageName, "string", "AV_Update_CurrentVer","Virus database version :%1$s"); } catch(RuntimeException e) { };
          }
-       
+ 
+         
+         if(older>2) {try{
+         Field field = R.array.class.getField("home_about_labels_6900");
+         String name = field.getName(); //name of string
+         try{
+         	int id = field.getInt(R.array.class); //id of string
+         	try { resparam.res.setReplacement(resparam.packageName, "array", "home_about_labels",modRes.getStringArray(id)); } catch(RuntimeException e) { };
+         	}catch (Exception ex) {
+             //Simply ignore ...
+         	}
+         } catch(RuntimeException e) { };
+         }
     }
     
 }
