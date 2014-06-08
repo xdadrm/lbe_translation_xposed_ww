@@ -810,7 +810,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Home_Setting_Center">Paramètres de configuration</string>
     <string name="Home_Open_Source">License Open Source</string>
     <string name="Home_EULA">License d\'utilisation</string>
-    <string name="Home_Readed_And_Agreed">J'ai lu et j'accepte</string>
+    <string name="Home_Readed_And_Agreed">J\'ai lu et j\'accepte</string>
     <string name="Home_Install_Permit_Agreement">"License d\'utilisation"</string>
     <string name="Home_Agree_And_Use">enters security master</string>
     <string name="Home_You_Must_Agree_Before_Use">you must agree that the agreement can use!</string>
@@ -1373,7 +1373,7 @@ and active defense conflict"</string>
     <string name="HIPS_Allow_Autoboot">Démarrage automatique</string>
     <string name="HIPS_Has_Cloud_ItemNum">%1$s%2$s autorisation(s), configuration manuelle recommandée</string>
     <string name="HIPS_None_Has_Cloud_ItemNum">%1$s autorisation(s)</string>
-    <string name="HIPS_Trust_Permission">J'ai confiance dans les autorisations de cette appli</string>
+    <string name="HIPS_Trust_Permission">J\'ai confiance dans les autorisations de cette appli</string>
     <string name="HIPS_Trust_Yes">Faire confiance</string>
     <string name="HIPS_Trust_No">Ne pas faire confiance</string>
     <string name="HIPS_Trust_Action_Hint">Vous ne pouvez pas configurer les autorisations si l\'applis est mise en confiance</string>

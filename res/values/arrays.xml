@@ -483,13 +483,22 @@ There may be false positives"</item>
         <item>Password Protection</item>
         <item>System Settings</item>
     </string-array>
-    <string-array name="home_about_labels">
+    <string-array name="home_about_labels_6900">
         <item>Software Updates</item>
         <item>Feedback</item>
         <item>Software rate</item>
         <item>Share with friends</item>
         <item>Join with us</item>
         <item>Special thanks</item>
+    </string-array>
+    <string-array name="home_about_labels">
+        <item>Report Problem</item> 
+        <item>Help (Chinese)</item> 
+        <item>Software Updates</item> 
+        <item>Software settings</item> 
+        <item>LBE Home</item> 
+        <item>Share with friends</item> 
+        <item>About LBE security master</item>
     </string-array>
     <string-array name="sdapk_sortypes">
         <item>Sort by Name</item>
