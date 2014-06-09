@@ -222,7 +222,7 @@
     <string name="AD_Report_Hint">Please report applications containing adverts</string>
     <string name="AD_Report_Success_Hint">You have successfully reported advertising applications, Thank you.</string>
     <string name="AD_Scan_Day_Ago">%1$d days ago</string>
-    <string name="AD_Scan_Long_Ago">It's been a long time since the last check</string>
+    <string name="AD_Scan_Long_Ago">It\'s been a long time since the last check</string>
     <string name="AD_Scan_Today">You just checked today</string>
     <string name="AD_Scan_Again">AD Scan</string>
     <string name="AD_Install_App">Installed Software</string>

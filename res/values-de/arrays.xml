@@ -470,11 +470,20 @@
         <item>Passwortschutz</item>
         <item>Systemeinstellungen</item>
     </string-array>
-    <string-array name="home_about_labels">
+        <string-array name="home_about_labels_6900">
         <item>auf Updates prüfen\u0020</item>
         <item>Feedback</item>
         <item>LBE im Playstore</item>
         <item>mit Freunden teilen</item>
+        <item>LBE Community</item>
+    </string-array>
+    <string-array name="home_about_labels">
+        <item>Problem Melden</item> 
+        <item>Hilfe (Chinese)</item> 
+        <item>auf Updates prüfen\u0020</item> 
+        <item>Software settings</item> 
+        <item>LBE im Playstore</item> 
+        <item>mit Freunden teilen</item> 
         <item>LBE Community</item>
     </string-array>
     <string-array name="sdapk_sortypes">
