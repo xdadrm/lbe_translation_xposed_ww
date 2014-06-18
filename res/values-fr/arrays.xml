@@ -258,12 +258,13 @@ pub, pop-up, etc"</item>
         <item>Paramètres système</item>
     </string-array>
     <string-array name="home_about_labels">
-        <item>Mise à jour logiciel</item>
         <item>Commentaires</item>
-        <item>Noter LBE</item>
+        <item>Aide (en chinois)</item>
+        <item>Mise à jour logiciel</item>
+        <item>Paramètres système</item>
+        <item>Accueil LBE</item> 
         <item>Partager avec vos amis</item>
-        <item>Contacter LBE</item>
-        <item>Remerciements</item>
+        <item>A propos de LBE security master</item>
     </string-array>
     <string-array name="sdapk_sortypes">
         <item>Trier par nom</item>
