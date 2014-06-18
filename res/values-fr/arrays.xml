@@ -27,6 +27,28 @@
         <item>Hors service</item>
         <item>Occupé</item>
     </string-array>
+    <string-array name="endcalltype_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="msglog_operate">
+        <item>Répondre par SMS</item>
+        <item>Appeler ce numéro</item>
+        <item>Ajouter à la liste blanche</item>
+        <item>Ajouter à la liste noir</item>
+        <item>Signaler</item>
+    </string-array>
+    <string-array name="calllog_operate">
+        <item>Supprimer</item>
+        <item>Répondre par SMS</item>
+        <item>Appeler ce numéro</item>
+        <item>Ajouter à la liste blanche</item>
+        <item>Ajouter à la liste noir</item>
+        <item>Restaurer dans la liste des appels (système)</item>
+    </string-array>
     <string-array name="trafficBillingDay">
         <item>1er de chaque mois</item>
         <item>2 de chaque mois</item>
@@ -258,12 +280,13 @@ pub, pop-up, etc"</item>
         <item>Paramètres système</item>
     </string-array>
     <string-array name="home_about_labels">
-        <item>Mise à jour logiciel</item>
         <item>Commentaires</item>
-        <item>Noter LBE</item>
+        <item>Aide (en chinois)</item>
+        <item>Mise à jour logiciel</item>
+        <item>Paramètres système</item>
+        <item>Accueil LBE</item> 
         <item>Partager avec vos amis</item>
-        <item>Contacter LBE</item>
-        <item>Remerciements</item>
+        <item>A propos de LBE security master</item>
     </string-array>
     <string-array name="sdapk_sortypes">
         <item>Trier par nom</item>
@@ -389,13 +412,13 @@ pub, pop-up, etc"</item>
     <string-array name="app_install_manage_mode_title">
         <item>Autorise les installations automatiques</item>
         <item>Demander lors d\'une installation automatique</item>
-        <item>Smart Installation</item>
+        <item>Installation intelligente</item>
         <item>Désactive les installations automatiques</item>
     </string-array>
     <string-array name="app_install_manage_mode_desc">
         <item>Autorise les installations automatiques d\'applis, et affiche une notification dans la barre après l\'installation</item>
         <item>Une boite de dialogue s\'affiche lors de l\'installation, pour vous demander de confirmer l\'autorisation de l\'installation</item>
-        <item>Smart Filter (From Data cloud by other user online)</item>
+        <item>Filtrage intelligent (depuis le serveur, fourni par les autres utilisateurs)</item>
         <item>Désactive complètement l\'installation automatique des applis</item>
     </string-array>
     <string-array name="empty_subject_strings">
