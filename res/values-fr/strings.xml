@@ -1192,7 +1192,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Plugin_ATP_Name">LBE security service</string>
     <string name="Plugin_ATP_Installing">is installing</string>
     <string name="Plugin_ATP_Install_Fail">L\'installation des services LBE security a échoué, merci de réessayer plus tard.</string>
-    <string name="Plugin_ATP_Install_RootFail">L'\installation du service ROOT a échoué, probablement parce que votre appareil ne supporte pas ce mode d'installation ROOT, retenter sans l'option ROOT</string>    
+    <string name="Plugin_ATP_Install_RootFail">L\'installation du service ROOT a échoué, probablement parce que votre appareil ne supporte pas ce mode d\'installation ROOT, retenter sans l\'option ROOT</string>    
     <string name="Plugin_ATP_No_net">Connection réseau non disponible</string>
     <string name="Plugin_ATP_Uninstall_Successfully">LBE security service uninstall successful</string>
     <string name="Plugin_ATP_Uninstall_Failed">LBE security service uninstall failed</string>
@@ -1845,7 +1845,7 @@ Or cancel use ."</string>
     <string name="SysOpt_TaskMgr_WhiteWithAlarm_Clean">Existence d\'une appli alarme-réveil, dont la fermeture peut empêcher le déclenchement d\'une alarme</string>
     <string name="SysOpt_TaskMgr_WhiteWithLauncher_Remove">Existence d\'un bureau retiré de la liste blanche</string>
     <string name="SysOpt_TaskMgr_WhiteWithLauncher_Clean">Existence d\'un bureau, dont la fermeture peut générer un écran noir, le temps que le bureau redémarre</string>
-    <string name="SysOpt_TaskMgr_InternalWhiteList_Remove">Après l'avoir supprimée de la liste blanche, le nettoyage va fermer automatiquement cette application, ce qui pourrait affecter l'utilisation de l'appareil.</string>
+    <string name="SysOpt_TaskMgr_InternalWhiteList_Remove">Après l\'avoir supprimée de la liste blanche, le nettoyage va fermer automatiquement cette application, ce qui pourrait affecter l\'utilisation de l\'appareil.</string>
     <string name="SysOpt_TaskMgr_White">Liste blanche</string>
     <string name="SysOpt_TaskMgr_CPU">CPU: %1$s</string>
     <string name="SysOpt_TaskMgr_RAM">RAM: %1$s</string>
@@ -2586,7 +2586,7 @@ Dernière modif:
   <string name="yellow_server_timeout">La connexion a expiré, veuillez tenter à nouveau</string>
 
     <!-- 5.2.6840 --> 
-    <string name="Battery_Condition_TickerCharge">Charge complète (il est recommandé d'arrêter la charge)</string>
+    <string name="Battery_Condition_TickerCharge">Charge complète (il est recommandé d\'arrêter la charge)</string>
     <string name="Battery_Condition_TickerChargeFull">Chargé</string>
     <string name="Battery_Condition_TickerCharge_Over">Charge complète</string>   
     <string name="Home_Open_Source">Licence Open Source</string>
@@ -2629,10 +2629,10 @@ Dernière modif:
     <string name= "Account_Hint_Change_Nickname">Veuillez saisir le nom</string>
     <string name= "Account_Hint_Confirm_Passwd">Veuillez resaisir le mot de passe</string>
     <string name= "Account_Hint_New_Password">Veuillez saisir un nouveau mot de passe</string>
-    <string name= "Account_Hint_Old_Password">Veuillez saisir l'ancien mot de passe</string>
+    <string name= "Account_Hint_Old_Password">Veuillez saisir l\'ancien mot de passe</string>
     <string name= "Account_Hint_Password">Mot de passe</string>
     <string name= "Account_Hint_Phone_Number">Numéro de mobile (11)</string>
-    <string name= "Account_Input_Pic_Captcha">Veuillez saisir les lettres et numéros affichés sur l'image</string>
+    <string name= "Account_Input_Pic_Captcha">Veuillez saisir les lettres et numéros affichés sur l\'image</string>
     <string name= "Account_Login">Loggué</string>
     <string name= "Account_Login_Forum_Hint">Compte du forum LBE</string>
     <string name= "Account_Login_Now">Se connecter</string>
@@ -2652,7 +2652,7 @@ Dernière modif:
     <string name= "Account_Passwd_Error_Confirm">Le nouveau mot de passe ne correspond pas</string>
     <string name= "Account_Password_Fogotten">Mot de passe oublié ?</string>
     <string name= "Account_Phone_Error">Le format du numéro de téléphone est erroné, il doit être sur 11 chiffres</string>
-    <string name= "Account_PicCaptcha_Error">Pas d'entrée, l'opération a été annulée</string>
+    <string name= "Account_PicCaptcha_Error">Pas d\'entrée, l\'opération a été annulée</string>
     <string name= "Account_Register_Account">Compte enregistré</string>
     <string name= "Account_Registing">Enregistrement en cours, veuillez patienter</string>
     <string name= "Account_Renaming">Changement de nom en cours, veuillez patienter</string>
