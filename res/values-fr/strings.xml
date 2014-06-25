@@ -643,7 +643,6 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Shortcut_HardwareKey_Home_PreferredLauncher">"Choisissez votre écran d\'accueil préféré"</string>
     <string name="Shortcut_HardwareKey_Home_Launcher_Select">"Sélection de l\'accueil"</string>
     <string name="Shortcut_HardwareKey_Search">Appui long sur Recherche pour commencer</string>
-    <string name="Shortcut_Swipe_Up_Gesture_Launch">Start draw gesture on the home page</string>
     <string name="Shortcut_FloatWindow">Fenêtres flottantes</string>
     <string name="Shortcut_FloatWindow_Desc">Icone accueil flottant</string>
     <string name="Shortcut_FloatWindow_LauncherOnly">"Uniquement sur l\'accueil"</string>
@@ -761,7 +760,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="Home_Feedback_LogErrorFile_Send">"Journal d\'erreur créé - envoyé"</string>
     <string name="Home_Feedback_LogErrorFile_NoSend">"Journal d\'erreur créé et stocké localement"</string>
     <string name="Home_About">À propos</string>
-    <string name="Home_Item_Name_NumberSelect">????</string>
+    <string name="Home_Item_Name_NumberSelect">\?\?\?\?</string>
     <string name="Home_BackupTitle">Sauvegarde et restauration</string>
     <string name="Home_Backup">Sauvegarder</string>
     <string name="Home_Backup_Comment">Sauvegarde de %2$s V%3$s le %1$s</string>
@@ -969,7 +968,7 @@ Cliquez %s pour commencer le téléchargement la prochaine fois que vous êtes c
     <string name="HIPS_MasterKeyUpgrade">"active defense services require you to upgrade the LBE MasterKey patch to the updated version to normal operation.</string>
     <string name="HIPS_MasterKeyNotsupported">"MasterKey vulnerabilities detected have repair your system, LBE MasterKey vulnerability patch is no longer needed.</string>
     <string name="Phone">Blocage des appels et SMS</string>
-    <string name="Phone_Backup">??????</string>
+    <string name="Phone_Backup">\?\?\?\?\?\?</string>
     <string name="Phone_Setting">Paramètres de blocage</string>
     <string name="Phone_Carrier_CM">China mobile</string>
     <string name="Phone_Carrier_CU">China Unicom</string>
@@ -1480,7 +1479,6 @@ and active defense conflict"</string>
     <string name="Scan_Check_RunningApp_Name">%1$d Tâches en cours, mém. dispo. %2$s</string>
     <string name="Scan_Check_RunningApp_Fixed">%1$d tâches tués, %2$s mémoire libérée</string>
     <string name="Scan_Check_Virus_Never_Scan">Analyse antivirus jamais effectuée</string>
-    <string name="Scan_Check_Virus_Exist">Présence de virus</string>
     <string name="Scan_Check_Virus_Not_Exist">Pas de virus détecté</string>
     <string name="Scan_Check_Cache">Analyse cache</string>
     <string name="Scan_Check_Cache_Name">Cache examiné : %1$s au total</string>
@@ -2620,7 +2618,7 @@ Dernière modif:
     <string name= "Account_Change_Password">Changer le mot de passe</string>
     <string name= "Account_Changing_PW">Changement du mot de passe en cours, veuillez patienter</string>
     <string name= "Account_EULA">LBE security master, licence utilisateur</string>
-    <string name= "Account_EULA_Check">J'ai lu et j'accepte</string>
+    <string name= "Account_EULA_Check">J\'ai lu et j\'accepte</string>
     <string name= "Account_Feedback_Des">logged in to submit feedback, can receive service reply.</string> 
     <string name= "Account_Feedback_User">Hello, %1$s</string>
     <string name= "Account_Forum">LBE forum officiel</string>
@@ -2666,20 +2664,20 @@ Dernière modif:
     <string name= "AD_Adware_Contain_Desc">Application(s)</string>
     <string name= "AD_Block_Settings">Blocage des publicités</string>
     <string name= "AD_Contain_Ads">Application avec des publicités</string>
-    <string name= "Ad_Report_More">En signaler d'autres</string>
+    <string name= "Ad_Report_More">En signaler d\'autres</string>
     <string name= "AD_Scan_Adware_Total">%1$d applications analysées</string>
     <string name= "AD_Scan_Contain_Adware">&lt;font color=\"#e03311\">%1$d&lt;/font> applications contiennent des publicités</string>
-    <string name= "AD_Scanning">En cours d'analyse: %1$s</string>
+    <string name= "AD_Scanning">En cours d\'analyse: %1$s</string>
     <string name= "AV_Scan_Background">Analyse en tâche de fond</string>
-    <string name= "AV_Scan_Cancel">Annuler l'analyse</string>
+    <string name= "AV_Scan_Cancel">Annuler l\'analyse</string>
     <string name= "Generic_Fail">Echec</string>
     <string name= "HIPS_Dialog_Rootfree_Success">ROOT attribué avec succés !</string>
     <string name= "HIPS_Dialog_Starting_Rootfree">Démarrage du service ROOT</string>
     <string name= "HIPS_Dialog_Starting_Service">Ouverture de la Défense active</string>
     <string name= "HIPS_Dialog_Stopping_Service">Fermeture de la Défense active</string>
-    <string name= "HIPS_Dialog_Trying_Rootfree">Tentative d'application ROOT...</string>
+    <string name= "HIPS_Dialog_Trying_Rootfree">Tentative d\'application ROOT...</string>
     <string name= "HIPS_Readyfor_Patch">est prêt pour demander le patch système</string>
-    <string name= "Home_About_NoMarket">Désolé, pas de score disponible, votre mobile n'est pas connu dans la liste du marché.</string>
+    <string name= "Home_About_NoMarket">Désolé, pas de score disponible, votre mobile n\'est pas connu dans la liste du marché.</string>
     <string name= "Home_Backup_ByCloud">Sauvegarde dans le cloud</string>
     <string name= "Home_Backup_ByLocal">Sauvegarde locale</string>
     <string name= "Home_Backup_Date">Date de la sauvegarde:%1$s</string>
@@ -2689,8 +2687,8 @@ Dernière modif:
     <string name= "Home_Backup_ToCloud">Sauvegarde dans le cloud</string>
     <string name= "Home_Backup_ToCloud_Limit">Vous avez 10 sauvegardes dans le cloud, veuillez supprimer les sauvegardes superflues après cette sauvegarde.</string>
     <string name= "Home_Cloud_Sync">Envoyer dans le cloud</string>
-    <string name= "Home_Feedback_attachment">Ajouter des fichiers joints (génération automatique d'une log d'erreur)</string>
-    <string name= "Home_Feedback_TimeLimit">Le dernier envoi est récent, veuillez patienter %1$s avant d'envoyer à nouveau, merci !</string>
+    <string name= "Home_Feedback_attachment">Ajouter des fichiers joints (génération automatique d\'une log d\'erreur)</string>
+    <string name= "Home_Feedback_TimeLimit">Le dernier envoi est récent, veuillez patienter %1$s avant d\'envoyer à nouveau, merci !</string>
     <string name= "Home_Help">Assistance</string>
     <string name= "Home_JoinUs">Nous rejoindre</string>
     <string name= "Home_RateUs">Nous noter</string>
@@ -2726,7 +2724,7 @@ Dernière modif:
     <string name= "Pref_Adware_Realscan">Surveillance en temps réel des installations de nouvelles applications</string>
     <string name= "Pref_AV_Upload_Log">killing log upload</string>
     <string name= "Pref_AV_Upload_Log_On">Wifi networking, scan and upload the detection result and the basic information is scanned samples, help us improve the killing performance</string>
-    <string name= "Pref_Main_ConfigShortcutTools">Configurer l'outil de raccourci sur le bureau</string>
+    <string name= "Pref_Main_ConfigShortcutTools">Configurer l\'outil de raccourci sur le bureau</string>
     <string name= "Pref_Main_ConfigWhiteList">Configurer la liste blanche</string>
     <string name= "Pref_Main_CrateShortcut">Ajouter le raccourci de nettoyage sur le bureau</string>
     <string name= "Pref_Main_EnableSelfProtection">Enregistrer un mot de passe maitre</string>
@@ -2736,13 +2734,13 @@ Dernière modif:
     <string name= "Scan_Apps_Upgrade_Desc">%1$d application(s) peuvent être mises à jour</string>
     <string name= "Scan_No_App_Need_Upgrade">Toutes les applications sont à jour</string>
     <string name= "Scan_Upgrade">Mise à jour</string>
-    <string name= "Scan_Upgrading_Apps">Mise à jour d'application(s) en cours</string>
+    <string name= "Scan_Upgrading_Apps">Mise à jour d\'application(s) en cours</string>
     <string name= "SDClean_Clean_Text_No_Notification">Ne plus me rappeler</string>
     <string name= "SDClean_Clean_Text_Start_Function">Vous pouvez nettoyer la corbeille - la page de paramètre ouvrira de nouveau cette fonction</string>
     <string name= "SDClean_Clean_Wait_For_Cleaning">Attendre l\'analyse</string>
     <string name= "SoftMgr_Already_Downlaoded_Please_Install">a été téléchargé, cliquer sur Installer</string>
-    <string name= "SoftMgr_App_Upgrade_Tip">&lt;font color=\"#17A4F5\">%1$d la version de &lt;/font> l'application peut être mise à jour</string>
-    <string name= "SoftMgr_AppGrade">Mise à jour d'application</string>
+    <string name= "SoftMgr_App_Upgrade_Tip">&lt;font color=\"#17A4F5\">%1$d la version de &lt;/font> l\'application peut être mise à jour</string>
+    <string name= "SoftMgr_AppGrade">Mise à jour d\'application</string>
     <string name= "SoftMgr_AppGrade_Des">Mettre à jour l\'application avec la dernière version</string>
     <string name= "SoftMgr_AppGrade_Des_2">Mise à jour disponible (%1$d)</string>
     <string name= "SoftMgr_Data_Subregion">"Partition de données</string>
@@ -2753,7 +2751,7 @@ Dernière modif:
     <string name= "SoftMgr_Install">Installer</string>
     <string name= "SoftMgr_Install_Fail_Please_Retry">L\'installation a échoué, veuillez réessayer</string>
     <string name= "SoftMgr_Installing">Installation</string>
-    <string name= "SoftMgr_Installing_Please_Waiting">est en cours d'installation, veuillez patienter</string>
+    <string name= "SoftMgr_Installing_Please_Waiting">est en cours d\'installation, veuillez patienter</string>
     <string name= "SoftMgr_Network_Error_Please_Check_Then_Retry">Erreur de réseau, veuillez vérifier à nouveau</string>
     <string name= "SoftMgr_No_App_Need_Upgrade">Toutes les applications sont à jour !</string>
     <string name= "SoftMgr_Now_Installing">est en cours d\'installation</string>
@@ -2762,7 +2760,7 @@ Dernière modif:
     <string name= "SoftMgr_Request_Server_Data_Fail">Echec dans la demande de donnée !</string>
     <string name= "SoftMgr_Retry">Réessayer</string>
     <string name= "SoftMgr_SD_Storage_Text">Carte SD %1$s/%2$s</string>
-    <string name= "SoftMgr_Sdcard_Space_Not_Enough_Please_Clear_Some_Space_Then_Retry">L'espace disponible de la carte SD est insuffisant, veuillez réessayer après avoir libérer de l'espace</string>
+    <string name= "SoftMgr_Sdcard_Space_Not_Enough_Please_Clear_Some_Space_Then_Retry">L\'espace disponible de la carte SD est insuffisant, veuillez réessayer après avoir libérer de l\'espace</string>
     <string name= "SoftMgr_Start">Démarrer</string>
     <string name= "SoftMgr_Sys_Storage_Text">%1$s/%2$s</string>
     <string name= "SoftMgr_Sys_Subregion">"Partition système</string>
@@ -2778,9 +2776,9 @@ Dernière modif:
     <string name= "SogtMgr_Upgrade_Completed_Desc">Mise à jour terminée (%1$d)</string>
     <string name= "SysOpt_TaskMgr_Restart_Tip">has applications in repeated self start, please click on the application of the self start or join a clean-up banned white list</string>
     <string name= "SysOpt_WhiteList_Added">%1$d app has joined a clean white list</string>
-    <string name= "Tips_Auto_Block_Text">Vous avez plus d'1/3 des applications qui n'ont pas été configurées</string>
+    <string name= "Tips_Auto_Block_Text">Vous avez plus d\'1/3 des applications qui n\'ont pas été configurées</string>
     <string name= "Tips_Hips_New_App_Installed">Nouvelle application: %1$s recommande les permissions suivantes</string>
-    <string name= "Tips_SDClean_Text">Vous n'avez pas effectuer de nettoyage depuis plus d'une semaine</string>
+    <string name= "Tips_SDClean_Text">Vous n\'avez pas effectuer de nettoyage depuis plus d\'une semaine</string>
     <string name= "Tips_WebView_Loading_Text">est en cours de chargement, veuillez patienter...</string>
     <string name= "user_defined">Personnaliser</string>
   
