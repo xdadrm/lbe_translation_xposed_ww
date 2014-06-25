@@ -2764,7 +2764,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name= "AD_Contain_Ads">Anwendung enthält Werbung</string>
     <string name= "Ad_Report_More">mehr berichten</string>
     <string name= "AD_Scan_Adware_Total">gescannt%1$d Software</string>
-    <string name= "AD_Scan_Contain_Adware">&lt; font color=\"#e03311\">%1$d&lt; /font> Software einschließlich Werbung</string>
+    <string name= "AD_Scan_Contain_Adware">&lt;font color=\"#e03311\">%1$d&lt; /font> Software einschließlich Werbung</string>
     <string name= "AD_Scanning">gescannt sind:%1$s</string>
     <string name= "AV_Scan_Background">Scannen im Hintergrund</string>
     <string name= "AV_Scan_Cancel">Scannen abbrechen</string>
