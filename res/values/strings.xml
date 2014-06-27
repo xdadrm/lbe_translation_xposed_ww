@@ -2814,4 +2814,31 @@
     <string name= "Tips_WebView_Loading_Text">is loading, please wait...</string>
     <string name= "user_defined">Custom</string>
 
+    <!--  5.4.7506 -->
+    <string name= "AV_Canceling_Virus_Scan">canceling virus scan...</string>
+    <string name= "AV_Direct_Clear">directly clean</string>
+    <string name= "AV_Enable_Hips_Desc" >&lt;font color=\"#17A4F5\">%1$s&lt;/font> system pre installed software, need to open LBE active defense can be unloaded, after first open the active defense in the clean-up.</string>
+    <string name= "AV_Enable_Hips_Multi_Desc" >&lt;font color=\"#17A4F5\">%1$s&lt;/font> &lt;font color=\"#17A4F5\">%2$d&lt;/font> software pre installed software for the system, need to open LBE active defense to uninstall, suggest first open the active defense after cleaning.</string>
+    <string name= "AV_Go_Open">to open</string>
+    <string name= "AV_Scan_Already_Installed">scan installed:%1$s</string>
+    <string name= "AV_Scan_Sdcard">scan SD card:%1$s</string>
+    <string name= "Home_load_message_fail">loading message failure</string>
+    <string name= "Home_Message_Center">message center</string>
+    <string name= "Phone_Marker_Add_User_Markertype">add custom classification</string>
+    <string name= "Phone_marker_Alipay_HotLine">pay treasure only official hotline</string>
+    <string name= "Phone_Marker_Alipy_Swindled">suspected of false customer service telephone fraud</string>
+    <string name= "Phone_Marker_Dialog_Add_Marker_Type">please enter a custom name</string>
+    <string name= "Phone_Marker_Dialog_User_Defind">custom tag classification</string>
+    <string name= "Phone_Marker_Miui_Summary" >%1$d marked as &lt;font color=#ffb91e>%2$s&lt;font></string>
+    <string name= "Phone_Marker_User_Markertype_Empty">you haven\'t added custom number label classification</string>
+    <string name= "Phone_Marker_User_Summary">you have been marked as &lt;font color=#ffb91e>%1$s&lt;font></string>
+    <string name= "Phone_Open">open</string>
+    <string name= "Phone_User_Marker_Affirm_Delete">are you sure you want to delete the selected tag type?</string>
+    <string name= "Phone_User_Marker_Type">Manage custom tag classification</string>
+    <string name= "SDClean_Clean_Delete_Apk_Success" >%1$d was successfully removed useless the installation package</string>
+    <string name= "SoftMgr_All_Apps_Ignored">no software can be updated</string>
+    <string name= "SoftMgr_Period_Check">software update to remind</string>
+    <string name= "SoftMgr_Settings">software management set</string>
+    <string name= "Traffic_Calibration_No_Sim" >SIM card is temporarily unavailable or you do not have to insert the SIM card</string>
+
 </resources>

@@ -184,7 +184,11 @@ public class Translate_LBE implements IXposedHookZygoteInit, IXposedHookInitPack
 
        // Should only be loaded for LBE 5.1.4722 (and earlier ?)
        Integer older=0;
-       try { resparam.res.setReplacement(resparam.packageName, "string", "Update_VirusEngine_Title","Virus detection engine updates"); }
+       try { resparam.res.setReplacement(resparam.packageName, "string", "AV_Canceling_Virus_Scan","canceling virus scan..."); }
+         catch(RuntimeException e) { 
+         	older=3;
+         };
+         try { resparam.res.setReplacement(resparam.packageName, "string", "Update_VirusEngine_Title","Virus detection engine updates"); }
          catch(RuntimeException e) { 
          	older=2;
          };
@@ -196,10 +200,9 @@ public class Translate_LBE implements IXposedHookZygoteInit, IXposedHookInitPack
          
          if(older>0) { try { resparam.res.setReplacement(resparam.packageName, "string", "AV_Update_CurrentVer","Virus database version :%1$s"); } catch(RuntimeException e) { };
          }
- 
-         
-         if(older>2) {try{
-         Field field = R.array.class.getField("home_about_labels_6900");
+/* 
+         if(older<3) {try{
+         Field field = R.array.class.getField("home_about_labels_7301");
          String name = field.getName(); //name of string
          try{
          	int id = field.getInt(R.array.class); //id of string
@@ -209,6 +212,20 @@ public class Translate_LBE implements IXposedHookZygoteInit, IXposedHookInitPack
          	}
          } catch(RuntimeException e) { };
          }
+         
+         if(older<2) {try{
+         Field field = R.array.class.getField("home_about_labels_6900");
+         String name = field.getName(); //name of string
+         try{
+         	int id = field.getInt(R.array.class); //id of string
+         	try { resparam.res.setReplacement(resparam.packageName, "array", "home_about_labels",modRes.getStringArray(id)); } catch(RuntimeException e) { };
+         	}catch (Exception ex) {
+             //Simply ignore ...
+         	}
+         } catch(RuntimeException e) { };
+		}
+*/         
+
     }
     
 }
