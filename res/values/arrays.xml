@@ -491,7 +491,7 @@ There may be false positives"</item>
         <item>Join with us</item>
         <item>Special thanks</item>
     </string-array>
-    <string-array name="home_about_labels">
+    <string-array name="home_about_labels_7301">
         <item>Report Problem</item> 
         <item>Help (Chinese)</item> 
         <item>Software Updates</item> 
@@ -500,6 +500,18 @@ There may be false positives"</item>
         <item>Share with friends</item> 
         <item>About LBE security master</item>
     </string-array>
+
+    <string-array name="home_about_labels">
+        <item>Software Settings </item> 
+        <item>Message Center </item> 
+        <item>Software Update </item> 
+        <item>Help (Chinese)</item> 
+        <item>Feedback</item> 
+        <item>Praise to the Masters</item> 
+        <item>And friends to share master</item> 
+        <item>About LBE security master</item> 
+    </string-array> 
+    
     <string-array name="sdapk_sortypes">
         <item>Sort by Name</item>
         <item>Sort by size</item>
