@@ -1,6 +1,6 @@
 lbe_translation_xposed_ww
 =========================
-Translates LBE Security Master 5.1.xxxx  into various languages (Privacy Space and Antitheft in English for now).
+Translates LBE Security Master 5.1.xxxx - 5.3.7506 into various languages (Privacy Space and Antitheft in English for now).
 
 
 Tested with LBE 5.1.4722 thru 5.1.5446 ...
