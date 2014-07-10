@@ -118,7 +118,7 @@
     <string name="button_start_now">Jetzt starten</string>
     <string name="more_options">Mehr</string>
     <string name="copyright">"Copyright © 2012-2013 LBE Security Master All Rights Reserved"</string>
-    <string name="share_desc">Ich schütze mein Android Telefon mit LBE Security Master. Download Link: http://www.lbesec.com</string>
+    <string name="share_desc">Ich schütze mein Android Telefon mit LBE Security Master. Download Link http://www.lbesec.com</string>
     <string name="visit_website">Offizielle Seite besuchen</string>
     <string name="attention_sina_weibo">Folge uns</string>
     <string name="begin_use">Los gehts</string>
@@ -141,7 +141,7 @@
     <string name="close">schließen</string>
     <string name="delete">löschen</string>
     <string name="uninstall">deinstallieren</string>
-    <string name="miui_sms_block_desc">MIUI System Standart Priorität für SMS Empfang, wenn die möchten das LBE Security Master Spam SMS blockiert, müssen Sie folgendes konfigurieren:</string>
+    <string name="miui_sms_block_desc">MIUI System Standart Priorität für SMS Empfang, wenn die möchten das LBE Security Master Spam SMS blockiert, müssen Sie folgendes konfigurieren: </string>
     <string name="block_error_desc">Empfangsfehlerbeschreibung</string>
     <string name="call_phone_error">card or the network is not an exception, can not make calls!</string>
     <string name="block_error_tips_message">when intercepting Options \"Shutdown\", \"empty number\", \"Shutdown\"mode, if you encounter MMI code error, please call forwarding feature, you can directly dial direct telephone operator services launched (free of charge).</string>
@@ -159,7 +159,7 @@
     <string name="ad_scan_num">%1$d / %2$d</string>
     <string name="notification_contain_adware">\u0020 (mit Werbung)</string>
     <string name="notification_need_config_perm">\u0020 bereit zur Konfiguration</string>
-    <string name="special_thanks">Besonderer Dank geht an: und anderen Nutzern, Übersetzung ins Deutsche von VuHien, Korrektur von Xda_drm</string>
+    <string name="special_thanks">Besonderer Dank geht: Übersetzung ins Deutsche von VuHien und Henry2o1o, Korrektur von Xda_drm</string>
     <string name="thanks_tips">Vielen Dank für diesen schönen User Help LBE Fortschritt ^ _ ^</string>
     <string name="AD_Adware_Number_Contain">%1$d Adware(s) enthalten</string>
     <string name="AD_AdwareApp_Number">%1$d Adware-haltige App(s)</string>
@@ -179,9 +179,9 @@
     <string name="AD_Behavior_Open_Camera">- Kamera</string>
     <string name="AD_Behavior_Write_Browser_Bookmark">- Browserlesezeichen hinzufügen</string>
     <string name="AD_Behavior_Send_SMS">- Senden von SMS</string>
-    <string name="AD_Behavior">Werbung hat Zugriff auf:</string>
+    <string name="AD_Behavior">Werbung hat Zugriff auf: </string>
     <string name="AD_Plugin">Werbung</string>
-    <string name="AD_Style">Werbetypen:</string>
+    <string name="AD_Style">Werbetypen: </string>
     <string name="AD_Style_Notification">- Benachrichtigungsleiste</string>
     <string name="AD_Style_Banner">- Banner</string>
     <string name="AD_Style_Credits_Wall">- Popup (mit Eingabe)</string>
@@ -224,7 +224,7 @@
     <string name="AD_Scan_Again">auf Werbung untersuchen</string>
     <string name="AD_Install_App">Liste verfügbarer Apps</string>
     <string name="AD_Sys_App">System App</string>
-    <string name="AD_Number_App">Anwendung(en) mit Werbung gefunden</string>
+    <string name="AD_Number_App">App(s) mit Werbung gefunden</string>
     <string name="AV_Title">Anti-Virus</string>
     <string name="AV_FastScan">Schneller-Scan</string>
     <string name="AV_FastScan_Des">Schnelle Durchsuchung der install. Apps</string>
@@ -339,7 +339,7 @@
     <string name="Battery_Condition_AppForeground">App im Vordergrund</string>
     <string name="Battery_Condition_AppBackground">App im Hinergrund</string>
     <string name="Battery_Condition_Can_Use">Sie können auch</string>
-    <string name="Battery_Action_KillSelf_ByLauncher">Diese Anwendung beendet reinigen ihr Hintergrund</string>
+    <string name="Battery_Action_KillSelf_ByLauncher">Diese App beendet reinigen des Hintergrundes</string>
     <string name="Battery_Action_KillApp">Taskkiller</string>
     <string name="Battery_Action_LimitCPU">CPU Taktfrequenz beschränken</string>
     <string name="Battery_Action_PlayNotif">Ton abspielen</string>
@@ -615,7 +615,7 @@
     <string name="delete_fail">Löschen fehlgeschlagen</string>
     <string name="add_fail">In fehlgeschlagen</string>
     <string name="exit_edit_mode_to_add">Verlassen Sie den Bearbeitungsmodus hinzufügen</string>
-    <string name="can_not_launch_app">Anwendung kann nicht gestartet ist, kann nicht installiert oder deinstalliert wurde</string>
+    <string name="can_not_launch_app">App kann nicht gestartet ist, kann nicht installiert oder deinstalliert wurde</string>
     <string name="lbe_function_item">LBE funktionale Elemente</string>
     <string name="one_key_clear_already_add_to_desktop">Taskkiller wurde auf dem Homescreen verlinkt</string>
     <string name="Shortcut_Desc">LBE Security Master wird aktualisiert!</string>
@@ -1006,7 +1006,7 @@ Mit dem Absenden einer Betreiber Abfrage per SMS, kalibriert die App automatisch
     <string name="Patch_Download_Failure">Konnte das System bekommen, um Ihr Handy passen Patch, bitte versuchen Sie es später noch einmal</string>
     <string name="Patch_Download_Cancelled">Gelöscht</string>
     <string name="Patch_Title">MasterKey Schwachstellen existieren auf Ihrem System</string>
-    <string name="Patch_Description">MasterKey Risiko Schwachstelle ermöglicht Hackern zum Einschleusen beliebigen Anwendung wird Trojanern, falls Sie nicht wissen, die vollständige Kontrolle über Ihr Telefon sind, stehlen Privatsphäre und Saug-Gebühren LBE Master Key Patches auf Ihrem Handy installiert werden kann das Immunsystem Schwachstelle helfen kann dieser Patch unabhängig laufen gelassen werden von der LBE Security Master, sofort zu reparieren</string>
+    <string name="Patch_Description">MasterKey Risiko Schwachstelle ermöglicht Hackern zum Einschleusen beliebigen Aapps wird Trojanern, falls Sie nicht wissen, die vollständige Kontrolle über Ihr Telefon sind, stehlen Privatsphäre und Saug-Gebühren LBE Master Key Patches auf Ihrem Handy installiert werden kann das Immunsystem Schwachstelle helfen kann dieser Patch unabhängig laufen gelassen werden von der LBE Security Master, sofort zu reparieren</string>
     <string name="Patch_Description_RootFree">MasterKey Risiko Schwachstelle ermöglicht Hackern zum Einschleusen beliebigen Anwendung wird Trojanern, falls Sie nicht wissen, die vollständige Kontrolle über Ihr Telefon sind, stehlen Privatsphäre und Saug-Gebühren LBE Master Key Patches auf Ihrem Handy installiert werden kann das Immunsystem Schwachstelle helfen kann dieser Patch unabhängig laufen gelassen werden aus erfordern die LBE Security Master Kostenlose ROOT aktive Verteidigung Dienstleistungen, die Sie den ersten fix diese Sicherheitsanfälligkeit, please fix diese Sicherheitsanfälligkeit</string>
     <string name="Patch_Query_Upload_Info">Kontaktaufnahme mit der Wolke für Reparatur-Programm</string>
     <string name="Patch_Query_Download_Info">Holen Reparatur-Programm</string>
@@ -1434,7 +1434,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="HIPS_App_New">Bitte Berechtigungen für \"%1$s\" konfigurieren</string>
     <string name="HIPS_App_NewApp">Tippen für \"%1$s\" Berechtigungen</string>
     <string name="HIPS_App_NewApps">Rechte für %1$d App(s) einstellen</string>
-    <string name="HIPS_App_NewAppsWithAdware">Rechte von %1$d App(s) (%2$d mit Werbung) prüfen</string>
+    <string name="HIPS_App_NewAppsWithAdware">Rechte von %1$d App(s)(%2$d mit Werbung) prüfen</string>
     <string name="HIPS_App_New_Installed">\"%1$s\" wurde installiert</string>
     <string name="HIPS_App_New_Configure">Tippen um App-Berechtigungen zu konfigurieren</string>
     <string name="HIPS_App_New_Configure_NoVirus">Keine Bedrohung gefunden, tippen um App-Berechtigungen zu konfigurieren</string>
@@ -1668,7 +1668,7 @@ Allerdings wird die System-Level-Anrufblockierungs Funktion nur von einigen Mode
     <string name="Scan_Check_Service">Autostart-Einstellungen von Sicherheitsdiensten überprüfen</string>
     <string name="Scan_Check_Service_Name">LBE Secruity Master mit Gerät starten</string>
     <string name="Scan_Check_RunningApp">Überprüfe aktive Tasks</string>
-    <string name="Scan_Check_RunningApp_Noroot">Anwendungen im Hintergrund wurden überprüft</string>
+    <string name="Scan_Check_RunningApp_Noroot">Apps im Hintergrund wurden überprüft</string>
     <string name="Scan_Check_RunningApp_Name">%1$d aktive App(s), %2$s frei</string>
     <string name="Scan_Check_RunningApp_Fixed">%1$d App(s) beendet, %2$s freigegeben</string>
     <string name="Scan_Check_Cache_App">App Cache: %1$s</string>
@@ -1912,8 +1912,8 @@ Zuletzt geändert:
     <string name="SysOpt_TaskMgr_Best_State_Tips">keine Optimierung nötig</string>
     <string name="SysOpt_Boost">Autostart</string>
     <string name="SysOpt_Boost_Des">automatisches starten von Apps verwalten</string>
-    <string name="SysOpt_Boost_AppWidget">Sie verwenden %1$s Widgets. Um Launcher Abstürze zu vermeiden, wird der Auto-Start-Manager Anwendungen mit einem Widget im Einsatz nicht blockieren. Bitte versuchen Sie es neu nach dem Entfernen des %1$s Widgets.</string>
-    <string name="SysOpt_Boost_Service">Das System nutzt %1$s für wichtige Dienstleistungen (Input-Methode, etc.). Um zu vermeiden, das Ihr Telefon nicht verlangsamt wird, wird der Auto-Start-Manager diese Anwendungen nicht blockieren.</string>
+    <string name="SysOpt_Boost_AppWidget">Sie verwenden %1$s Widgets. Um Launcher Abstürze zu vermeiden, wird der Auto-Start-Manager Apps mit einem Widget im Einsatz nicht blockieren. Bitte versuchen Sie es neu nach dem Entfernen des %1$s Widgets.</string>
+    <string name="SysOpt_Boost_Service">Das System nutzt %1$s für wichtige Dienstleistungen (Input-Methode, etc.). Um zu vermeiden, das Ihr Telefon nicht verlangsamt wird, wird der Auto-Start-Manager diese Apps nicht blockieren.</string>
     <string name="SysOpt_Boost_ShowSystem">"WARNUNG!
 Ändern der System App Einstellungen kann Ihr Telefon unbrauchbar machen.
 Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
@@ -1957,7 +1957,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SysOpt_ThumbFile">%1$d Miniaturansichten</string>
     <string name="SysOpt_Des_ThumbFile">Miniaturansichten vom System generiert</string>
     <string name="SysOpt_LogFile">%1$d Debug-Dateien</string>
-    <string name="SysOpt_Des_LogFile">Debug-Dateien die generiert werden, wenn Anwendungen laufen</string>
+    <string name="SysOpt_Des_LogFile">Debug-Dateien die generiert werden, wenn Apps laufen</string>
     <string name="SysOpt_WindowFile">%1$d Desktop-System-Konfigurationsdateien</string>
     <string name="SysOpt_Des_WindowFile">Konfigurationsdateien von Desktop-System generiert</string>
     <string name="SysOpt_TaskMgr_WhiteWithWidgets_Remove">The existence of a desktop application or system component plug-ins, removed from the whitelist</string>
@@ -2158,13 +2158,13 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="AV_LocalUpdate_Des">installierte Version: %1$s</string>
     <string name="AV_NoResult">regelmäßiges Scannen wird empfohlen</string>
     <string name="AV_NoScan">bisher nicht nach Viren gesucht</string>
-    <string name="AV_NoVirus1">ihr Gerät ist sicher</string>
-    <string name="AV_NoVirus2">scannen sie regelmäßig</string>
+    <string name="AV_NoVirus1">Ihr Gerät ist sicher</string>
+    <string name="AV_NoVirus2">scannen sie regelmäßig!</string>
     <string name="AV_PackPattern">Viren Muster Datenbank</string>
-    <string name="AV_PackPattern_Des">viren Datenbank auf SD Karte installiert</string>
+    <string name="AV_PackPattern_Des">Viren Datenbank auf SD Karte installiert</string>
     <string name="AV_PackPattern_NoSD">Fehler: keine SD Karte erkannt</string>
-    <string name="AV_PackPattern_OVER">viren Datenbank auf $1%s aktualisiert</string>
-    <string name="AV_ScanFail">Fehler: möglicherweise ist die Virendankenbank nicht aktuell. Es wird empfohlen nach einem Update zu suchen.</string>
+    <string name="AV_PackPattern_OVER">Viren Datenbank auf $1%s aktualisiert</string>
+    <string name="AV_ScanFail">Fehler! Möglicherweise ist die Virendankenbank nicht aktuell. Es wird empfohlen nach einem Update zu suchen.</string>
     <string name="AV_ScanProgress">Hintergrund-Scan: %1$s</string>
     <string name="Battery_Settings">Energiespar Einstellungen</string>
     <string name="Battery_Error_TooShortTimePeriod">Start- und Endzeit zu nah beieinander, bitte ändern.</string>
@@ -2240,8 +2240,8 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Traffic_Mobile_Set_DataPlan">Limit:</string>
     <string name="SysOpt_TaskMgr_WhiteWithAlarm_Clean">Schließen der APP beendet die Alarmfunktion</string>
     <string name="SysOpt_TaskMgr_WhiteWithAlarm_Remove">App nutzt Alarm. Ban aus Whitelist entfernt?</string>
-    <string name="SysOpt_TaskMgr_WhiteWithLauncher_Clean">Diese Anwendung für Desktops oder Mini-desktop-Anwendung, Herunterfahren kann desktopNeustart führen.</string>
-    <string name="SysOpt_TaskMgr_WhiteWithLauncher_Remove">Diese Anwendung ist eine Desktop- oder Mini-Desktop-Anwendungen, Verbot von der Whitelist entfernt</string>
+    <string name="SysOpt_TaskMgr_WhiteWithLauncher_Clean">Diese App für Desktops- oder Minidesktopapps, kann zum herunterfahren und Desktopneustart führen.</string>
+    <string name="SysOpt_TaskMgr_WhiteWithLauncher_Remove">Diese app ist eine Desktop oder Minidesktopapp, Verbot von der Whitelist entfernt</string>
     <string name="SoftMgr_SysUninstall_Des">vorinstallierte System App</string>
     <string name="SoftMgr_SysUninstall_Restore_Failed">fehlgeschlagen</string>
     <string name="SoftMgr_SysUninstall_Restore_Successfully">erfolgreich</string>
@@ -2333,7 +2333,6 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="Plugin_ATP_Is_Security_Phone">Sicherheit des Geräts</string>
     <string name="Plugin_ATP_Name" >LBE Diebstahlschutz Dienst</string>
     <string name="Plugin_ATP_Number_Empty">Telefon Nummer darf nicht leer sein.</string>
-    <string name="Plugin_ATP_on_checked_hint">Sie sind ohne Passwort in den Sicherheitseinstellungen, bitte bestätigen sie ihre Telefonnummer</string>
     <string name="Plugin_ATP_Password">Diebstahlschutz Password des gestohlenen Geräts</string>
     <string name="Plugin_ATP_Phone_Number">Telefonnummer des gestohlene Gerät</string>
     <string name="Plugin_ATP_Psw_Empty">Password für gestohlenes Gerät darf nicht leer sein.</string>
@@ -2672,7 +2671,7 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name="SoftMgr_SysUninstall_May_Uninstall">kann deinstalliert werden</string>
     <string name="SoftMgr_SysUninstall_May_Uninstall_Not_Found">has not for the present the system that the discovery can unload to apply</string>
     <string name="SysOpt_TaskMgr_Clearable">löschen</string>
-    <string name="SysOpt_TaskMgr_InternalWhiteList_Remove">Nachdem entfernen von der weißen Liste wird die Anwendung geschlossen.</string>
+    <string name="SysOpt_TaskMgr_InternalWhiteList_Remove">Nachdem entfernen von der weißen Liste wird die App geschlossen.</string>
     <string name="Traffic_Unit">(Mb)</string>
     <string name="Update_Component_Epayguard">Schutz für Bezahldienste</string>
     <string name="Update_Epayguard">Update für Bezahldienst Schutz</string>
@@ -2759,13 +2758,13 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name= "Account_Third_Login_Warning">"you are currently using third party account login, not in the machine change nickname and password, please go to the%1$s to modify the nickname and password.</string>
     <string name= "Account_title">Kontrollzentrum</string>
     <string name= "Account_User_Login">Benutzer Login</string>
-    <string name= "AD_Adware_Contain_Desc">Anwendungs Anzeige</string>
+    <string name= "AD_Adware_Contain_Desc">Apps erkannt</string>
     <string name= "AD_Block_Settings">Werbeblocker gesetzt</string>
-    <string name= "AD_Contain_Ads">Anwendung enthält Werbung</string>
+    <string name= "AD_Contain_Ads">App enthält Werbung</string>
     <string name= "Ad_Report_More">mehr berichten</string>
-    <string name= "AD_Scan_Adware_Total">%1$d Anwendung(en) gescannt</string>
-    <string name= "AD_Scan_Contain_Adware">&lt;font color=\"#e03311\">%1$d&lt;/font> Anwebdungen einschließlich Werbung</string>    
-    <string name= "AD_Scanning">gescannt sind: %1$s Anwendungen</string>
+    <string name= "AD_Scan_Adware_Total">%1$d Apps(s) gescannt</string>
+    <string name= "AD_Scan_Contain_Adware">&lt;font color=\"#e03311\">%1$d&lt;/font> App(s) sind mit Werbung</string>    
+    <string name= "AD_Scanning">gescannt sind: %1$s</string>
     <string name= "AV_Scan_Background">Scannen im Hintergrund</string>
     <string name= "AV_Scan_Cancel">Scannen abbrechen</string>
     <string name= "Generic_Fail">Störung</string>
@@ -2869,14 +2868,44 @@ Um fortzufahren, tippen Sie auf die Entsperrtaste"</string>
     <string name= "SoftMgr_Upgrade">Aktualisierung</string>
     <string name= "SoftMgr_Upgrade_Completed">Aktualisierung ist abgeschlossen</string>
     <string name= "SoftMgr_Upgrade_Notification_Desc">Klicken Sie auf Länder Daten upgrade %1$s</string>
-    <string name= "SoftMgr_Upgrade_Notification_Title">%1$d Anwendungen erkannt, die aktualisiert wurden</string>
+    <string name= "SoftMgr_Upgrade_Notification_Title">%1$d App(s) erkannt, die aktualisiert wurde(n)</string>
     <string name= "SoftMgr_Version_Desc">%1$s-%2$s</string>
     <string name= "SogtMgr_Upgrade_Completed_Desc">Aktuallisierung wird beendet (%1$d)</string>
     <string name= "SysOpt_TaskMgr_Restart_Tip">has applications in repeated self start, please click on the application of the self start or join a clean-up banned white list</string>
-    <string name= "SysOpt_WhiteList_Added">%1$d Anwendungen wurden zur weißen Liste hinzugefügt</string>
+    <string name= "SysOpt_WhiteList_Added">%1$d App(s) wurden zur weißen Liste hinzugefügt</string>
     <string name= "Tips_Auto_Block_Text">Sie haben mehr als 1/3 der Software in den Berechtigungen nicht konfiguriert!</string>
-    <string name= "Tips_Hips_New_App_Installed">%1$s neue Anwendung(en) für empfohlene Konfiguration der Berechtigung</string>
+    <string name= "Tips_Hips_New_App_Installed">%1$s neue App(s) für empfohlene Konfiguration der Berechtigung</string>
     <string name= "Tips_SDClean_Text">Sie haben mehr als eine Woche keine Junkreinigung durchgeführt!</string>
     <string name= "Tips_WebView_Loading_Text">Wird geladen, bitte warten</string>
     <string name= "user_defined">Custom</string>
+    
+            <!-- 5.2.7301 --> 
+            <!-- add      --> 
+
+    <string name="AV_Scan_Already_Installed">Scanner bereits installiert: %1$s</string>
+    <string name="AV_Scan_Sdcard">SD-Karte scannen: %1$s</string>
+    <string name="AV_Canceling_Virus_Scan">Scannen abgebrochen...</string>
+    <string name="AV_Go_Open">Zum Öffnen</string>
+    <string name="AV_Direct_Clear">Direkt Bereinigen</string>
+    <string name="AV_Enable_Hips_Desc">&lt;font color=\"#17A4F5\">%1$s&lt;/font>Für das System vorinstalliert-Software, um die LBE aktive Verteidigung zu öffnen, um zu deinstallieren müssen, wird empfohlen, zu bereinigen, nachdem Sie in der aktiven Verteidigung.</string>
+    <string name="AV_Enable_Hips_Multi_Desc">&lt;font color=\"#17A4F5\">%1$s&lt;/font>?&lt;font color=\"#17A4F5\">%2$d&lt;/font>Modelle für die Systemsoftware vorinstalliert-Software, um die LBE aktive Verteidigung zu öffnen, um zu deinstallieren müssen, wird empfohlen, zu bereinigen, nachdem Sie in der aktiven Verteidigung.</string>
+    <string name="Home_load_message_fail">Nachricht konnte nicht geladen werden</string>
+    <string name="Home_Message_Center">Nachrichten Center</string>
+    <string name="Phone_User_Marker_Type">Verwalten benutzerdefinierten Tags Klassifizierung</string>
+    <string name="Phone_Marker_Dialog_User_Defind">Benutzerdefinierten Tags Klassifizierung</string>
+    <string name="Phone_Marker_Dialog_Add_Marker_Type">Bitte geben Sie einen benutzerdefinierten Namen ein</string>
+    <string name="Phone_Marker_Miui_Summary">%1$d 2Menschen wie beschriftet"&lt;font color=#ffb91e>%2$s&lt;font></string>
+    <string name="Phone_Marker_User_Summary">Sie haben als markiert &lt;font color=#ffb91e>%1$s&lt;font></string>
+    <string name="Phone_Marker_Alipy_Swindled">Verdacht auf gefälschte Anruf Betrug</string>
+    <string name="Phone_marker_Alipay_HotLine">Paypal einzige offizielle Hotline</string>
+    <string name="Phone_Marker_Add_User_Markertype">Fügen Sie benutzerdefinierte Kategorien</string>
+    <string name="Phone_Marker_User_Markertype_Empty">Sie haben noch keine fügte ein benutzerdefiniertes Tag Klassifikationsnummern</string>
+    <string name="Phone_User_Marker_Affirm_Delete">Sind Sie sicher, dass Sie den ausgewählten Tag-Typ es löschen?</string>
+    <string name="Phone_Open">Oeffnen</string>
+    <string name="Plugin_ATP_on_checked_hint">Bitte sorgfältig prüfen, ob die Zahl ist sicher Telefonnummer an!</string>
+    <string name="SDClean_Clean_Delete_Apk_Success">Erfolgreich gelöscht %1$d nutzlose Installationspaket</string>
+    <string name="SoftMgr_All_Apps_Ignored">Keine Software kann aktualisiert werden</string>
+    <string name="SoftMgr_Settings">Software-Management-Einstellungen</string>
+    <string name="SoftMgr_Period_Check">Software-Upgrades, um daran zu erinnern,</string>
+ 
 </resources>
