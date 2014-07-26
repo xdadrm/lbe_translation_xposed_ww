@@ -22,26 +22,13 @@
         <item>hinzufügen aus SMS-Liste</item>
         <item>manuell hinzufügen</item>
     </string-array>
-    <string-array name="select_sim">
-        <item>von SIM1</item>
-        <item>von SIM2</item>
-    </string-array>
-    <string-array name="stopmsgtype_options">
-        <item>intelligenter Block-Modus</item>
-        <item>nur Schwarze Liste blockieren</item>
-        <item>nur von Weißer Liste empfangen</item>
-        <item>alle blockieren</item>
-        <item>alle erhalten</item>
-        <item>nur von Kontakten zulassen</item>
-        <item>manuell konfigurieren</item>
-    </string-array>
     <string-array name="endcalltype">
         <item>ausgeschaltet</item>
         <item>nicht vorhanden</item>
         <item>außer Betrieb</item>
         <item>beschäftigt</item>
     </string-array>
-    <string-array name="stopcalltype_values">
+    <string-array name="endcalltype_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -114,20 +101,20 @@
         <item>30</item>
         <item>31.</item>
     </string-array>
-    <string-array name="msglog_oparete">
+    <string-array name="msglog_operate">
         <item>mit SMS antworten</item>
-        <item>Nummer anrufen</item>
+        <item>diese Nummer anrufen</item>
         <item>zur weißen Liste hinzufügen</item>
-        <item>zur schwarzen Liste hinzugfügen</item>
+        <item>zur schwarzen Liste hinzufügen</item>
         <item>Bericht</item>
-      </string-array>
-    <string-array name="calllog_oparete">
+    </string-array>
+    <string-array name="calllog_operate">
         <item>löschen</item>
-        <item>mit SMS antworten</item>
-        <item>Nummer anrufen</item>
-        <item>zur weißen Liste hinzugfügen</item>
-        <item>zur schwarzen Liste hinzugfügen</item>
-        <item>zur Anruferliste hinzufügen</item>
+        <item>Reply SMS</item>
+        <item>diese Nummer anrufen</item>
+        <item>zur weißen Liste hinzufügen</item>
+        <item>zur schwarzen Liste hinzufügen</item>
+        <item>Nummer im Protokol wiederherstellen</item>
     </string-array>
     <string-array name="preference_stopcalltype_options">
         <item>Nacht-Modus aus</item>
@@ -152,12 +139,6 @@
         <item>Kürzlich kontaktiert</item>
         <item>Schlüsselwörter</item>
         <item>Intelligente Blockierung</item>
-    </string-array>
-    <string-array name="user_phone_defined">
-        <item>Weiße Liste</item>
-        <item>Schwarze Liste</item>
-        <item>Kontakte</item>
-        <item>Kürzlich kontaktiert</item>
     </string-array>
     <string-array name="select_allow">
         <item>zulassen</item>
@@ -243,39 +224,27 @@
         <item>AdWare | Kategorie: Werbung</item>
         <item>RiskWare | Kategorie: riskante Software</item>
         <item>Tool | Kategorie: Riskantes Tool</item>
-        <item>"prv | Datenschutz: Datendiebstahl"</item>
-        <item>"rmt | Fernsteuerung: Fernsteuerung der Gerätefunktionen durch Remote-Server"</item>
+        <item>prv | Datenschutz: Datendiebstahl</item>
+        <item>rmt | Fernsteuerung: Fernsteuerung der Gerätefunktionen durch Remote-Server</item>
         <item>pay | Bösartige Dienstleistung</item>
         <item>spr | Bösartiger Code</item>
-        <item>"exp | Traffic Verbrauch: Traffic durch Internet Zugang oder Messaging"</item>
-        <item>"sys | System Beschädigung: Verursacht instabilität des Systems"</item>
-        <item>"fra | Betrug: Gefälschte SMS Geblockte SMS"</item>
-        <item>"rog | Böswilliges Verhalten: Verbrauch von Systemressourcen z.B Werbe-Pop-ups"</item>
-        <item>"sms | Böswilliges Verhalten: SMS-Versand"</item>
-        <item>"spy | Böswilliges Verhalten: Spyware"</item>
-        <item>"bkd | Böswilliges Verhalten: Hintertüren"</item>
-        <item>"rtt | Böswilliges Verhalten: Fernsteuerung"</item>
+        <item>exp | Traffic Verbrauch: Traffic durch Internet Zugang oder Messaging</item>
+        <item>sys | System Beschädigung: Verursacht instabilität des Systems</item>
+        <item>fra | Betrug: Gefälschte SMS Geblockte SMS</item>
+        <item>rog | Böswilliges Verhalten: Verbrauch von Systemressourcen z.B Werbe-Pop-ups</item>
+        <item>sms | Böswilliges Verhalten: SMS-Versand</item>
+        <item>spy | Böswilliges Verhalten: Spyware</item>
+        <item>bkd | Böswilliges Verhalten: Hintertüren</item>
+        <item>rtt | Böswilliges Verhalten: Fernsteuerung</item>
         <item>gen | Heuristiken und Regeln von Breitspektrum-Erkennung</item>
         <item>ads | Werbung enthalten</item>
         <item>default | Unbekannte Bedrohung</item>
-    </string-array>
-    <string-array name="traffic_cell_type">
-        <item>nach monatlichem Verbrauch</item>
-        <item>nach heutigem Verbrauch</item>
-        <item>nach App Name</item>
     </string-array>
     <string-array name="calibration_period">
         <item>alle 3 Tage</item>
         <item>wöchentlich</item>
         <item>täglich</item>
         <item>eigener Zeitraum</item>
-    </string-array>
-    <string-array name="showpowerquantitylower">
-        <item>10%</item>
-        <item>20%</item>
-        <item>30%</item>
-        <item>40%</item>
-        <item>50%</item>
     </string-array>
     <string-array name="auto_update_period">
         <item>aus</item>
@@ -302,63 +271,6 @@
         <item>alle nachfragen</item>
         <item>alle verweigern</item>
     </string-array>
-    <string-array name="hips_batch_operation_ar">
-        <item>alle zulassen</item>
-        <item>alle verweigern</item>
-    </string-array>
-    <string-array name="defaultfilesuffix">
-        <item>epub</item>
-        <item>chm</item>
-        <item>ndk</item>
-        <item>umd</item>
-        <item>pdf</item>
-    </string-array>
-    <string-array name="filesuffix">
-        <item>avi</item>
-        <item>wmv</item>
-        <item>flv</item>
-        <item>mov</item>
-        <item>3gp</item>
-        <item>mp4</item>
-        <item>mpg</item>
-        <item>rmvb</item>
-        <item>mp3</item>
-        <item>wav</item>
-        <item>wma</item>
-        <item>mid</item>
-        <item>flac</item>
-        <item>LRC</item>
-        <item>m4a</item>
-        <item>KRC</item>
-        <item>apk</item>
-        <item>f4v</item>
-        <item>dat</item>
-        <item>tsk</item>
-        <item>db3</item>
-    </string-array>
-    <integer-array name="filesuffix_id">
-        <item>1</item>
-        <item>2</item>
-        <item>4</item>
-        <item>8</item>
-        <item>16</item>
-        <item>32</item>
-        <item>64</item>
-        <item>128</item>
-        <item>256</item>
-        <item>512</item>
-        <item>1024</item>
-        <item>2048</item>
-        <item>4096</item>
-        <item>8192</item>
-        <item>16384</item>
-        <item>32768</item>
-        <item>65536</item>
-        <item>131072</item>
-        <item>262144</item>
-        <item>524288</item>
-        <item>1048576</item>
-    </integer-array>
     <string-array name="misscalltype">
         <item>Klingelton und Vibration</item>
         <item>Klingelton</item>
@@ -382,10 +294,6 @@
     <string-array name="desktop_home_launch_mode">
         <item>startet bei einmaligen Antippen</item>
         <item>startet bei doppeltem Antippen</item>
-    </string-array>
-    <string-array name="lbe_shortcut_start_mode">
-        <item>Benachrichtigungleiste</item>
-        <item>Homescreen Verknüpfung</item>
     </string-array>
     <string-array name="blocklog_save_time">
         <item>eine Woche</item>
@@ -430,11 +338,6 @@
         <item>Telefonnummern</item>
         <item>SMS</item>
     </string-array>
-    <string-array name="battery_scene_killtask_interval_values">
-        <item>1</item>
-        <item>5</item>
-        <item>10</item>
-    </string-array>
     <string-array name="anti_adware_user_feedback_type">
         <item>Werbung trotz Blocken sichtbar</item>
         <item>keine Adware gefunden</item>
@@ -442,49 +345,14 @@
         <item>Schließen wird nicht auf dem WerbeBanner angezeigt</item>
         <item>abbrechen</item>
     </string-array>
-    <string-array name="desktop_float_toggles_labels">
-        <item>Flugmodus</item>
-        <item>Bluetooth</item>
-        <item>Helligkeit</item>
-        <item>Touch</item>
-        <item>Synchronisation</item>
-        <item>WiFi</item>
-        <item>GPS</item>
-        <item>Mobile Daten</item>
-        <item>Bildschirm Drehung</item>
-    </string-array>
-    <string-array name="homepage_more_options_labels">
-        <item>Anti Virus</item>
-        <item>Rechteverwaltungsdinst</item>
-        <item>Benachrichtigungen verwalten</item>
-        <item>Privacy Space</item>
-        <item>Telefonnummern blockieren</item>
-        <item>Anti Diebstahl</item>
-        <item>Kommunikations Tools</item>
-        <item>Backup und Wiederherstellung</item>
-    </string-array>
-    <string-array name="home_settings_labels">
-        <item>Einstellungen für Homescreen Symbol</item>
-        <item>Verlinkung für automatischen Taskkiller auf dem Homescreen erstellen</item>
-        <item>Weiße Liste (Ausnahmen) für Taskkiller</item>
-        <item>Passwortschutz</item>
-        <item>Systemeinstellungen</item>
-    </string-array>
-        <string-array name="home_about_labels_6900">
-        <item>auf Updates prüfen\u0020</item>
+    <string-array name="home_about_labels">
+        <item>Software Einstellungen</item>
+        <item>Nachrichten Center</item>
+        <item>auf Updates prüfen</item>
+        <item>Hilfe (Chinese)</item>
         <item>Feedback</item>
         <item>LBE im Playstore</item>
         <item>mit Freunden teilen</item>
-        <item>LBE Community</item>
-    </string-array>
-    <string-array name="home_about_labels">
-        <item>Problem Melden</item> 
-        <item>Hilfe (Chinese)</item> 
-        <item>auf Updates prüfen\u0020</item> 
-        <item>Software settings</item> 
-        <item>LBE im Playstore</item> 
-        <item>mit Freunden teilen</item> 
-        <item>LBE Community</item>
     </string-array>
     <string-array name="sdapk_sortypes">
         <item>nach Name sortieren</item>
@@ -522,11 +390,6 @@
     <string-array name="hipsapk_types">
         <item>Benutzer verwaltete App(s)</item>
         <item>LBE verwaltete App(s)</item>
-    </string-array>
-    <string-array name="scan_item_type">
-        <item>Telefonie und Tasks</item>
-        <item>Apps</item>
-        <item>LBE und Komponenten</item>
     </string-array>
     <string-array name="toggles_add_options">
         <item>schnelle Schalter</item>
@@ -616,21 +479,20 @@
         <item>Front Kamera</item>
         <item>Auflösung</item>
         <item>Material</item>
-     </string-array>
-     <string-array name="app_install_manage_mode_title">
+    </string-array>
+    <string-array name="app_install_manage_mode_title">
         <item>alle Installationen zulassen</item>
         <item>vor Installation nachfragen</item>
         <item>vor Installation nachfragen (Cloud Daten nutzen)</item>
         <item>alle Installationen blockieren</item>
-      </string-array>
-      <string-array name="app_install_manage_mode_desc">
+    </string-array>
+    <string-array name="app_install_manage_mode_desc">
         <item>Installation erlauben und benachrichtigen.</item>
         <item>Benutzer muss Installation bestätigen.</item>
         <item>Entscheidung auf Basis von Cloud Daten wenn Gerät inaktiv</item>
         <item>Installation jeder App wird blockiert.</item>
-     </string-array>
-    
-     <string-array name="atp_function_label">
+    </string-array>
+    <string-array name="atp_function_label">
         <item>Gerät sperren</item>
         <item>Ortung</item>
         <item>Kontakte sichern</item>
@@ -639,9 +501,8 @@
         <item>Alarmton abspielen</item>
         <item>visuelle Warnung</item>
     </string-array>
-
-   <string-array name="atp_function_des">
-       <item>Gerät aus der Ferne sperren</item>
+    <string-array name="atp_function_des">
+        <item>Gerät aus der Ferne sperren</item>
         <item>gestohlenes Gerät orten</item>
         <item>Kontakte vom gestohlenen Gerät sichern</item>
         <item>Kontakte und Daten auf gestohlenem Gerät löschen</item>
@@ -649,12 +510,10 @@
         <item>Alarmton in voller Lautstärke auf gestohlenem Gerät abspielen</item>
         <item>eigene Meldungen auf gestohlenem Gerät anzeigen</item>
     </string-array>
-
     <string-array name="empty_subject_strings">
         <item>kein Betreff</item>
-  </string-array>
-
-  <string-array name="music_type_files">
+    </string-array>
+    <string-array name="music_type_files">
         <item>mp3</item>
         <item>wmv</item>
         <item>wma</item>
@@ -892,30 +751,166 @@
         <item>Samsung Data</item>
         <item>Foto und Video Vorschau</item>
     </string-array>
-    
-     <!-- 5.2.6840 --> 
-    
-    <string-array name="endcalltype_values">
+    <string-array name="select_sim">
+        <item>von SIM1</item>
+        <item>von SIM2</item>
+    </string-array>
+    <string-array name="stopmsgtype_options">
+        <item>intelligenter Block-Modus</item>
+        <item>nur Schwarze Liste blockieren</item>
+        <item>nur von Weißer Liste empfangen</item>
+        <item>alle blockieren</item>
+        <item>alle erhalten</item>
+        <item>nur von Kontakten zulassen</item>
+        <item>manuell konfigurieren</item>
+    </string-array>
+    <string-array name="stopcalltype_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
         <item>4</item>
     </string-array>
-        <string-array name="msglog_operate">
+    <string-array name="msglog_oparete">
         <item>mit SMS antworten</item>
-        <item>diese Nummer anrufen</item>
+        <item>Nummer anrufen</item>
         <item>zur weißen Liste hinzufügen</item>
-        <item>zur schwarzen Liste hinzufügen</item>
+        <item>zur schwarzen Liste hinzugfügen</item>
         <item>Bericht</item>
     </string-array>
-    <string-array name="calllog_operate">
+    <string-array name="calllog_oparete">
         <item>löschen</item>
-        <item>Reply SMS</item>
-        <item>diese Nummer anrufen</item>
-        <item>zur weißen Liste hinzufügen</item>
-        <item>zur schwarzen Liste hinzufügen</item>
-        <item>Nummer im Protokol wiederherstellen</item>
+        <item>mit SMS antworten</item>
+        <item>Nummer anrufen</item>
+        <item>zur weißen Liste hinzugfügen</item>
+        <item>zur schwarzen Liste hinzugfügen</item>
+        <item>zur Anruferliste hinzufügen</item>
     </string-array>
-    
+    <string-array name="user_phone_defined">
+        <item>Weiße Liste</item>
+        <item>Schwarze Liste</item>
+        <item>Kontakte</item>
+        <item>Kürzlich kontaktiert</item>
+    </string-array>
+    <string-array name="traffic_cell_type">
+        <item>nach monatlichem Verbrauch</item>
+        <item>nach heutigem Verbrauch</item>
+        <item>nach App Name</item>
+    </string-array>
+    <string-array name="showpowerquantitylower">
+        <item>10%</item>
+        <item>20%</item>
+        <item>30%</item>
+        <item>40%</item>
+        <item>50%</item>
+    </string-array>
+    <string-array name="hips_batch_operation_ar">
+        <item>alle zulassen</item>
+        <item>alle verweigern</item>
+    </string-array>
+    <string-array name="defaultfilesuffix">
+        <item>epub</item>
+        <item>chm</item>
+        <item>ndk</item>
+        <item>umd</item>
+        <item>pdf</item>
+    </string-array>
+    <string-array name="filesuffix">
+        <item>avi</item>
+        <item>wmv</item>
+        <item>flv</item>
+        <item>mov</item>
+        <item>3gp</item>
+        <item>mp4</item>
+        <item>mpg</item>
+        <item>rmvb</item>
+        <item>mp3</item>
+        <item>wav</item>
+        <item>wma</item>
+        <item>mid</item>
+        <item>flac</item>
+        <item>LRC</item>
+        <item>m4a</item>
+        <item>KRC</item>
+        <item>apk</item>
+        <item>f4v</item>
+        <item>dat</item>
+        <item>tsk</item>
+        <item>db3</item>
+    </string-array>
+    <integer-array name="filesuffix_id">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+        <item>32</item>
+        <item>64</item>
+        <item>128</item>
+        <item>256</item>
+        <item>512</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>4096</item>
+        <item>8192</item>
+        <item>16384</item>
+        <item>32768</item>
+        <item>65536</item>
+        <item>131072</item>
+        <item>262144</item>
+        <item>524288</item>
+        <item>1048576</item>
+    </integer-array>
+    <string-array name="lbe_shortcut_start_mode">
+        <item>Benachrichtigungleiste</item>
+        <item>Homescreen Verknüpfung</item>
+    </string-array>
+    <string-array name="battery_scene_killtask_interval_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="desktop_float_toggles_labels">
+        <item>Flugmodus</item>
+        <item>Bluetooth</item>
+        <item>Helligkeit</item>
+        <item>Touch</item>
+        <item>Synchronisation</item>
+        <item>WiFi</item>
+        <item>GPS</item>
+        <item>Mobile Daten</item>
+        <item>Bildschirm Drehung</item>
+    </string-array>
+    <string-array name="homepage_more_options_labels">
+        <item>Anti Virus</item>
+        <item>Rechteverwaltungsdinst</item>
+        <item>Benachrichtigungen verwalten</item>
+        <item>Privacy Space</item>
+        <item>Telefonnummern blockieren</item>
+        <item>Anti Diebstahl</item>
+        <item>Kommunikations Tools</item>
+        <item>Backup und Wiederherstellung</item>
+    </string-array>
+    <string-array name="home_settings_labels">
+        <item>Einstellungen für Homescreen Symbol</item>
+        <item>Verlinkung für automatischen Taskkiller auf dem Homescreen erstellen</item>
+        <item>Weiße Liste (Ausnahmen) für Taskkiller</item>
+        <item>Passwortschutz</item>
+        <item>Systemeinstellungen</item>
+    </string-array>
+    <string-array name="home_about_labels_6900">
+        <item>Software Einstellungen</item>
+        <item>Nachrichten Center</item>
+        <item>auf Updates prüfen</item>
+        <item>Hilfe</item>
+        <item>Feedback</item>
+        <item>LBE im Playstore</item>
+        <item>mit Freunden teilen</item>
+        <item>LBE Community</item>
+    </string-array>
+    <string-array name="scan_item_type">
+        <item>Telefonie und Tasks</item>
+        <item>Apps</item>
+        <item>LBE und Komponenten</item>
+    </string-array>
 </resources>
